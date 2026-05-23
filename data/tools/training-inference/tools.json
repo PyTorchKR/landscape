@@ -1452,6 +1452,33 @@
         "lastCommit": "2026-05-23T03:38:52Z",
         "fetchedAt": "2026-05-23T20:20:43.675Z"
       }
+    },
+    {
+      "id": "areal-project-areal",
+      "name": "AReaL",
+      "description": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
+      "categoryId": "reinforcement-learning",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/areal-project/AReaL",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "llm",
+        "llm-agent",
+        "llm-reasoning",
+        "machine-learning-systems",
+        "mlsys",
+        "reinforcement-learning",
+        "rl"
+      ],
+      "meta": {
+        "stars": 5209,
+        "forks": 501,
+        "lastUpdated": "2026-05-23T10:10:06Z",
+        "lastCommit": "2026-05-23T12:48:27Z",
+        "fetchedAt": "2026-05-23T20:33:40.829Z"
+      }
     }
   ]
 }

@@ -1162,6 +1162,39 @@
         "lastCommit": "2026-05-21T09:36:12Z",
         "fetchedAt": "2026-05-23T16:39:46.377Z"
       }
+    },
+    {
+      "id": "dlr-rm-stable-baselines3",
+      "name": "stable-baselines3",
+      "description": "PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ",
+      "categoryId": "reinforcement-learning",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/DLR-RM/stable-baselines3",
+      "koreanSupport": false,
+      "tags": [
+        "baselines",
+        "gsde",
+        "gym",
+        "machine-learning",
+        "openai",
+        "python",
+        "pytorch",
+        "reinforcement-learning",
+        "reinforcement-learning-algorithms",
+        "robotics",
+        "sb3",
+        "sde",
+        "stable-baselines",
+        "toolbox"
+      ],
+      "meta": {
+        "stars": 13316,
+        "forks": 2138,
+        "lastUpdated": "2026-05-23T15:20:53Z",
+        "lastCommit": "2026-05-11T15:36:50Z",
+        "fetchedAt": "2026-05-23T17:05:45.668Z"
+      }
     }
   ]
 }

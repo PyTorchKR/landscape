@@ -270,7 +270,8 @@
         "dvc",
         "clearml",
         "aim",
-        "sacred"
+        "sacred",
+        "facebookresearch-hydra"
       ]
     },
     {

@@ -1264,6 +1264,24 @@
         "lastCommit": "2026-05-23T14:38:18Z",
         "fetchedAt": "2026-05-23T17:31:49.311Z"
       }
+    },
+    {
+      "id": "facebookresearch-hydra",
+      "name": "hydra",
+      "description": "Hydra is a framework for elegantly configuring complex applications",
+      "categoryId": "experiment-tracking",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/facebookresearch/hydra",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 10385,
+        "forks": 847,
+        "lastUpdated": "2026-05-23T04:49:36Z",
+        "lastCommit": "2026-05-23T07:51:24Z",
+        "fetchedAt": "2026-05-23T17:44:57.515Z"
+      }
     }
   ]
 }

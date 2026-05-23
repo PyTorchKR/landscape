@@ -1479,6 +1479,33 @@
         "lastCommit": "2026-05-23T12:48:27Z",
         "fetchedAt": "2026-05-23T20:33:40.829Z"
       }
+    },
+    {
+      "id": "pytorch-ignite",
+      "name": "ignite",
+      "description": "High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/pytorch/ignite",
+      "koreanSupport": false,
+      "tags": [
+        "closember",
+        "deep-learning",
+        "hacktoberfest",
+        "machine-learning",
+        "metrics",
+        "neural-network",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 4759,
+        "forks": 694,
+        "lastUpdated": "2026-05-23T05:22:15Z",
+        "lastCommit": "2026-05-19T08:01:39Z",
+        "fetchedAt": "2026-05-23T20:46:38.796Z"
+      }
     }
   ]
 }

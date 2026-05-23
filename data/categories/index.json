@@ -422,7 +422,8 @@
         "facebookresearch-pytorch3d",
         "arogozhnikov-einops",
         "skorch-dev-skorch",
-        "mosaicml-composer"
+        "mosaicml-composer",
+        "pytorch-ignite"
       ]
     },
     {

@@ -773,6 +773,24 @@
         "lastCommit": "2026-05-19T19:56:37Z",
         "fetchedAt": "2026-05-23T14:44:44.753Z"
       }
+    },
+    {
+      "id": "shiyu-coder-kronos",
+      "name": "Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "categoryId": "time-series-model",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/shiyu-coder/Kronos",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 25598,
+        "forks": 4474,
+        "lastUpdated": "2026-05-23T14:52:20Z",
+        "lastCommit": "2026-04-13T12:38:49Z",
+        "fetchedAt": "2026-05-23T14:55:50.645Z"
+      }
     }
   ]
 }

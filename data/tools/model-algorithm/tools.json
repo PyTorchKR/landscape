@@ -884,6 +884,35 @@
         "lastCommit": "2026-05-23T03:44:51Z",
         "fetchedAt": "2026-05-23T19:41:46.293Z"
       }
+    },
+    {
+      "id": "facebookresearch-mmf",
+      "name": "mmf",
+      "description": "A modular framework for vision & language multimodal research from Facebook AI Research (FAIR)",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/facebookresearch/mmf",
+      "koreanSupport": false,
+      "tags": [
+        "captioning",
+        "deep-learning",
+        "dialog",
+        "hateful-memes",
+        "multi-tasking",
+        "multimodal",
+        "pretrained-models",
+        "pytorch",
+        "textvqa",
+        "vqa"
+      ],
+      "meta": {
+        "stars": 5629,
+        "forks": 944,
+        "lastUpdated": "2026-05-22T06:08:00Z",
+        "lastCommit": "2026-05-14T16:30:34Z",
+        "fetchedAt": "2026-05-23T19:54:43.192Z"
+      }
     }
   ]
 }

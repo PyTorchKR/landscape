@@ -402,7 +402,8 @@
         "bentoml",
         "awq",
         "mlx",
-        "lightning-ai-pytorch-lightning"
+        "lightning-ai-pytorch-lightning",
+        "fastai-fastai"
       ]
     },
     {

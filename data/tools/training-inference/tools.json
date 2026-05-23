@@ -1064,6 +1064,33 @@
         "lastCommit": "2026-05-20T22:09:34Z",
         "fetchedAt": "2026-05-23T15:21:44.107Z"
       }
+    },
+    {
+      "id": "fastai-fastai",
+      "name": "fastai",
+      "description": "The fastai deep learning library",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/fastai/fastai",
+      "koreanSupport": false,
+      "tags": [
+        "colab",
+        "deep-learning",
+        "fastai",
+        "gpu",
+        "machine-learning",
+        "notebooks",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 28011,
+        "forks": 7663,
+        "lastUpdated": "2026-05-22T14:01:02Z",
+        "lastCommit": "2026-05-20T23:30:40Z",
+        "fetchedAt": "2026-05-23T15:34:48.722Z"
+      }
     }
   ]
 }

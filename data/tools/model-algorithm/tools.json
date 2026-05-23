@@ -709,6 +709,24 @@
         "lastCommit": "2026-03-02T16:07:10Z",
         "fetchedAt": "2026-04-09T00:00:00.000Z"
       }
+    },
+    {
+      "id": "microsoft-vibevoice",
+      "name": "VibeVoice",
+      "description": "Microsoft가 공개한 오픈소스 음성 AI 모델 패밀리로, TTS(텍스트-투-스피치)와 ASR(자동 음성 인식) 모델을 포함하며 Hugging Face Transformers를 통해 다른 AI 서비스에 음성 처리 컴포넌트로 통합할 수 있습니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/VibeVoice",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 47376,
+        "forks": 5274,
+        "lastUpdated": "2026-05-23T12:39:30Z",
+        "lastCommit": "2026-05-06T06:49:25Z",
+        "fetchedAt": "2026-05-23T13:01:50.169Z"
+      }
     }
   ]
 }

@@ -1041,6 +1041,28 @@
         "lastCommit": "2026-03-11T23:17:25Z",
         "fetchedAt": "2026-03-17T00:00:00.000Z"
       }
+    },
+    {
+      "id": "vercel-labs-dev3000",
+      "name": "dev3000",
+      "description": "웹 앱 개발 과정의 서버 로그, 브라우저 이벤트, 콘솔 메시지, 네트워크 요청, 자동 스크린샷을 타임스탬프 기반의 통합 피드로 캡처하여 AI 디버깅에 활용할 수 있도록 지원하는 개발 도구",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/vercel-labs/dev3000",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "devtools",
+        "web"
+      ],
+      "meta": {
+        "stars": 1492,
+        "forks": 87,
+        "lastUpdated": "2026-05-23T08:52:40Z",
+        "lastCommit": "2026-05-22T23:59:04Z",
+        "fetchedAt": "2026-05-23T13:01:39.201Z"
+      }
     }
   ]
 }

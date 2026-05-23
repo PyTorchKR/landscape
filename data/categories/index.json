@@ -226,7 +226,8 @@
         "bark",
         "qwenlm-qwen3-tts",
         "nvidia-personaplex",
-        "nv-tlabs-kimodo"
+        "nv-tlabs-kimodo",
+        "microsoft-vibevoice"
       ]
     },
     {
@@ -453,7 +454,8 @@
       "tools": [
         "mcp-sdk",
         "n8n",
-        "composio"
+        "composio",
+        "vercel-labs-dev3000"
       ]
     },
     {

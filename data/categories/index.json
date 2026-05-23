@@ -198,7 +198,8 @@
         "zai-org-glm-ocr",
         "sam3",
         "facebookresearch-detectron2",
-        "pytorch-vision"
+        "pytorch-vision",
+        "mindee-doctr"
       ]
     },
     {

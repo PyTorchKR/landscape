@@ -830,6 +830,34 @@
         "lastCommit": "2026-05-22T12:18:39Z",
         "fetchedAt": "2026-05-23T16:13:46.908Z"
       }
+    },
+    {
+      "id": "mindee-doctr",
+      "name": "doctr",
+      "description": "docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related tasks powered by Deep Learning.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mindee/doctr",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "document-recognition",
+        "ocr",
+        "optical-character-recognition",
+        "pytorch",
+        "tensorflow2",
+        "text-detection",
+        "text-detection-recognition",
+        "text-recognition"
+      ],
+      "meta": {
+        "stars": 6093,
+        "forks": 644,
+        "lastUpdated": "2026-05-23T13:20:13Z",
+        "lastCommit": "2026-05-22T11:35:38Z",
+        "fetchedAt": "2026-05-23T19:15:52.731Z"
+      }
     }
   ]
 }

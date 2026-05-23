@@ -201,7 +201,8 @@
         "pytorch-vision",
         "mindee-doctr",
         "open-edge-platform-anomalib",
-        "torchgeo-torchgeo"
+        "torchgeo-torchgeo",
+        "facebookresearch-pytorchvideo"
       ]
     },
     {

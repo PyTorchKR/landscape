@@ -943,6 +943,24 @@
         "lastCommit": "2026-05-23T19:14:33Z",
         "fetchedAt": "2026-05-23T20:59:35.912Z"
       }
+    },
+    {
+      "id": "facebookresearch-pytorchvideo",
+      "name": "pytorchvideo",
+      "description": "A deep learning library for video understanding research.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/facebookresearch/pytorchvideo",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3565,
+        "forks": 433,
+        "lastUpdated": "2026-05-21T08:52:42Z",
+        "lastCommit": "2026-05-05T20:32:18Z",
+        "fetchedAt": "2026-05-23T22:30:34.977Z"
+      }
     }
   ]
 }

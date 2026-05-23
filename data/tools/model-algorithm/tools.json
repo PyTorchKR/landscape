@@ -913,6 +913,36 @@
         "lastCommit": "2026-05-14T16:30:34Z",
         "fetchedAt": "2026-05-23T19:54:43.192Z"
       }
+    },
+    {
+      "id": "torchgeo-torchgeo",
+      "name": "torchgeo",
+      "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/torchgeo/torchgeo",
+      "koreanSupport": false,
+      "tags": [
+        "computer-vision",
+        "datasets",
+        "deep-learning",
+        "earth-observation",
+        "geospatial",
+        "models",
+        "pytorch",
+        "remote-sensing",
+        "satellite-imagery",
+        "torchvision",
+        "transforms"
+      ],
+      "meta": {
+        "stars": 4044,
+        "forks": 551,
+        "lastUpdated": "2026-05-23T19:14:38Z",
+        "lastCommit": "2026-05-23T19:14:33Z",
+        "fetchedAt": "2026-05-23T20:59:35.912Z"
+      }
     }
   ]
 }

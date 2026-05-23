@@ -200,7 +200,8 @@
         "facebookresearch-detectron2",
         "pytorch-vision",
         "mindee-doctr",
-        "open-edge-platform-anomalib"
+        "open-edge-platform-anomalib",
+        "torchgeo-torchgeo"
       ]
     },
     {

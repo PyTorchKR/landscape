@@ -1506,6 +1506,28 @@
         "lastCommit": "2026-05-19T08:01:39Z",
         "fetchedAt": "2026-05-23T20:46:38.796Z"
       }
+    },
+    {
+      "id": "cornellius-gp-gpytorch",
+      "name": "gpytorch",
+      "description": "A highly efficient implementation of Gaussian Processes in PyTorch",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/cornellius-gp/gpytorch",
+      "koreanSupport": false,
+      "tags": [
+        "gaussian-processes",
+        "gpu-acceleration",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 3883,
+        "forks": 594,
+        "lastUpdated": "2026-05-22T17:19:36Z",
+        "lastCommit": "2026-05-01T18:52:59Z",
+        "fetchedAt": "2026-05-23T21:25:39.210Z"
+      }
     }
   ]
 }

@@ -424,7 +424,8 @@
         "arogozhnikov-einops",
         "skorch-dev-skorch",
         "mosaicml-composer",
-        "pytorch-ignite"
+        "pytorch-ignite",
+        "cornellius-gp-gpytorch"
       ]
     },
     {

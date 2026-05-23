@@ -1381,6 +1381,24 @@
         "lastCommit": "2026-05-19T02:01:36Z",
         "fetchedAt": "2026-05-23T19:02:48.459Z"
       }
+    },
+    {
+      "id": "meta-pytorch-torchtune",
+      "name": "torchtune",
+      "description": "PyTorch native post-training library",
+      "categoryId": "fine-tuning",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/meta-pytorch/torchtune",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 5759,
+        "forks": 723,
+        "lastUpdated": "2026-05-23T18:34:07Z",
+        "lastCommit": "2026-05-22T12:19:39Z",
+        "fetchedAt": "2026-05-23T19:28:46.104Z"
+      }
     }
   ]
 }

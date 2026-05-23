@@ -291,7 +291,8 @@
         "openvino",
         "iree",
         "kvcache-ai-ktransformers",
-        "lmcache-lmcache"
+        "lmcache-lmcache",
+        "kvcache-ai-mooncake"
       ]
     },
     {

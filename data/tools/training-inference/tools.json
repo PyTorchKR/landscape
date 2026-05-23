@@ -1426,6 +1426,32 @@
         "lastCommit": "2026-04-29T18:58:33Z",
         "fetchedAt": "2026-05-23T20:07:43.178Z"
       }
+    },
+    {
+      "id": "kvcache-ai-mooncake",
+      "name": "Mooncake",
+      "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/kvcache-ai/Mooncake",
+      "koreanSupport": false,
+      "tags": [
+        "disaggregation",
+        "inference",
+        "kvcache",
+        "llm",
+        "rdma",
+        "sglang",
+        "vllm"
+      ],
+      "meta": {
+        "stars": 5404,
+        "forks": 775,
+        "lastUpdated": "2026-05-23T08:00:09Z",
+        "lastCommit": "2026-05-23T03:38:52Z",
+        "fetchedAt": "2026-05-23T20:20:43.675Z"
+      }
     }
   ]
 }

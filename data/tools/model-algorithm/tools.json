@@ -791,6 +791,24 @@
         "lastCommit": "2026-04-13T12:38:49Z",
         "fetchedAt": "2026-05-23T14:55:50.645Z"
       }
+    },
+    {
+      "id": "facebookresearch-detectron2",
+      "name": "detectron2",
+      "description": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/facebookresearch/detectron2",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 34492,
+        "forks": 7940,
+        "lastUpdated": "2026-05-23T02:52:11Z",
+        "lastCommit": "2026-05-15T03:30:03Z",
+        "fetchedAt": "2026-05-23T15:08:58.729Z"
+      }
     }
   ]
 }

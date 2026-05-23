@@ -344,7 +344,8 @@
         "tpot",
         "hyperopt",
         "nni",
-        "autokeras"
+        "autokeras",
+        "meta-pytorch-botorch"
       ]
     },
     {

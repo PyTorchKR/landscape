@@ -1622,6 +1622,24 @@
         "lastCommit": "2026-05-11T21:00:33Z",
         "fetchedAt": "2026-05-23T22:17:33.567Z"
       }
+    },
+    {
+      "id": "meta-pytorch-botorch",
+      "name": "botorch",
+      "description": "Bayesian optimization in PyTorch",
+      "categoryId": "automl-hpo",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/meta-pytorch/botorch",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3530,
+        "forks": 481,
+        "lastUpdated": "2026-05-23T13:43:12Z",
+        "lastCommit": "2026-05-21T17:43:31Z",
+        "fetchedAt": "2026-05-23T22:43:35.451Z"
+      }
     }
   ]
 }

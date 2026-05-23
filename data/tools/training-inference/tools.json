@@ -1677,6 +1677,33 @@
         "lastCommit": "2026-05-23T06:06:28Z",
         "fetchedAt": "2026-05-23T22:56:38.852Z"
       }
+    },
+    {
+      "id": "pytorch-tensorrt",
+      "name": "TensorRT",
+      "description": "PyTorch/TorchScript/FX compiler for NVIDIA GPUs using TensorRT",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/pytorch/TensorRT",
+      "koreanSupport": false,
+      "tags": [
+        "cuda",
+        "deep-learning",
+        "jetson",
+        "libtorch",
+        "machine-learning",
+        "nvidia",
+        "pytorch",
+        "tensorrt"
+      ],
+      "meta": {
+        "stars": 2967,
+        "forks": 401,
+        "lastUpdated": "2026-05-23T15:23:32Z",
+        "lastCommit": "2026-05-22T22:53:11Z",
+        "fetchedAt": "2026-05-23T23:09:34.118Z"
+      }
     }
   ]
 }

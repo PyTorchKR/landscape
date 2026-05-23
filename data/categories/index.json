@@ -295,7 +295,8 @@
         "iree",
         "kvcache-ai-ktransformers",
         "lmcache-lmcache",
-        "kvcache-ai-mooncake"
+        "kvcache-ai-mooncake",
+        "pytorch-tensorrt"
       ]
     },
     {

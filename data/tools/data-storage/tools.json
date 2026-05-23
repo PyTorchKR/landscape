@@ -747,6 +747,30 @@
         "lastCommit": "2025-01-01T00:00:00Z",
         "fetchedAt": "2026-03-01T00:00:00Z"
       }
+    },
+    {
+      "id": "humansignal-adala",
+      "name": "Adala",
+      "description": "Adala: Autonomous DAta (Labeling) Agent framework",
+      "categoryId": "data-labeling",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/HumanSignal/Adala",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agent-based-framework",
+        "agent-oriented-programming",
+        "autonomous-agents",
+        "gpt-4"
+      ],
+      "meta": {
+        "stars": 1579,
+        "forks": 151,
+        "lastUpdated": "2026-05-23T09:54:51Z",
+        "lastCommit": "2026-05-19T22:00:08Z",
+        "fetchedAt": "2026-05-23T14:43:19.345Z"
+      }
     }
   ]
 }

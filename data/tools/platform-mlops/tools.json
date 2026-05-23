@@ -1174,6 +1174,38 @@
         "lastCommit": "2026-05-22T05:05:12Z",
         "fetchedAt": "2026-05-23T14:42:58.670Z"
       }
+    },
+    {
+      "id": "onnx-onnx",
+      "name": "onnx",
+      "description": "Open standard for machine learning interoperability",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/onnx/onnx",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "deep-learning",
+        "deep-neural-networks",
+        "dnn",
+        "keras",
+        "machine-learning",
+        "ml",
+        "neural-network",
+        "onnx",
+        "pytorch",
+        "scikit-learn",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 20868,
+        "forks": 3931,
+        "lastUpdated": "2026-05-23T12:55:26Z",
+        "lastCommit": "2026-05-23T12:55:15Z",
+        "fetchedAt": "2026-05-23T16:00:38.656Z"
+      }
     }
   ]
 }

@@ -1230,6 +1230,33 @@
         "lastCommit": "2026-02-07T22:20:29Z",
         "fetchedAt": "2026-05-23T16:53:00.054Z"
       }
+    },
+    {
+      "id": "open-compass-opencompass",
+      "name": "opencompass",
+      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/open-compass/opencompass",
+      "koreanSupport": false,
+      "tags": [
+        "benchmark",
+        "chatgpt",
+        "evaluation",
+        "large-language-model",
+        "llama2",
+        "llama3",
+        "llm",
+        "openai"
+      ],
+      "meta": {
+        "stars": 7020,
+        "forks": 779,
+        "lastUpdated": "2026-05-23T05:45:36Z",
+        "lastCommit": "2026-05-22T11:04:46Z",
+        "fetchedAt": "2026-05-23T18:49:43.721Z"
+      }
     }
   ]
 }

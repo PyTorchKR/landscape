@@ -1206,6 +1206,30 @@
         "lastCommit": "2026-05-23T12:55:15Z",
         "fetchedAt": "2026-05-23T16:00:38.656Z"
       }
+    },
+    {
+      "id": "unifyai-ivy",
+      "name": "ivy",
+      "description": "Convert Machine Learning Code Between Frameworks",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/unifyai/ivy",
+      "koreanSupport": false,
+      "tags": [
+        "jax",
+        "numpy",
+        "python",
+        "pytorch",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 14191,
+        "forks": 5506,
+        "lastUpdated": "2026-05-23T11:59:04Z",
+        "lastCommit": "2026-02-07T22:20:29Z",
+        "fetchedAt": "2026-05-23T16:53:00.054Z"
+      }
     }
   ]
 }

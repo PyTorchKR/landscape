@@ -1640,6 +1640,43 @@
         "lastCommit": "2026-05-21T17:43:31Z",
         "fetchedAt": "2026-05-23T22:43:35.451Z"
       }
+    },
+    {
+      "id": "pennylaneai-pennylane",
+      "name": "pennylane",
+      "description": "PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from inspiration to implementation.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/PennyLaneAI/pennylane",
+      "koreanSupport": false,
+      "tags": [
+        "autograd",
+        "automatic-differentiation",
+        "cirq",
+        "deep-learning",
+        "differentiable-computing",
+        "jax",
+        "machine-learning",
+        "neural-network",
+        "optimization",
+        "python",
+        "pytorch",
+        "qiskit",
+        "qml",
+        "quantum",
+        "quantum-chemistry",
+        "quantum-computing",
+        "quantum-machine-learning",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 3222,
+        "forks": 785,
+        "lastUpdated": "2026-05-23T06:06:32Z",
+        "lastCommit": "2026-05-23T06:06:28Z",
+        "fetchedAt": "2026-05-23T22:56:38.852Z"
+      }
     }
   ]
 }

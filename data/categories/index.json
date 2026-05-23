@@ -430,7 +430,8 @@
         "pytorch-ignite",
         "cornellius-gp-gpytorch",
         "lightly-ai-lightly",
-        "neuraloperator-neuraloperator"
+        "neuraloperator-neuraloperator",
+        "pennylaneai-pennylane"
       ]
     },
     {

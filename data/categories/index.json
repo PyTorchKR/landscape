@@ -427,7 +427,8 @@
         "mosaicml-composer",
         "pytorch-ignite",
         "cornellius-gp-gpytorch",
-        "lightly-ai-lightly"
+        "lightly-ai-lightly",
+        "neuraloperator-neuraloperator"
       ]
     },
     {

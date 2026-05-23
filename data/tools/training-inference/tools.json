@@ -1595,6 +1595,33 @@
         "lastCommit": "2026-04-26T12:23:28Z",
         "fetchedAt": "2026-05-23T22:04:42.273Z"
       }
+    },
+    {
+      "id": "neuraloperator-neuraloperator",
+      "name": "neuraloperator",
+      "description": "Learning in infinite dimension with neural operators.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/neuraloperator/neuraloperator",
+      "koreanSupport": false,
+      "tags": [
+        "fno",
+        "fourier-neural-operator",
+        "neural-operator",
+        "neural-operators",
+        "partial-differential-equations",
+        "pytorch",
+        "tensor-methods",
+        "tensorly"
+      ],
+      "meta": {
+        "stars": 3647,
+        "forks": 884,
+        "lastUpdated": "2026-05-23T09:37:26Z",
+        "lastCommit": "2026-05-11T21:00:33Z",
+        "fetchedAt": "2026-05-23T22:17:33.567Z"
+      }
     }
   ]
 }

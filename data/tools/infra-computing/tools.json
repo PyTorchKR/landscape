@@ -1,497 +1,536 @@
 {
-    "tools": [
-        {
-            "id": "kubernetes",
-            "name": "Kubernetes",
-            "description": "프로덕션급 컨테이너 스케줄링 및 관리 플랫폼. AI 워크로드 오케스트레이션",
-            "categoryId": "container-orchestration",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/kubernetes/kubernetes",
-            "docsUrl": "https://kubernetes.io/docs/",
-            "websiteUrl": "https://kubernetes.io",
-            "koreanSupport": true,
-            "tags": [
-                "container",
-                "orchestration",
-                "cloud-native",
-                "cncf"
-            ],
-            "meta": {
-                "stars": 119398,
-                "lastUpdated": "2025-12-22T04:14:50Z",
-                "fetchedAt": "2025-12-22T04:19:09.843Z",
-                "forks": 42054,
-                "lastCommit": "2025-12-21T15:04:32Z"
-            }
-        },
-        {
-            "id": "docker",
-            "name": "Docker",
-            "description": "컨테이너화 플랫폼. AI 애플리케이션 패키징 및 배포",
-            "categoryId": "container-orchestration",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/docker/docker-ce",
-            "docsUrl": "https://docs.docker.com/",
-            "websiteUrl": "https://www.docker.com",
-            "koreanSupport": true,
-            "tags": [
-                "container",
-                "virtualization",
-                "deployment"
-            ],
-            "meta": {
-                "stars": 5772,
-                "lastUpdated": "2025-12-21T20:52:48Z",
-                "fetchedAt": "2025-12-22T04:19:10.650Z",
-                "forks": 1523,
-                "lastCommit": "2022-11-06T11:06:59Z"
-            }
-        },
-        {
-            "id": "openstack",
-            "name": "OpenStack",
-            "description": "오픈소스 클라우드 컴퓨팅 플랫폼. IaaS 환경 구축",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/openstack/openstack",
-            "docsUrl": "https://docs.openstack.org/",
-            "websiteUrl": "https://www.openstack.org/",
-            "koreanSupport": false,
-            "tags": [
-                "cloud",
-                "iaas",
-                "infrastructure"
-            ],
-            "meta": {
-                "stars": 5781,
-                "lastUpdated": "2025-12-20T11:07:31Z",
-                "fetchedAt": "2025-12-22T04:19:11.143Z",
-                "forks": 1632,
-                "lastCommit": "2025-12-20T11:07:28Z"
-            }
-        },
-        {
-            "id": "ray",
-            "name": "Ray",
-            "description": "분산 컴퓨팅을 위한 통합 프레임워크. 스케일링, 학습, 서빙 지원",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/ray-project/ray",
-            "docsUrl": "https://docs.ray.io",
-            "websiteUrl": "https://ray.io",
-            "koreanSupport": false,
-            "tags": [
-                "distributed",
-                "scaling",
-                "ml",
-                "python"
-            ],
-            "meta": {
-                "stars": 40425,
-                "lastUpdated": "2025-12-22T03:23:08Z",
-                "fetchedAt": "2025-12-22T04:19:11.635Z",
-                "forks": 7022,
-                "lastCommit": "2025-12-22T04:02:21Z"
-            }
-        },
-        {
-            "id": "dask",
-            "name": "Dask",
-            "description": "Python 병렬 및 분산 컴퓨팅 라이브러리. NumPy, Pandas와 호환",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "BSD-3-Clause",
-            "githubUrl": "https://github.com/dask/dask",
-            "docsUrl": "https://docs.dask.org/",
-            "websiteUrl": "https://dask.org",
-            "koreanSupport": false,
-            "tags": [
-                "distributed",
-                "parallel",
-                "python",
-                "data"
-            ],
-            "meta": {
-                "stars": 13659,
-                "lastUpdated": "2025-12-20T23:48:44Z",
-                "fetchedAt": "2025-12-22T04:19:12.119Z",
-                "forks": 1826,
-                "lastCommit": "2025-12-17T09:40:08Z"
-            }
-        },
-        {
-            "id": "spark",
-            "name": "Apache Spark",
-            "description": "대규모 데이터 처리를 위한 통합 분석 엔진. MLlib 포함",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/apache/spark",
-            "docsUrl": "https://spark.apache.org/docs/latest/",
-            "websiteUrl": "https://spark.apache.org",
-            "koreanSupport": true,
-            "tags": [
-                "big-data",
-                "analytics",
-                "distributed",
-                "ml"
-            ],
-            "meta": {
-                "stars": 42522,
-                "lastUpdated": "2025-12-22T03:06:03Z",
-                "fetchedAt": "2025-12-22T04:19:12.636Z",
-                "forks": 28976,
-                "lastCommit": "2025-12-22T03:08:22Z"
-            }
-        },
-        {
-            "id": "horovod",
-            "name": "Horovod",
-            "description": "Uber의 분산 딥러닝 학습 프레임워크. TensorFlow, PyTorch 지원",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/horovod/horovod",
-            "docsUrl": "https://horovod.readthedocs.io/",
-            "websiteUrl": "https://horovod.ai/",
-            "koreanSupport": false,
-            "tags": [
-                "distributed-training",
-                "deep-learning",
-                "mpi"
-            ],
-            "meta": {
-                "stars": 14644,
-                "lastUpdated": "2025-12-21T06:28:03Z",
-                "fetchedAt": "2025-12-22T04:19:13.093Z",
-                "forks": 2256,
-                "lastCommit": "2025-12-01T23:39:32Z"
-            }
-        },
-        {
-            "id": "onnx-runtime",
-            "name": "ONNX Runtime",
-            "description": "크로스 플랫폼 ML 모델 추론 가속기. 다양한 하드웨어 최적화",
-            "categoryId": "ai-accelerator",
-            "moduleId": "infra-computing",
-            "license": "MIT",
-            "githubUrl": "https://github.com/microsoft/onnxruntime",
-            "docsUrl": "https://onnxruntime.ai/docs/",
-            "websiteUrl": "https://onnxruntime.ai",
-            "koreanSupport": false,
-            "tags": [
-                "edge",
-                "inference",
-                "optimization",
-                "onnx"
-            ],
-            "meta": {
-                "stars": 18722,
-                "lastUpdated": "2025-12-21T20:53:01Z",
-                "fetchedAt": "2025-12-22T04:19:13.612Z",
-                "forks": 3610,
-                "lastCommit": "2025-12-22T01:03:15Z"
-            }
-        },
-        {
-            "id": "openvino",
-            "name": "OpenVINO",
-            "description": "Intel의 AI 추론 최적화 툴킷. 엣지 디바이스 배포 지원",
-            "categoryId": "ai-accelerator",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/openvinotoolkit/openvino",
-            "docsUrl": "https://docs.openvino.ai/",
-            "websiteUrl": "https://www.intel.com/openvino",
-            "koreanSupport": false,
-            "tags": [
-                "edge",
-                "intel",
-                "inference",
-                "optimization"
-            ],
-            "meta": {
-                "stars": 9383,
-                "lastUpdated": "2025-12-22T01:41:51Z",
-                "fetchedAt": "2025-12-22T04:19:14.109Z",
-                "forks": 2896,
-                "lastCommit": "2025-12-22T02:45:48Z"
-            }
-        },
-        {
-            "id": "mlc-llm",
-            "name": "MLC LLM",
-            "description": "ML 컴파일을 통한 유니버설 LLM 배포 엔진. 모바일, 엣지 지원",
-            "categoryId": "ai-accelerator",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/mlc-ai/mlc-llm",
-            "docsUrl": "https://llm.mlc.ai/",
-            "websiteUrl": "https://llm.mlc.ai/",
-            "koreanSupport": false,
-            "tags": [
-                "edge",
-                "mobile",
-                "llm",
-                "tvm"
-            ],
-            "meta": {
-                "stars": 21771,
-                "lastUpdated": "2025-12-22T01:52:47Z",
-                "fetchedAt": "2025-12-22T04:19:14.616Z",
-                "forks": 1892,
-                "lastCommit": "2025-12-11T09:01:15Z"
-            }
-        },
-        {
-            "id": "tflite",
-            "name": "TensorFlow Lite",
-            "description": "모바일 및 IoT 디바이스용 TensorFlow 경량 버전",
-            "categoryId": "ai-accelerator",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite",
-            "docsUrl": "https://www.tensorflow.org/lite",
-            "websiteUrl": "https://www.tensorflow.org/lite",
-            "koreanSupport": true,
-            "tags": [
-                "mobile",
-                "iot",
-                "edge",
-                "tensorflow"
-            ],
-            "meta": {
-                "stars": 192898,
-                "lastUpdated": "2025-12-22T02:52:36Z",
-                "fetchedAt": "2025-12-22T04:19:15.120Z",
-                "forks": 75183,
-                "lastCommit": "2025-12-22T04:19:08Z"
-            }
-        },
-        {
-            "id": "helm",
-            "name": "Helm",
-            "description": "The Kubernetes Package Manager — manage and deploy applications on Kubernetes clusters",
-            "categoryId": "container-orchestration",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/helm/helm",
-            "koreanSupport": false,
-            "tags": [
-                "kubernetes",
-                "package-manager",
-                "devops",
-                "cloud-native"
-            ],
-            "meta": {
-                "stars": 27000,
-                "forks": 7100,
-                "lastUpdated": "2025-12-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "containerd",
-            "name": "containerd",
-            "description": "An industry-standard container runtime with an emphasis on simplicity, robustness and portability",
-            "categoryId": "container-orchestration",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/containerd/containerd",
-            "koreanSupport": false,
-            "tags": [
-                "container",
-                "runtime",
-                "kubernetes",
-                "cncf"
-            ],
-            "meta": {
-                "stars": 17000,
-                "forks": 3400,
-                "lastUpdated": "2025-12-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "carbontracker",
-            "name": "Carbontracker",
-            "description": "Track and predict energy consumption and carbon footprint of training deep learning models",
-            "categoryId": "sustainable-ai",
-            "moduleId": "infra-computing",
-            "license": "MIT",
-            "githubUrl": "https://github.com/lfwa/carbontracker",
-            "koreanSupport": false,
-            "tags": [
-                "carbon",
-                "energy",
-                "sustainability",
-                "deep-learning"
-            ],
-            "meta": {
-                "stars": 1100,
-                "forks": 120,
-                "lastUpdated": "2025-08-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "volcano",
-            "name": "Volcano",
-            "description": "Cloud native batch system for AI/ML workloads on Kubernetes — CNCF project",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/volcano-sh/volcano",
-            "koreanSupport": false,
-            "tags": [
-                "kubernetes",
-                "batch",
-                "mlops",
-                "scheduling",
-                "gpu"
-            ],
-            "meta": {
-                "stars": 4200,
-                "forks": 900,
-                "lastUpdated": "2025-12-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "terraform",
-            "name": "Terraform",
-            "description": "Infrastructure as Code tool for provisioning cloud resources — essential for scalable AI infrastructure",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "BSL-1.1",
-            "githubUrl": "https://github.com/hashicorp/terraform",
-            "koreanSupport": false,
-            "tags": [
-                "infrastructure-as-code",
-                "cloud",
-                "devops",
-                "provisioning"
-            ],
-            "meta": {
-                "stars": 43000,
-                "forks": 9500,
-                "lastUpdated": "2025-12-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "codecarbon",
-            "name": "CodeCarbon",
-            "description": "Estimate and track carbon emissions from machine learning training — integrates with PyTorch, TensorFlow, sklearn",
-            "categoryId": "sustainable-ai",
-            "moduleId": "infra-computing",
-            "license": "MIT",
-            "githubUrl": "https://github.com/mlco2/codecarbon",
-            "koreanSupport": false,
-            "tags": [
-                "carbon",
-                "emissions",
-                "sustainability",
-                "green-ai",
-                "energy"
-            ],
-            "meta": {
-                "stars": 4500,
-                "forks": 380,
-                "lastUpdated": "2025-12-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "zeus",
-            "name": "Zeus",
-            "description": "Framework for measuring and optimizing GPU energy consumption of DNN training and inference — from ML Energy lab",
-            "categoryId": "sustainable-ai",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/ml-energy/zeus",
-            "koreanSupport": false,
-            "tags": [
-                "energy-optimization",
-                "gpu",
-                "sustainability",
-                "dnn-training",
-                "carbon"
-            ],
-            "meta": {
-                "stars": 2000,
-                "forks": 130,
-                "lastUpdated": "2025-12-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00.000Z"
-            }
-        },
-        {
-            "id": "rocm",
-            "name": "ROCm",
-            "description": "AMD's open-source platform for GPU-accelerated computing, enabling ML and HPC workloads on AMD hardware",
-            "categoryId": "ai-accelerator",
-            "moduleId": "infra-computing",
-            "license": "MIT",
-            "githubUrl": "https://github.com/ROCm/ROCm",
-            "koreanSupport": false,
-            "tags": ["gpu", "amd", "accelerator", "hpc"],
-            "meta": {
-                "stars": 3500,
-                "forks": 450,
-                "lastUpdated": "2025-01-01T00:00:00Z",
-                "lastCommit": "2025-01-01T00:00:00Z",
-                "fetchedAt": "2026-03-01T00:00:00Z"
-            }
-        },
-        {
-            "id": "backend-ai",
-            "name": "Backend.AI",
-            "description": "컨테이너 기반 AI/ML 컴퓨팅 클러스터 플랫폼. CUDA GPU, ROCm GPU, Gaudi NPU, TPU 등 이기종 가속기를 지원하는 분산 컴퓨팅 환경 제공",
-            "categoryId": "distributed-cloud",
-            "moduleId": "infra-computing",
-            "license": "LGPL-3.0",
-            "githubUrl": "https://github.com/lablup/backend.ai",
-            "docsUrl": "https://docs.backend.ai",
-            "websiteUrl": "https://www.backend.ai",
-            "koreanSupport": true,
-            "tags": ["distributed-computing", "gpu", "containers", "hpc", "mlops"],
-            "meta": {
-                "stars": 621,
-                "lastUpdated": "2026-03-01T01:58:21Z",
-                "fetchedAt": "2026-03-01T03:33:47.000Z",
-                "forks": 167,
-                "lastCommit": "2026-03-01T03:03:43Z"
-            }
-        },
-        {
-            "id": "alibaba-opensandbox",
-            "name": "OpenSandbox",
-            "description": "AI 애플리케이션을 위한 범용 샌드박스 플랫폼. 다국어 SDK, 통합 샌드박스 API, Docker/Kubernetes 런타임을 제공하여 코딩 에이전트, GUI 에이전트, 평가, 코드 실행 등에 활용",
-            "categoryId": "container-orchestration",
-            "moduleId": "infra-computing",
-            "license": "Apache-2.0",
-            "githubUrl": "https://github.com/alibaba/OpenSandbox",
-            "docsUrl": "https://open-sandbox.ai/",
-            "websiteUrl": "https://open-sandbox.ai",
-            "koreanSupport": false,
-            "tags": [
-                "sandbox",
-                "ai-agent",
-                "kubernetes",
-                "docker",
-                "code-execution"
-            ],
-            "meta": {
-                "stars": 7939,
-                "lastUpdated": "2026-03-16T15:32:00Z",
-                "fetchedAt": "2026-03-17T00:00:00.000Z",
-                "forks": 593,
-                "lastCommit": "2026-03-16T06:25:05Z"
-            }
-        }
-    ]
+  "tools": [
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "description": "프로덕션급 컨테이너 스케줄링 및 관리 플랫폼. AI 워크로드 오케스트레이션",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/kubernetes/kubernetes",
+      "docsUrl": "https://kubernetes.io/docs/",
+      "websiteUrl": "https://kubernetes.io",
+      "koreanSupport": true,
+      "tags": [
+        "container",
+        "orchestration",
+        "cloud-native",
+        "cncf"
+      ],
+      "meta": {
+        "stars": 119398,
+        "lastUpdated": "2025-12-22T04:14:50Z",
+        "fetchedAt": "2025-12-22T04:19:09.843Z",
+        "forks": 42054,
+        "lastCommit": "2025-12-21T15:04:32Z"
+      }
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "컨테이너화 플랫폼. AI 애플리케이션 패키징 및 배포",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/docker/docker-ce",
+      "docsUrl": "https://docs.docker.com/",
+      "websiteUrl": "https://www.docker.com",
+      "koreanSupport": true,
+      "tags": [
+        "container",
+        "virtualization",
+        "deployment"
+      ],
+      "meta": {
+        "stars": 5772,
+        "lastUpdated": "2025-12-21T20:52:48Z",
+        "fetchedAt": "2025-12-22T04:19:10.650Z",
+        "forks": 1523,
+        "lastCommit": "2022-11-06T11:06:59Z"
+      }
+    },
+    {
+      "id": "openstack",
+      "name": "OpenStack",
+      "description": "오픈소스 클라우드 컴퓨팅 플랫폼. IaaS 환경 구축",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/openstack/openstack",
+      "docsUrl": "https://docs.openstack.org/",
+      "websiteUrl": "https://www.openstack.org/",
+      "koreanSupport": false,
+      "tags": [
+        "cloud",
+        "iaas",
+        "infrastructure"
+      ],
+      "meta": {
+        "stars": 5781,
+        "lastUpdated": "2025-12-20T11:07:31Z",
+        "fetchedAt": "2025-12-22T04:19:11.143Z",
+        "forks": 1632,
+        "lastCommit": "2025-12-20T11:07:28Z"
+      }
+    },
+    {
+      "id": "ray",
+      "name": "Ray",
+      "description": "분산 컴퓨팅을 위한 통합 프레임워크. 스케일링, 학습, 서빙 지원",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ray-project/ray",
+      "docsUrl": "https://docs.ray.io",
+      "websiteUrl": "https://ray.io",
+      "koreanSupport": false,
+      "tags": [
+        "distributed",
+        "scaling",
+        "ml",
+        "python"
+      ],
+      "meta": {
+        "stars": 40425,
+        "lastUpdated": "2025-12-22T03:23:08Z",
+        "fetchedAt": "2025-12-22T04:19:11.635Z",
+        "forks": 7022,
+        "lastCommit": "2025-12-22T04:02:21Z"
+      }
+    },
+    {
+      "id": "dask",
+      "name": "Dask",
+      "description": "Python 병렬 및 분산 컴퓨팅 라이브러리. NumPy, Pandas와 호환",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/dask/dask",
+      "docsUrl": "https://docs.dask.org/",
+      "websiteUrl": "https://dask.org",
+      "koreanSupport": false,
+      "tags": [
+        "distributed",
+        "parallel",
+        "python",
+        "data"
+      ],
+      "meta": {
+        "stars": 13659,
+        "lastUpdated": "2025-12-20T23:48:44Z",
+        "fetchedAt": "2025-12-22T04:19:12.119Z",
+        "forks": 1826,
+        "lastCommit": "2025-12-17T09:40:08Z"
+      }
+    },
+    {
+      "id": "spark",
+      "name": "Apache Spark",
+      "description": "대규모 데이터 처리를 위한 통합 분석 엔진. MLlib 포함",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/apache/spark",
+      "docsUrl": "https://spark.apache.org/docs/latest/",
+      "websiteUrl": "https://spark.apache.org",
+      "koreanSupport": true,
+      "tags": [
+        "big-data",
+        "analytics",
+        "distributed",
+        "ml"
+      ],
+      "meta": {
+        "stars": 42522,
+        "lastUpdated": "2025-12-22T03:06:03Z",
+        "fetchedAt": "2025-12-22T04:19:12.636Z",
+        "forks": 28976,
+        "lastCommit": "2025-12-22T03:08:22Z"
+      }
+    },
+    {
+      "id": "horovod",
+      "name": "Horovod",
+      "description": "Uber의 분산 딥러닝 학습 프레임워크. TensorFlow, PyTorch 지원",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/horovod/horovod",
+      "docsUrl": "https://horovod.readthedocs.io/",
+      "websiteUrl": "https://horovod.ai/",
+      "koreanSupport": false,
+      "tags": [
+        "distributed-training",
+        "deep-learning",
+        "mpi"
+      ],
+      "meta": {
+        "stars": 14644,
+        "lastUpdated": "2025-12-21T06:28:03Z",
+        "fetchedAt": "2025-12-22T04:19:13.093Z",
+        "forks": 2256,
+        "lastCommit": "2025-12-01T23:39:32Z"
+      }
+    },
+    {
+      "id": "onnx-runtime",
+      "name": "ONNX Runtime",
+      "description": "크로스 플랫폼 ML 모델 추론 가속기. 다양한 하드웨어 최적화",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/onnxruntime",
+      "docsUrl": "https://onnxruntime.ai/docs/",
+      "websiteUrl": "https://onnxruntime.ai",
+      "koreanSupport": false,
+      "tags": [
+        "edge",
+        "inference",
+        "optimization",
+        "onnx"
+      ],
+      "meta": {
+        "stars": 18722,
+        "lastUpdated": "2025-12-21T20:53:01Z",
+        "fetchedAt": "2025-12-22T04:19:13.612Z",
+        "forks": 3610,
+        "lastCommit": "2025-12-22T01:03:15Z"
+      }
+    },
+    {
+      "id": "openvino",
+      "name": "OpenVINO",
+      "description": "Intel의 AI 추론 최적화 툴킷. 엣지 디바이스 배포 지원",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/openvinotoolkit/openvino",
+      "docsUrl": "https://docs.openvino.ai/",
+      "websiteUrl": "https://www.intel.com/openvino",
+      "koreanSupport": false,
+      "tags": [
+        "edge",
+        "intel",
+        "inference",
+        "optimization"
+      ],
+      "meta": {
+        "stars": 9383,
+        "lastUpdated": "2025-12-22T01:41:51Z",
+        "fetchedAt": "2025-12-22T04:19:14.109Z",
+        "forks": 2896,
+        "lastCommit": "2025-12-22T02:45:48Z"
+      }
+    },
+    {
+      "id": "mlc-llm",
+      "name": "MLC LLM",
+      "description": "ML 컴파일을 통한 유니버설 LLM 배포 엔진. 모바일, 엣지 지원",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mlc-ai/mlc-llm",
+      "docsUrl": "https://llm.mlc.ai/",
+      "websiteUrl": "https://llm.mlc.ai/",
+      "koreanSupport": false,
+      "tags": [
+        "edge",
+        "mobile",
+        "llm",
+        "tvm"
+      ],
+      "meta": {
+        "stars": 21771,
+        "lastUpdated": "2025-12-22T01:52:47Z",
+        "fetchedAt": "2025-12-22T04:19:14.616Z",
+        "forks": 1892,
+        "lastCommit": "2025-12-11T09:01:15Z"
+      }
+    },
+    {
+      "id": "tflite",
+      "name": "TensorFlow Lite",
+      "description": "모바일 및 IoT 디바이스용 TensorFlow 경량 버전",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite",
+      "docsUrl": "https://www.tensorflow.org/lite",
+      "websiteUrl": "https://www.tensorflow.org/lite",
+      "koreanSupport": true,
+      "tags": [
+        "mobile",
+        "iot",
+        "edge",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 192898,
+        "lastUpdated": "2025-12-22T02:52:36Z",
+        "fetchedAt": "2025-12-22T04:19:15.120Z",
+        "forks": 75183,
+        "lastCommit": "2025-12-22T04:19:08Z"
+      }
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "description": "The Kubernetes Package Manager — manage and deploy applications on Kubernetes clusters",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/helm/helm",
+      "koreanSupport": false,
+      "tags": [
+        "kubernetes",
+        "package-manager",
+        "devops",
+        "cloud-native"
+      ],
+      "meta": {
+        "stars": 27000,
+        "forks": 7100,
+        "lastUpdated": "2025-12-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "containerd",
+      "name": "containerd",
+      "description": "An industry-standard container runtime with an emphasis on simplicity, robustness and portability",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/containerd/containerd",
+      "koreanSupport": false,
+      "tags": [
+        "container",
+        "runtime",
+        "kubernetes",
+        "cncf"
+      ],
+      "meta": {
+        "stars": 17000,
+        "forks": 3400,
+        "lastUpdated": "2025-12-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "carbontracker",
+      "name": "Carbontracker",
+      "description": "Track and predict energy consumption and carbon footprint of training deep learning models",
+      "categoryId": "sustainable-ai",
+      "moduleId": "infra-computing",
+      "license": "MIT",
+      "githubUrl": "https://github.com/lfwa/carbontracker",
+      "koreanSupport": false,
+      "tags": [
+        "carbon",
+        "energy",
+        "sustainability",
+        "deep-learning"
+      ],
+      "meta": {
+        "stars": 1100,
+        "forks": 120,
+        "lastUpdated": "2025-08-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "volcano",
+      "name": "Volcano",
+      "description": "Cloud native batch system for AI/ML workloads on Kubernetes — CNCF project",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/volcano-sh/volcano",
+      "koreanSupport": false,
+      "tags": [
+        "kubernetes",
+        "batch",
+        "mlops",
+        "scheduling",
+        "gpu"
+      ],
+      "meta": {
+        "stars": 4200,
+        "forks": 900,
+        "lastUpdated": "2025-12-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "description": "Infrastructure as Code tool for provisioning cloud resources — essential for scalable AI infrastructure",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "BSL-1.1",
+      "githubUrl": "https://github.com/hashicorp/terraform",
+      "koreanSupport": false,
+      "tags": [
+        "infrastructure-as-code",
+        "cloud",
+        "devops",
+        "provisioning"
+      ],
+      "meta": {
+        "stars": 43000,
+        "forks": 9500,
+        "lastUpdated": "2025-12-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "codecarbon",
+      "name": "CodeCarbon",
+      "description": "Estimate and track carbon emissions from machine learning training — integrates with PyTorch, TensorFlow, sklearn",
+      "categoryId": "sustainable-ai",
+      "moduleId": "infra-computing",
+      "license": "MIT",
+      "githubUrl": "https://github.com/mlco2/codecarbon",
+      "koreanSupport": false,
+      "tags": [
+        "carbon",
+        "emissions",
+        "sustainability",
+        "green-ai",
+        "energy"
+      ],
+      "meta": {
+        "stars": 4500,
+        "forks": 380,
+        "lastUpdated": "2025-12-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "description": "Framework for measuring and optimizing GPU energy consumption of DNN training and inference — from ML Energy lab",
+      "categoryId": "sustainable-ai",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ml-energy/zeus",
+      "koreanSupport": false,
+      "tags": [
+        "energy-optimization",
+        "gpu",
+        "sustainability",
+        "dnn-training",
+        "carbon"
+      ],
+      "meta": {
+        "stars": 2000,
+        "forks": 130,
+        "lastUpdated": "2025-12-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "rocm",
+      "name": "ROCm",
+      "description": "AMD's open-source platform for GPU-accelerated computing, enabling ML and HPC workloads on AMD hardware",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "MIT",
+      "githubUrl": "https://github.com/ROCm/ROCm",
+      "koreanSupport": false,
+      "tags": [
+        "gpu",
+        "amd",
+        "accelerator",
+        "hpc"
+      ],
+      "meta": {
+        "stars": 3500,
+        "forks": 450,
+        "lastUpdated": "2025-01-01T00:00:00Z",
+        "lastCommit": "2025-01-01T00:00:00Z",
+        "fetchedAt": "2026-03-01T00:00:00Z"
+      }
+    },
+    {
+      "id": "backend-ai",
+      "name": "Backend.AI",
+      "description": "컨테이너 기반 AI/ML 컴퓨팅 클러스터 플랫폼. CUDA GPU, ROCm GPU, Gaudi NPU, TPU 등 이기종 가속기를 지원하는 분산 컴퓨팅 환경 제공",
+      "categoryId": "distributed-cloud",
+      "moduleId": "infra-computing",
+      "license": "LGPL-3.0",
+      "githubUrl": "https://github.com/lablup/backend.ai",
+      "docsUrl": "https://docs.backend.ai",
+      "websiteUrl": "https://www.backend.ai",
+      "koreanSupport": true,
+      "tags": [
+        "distributed-computing",
+        "gpu",
+        "containers",
+        "hpc",
+        "mlops"
+      ],
+      "meta": {
+        "stars": 621,
+        "lastUpdated": "2026-03-01T01:58:21Z",
+        "fetchedAt": "2026-03-01T03:33:47.000Z",
+        "forks": 167,
+        "lastCommit": "2026-03-01T03:03:43Z"
+      }
+    },
+    {
+      "id": "alibaba-opensandbox",
+      "name": "OpenSandbox",
+      "description": "AI 애플리케이션을 위한 범용 샌드박스 플랫폼. 다국어 SDK, 통합 샌드박스 API, Docker/Kubernetes 런타임을 제공하여 코딩 에이전트, GUI 에이전트, 평가, 코드 실행 등에 활용",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/alibaba/OpenSandbox",
+      "docsUrl": "https://open-sandbox.ai/",
+      "websiteUrl": "https://open-sandbox.ai",
+      "koreanSupport": false,
+      "tags": [
+        "sandbox",
+        "ai-agent",
+        "kubernetes",
+        "docker",
+        "code-execution"
+      ],
+      "meta": {
+        "stars": 7939,
+        "lastUpdated": "2026-03-16T15:32:00Z",
+        "fetchedAt": "2026-03-17T00:00:00.000Z",
+        "forks": 593,
+        "lastCommit": "2026-03-16T06:25:05Z"
+      }
+    },
+    {
+      "id": "zerobootdev-zeroboot",
+      "name": "zeroboot",
+      "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/zerobootdev/zeroboot",
+      "koreanSupport": false,
+      "tags": [
+        "ai-agents",
+        "code-execution",
+        "copy-on-write",
+        "firecracker",
+        "kvm",
+        "rust",
+        "sandbox",
+        "virtual-machine",
+        "vm"
+      ],
+      "meta": {
+        "stars": 2339,
+        "forks": 101,
+        "lastUpdated": "2026-05-22T17:27:56Z",
+        "lastCommit": "2026-03-21T22:53:51Z",
+        "fetchedAt": "2026-05-23T14:40:34.294Z"
+      }
+    }
+  ]
 }

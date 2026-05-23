@@ -239,7 +239,9 @@
       "name": "시계열 모델",
       "description": "시계열 데이터 예측, 이상 탐지, 분류를 위한 파운데이션 모델 및 전문 모델",
       "order": 5,
-      "tools": []
+      "tools": [
+        "google-research-timesfm"
+      ]
     },
     {
       "id": "feature-store",

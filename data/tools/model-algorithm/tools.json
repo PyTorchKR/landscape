@@ -755,6 +755,24 @@
         "lastCommit": "2026-05-12T07:58:19Z",
         "fetchedAt": "2026-05-23T14:42:31.489Z"
       }
+    },
+    {
+      "id": "google-research-timesfm",
+      "name": "timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "categoryId": "time-series-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/google-research/timesfm",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 20055,
+        "forks": 1946,
+        "lastUpdated": "2026-05-23T14:23:30Z",
+        "lastCommit": "2026-05-19T19:56:37Z",
+        "fetchedAt": "2026-05-23T14:44:44.753Z"
+      }
     }
   ]
 }

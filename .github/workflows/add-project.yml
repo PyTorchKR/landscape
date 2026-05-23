@@ -50,9 +50,15 @@ jobs:
           script: |
             const body = context.payload.issue.body ?? ''
 
-            // Extract github_url
+            // Extract github_url from body (template format)
             const urlMatch = body.match(/### GitHub 저장소 URL\s*\n+(.+)/m)
-            const githubUrl = urlMatch?.[1]?.trim()
+            let githubUrl = urlMatch?.[1]?.trim()
+
+            // Fallback: legacy body formats like "- **GitHub URL**: https://..."
+            if (!githubUrl) {
+              const legacyUrl = body.match(/GitHub\s*URL[^\n]*?(https?:\/\/github\.com\/[^\s<>)\]]+)/i)
+              githubUrl = legacyUrl?.[1]?.trim()
+            }
 
             // Extract module_id (first word before space/parenthesis)
             const moduleMatch = body.match(/### 분류 \(모듈\)\s*\n+([^\s(]+)/)
@@ -66,13 +72,25 @@ jobs:
             const descMatch = body.match(/### 설명 \(선택\)\s*\n+([\s\S]+?)(?:\n###|$)/)
             const description = descMatch?.[1]?.trim()
 
-            // Override module/category from comment if provided: /approve <moduleId> <categoryId>
+            // Override from /approve comment.
+            // Supported forms (most specific first):
+            //   /approve <owner/repo> <moduleId> <categoryId>   ← full override (works with any body format)
+            //   /approve <moduleId> <categoryId>                ← module/category override (URL still from body)
+            //   /approve                                        ← no override
             const commentBody = context.payload.comment.body ?? ''
-            const overrideMatch = commentBody.match(/\/approve\s+(\S+)\s+(\S+)/)
-            if (overrideMatch) {
-              moduleId = overrideMatch[1]
-              categoryId = overrideMatch[2]
-              core.info(`모듈/카테고리 오버라이드: ${moduleId} → ${categoryId}`)
+            const threeArg = commentBody.match(/\/approve\s+([\w.-]+\/[\w.-]+)\s+(\S+)\s+(\S+)/)
+            if (threeArg) {
+              githubUrl = `https://github.com/${threeArg[1]}`
+              moduleId = threeArg[2]
+              categoryId = threeArg[3]
+              core.info(`전체 오버라이드: ${githubUrl} | ${moduleId} → ${categoryId}`)
+            } else {
+              const twoArg = commentBody.match(/\/approve\s+(\S+)\s+(\S+)/)
+              if (twoArg) {
+                moduleId = twoArg[1]
+                categoryId = twoArg[2]
+                core.info(`모듈/카테고리 오버라이드: ${moduleId} → ${categoryId}`)
+              }
             }
 
             if (!githubUrl || !moduleId || !categoryId) {

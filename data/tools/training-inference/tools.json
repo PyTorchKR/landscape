@@ -1144,6 +1144,24 @@
         "lastCommit": "2026-05-22T15:46:25Z",
         "fetchedAt": "2026-05-23T16:26:44.082Z"
       }
+    },
+    {
+      "id": "kvcache-ai-ktransformers",
+      "name": "ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/kvcache-ai/ktransformers",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 17189,
+        "forks": 1298,
+        "lastUpdated": "2026-05-23T04:44:37Z",
+        "lastCommit": "2026-05-21T09:36:12Z",
+        "fetchedAt": "2026-05-23T16:39:46.377Z"
+      }
     }
   ]
 }

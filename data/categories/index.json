@@ -285,7 +285,8 @@
         "onnx-runtime",
         "tensorrt",
         "openvino",
-        "iree"
+        "iree",
+        "kvcache-ai-ktransformers"
       ]
     },
     {

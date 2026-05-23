@@ -727,6 +727,34 @@
         "lastCommit": "2026-05-06T06:49:25Z",
         "fetchedAt": "2026-05-23T13:01:50.169Z"
       }
+    },
+    {
+      "id": "openmoss-moss-tts-nano",
+      "name": "MOSS-TTS-Nano",
+      "description": "MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+      "koreanSupport": false,
+      "tags": [
+        "audio-tokenizer",
+        "chinese",
+        "english",
+        "multi-modality",
+        "multilingual",
+        "realtime",
+        "streaming-audio",
+        "tts",
+        "voice-clone"
+      ],
+      "meta": {
+        "stars": 3165,
+        "forks": 411,
+        "lastUpdated": "2026-05-23T13:16:41Z",
+        "lastCommit": "2026-05-12T07:58:19Z",
+        "fetchedAt": "2026-05-23T14:42:31.489Z"
+      }
     }
   ]
 }

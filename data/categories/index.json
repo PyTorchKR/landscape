@@ -432,7 +432,8 @@
         "cornellius-gp-gpytorch",
         "lightly-ai-lightly",
         "neuraloperator-neuraloperator",
-        "pennylaneai-pennylane"
+        "pennylaneai-pennylane",
+        "pytorch-audio"
       ]
     },
     {

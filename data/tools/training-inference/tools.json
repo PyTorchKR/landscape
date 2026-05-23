@@ -1704,6 +1704,32 @@
         "lastCommit": "2026-05-22T22:53:11Z",
         "fetchedAt": "2026-05-23T23:09:34.118Z"
       }
+    },
+    {
+      "id": "pytorch-audio",
+      "name": "audio",
+      "description": "Data manipulation and transformation for audio signal processing, powered by PyTorch",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "BSD-2-Clause",
+      "githubUrl": "https://github.com/pytorch/audio",
+      "koreanSupport": false,
+      "tags": [
+        "audio",
+        "audio-processing",
+        "io",
+        "machine-learning",
+        "python",
+        "pytorch",
+        "speech"
+      ],
+      "meta": {
+        "stars": 2879,
+        "forks": 778,
+        "lastUpdated": "2026-05-22T01:56:58Z",
+        "lastCommit": "2026-05-22T12:18:31Z",
+        "fetchedAt": "2026-05-23T23:22:37.581Z"
+      }
     }
   ]
 }

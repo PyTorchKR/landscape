@@ -1091,6 +1091,30 @@
         "lastCommit": "2026-05-20T23:30:40Z",
         "fetchedAt": "2026-05-23T15:34:48.722Z"
       }
+    },
+    {
+      "id": "pyg-team-pytorch-geometric",
+      "name": "pytorch_geometric",
+      "description": "Graph Neural Network Library for PyTorch",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/pyg-team/pytorch_geometric",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "geometric-deep-learning",
+        "graph-convolutional-networks",
+        "graph-neural-networks",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 23780,
+        "forks": 3992,
+        "lastUpdated": "2026-05-22T20:58:59Z",
+        "lastCommit": "2026-05-18T18:21:38Z",
+        "fetchedAt": "2026-05-23T15:47:52.364Z"
+      }
     }
   ]
 }

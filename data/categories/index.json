@@ -403,7 +403,8 @@
         "awq",
         "mlx",
         "lightning-ai-pytorch-lightning",
-        "fastai-fastai"
+        "fastai-fastai",
+        "pyg-team-pytorch-geometric"
       ]
     },
     {

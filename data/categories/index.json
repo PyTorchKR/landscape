@@ -409,7 +409,8 @@
         "lightning-ai-pytorch-lightning",
         "fastai-fastai",
         "pyg-team-pytorch-geometric",
-        "nvidia-nemo-nemo"
+        "nvidia-nemo-nemo",
+        "kornia-kornia"
       ]
     },
     {

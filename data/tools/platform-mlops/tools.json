@@ -1257,6 +1257,34 @@
         "lastCommit": "2026-05-22T11:04:46Z",
         "fetchedAt": "2026-05-23T18:49:43.721Z"
       }
+    },
+    {
+      "id": "lightning-ai-litserve",
+      "name": "LitServe",
+      "description": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Lightning-AI/LitServe",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "api",
+        "artificial-intelligence",
+        "deep-learning",
+        "developer-tools",
+        "fastapi",
+        "rest-api",
+        "serving",
+        "web"
+      ],
+      "meta": {
+        "stars": 3883,
+        "forks": 285,
+        "lastUpdated": "2026-05-22T15:43:54Z",
+        "lastCommit": "2026-05-04T20:45:33Z",
+        "fetchedAt": "2026-05-23T21:12:38.404Z"
+      }
     }
   ]
 }

@@ -1112,6 +1112,29 @@
         "lastCommit": "2026-05-15T10:10:51Z",
         "fetchedAt": "2026-05-23T14:41:35.414Z"
       }
+    },
+    {
+      "id": "aaif-goose-goose",
+      "name": "goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/aaif-goose/goose",
+      "koreanSupport": false,
+      "tags": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ],
+      "meta": {
+        "stars": 45731,
+        "forks": 4696,
+        "lastUpdated": "2026-05-23T14:13:47Z",
+        "lastCommit": "2026-05-23T14:41:13Z",
+        "fetchedAt": "2026-05-23T14:42:02.273Z"
+      }
     }
   ]
 }

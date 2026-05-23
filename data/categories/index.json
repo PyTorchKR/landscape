@@ -275,7 +275,8 @@
         "clearml",
         "aim",
         "sacred",
-        "facebookresearch-hydra"
+        "facebookresearch-hydra",
+        "polyaxon-polyaxon"
       ]
     },
     {

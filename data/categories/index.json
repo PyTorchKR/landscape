@@ -401,7 +401,8 @@
         "triton-inference-server",
         "bentoml",
         "awq",
-        "mlx"
+        "mlx",
+        "lightning-ai-pytorch-lightning"
       ]
     },
     {

@@ -1000,7 +1000,12 @@
       "docsUrl": "https://thudm.github.io/slime",
       "websiteUrl": "https://thudm.github.io/slime",
       "koreanSupport": false,
-      "tags": ["reinforcement-learning", "post-training", "llm", "rl-scaling"],
+      "tags": [
+        "reinforcement-learning",
+        "post-training",
+        "llm",
+        "rl-scaling"
+      ],
       "meta": {
         "stars": 4487,
         "lastUpdated": "2026-03-01T03:31:54Z",
@@ -1020,13 +1025,44 @@
       "docsUrl": "https://ml-explore.github.io/mlx/",
       "websiteUrl": "https://ml-explore.github.io/mlx/",
       "koreanSupport": false,
-      "tags": ["apple-silicon", "deep-learning", "array-framework", "ml"],
+      "tags": [
+        "apple-silicon",
+        "deep-learning",
+        "array-framework",
+        "ml"
+      ],
       "meta": {
         "stars": 24124,
         "lastUpdated": "2026-03-01T03:40:04Z",
         "fetchedAt": "2026-03-01T03:40:00.000Z",
         "forks": 1533,
         "lastCommit": "2026-02-28T07:22:10Z"
+      }
+    },
+    {
+      "id": "lightning-ai-pytorch-lightning",
+      "name": "pytorch-lightning",
+      "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Lightning-AI/pytorch-lightning",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "data-science",
+        "deep-learning",
+        "machine-learning",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 31151,
+        "forks": 3725,
+        "lastUpdated": "2026-05-23T14:12:29Z",
+        "lastCommit": "2026-05-20T22:09:34Z",
+        "fetchedAt": "2026-05-23T15:21:44.107Z"
       }
     }
   ]

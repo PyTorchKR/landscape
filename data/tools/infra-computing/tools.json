@@ -531,6 +531,29 @@
         "lastCommit": "2026-03-21T22:53:51Z",
         "fetchedAt": "2026-05-23T14:40:34.294Z"
       }
+    },
+    {
+      "id": "pytorch-xla",
+      "name": "xla",
+      "description": "Enabling PyTorch on XLA Devices (e.g. Google TPU)",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/pytorch/xla",
+      "koreanSupport": false,
+      "tags": [
+        "compiler",
+        "deep-learning",
+        "pytorch",
+        "xla"
+      ],
+      "meta": {
+        "stars": 2782,
+        "forks": 575,
+        "lastUpdated": "2026-05-22T01:42:27Z",
+        "lastCommit": "2026-05-07T16:45:03Z",
+        "fetchedAt": "2026-05-23T23:48:32.405Z"
+      }
     }
   ]
 }

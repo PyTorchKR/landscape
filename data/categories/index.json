@@ -46,7 +46,8 @@
         "onnx-runtime",
         "tflite",
         "openvino",
-        "mlc-llm"
+        "mlc-llm",
+        "pytorch-xla"
       ]
     },
     {

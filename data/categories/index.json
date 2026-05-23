@@ -433,7 +433,8 @@
         "lightly-ai-lightly",
         "neuraloperator-neuraloperator",
         "pennylaneai-pennylane",
-        "pytorch-audio"
+        "pytorch-audio",
+        "nvidia-physicsnemo"
       ]
     },
     {

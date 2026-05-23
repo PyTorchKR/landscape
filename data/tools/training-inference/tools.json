@@ -1730,6 +1730,31 @@
         "lastCommit": "2026-05-22T12:18:31Z",
         "fetchedAt": "2026-05-23T23:22:37.581Z"
       }
+    },
+    {
+      "id": "nvidia-physicsnemo",
+      "name": "physicsnemo",
+      "description": "Open-source deep-learning framework for building, training, and fine-tuning deep learning models using state-of-the-art Physics-ML methods",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/NVIDIA/physicsnemo",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "machine-learning",
+        "nvidia-gpu",
+        "nvidia-warp",
+        "physics",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 2830,
+        "forks": 670,
+        "lastUpdated": "2026-05-22T22:22:42Z",
+        "lastCommit": "2026-05-22T22:22:40Z",
+        "fetchedAt": "2026-05-23T23:35:32.970Z"
+      }
     }
   ]
 }

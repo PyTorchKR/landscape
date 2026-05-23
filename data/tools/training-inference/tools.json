@@ -1357,6 +1357,30 @@
         "lastCommit": "2026-05-23T10:18:01Z",
         "fetchedAt": "2026-05-23T18:36:48.755Z"
       }
+    },
+    {
+      "id": "skorch-dev-skorch",
+      "name": "skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/skorch-dev/skorch",
+      "koreanSupport": false,
+      "tags": [
+        "hacktoberfest",
+        "huggingface",
+        "machine-learning",
+        "pytorch",
+        "scikit-learn"
+      ],
+      "meta": {
+        "stars": 6161,
+        "forks": 411,
+        "lastUpdated": "2026-05-22T03:59:52Z",
+        "lastCommit": "2026-05-19T02:01:36Z",
+        "fetchedAt": "2026-05-23T19:02:48.459Z"
+      }
     }
   ]
 }

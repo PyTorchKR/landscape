@@ -414,7 +414,8 @@
         "nvidia-nemo-nemo",
         "kornia-kornia",
         "facebookresearch-pytorch3d",
-        "arogozhnikov-einops"
+        "arogozhnikov-einops",
+        "skorch-dev-skorch"
       ]
     },
     {

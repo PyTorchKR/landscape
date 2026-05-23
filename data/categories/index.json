@@ -197,7 +197,8 @@
         "dino",
         "zai-org-glm-ocr",
         "sam3",
-        "facebookresearch-detectron2"
+        "facebookresearch-detectron2",
+        "pytorch-vision"
       ]
     },
     {

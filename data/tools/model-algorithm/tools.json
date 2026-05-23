@@ -809,6 +809,27 @@
         "lastCommit": "2026-05-15T03:30:03Z",
         "fetchedAt": "2026-05-23T15:08:58.729Z"
       }
+    },
+    {
+      "id": "pytorch-vision",
+      "name": "vision",
+      "description": "Datasets, Transforms and Models specific to Computer Vision",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/pytorch/vision",
+      "koreanSupport": false,
+      "tags": [
+        "computer-vision",
+        "machine-learning"
+      ],
+      "meta": {
+        "stars": 17691,
+        "forks": 7231,
+        "lastUpdated": "2026-05-23T09:15:03Z",
+        "lastCommit": "2026-05-22T12:18:39Z",
+        "fetchedAt": "2026-05-23T16:13:46.908Z"
+      }
     }
   ]
 }

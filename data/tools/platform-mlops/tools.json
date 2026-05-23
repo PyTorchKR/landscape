@@ -1135,6 +1135,45 @@
         "lastCommit": "2026-05-23T14:41:13Z",
         "fetchedAt": "2026-05-23T14:42:02.273Z"
       }
+    },
+    {
+      "id": "supertone-inc-supertonic",
+      "name": "supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/supertone-inc/supertonic",
+      "koreanSupport": false,
+      "tags": [
+        "cpp",
+        "csharp",
+        "flutter",
+        "go",
+        "ios",
+        "java",
+        "lightweight",
+        "multilingual",
+        "nodejs",
+        "on-device",
+        "onnx",
+        "onnxruntime",
+        "python",
+        "rust",
+        "speech-synthesis",
+        "swift",
+        "text-to-speech",
+        "tts",
+        "web",
+        "webgpu"
+      ],
+      "meta": {
+        "stars": 9666,
+        "forks": 998,
+        "lastUpdated": "2026-05-23T14:39:47Z",
+        "lastCommit": "2026-05-22T05:05:12Z",
+        "fetchedAt": "2026-05-23T14:42:58.670Z"
+      }
     }
   ]
 }

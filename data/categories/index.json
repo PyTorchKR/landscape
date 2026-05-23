@@ -287,7 +287,8 @@
         "tensorrt",
         "openvino",
         "iree",
-        "kvcache-ai-ktransformers"
+        "kvcache-ai-ktransformers",
+        "lmcache-lmcache"
       ]
     },
     {

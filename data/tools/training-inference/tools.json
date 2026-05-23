@@ -1328,6 +1328,35 @@
         "lastCommit": "2026-05-23T08:39:27Z",
         "fetchedAt": "2026-05-23T18:23:46.774Z"
       }
+    },
+    {
+      "id": "lmcache-lmcache",
+      "name": "LMCache",
+      "description": "Supercharge Your LLM with the Fastest KV Cache Layer",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/LMCache/LMCache",
+      "koreanSupport": false,
+      "tags": [
+        "amd",
+        "cuda",
+        "fast",
+        "inference",
+        "kv-cache",
+        "llm",
+        "pytorch",
+        "rocm",
+        "speed",
+        "vllm"
+      ],
+      "meta": {
+        "stars": 8334,
+        "forks": 1191,
+        "lastUpdated": "2026-05-23T13:45:39Z",
+        "lastCommit": "2026-05-23T10:18:01Z",
+        "fetchedAt": "2026-05-23T18:36:48.755Z"
+      }
     }
   ]
 }

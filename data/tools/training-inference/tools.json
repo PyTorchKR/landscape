@@ -1399,6 +1399,33 @@
         "lastCommit": "2026-05-22T12:19:39Z",
         "fetchedAt": "2026-05-23T19:28:46.104Z"
       }
+    },
+    {
+      "id": "mosaicml-composer",
+      "name": "composer",
+      "description": "Supercharge Your Model Training",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mosaicml/composer",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "machine-learning",
+        "ml-efficiency",
+        "ml-systems",
+        "ml-training",
+        "neural-network",
+        "neural-networks",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 5483,
+        "forks": 465,
+        "lastUpdated": "2026-05-23T18:30:23Z",
+        "lastCommit": "2026-04-29T18:58:33Z",
+        "fetchedAt": "2026-05-23T20:07:43.178Z"
+      }
     }
   ]
 }

@@ -419,7 +419,8 @@
         "kornia-kornia",
         "facebookresearch-pytorch3d",
         "arogozhnikov-einops",
-        "skorch-dev-skorch"
+        "skorch-dev-skorch",
+        "mosaicml-composer"
       ]
     },
     {

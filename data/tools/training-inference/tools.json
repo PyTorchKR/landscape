@@ -1115,6 +1115,35 @@
         "lastCommit": "2026-05-18T18:21:38Z",
         "fetchedAt": "2026-05-23T15:47:52.364Z"
       }
+    },
+    {
+      "id": "nvidia-nemo-nemo",
+      "name": "NeMo",
+      "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/NeMo",
+      "koreanSupport": false,
+      "tags": [
+        "asr",
+        "deeplearning",
+        "generative-ai",
+        "machine-translation",
+        "neural-networks",
+        "speaker-diariazation",
+        "speaker-recognition",
+        "speech-synthesis",
+        "speech-translation",
+        "tts"
+      ],
+      "meta": {
+        "stars": 17253,
+        "forks": 3417,
+        "lastUpdated": "2026-05-23T13:46:48Z",
+        "lastCommit": "2026-05-22T15:46:25Z",
+        "fetchedAt": "2026-05-23T16:26:44.082Z"
+      }
     }
   ]
 }

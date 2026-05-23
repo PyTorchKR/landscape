@@ -405,7 +405,8 @@
         "mlx",
         "lightning-ai-pytorch-lightning",
         "fastai-fastai",
-        "pyg-team-pytorch-geometric"
+        "pyg-team-pytorch-geometric",
+        "nvidia-nemo-nemo"
       ]
     },
     {

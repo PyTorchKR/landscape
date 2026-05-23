@@ -411,7 +411,8 @@
         "fastai-fastai",
         "pyg-team-pytorch-geometric",
         "nvidia-nemo-nemo",
-        "kornia-kornia"
+        "kornia-kornia",
+        "facebookresearch-pytorch3d"
       ]
     },
     {

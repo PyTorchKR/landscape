@@ -1282,6 +1282,24 @@
         "lastCommit": "2026-05-23T07:51:24Z",
         "fetchedAt": "2026-05-23T17:44:57.515Z"
       }
+    },
+    {
+      "id": "facebookresearch-pytorch3d",
+      "name": "pytorch3d",
+      "description": "PyTorch3D is FAIR's library of reusable components for deep learning with 3D data",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/facebookresearch/pytorch3d",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 9882,
+        "forks": 1457,
+        "lastUpdated": "2026-05-23T11:29:16Z",
+        "lastCommit": "2026-05-15T03:31:49Z",
+        "fetchedAt": "2026-05-23T17:57:52.425Z"
+      }
     }
   ]
 }

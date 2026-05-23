@@ -412,7 +412,8 @@
         "pyg-team-pytorch-geometric",
         "nvidia-nemo-nemo",
         "kornia-kornia",
-        "facebookresearch-pytorch3d"
+        "facebookresearch-pytorch3d",
+        "arogozhnikov-einops"
       ]
     },
     {

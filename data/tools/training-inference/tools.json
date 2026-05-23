@@ -1300,6 +1300,34 @@
         "lastCommit": "2026-05-15T03:31:49Z",
         "fetchedAt": "2026-05-23T17:57:52.425Z"
       }
+    },
+    {
+      "id": "arogozhnikov-einops",
+      "name": "einops",
+      "description": "Flexible and powerful tensor operations for readable and reliable code (for pytorch, jax, TF and others)",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/arogozhnikov/einops",
+      "koreanSupport": false,
+      "tags": [
+        "cupy",
+        "deep-learning",
+        "einops",
+        "jax",
+        "mlx",
+        "numpy",
+        "pytorch",
+        "tensor",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 9491,
+        "forks": 398,
+        "lastUpdated": "2026-05-23T08:38:36Z",
+        "lastCommit": "2026-05-23T08:39:27Z",
+        "fetchedAt": "2026-05-23T18:23:46.774Z"
+      }
     }
   ]
 }

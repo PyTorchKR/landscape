@@ -858,6 +858,32 @@
         "lastCommit": "2026-05-22T11:35:38Z",
         "fetchedAt": "2026-05-23T19:15:52.731Z"
       }
+    },
+    {
+      "id": "open-edge-platform-anomalib",
+      "name": "anomalib",
+      "description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/open-edge-platform/anomalib",
+      "koreanSupport": false,
+      "tags": [
+        "anomaly-detection",
+        "anomaly-localization",
+        "anomaly-segmentation",
+        "geti",
+        "neural-network-compression",
+        "openvino",
+        "unsupervised-learning"
+      ],
+      "meta": {
+        "stars": 5762,
+        "forks": 932,
+        "lastUpdated": "2026-05-23T11:25:28Z",
+        "lastCommit": "2026-05-23T03:44:51Z",
+        "fetchedAt": "2026-05-23T19:41:46.293Z"
+      }
     }
   ]
 }

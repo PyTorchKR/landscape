@@ -199,7 +199,8 @@
         "sam3",
         "facebookresearch-detectron2",
         "pytorch-vision",
-        "mindee-doctr"
+        "mindee-doctr",
+        "open-edge-platform-anomalib"
       ]
     },
     {

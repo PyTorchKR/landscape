@@ -425,7 +425,8 @@
         "skorch-dev-skorch",
         "mosaicml-composer",
         "pytorch-ignite",
-        "cornellius-gp-gpytorch"
+        "cornellius-gp-gpytorch",
+        "lightly-ai-lightly"
       ]
     },
     {

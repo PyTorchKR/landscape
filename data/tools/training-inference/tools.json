@@ -1528,6 +1528,34 @@
         "lastCommit": "2026-05-01T18:52:59Z",
         "fetchedAt": "2026-05-23T21:25:39.210Z"
       }
+    },
+    {
+      "id": "lightly-ai-lightly",
+      "name": "lightly",
+      "description": "A python library for self-supervised learning on images.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/lightly-ai/lightly",
+      "koreanSupport": false,
+      "tags": [
+        "computer-vision",
+        "contrastive-learning",
+        "contributions-welcome",
+        "deep-learning",
+        "embeddings",
+        "hacktoberfest",
+        "machine-learning",
+        "pytorch",
+        "self-supervised-learning"
+      ],
+      "meta": {
+        "stars": 3745,
+        "forks": 326,
+        "lastUpdated": "2026-05-23T17:26:58Z",
+        "lastCommit": "2026-05-21T13:36:26Z",
+        "fetchedAt": "2026-05-23T21:51:29.940Z"
+      }
     }
   ]
 }

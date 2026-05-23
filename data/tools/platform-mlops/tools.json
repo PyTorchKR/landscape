@@ -1081,6 +1081,37 @@
         "lastCommit": "2026-05-09T07:25:56Z",
         "fetchedAt": "2026-05-23T14:39:51.455Z"
       }
+    },
+    {
+      "id": "vectifyai-pageindex",
+      "name": "PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/VectifyAI/PageIndex",
+      "koreanSupport": false,
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "context-engineering",
+        "information-retrieval",
+        "llm",
+        "rag",
+        "reasoning",
+        "retrieval",
+        "retrieval-augmented-generation",
+        "vector-database"
+      ],
+      "meta": {
+        "stars": 32025,
+        "forks": 2761,
+        "lastUpdated": "2026-05-23T14:22:18Z",
+        "lastCommit": "2026-05-15T10:10:51Z",
+        "fetchedAt": "2026-05-23T14:41:35.414Z"
+      }
     }
   ]
 }

@@ -486,7 +486,8 @@
       "tools": [
         "graphrag",
         "haystack",
-        "ragflow"
+        "ragflow",
+        "vectifyai-pageindex"
       ]
     },
     {

@@ -1195,6 +1195,45 @@
         "lastCommit": "2026-05-11T15:36:50Z",
         "fetchedAt": "2026-05-23T17:05:45.668Z"
       }
+    },
+    {
+      "id": "ludwig-ai-ludwig",
+      "name": "ludwig",
+      "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
+      "categoryId": "fine-tuning",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ludwig-ai/ludwig",
+      "koreanSupport": false,
+      "tags": [
+        "computer-vision",
+        "data-centric",
+        "data-science",
+        "deep",
+        "deep-learning",
+        "deeplearning",
+        "fine-tuning",
+        "learning",
+        "llama",
+        "llama2",
+        "llm",
+        "llm-training",
+        "machine-learning",
+        "machinelearning",
+        "mistral",
+        "ml",
+        "natural-language",
+        "natural-language-processing",
+        "neural-network",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 11704,
+        "forks": 1218,
+        "lastUpdated": "2026-05-23T11:25:41Z",
+        "lastCommit": "2026-05-23T06:32:23Z",
+        "fetchedAt": "2026-05-23T17:18:47.493Z"
+      }
     }
   ]
 }

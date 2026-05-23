@@ -1285,6 +1285,24 @@
         "lastCommit": "2026-05-04T20:45:33Z",
         "fetchedAt": "2026-05-23T21:12:38.404Z"
       }
+    },
+    {
+      "id": "safetensors-safetensors",
+      "name": "safetensors",
+      "description": "Simple, safe way to store and distribute tensors",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/safetensors/safetensors",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3754,
+        "forks": 321,
+        "lastUpdated": "2026-05-23T10:02:45Z",
+        "lastCommit": "2026-05-20T05:32:11Z",
+        "fetchedAt": "2026-05-23T21:38:37.778Z"
+      }
     }
   ]
 }

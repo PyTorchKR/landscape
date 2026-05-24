@@ -161,12 +161,25 @@ jobs:
                     `- **카테고리**: ${{ steps.parse.outputs.category_id }}\n\n` +
                     `다음 빌드 시 [OSS Landscape](https://oss-landscape.pytorch.kr)에 반영됩니다.`
             })
-            await github.rest.issues.update({
+            // Only attempt to close the issue if it is still open.
+            // Retried /approve comments on an already-closed issue would otherwise
+            // trigger a 422 "Validation Failed" here even though the actual data
+            // ingestion succeeded — making the run look like a failure.
+            const {data: issue} = await github.rest.issues.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
-              state: 'closed'
+              issue_number: context.issue.number
             })
+            if (issue.state === 'open') {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed'
+              })
+            } else {
+              core.info(`Issue #${context.issue.number} is already closed; skipping state update.`)
+            }
 
       - name: Comment failure on issue
         if: failure()

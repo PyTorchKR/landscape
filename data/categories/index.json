@@ -378,7 +378,8 @@
         "colossalai",
         "determined",
         "ray-train",
-        "megatron-lm"
+        "megatron-lm",
+        "kubeflow-trainer"
       ]
     },
     {

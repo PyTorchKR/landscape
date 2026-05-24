@@ -1945,6 +1945,42 @@
         "lastCommit": "2026-03-02T04:48:45Z",
         "fetchedAt": "2026-05-24T01:58:38.567Z"
       }
+    },
+    {
+      "id": "run-house-kubetorch",
+      "name": "kubetorch",
+      "description": "Distribute and run AI workloads on Kubernetes magically in Python, like PyTorch for ML infra.",
+      "categoryId": "distributed-training",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/run-house/kubetorch",
+      "koreanSupport": false,
+      "tags": [
+        "artificial-intelligence",
+        "aws",
+        "data-processing",
+        "data-science",
+        "distributed",
+        "evaluation",
+        "gcp",
+        "inference",
+        "infrastructure",
+        "kubernetes",
+        "machine-learning",
+        "observability",
+        "python",
+        "pytorch",
+        "ray",
+        "serverless",
+        "training"
+      ],
+      "meta": {
+        "stars": 1205,
+        "forks": 58,
+        "lastUpdated": "2026-05-14T09:22:20Z",
+        "lastCommit": "2026-04-13T15:12:34Z",
+        "fetchedAt": "2026-05-24T02:24:36.002Z"
+      }
     }
   ]
 }

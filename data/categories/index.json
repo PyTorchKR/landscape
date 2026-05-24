@@ -382,7 +382,8 @@
         "determined",
         "ray-train",
         "megatron-lm",
-        "kubeflow-trainer"
+        "kubeflow-trainer",
+        "run-house-kubetorch"
       ]
     },
     {

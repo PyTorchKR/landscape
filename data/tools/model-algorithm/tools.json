@@ -961,6 +961,40 @@
         "lastCommit": "2026-05-05T20:32:18Z",
         "fetchedAt": "2026-05-23T22:30:34.977Z"
       }
+    },
+    {
+      "id": "wenjiedu-pypots",
+      "name": "PyPOTS",
+      "description": "A Python toolkit/library for reality-centric machine/deep learning & data mining on partially-observed time series, with 50+ SOTA neural network models for scientific analysis tasks (imputation, classification, clustering, forecasting, anomaly detection, cleaning) on incomplete industrial irregularly-sampled multivariate TS with NaN missing values",
+      "categoryId": "time-series-model",
+      "moduleId": "model-algorithm",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/WenjieDu/PyPOTS",
+      "koreanSupport": false,
+      "tags": [
+        "anomaly-detection",
+        "classification",
+        "clustering",
+        "data-analysis",
+        "data-mining",
+        "data-science",
+        "deep-learning",
+        "forecasting",
+        "generation",
+        "imputation",
+        "machine-learning",
+        "missing-values",
+        "neural-networks",
+        "pytorch",
+        "time-series"
+      ],
+      "meta": {
+        "stars": 2016,
+        "forks": 184,
+        "lastUpdated": "2026-05-20T03:06:37Z",
+        "lastCommit": "2026-05-12T01:00:14Z",
+        "fetchedAt": "2026-05-24T01:06:36.664Z"
+      }
     }
   ]
 }

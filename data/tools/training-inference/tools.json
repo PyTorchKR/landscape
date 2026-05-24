@@ -1981,6 +1981,24 @@
         "lastCommit": "2026-04-13T15:12:34Z",
         "fetchedAt": "2026-05-24T02:24:36.002Z"
       }
+    },
+    {
+      "id": "pytorch-tensordict",
+      "name": "tensordict",
+      "description": "TensorDict is a pytorch dedicated tensor container.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/pytorch/tensordict",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1028,
+        "forks": 115,
+        "lastUpdated": "2026-05-21T20:55:00Z",
+        "lastCommit": "2026-05-23T18:28:41Z",
+        "fetchedAt": "2026-05-24T02:37:44.328Z"
+      }
     }
   ]
 }

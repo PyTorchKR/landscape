@@ -444,7 +444,8 @@
         "pytorch-audio",
         "nvidia-physicsnemo",
         "torchio-project-torchio",
-        "pypose-pypose"
+        "pypose-pypose",
+        "pytorch-tensordict"
       ]
     },
     {

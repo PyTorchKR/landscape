@@ -1999,6 +1999,24 @@
         "lastCommit": "2026-05-23T18:28:41Z",
         "fetchedAt": "2026-05-24T02:37:44.328Z"
       }
+    },
+    {
+      "id": "huggingface-accelerate",
+      "name": "accelerate",
+      "description": "🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support",
+      "categoryId": "distributed-training",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/huggingface/accelerate",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 9699,
+        "forks": 1357,
+        "lastUpdated": "2026-05-22T21:34:37Z",
+        "lastCommit": "2026-05-19T07:45:04Z",
+        "fetchedAt": "2026-05-24T02:40:41.133Z"
+      }
     }
   ]
 }

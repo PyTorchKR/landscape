@@ -383,7 +383,8 @@
         "ray-train",
         "megatron-lm",
         "kubeflow-trainer",
-        "run-house-kubetorch"
+        "run-house-kubetorch",
+        "huggingface-accelerate"
       ]
     },
     {

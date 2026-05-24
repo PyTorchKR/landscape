@@ -1791,6 +1791,34 @@
         "lastCommit": "2026-05-22T09:29:21Z",
         "fetchedAt": "2026-05-24T00:01:31.626Z"
       }
+    },
+    {
+      "id": "torchio-project-torchio",
+      "name": "torchio",
+      "description": "Medical imaging processing for AI applications.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/TorchIO-project/torchio",
+      "koreanSupport": false,
+      "tags": [
+        "augmentation",
+        "data-augmentation",
+        "deep-learning",
+        "machine-learning",
+        "medical-image-analysis",
+        "medical-image-computing",
+        "medical-image-processing",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 2396,
+        "forks": 262,
+        "lastUpdated": "2026-05-20T10:05:42Z",
+        "lastCommit": "2026-05-06T14:27:08Z",
+        "fetchedAt": "2026-05-24T00:40:48.516Z"
+      }
     }
   ]
 }

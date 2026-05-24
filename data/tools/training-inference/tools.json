@@ -1927,6 +1927,24 @@
         "lastCommit": "2026-05-05T20:01:13Z",
         "fetchedAt": "2026-05-24T01:45:40.911Z"
       }
+    },
+    {
+      "id": "pfnet-pfrl",
+      "name": "pfrl",
+      "description": "PFRL: a PyTorch-based deep reinforcement learning library",
+      "categoryId": "reinforcement-learning",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/pfnet/pfrl",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1270,
+        "forks": 158,
+        "lastUpdated": "2026-05-16T11:03:01Z",
+        "lastCommit": "2026-03-02T04:48:45Z",
+        "fetchedAt": "2026-05-24T01:58:38.567Z"
+      }
     }
   ]
 }

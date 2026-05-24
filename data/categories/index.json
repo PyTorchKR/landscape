@@ -313,7 +313,8 @@
         "bitsandbytes",
         "gptq",
         "neural-compressor",
-        "intel-neural-compressor"
+        "intel-neural-compressor",
+        "yoshitomo-matsubara-torchdistill"
       ]
     },
     {

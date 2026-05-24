@@ -1853,6 +1853,44 @@
         "lastCommit": "2026-05-23T03:14:06Z",
         "fetchedAt": "2026-05-24T00:53:36.651Z"
       }
+    },
+    {
+      "id": "yoshitomo-matsubara-torchdistill",
+      "name": "torchdistill",
+      "description": "A coding-free framework built on PyTorch for reproducible deep learning studies. PyTorch Ecosystem. 🏆26 knowledge distillation methods presented at TPAMI, CVPR, ICLR, ECCV, NeurIPS, ICCV, AAAI, etc are implemented so far. 🎁 Trained models, training logs and configurations are available for ensuring the reproducibiliy and benchmark.",
+      "categoryId": "model-compression",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/yoshitomo-matsubara/torchdistill",
+      "koreanSupport": false,
+      "tags": [
+        "amazon-sagemaker-lab",
+        "cifar10",
+        "cifar100",
+        "coco",
+        "colab-notebook",
+        "glue",
+        "google-colab",
+        "image-classification",
+        "imagenet",
+        "knowledge-distillation",
+        "natural-language-processing",
+        "nlp",
+        "object-detection",
+        "pascal-voc",
+        "pytorch",
+        "pytorch-ecosystem",
+        "semantic-segmentation",
+        "text-classification",
+        "transformer"
+      ],
+      "meta": {
+        "stars": 1617,
+        "forks": 145,
+        "lastUpdated": "2026-05-22T09:03:32Z",
+        "lastCommit": "2026-03-31T04:20:15Z",
+        "fetchedAt": "2026-05-24T01:32:47.105Z"
+      }
     }
   ]
 }

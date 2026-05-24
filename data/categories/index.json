@@ -742,7 +742,8 @@
       "tools": [
         "presidio",
         "diffprivlib",
-        "tensorflow-privacy"
+        "tensorflow-privacy",
+        "meta-pytorch-opacus"
       ]
     },
     {

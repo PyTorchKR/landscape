@@ -580,6 +580,31 @@
         "lastCommit": "2026-03-01T20:24:42Z",
         "fetchedAt": "2026-03-02T08:27:41.405Z"
       }
+    },
+    {
+      "id": "meta-pytorch-opacus",
+      "name": "opacus",
+      "description": "Training PyTorch models with differential privacy",
+      "categoryId": "data-privacy",
+      "moduleId": "security-governance",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/meta-pytorch/opacus",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "differential-privacy",
+        "machine-learning",
+        "neural-network",
+        "privacy-preserving-machine-learning",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 1931,
+        "forks": 396,
+        "lastUpdated": "2026-05-22T15:54:47Z",
+        "lastCommit": "2026-05-20T20:09:26Z",
+        "fetchedAt": "2026-05-24T01:19:32.215Z"
+      }
     }
   ]
 }

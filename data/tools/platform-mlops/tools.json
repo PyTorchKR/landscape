@@ -1303,6 +1303,32 @@
         "lastCommit": "2026-05-20T05:32:11Z",
         "fetchedAt": "2026-05-23T21:38:37.778Z"
       }
+    },
+    {
+      "id": "lightning-ai-torchmetrics",
+      "name": "torchmetrics",
+      "description": "Machine learning metrics for distributed, scalable PyTorch applications.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Lightning-AI/torchmetrics",
+      "koreanSupport": false,
+      "tags": [
+        "analyses",
+        "data-science",
+        "deep-learning",
+        "machine-learning",
+        "metrics",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 2438,
+        "forks": 490,
+        "lastUpdated": "2026-05-23T08:48:36Z",
+        "lastCommit": "2026-05-23T08:50:20Z",
+        "fetchedAt": "2026-05-24T00:27:35.103Z"
+      }
     }
   ]
 }

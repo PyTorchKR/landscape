@@ -798,6 +798,32 @@
         "lastCommit": "2026-03-02T09:29:29Z",
         "fetchedAt": "2026-03-02T12:26:39.508Z"
       }
+    },
+    {
+      "id": "meta-pytorch-torchrec",
+      "name": "torchrec",
+      "description": "Pytorch domain library for recommendation systems",
+      "categoryId": "recommendation-search",
+      "moduleId": "application-service",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/meta-pytorch/torchrec",
+      "koreanSupport": false,
+      "tags": [
+        "cuda",
+        "deep-learning",
+        "gpu",
+        "pytorch",
+        "recommendation-system",
+        "recommender-system",
+        "sharding"
+      ],
+      "meta": {
+        "stars": 2549,
+        "forks": 644,
+        "lastUpdated": "2026-05-22T20:35:35Z",
+        "lastCommit": "2026-05-22T20:35:28Z",
+        "fetchedAt": "2026-05-24T00:14:34.487Z"
+      }
     }
   ]
 }

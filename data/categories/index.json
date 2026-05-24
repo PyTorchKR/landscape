@@ -630,7 +630,8 @@
         "elasticsearch",
         "meilisearch",
         "typesense",
-        "vespa"
+        "vespa",
+        "meta-pytorch-torchrec"
       ]
     },
     {

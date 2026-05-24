@@ -311,7 +311,8 @@
         "pytorch-ao",
         "bitsandbytes",
         "gptq",
-        "neural-compressor"
+        "neural-compressor",
+        "intel-neural-compressor"
       ]
     },
     {

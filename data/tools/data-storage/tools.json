@@ -771,6 +771,24 @@
         "lastCommit": "2026-05-19T22:00:08Z",
         "fetchedAt": "2026-05-23T14:43:19.345Z"
       }
+    },
+    {
+      "id": "meta-pytorch-data",
+      "name": "data",
+      "description": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/meta-pytorch/data",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1258,
+        "forks": 177,
+        "lastUpdated": "2026-05-21T20:19:39Z",
+        "lastCommit": "2026-05-22T12:18:34Z",
+        "fetchedAt": "2026-05-24T02:11:41.784Z"
+      }
     }
   ]
 }

@@ -163,7 +163,8 @@
         "dagster",
         "prefect",
         "apache-beam",
-        "apache-nifi"
+        "apache-nifi",
+        "meta-pytorch-data"
       ]
     },
     {

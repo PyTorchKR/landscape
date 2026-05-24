@@ -1891,6 +1891,42 @@
         "lastCommit": "2026-03-31T04:20:15Z",
         "fetchedAt": "2026-05-24T01:32:47.105Z"
       }
+    },
+    {
+      "id": "pypose-pypose",
+      "name": "pypose",
+      "description": "A library for differentiable robotics on manifolds.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/pypose/pypose",
+      "koreanSupport": false,
+      "tags": [
+        "autonomous-robots",
+        "computer-graphics",
+        "control",
+        "deep-learning",
+        "geometric-deep-learning",
+        "kalman-filter",
+        "learning",
+        "lie-group",
+        "optimization",
+        "physics",
+        "planning",
+        "pose-estimation",
+        "pose-graph-optimization",
+        "python",
+        "pytorch",
+        "robotics",
+        "slam"
+      ],
+      "meta": {
+        "stars": 1538,
+        "forks": 125,
+        "lastUpdated": "2026-05-21T12:13:02Z",
+        "lastCommit": "2026-05-05T20:01:13Z",
+        "fetchedAt": "2026-05-24T01:45:40.911Z"
+      }
     }
   ]
 }

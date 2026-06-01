@@ -605,6 +605,37 @@
         "lastCommit": "2026-05-20T20:09:26Z",
         "fetchedAt": "2026-05-24T01:19:32.215Z"
       }
+    },
+    {
+      "id": "microsoft-agent-governance-toolkit",
+      "name": "agent-governance-toolkit",
+      "description": "자율 AI 에이전트를 위한 정책 시행·zero-trust 신원·실행 샌드박싱·신뢰성 엔지니어링 툴킷입니다. OWASP Agentic Top 10을 전부 다루는 정책 엔진 기반 런타임 가드레일을 제공합니다.",
+      "categoryId": "guardrails",
+      "moduleId": "security-governance",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/agent-governance-toolkit",
+      "koreanSupport": false,
+      "tags": [
+        "agent-framework",
+        "ai-agents",
+        "ai-safety",
+        "compliance",
+        "governance",
+        "microsoft",
+        "owasp",
+        "policy-engine",
+        "python",
+        "security",
+        "trust",
+        "zero-trust"
+      ],
+      "meta": {
+        "stars": 3580,
+        "forks": 510,
+        "lastUpdated": "2026-06-01T03:13:12Z",
+        "lastCommit": "2026-05-31T18:56:51Z",
+        "fetchedAt": "2026-06-01T03:23:57.552Z"
+      }
     }
   ]
 }

@@ -713,7 +713,8 @@
       "tools": [
         "nemo-guardrails",
         "guardrails-ai",
-        "rebuff"
+        "rebuff",
+        "microsoft-agent-governance-toolkit"
       ]
     },
     {

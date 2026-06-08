@@ -1329,6 +1329,29 @@
         "lastCommit": "2026-05-23T08:50:20Z",
         "fetchedAt": "2026-05-24T00:27:35.103Z"
       }
+    },
+    {
+      "id": "vectorize-io-hindsight",
+      "name": "hindsight",
+      "description": "학습하는 에이전트 메모리 시스템. LLM 에이전트가 과거 상호작용·경험을 저장·검색하고 시간이 지남에 따라 메모리를 강화·정제하여 장기 기억과 개인화를 구현한다.",
+      "categoryId": "memory-knowledge",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/vectorize-io/hindsight",
+      "koreanSupport": false,
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai-memory",
+        "memory"
+      ],
+      "meta": {
+        "stars": 15964,
+        "forks": 905,
+        "lastUpdated": "2026-06-08T04:31:23Z",
+        "lastCommit": "2026-06-07T22:45:12Z",
+        "fetchedAt": "2026-06-08T05:01:52.601Z"
+      }
     }
   ]
 }

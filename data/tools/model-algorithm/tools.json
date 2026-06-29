@@ -995,6 +995,47 @@
         "lastCommit": "2026-05-12T01:00:14Z",
         "fetchedAt": "2026-05-24T01:06:36.664Z"
       }
+    },
+    {
+      "id": "modelscope-funasr",
+      "name": "FunASR",
+      "description": "산업용 음성 인식(ASR) 툴킷으로, 50개 이상 언어·화자 분리·감정 인식·스트리밍을 지원하며 Paraformer 등 사전학습 음성 모델과 OpenAI 호환 API를 제공해 음성-텍스트 변환 서비스를 구축할 수 있게 합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/modelscope/FunASR",
+      "docsUrl": "https://modelscope.github.io/FunASR/",
+      "websiteUrl": "https://modelscope.github.io/FunASR/",
+      "koreanSupport": false,
+      "tags": [
+        "asr",
+        "audio",
+        "chinese",
+        "emotion-recognition",
+        "funasr",
+        "mcp-server",
+        "multilingual-asr",
+        "openai-compatible-api",
+        "paraformer",
+        "punctuation",
+        "pytorch",
+        "real-time",
+        "speaker-diarization",
+        "speech-recognition",
+        "speech-to-text",
+        "streaming-asr",
+        "transcription",
+        "vllm",
+        "voice-activity-detection",
+        "whisper-alternative"
+      ],
+      "meta": {
+        "stars": 18712,
+        "forks": 1897,
+        "lastUpdated": "2026-06-29T19:22:18Z",
+        "lastCommit": "2026-06-29T19:22:15Z",
+        "fetchedAt": "2026-06-29T20:05:22.585475Z"
+      }
     }
   ]
 }

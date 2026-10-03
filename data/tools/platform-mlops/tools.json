@@ -1480,6 +1480,42 @@
         "lastCommit": "2026-10-02T22:29:23Z",
         "fetchedAt": "2026-10-03T02:14:40.213Z"
       }
+    },
+    {
+      "id": "google-ai-edge-mediapipe",
+      "name": "mediapipe",
+      "description": "실시간·스트리밍 미디어를 위한 크로스플랫폼·커스터마이즈 가능한 온디바이스 ML 솔루션 MediaPipe(Google AI Edge). 손/얼굴/포즈 추적, 객체 검출, 세그멘테이션, 제스처/이미지 분류 등 사전 구축된 비전 파이프라인과 모델을 모바일·웹·엣지에서 실행할 수 있게 제공합니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/google-ai-edge/mediapipe",
+      "koreanSupport": false,
+      "tags": [
+        "android",
+        "audio-processing",
+        "c-plus-plus",
+        "calculator",
+        "computer-vision",
+        "deep-learning",
+        "framework",
+        "graph-based",
+        "graph-framework",
+        "inference",
+        "machine-learning",
+        "mediapipe",
+        "mobile-development",
+        "perception",
+        "pipeline-framework",
+        "stream-processing",
+        "video-processing"
+      ],
+      "meta": {
+        "stars": 37151,
+        "forks": 6179,
+        "lastUpdated": "2026-10-03T03:35:36Z",
+        "lastCommit": "2026-10-03T03:17:51Z",
+        "fetchedAt": "2026-10-03T04:21:48.827Z"
+      }
     }
   ]
 }

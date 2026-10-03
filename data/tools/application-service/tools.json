@@ -904,6 +904,39 @@
         "lastCommit": "2026-08-16T15:45:25Z",
         "fetchedAt": "2026-10-03T04:52:38.181Z"
       }
+    },
+    {
+      "id": "ai4finance-foundation-finrl",
+      "name": "FinRL",
+      "description": "금융 분야 강화학습(Financial Reinforcement Learning)을 위한 오픈소스 프레임워크 FinRL(AI4Finance Foundation). 주식 거래·포트폴리오 배분 등 정량 트레이딩 전략을 심층 강화학습으로 학습·백테스트할 수 있는 환경·에이전트·파이프라인을 제공합니다.",
+      "categoryId": "industry-solutions",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/AI4Finance-Foundation/FinRL",
+      "koreanSupport": false,
+      "tags": [
+        "algorithmic-trading",
+        "deep-reinforcement-learning",
+        "drl-algorithms",
+        "drl-framework",
+        "drl-trading-agents",
+        "finance",
+        "fintech",
+        "multi-agent-learning",
+        "openai-gym",
+        "pythorch",
+        "stock-markets",
+        "stock-trading",
+        "tensorflow2",
+        "trading-tasks"
+      ],
+      "meta": {
+        "stars": 16536,
+        "forks": 3536,
+        "lastUpdated": "2026-10-03T05:29:20Z",
+        "lastCommit": "2026-09-28T23:32:46Z",
+        "fetchedAt": "2026-10-03T05:35:58.953Z"
+      }
     }
   ]
 }

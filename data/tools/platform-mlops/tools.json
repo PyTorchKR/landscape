@@ -1607,6 +1607,44 @@
         "lastCommit": "2026-10-02T16:30:54Z",
         "fetchedAt": "2026-10-03T05:07:27.632Z"
       }
+    },
+    {
+      "id": "ax-llm-ax",
+      "name": "ax",
+      "description": "TypeScript를 위한 사실상 공식 DSPy 프레임워크. 선언적 시그니처로 LLM 프로그램을 구성하고 자동 프롬프트 최적화·에이전트·RAG·스트리밍을 지원합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ax-llm/ax",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "ai",
+        "anthropic",
+        "claude",
+        "cohere",
+        "dspy",
+        "gemini",
+        "google",
+        "google-gemini",
+        "grok",
+        "javascript",
+        "large-language-models",
+        "llm",
+        "nodejs",
+        "ollama",
+        "openai",
+        "opensource",
+        "rlm",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 2958,
+        "forks": 193,
+        "lastUpdated": "2026-10-02T16:35:06Z",
+        "lastCommit": "2026-10-03T00:42:48Z",
+        "fetchedAt": "2026-10-03T05:11:33.333Z"
+      }
     }
   ]
 }

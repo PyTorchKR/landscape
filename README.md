@@ -1,8 +1,8 @@
-# AI OSS Landscape
+# Opensource AI Landscape
 
 ## 소개
 
-AI OSS Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈에 살펴볼 수 있는 인터랙티브 시각화 도구입니다.
+Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈에 살펴볼 수 있는 인터랙티브 시각화 도구입니다.
 이 프로젝트는 [AI Techmap](https://www.youtube.com/watch?v=z2Ge2QAEWbY)을 기반으로 구성되었으며, [Newsmap](https://www.google.com/search?num=10&newwindow=1&udm=2&q=newsmap)으로부터 영감을 받았습니다.
 
 ## 주요 기능

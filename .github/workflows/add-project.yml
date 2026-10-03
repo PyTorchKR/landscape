@@ -189,7 +189,7 @@ jobs:
                     `- **GitHub URL**: ${{ steps.parse.outputs.github_url }}\n` +
                     `- **모듈**: ${{ steps.parse.outputs.module_id }}\n` +
                     `- **카테고리**: ${{ steps.parse.outputs.category_id }}\n\n` +
-                    `곧 배포되어 [OSS Landscape](https://oss-landscape.pytorch.kr)에 반영됩니다.`
+                    `곧 배포되어 [Opensource AI Landscape](https://oss-landscape.pytorch.kr)에 반영됩니다.`
             })
             // Only attempt to close the issue if it is still open.
             // Retried /approve comments on an already-closed issue would otherwise

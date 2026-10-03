@@ -80,7 +80,7 @@ const translations = {
     langEn: 'English',
   },
   en: {
-    subtitle: 'PyTorchKR · AI Open Source Landscape',
+    subtitle: 'PyTorchKR · Opensource AI Landscape',
     submitProject: '+ Submit Project',
     projectCount: (n: number) => `${n} projects`,
     grid: '⊞ Grid',

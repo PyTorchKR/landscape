@@ -50,7 +50,7 @@ export default function App() {
         <div className="max-w-screen-xl mx-auto px-4 py-2 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <h1 className="text-lg font-bold text-gray-900 dark:text-white">
-              🗺️ AI OSS Landscape
+              🗺️ Opensource AI Landscape
             </h1>
             <span className="text-xs text-gray-400 dark:text-gray-500">
               {t.subtitle}

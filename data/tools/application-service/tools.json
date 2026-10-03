@@ -826,24 +826,6 @@
       }
     },
     {
-      "id": "earendil-works-pi",
-      "name": "pi",
-      "description": "AI 에이전트 툴킷. 코딩 에이전트 CLI를 중심으로 통합 LLM API, TUI·웹 UI 라이브러리, Slack 봇, vLLM 파드 등을 제공합니다. 원래 badlogic/pi-mono에서 earendil-works/pi로 소유권 이전(이전 경로 리다이렉트).",
-      "categoryId": "autonomous-agent",
-      "moduleId": "application-service",
-      "license": "MIT",
-      "githubUrl": "https://github.com/earendil-works/pi",
-      "koreanSupport": false,
-      "tags": [],
-      "meta": {
-        "stars": 111794,
-        "forks": 14178,
-        "lastUpdated": "2026-10-03T02:12:07Z",
-        "lastCommit": "2026-10-02T22:29:23Z",
-        "fetchedAt": "2026-10-03T02:14:40.213Z"
-      }
-    },
-    {
       "id": "assafelovic-gpt-researcher",
       "name": "gpt-researcher",
       "description": "임의의 LLM 제공자를 활용해 어떤 주제든 심층 리서치를 자율 수행하는 에이전트. 웹/로컬 데이터를 탐색·수집·종합하여 인용이 포함된 연구 보고서를 자동 생성한다.",

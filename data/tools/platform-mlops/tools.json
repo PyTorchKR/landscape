@@ -1462,6 +1462,24 @@
         "lastCommit": "2026-10-02T22:05:50Z",
         "fetchedAt": "2026-10-03T03:56:59.915Z"
       }
+    },
+    {
+      "id": "earendil-works-pi",
+      "name": "pi",
+      "description": "AI 에이전트 툴킷. 코딩 에이전트 CLI를 중심으로 통합 LLM API, TUI·웹 UI 라이브러리, Slack 봇, vLLM 파드 등을 제공합니다. 원래 badlogic/pi-mono에서 earendil-works/pi로 소유권 이전(이전 경로 리다이렉트).",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/earendil-works/pi",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 111794,
+        "forks": 14178,
+        "lastUpdated": "2026-10-03T02:12:07Z",
+        "lastCommit": "2026-10-02T22:29:23Z",
+        "fetchedAt": "2026-10-03T02:14:40.213Z"
+      }
     }
   ]
 }

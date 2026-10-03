@@ -446,7 +446,8 @@
         "nvidia-physicsnemo",
         "torchio-project-torchio",
         "pypose-pypose",
-        "pytorch-tensordict"
+        "pytorch-tensordict",
+        "explosion-spacy"
       ]
     },
     {

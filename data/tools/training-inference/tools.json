@@ -2017,6 +2017,42 @@
         "lastCommit": "2026-05-19T07:45:04Z",
         "fetchedAt": "2026-05-24T02:40:41.133Z"
       }
+    },
+    {
+      "id": "explosion-spacy",
+      "name": "spaCy",
+      "description": "Python 기반의 산업용 자연어 처리(NLP) 프레임워크로, 토큰화·개체명 인식·텍스트 분류 등 사전학습 파이프라인과 학습 도구를 제공하여 실서비스용 NLP 애플리케이션을 구축할 수 있게 합니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/explosion/spaCy",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "cython",
+        "data-science",
+        "deep-learning",
+        "entity-linking",
+        "machine-learning",
+        "named-entity-recognition",
+        "natural-language-processing",
+        "neural-network",
+        "neural-networks",
+        "nlp",
+        "nlp-library",
+        "python",
+        "spacy",
+        "text-classification",
+        "tokenization"
+      ],
+      "meta": {
+        "stars": 33933,
+        "forks": 4734,
+        "lastUpdated": "2026-10-02T17:52:24Z",
+        "lastCommit": "2026-09-30T08:13:41Z",
+        "fetchedAt": "2026-10-03T02:57:49.295Z"
+      }
     }
   ]
 }

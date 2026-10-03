@@ -789,6 +789,34 @@
         "lastCommit": "2026-05-22T12:18:34Z",
         "fetchedAt": "2026-05-24T02:11:41.784Z"
       }
+    },
+    {
+      "id": "modin-project-modin",
+      "name": "modin",
+      "description": "코드 한 줄 변경만으로 기존 pandas 워크플로를 분산·병렬 처리로 확장해주는 데이터프레임 라이브러리로, 대규모 데이터의 변환·전처리를 멀티코어 및 클러스터 환경에서 가속합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/modin-project/modin",
+      "koreanSupport": false,
+      "tags": [
+        "analytics",
+        "data-science",
+        "dataframe",
+        "datascience",
+        "distributed",
+        "modin",
+        "pandas",
+        "python",
+        "sql"
+      ],
+      "meta": {
+        "stars": 10392,
+        "forks": 677,
+        "lastUpdated": "2026-10-02T15:14:17Z",
+        "lastCommit": "2026-02-10T20:52:42Z",
+        "fetchedAt": "2026-10-03T03:10:01.699Z"
+      }
     }
   ]
 }

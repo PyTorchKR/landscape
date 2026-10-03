@@ -897,6 +897,27 @@
         "lastCommit": "2026-09-29T11:30:14Z",
         "fetchedAt": "2026-10-03T04:48:26.435Z"
       }
+    },
+    {
+      "id": "open-thoughts-open-thoughts",
+      "name": "open-thoughts",
+      "description": "추론(reasoning) 모델 학습을 위한 완전 공개 데이터 큐레이션 파이프라인(OpenThoughts). 추론 데이터셋(OpenThoughts 시리즈) 생성을 위한 데이터 합성·필터링·정제 레시피와 코드를 제공해, 고품질 추론 학습 데이터 구축을 재현 가능하게 합니다.",
+      "categoryId": "datasets-tools",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/open-thoughts/open-thoughts",
+      "koreanSupport": false,
+      "tags": [
+        "open-data",
+        "reasoning"
+      ],
+      "meta": {
+        "stars": 2341,
+        "forks": 196,
+        "lastUpdated": "2026-09-30T06:45:20Z",
+        "lastCommit": "2025-12-02T21:57:07Z",
+        "fetchedAt": "2026-10-03T05:21:35.967Z"
+      }
     }
   ]
 }

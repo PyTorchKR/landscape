@@ -937,6 +937,28 @@
         "lastCommit": "2026-09-28T23:32:46Z",
         "fetchedAt": "2026-10-03T05:35:58.953Z"
       }
+    },
+    {
+      "id": "commaai-openpilot",
+      "name": "openpilot",
+      "description": "로보틱스를 위한 오픈소스 운영체제 openpilot(comma.ai). 300종 이상의 차량에서 운전자 보조 시스템(ADAS)을 업그레이드하며, 종단간(end-to-end) 비전 신경망 모델로 차선 유지·적응형 순항제어 등 자율주행 보조 기능을 제공합니다.",
+      "categoryId": "industry-solutions",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/commaai/openpilot",
+      "koreanSupport": false,
+      "tags": [
+        "advanced-driver-assistance-systems",
+        "driver-assistance-systems",
+        "robotics"
+      ],
+      "meta": {
+        "stars": 63797,
+        "forks": 11412,
+        "lastUpdated": "2026-10-03T05:32:14Z",
+        "lastCommit": "2026-10-03T01:02:44Z",
+        "fetchedAt": "2026-10-03T05:39:23.340Z"
+      }
     }
   ]
 }

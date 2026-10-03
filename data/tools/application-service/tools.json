@@ -1063,6 +1063,39 @@
         "lastCommit": "2026-09-30T08:35:50Z",
         "fetchedAt": "2026-10-03T06:18:30.297Z"
       }
+    },
+    {
+      "id": "onyx-dot-app-onyx",
+      "name": "onyx",
+      "description": "모든 LLM과 연동되는 오픈소스 AI 플랫폼 Onyx(구 Danswer). 기업 내부 문서·앱(Slack·Confluence·Drive 등) 커넥터를 통한 RAG 기반 AI 채팅·엔터프라이즈 검색, 커스텀 어시스턴트, 권한 관리 등을 제공하여 사내 지식 질의응답을 구현합니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/onyx-dot-app/onyx",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "ai-chat",
+        "chatgpt",
+        "chatui",
+        "enterprise-search",
+        "gen-ai",
+        "information-retrieval",
+        "llm",
+        "llm-ui",
+        "nextjs",
+        "python",
+        "rag",
+        "self-hosted",
+        "vector-search"
+      ],
+      "meta": {
+        "stars": 32316,
+        "forks": 4519,
+        "lastUpdated": "2026-10-03T04:51:06Z",
+        "lastCommit": "2026-10-03T05:33:53Z",
+        "fetchedAt": "2026-10-03T06:31:41.083Z"
+      }
     }
   ]
 }

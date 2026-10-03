@@ -1584,6 +1584,29 @@
         "lastCommit": "2026-10-01T17:20:20Z",
         "fetchedAt": "2026-10-03T05:00:10.443Z"
       }
+    },
+    {
+      "id": "getzep-graphiti",
+      "name": "graphiti",
+      "description": "AI 에이전트를 위한 실시간 지식 그래프(temporal knowledge graph) 구축 프레임워크. 시간에 따라 진화하는 관계를 추적하며 에이전트의 장기 메모리·GraphRAG 검색 백엔드로 사용됩니다.",
+      "categoryId": "memory-knowledge",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/getzep/graphiti",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "graph",
+        "llms",
+        "rag"
+      ],
+      "meta": {
+        "stars": 31392,
+        "forks": 3222,
+        "lastUpdated": "2026-10-03T04:50:22Z",
+        "lastCommit": "2026-10-02T16:30:54Z",
+        "fetchedAt": "2026-10-03T05:07:27.632Z"
+      }
     }
   ]
 }

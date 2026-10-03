@@ -58,6 +58,7 @@ body:
         - "vision-model (비전 모델)"
         - "embedding-model (임베딩 모델)"
         - "multimodal (멀티모달 모델)"
+        - "time-series-model (시계열 모델)"
         # 모델 개발/학습 및 추론
         - "feature-store (피처 스토어)"
         - "experiment-tracking (실험 추적 및 버전 관리)"

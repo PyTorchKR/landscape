@@ -1,5 +1,5 @@
 // Shared treemap color utilities
-// Used by both aitechmap (TreemapLandscape) and oss-landscape (TreemapView)
+// Used by both aitechmap (TreemapLandscape) and landscape (TreemapView)
 
 export const moduleColors: Record<string, string> = {
     'infra-computing': '#9C1F1F',

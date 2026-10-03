@@ -878,6 +878,32 @@
         "lastCommit": "2026-09-29T06:15:10Z",
         "fetchedAt": "2026-10-03T04:26:34.032Z"
       }
+    },
+    {
+      "id": "intelligent-internet-ii-agent",
+      "name": "ii-agent",
+      "description": "지능형 에이전트를 구축하고 배포하기 위한 오픈소스 프레임워크로, 웹 검색·코드 실행·파일 처리 등 다양한 도구를 활용해 복잡한 작업을 자율적으로 수행하는 에이전트를 만들 수 있습니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Intelligent-Internet/ii-agent",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "ai-agent",
+        "ai-agent-framework",
+        "llm",
+        "manus"
+      ],
+      "meta": {
+        "stars": 3391,
+        "forks": 528,
+        "lastUpdated": "2026-10-02T15:14:38Z",
+        "lastCommit": "2026-08-16T15:45:25Z",
+        "fetchedAt": "2026-10-03T04:52:38.181Z"
+      }
     }
   ]
 }

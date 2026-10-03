@@ -1,5 +1,7 @@
 # Opensource AI Landscape
 
+🗺️ **https://landscape.pytorch.kr**
+
 ## 소개
 
 Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈에 살펴볼 수 있는 인터랙티브 시각화 도구입니다.
@@ -15,12 +17,72 @@ Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈�
 
 ## 프로젝트 추가 요청
 
-AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [이슈를 생성](https://github.com/PyTorchKorea/oss-landscape/issues/new?template=add-project.yml)해 주세요.
-승인 권한을 가진 관리자가 `/approve` 댓글을 입력하면 자동으로 추가됩니다.
+AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝트 추가 요청 이슈](https://github.com/PyTorchKR/landscape/issues/new?template=add-project.yml)를 생성해 주세요.
+저장소 URL, 모듈, 카테고리를 선택하면 관리자가 검토한 뒤 아래 명령어로 등재합니다.
+
+## 관리자 명령어
+
+`add-project` 라벨이 붙은 이슈에 저장소 OWNER / MEMBER / COLLABORATOR가 댓글을 남기면 동작합니다.
+명령어는 **댓글의 첫 줄 맨 앞**에 있어야 하며, 본문 중간에 언급된 `/approve`는 무시됩니다.
+
+| 명령어 | 동작 |
+|---|---|
+| `/approve` | 이슈 본문의 저장소 URL, 모듈, 카테고리 그대로 등재 |
+| `/approve <moduleId> <categoryId>` | 저장소 URL은 이슈 본문에서 읽고, 분류만 지정한 값으로 바꿔 등재 |
+| `/approve <owner/repo> <moduleId> <categoryId>` | 저장소와 분류를 모두 지정해 등재 (이슈 본문 형식과 무관) |
+
+```text
+/approve
+/approve platform-mlops memory-knowledge
+/approve getzep/graphiti platform-mlops memory-knowledge
+```
+
+명령이 성공하면 다음 순서로 처리됩니다.
+
+1. GitHub API로 저장소 정보(Stars, 라이선스, 최근 커밋 등)를 조회해 `data/tools/<moduleId>/tools.json`과 `data/categories/index.json`에 추가
+2. `main`에 커밋 (`feat: add <url> (closes #N)`)
+3. 이슈에 결과 댓글을 남기고 이슈를 닫음
+4. Build & Deploy를 실행해 사이트에 바로 반영
+
+실패하면 이슈에 워크플로 로그 링크가 달립니다. 흔한 원인은 이미 등록된 프로젝트, 모듈과 카테고리 불일치, 비공개 또는 존재하지 않는 저장소입니다.
+모듈 ID와 카테고리 ID는 [`data/modules/index.json`](data/modules/index.json), [`data/categories/index.json`](data/categories/index.json)에서 확인할 수 있습니다.
+
+### 사이트 다시 빌드하기
+
+Build & Deploy는 `main`에 push될 때와 매일 KST 03:00에 자동 실행되며, 이때 모든 프로젝트의 Stars 정보도 갱신합니다.
+수동으로 실행하려면 Actions 탭에서 **Build & Deploy → Run workflow**를 누르거나 다음 명령을 사용합니다.
+
+```bash
+gh workflow run daily-update.yml -R PyTorchKR/landscape
+```
 
 ## 개발 및 기여
 
+[pnpm](https://pnpm.io) 9.15.9를 사용합니다(`package.json`의 `packageManager`). Node.js 22 이상과 Corepack을 권장합니다.
+
 ```bash
-npm install
-npm run dev
+corepack enable
+pnpm install
+pnpm dev
 ```
+
+| 명령어 | 설명 |
+|---|---|
+| `pnpm dev` | 로컬 개발 서버 실행 |
+| `pnpm build` | 타입 검사 후 `dist/`로 프로덕션 빌드 |
+| `pnpm preview` | 빌드 결과 미리보기 |
+| `GITHUB_TOKEN=... pnpm update-stars` | 등록된 모든 프로젝트의 Stars, Forks, 최근 커밋 정보 갱신 |
+| `GITHUB_TOKEN=... pnpm add-tool -- --github-url <url> --module-id <id> --category-id <id> [--description <text>]` | 프로젝트 1개를 로컬에서 직접 추가 (`/approve`가 내부적으로 사용) |
+
+### 데이터 구조
+
+```text
+data/
+├── modules/index.json        # 7개 모듈과 모듈별 카테고리 목록
+├── categories/index.json     # 카테고리 정의와 카테고리별 프로젝트 ID 목록
+└── tools/<moduleId>/tools.json  # 모듈별 프로젝트 데이터
+```
+
+## 라이선스
+
+[MIT](LICENSE)

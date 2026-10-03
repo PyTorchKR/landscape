@@ -93,12 +93,19 @@ async function buildHuggingFaceTool(url: string, args: Args): Promise<Tool | nul
   const ref = parseHuggingFaceUrl(url)
   if (!ref) return null
 
+  // Model and dataset cards have no short description field, so the issue must provide one.
+  if (!args.description && ref.kind !== 'collections') {
+    console.error('A description is required for HuggingFace models and datasets (설명 (선택) 항목을 채워 주세요)')
+    process.exit(1)
+  }
+
   console.log(`Fetching HuggingFace ${ref.kind}: ${ref.owner}/${ref.name}...`)
   const info = await fetchHuggingFace(ref)
   const now = new Date().toISOString()
 
   return {
-    id: slugify(`hf-${ref.owner}-${ref.name}`),
+    // Keep the kind in the id so a model and a dataset with the same name do not collide
+    id: slugify(`hf-${ref.kind === 'models' ? '' : `${ref.kind.slice(0, -1)}-`}${ref.owner}-${ref.name}`),
     name: info.name,
     description: args.description ?? info.description,
     categoryId: args.categoryId,

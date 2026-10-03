@@ -171,8 +171,15 @@ interface Props {
 
 // Korean projects are small next to global ones (median well under 1k stars),
 // so the Korea tab sizes cells on a log scale to keep every project readable.
-const cellSize = (tool: Tool, scope: Scope): number =>
-  scope === 'kr' ? 1 + Math.log10(1 + popularity(tool)) : popularity(tool) || 100
+// In the all tab, 'Highlight Korea' gives each Korean cell at least
+// KR_MIN_SHARE of the total area so its name and KR badge fit.
+const KR_MIN_SHARE = 0.0008
+
+const cellSize = (tool: Tool, scope: Scope, krFloor: number): number => {
+  if (scope === 'kr') return 1 + Math.log10(1 + popularity(tool))
+  const size = Math.max(popularity(tool), 100)
+  return isKorean(tool) ? Math.max(size, krFloor) : size
+}
 
 export default function TreemapView({ modules, categories, tools, searchQuery, selectedModules, scope, highlightKr, locale, t }: Props) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null)
@@ -184,6 +191,9 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
 
   const treemapData = useMemo(() => {
     const q = searchQuery.toLowerCase()
+    const krFloor = highlightKr
+      ? tools.reduce((sum, tool) => sum + cellSize(tool, scope, 0), 0) * KR_MIN_SHARE
+      : 0
 
     return filteredModules
       .slice()
@@ -211,7 +221,7 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
               moduleId: module.id,
               children: categoryTools.map(tool => ({
                 name: tool.name,
-                size: cellSize(tool, scope),
+                size: cellSize(tool, scope, krFloor),
                 moduleId: module.id,
                 toolId: tool.id,
                 lastUpdated: tool.meta?.lastCommit ?? tool.meta?.lastUpdated,

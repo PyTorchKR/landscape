@@ -43,8 +43,8 @@ AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝�
 명령이 성공하면 다음 순서로 처리됩니다.
 
 1. GitHub API로 저장소 정보(Stars, 라이선스, 최근 커밋 등)를 조회해 `data/tools/<moduleId>/tools.json`과 `data/categories/index.json`에 추가
-   - HuggingFace에만 공개된 모델·데이터셋·컬렉션은 저장소 URL 자리에 HuggingFace URL을 넣으면 됩니다. 이때는 Stars 대신 Likes와 Downloads를 저장합니다.
-   - 이슈에 `Korea` 라벨이 붙어 있으면 `region: "KR"`을 함께 저장해 국내 탭에 표시합니다.
+   - HuggingFace에만 공개된 모델·데이터셋·컬렉션은 저장소 URL 자리에 HuggingFace URL을 넣으면 됩니다. 이때는 Stars 대신 Likes와 Downloads를 저장합니다. 모델·데이터셋은 HuggingFace에 짧은 설명 필드가 없어 이슈의 설명이 필요합니다. `/approve <owner/repo> ...` 형식은 GitHub 저장소에만 쓸 수 있습니다.
+   - 관리자가 이슈에 `Korea` 라벨을 붙이면 `region: "KR"`을 함께 저장해 국내 탭에 표시합니다.
 2. `main`에 커밋 (`feat: add <url> (closes #N)`)
 3. 이슈에 결과 댓글을 남기고 이슈를 닫음
 4. Build & Deploy를 실행해 사이트에 바로 반영

@@ -13,7 +13,7 @@ body:
     id: github_url
     attributes:
       label: "GitHub 저장소 URL"
-      description: "추가할 GitHub 저장소의 URL을 입력하세요. HuggingFace에만 공개된 모델이나 데이터셋은 HuggingFace URL을 입력해도 됩니다"
+      description: "추가할 GitHub 저장소의 URL을 입력하세요. HuggingFace에만 공개된 모델이나 데이터셋은 HuggingFace URL을 입력해도 됩니다 (이때는 아래 설명을 꼭 채워 주세요)"
       placeholder: "https://github.com/owner/repo"
     validations:
       required: true
@@ -113,7 +113,7 @@ body:
       options:
         - label: "AI와 직접 관련된 오픈소스 프로젝트입니다"
           required: true
-        - label: "GitHub 저장소가 공개(public) 상태입니다"
+        - label: "GitHub 저장소(또는 HuggingFace 페이지)가 공개(public) 상태입니다"
           required: true
         - label: "위에서 선택한 분류가 적절합니다"
           required: true

@@ -2053,6 +2053,32 @@
         "lastCommit": "2026-09-30T08:13:41Z",
         "fetchedAt": "2026-10-03T02:57:49.295Z"
       }
+    },
+    {
+      "id": "pymc-devs-pymc",
+      "name": "pymc",
+      "description": "Python 기반 베이지안 모델링·확률적 프로그래밍(probabilistic programming) 프레임워크 PyMC. MCMC(NUTS 등)와 변분추론(VI)을 통해 베이지안 통계 모델을 정의·추론할 수 있으며, 계층 모델·회귀·시계열 등 다양한 확률 모델링과 불확실성 정량화를 지원합니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/pymc-devs/pymc",
+      "koreanSupport": false,
+      "tags": [
+        "bayesian-inference",
+        "mcmc",
+        "probabilistic-programming",
+        "pytensor",
+        "python",
+        "statistical-analysis",
+        "variational-inference"
+      ],
+      "meta": {
+        "stars": 9790,
+        "forks": 2316,
+        "lastUpdated": "2026-10-02T12:10:21Z",
+        "lastCommit": "2026-10-02T12:10:16Z",
+        "fetchedAt": "2026-10-03T05:50:02.372Z"
+      }
     }
   ]
 }

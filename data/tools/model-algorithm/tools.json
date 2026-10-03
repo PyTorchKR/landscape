@@ -1036,6 +1036,45 @@
         "lastCommit": "2026-06-29T19:22:15Z",
         "fetchedAt": "2026-06-29T20:05:22.585475Z"
       }
+    },
+    {
+      "id": "isl-org-open3d",
+      "name": "Open3D",
+      "description": "3D 데이터 처리를 위한 현대적 오픈소스 라이브러리 Open3D(Intel ISL). 포인트 클라우드·메시·복셀 처리, 3D 재구성·정합(registration)·시각화와 함께 3D 딥러닝 모듈(Open3D-ML)을 제공하여, 3D 비전·인식·로보틱스 연구·개발을 지원합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/isl-org/Open3D",
+      "koreanSupport": false,
+      "tags": [
+        "3d",
+        "3d-perception",
+        "arm",
+        "computer-graphics",
+        "cpp",
+        "cuda",
+        "gpu",
+        "gui",
+        "machine-learning",
+        "mesh-processing",
+        "odometry",
+        "opengl",
+        "pointcloud",
+        "python",
+        "pytorch",
+        "reconstruction",
+        "registration",
+        "rendering",
+        "tensorflow",
+        "visualization"
+      ],
+      "meta": {
+        "stars": 14024,
+        "forks": 2627,
+        "lastUpdated": "2026-10-02T23:40:38Z",
+        "lastCommit": "2026-09-30T10:06:02Z",
+        "fetchedAt": "2026-10-03T05:26:20.841Z"
+      }
     }
   ]
 }

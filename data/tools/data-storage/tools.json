@@ -872,6 +872,31 @@
         "lastCommit": "2026-10-03T01:20:08Z",
         "fetchedAt": "2026-10-03T04:38:11.573Z"
       }
+    },
+    {
+      "id": "microsoft-sptag",
+      "name": "SPTAG",
+      "description": "Microsoft가 개발한 분산 근사 최근접 이웃(ANN) 검색 라이브러리. 대규모 벡터 검색 시나리오를 위한 고품질 벡터 인덱스 빌드·검색 및 분산 온라인 서빙 툴킷을 제공함.",
+      "categoryId": "vector-db",
+      "moduleId": "data-storage",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/SPTAG",
+      "koreanSupport": false,
+      "tags": [
+        "approximate-nearest-neighbor-search",
+        "distributed-serving",
+        "fresh-update",
+        "neighborhood-graph",
+        "space-partition-tree",
+        "vector-search"
+      ],
+      "meta": {
+        "stars": 5021,
+        "forks": 621,
+        "lastUpdated": "2026-10-01T05:32:59Z",
+        "lastCommit": "2026-09-29T11:30:14Z",
+        "fetchedAt": "2026-10-03T04:48:26.435Z"
+      }
     }
   ]
 }

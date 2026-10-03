@@ -77,7 +77,8 @@
         "faiss",
         "pgvector",
         "lancedb",
-        "microsoft-diskann"
+        "microsoft-diskann",
+        "microsoft-sptag"
       ]
     },
     {

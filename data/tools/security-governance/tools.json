@@ -636,6 +636,24 @@
         "lastCommit": "2026-05-31T18:56:51Z",
         "fetchedAt": "2026-06-01T03:23:57.552Z"
       }
+    },
+    {
+      "id": "noamgat-lm-format-enforcer",
+      "name": "lm-format-enforcer",
+      "description": "언어 모델의 출력 형식(JSON Schema, 정규식 등)을 추론 시점에 강제하는 라이브러리. 토큰 단위 필터링으로 문법/스키마를 준수하는 출력만 생성하도록 보장하며 Transformers, vLLM, llama.cpp 등 다양한 백엔드와 통합된다.",
+      "categoryId": "guardrails",
+      "moduleId": "security-governance",
+      "license": "MIT",
+      "githubUrl": "https://github.com/noamgat/lm-format-enforcer",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 2042,
+        "forks": 94,
+        "lastUpdated": "2026-09-28T09:45:21Z",
+        "lastCommit": "2026-04-04T14:57:50Z",
+        "fetchedAt": "2026-10-03T02:14:57.251Z"
+      }
     }
   ]
 }

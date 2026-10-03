@@ -854,6 +854,30 @@
         "lastCommit": "2026-10-01T19:33:35Z",
         "fetchedAt": "2026-10-03T04:11:39.871Z"
       }
+    },
+    {
+      "id": "tauricresearch-tradingagents",
+      "name": "TradingAgents",
+      "description": "LLM 기반 멀티에이전트 금융 트레이딩 프레임워크. 펀더멘털·심리·기술·리스크 분석가 등 역할별 에이전트가 협업·토론하여 트레이딩 의사결정을 내리는 금융 도메인 특화 솔루션이다.",
+      "categoryId": "industry-solutions",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/TauricResearch/TradingAgents",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "meta": {
+        "stars": 109548,
+        "forks": 21053,
+        "lastUpdated": "2026-10-03T04:08:15Z",
+        "lastCommit": "2026-09-29T06:15:10Z",
+        "fetchedAt": "2026-10-03T04:26:34.032Z"
+      }
     }
   ]
 }

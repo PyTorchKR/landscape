@@ -93,7 +93,7 @@ function TreemapContent(props: ContentProps) {
     const fontSize = Math.min(18, Math.max(8, Math.floor(Math.sqrt(area) / 7)))
     const showName = width > 20 && height > 10
     const showKr = markKr && kr
-    const showBadge = showKr && width >= 28 && height >= 18
+    const showBadge = showKr && width >= 28 && height >= 30
 
     return (
       <g
@@ -173,7 +173,7 @@ interface Props {
 // so the Korea tab sizes cells on a log scale to keep every project readable.
 // In the all tab, 'Highlight Korea' gives each Korean cell at least
 // KR_MIN_SHARE of the total area so its name and KR badge fit.
-const KR_MIN_SHARE = 0.0008
+const KR_MIN_SHARE = 0.0012
 
 const cellSize = (tool: Tool, scope: Scope, krFloor: number): number => {
   if (scope === 'kr') return 1 + Math.log10(1 + popularity(tool))

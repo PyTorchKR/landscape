@@ -1028,6 +1028,41 @@
         "lastCommit": "2026-09-30T22:04:42Z",
         "fetchedAt": "2026-10-03T06:03:44.919Z"
       }
+    },
+    {
+      "id": "agentscope-ai-qwenpaw",
+      "name": "QwenPaw",
+      "description": "개인용 AI 어시스턴트(구 CoPaw, 현 QwenPaw, AgentScope). 설치·배포가 간편하며 로컬 머신 또는 클라우드에 운영할 수 있고, 여러 채팅 앱을 지원하며 손쉽게 확장 가능한 기능(스킬)을 제공하는 셀프호스팅 대화형 AI 비서입니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/agentscope-ai/QwenPaw",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agent-harness",
+        "agentscope",
+        "ai-agent",
+        "ai-agents",
+        "chatbot",
+        "harness-engineering",
+        "llm-tools",
+        "llms",
+        "loop-engineering",
+        "mcp",
+        "personal-ai-assistant",
+        "self-hosted",
+        "skills",
+        "super-agent",
+        "webui"
+      ],
+      "meta": {
+        "stars": 35417,
+        "forks": 3154,
+        "lastUpdated": "2026-10-03T04:56:25Z",
+        "lastCommit": "2026-09-30T08:35:50Z",
+        "fetchedAt": "2026-10-03T06:18:30.297Z"
+      }
     }
   ]
 }

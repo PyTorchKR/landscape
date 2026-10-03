@@ -1645,6 +1645,32 @@
         "lastCommit": "2026-10-03T00:42:48Z",
         "fetchedAt": "2026-10-03T05:11:33.333Z"
       }
+    },
+    {
+      "id": "mirascope-mirascope",
+      "name": "mirascope",
+      "description": "LLM 애플리케이션을 파이썬스럽게 구축하기 위한 라이브러리 Mirascope(\"The LLM Anti-Framework\"). 프롬프트·구조화 출력·도구 호출을 표준 Python 함수와 타입으로 다루며 다양한 LLM 제공자를 지원합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/Mirascope/mirascope",
+      "koreanSupport": false,
+      "tags": [
+        "artificial-intelligence",
+        "developer-tools",
+        "llm",
+        "llm-agent",
+        "llm-tools",
+        "python",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 1530,
+        "forks": 128,
+        "lastUpdated": "2026-10-01T18:18:35Z",
+        "lastCommit": "2026-10-01T18:18:30Z",
+        "fetchedAt": "2026-10-03T06:52:31.445Z"
+      }
     }
   ]
 }

@@ -854,6 +854,24 @@
         "lastCommit": "2026-10-02T18:16:38Z",
         "fetchedAt": "2026-10-03T03:21:19.893Z"
       }
+    },
+    {
+      "id": "microsoft-diskann",
+      "name": "DiskANN",
+      "description": "Microsoft가 개발한 벡터 인덱싱 라이브러리. 디스크 기반 그래프 인덱스로 대규모 데이터셋에서도 빠르고 최신성·필터링을 지원하는 근사 최근접 이웃(ANN) 검색을 데이터베이스에 제공함.",
+      "categoryId": "vector-db",
+      "moduleId": "data-storage",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/DiskANN",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1936,
+        "forks": 457,
+        "lastUpdated": "2026-10-02T15:24:21Z",
+        "lastCommit": "2026-10-03T01:20:08Z",
+        "fetchedAt": "2026-10-03T04:38:11.573Z"
+      }
     }
   ]
 }

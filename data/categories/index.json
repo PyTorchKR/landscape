@@ -76,7 +76,8 @@
         "weaviate",
         "faiss",
         "pgvector",
-        "lancedb"
+        "lancedb",
+        "microsoft-diskann"
       ]
     },
     {

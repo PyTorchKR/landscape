@@ -959,6 +959,44 @@
         "lastCommit": "2026-10-03T01:02:44Z",
         "fetchedAt": "2026-10-03T05:39:23.340Z"
       }
+    },
+    {
+      "id": "chatgptnextweb-nextchat",
+      "name": "NextChat",
+      "description": "가볍고 빠른 크로스플랫폼 AI 어시스턴트 NextChat(구 ChatGPT-Next-Web). 웹·iOS·macOS·Android·Linux·Windows에서 동작하며, OpenAI 등 여러 LLM 백엔드를 연결해 셀프호스팅 가능한 대화형 AI 챗 클라이언트를 제공합니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/ChatGPTNextWeb/NextChat",
+      "koreanSupport": false,
+      "tags": [
+        "calclaude",
+        "chatgpt",
+        "claude",
+        "cross-platform",
+        "desktop",
+        "fe",
+        "gemini",
+        "gemini-pro",
+        "gemini-server",
+        "gemini-ultra",
+        "gpt-4o",
+        "groq",
+        "nextjs",
+        "ollama",
+        "react",
+        "tauri",
+        "tauri-app",
+        "vercel",
+        "webui"
+      ],
+      "meta": {
+        "stars": 88821,
+        "forks": 58930,
+        "lastUpdated": "2026-10-03T04:59:24Z",
+        "lastCommit": "2026-08-11T02:07:25Z",
+        "fetchedAt": "2026-10-03T05:52:50.214Z"
+      }
     }
   ]
 }

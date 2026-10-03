@@ -7,8 +7,6 @@ on:
     # KST 03:00 (UTC 18:00 previous day)
     - cron: '0 18 * * *'
   workflow_dispatch:
-  issue_comment:
-    types: [created]
 
 permissions:
   contents: write
@@ -21,17 +19,6 @@ concurrency:
 
 jobs:
   update-and-build:
-    if: |
-      github.event_name != 'issue_comment' ||
-      (
-        github.event.issue.pull_request == null &&
-        contains(github.event.comment.body, '/rebuild') &&
-        (
-          github.event.comment.author_association == 'OWNER' ||
-          github.event.comment.author_association == 'MEMBER' ||
-          github.event.comment.author_association == 'COLLABORATOR'
-        )
-      )
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

@@ -8,17 +8,15 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
-
-concurrency:
-  group: "add-project"
-  cancel-in-progress: false
+  actions: write
 
 jobs:
   add-project:
-    # Only run on issue comments (not PR comments) that contain /approve
+    # Only run on issue comments (not PR comments) that start with /approve.
+    # A review comment that merely mentions `/approve` must not trigger ingestion.
     if: |
       github.event.issue.pull_request == null &&
-      contains(github.event.comment.body, '/approve') &&
+      startsWith(github.event.comment.body, '/approve') &&
       contains(github.event.issue.labels.*.name, 'add-project') &&
       (
         github.event.comment.author_association == 'OWNER' ||
@@ -26,10 +24,22 @@ jobs:
         github.event.comment.author_association == 'COLLABORATOR'
       )
 
+    # Job-level so skipped runs (comments without /approve) never enter the group.
+    # A shared workflow-level group kept only one pending run and cancelled the rest
+    # when several issues were approved in a burst.
+    concurrency:
+      group: add-project-${{ github.event.issue.number }}
+      cancel-in-progress: false
+
     runs-on: ubuntu-latest
 
     steps:
+      # issue_comment checks out the default-branch SHA at comment time, which may
+      # already be stale; always start from the latest main.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
         with:
@@ -77,15 +87,15 @@ jobs:
             //   /approve <owner/repo> <moduleId> <categoryId>   ← full override (works with any body format)
             //   /approve <moduleId> <categoryId>                ← module/category override (URL still from body)
             //   /approve                                        ← no override
-            const commentBody = context.payload.comment.body ?? ''
-            const threeArg = commentBody.match(/\/approve\s+([\w.-]+\/[\w.-]+)\s+(\S+)\s+(\S+)/)
+            const commentBody = (context.payload.comment.body ?? '').trim().split('\n')[0]
+            const threeArg = commentBody.match(/^\/approve\s+([\w.-]+\/[\w.-]+)\s+(\S+)\s+(\S+)/)
             if (threeArg) {
               githubUrl = `https://github.com/${threeArg[1]}`
               moduleId = threeArg[2]
               categoryId = threeArg[3]
               core.info(`전체 오버라이드: ${githubUrl} | ${moduleId} → ${categoryId}`)
             } else {
-              const twoArg = commentBody.match(/\/approve\s+(\S+)\s+(\S+)/)
+              const twoArg = commentBody.match(/^\/approve\s+(\S+)\s+(\S+)/)
               if (twoArg) {
                 moduleId = twoArg[1]
                 categoryId = twoArg[2]
@@ -105,12 +115,15 @@ jobs:
 
       - name: Validate module-category mapping
         uses: actions/github-script@v7
+        env:
+          MODULE_ID: ${{ steps.parse.outputs.module_id }}
+          CATEGORY_ID: ${{ steps.parse.outputs.category_id }}
         with:
           script: |
             const fs = require('fs')
             const modules = JSON.parse(fs.readFileSync('data/modules/index.json', 'utf8'))
-            const moduleId = '${{ steps.parse.outputs.module_id }}'
-            const categoryId = '${{ steps.parse.outputs.category_id }}'
+            const moduleId = process.env.MODULE_ID
+            const categoryId = process.env.CATEGORY_ID
 
             const mod = modules.modules.find(m => m.id === moduleId)
             if (!mod) {
@@ -123,28 +136,45 @@ jobs:
             }
             core.info(`${moduleId} -> ${categoryId} 매핑 확인 완료`)
 
-      - name: Add tool to JSON
-        id: add_tool
+      - name: Add tool, commit and push
         run: |
           ARGS=(--github-url "$TOOL_GITHUB_URL" --module-id "$TOOL_MODULE_ID" --category-id "$TOOL_CATEGORY_ID")
           if [ -n "$TOOL_DESCRIPTION" ]; then
             ARGS+=(--description "$TOOL_DESCRIPTION")
           fi
-          pnpm run add-tool -- "${ARGS[@]}"
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          BRANCH="${{ github.event.repository.default_branch }}"
+
+          # Another approval may push between our checkout and push. Re-apply the
+          # addition on top of the latest main and retry instead of failing.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+            pnpm run add-tool -- "${ARGS[@]}"
+            git add data
+            git commit -m "feat: add $TOOL_GITHUB_URL (closes #$ISSUE_NUMBER)"
+            if git push origin "HEAD:$BRANCH"; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); retrying on latest $BRANCH"
+            sleep $((attempt * 5))
+          done
+          echo "Failed to push after 5 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
           TOOL_GITHUB_URL: ${{ steps.parse.outputs.github_url }}
           TOOL_MODULE_ID: ${{ steps.parse.outputs.module_id }}
           TOOL_CATEGORY_ID: ${{ steps.parse.outputs.category_id }}
           TOOL_DESCRIPTION: ${{ steps.parse.outputs.description }}
 
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "feat: add ${{ steps.parse.outputs.github_url }} (closes #${{ github.event.issue.number }})"
-          file_pattern: 'data/**/*.json'
-          commit_user_name: 'github-actions[bot]'
-          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+      # Pushes made with GITHUB_TOKEN do not trigger `push` workflows, so deploy explicitly.
+      - name: Trigger Build & Deploy
+        run: gh workflow run daily-update.yml --ref "${{ github.event.repository.default_branch }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment success on issue
         if: success()
@@ -159,7 +189,7 @@ jobs:
                     `- **GitHub URL**: ${{ steps.parse.outputs.github_url }}\n` +
                     `- **모듈**: ${{ steps.parse.outputs.module_id }}\n` +
                     `- **카테고리**: ${{ steps.parse.outputs.category_id }}\n\n` +
-                    `다음 빌드 시 [OSS Landscape](https://oss-landscape.pytorch.kr)에 반영됩니다.`
+                    `곧 배포되어 [OSS Landscape](https://oss-landscape.pytorch.kr)에 반영됩니다.`
             })
             // Only attempt to close the issue if it is still open.
             // Retried /approve comments on an already-closed issue would otherwise

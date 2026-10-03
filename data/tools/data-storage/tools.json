@@ -817,6 +817,43 @@
         "lastCommit": "2026-02-10T20:52:42Z",
         "fetchedAt": "2026-10-03T03:10:01.699Z"
       }
+    },
+    {
+      "id": "ibis-project-ibis",
+      "name": "ibis",
+      "description": "DuckDB·BigQuery·Snowflake·Spark 등 20여 종 백엔드를 단일 파이썬 API로 다루는 이식형 데이터프레임/쿼리 라이브러리로, 동일 코드로 다양한 엔진에서 데이터 변환·분석을 수행할 수 있게 합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ibis-project/ibis",
+      "koreanSupport": false,
+      "tags": [
+        "bigquery",
+        "clickhouse",
+        "database",
+        "datafusion",
+        "duckdb",
+        "impala",
+        "mssql",
+        "mysql",
+        "pandas",
+        "polars",
+        "postgresql",
+        "pyarrow",
+        "pyspark",
+        "python",
+        "snowflake",
+        "sql",
+        "sqlite",
+        "trino"
+      ],
+      "meta": {
+        "stars": 6671,
+        "forks": 769,
+        "lastUpdated": "2026-10-02T18:14:22Z",
+        "lastCommit": "2026-10-02T18:16:38Z",
+        "fetchedAt": "2026-10-03T03:21:19.893Z"
+      }
     }
   ]
 }

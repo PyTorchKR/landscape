@@ -165,7 +165,8 @@
         "apache-beam",
         "apache-nifi",
         "meta-pytorch-data",
-        "modin-project-modin"
+        "modin-project-modin",
+        "ibis-project-ibis"
       ]
     },
     {

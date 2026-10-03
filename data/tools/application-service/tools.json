@@ -1096,6 +1096,37 @@
         "lastCommit": "2026-10-03T05:33:53Z",
         "fetchedAt": "2026-10-03T06:31:41.083Z"
       }
+    },
+    {
+      "id": "chatboxai-chatbox",
+      "name": "chatbox",
+      "description": "강력한 크로스플랫폼 AI 클라이언트 Chatbox. 데스크톱(Windows·macOS·Linux)·모바일·웹에서 동작하며, OpenAI·Claude·Gemini·로컬 모델(Ollama) 등 다양한 LLM을 연결해 대화·아티팩트·이미지 생성·파일 입력 등을 지원하는 셀프호스팅 AI 챗 앱입니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "GPL-3.0",
+      "githubUrl": "https://github.com/chatboxai/chatbox",
+      "koreanSupport": false,
+      "tags": [
+        "assistant",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "copilot",
+        "deepseek",
+        "gemini",
+        "gpt",
+        "gpt-5",
+        "ollama",
+        "openai"
+      ],
+      "meta": {
+        "stars": 41931,
+        "forks": 4269,
+        "lastUpdated": "2026-10-03T03:40:02Z",
+        "lastCommit": "2026-09-24T14:09:13Z",
+        "fetchedAt": "2026-10-03T06:42:18.520Z"
+      }
     }
   ]
 }

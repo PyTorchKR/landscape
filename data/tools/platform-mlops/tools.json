@@ -1548,6 +1548,42 @@
         "lastCommit": "2026-10-02T22:44:03Z",
         "fetchedAt": "2026-10-03T04:37:42.603Z"
       }
+    },
+    {
+      "id": "openbmb-ultrarag",
+      "name": "UltraRAG",
+      "description": "복잡하고 혁신적인 RAG 파이프라인을 구축하기 위한 로우코드(Low-Code) MCP 프레임워크. MCP 기반 모듈 조합으로 검색·재순위·생성 등 다단계 RAG 워크플로우를 코드 최소화로 설계·실험할 수 있게 함.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/OpenBMB/UltraRAG",
+      "koreanSupport": false,
+      "tags": [
+        "deepseek",
+        "demo",
+        "easy",
+        "embedding",
+        "flask",
+        "gpt",
+        "huggingface-transformers",
+        "llm",
+        "mcp",
+        "multimodal",
+        "openai",
+        "qwen",
+        "rag",
+        "sentence-transformers",
+        "ui",
+        "vllm",
+        "vlm"
+      ],
+      "meta": {
+        "stars": 5710,
+        "forks": 449,
+        "lastUpdated": "2026-10-02T18:36:46Z",
+        "lastCommit": "2026-10-01T17:20:20Z",
+        "fetchedAt": "2026-10-03T05:00:10.443Z"
+      }
     }
   ]
 }

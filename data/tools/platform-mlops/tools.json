@@ -1516,6 +1516,38 @@
         "lastCommit": "2026-10-03T03:17:51Z",
         "fetchedAt": "2026-10-03T04:21:48.827Z"
       }
+    },
+    {
+      "id": "activepieces-activepieces",
+      "name": "activepieces",
+      "description": "AI 에이전트·MCP·워크플로우 자동화 플랫폼. 약 400개의 MCP 서버와 통합되어 LLM 에이전트가 도구를 사용하도록 하며, 노코드/로우코드 비주얼 빌더로 AI 자동화 워크플로우를 구성·배포한다(오픈소스 Zapier 대안).",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/activepieces/activepieces",
+      "koreanSupport": false,
+      "tags": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "mcps",
+        "n8n-alternative",
+        "no-code-automation",
+        "workflow",
+        "workflow-automation",
+        "workflows"
+      ],
+      "meta": {
+        "stars": 24862,
+        "forks": 4288,
+        "lastUpdated": "2026-10-03T02:30:27Z",
+        "lastCommit": "2026-10-02T22:44:03Z",
+        "fetchedAt": "2026-10-03T04:37:42.603Z"
+      }
     }
   ]
 }

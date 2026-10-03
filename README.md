@@ -2,6 +2,8 @@
 
 🗺️ **https://landscape.pytorch.kr**
 
+[![Opensource AI Landscape (English, Treemap view)](docs/images/screenshot-en.png)](https://landscape.pytorch.kr)
+
 ## 소개
 
 Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈에 살펴볼 수 있는 인터랙티브 시각화 도구입니다.

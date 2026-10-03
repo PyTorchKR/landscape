@@ -3,6 +3,7 @@ import ModuleSection from './ModuleSection'
 import type { Tool, Module, Category, ModuleWithCategories } from '../types'
 import type { Translations } from '../i18n/translations'
 import type { ResolvedTheme } from '../theme/useTheme'
+import { popularity } from '../utils/toolInfo'
 
 interface LandscapeGridProps {
   modules: Module[]
@@ -10,6 +11,8 @@ interface LandscapeGridProps {
   tools: Tool[]
   searchQuery: string
   selectedModules: Set<string>
+  markKr: boolean
+  highlightKr: boolean
   t: Translations
   resolvedTheme: ResolvedTheme
 }
@@ -20,6 +23,8 @@ export default function LandscapeGrid({
   tools,
   searchQuery,
   selectedModules,
+  markKr,
+  highlightKr,
   t,
   resolvedTheme,
 }: LandscapeGridProps) {
@@ -45,7 +50,7 @@ export default function LandscapeGrid({
                   t.tags.some((tag) => tag.toLowerCase().includes(query)),
               )
               .slice()
-              .sort((a, b) => (b.meta?.stars ?? 0) - (a.meta?.stars ?? 0))
+              .sort((a, b) => popularity(b) - popularity(a))
 
             return { ...category, toolItems }
           })
@@ -73,6 +78,8 @@ export default function LandscapeGrid({
           key={module.id}
           module={module}
           dimmed={!selectedModules.has(module.id)}
+          markKr={markKr}
+          highlightKr={highlightKr}
           t={t}
           resolvedTheme={resolvedTheme}
         />

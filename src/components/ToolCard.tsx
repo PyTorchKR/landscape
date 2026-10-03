@@ -1,4 +1,5 @@
 import type { Tool } from '../types'
+import { isKorean, isHuggingFace, popularity, primaryUrl } from '../utils/toolInfo'
 
 type SizeTier = 'lg' | 'md' | 'sm'
 
@@ -34,27 +35,40 @@ const tierStyles: Record<SizeTier, { card: string; avatar: string; name: string 
 
 interface ToolCardProps {
   tool: Tool
+  markKr: boolean
+  highlightKr: boolean
 }
 
-export default function ToolCard({ tool }: ToolCardProps) {
+export default function ToolCard({ tool, markKr, highlightKr }: ToolCardProps) {
   const tier = getStarTier(tool.meta?.stars)
   const styles = tierStyles[tier]
   const firstLetter = tool.name.charAt(0).toUpperCase()
+  const url = primaryUrl(tool)
+  const hf = isHuggingFace(tool)
+  const kr = isKorean(tool)
+  const score = popularity(tool)
+  const scoreIcon = hf ? '🤗' : '⭐'
 
   function handleClick() {
-    if (tool.githubUrl) {
-      window.open(tool.githubUrl, '_blank', 'noopener,noreferrer')
+    if (url) {
+      window.open(url, '_blank', 'noopener,noreferrer')
     }
   }
 
   return (
-    <div className="relative group">
+    <div className="relative group" style={{ opacity: highlightKr && !kr ? 0.25 : 1 }}>
+      {markKr && kr && (
+        <span className="absolute -top-1 -left-1 z-[1] px-1 rounded-sm text-[9px] font-bold leading-tight bg-yellow-400 text-gray-900 pointer-events-none">
+          KR
+        </span>
+      )}
       <button
         onClick={handleClick}
-        disabled={!tool.githubUrl}
-        title={`${tool.name}\n${tool.description}\n⭐ ${tool.meta?.stars?.toLocaleString() ?? 'N/A'} • ${tool.license}`}
+        disabled={!url}
+        title={`${tool.name}\n${tool.description}\n${scoreIcon} ${score ? score.toLocaleString() : 'N/A'} • ${tool.license}`}
         className={`
           ${styles.card}
+          ${markKr && kr ? '!border-2 !border-yellow-400' : ''}
           flex items-center gap-1.5 p-1.5 rounded-md
           bg-white dark:bg-gray-800 cursor-pointer transition-all duration-150
           hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400
@@ -77,9 +91,9 @@ export default function ToolCard({ tool }: ToolCardProps) {
           <span className={`${styles.name} truncate leading-tight text-gray-800 dark:text-gray-200`}>
             {tool.name}
           </span>
-          {tool.meta?.stars ? (
+          {score ? (
             <span className="text-gray-400 leading-tight" style={{ fontSize: '0.6rem' }}>
-              ⭐ {formatStars(tool.meta.stars)}
+              {scoreIcon} {formatStars(score)}
             </span>
           ) : null}
         </span>

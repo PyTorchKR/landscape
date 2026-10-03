@@ -13,7 +13,7 @@ body:
     id: github_url
     attributes:
       label: "GitHub 저장소 URL"
-      description: "추가할 GitHub 저장소의 URL을 입력하세요"
+      description: "추가할 GitHub 저장소의 URL을 입력하세요. HuggingFace에만 공개된 모델이나 데이터셋은 HuggingFace URL을 입력해도 됩니다"
       placeholder: "https://github.com/owner/repo"
     validations:
       required: true

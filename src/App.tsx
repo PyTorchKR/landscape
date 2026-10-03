@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import FilterBar from './components/FilterBar'
 import LandscapeGrid from './components/LandscapeGrid'
 import TreemapView from './components/TreemapView'
@@ -7,6 +7,8 @@ import LegendPopup from './components/LegendPopup'
 import { getModules, getCategories, getTools } from './services/dataService'
 import { useI18n } from './i18n/useI18n'
 import { useTheme, ThemeSetting } from './theme/useTheme'
+import { inScope } from './utils/toolInfo'
+import type { Scope } from './types'
 
 const modules = getModules()
 const categories = getCategories()
@@ -14,10 +16,33 @@ const tools = getTools()
 
 const allModuleIds = new Set(modules.map(m => m.id))
 
+const SCOPES: Scope[] = ['all', 'global', 'kr']
+
+// Scope lives in ?scope= so a tab can be linked directly
+function getInitialScope(): Scope {
+  const value = new URLSearchParams(window.location.search).get('scope')
+  return SCOPES.includes(value as Scope) ? (value as Scope) : 'all'
+}
+
+const scopeCounts = Object.fromEntries(
+  SCOPES.map(s => [s, tools.filter(tool => inScope(tool, s)).length]),
+) as Record<Scope, number>
+
 export default function App() {
   const [selectedModules, setSelectedModules] = useState<Set<string>>(allModuleIds)
   const [view, setView] = useState<'grid' | 'treemap'>('treemap')
   const [legendAnchor, setLegendAnchor] = useState<DOMRect | null>(null)
+  const [scope, setScope] = useState<Scope>(getInitialScope)
+  const [highlightKr, setHighlightKr] = useState(false)
+
+  useEffect(() => {
+    const url = new URL(window.location.href)
+    if (scope === 'all') url.searchParams.delete('scope')
+    else url.searchParams.set('scope', scope)
+    window.history.replaceState(null, '', url)
+  }, [scope])
+
+  const scopedTools = useMemo(() => tools.filter(tool => inScope(tool, scope)), [scope])
 
   const { locale, setLocale, t } = useI18n()
   const { setting: themeSetting, resolved: resolvedTheme, setSetting: setThemeSetting } = useTheme()
@@ -36,12 +61,12 @@ export default function App() {
   }
 
   const visibleCount = useMemo(() => {
-    return tools.filter(tool => {
+    return scopedTools.filter(tool => {
       const cat = categories.find(c => c.id === tool.categoryId)
       if (!cat) return false
       return selectedModules.has(cat.moduleId)
     }).length
-  }, [selectedModules])
+  }, [selectedModules, scopedTools])
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
@@ -83,6 +108,11 @@ export default function App() {
         visibleCount={visibleCount}
         view={view}
         onViewChange={setView}
+        scope={scope}
+        scopeCounts={scopeCounts}
+        onScopeChange={setScope}
+        highlightKr={highlightKr}
+        onHighlightKrChange={setHighlightKr}
         t={t}
       />
 
@@ -92,9 +122,11 @@ export default function App() {
           <LandscapeGrid
             modules={modules}
             categories={categories}
-            tools={tools}
+            tools={scopedTools}
             searchQuery=""
             selectedModules={selectedModules}
+            markKr={scope === 'all'}
+            highlightKr={scope === 'all' && highlightKr}
             t={t}
             resolvedTheme={resolvedTheme}
           />
@@ -102,9 +134,11 @@ export default function App() {
           <TreemapView
             modules={modules}
             categories={categories}
-            tools={tools}
+            tools={scopedTools}
             searchQuery=""
             selectedModules={selectedModules}
+            scope={scope}
+            highlightKr={scope === 'all' && highlightKr}
             locale={locale}
             t={t}
           />
@@ -147,6 +181,7 @@ export default function App() {
           modules={modules}
           t={t}
           view={view}
+          scope={scope}
           anchorRect={legendAnchor}
           onClose={() => setLegendAnchor(null)}
         />

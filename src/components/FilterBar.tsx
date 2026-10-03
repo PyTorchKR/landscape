@@ -1,4 +1,4 @@
-import type { Module } from '../types'
+import type { Module, Scope } from '../types'
 import type { Translations } from '../i18n/translations'
 import { moduleColors } from '../utils/treemapColors'
 
@@ -9,8 +9,15 @@ interface FilterBarProps {
   visibleCount: number
   view: 'grid' | 'treemap'
   onViewChange: (v: 'grid' | 'treemap') => void
+  scope: Scope
+  scopeCounts: Record<Scope, number>
+  onScopeChange: (s: Scope) => void
+  highlightKr: boolean
+  onHighlightKrChange: (v: boolean) => void
   t: Translations
 }
+
+const SCOPES: Scope[] = ['all', 'global', 'kr']
 
 export default function FilterBar({
   modules,
@@ -19,11 +26,49 @@ export default function FilterBar({
   visibleCount,
   view,
   onViewChange,
+  scope,
+  scopeCounts,
+  onScopeChange,
+  highlightKr,
+  onHighlightKrChange,
   t,
 }: FilterBarProps) {
   return (
     <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-10 shadow-sm">
       <div className="max-w-screen-xl mx-auto px-4 py-2 flex flex-wrap items-center gap-3">
+        {/* Scope tabs: all / global / Korea */}
+        <div className="flex border border-gray-200 dark:border-gray-600 rounded-md overflow-hidden flex-shrink-0" role="tablist">
+          {SCOPES.map((s, i) => (
+            <button
+              key={s}
+              role="tab"
+              aria-selected={scope === s}
+              onClick={() => onScopeChange(s)}
+              className={`px-2.5 py-1 text-xs transition-colors ${i > 0 ? 'border-l border-gray-200 dark:border-gray-600' : ''} ${
+                scope === s
+                  ? 'bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 font-semibold'
+                  : 'bg-white dark:bg-gray-700 text-gray-500 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-600'
+              }`}
+            >
+              {t.scopes[s]} <span className="opacity-60">{scopeCounts[s]}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* Korea highlight — only meaningful when global and Korean projects are mixed */}
+        {scope === 'all' && (
+          <label className="flex items-center gap-1 text-xs text-gray-600 dark:text-gray-300 cursor-pointer select-none flex-shrink-0">
+            <input
+              type="checkbox"
+              checked={highlightKr}
+              onChange={(e) => onHighlightKrChange(e.target.checked)}
+              className="accent-yellow-500"
+            />
+            <span className="px-1 rounded-sm text-[10px] font-bold bg-yellow-400 text-gray-900">KR</span>
+            {t.highlightKr}
+          </label>
+        )}
+
         {/* View toggle */}
         <div className="flex items-center gap-3 flex-shrink-0">
           <div className="flex border border-gray-200 dark:border-gray-600 rounded-md overflow-hidden">

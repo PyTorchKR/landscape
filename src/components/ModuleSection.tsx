@@ -24,11 +24,13 @@ function deriveColors(base: string) {
 interface ModuleSectionProps {
   module: ModuleWithCategories
   dimmed: boolean
+  markKr: boolean
+  highlightKr: boolean
   t: Translations
   resolvedTheme: ResolvedTheme
 }
 
-export default function ModuleSection({ module, dimmed, t, resolvedTheme }: ModuleSectionProps) {
+export default function ModuleSection({ module, dimmed, markKr, highlightKr, t, resolvedTheme }: ModuleSectionProps) {
   const baseColor = moduleColors[module.id] ?? '#9E9E9E'
   const colors = deriveColors(baseColor)
   const colCount = Math.min(module.categoryItems.length, 4)
@@ -73,7 +75,7 @@ export default function ModuleSection({ module, dimmed, t, resolvedTheme }: Modu
             </p>
             <div className="flex flex-wrap gap-1">
               {category.toolItems.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
+                <ToolCard key={tool.id} tool={tool} markKr={markKr} highlightKr={highlightKr} />
               ))}
             </div>
           </div>

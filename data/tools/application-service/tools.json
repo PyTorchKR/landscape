@@ -997,6 +997,37 @@
         "lastCommit": "2026-08-11T02:07:25Z",
         "fetchedAt": "2026-10-03T05:52:50.214Z"
       }
+    },
+    {
+      "id": "miurla-morphic",
+      "name": "morphic",
+      "description": "생성형 UI를 갖춘 AI 기반 검색 엔진 Morphic. 사용자 질의에 대해 웹 검색 결과를 LLM으로 종합하고 답변·후속 질문·시각 요소를 동적으로 생성하는 대화형 AI 답변 검색(answer engine) 경험을 셀프호스팅으로 제공합니다.",
+      "categoryId": "recommendation-search",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/miurla/morphic",
+      "koreanSupport": false,
+      "tags": [
+        "generative-ai",
+        "generative-ui",
+        "nextjs",
+        "ollama",
+        "react",
+        "searxng",
+        "shadcn-ui",
+        "tailwindcss",
+        "tavily",
+        "typescript",
+        "upstash",
+        "vercel-ai-sdk"
+      ],
+      "meta": {
+        "stars": 9151,
+        "forks": 2348,
+        "lastUpdated": "2026-10-02T21:29:22Z",
+        "lastCommit": "2026-09-30T22:04:42Z",
+        "fetchedAt": "2026-10-03T06:03:44.919Z"
+      }
     }
   ]
 }

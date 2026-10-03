@@ -1352,6 +1352,45 @@
         "lastCommit": "2026-06-07T22:45:12Z",
         "fetchedAt": "2026-06-08T05:01:52.601Z"
       }
+    },
+    {
+      "id": "michael-a-kuykendall-shimmy",
+      "name": "shimmy",
+      "description": "Python 의존성 없는 Rust 기반 LLM 추론 서버 shimmy로, OpenAI 호환 API와 GGUF·SafeTensors 지원·핫 모델 스왑·자동 탐색을 단일 바이너리로 제공해 로컬 LLM 서빙을 간소화합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Michael-A-Kuykendall/shimmy",
+      "koreanSupport": false,
+      "tags": [
+        "api-server",
+        "command-line-tool",
+        "developer-tools",
+        "gguf",
+        "huggingface",
+        "huggingface-models",
+        "huggingface-transformers",
+        "inference-server",
+        "llama",
+        "llamacpp",
+        "llm-inference",
+        "local-ai",
+        "machine-learning",
+        "ollama-api",
+        "openai-compatible",
+        "rust",
+        "rust-crate",
+        "transformers",
+        "webgpu",
+        "webgpu-shaders"
+      ],
+      "meta": {
+        "stars": 5912,
+        "forks": 575,
+        "lastUpdated": "2026-10-02T18:37:16Z",
+        "lastCommit": "2026-08-30T22:45:24Z",
+        "fetchedAt": "2026-10-03T03:34:37.417Z"
+      }
     }
   ]
 }

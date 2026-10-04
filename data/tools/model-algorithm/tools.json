@@ -1267,6 +1267,26 @@
         "lastCommit": "2026-03-02T10:55:42.633Z",
         "fetchedAt": "2026-10-04T19:20:25.102Z"
       }
+    },
+    {
+      "id": "hf-collection-kakaocorp-kanana-15-682d75c83b5f51f4219a17fb",
+      "name": "Kanana-1.5",
+      "description": "카카오의 Kanana 1.5 언어모델로, 2.1B와 8B 크기의 base, instruct 모델이 있습니다. 이전 버전보다 코드, 수학, 함수 호출 성능을 높였고, 기본 32K, YaRN 적용 시 128K 토큰 컨텍스트를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/kakaocorp/kanana-15-682d75c83b5f51f4219a17fb",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 216,
+        "downloads": 33597,
+        "lastUpdated": "2025-12-04T03:08:57.000Z",
+        "lastCommit": "2025-12-04T03:08:57.000Z",
+        "fetchedAt": "2026-10-04T19:31:21.194Z"
+      }
     }
   ]
 }

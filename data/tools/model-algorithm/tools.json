@@ -1164,6 +1164,26 @@
         "lastCommit": "2024-04-30T12:25:15.000Z",
         "fetchedAt": "2026-10-04T18:22:27.344Z"
       }
+    },
+    {
+      "id": "hf-maum-ai-canvas-l",
+      "name": "CANVAS-L",
+      "description": "시각 정보와 언어 지시(스케치 포함)를 함께 받아 사람의 시연을 모방해 로봇 주행 경로를 생성하는 상식 인지형 내비게이션 VLA 모델입니다. CANVAS-L은 Idefics2 구조 기반의 약 8.4B 파라미터 모델입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/maum-ai/CANVAS-L",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 1,
+        "downloads": 9,
+        "lastUpdated": "2024-12-06T13:40:15.000Z",
+        "lastCommit": "2024-12-06T13:40:15.000Z",
+        "fetchedAt": "2026-10-04T18:36:28.856Z"
+      }
     }
   ]
 }

@@ -1657,6 +1657,26 @@
         "lastCommit": "2025-08-29T04:28:31.000Z",
         "fetchedAt": "2026-10-04T23:09:24.135Z"
       }
+    },
+    {
+      "id": "hf-collection-skt-ax-3-686b288b3b05e1234f3f4c73",
+      "name": "A.X 3",
+      "description": "SK텔레콤이 처음부터 자체 학습한 한국어 중심 언어 모델로 34B 표준 모델과 7B Light 모델로 구성됩니다. 두 모델 모두 32K 컨텍스트를 지원하며 34B 모델은 YaRN 적용 시 131K까지 확장됩니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/skt/ax-3-686b288b3b05e1234f3f4c73",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 91,
+        "downloads": 1393,
+        "lastUpdated": "2026-03-02T10:55:53.907Z",
+        "lastCommit": "2026-03-02T10:55:53.907Z",
+        "fetchedAt": "2026-10-04T23:19:29.991Z"
+      }
     }
   ]
 }

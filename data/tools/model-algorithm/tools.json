@@ -1442,6 +1442,29 @@
         "lastCommit": "2026-05-28T06:39:44.000Z",
         "fetchedAt": "2026-10-04T21:12:27.994Z"
       }
+    },
+    {
+      "id": "hf-naver-hyperclovax-hyperclovax-seed-think-32b",
+      "name": "HyperCLOVAX-SEED-Think-32B",
+      "description": "네이버클라우드의 32B 비전 언어 추론 모델로 텍스트, 이미지, 영상을 입력받아 텍스트를 생성합니다. 최대 128K 컨텍스트와 선택형 thinking 모드를 지원하며 한국어 중심 추론과 에이전트 작업을 강화했습니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "hyperclovax",
+      "huggingfaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "image-text-to-text",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 407,
+        "downloads": 14121,
+        "lastUpdated": "2026-09-10T18:43:36.000Z",
+        "lastCommit": "2026-09-10T18:43:36.000Z",
+        "fetchedAt": "2026-10-04T21:22:28.497Z"
+      }
     }
   ]
 }

@@ -1591,6 +1591,26 @@
         "lastCommit": "2026-08-07T05:50:32.000Z",
         "fetchedAt": "2026-10-04T22:33:28.820Z"
       }
+    },
+    {
+      "id": "hf-collection-k-intelligence-mi-dm-20-6866406c301e5f45a6926af8",
+      "name": "Mi:dm 2.0",
+      "description": "KT가 자체 기술로 개발한 한국 중심 언어 모델로 11.5B Base와 온디바이스용 2.3B Mini 두 가지가 있습니다. Base는 8B급 모델을 Depth-up Scaling으로 확장했고 Mini는 프루닝과 증류로 만들었습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "mit",
+      "huggingfaceUrl": "https://huggingface.co/collections/K-intelligence/mi-dm-20-6866406c301e5f45a6926af8",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 203,
+        "downloads": 46284,
+        "lastUpdated": "2025-10-29T05:33:06.000Z",
+        "lastCommit": "2025-10-29T05:33:06.000Z",
+        "fetchedAt": "2026-10-04T22:44:23.527Z"
+      }
     }
   ]
 }

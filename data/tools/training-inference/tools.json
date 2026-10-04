@@ -2125,6 +2125,31 @@
         "lastCommit": "2025-09-29T08:12:43Z",
         "fetchedAt": "2026-10-04T17:13:24.307Z"
       }
+    },
+    {
+      "id": "nota-netspresso-pynetspresso",
+      "name": "PyNetsPresso",
+      "description": "Nota AI의 모델 경량화 플랫폼 NetsPresso를 Python에서 쓰는 공식 SDK로, 모델 학습, 압축, 양자화, 엣지 기기용 변환, 기기별 추론 속도 프로파일링을 하나의 흐름으로 실행합니다. 기능 사용에는 NetsPresso 계정과 API 키가 필요합니다.",
+      "categoryId": "model-compression",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Nota-NetsPresso/PyNetsPresso",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "benchmarker",
+        "compressor",
+        "converter",
+        "netspresso",
+        "trainer"
+      ],
+      "meta": {
+        "stars": 51,
+        "forks": 1,
+        "lastUpdated": "2026-09-13T15:01:29Z",
+        "lastCommit": "2025-11-20T06:43:05Z",
+        "fetchedAt": "2026-10-04T17:24:29.378Z"
+      }
     }
   ]
 }

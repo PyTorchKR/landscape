@@ -1801,6 +1801,25 @@
         "lastCommit": "2024-08-23T06:54:25Z",
         "fetchedAt": "2026-10-04T15:33:25.079Z"
       }
+    },
+    {
+      "id": "friendliai-llmservingperfevaluator",
+      "name": "LLMServingPerfEvaluator",
+      "description": "포아송 분포로 동시 요청을 보내 LLM 추론 서빙 엔진의 처리량, 지연 시간, TTFT, TPOT을 측정하는 벤치마크 도구입니다. Docker Compose로 Grafana와 Prometheus 대시보드를 함께 띄워 실시간으로 확인할 수 있습니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/friendliai/LLMServingPerfEvaluator",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 48,
+        "forks": 0,
+        "lastUpdated": "2025-10-26T11:34:06Z",
+        "lastCommit": "2024-09-07T02:40:03Z",
+        "fetchedAt": "2026-10-04T15:48:23.762Z"
+      }
     }
   ]
 }

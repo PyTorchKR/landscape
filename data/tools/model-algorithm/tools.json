@@ -1333,6 +1333,26 @@
         "lastCommit": "2025-07-23T14:49:48.000Z",
         "fetchedAt": "2026-10-04T19:55:23.122Z"
       }
+    },
+    {
+      "id": "hf-collection-kakaocorp-kanana-2-68a283f851a6505a36cf0cd0",
+      "name": "Kanana-2",
+      "description": "카카오의 Kanana-2 30B(활성 3B) MoE 언어모델로, MLA 어텐션을 쓰고 도구 호출과 복잡한 지시 수행, 추론을 강화했습니다. base, mid, instruct, thinking 버전이 있으며 32K 컨텍스트와 한국어, 영어, 일본어, 중국어, 태국어, 베트남어를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "kanana-license",
+      "huggingfaceUrl": "https://huggingface.co/collections/kakaocorp/kanana-2-68a283f851a6505a36cf0cd0",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 296,
+        "downloads": 5897,
+        "lastUpdated": "2026-07-29T09:03:14.000Z",
+        "lastCommit": "2026-07-29T09:03:14.000Z",
+        "fetchedAt": "2026-10-04T20:07:22.443Z"
+      }
     }
   ]
 }

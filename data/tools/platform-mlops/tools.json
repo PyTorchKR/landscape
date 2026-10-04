@@ -1858,6 +1858,25 @@
         "lastCommit": "2026-09-14T05:15:42Z",
         "fetchedAt": "2026-10-04T16:16:27.189Z"
       }
+    },
+    {
+      "id": "casys-kaist-llmservingsim",
+      "name": "LLMServingSim",
+      "description": "vLLM의 연속 배치 스케줄러를 모사하는 Python 프론트엔드와 ASTRA-Sim 네트워크 백엔드를 결합한 사이클 단위 LLM 서빙 인프라 시뮬레이터입니다. 이기종 가속기, CPU/CXL/PIM 메모리 계층, MoE, TP/PP/EP/DP 병렬화 구성을 실제 하드웨어 없이 비교할 수 있습니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/casys-kaist/LLMServingSim",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 414,
+        "forks": 113,
+        "lastUpdated": "2026-10-02T06:57:24Z",
+        "lastCommit": "2026-10-02T07:59:45Z",
+        "fetchedAt": "2026-10-04T16:27:21.575Z"
+      }
     }
   ]
 }

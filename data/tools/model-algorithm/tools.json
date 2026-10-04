@@ -1396,6 +1396,29 @@
         "lastCommit": "2025-10-02T05:11:45.000Z",
         "fetchedAt": "2026-10-04T20:45:28.478Z"
       }
+    },
+    {
+      "id": "hf-naver-hyperclovax-hyperclovax-seed-vision-instruct-3b",
+      "name": "HyperCLOVAX-SEED-Vision-Instruct-3B",
+      "description": "네이버클라우드의 한국어 특화 경량 비전 언어 모델로 3.2B 언어 모듈과 0.43B SigLIP 기반 비전 인코더로 구성됩니다. 이미지와 동영상을 입력받아 VQA, 차트와 도표 해석 등을 수행하며 16K 컨텍스트를 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "hyperclovax-seed",
+      "huggingfaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Vision-Instruct-3B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 221,
+        "downloads": 3116,
+        "lastUpdated": "2025-09-16T11:42:05.000Z",
+        "lastCommit": "2025-09-16T11:42:05.000Z",
+        "fetchedAt": "2026-10-04T21:01:24.884Z"
+      }
     }
   ]
 }

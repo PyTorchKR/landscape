@@ -654,6 +654,26 @@
         "lastCommit": "2026-04-04T14:57:50Z",
         "fetchedAt": "2026-10-03T02:14:57.251Z"
       }
+    },
+    {
+      "id": "hf-collection-kakaocorp-kanana-safeguard-68215a02570de0e4d0c41eec",
+      "name": "Kanana Safeguard",
+      "description": "카카오 Kanana를 바탕으로 만든 한국어 위험 탐지 모델 3종입니다. 유해 콘텐츠를 탐지하는 Safeguard(8B), 개인정보와 지식재산권 같은 법적 위험을 탐지하는 Siren(8B), 프롬프트 인젝션과 유출을 탐지하는 Prompt(2.1B)로 구성되며, 결과를 SAFE 또는 UNSAFE 카테고리 코드 토큰으로 출력합니다.",
+      "categoryId": "guardrails",
+      "moduleId": "security-governance",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/kakaocorp/kanana-safeguard-68215a02570de0e4d0c41eec",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 63,
+        "downloads": 1722,
+        "lastUpdated": "2025-05-27T00:36:39.000Z",
+        "lastCommit": "2025-05-27T00:36:39.000Z",
+        "fetchedAt": "2026-10-04T20:33:27.601Z"
+      }
     }
   ]
 }

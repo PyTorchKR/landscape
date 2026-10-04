@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
-import type { Module } from '../types'
+import type { Module, Scope } from '../types'
 import { moduleColors, darkenColor, AGE_LEVELS } from '../utils/treemapColors'
 import type { Translations } from '../i18n/translations'
 
@@ -7,11 +7,12 @@ interface Props {
   modules: Module[]
   t: Translations
   view: 'grid' | 'treemap'
+  scope: Scope
   anchorRect?: DOMRect | null
   onClose: () => void
 }
 
-export default function LegendPopup({ modules, t, view, anchorRect, onClose }: Props) {
+export default function LegendPopup({ modules, t, view, scope, anchorRect, onClose }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const [pos, setPos] = useState<{ x: number; y: number } | null>(null)
   const dragging = useRef(false)
@@ -126,6 +127,11 @@ export default function LegendPopup({ modules, t, view, anchorRect, onClose }: P
             </>
           ))}
         </div>
+      )}
+
+      {/* Log-scale sizing note — Korea tab treemap only */}
+      {scope === 'kr' && view === 'treemap' && (
+        <p className="mt-3 text-[0.65rem] text-gray-400 dark:text-gray-500">{t.krSizeNote}</p>
       )}
 
       {/* Star tier legend — grid only */}

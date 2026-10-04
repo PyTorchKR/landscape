@@ -141,6 +141,10 @@ jobs:
           if [ -n "$TOOL_DESCRIPTION" ]; then
             ARGS+=(--description "$TOOL_DESCRIPTION")
           fi
+          # Issues labeled "Korea" are projects from Korean companies or institutions
+          if [ "$TOOL_KOREA" = "true" ]; then
+            ARGS+=(--region KR)
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           BRANCH="${{ github.event.repository.default_branch }}"
@@ -168,6 +172,7 @@ jobs:
           TOOL_MODULE_ID: ${{ steps.parse.outputs.module_id }}
           TOOL_CATEGORY_ID: ${{ steps.parse.outputs.category_id }}
           TOOL_DESCRIPTION: ${{ steps.parse.outputs.description }}
+          TOOL_KOREA: ${{ contains(github.event.issue.labels.*.name, 'Korea') }}
 
       # Pushes made with GITHUB_TOKEN do not trigger `push` workflows, so deploy explicitly.
       - name: Trigger Build & Deploy
@@ -185,7 +190,7 @@ jobs:
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: `프로젝트가 성공적으로 추가되었습니다.\n\n` +
-                    `- **GitHub URL**: ${{ steps.parse.outputs.github_url }}\n` +
+                    `- **URL**: ${{ steps.parse.outputs.github_url }}\n` +
                     `- **모듈**: ${{ steps.parse.outputs.module_id }}\n` +
                     `- **카테고리**: ${{ steps.parse.outputs.category_id }}\n\n` +
                     `곧 배포되어 [Opensource AI Landscape](https://landscape.pytorch.kr)에 반영됩니다.`

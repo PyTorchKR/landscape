@@ -1,4 +1,5 @@
 import type { Tool } from '../types'
+import { isKorean, isHuggingFace, popularity, primaryUrl } from '../utils/toolInfo'
 
 type SizeTier = 'lg' | 'md' | 'sm'
 
@@ -40,10 +41,15 @@ export default function ToolCard({ tool }: ToolCardProps) {
   const tier = getStarTier(tool.meta?.stars)
   const styles = tierStyles[tier]
   const firstLetter = tool.name.charAt(0).toUpperCase()
+  const url = primaryUrl(tool)
+  const hf = isHuggingFace(tool)
+  const kr = isKorean(tool)
+  const score = popularity(tool)
+  const scoreIcon = hf ? '🤗' : '⭐'
 
   function handleClick() {
-    if (tool.githubUrl) {
-      window.open(tool.githubUrl, '_blank', 'noopener,noreferrer')
+    if (url) {
+      window.open(url, '_blank', 'noopener,noreferrer')
     }
   }
 
@@ -51,8 +57,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
     <div className="relative group">
       <button
         onClick={handleClick}
-        disabled={!tool.githubUrl}
-        title={`${tool.name}\n${tool.description}\n⭐ ${tool.meta?.stars?.toLocaleString() ?? 'N/A'} • ${tool.license}`}
+        disabled={!url}
+        title={`${kr ? '[KR] ' : ''}${tool.name}\n${tool.description}\n${scoreIcon} ${score ? score.toLocaleString() : 'N/A'} • ${tool.license}`}
         className={`
           ${styles.card}
           flex items-center gap-1.5 p-1.5 rounded-md
@@ -77,9 +83,9 @@ export default function ToolCard({ tool }: ToolCardProps) {
           <span className={`${styles.name} truncate leading-tight text-gray-800 dark:text-gray-200`}>
             {tool.name}
           </span>
-          {tool.meta?.stars ? (
+          {score ? (
             <span className="text-gray-400 leading-tight" style={{ fontSize: '0.6rem' }}>
-              ⭐ {formatStars(tool.meta.stars)}
+              {scoreIcon} {formatStars(score)}
             </span>
           ) : null}
         </span>

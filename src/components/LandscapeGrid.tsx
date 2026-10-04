@@ -3,6 +3,7 @@ import ModuleSection from './ModuleSection'
 import type { Tool, Module, Category, ModuleWithCategories } from '../types'
 import type { Translations } from '../i18n/translations'
 import type { ResolvedTheme } from '../theme/useTheme'
+import { popularity } from '../utils/toolInfo'
 
 interface LandscapeGridProps {
   modules: Module[]
@@ -45,7 +46,7 @@ export default function LandscapeGrid({
                   t.tags.some((tag) => tag.toLowerCase().includes(query)),
               )
               .slice()
-              .sort((a, b) => (b.meta?.stars ?? 0) - (a.meta?.stars ?? 0))
+              .sort((a, b) => popularity(b) - popularity(a))
 
             return { ...category, toolItems }
           })

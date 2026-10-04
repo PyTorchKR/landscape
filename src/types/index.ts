@@ -1,6 +1,9 @@
 export interface ToolMeta {
   stars: number
   forks?: number
+  // HuggingFace-hosted entries (models, datasets, collections)
+  likes?: number
+  downloads?: number
   lastUpdated: string
   lastCommit?: string
   fetchedAt: string
@@ -15,12 +18,17 @@ export interface Tool {
   license: string
   licenseUrl?: string
   githubUrl?: string
+  huggingfaceUrl?: string
   docsUrl?: string
   websiteUrl?: string
   koreanSupport: boolean
+  // 'KR' marks projects released by Korean companies or institutions
+  region?: 'KR'
   tags: string[]
   meta: ToolMeta
 }
+
+export type Scope = 'all' | 'kr'
 
 export interface Module {
   id: string

@@ -12,6 +12,7 @@ Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈�
 ## 주요 기능
 
 - **Treemap/Grid View**: 7개 모듈(인프라, 데이터, 모델, 학습/추론, 플랫폼, 응용, 보안) 기준으로 프로젝트를 시각화
+- **국내 프로젝트 보기**: 우측 하단 🌐 버튼(마우스를 올리면 🇰🇷)을 누르면 국내 기업·기관 프로젝트(`region: "KR"`)만 보고 제목에 `(Korea🇰🇷)`가 붙음. 다시 누르면 전체로 돌아옴. 국내 프로젝트는 마우스를 올렸을 때 나오는 카드의 이름 앞에 KR로 표시. `?scope=kr`로 바로 링크할 수 있음
 - **Module Filter**: 관심 있는 모듈만 선택하여 볼 수 있음
 - **GitHub Stars based size**: 프로젝트 인지도를 직관적으로 파악
 - **Commit time based color**: 최근 활발한 프로젝트를 한눈에 확인
@@ -42,6 +43,8 @@ AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝�
 명령이 성공하면 다음 순서로 처리됩니다.
 
 1. GitHub API로 저장소 정보(Stars, 라이선스, 최근 커밋 등)를 조회해 `data/tools/<moduleId>/tools.json`과 `data/categories/index.json`에 추가
+   - HuggingFace에만 공개된 모델·데이터셋·컬렉션은 저장소 URL 자리에 HuggingFace URL을 넣으면 됩니다. 이때는 Stars 대신 Likes와 Downloads를 저장합니다. 모델·데이터셋은 HuggingFace에 짧은 설명 필드가 없어 이슈의 설명이 필요합니다. `/approve <owner/repo> ...` 형식은 GitHub 저장소에만 쓸 수 있습니다.
+   - 관리자가 이슈에 `Korea` 라벨을 붙이면 `region: "KR"`을 함께 저장해 국내 프로젝트 보기에 표시합니다.
 2. `main`에 커밋 (`feat: add <url> (closes #N)`)
 3. 이슈에 결과 댓글을 남기고 이슈를 닫음
 4. Build & Deploy를 실행해 사이트에 바로 반영
@@ -73,8 +76,8 @@ pnpm dev
 | `pnpm dev` | 로컬 개발 서버 실행 |
 | `pnpm build` | 타입 검사 후 `dist/`로 프로덕션 빌드 |
 | `pnpm preview` | 빌드 결과 미리보기 |
-| `GITHUB_TOKEN=... pnpm update-stars` | 등록된 모든 프로젝트의 Stars, Forks, 최근 커밋 정보 갱신 |
-| `GITHUB_TOKEN=... pnpm add-tool -- --github-url <url> --module-id <id> --category-id <id> [--description <text>]` | 프로젝트 1개를 로컬에서 직접 추가 (`/approve`가 내부적으로 사용) |
+| `GITHUB_TOKEN=... pnpm update-stars` | 등록된 모든 프로젝트의 Stars, Forks, 최근 커밋 정보 갱신 (HuggingFace 항목은 Likes, Downloads) |
+| `GITHUB_TOKEN=... pnpm add-tool -- --github-url <url> --module-id <id> --category-id <id> [--description <text>] [--region KR]` | 프로젝트 1개를 로컬에서 직접 추가 (`/approve`가 내부적으로 사용). `<url>`은 GitHub 또는 HuggingFace URL |
 
 ### 데이터 구조
 

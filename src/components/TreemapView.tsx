@@ -7,7 +7,10 @@ import {
 } from '../utils/treemapColors'
 import { formatRelativeTime, type Locale } from '../utils/relativeTime'
 import type { Translations } from '../i18n/translations'
-import type { Tool, Module, Category } from '../types'
+import type { Tool, Module, Category, Scope } from '../types'
+import { isKorean, isHuggingFace, popularity, primaryUrl } from '../utils/toolInfo'
+
+const KR_COLOR = '#FACC15'
 
 // ── Custom treemap cell renderer ────────────────────────────────────────────
 
@@ -21,17 +24,19 @@ interface ContentProps {
   moduleId?: string
   toolId?: string
   lastUpdated?: string
-  githubUrl?: string
+  url?: string
+  isHf?: boolean
   description?: string
+  kr?: boolean
   onHover?: (info: TooltipInfo, clientX: number, clientY: number) => void
   onLeave?: () => void
-  onClick?: (githubUrl: string) => void
+  onClick?: (url: string) => void
 }
 
 function TreemapContent(props: ContentProps) {
   const {
     x = 0, y = 0, width = 0, height = 0,
-    depth, name, moduleId, lastUpdated, githubUrl, description,
+    depth, name, moduleId, lastUpdated, url, isHf, description, kr,
     onHover, onLeave, onClick,
   } = props
 
@@ -88,10 +93,10 @@ function TreemapContent(props: ContentProps) {
 
     return (
       <g
-        style={{ cursor: githubUrl ? 'pointer' : 'default' }}
-        onClick={() => githubUrl && onClick && onClick(githubUrl)}
+        style={{ cursor: url ? 'pointer' : 'default' }}
+        onClick={() => url && onClick && onClick(url)}
         onMouseMove={(e) => {
-          onHover?.({ name: name ?? '', lastUpdated, githubUrl, description }, e.clientX, e.clientY)
+          onHover?.({ name: name ?? '', lastUpdated, url, isHf, description, kr }, e.clientX, e.clientY)
         }}
         onMouseLeave={onLeave}
       >
@@ -123,8 +128,10 @@ function TreemapContent(props: ContentProps) {
 interface TooltipInfo {
   name: string
   lastUpdated?: string
-  githubUrl?: string
+  url?: string
+  isHf?: boolean
   description?: string
+  kr?: boolean
 }
 
 interface TooltipState extends TooltipInfo {
@@ -140,11 +147,17 @@ interface Props {
   tools: Tool[]
   searchQuery: string
   selectedModules: Set<string>
+  scope: Scope
   locale: Locale
   t: Translations
 }
 
-export default function TreemapView({ modules, categories, tools, searchQuery, selectedModules, locale, t }: Props) {
+// Korean projects are small next to global ones (median well under 1k stars),
+// so the Korea view sizes cells on a log scale to keep every project readable.
+const cellSize = (tool: Tool, scope: Scope): number =>
+  scope === 'kr' ? 1 + Math.log10(1 + popularity(tool)) : Math.max(popularity(tool), 100)
+
+export default function TreemapView({ modules, categories, tools, searchQuery, selectedModules, scope, locale, t }: Props) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null)
 
   const filteredModules = useMemo(
@@ -181,12 +194,14 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
               moduleId: module.id,
               children: categoryTools.map(tool => ({
                 name: tool.name,
-                size: tool.meta?.stars || 100,
+                size: cellSize(tool, scope),
                 moduleId: module.id,
                 toolId: tool.id,
                 lastUpdated: tool.meta?.lastCommit ?? tool.meta?.lastUpdated,
-                githubUrl: tool.githubUrl,
+                url: primaryUrl(tool),
+                isHf: isHuggingFace(tool),
                 description: tool.description,
+                kr: isKorean(tool),
               })),
             }
           })
@@ -201,7 +216,7 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
         }
       })
       .filter((m): m is NonNullable<typeof m> => m !== null)
-  }, [filteredModules, categories, tools, searchQuery])
+  }, [filteredModules, categories, tools, searchQuery, scope])
 
   if (treemapData.length === 0) {
     return (
@@ -246,7 +261,12 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
           className="fixed z-50 pointer-events-none bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-xl p-3 w-72"
           style={{ left: tooltip.x + 14, top: tooltip.y - 14 }}
         >
-          <p className="font-semibold text-sm text-gray-900 dark:text-white">{tooltip.name}</p>
+          <p className="font-semibold text-sm text-gray-900 dark:text-white flex items-center gap-1.5">
+            {tooltip.kr && (
+              <span className="px-1 rounded-sm text-[10px] font-bold" style={{ background: KR_COLOR, color: '#111827' }}>KR</span>
+            )}
+            {tooltip.name}
+          </p>
           {tooltip.description && (
             <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">{tooltip.description}</p>
           )}
@@ -255,8 +275,8 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
               {t.lastCommit}: {formatRelativeTime(tooltip.lastUpdated, locale)}
             </p>
           )}
-          {tooltip.githubUrl && (
-            <p className="text-xs text-blue-400 mt-1">{t.clickGithub}</p>
+          {tooltip.url && (
+            <p className="text-xs text-blue-400 mt-1">{tooltip.isHf ? t.clickHuggingFace : t.clickGithub}</p>
           )}
         </div>
       )}

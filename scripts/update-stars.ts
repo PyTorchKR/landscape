@@ -1,12 +1,15 @@
 import { Octokit } from '@octokit/rest'
 import * as fs from 'fs'
 import * as path from 'path'
+import { parseHuggingFaceUrl, fetchHuggingFace } from './huggingface'
 
 const TOOLS_DIR = path.join(process.cwd(), 'data/tools')
 
 interface ToolMeta {
   stars: number
   forks?: number
+  likes?: number
+  downloads?: number
   lastUpdated: string
   lastCommit?: string
   fetchedAt: string
@@ -16,6 +19,7 @@ interface Tool {
   id: string
   name: string
   githubUrl?: string
+  huggingfaceUrl?: string
   meta: ToolMeta
   [key: string]: unknown
 }
@@ -48,6 +52,29 @@ async function main() {
     let modified = false
 
     for (const tool of data.tools) {
+      // HuggingFace-only entries: refresh likes and downloads instead of stars
+      const hfRef = !tool.githubUrl && tool.huggingfaceUrl ? parseHuggingFaceUrl(tool.huggingfaceUrl) : null
+      if (hfRef) {
+        try {
+          const info = await fetchHuggingFace(hfRef)
+          tool.meta = {
+            ...tool.meta,
+            likes: info.likes,
+            downloads: info.downloads,
+            lastUpdated: info.lastModified,
+            lastCommit: info.lastModified,
+            fetchedAt: new Date().toISOString(),
+          }
+          console.log(`✓ ${tool.name}: ${info.likes.toLocaleString()} likes`)
+          totalUpdated++
+          modified = true
+        } catch (error) {
+          console.error(`✗ ${tool.name}: ${(error as Error).message}`)
+          totalFailed++
+        }
+        continue
+      }
+
       if (!tool.githubUrl) continue
 
       const match = tool.githubUrl.match(/github\.com\/([^/]+)\/([^/]+)/)

@@ -1465,6 +1465,29 @@
         "lastCommit": "2026-09-10T18:43:36.000Z",
         "fetchedAt": "2026-10-04T21:22:28.497Z"
       }
+    },
+    {
+      "id": "hf-naver-hyperclovax-hyperclovax-seed-omni-8b",
+      "name": "HyperCLOVAX-SEED-Omni-8B",
+      "description": "텍스트, 이미지, 음성을 입력과 출력 모두에서 다루는 네이버클라우드의 8B 옴니모달 모델입니다. 시각 질의응답, 텍스트 기반 이미지 생성과 편집, 음성 인식과 번역, TTS를 32K 컨텍스트의 단일 모델로 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "hyperclovax",
+      "huggingfaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 193,
+        "downloads": 2222,
+        "lastUpdated": "2026-01-06T02:51:36.000Z",
+        "lastCommit": "2026-01-06T02:51:36.000Z",
+        "fetchedAt": "2026-10-04T21:36:21.450Z"
+      }
     }
   ]
 }

@@ -1528,6 +1528,26 @@
         "lastCommit": "2026-02-06T06:28:27.000Z",
         "fetchedAt": "2026-10-04T22:02:24.903Z"
       }
+    },
+    {
+      "id": "hf-collection-lgai-exaone-exaone-40-686b2e0069800c835ed48375",
+      "name": "EXAONE-4.0",
+      "description": "LG AI연구원의 하이브리드 언어 모델 시리즈로 하나의 모델에서 비추론 모드와 추론 모드를 모두 지원하며 32B와 온디바이스용 1.2B 크기가 있습니다. 32B 모델은 하이브리드 어텐션을 적용해 131K 컨텍스트를 지원하고 영어, 한국어, 스페인어와 에이전트형 도구 사용을 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "exaone",
+      "huggingfaceUrl": "https://huggingface.co/collections/LGAI-EXAONE/exaone-40-686b2e0069800c835ed48375",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 668,
+        "downloads": 77019,
+        "lastUpdated": "2026-03-02T10:55:53.912Z",
+        "lastCommit": "2026-03-02T10:55:53.912Z",
+        "fetchedAt": "2026-10-04T22:12:24.057Z"
+      }
     }
   ]
 }

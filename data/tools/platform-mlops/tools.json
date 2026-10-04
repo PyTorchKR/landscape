@@ -1877,6 +1877,30 @@
         "lastCommit": "2026-10-02T07:59:45Z",
         "fetchedAt": "2026-10-04T16:27:21.575Z"
       }
+    },
+    {
+      "id": "vessl-ai-hyperpocket",
+      "name": "hyperpocket",
+      "description": "AI 에이전트가 외부 도구와 인증을 손쉽게 쓰도록 연결하는 Python 툴 호출 라이브러리입니다. 공개 도구를 링크로 불러와 WebAssembly 격리 환경에서 실행하며 LangChain, LangGraph, LlamaIndex 등과 연동됩니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/vessl-ai/hyperpocket",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "agentic-ai",
+        "ai-agents",
+        "hyperpocket",
+        "tool-calling"
+      ],
+      "meta": {
+        "stars": 51,
+        "forks": 8,
+        "lastUpdated": "2026-08-15T23:13:29Z",
+        "lastCommit": "2025-04-11T06:33:00Z",
+        "fetchedAt": "2026-10-04T16:38:26.397Z"
+      }
     }
   ]
 }

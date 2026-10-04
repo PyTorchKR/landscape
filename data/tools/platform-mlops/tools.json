@@ -1702,6 +1702,43 @@
         "lastCommit": "2026-10-04T14:07:06Z",
         "fetchedAt": "2026-10-04T14:08:57.827Z"
       }
+    },
+    {
+      "id": "wrtnlabs-agentica",
+      "name": "agentica",
+      "description": "TypeScript 클래스, Swagger/OpenAPI 문서, MCP 서버에서 함수를 가져와 LLM 함수 호출 에이전트를 만드는 TypeScript 프레임워크입니다. typia 컴파일러로 함수 호출 스키마를 자동 생성하고 인자 검증 피드백으로 호출 오류를 바로잡습니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/wrtnlabs/agentica",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "agent",
+        "agentic",
+        "agentic-ai",
+        "agentic-framework",
+        "ai",
+        "chatbot",
+        "claude",
+        "function-calling",
+        "llama",
+        "llm-function-calling",
+        "multi-agent-system",
+        "openai",
+        "openapi",
+        "rag",
+        "retrieval-augmented-generation",
+        "swagger",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 1046,
+        "forks": 65,
+        "lastUpdated": "2026-09-29T23:46:48Z",
+        "lastCommit": "2026-05-25T02:30:35Z",
+        "fetchedAt": "2026-10-04T14:56:25.248Z"
+      }
     }
   ]
 }

@@ -1373,6 +1373,29 @@
         "lastCommit": "2026-09-15T03:59:31.219Z",
         "fetchedAt": "2026-10-04T20:20:25.515Z"
       }
+    },
+    {
+      "id": "hf-naver-hyperclovax-hyperclovax-seed-text-instruct-1-5b",
+      "name": "HyperCLOVAX-SEED-Text-Instruct-1.5B",
+      "description": "네이버클라우드가 공개한 한국어 특화 경량 텍스트 언어 모델로 1.5B와 0.5B 두 가지 크기가 있습니다. 0.5B는 4K 컨텍스트를 지원하며 엣지 기기 등 자원이 제한된 환경을 겨냥합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "hyperclovax-seed",
+      "huggingfaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 162,
+        "downloads": 1017,
+        "lastUpdated": "2025-10-02T05:11:45.000Z",
+        "lastCommit": "2025-10-02T05:11:45.000Z",
+        "fetchedAt": "2026-10-04T20:45:28.478Z"
+      }
     }
   ]
 }

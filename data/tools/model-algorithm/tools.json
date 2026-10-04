@@ -1677,6 +1677,29 @@
         "lastCommit": "2026-03-02T10:55:53.907Z",
         "fetchedAt": "2026-10-04T23:19:29.991Z"
       }
+    },
+    {
+      "id": "hf-skt-a-x-encoder-base",
+      "name": "A.X-Encoder-base",
+      "description": "SK텔레콤이 ModernBERT 구조로 자체 학습한 약 149M 파라미터 한국어 인코더 모델로 최대 16,384 토큰의 긴 문서를 처리합니다. A.X LLM 학습 데이터 선별에서 문서 분류기로 쓰였으며 KoBEST와 KLUE에서 기존 한국어 인코더보다 높은 점수를 보고합니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/skt/A.X-Encoder-base",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-classification",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 33,
+        "downloads": 5162,
+        "lastUpdated": "2026-01-20T10:25:39.000Z",
+        "lastCommit": "2026-01-20T10:25:39.000Z",
+        "fetchedAt": "2026-10-04T23:34:27.457Z"
+      }
     }
   ]
 }

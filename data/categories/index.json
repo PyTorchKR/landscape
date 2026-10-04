@@ -245,7 +245,8 @@
         "sentence-transformers",
         "bge",
         "e5",
-        "jina-embeddings"
+        "jina-embeddings",
+        "hf-skt-a-x-encoder-base"
       ]
     },
     {

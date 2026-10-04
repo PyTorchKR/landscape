@@ -1739,6 +1739,25 @@
         "lastCommit": "2026-05-25T02:30:35Z",
         "fetchedAt": "2026-10-04T14:56:25.248Z"
       }
+    },
+    {
+      "id": "wrtnlabs-ac",
+      "name": "ac",
+      "description": "앱에 종속되지 않는 Rust 기반 AI 에이전트 백엔드 프레임워크입니다. 에이전트 루프, 도구 레지스트리, macOS Seatbelt와 Linux landlock/seccomp 샌드박스, WAL 기반 세션 저장소, MCP 클라이언트를 라이브러리로 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/wrtnlabs/ac",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "forks": 0,
+        "lastUpdated": "2026-08-13T05:31:16Z",
+        "lastCommit": "2026-08-13T05:30:50Z",
+        "fetchedAt": "2026-10-04T15:10:29.047Z"
+      }
     }
   ]
 }

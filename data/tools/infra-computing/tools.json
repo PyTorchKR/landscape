@@ -555,6 +555,25 @@
         "lastCommit": "2026-05-07T16:45:03Z",
         "fetchedAt": "2026-05-23T23:48:32.405Z"
       }
+    },
+    {
+      "id": "rbln-sw-vllm-rbln",
+      "name": "vllm-rbln",
+      "description": "리벨리온 ATOM, REBEL NPU에서 vLLM을 실행할 수 있게 하는 하드웨어 플러그인입니다. vLLM 플러그인 시스템 위에 구축되어 기존 vLLM 사용 방식 그대로 RBLN NPU에서 LLM을 서빙합니다.",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/RBLN-SW/vllm-rbln",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 59,
+        "forks": 16,
+        "lastUpdated": "2026-10-02T16:35:00Z",
+        "lastCommit": "2026-10-04T12:58:47Z",
+        "fetchedAt": "2026-10-04T16:50:25.306Z"
+      }
     }
   ]
 }

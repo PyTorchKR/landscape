@@ -47,7 +47,8 @@
         "tflite",
         "openvino",
         "mlc-llm",
-        "pytorch-xla"
+        "pytorch-xla",
+        "rbln-sw-vllm-rbln"
       ]
     },
     {

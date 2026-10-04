@@ -1568,6 +1568,29 @@
         "lastCommit": "2026-08-09T09:38:19.000Z",
         "fetchedAt": "2026-10-04T22:22:23.370Z"
       }
+    },
+    {
+      "id": "hf-lgai-exaone-k-exaone-2-0-750b-a37b",
+      "name": "K-EXAONE-2.0-750B-A37B",
+      "description": "LG AI연구원이 업사이클링으로 이전 모델보다 3배 이상 키운 다국어 MoE 언어 모델로 총 750B 파라미터 중 37B가 활성화됩니다. 256개 전문가 중 8개와 공유 전문가 1개를 사용하며 262K 컨텍스트와 추론, 에이전트 작업을 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 156,
+        "downloads": 3439,
+        "lastUpdated": "2026-08-07T05:50:32.000Z",
+        "lastCommit": "2026-08-07T05:50:32.000Z",
+        "fetchedAt": "2026-10-04T22:33:28.820Z"
+      }
     }
   ]
 }

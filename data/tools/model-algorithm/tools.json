@@ -1141,6 +1141,29 @@
         "lastCommit": "2026-07-31T21:23:35.000Z",
         "fetchedAt": "2026-10-04T18:09:26.766Z"
       }
+    },
+    {
+      "id": "hf-maum-ai-llama-3-maal-8b-instruct-v0-1",
+      "name": "Llama-3-MAAL-8B-Instruct-v0.1",
+      "description": "Llama 3 8B Instruct를 바탕으로 마음AI가 교차 언어 학습을 적용해, 영어의 지시 따르기 능력을 한국어로 옮긴 8B 한국어 영어 이중언어 모델입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "llama3",
+      "huggingfaceUrl": "https://huggingface.co/maum-ai/Llama-3-MAAL-8B-Instruct-v0.1",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 35,
+        "downloads": 29,
+        "lastUpdated": "2024-04-30T12:25:15.000Z",
+        "lastCommit": "2024-04-30T12:25:15.000Z",
+        "fetchedAt": "2026-10-04T18:22:27.344Z"
+      }
     }
   ]
 }

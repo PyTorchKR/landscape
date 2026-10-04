@@ -1419,6 +1419,29 @@
         "lastCommit": "2025-09-16T11:42:05.000Z",
         "fetchedAt": "2026-10-04T21:01:24.884Z"
       }
+    },
+    {
+      "id": "hf-naver-hyperclovax-hyperclovax-seed-think-14b",
+      "name": "HyperCLOVAX-SEED-Think-14B",
+      "description": "네이버클라우드가 프루닝과 지식 증류, 다단계 강화학습으로 만든 14.74B 파라미터 추론 언어 모델입니다. 32K 컨텍스트를 지원하며 한국어와 한국 문화 이해에 강점을 둡니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "hyperclovax-seed",
+      "huggingfaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 119,
+        "downloads": 31992,
+        "lastUpdated": "2026-05-28T06:39:44.000Z",
+        "lastCommit": "2026-05-28T06:39:44.000Z",
+        "fetchedAt": "2026-10-04T21:12:27.994Z"
+      }
     }
   ]
 }

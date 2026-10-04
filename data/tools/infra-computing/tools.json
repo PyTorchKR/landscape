@@ -574,6 +574,25 @@
         "lastCommit": "2026-10-04T12:58:47Z",
         "fetchedAt": "2026-10-04T16:50:25.306Z"
       }
+    },
+    {
+      "id": "furiosa-ai-furiosa-models",
+      "name": "furiosa-models",
+      "description": "FuriosaAI NPU에서 바로 실행할 수 있도록 미리 양자화한 비전 모델(ResNet50, EfficientNet, SSD, YOLOv5, YOLOv7 Pose 등)과 전후처리 유틸리티, 컴파일러 설정을 제공하는 Python 모델 저장소입니다. 모델은 표준 ONNX/TFLite 형식이라 CPU와 GPU에서도 실행됩니다.",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/furiosa-ai/furiosa-models",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 17,
+        "forks": 6,
+        "lastUpdated": "2026-02-12T21:43:33Z",
+        "lastCommit": "2025-10-28T02:23:40Z",
+        "fetchedAt": "2026-10-04T17:44:25.263Z"
+      }
     }
   ]
 }

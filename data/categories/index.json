@@ -48,7 +48,8 @@
         "openvino",
         "mlc-llm",
         "pytorch-xla",
-        "rbln-sw-vllm-rbln"
+        "rbln-sw-vllm-rbln",
+        "furiosa-ai-furiosa-models"
       ]
     },
     {

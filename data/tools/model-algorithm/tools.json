@@ -1310,6 +1310,29 @@
         "lastCommit": "2025-12-04T03:08:57.000Z",
         "fetchedAt": "2026-10-04T19:43:25.974Z"
       }
+    },
+    {
+      "id": "hf-kakaocorp-kanana-1-5-15-7b-a3b-base",
+      "name": "kanana-1.5-15.7b-a3b-base",
+      "description": "카카오 Kanana 패밀리의 첫 MoE 모델로, 전체 15.7B 가운데 약 3B만 활성화해 토큰당 연산량을 Kanana-1.5-8B의 37% 수준으로 줄이면서 비슷한 성능을 냅니다. 사후학습에는 on-policy 증류와 강화학습을 적용했습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "kanana",
+      "huggingfaceUrl": "https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-base",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 10,
+        "downloads": 268,
+        "lastUpdated": "2025-07-23T14:49:48.000Z",
+        "lastCommit": "2025-07-23T14:49:48.000Z",
+        "fetchedAt": "2026-10-04T19:55:23.122Z"
+      }
     }
   ]
 }

@@ -2079,6 +2079,25 @@
         "lastCommit": "2026-10-02T12:10:16Z",
         "fetchedAt": "2026-10-03T05:50:02.372Z"
       }
+    },
+    {
+      "id": "furiosa-ai-efficientrollout",
+      "name": "EfficientRollout",
+      "description": "VeRL 기반 LLM 강화학습에서 롤아웃 생성 병목을 줄이기 위해 정책 모델을 양자화한 드래프터로 자기 추론적(self-speculative) 디코딩을 적용하는 연구 코드입니다. 시스템 상황에 따라 추론적 디코딩을 켜고 끄며 롤아웃 지연을 최대 19.6%, 종단 지연을 최대 12.7% 줄였다고 보고합니다(NeurIPS 2026).",
+      "categoryId": "reinforcement-learning",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/furiosa-ai/EfficientRollout",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 16,
+        "forks": 0,
+        "lastUpdated": "2026-09-30T06:27:19Z",
+        "lastCommit": "2026-09-30T06:27:14Z",
+        "fetchedAt": "2026-10-04T17:03:26.598Z"
+      }
     }
   ]
 }

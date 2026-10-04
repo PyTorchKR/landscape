@@ -1353,6 +1353,26 @@
         "lastCommit": "2026-07-29T09:03:14.000Z",
         "fetchedAt": "2026-10-04T20:07:22.443Z"
       }
+    },
+    {
+      "id": "hf-collection-kakaocorp-kanana-2-slm-6a63034fcb58f9ef01bab362",
+      "name": "Kanana-2-SLM",
+      "description": "카카오가 TPU에서 직접 사전학습한 3B 모델과, 이를 단계적 프루닝과 증류로 줄인 1.3B 모델의 base, instruct 4종입니다. 1.3B는 슬라이딩 윈도우 어텐션으로 32K 컨텍스트에서 KV 캐시를 줄여 온디바이스 배포에 맞췄습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "kanana-open-license",
+      "huggingfaceUrl": "https://huggingface.co/collections/kakaocorp/kanana-2-slm-6a63034fcb58f9ef01bab362",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 35,
+        "downloads": 10313,
+        "lastUpdated": "2026-09-15T03:59:31.219Z",
+        "lastCommit": "2026-09-15T03:59:31.219Z",
+        "fetchedAt": "2026-10-04T20:20:25.515Z"
+      }
     }
   ]
 }

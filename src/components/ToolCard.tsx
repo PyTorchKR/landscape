@@ -36,10 +36,9 @@ const tierStyles: Record<SizeTier, { card: string; avatar: string; name: string 
 interface ToolCardProps {
   tool: Tool
   markKr: boolean
-  highlightKr: boolean
 }
 
-export default function ToolCard({ tool, markKr, highlightKr }: ToolCardProps) {
+export default function ToolCard({ tool, markKr }: ToolCardProps) {
   const tier = getStarTier(tool.meta?.stars)
   const styles = tierStyles[tier]
   const firstLetter = tool.name.charAt(0).toUpperCase()
@@ -56,7 +55,7 @@ export default function ToolCard({ tool, markKr, highlightKr }: ToolCardProps) {
   }
 
   return (
-    <div className="relative group" style={{ opacity: highlightKr && !kr ? 0.25 : 1 }}>
+    <div className="relative group">
       {markKr && kr && (
         <span className="absolute -top-1 -left-1 z-[1] px-1 rounded-sm text-[9px] font-bold leading-tight bg-yellow-400 text-gray-900 pointer-events-none">
           KR

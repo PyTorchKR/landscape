@@ -4,6 +4,7 @@ import LandscapeGrid from './components/LandscapeGrid'
 import TreemapView from './components/TreemapView'
 import HeaderActions from './components/HeaderActions'
 import LegendPopup from './components/LegendPopup'
+import ScopeToggle from './components/ScopeToggle'
 import { getModules, getCategories, getTools } from './services/dataService'
 import { useI18n } from './i18n/useI18n'
 import { useTheme, ThemeSetting } from './theme/useTheme'
@@ -16,29 +17,21 @@ const tools = getTools()
 
 const allModuleIds = new Set(modules.map(m => m.id))
 
-const SCOPES: Scope[] = ['all', 'global', 'kr']
-
-// Scope lives in ?scope= so a tab can be linked directly
+// Scope lives in ?scope=kr so the Korea view can be linked directly
 function getInitialScope(): Scope {
-  const value = new URLSearchParams(window.location.search).get('scope')
-  return SCOPES.includes(value as Scope) ? (value as Scope) : 'all'
+  return new URLSearchParams(window.location.search).get('scope') === 'kr' ? 'kr' : 'all'
 }
-
-const scopeCounts = Object.fromEntries(
-  SCOPES.map(s => [s, tools.filter(tool => inScope(tool, s)).length]),
-) as Record<Scope, number>
 
 export default function App() {
   const [selectedModules, setSelectedModules] = useState<Set<string>>(allModuleIds)
   const [view, setView] = useState<'grid' | 'treemap'>('treemap')
   const [legendAnchor, setLegendAnchor] = useState<DOMRect | null>(null)
   const [scope, setScope] = useState<Scope>(getInitialScope)
-  const [highlightKr, setHighlightKr] = useState(false)
 
   useEffect(() => {
     const url = new URL(window.location.href)
-    if (scope === 'all') url.searchParams.delete('scope')
-    else url.searchParams.set('scope', scope)
+    if (scope === 'kr') url.searchParams.set('scope', 'kr')
+    else url.searchParams.delete('scope')
     window.history.replaceState(null, '', url)
   }, [scope])
 
@@ -108,11 +101,6 @@ export default function App() {
         visibleCount={visibleCount}
         view={view}
         onViewChange={setView}
-        scope={scope}
-        scopeCounts={scopeCounts}
-        onScopeChange={setScope}
-        highlightKr={highlightKr}
-        onHighlightKrChange={setHighlightKr}
         t={t}
       />
 
@@ -126,7 +114,6 @@ export default function App() {
             searchQuery=""
             selectedModules={selectedModules}
             markKr={scope === 'all'}
-            highlightKr={scope === 'all' && highlightKr}
             t={t}
             resolvedTheme={resolvedTheme}
           />
@@ -138,7 +125,6 @@ export default function App() {
             searchQuery=""
             selectedModules={selectedModules}
             scope={scope}
-            highlightKr={scope === 'all' && highlightKr}
             locale={locale}
             t={t}
           />
@@ -148,7 +134,9 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-auto">
         <div className="max-w-screen-xl mx-auto px-4 py-2 flex items-center justify-between text-xs text-gray-400">
-          <span>{t.footerOrg}</span>
+          <a href="https://pytorch.kr" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+            {t.footerOrg}
+          </a>
           <div className="flex items-center gap-3">
             <div className="flex items-center border border-gray-200 dark:border-gray-600 rounded overflow-hidden">
               {(['system', 'light', 'dark'] as ThemeSetting[]).map((theme) => (
@@ -165,9 +153,7 @@ export default function App() {
                 </button>
               ))}
             </div>
-            <a href="https://pytorch.kr" target="_blank" rel="noopener noreferrer" title="pytorch.kr" className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </a>
+            <ScopeToggle scope={scope} onChange={setScope} t={t} />
             <a href="https://github.com/PyTorchKR/landscape" target="_blank" rel="noopener noreferrer" title="GitHub" className="hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
             </a>

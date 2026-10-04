@@ -12,7 +12,7 @@ Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈�
 ## 주요 기능
 
 - **Treemap/Grid View**: 7개 모듈(인프라, 데이터, 모델, 학습/추론, 플랫폼, 응용, 보안) 기준으로 프로젝트를 시각화
-- **전체 / 글로벌 / 국내 탭**: 국내 기업·기관 프로젝트(`region: "KR"`)를 따로 보거나 함께 봄. 전체 탭에서는 국내 프로젝트에 노란 테두리와 KR 배지를 달고, `국내 강조`를 켜면 나머지를 흐리게 함. `?scope=kr`처럼 탭을 링크로 공유할 수 있음
+- **국내 프로젝트 보기**: 국내 기업·기관 프로젝트(`region: "KR"`)는 노란 테두리와 KR 배지로 표시. 우측 하단 🌐 버튼(마우스를 올리면 🇰🇷)을 누르면 국내 프로젝트만 보고, 다시 누르면 전체로 돌아옴. `?scope=kr`로 바로 링크할 수 있음
 - **Module Filter**: 관심 있는 모듈만 선택하여 볼 수 있음
 - **GitHub Stars based size**: 프로젝트 인지도를 직관적으로 파악
 - **Commit time based color**: 최근 활발한 프로젝트를 한눈에 확인
@@ -44,7 +44,7 @@ AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝�
 
 1. GitHub API로 저장소 정보(Stars, 라이선스, 최근 커밋 등)를 조회해 `data/tools/<moduleId>/tools.json`과 `data/categories/index.json`에 추가
    - HuggingFace에만 공개된 모델·데이터셋·컬렉션은 저장소 URL 자리에 HuggingFace URL을 넣으면 됩니다. 이때는 Stars 대신 Likes와 Downloads를 저장합니다. 모델·데이터셋은 HuggingFace에 짧은 설명 필드가 없어 이슈의 설명이 필요합니다. `/approve <owner/repo> ...` 형식은 GitHub 저장소에만 쓸 수 있습니다.
-   - 관리자가 이슈에 `Korea` 라벨을 붙이면 `region: "KR"`을 함께 저장해 국내 탭에 표시합니다.
+   - 관리자가 이슈에 `Korea` 라벨을 붙이면 `region: "KR"`을 함께 저장해 KR 배지와 국내 프로젝트 보기에 표시합니다.
 2. `main`에 커밋 (`feat: add <url> (closes #N)`)
 3. 이슈에 결과 댓글을 남기고 이슈를 닫음
 4. Build & Deploy를 실행해 사이트에 바로 반영

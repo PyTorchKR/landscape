@@ -29,7 +29,6 @@ interface ContentProps {
   description?: string
   kr?: boolean
   markKr?: boolean
-  dimmed?: boolean
   onHover?: (info: TooltipInfo, clientX: number, clientY: number) => void
   onLeave?: () => void
   onClick?: (url: string) => void
@@ -38,7 +37,7 @@ interface ContentProps {
 function TreemapContent(props: ContentProps) {
   const {
     x = 0, y = 0, width = 0, height = 0,
-    depth, name, moduleId, lastUpdated, url, isHf, description, kr, markKr, dimmed,
+    depth, name, moduleId, lastUpdated, url, isHf, description, kr, markKr,
     onHover, onLeave, onClick,
   } = props
 
@@ -98,7 +97,6 @@ function TreemapContent(props: ContentProps) {
     return (
       <g
         style={{ cursor: url ? 'pointer' : 'default' }}
-        opacity={dimmed ? 0.2 : 1}
         onClick={() => url && onClick && onClick(url)}
         onMouseMove={(e) => {
           onHover?.({ name: name ?? '', lastUpdated, url, isHf, description, kr }, e.clientX, e.clientY)
@@ -164,24 +162,16 @@ interface Props {
   searchQuery: string
   selectedModules: Set<string>
   scope: Scope
-  highlightKr: boolean
   locale: Locale
   t: Translations
 }
 
 // Korean projects are small next to global ones (median well under 1k stars),
-// so the Korea tab sizes cells on a log scale to keep every project readable.
-// In the all tab, 'Highlight Korea' gives each Korean cell at least
-// KR_MIN_SHARE of the total area so its name and KR badge fit.
-const KR_MIN_SHARE = 0.0012
+// so the Korea view sizes cells on a log scale to keep every project readable.
+const cellSize = (tool: Tool, scope: Scope): number =>
+  scope === 'kr' ? 1 + Math.log10(1 + popularity(tool)) : Math.max(popularity(tool), 100)
 
-const cellSize = (tool: Tool, scope: Scope, krFloor: number): number => {
-  if (scope === 'kr') return 1 + Math.log10(1 + popularity(tool))
-  const size = Math.max(popularity(tool), 100)
-  return isKorean(tool) ? Math.max(size, krFloor) : size
-}
-
-export default function TreemapView({ modules, categories, tools, searchQuery, selectedModules, scope, highlightKr, locale, t }: Props) {
+export default function TreemapView({ modules, categories, tools, searchQuery, selectedModules, scope, locale, t }: Props) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null)
 
   const filteredModules = useMemo(
@@ -191,9 +181,6 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
 
   const treemapData = useMemo(() => {
     const q = searchQuery.toLowerCase()
-    const krFloor = highlightKr
-      ? tools.reduce((sum, tool) => sum + cellSize(tool, scope, 0), 0) * KR_MIN_SHARE
-      : 0
 
     return filteredModules
       .slice()
@@ -221,7 +208,7 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
               moduleId: module.id,
               children: categoryTools.map(tool => ({
                 name: tool.name,
-                size: cellSize(tool, scope, krFloor),
+                size: cellSize(tool, scope),
                 moduleId: module.id,
                 toolId: tool.id,
                 lastUpdated: tool.meta?.lastCommit ?? tool.meta?.lastUpdated,
@@ -230,7 +217,6 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
                 description: tool.description,
                 kr: isKorean(tool),
                 markKr: scope === 'all',
-                dimmed: highlightKr && !isKorean(tool),
               })),
             }
           })
@@ -245,7 +231,7 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
         }
       })
       .filter((m): m is NonNullable<typeof m> => m !== null)
-  }, [filteredModules, categories, tools, searchQuery, scope, highlightKr])
+  }, [filteredModules, categories, tools, searchQuery, scope])
 
   if (treemapData.length === 0) {
     return (

@@ -28,7 +28,7 @@ export interface Tool {
   meta: ToolMeta
 }
 
-export type Scope = 'all' | 'global' | 'kr'
+export type Scope = 'all' | 'kr'
 
 export interface Module {
   id: string

@@ -1820,6 +1820,25 @@
         "lastCommit": "2024-09-07T02:40:03Z",
         "fetchedAt": "2026-10-04T15:48:23.762Z"
       }
+    },
+    {
+      "id": "naver-ai-omni-evaluator",
+      "name": "omni-evaluator",
+      "description": "HuggingFace, vLLM, SGLang, API 백엔드와 여러 평가 엔진을 하나의 CLI로 묶어 텍스트, 이미지, 비디오, 오디오 벤치마크 2,820여 개를 실행하는 LLM/VLM 평가 도구입니다. 실행마다 재현에 필요한 설정을 담은 아티팩트를 남깁니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/naver-ai/omni-evaluator",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 20,
+        "forks": 2,
+        "lastUpdated": "2026-09-09T07:32:39Z",
+        "lastCommit": "2026-08-31T11:37:40Z",
+        "fetchedAt": "2026-10-04T16:02:36.117Z"
+      }
     }
   ]
 }

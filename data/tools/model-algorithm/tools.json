@@ -1700,6 +1700,29 @@
         "lastCommit": "2026-01-20T10:25:39.000Z",
         "fetchedAt": "2026-10-04T23:34:27.457Z"
       }
+    },
+    {
+      "id": "hf-skt-a-x-k1",
+      "name": "A.X-K1",
+      "description": "SK텔레콤이 기존 모델 초기화 없이 처음부터 학습한 MoE 언어 모델로 총 519B 파라미터 중 토큰당 33B가 활성화됩니다. MLA 어텐션과 131K 컨텍스트를 지원하며 Think와 Non-Think 모드를 사용자가 고를 수 있습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/skt/A.X-K1",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 295,
+        "downloads": 10846,
+        "lastUpdated": "2026-07-24T21:38:55.000Z",
+        "lastCommit": "2026-07-24T21:38:55.000Z",
+        "fetchedAt": "2026-10-04T23:49:25.461Z"
+      }
     }
   ]
 }

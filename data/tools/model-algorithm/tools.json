@@ -1118,6 +1118,29 @@
         "lastCommit": "2024-09-10T21:45:21.000Z",
         "fetchedAt": "2026-10-04T17:56:25.780Z"
       }
+    },
+    {
+      "id": "hf-upstage-solar-open2-250b",
+      "name": "Solar-Open2-250B",
+      "description": "업스테이지의 250B(활성 15B) MoE LLM으로, 선형 어텐션 3층과 소프트맥스 어텐션 1층을 섞은 하이브리드 구조입니다. 최대 100만 토큰 컨텍스트를 지원하고 도구 호출 같은 에이전트 작업을 겨냥하며, 영어, 한국어, 일본어를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "upstage-solar-license",
+      "huggingfaceUrl": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 755,
+        "downloads": 3568,
+        "lastUpdated": "2026-07-31T21:23:35.000Z",
+        "lastCommit": "2026-07-31T21:23:35.000Z",
+        "fetchedAt": "2026-10-04T18:09:26.766Z"
+      }
     }
   ]
 }

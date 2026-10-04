@@ -1095,6 +1095,29 @@
         "lastCommit": "2026-08-31T07:13:08.989Z",
         "fetchedAt": "2026-10-04T17:34:23.148Z"
       }
+    },
+    {
+      "id": "hf-upstage-solar-10-7b-v1-0",
+      "name": "SOLAR-10.7B-v1.0",
+      "description": "업스테이지의 10.7B 파라미터 사전학습 LLM입니다. Mistral 7B 가중치를 depth up-scaling(DUS)으로 키운 뒤 계속 사전학습했으며, 파인튜닝용 base 모델로 공개됐습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 324,
+        "downloads": 13112,
+        "lastUpdated": "2024-09-10T21:45:21.000Z",
+        "lastCommit": "2024-09-10T21:45:21.000Z",
+        "fetchedAt": "2026-10-04T17:56:25.780Z"
+      }
     }
   ]
 }

@@ -1184,6 +1184,29 @@
         "lastCommit": "2024-12-06T13:40:15.000Z",
         "fetchedAt": "2026-10-04T18:36:28.856Z"
       }
+    },
+    {
+      "id": "hf-dnotitia-dna-r1",
+      "name": "DNA-R1",
+      "description": "Phi-4 기반 14B 한국어 특화 추론 모델로, DeepSeek-R1과 같은 방식의 SFT와 GRPO 강화학습을 적용해 한국어 긴 사고 사슬(CoT)과 자기 검증 능력을 갖췄습니다. 비상업 라이선스(CC-BY-NC-4.0)로 공개됐습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/dnotitia/DNA-R1",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 41,
+        "downloads": 50,
+        "lastUpdated": "2025-03-11T07:47:55.000Z",
+        "lastCommit": "2025-03-11T07:47:55.000Z",
+        "fetchedAt": "2026-10-04T18:46:28.035Z"
+      }
     }
   ]
 }

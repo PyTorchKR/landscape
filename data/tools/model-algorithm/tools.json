@@ -1548,6 +1548,26 @@
         "lastCommit": "2026-03-02T10:55:53.912Z",
         "fetchedAt": "2026-10-04T22:12:24.057Z"
       }
+    },
+    {
+      "id": "hf-collection-lgai-exaone-exaone-45-69d68273ab812bfd2be85cda",
+      "name": "EXAONE 4.5",
+      "description": "LG AI연구원의 첫 오픈 웨이트 비전 언어 모델로 31.7B 언어 모델과 1.29B 비전 인코더를 합친 33B 규모입니다. 최대 262K 컨텍스트를 지원하며 문서 이해와 한국어 맥락 추론에 강점을 둡니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "exaone",
+      "huggingfaceUrl": "https://huggingface.co/collections/LGAI-EXAONE/exaone-45-69d68273ab812bfd2be85cda",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 273,
+        "downloads": 99356,
+        "lastUpdated": "2026-08-09T09:38:19.000Z",
+        "lastCommit": "2026-08-09T09:38:19.000Z",
+        "fetchedAt": "2026-10-04T22:22:23.370Z"
+      }
     }
   ]
 }

@@ -1287,6 +1287,29 @@
         "lastCommit": "2025-12-04T03:08:57.000Z",
         "fetchedAt": "2026-10-04T19:31:21.194Z"
       }
+    },
+    {
+      "id": "hf-kakaocorp-kanana-1-5-v-3b-instruct",
+      "name": "kanana-1.5-v-3b-instruct",
+      "description": "이미지 인코더, C-abstractor, kanana-1.5-3b-instruct 언어모델로 구성된 3.6B 파라미터 시각 언어 모델입니다. 영어와 한국어로 이미지 캡션, 문서 이해, OCR 기반 추론, 멀티모달 지시 수행을 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "kanana",
+      "huggingfaceUrl": "https://huggingface.co/kakaocorp/kanana-1.5-v-3b-instruct",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "image-text-to-text",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 56,
+        "downloads": 20156,
+        "lastUpdated": "2025-12-04T03:08:57.000Z",
+        "lastCommit": "2025-12-04T03:08:57.000Z",
+        "fetchedAt": "2026-10-04T19:43:25.974Z"
+      }
     }
   ]
 }

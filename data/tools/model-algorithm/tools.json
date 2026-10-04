@@ -1207,6 +1207,26 @@
         "lastCommit": "2025-03-11T07:47:55.000Z",
         "fetchedAt": "2026-10-04T18:46:28.035Z"
       }
+    },
+    {
+      "id": "hf-collection-dnotitia-dna-20-68785c3f39688a8e33ff2dd5",
+      "name": "DNA 2.0",
+      "description": "중국어 토큰 생성 확률을 낮춘 Smoothie Qwen3를 바탕으로, 언센서드 추론 학습과 강화학습을 적용한 디노티시아의 한국어 영어 LLM 패밀리입니다. 0.6B부터 235B-A22B(MoE)까지 있으며, 14B를 제외한 모델은 승인 후 받을 수 있습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/dnotitia/dna-20-68785c3f39688a8e33ff2dd5",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 12,
+        "downloads": 42,
+        "lastUpdated": "2026-03-02T10:55:54.788Z",
+        "lastCommit": "2026-03-02T10:55:54.788Z",
+        "fetchedAt": "2026-10-04T18:58:21.230Z"
+      }
     }
   ]
 }

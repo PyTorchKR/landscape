@@ -1508,6 +1508,26 @@
         "lastCommit": "2026-02-06T06:14:59.000Z",
         "fetchedAt": "2026-10-04T21:48:24.802Z"
       }
+    },
+    {
+      "id": "hf-collection-lgai-exaone-exaone-deep-67d119918816ec6efa79a4aa",
+      "name": "EXAONE-Deep",
+      "description": "LG AI연구원이 EXAONE 3.5를 기반으로 수학과 코딩 등 추론 과제에 맞춰 학습한 추론 언어 모델 시리즈로 2.4B, 7.8B, 32B 크기가 있습니다. 32K 컨텍스트를 지원하며 AWQ와 GGUF 양자화 버전도 제공됩니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "exaone",
+      "huggingfaceUrl": "https://huggingface.co/collections/LGAI-EXAONE/exaone-deep-67d119918816ec6efa79a4aa",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 678,
+        "downloads": 6355,
+        "lastUpdated": "2026-02-06T06:28:27.000Z",
+        "lastCommit": "2026-02-06T06:28:27.000Z",
+        "fetchedAt": "2026-10-04T22:02:24.903Z"
+      }
     }
   ]
 }

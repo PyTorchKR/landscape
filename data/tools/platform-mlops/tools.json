@@ -1839,6 +1839,25 @@
         "lastCommit": "2026-08-31T11:37:40Z",
         "fetchedAt": "2026-10-04T16:02:36.117Z"
       }
+    },
+    {
+      "id": "moreh-dev-openbench-runner",
+      "name": "openbench-runner",
+      "description": "OpenBench를 감싸 GPQA Diamond, TAU-bench Airline, JSONSchemaBench를 vLLM, OpenRouter, OpenAI 호환 엔드포인트에서 실행하는 평가 러너입니다. 도구 호출 오류율, 구조화 출력 오류율, 캐시 적중률을 후처리로 계산하고 포아송 부하 기반 가동률 측정기를 포함합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/moreh-dev/openbench-runner",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "forks": 0,
+        "lastUpdated": "2026-07-23T17:11:00Z",
+        "lastCommit": "2026-09-14T05:15:42Z",
+        "fetchedAt": "2026-10-04T16:16:27.189Z"
+      }
     }
   ]
 }

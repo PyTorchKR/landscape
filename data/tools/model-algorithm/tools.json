@@ -1227,6 +1227,26 @@
         "lastCommit": "2026-03-02T10:55:54.788Z",
         "fetchedAt": "2026-10-04T18:58:21.230Z"
       }
+    },
+    {
+      "id": "hf-collection-dnotitia-dna-30-69d6675bab812bfd2be5d66a",
+      "name": "DNA 3.0",
+      "description": "Qwen3.5/3.6을 바탕으로 디노티시아가 언센서드 학습과 페르소나 학습을 적용한 기업용 시각 언어 모델 패밀리입니다. 0.8B부터 397B-A17B(MoE)까지 있으며, 텍스트, 이미지, 영상 입력과 262K 토큰 기본 컨텍스트, 추론 블록 생성을 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/dnotitia/dna-30-69d6675bab812bfd2be5d66a",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 17,
+        "downloads": 795,
+        "lastUpdated": "2026-08-04T01:04:49.612Z",
+        "lastCommit": "2026-08-04T01:04:49.612Z",
+        "fetchedAt": "2026-10-04T19:10:25.295Z"
+      }
     }
   ]
 }

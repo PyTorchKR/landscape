@@ -1247,6 +1247,26 @@
         "lastCommit": "2026-08-04T01:04:49.612Z",
         "fetchedAt": "2026-10-04T19:10:25.295Z"
       }
+    },
+    {
+      "id": "hf-collection-kakaocorp-kanana-nano-21b-67a326cda1c449c8d4172259",
+      "name": "Kanana Nano 2.1B",
+      "description": "카카오 Kanana 계열의 2.1B 파라미터 한국어 영어 이중언어 소형 언어모델로, 기술 보고서에 따르면 8B 모델에서 프루닝과 증류로 만들었습니다. base, instruct, embedding 모델이 한국어 언어모델 연구용 비상업 라이선스로 공개되어 있습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/kakaocorp/kanana-nano-21b-67a326cda1c449c8d4172259",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 145,
+        "downloads": 3716,
+        "lastUpdated": "2026-03-02T10:55:42.633Z",
+        "lastCommit": "2026-03-02T10:55:42.633Z",
+        "fetchedAt": "2026-10-04T19:20:25.102Z"
+      }
     }
   ]
 }

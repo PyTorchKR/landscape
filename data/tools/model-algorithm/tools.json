@@ -1075,6 +1075,26 @@
         "lastCommit": "2026-09-30T10:06:02Z",
         "fetchedAt": "2026-10-03T05:26:20.841Z"
       }
+    },
+    {
+      "id": "hf-collection-nota-ai-efficient-solar-open-family-6a617203d72c5e6d85b32cf8",
+      "name": "Efficient Solar Open Family ",
+      "description": "업스테이지 Solar Open 2(250B, 활성 15B MoE)를 Nota AI가 MoE 특화 기법으로 4비트 양자화한 가중치 모음입니다. vLLM용 NVFP4(W4A4)와 INT4(W4A16) 버전, 그리고 전문가를 전역 프루닝해 H100 2장에서 구동되는 버전을 제공합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "upstage-solar-license",
+      "huggingfaceUrl": "https://huggingface.co/collections/nota-ai/efficient-solar-open-family-6a617203d72c5e6d85b32cf8",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 426,
+        "downloads": 3801,
+        "lastUpdated": "2026-08-31T07:13:08.989Z",
+        "lastCommit": "2026-08-31T07:13:08.989Z",
+        "fetchedAt": "2026-10-04T17:34:23.148Z"
+      }
     }
   ]
 }

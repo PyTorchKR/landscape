@@ -1611,6 +1611,29 @@
         "lastCommit": "2025-10-29T05:33:06.000Z",
         "fetchedAt": "2026-10-04T22:44:23.527Z"
       }
+    },
+    {
+      "id": "hf-skt-a-x-4-0",
+      "name": "A.X-4.0",
+      "description": "SK텔레콤이 Qwen2.5에 대규모 한국어 데이터를 추가 학습한 72B 언어 모델로 최대 131K 컨텍스트를 지원합니다. 같은 계열에 7B 경량 모델 A.X 4.0 Light도 있습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "qwen",
+      "huggingfaceUrl": "https://huggingface.co/skt/A.X-4.0",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 175,
+        "downloads": 1141,
+        "lastUpdated": "2025-07-17T05:08:53.000Z",
+        "lastCommit": "2025-07-17T05:08:53.000Z",
+        "fetchedAt": "2026-10-04T22:58:20.981Z"
+      }
     }
   ]
 }

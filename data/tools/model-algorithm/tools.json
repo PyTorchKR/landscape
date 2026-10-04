@@ -1634,6 +1634,29 @@
         "lastCommit": "2025-07-17T05:08:53.000Z",
         "fetchedAt": "2026-10-04T22:58:20.981Z"
       }
+    },
+    {
+      "id": "hf-skt-a-x-4-0-vl-light",
+      "name": "A.X-4.0-VL-Light",
+      "description": "SK텔레콤이 A.X 4.0 Light(7B)를 기반으로 한국어 멀티모달 데이터로 추가 학습한 약 7.7B 파라미터 비전 언어 모델입니다. 한국어 문서, 표, 차트, 손글씨 이해 등 기업용 활용을 겨냥합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/skt/A.X-4.0-VL-Light",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "image-text-to-text",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 40,
+        "downloads": 522,
+        "lastUpdated": "2025-08-29T04:28:31.000Z",
+        "lastCommit": "2025-08-29T04:28:31.000Z",
+        "fetchedAt": "2026-10-04T23:09:24.135Z"
+      }
     }
   ]
 }

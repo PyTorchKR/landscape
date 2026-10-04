@@ -129,17 +129,6 @@ export default function LegendPopup({ modules, t, view, scope, anchorRect, onClo
         </div>
       )}
 
-      {/* Korean project marker — all-projects tab only */}
-      {scope === 'all' && (
-        <div className="mt-3">
-          <p className="text-xs text-gray-500 dark:text-gray-400 mb-1 flex items-center gap-1.5">
-            <span className="inline-block px-1 rounded-sm text-[10px] font-bold bg-yellow-400 text-gray-900">KR</span>
-            {t.krBadgeTitle}
-          </p>
-          <p className="text-[0.65rem] text-gray-400 dark:text-gray-500">{t.krBadgeDesc}</p>
-        </div>
-      )}
-
       {/* Log-scale sizing note — Korea tab treemap only */}
       {scope === 'kr' && view === 'treemap' && (
         <p className="mt-3 text-[0.65rem] text-gray-400 dark:text-gray-500">{t.krSizeNote}</p>

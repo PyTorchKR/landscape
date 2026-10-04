@@ -35,10 +35,9 @@ const tierStyles: Record<SizeTier, { card: string; avatar: string; name: string 
 
 interface ToolCardProps {
   tool: Tool
-  markKr: boolean
 }
 
-export default function ToolCard({ tool, markKr }: ToolCardProps) {
+export default function ToolCard({ tool }: ToolCardProps) {
   const tier = getStarTier(tool.meta?.stars)
   const styles = tierStyles[tier]
   const firstLetter = tool.name.charAt(0).toUpperCase()
@@ -56,18 +55,12 @@ export default function ToolCard({ tool, markKr }: ToolCardProps) {
 
   return (
     <div className="relative group">
-      {markKr && kr && (
-        <span className="absolute -top-1 -left-1 z-[1] px-1 rounded-sm text-[9px] font-bold leading-tight bg-yellow-400 text-gray-900 pointer-events-none">
-          KR
-        </span>
-      )}
       <button
         onClick={handleClick}
         disabled={!url}
-        title={`${tool.name}\n${tool.description}\n${scoreIcon} ${score ? score.toLocaleString() : 'N/A'} • ${tool.license}`}
+        title={`${kr ? '[KR] ' : ''}${tool.name}\n${tool.description}\n${scoreIcon} ${score ? score.toLocaleString() : 'N/A'} • ${tool.license}`}
         className={`
           ${styles.card}
-          ${markKr && kr ? '!border-2 !border-yellow-400' : ''}
           flex items-center gap-1.5 p-1.5 rounded-md
           bg-white dark:bg-gray-800 cursor-pointer transition-all duration-150
           hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400

@@ -28,7 +28,6 @@ interface ContentProps {
   isHf?: boolean
   description?: string
   kr?: boolean
-  markKr?: boolean
   onHover?: (info: TooltipInfo, clientX: number, clientY: number) => void
   onLeave?: () => void
   onClick?: (url: string) => void
@@ -37,7 +36,7 @@ interface ContentProps {
 function TreemapContent(props: ContentProps) {
   const {
     x = 0, y = 0, width = 0, height = 0,
-    depth, name, moduleId, lastUpdated, url, isHf, description, kr, markKr,
+    depth, name, moduleId, lastUpdated, url, isHf, description, kr,
     onHover, onLeave, onClick,
   } = props
 
@@ -91,8 +90,6 @@ function TreemapContent(props: ContentProps) {
     const area = width * height
     const fontSize = Math.min(18, Math.max(8, Math.floor(Math.sqrt(area) / 7)))
     const showName = width > 20 && height > 10
-    const showKr = markKr && kr
-    const showBadge = showKr && width >= 28 && height >= 30
 
     return (
       <g
@@ -118,17 +115,6 @@ function TreemapContent(props: ContentProps) {
               </span>
             </div>
           </foreignObject>
-        )}
-        {/* Korean project marker: inset border, plus a badge when the cell has room */}
-        {showKr && (
-          <rect x={x + 1} y={y + 1} width={Math.max(0, width - 2)} height={Math.max(0, height - 2)}
-            fill="none" stroke={KR_COLOR} strokeWidth={2} pointerEvents="none" />
-        )}
-        {showBadge && (
-          <g pointerEvents="none">
-            <rect x={x + 2} y={y + 2} width={18} height={11} rx={2} fill={KR_COLOR} />
-            <text x={x + 11} y={y + 10.5} textAnchor="middle" fontSize={8} fontWeight={700} fill="#111827">KR</text>
-          </g>
         )}
       </g>
     )
@@ -216,7 +202,6 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
                 isHf: isHuggingFace(tool),
                 description: tool.description,
                 kr: isKorean(tool),
-                markKr: scope === 'all',
               })),
             }
           })

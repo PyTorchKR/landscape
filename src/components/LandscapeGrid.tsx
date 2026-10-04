@@ -11,7 +11,6 @@ interface LandscapeGridProps {
   tools: Tool[]
   searchQuery: string
   selectedModules: Set<string>
-  markKr: boolean
   t: Translations
   resolvedTheme: ResolvedTheme
 }
@@ -22,7 +21,6 @@ export default function LandscapeGrid({
   tools,
   searchQuery,
   selectedModules,
-  markKr,
   t,
   resolvedTheme,
 }: LandscapeGridProps) {
@@ -76,7 +74,6 @@ export default function LandscapeGrid({
           key={module.id}
           module={module}
           dimmed={!selectedModules.has(module.id)}
-          markKr={markKr}
           t={t}
           resolvedTheme={resolvedTheme}
         />

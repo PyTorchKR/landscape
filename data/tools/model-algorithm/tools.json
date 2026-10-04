@@ -1488,6 +1488,26 @@
         "lastCommit": "2026-01-06T02:51:36.000Z",
         "fetchedAt": "2026-10-04T21:36:21.450Z"
       }
+    },
+    {
+      "id": "hf-collection-lgai-exaone-exaone-35-674d0e1bb3dcd2ab6f39dbb4",
+      "name": "EXAONE-3.5",
+      "description": "LG AI연구원이 공개한 영어와 한국어 이중 언어 지시 이행형 언어 모델 시리즈로 2.4B, 7.8B, 32B 세 가지 크기가 있습니다. 32K 컨텍스트를 지원하며 AWQ와 GGUF 양자화 버전도 함께 제공됩니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "exaone",
+      "huggingfaceUrl": "https://huggingface.co/collections/LGAI-EXAONE/exaone-35-674d0e1bb3dcd2ab6f39dbb4",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 650,
+        "downloads": 1547036,
+        "lastUpdated": "2026-02-06T06:14:59.000Z",
+        "lastCommit": "2026-02-06T06:14:59.000Z",
+        "fetchedAt": "2026-10-04T21:48:24.802Z"
+      }
     }
   ]
 }

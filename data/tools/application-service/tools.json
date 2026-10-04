@@ -1127,6 +1127,40 @@
         "lastCommit": "2026-09-24T14:09:13Z",
         "fetchedAt": "2026-10-03T06:42:18.520Z"
       }
+    },
+    {
+      "id": "wrtnlabs-autobe",
+      "name": "autobe",
+      "description": "자연어로 요구사항을 설명하면 요구 분석 문서, Prisma DB 스키마, OpenAPI 명세, E2E 테스트, 구현 코드를 갖춘 TypeScript(NestJS) 백엔드를 생성하는 AI 코딩 에이전트입니다. 단계마다 컴파일러 피드백으로 검증해 빌드 가능한 코드를 내도록 설계되었습니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "AGPL-3.0",
+      "githubUrl": "https://github.com/wrtnlabs/autobe",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "ai-coding-agent",
+        "all-in-one",
+        "automation",
+        "backend",
+        "generated-api",
+        "llm",
+        "nestia",
+        "nestjs",
+        "no-coding",
+        "no-coding-app",
+        "no-coding-tools",
+        "prisma",
+        "server",
+        "vibe-coding"
+      ],
+      "meta": {
+        "stars": 1361,
+        "forks": 156,
+        "lastUpdated": "2026-09-29T23:42:39Z",
+        "lastCommit": "2026-06-24T12:29:04Z",
+        "fetchedAt": "2026-10-04T14:22:29.926Z"
+      }
     }
   ]
 }

@@ -1672,6 +1672,36 @@
         "lastCommit": "2026-10-01T18:18:30Z",
         "fetchedAt": "2026-10-03T06:52:31.445Z"
       }
+    },
+    {
+      "id": "marker-inc-korea-autorag",
+      "name": "AutoRAG",
+      "description": "마커AI(Marker-Inc-Korea)가 만든 RAG 도구입니다. 현재 버전인 AutoRAG 2.0은 BM25, 벡터, 하이브리드 검색과 원문 확인으로 로컬 문서에서 근거 있는 답을 찾는 에이전트형 RAG이고, 이전 버전(legacy/)은 사용자 데이터로 RAG 모듈 조합을 자동 평가해 최적 파이프라인을 찾는 AutoML 도구입니다.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/Marker-Inc-Korea/AutoRAG",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "agent",
+        "document-parser",
+        "embeddings",
+        "librarian",
+        "llm",
+        "open-source",
+        "pipeline",
+        "qa",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "meta": {
+        "stars": 5109,
+        "forks": 444,
+        "lastUpdated": "2026-10-04T13:54:01Z",
+        "lastCommit": "2026-10-04T14:07:06Z",
+        "fetchedAt": "2026-10-04T14:08:57.827Z"
+      }
     }
   ]
 }

@@ -1777,6 +1777,30 @@
         "lastCommit": "2024-07-09T19:17:14Z",
         "fetchedAt": "2026-10-04T15:23:28.881Z"
       }
+    },
+    {
+      "id": "twelvelabs-io-video-embeddings-evaluation-framework",
+      "name": "video-embeddings-evaluation-framework",
+      "description": "Twelve Labs 비디오 파운데이션 모델(TWLV-I)로 미리 추출한 임베딩과 이를 평가하는 PyTorch 코드를 제공합니다. Kinetics-400, Something-Something-v2 등에서 linear probing, kNN, 시간적 행동 위치 추정과 분할 성능을 측정합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/twelvelabs-io/video-embeddings-evaluation-framework",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "evaluation",
+        "video-embedding",
+        "video-foundation-model",
+        "video-understanding"
+      ],
+      "meta": {
+        "stars": 36,
+        "forks": 3,
+        "lastUpdated": "2026-06-03T19:12:20Z",
+        "lastCommit": "2024-08-23T06:54:25Z",
+        "fetchedAt": "2026-10-04T15:33:25.079Z"
+      }
     }
   ]
 }

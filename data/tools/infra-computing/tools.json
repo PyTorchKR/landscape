@@ -701,6 +701,32 @@
         "lastCommit": "2026-10-04T19:59:19Z",
         "fetchedAt": "2026-10-05T08:44:26.390Z"
       }
+    },
+    {
+      "id": "mobilint-vllm-mblt",
+      "name": "vllm-mblt",
+      "description": "Mobilint NPU 런타임을 vLLM에 연동하는 out-of-tree 플러그인으로, vLLM을 수정하지 않고 mblt 플랫폼과 워커를 등록합니다. Llama, HyperCLOVAX, EXAONE, Qwen2/3, Qwen2/3-VL 계열 모델을 OpenAI 호환 API로 서빙하며 vLLM 0.11.2에 고정되어 있습니다.",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mobilint/vllm-mblt",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "ai-accelerator",
+        "mobilint",
+        "npu",
+        "quantization",
+        "vllm",
+        "vllm-plugins"
+      ],
+      "meta": {
+        "stars": 12,
+        "forks": 2,
+        "lastUpdated": "2026-10-04T12:14:31Z",
+        "lastCommit": "2026-10-04T12:14:55Z",
+        "fetchedAt": "2026-10-05T08:56:30.217Z"
+      }
     }
   ]
 }

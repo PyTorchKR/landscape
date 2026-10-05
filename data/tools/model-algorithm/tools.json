@@ -1766,6 +1766,29 @@
         "lastCommit": "2026-01-08T05:12:53.000Z",
         "fetchedAt": "2026-10-05T00:12:24.379Z"
       }
+    },
+    {
+      "id": "hf-ncsoft-gme-varco-vision-embedding",
+      "name": "GME-VARCO-VISION-Embedding",
+      "description": "Qwen2-VL-7B-Instruct 기반의 멀티모달 임베딩 모델로 텍스트, 이미지, 비디오 간 의미 유사도를 계산합니다. 비디오 검색에 초점을 두고 대조 학습과 검색 벡터(retrieval vector) 가중치 합성으로 학습했으며 MultiVENT 2.0 제로샷 검색에서 최고 성능을 보고합니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/NCSOFT/GME-VARCO-VISION-Embedding",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "feature-extraction",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 12,
+        "downloads": 122,
+        "lastUpdated": "2026-01-08T05:12:53.000Z",
+        "lastCommit": "2026-01-08T05:12:53.000Z",
+        "fetchedAt": "2026-10-05T00:23:24.501Z"
+      }
     }
   ]
 }

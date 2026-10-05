@@ -248,7 +248,8 @@
         "bge",
         "e5",
         "jina-embeddings",
-        "hf-skt-a-x-encoder-base"
+        "hf-skt-a-x-encoder-base",
+        "hf-ncsoft-gme-varco-vision-embedding"
       ]
     },
     {

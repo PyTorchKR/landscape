@@ -977,6 +977,26 @@
         "lastCommit": "2024-07-18T10:13:16Z",
         "fetchedAt": "2026-10-05T06:51:27.195Z"
       }
+    },
+    {
+      "id": "hf-dataset-eliceai-korean-fineweb-edu-demo",
+      "name": "korean-fineweb-edu-demo",
+      "description": "영어 교육용 웹 코퍼스 FineWeb-Edu를 Qwen3-Next-80B-A3B-Instruct로 한국어 번역한 데이터셋의 약 5%(약 30GB) 샘플입니다. 코드 스니펫과 마크다운 형식을 보존하도록 번역되었으며 text 필드 하나로 구성됩니다.",
+      "categoryId": "datasets-tools",
+      "moduleId": "data-storage",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/datasets/eliceai/korean-fineweb-edu-demo",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 12,
+        "downloads": 116,
+        "lastUpdated": "2026-01-01T23:03:39.000Z",
+        "lastCommit": "2026-01-01T23:03:39.000Z",
+        "fetchedAt": "2026-10-05T07:04:25.945Z"
+      }
     }
   ]
 }

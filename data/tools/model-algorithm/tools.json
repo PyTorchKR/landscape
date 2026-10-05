@@ -2095,6 +2095,29 @@
         "lastCommit": "2025-12-31T08:46:24.378Z",
         "fetchedAt": "2026-10-05T03:19:28.562Z"
       }
+    },
+    {
+      "id": "hf-hancominspaceai-hillava-llama-3-1-8b",
+      "name": "HiLLaVA-llama_3_1-8b",
+      "description": "한컴인스페이스가 CLIP ViT-L/14-336 비전 인코더와 Llama 3.1 8B Instruct를 LLaVA 구조로 결합해 학습한 8B 비전 언어 모델입니다. 이미지에 대한 한국어와 영어 질의응답을 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/HancomInSpaceAI/HiLLaVA-llama_3_1-8b",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "image-text-to-text",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 9,
+        "downloads": 15,
+        "lastUpdated": "2024-08-30T04:37:32.000Z",
+        "lastCommit": "2024-08-30T04:37:32.000Z",
+        "fetchedAt": "2026-10-05T03:34:22.669Z"
+      }
     }
   ]
 }

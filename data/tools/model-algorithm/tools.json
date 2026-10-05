@@ -2052,6 +2052,29 @@
         "lastCommit": "2024-02-13T05:57:31.000Z",
         "fetchedAt": "2026-10-05T02:55:24.725Z"
       }
+    },
+    {
+      "id": "hf-42dot-42dot-llm-sft-1-3b",
+      "name": "42dot_LLM-SFT-1.3B",
+      "description": "포티투닷이 42dot LLM-PLM 1.3B를 직접 구축한 지시 응답 데이터로 지도 미세조정(SFT)한 한영 대화형 언어 모델입니다. 단일 턴과 멀티 턴 대화를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/42dot/42dot_LLM-SFT-1.3B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 36,
+        "downloads": 262,
+        "lastUpdated": "2024-02-13T05:58:23.000Z",
+        "lastCommit": "2024-02-13T05:58:23.000Z",
+        "fetchedAt": "2026-10-05T03:08:28.499Z"
+      }
     }
   ]
 }

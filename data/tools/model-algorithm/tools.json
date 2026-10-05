@@ -1811,6 +1811,26 @@
         "lastCommit": "2026-08-30T11:02:57.000Z",
         "fetchedAt": "2026-10-05T00:36:23.075Z"
       }
+    },
+    {
+      "id": "hf-krafton-openthinker3-offline-grpo-7b",
+      "name": "OpenThinker3-Offline-GRPO-7B",
+      "description": "크래프톤과 SK텔레콤이 OpenThinker3-7B에 교사 모델 궤적 기반 오프라인 GRPO를 적용해 후속 학습한 7B 수학 추론 모델입니다. 카드 기준 AIME25 점수가 57.3에서 59.5로 올랐습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/KRAFTON/OpenThinker3-Offline-GRPO-7B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 7,
+        "downloads": 14,
+        "lastUpdated": "2025-08-08T04:42:32.000Z",
+        "lastCommit": "2025-08-08T04:42:32.000Z",
+        "fetchedAt": "2026-10-05T00:48:23.794Z"
+      }
     }
   ]
 }

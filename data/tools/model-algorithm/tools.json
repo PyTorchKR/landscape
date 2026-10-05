@@ -2318,6 +2318,29 @@
         "lastCommit": "2026-04-22T07:39:28.000Z",
         "fetchedAt": "2026-10-05T05:41:23.388Z"
       }
+    },
+    {
+      "id": "hf-telepix-pixie-rune-v1-5",
+      "name": "PIXIE-Rune-v1.5",
+      "description": "텔레픽스가 한국어와 영어 검색 데이터로 학습한 약 0.57B 파라미터 인코더 기반 임베딩 모델로, 1024차원 벡터와 최대 6144 토큰 입력을 지원합니다. 항공우주 분야 문서 이해와 기술 QA 검색에 특화되어 있습니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/telepix/PIXIE-Rune-v1.5",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "feature-extraction",
+        "sentence-transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 3,
+        "downloads": 1919,
+        "lastUpdated": "2026-04-22T07:21:36.000Z",
+        "lastCommit": "2026-04-22T07:21:36.000Z",
+        "fetchedAt": "2026-10-05T05:54:23.482Z"
+      }
     }
   ]
 }

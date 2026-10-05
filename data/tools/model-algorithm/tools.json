@@ -2295,6 +2295,29 @@
         "lastCommit": "2026-07-11T09:20:07.044Z",
         "fetchedAt": "2026-10-05T05:29:23.860Z"
       }
+    },
+    {
+      "id": "hf-telepix-pixie-splade-v1-5",
+      "name": "PIXIE-Splade-v1.5",
+      "description": "텔레픽스가 공개한 약 0.15B 파라미터의 한국어 영어 SPLADE 희소 검색 모델로, 항공우주 도메인에 강합니다. 출력이 Lucene/Elasticsearch 역색인과 바로 호환되고 토큰별 가중치로 검색 근거를 확인할 수 있습니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/telepix/PIXIE-Splade-v1.5",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "feature-extraction",
+        "sentence-transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 4,
+        "downloads": 247,
+        "lastUpdated": "2026-04-22T07:39:28.000Z",
+        "lastCommit": "2026-04-22T07:39:28.000Z",
+        "fetchedAt": "2026-10-05T05:41:23.388Z"
+      }
     }
   ]
 }

@@ -1017,6 +1017,26 @@
         "lastCommit": "2026-01-01T23:12:53.000Z",
         "fetchedAt": "2026-10-05T07:18:27.982Z"
       }
+    },
+    {
+      "id": "hf-dataset-aiworkx-kosgd",
+      "name": "KoSGD",
+      "description": "Google Schema-Guided Dialogue를 한국어로 번역하고 전수 휴먼 검수한 목적 지향 대화(ToD) 데이터셋으로, 21개 서비스 도메인 84,594턴 규모입니다. test 분할만 제공되며 의도 분류, 액션 및 슬롯 값 추출 등 한국어 LLM의 제로샷 대화 이해 평가에 쓰입니다.",
+      "categoryId": "datasets-tools",
+      "moduleId": "data-storage",
+      "license": "cc-by-sa-4.0",
+      "huggingfaceUrl": "https://huggingface.co/datasets/AIWORKX/KoSGD",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 6,
+        "downloads": 46,
+        "lastUpdated": "2025-12-31T02:30:45.000Z",
+        "lastCommit": "2025-12-31T02:30:45.000Z",
+        "fetchedAt": "2026-10-05T07:33:02.275Z"
+      }
     }
   ]
 }

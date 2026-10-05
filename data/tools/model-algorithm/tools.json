@@ -1963,6 +1963,29 @@
         "lastCommit": "2026-04-01T11:01:56.000Z",
         "fetchedAt": "2026-10-05T02:06:59.430Z"
       }
+    },
+    {
+      "id": "hf-trillionlabs-tri-21b",
+      "name": "Tri-21B",
+      "description": "트릴리온랩스의 20.73B 파라미터 언어 모델로 2.3T 토큰만으로 학습해 학습 연산량 대비 효율을 강조합니다. 한국어, 영어, 일본어에 최적화되었고 컨텍스트 길이는 8,192 토큰입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "trillion",
+      "huggingfaceUrl": "https://huggingface.co/trillionlabs/Tri-21B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 47,
+        "downloads": 120,
+        "lastUpdated": "2026-02-19T08:21:29.000Z",
+        "lastCommit": "2026-02-19T08:21:29.000Z",
+        "fetchedAt": "2026-10-05T02:18:28.818Z"
+      }
     }
   ]
 }

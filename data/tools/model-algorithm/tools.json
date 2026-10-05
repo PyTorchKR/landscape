@@ -2006,6 +2006,29 @@
         "lastCommit": "2026-07-27T05:05:59.602Z",
         "fetchedAt": "2026-10-05T02:31:25.171Z"
       }
+    },
+    {
+      "id": "hf-trillionlabs-trida-7b",
+      "name": "Trida-7B",
+      "description": "트릴리온랩스가 Tri-7B에서 연속 사전학습해 만든 7.76B 파라미터 블록 디퓨전 언어 모델입니다. 블록 단위 병렬 디퓨전 생성에 Step-wise Autoregressive Attention을 결합해 블록 내 KV 캐시와 효율적인 강화학습을 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/trillionlabs/Trida-7B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 12,
+        "downloads": 170,
+        "lastUpdated": "2026-01-29T06:06:59.000Z",
+        "lastCommit": "2026-01-29T06:06:59.000Z",
+        "fetchedAt": "2026-10-05T02:42:37.347Z"
+      }
     }
   ]
 }

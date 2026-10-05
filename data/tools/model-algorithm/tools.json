@@ -2183,6 +2183,29 @@
         "lastCommit": "2026-03-10T01:02:00.000Z",
         "fetchedAt": "2026-10-05T04:16:26.120Z"
       }
+    },
+    {
+      "id": "hf-motif-technologies-motif-3",
+      "name": "Motif-3",
+      "description": "모티프테크놀로지스가 자체 설계로 처음부터 학습한 총 314B, 토큰당 활성 13.2B 파라미터의 MoE 언어모델입니다. 384개 전문가 중 8개를 활성화하며 256K 네이티브 컨텍스트와 GDLA 어텐션, MTP 헤드를 이용한 자기 추측 디코딩을 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "mit",
+      "huggingfaceUrl": "https://huggingface.co/Motif-Technologies/Motif-3",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 152,
+        "downloads": 2047,
+        "lastUpdated": "2026-09-01T08:27:54.000Z",
+        "lastCommit": "2026-09-01T08:27:54.000Z",
+        "fetchedAt": "2026-10-05T04:28:26.144Z"
+      }
     }
   ]
 }

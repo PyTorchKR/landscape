@@ -1789,6 +1789,28 @@
         "lastCommit": "2026-01-08T05:12:53.000Z",
         "fetchedAt": "2026-10-05T00:23:24.501Z"
       }
+    },
+    {
+      "id": "hf-nc-ai-consortium-vaetki-vaetki",
+      "name": "VAETKI",
+      "description": "NC AI 주도 13개 기관 컨소시엄이 개발한 총 112.2B, 활성 10.1B 파라미터의 MoE 언어 모델입니다. 한국어, 영어, 중국어, 일본어를 지원하며 도구 에이전트 작업은 비사고 모드, 그 외 작업은 사고 모드로 동작합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "mit",
+      "huggingfaceUrl": "https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 63,
+        "downloads": 509,
+        "lastUpdated": "2026-08-30T11:02:57.000Z",
+        "lastCommit": "2026-08-30T11:02:57.000Z",
+        "fetchedAt": "2026-10-05T00:36:23.075Z"
+      }
     }
   ]
 }

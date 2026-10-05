@@ -1917,6 +1917,29 @@
         "lastCommit": "2026-07-07T04:48:01.000Z",
         "fetchedAt": "2026-10-05T01:40:27.075Z"
       }
+    },
+    {
+      "id": "hf-krafton-raon-opentts-1b",
+      "name": "Raon-OpenTTS-1B",
+      "description": "공개 음성 데이터만으로 학습한 1B 파라미터 제로샷 TTS 모델로 F5-TTS 계열 확산 트랜스포머(flow matching) 구조입니다. 참조 음성으로 보이스 클로닝을 하며 학습 데이터 풀(Raon-OpenTTS-Pool)과 0.3B 변형도 함께 공개됩니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/KRAFTON/Raon-OpenTTS-1B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-to-speech",
+        "f5-tts"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 81,
+        "downloads": 61,
+        "lastUpdated": "2026-08-19T03:01:51.000Z",
+        "lastCommit": "2026-08-19T03:01:51.000Z",
+        "fetchedAt": "2026-10-05T01:52:24.186Z"
+      }
     }
   ]
 }

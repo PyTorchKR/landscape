@@ -2029,6 +2029,29 @@
         "lastCommit": "2026-01-29T06:06:59.000Z",
         "fetchedAt": "2026-10-05T02:42:37.347Z"
       }
+    },
+    {
+      "id": "hf-42dot-42dot-llm-plm-1-3b",
+      "name": "42dot_LLM-PLM-1.3B",
+      "description": "포티투닷이 한국어와 영어 코퍼스로 사전학습한 1.3B 파라미터 언어 모델로 LLaMA 2와 유사한 디코더 구조입니다. 약 50K 어휘의 자체 BPE 토크나이저를 사용하며 한국어, 영어 자연어 작업의 기반 모델로 쓸 수 있습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/42dot/42dot_LLM-PLM-1.3B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 34,
+        "downloads": 659,
+        "lastUpdated": "2024-02-13T05:57:31.000Z",
+        "lastCommit": "2024-02-13T05:57:31.000Z",
+        "fetchedAt": "2026-10-05T02:55:24.725Z"
+      }
     }
   ]
 }

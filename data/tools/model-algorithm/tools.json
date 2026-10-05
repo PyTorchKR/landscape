@@ -1723,6 +1723,29 @@
         "lastCommit": "2026-07-24T21:38:55.000Z",
         "fetchedAt": "2026-10-04T23:49:25.461Z"
       }
+    },
+    {
+      "id": "hf-skt-a-x-k2",
+      "name": "A.X-K2",
+      "description": "SK텔레콤이 처음부터 학습한 총 688B, 활성 33B 파라미터의 MoE 언어 모델로 A.X K1의 후속작입니다. 하나의 모델에서 사고(think)와 비사고 모드를 전환하며 FP8 체크포인트와 최대 256K 컨텍스트를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/skt/A.X-K2",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 106,
+        "downloads": 37366,
+        "lastUpdated": "2026-09-01T06:57:43.000Z",
+        "lastCommit": "2026-09-01T06:57:43.000Z",
+        "fetchedAt": "2026-10-05T00:02:28.697Z"
+      }
     }
   ]
 }

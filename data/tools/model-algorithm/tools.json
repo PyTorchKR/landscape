@@ -2387,6 +2387,26 @@
         "lastCommit": "2026-01-15T03:45:25.000Z",
         "fetchedAt": "2026-10-05T06:16:31.889Z"
       }
+    },
+    {
+      "id": "hf-collection-trillionlabs-guiworld-697c3bf43a0df8172bbcd56d",
+      "name": "GuiWorld 🌏📱",
+      "description": "트릴리온랩스가 Qwen3-VL 8B/32B를 기반으로 만든 모바일 GUI 월드모델로, 현재 화면과 사용자 행동을 입력받아 다음 화면을 렌더링 가능한 HTML 코드로 예측합니다. GUI 에이전트의 사전 시뮬레이션, 계획, 강화학습용 롤아웃 생성에 쓸 수 있습니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/trillionlabs/guiworld-697c3bf43a0df8172bbcd56d",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 84,
+        "downloads": 492,
+        "lastUpdated": "2026-09-29T10:04:57.000Z",
+        "lastCommit": "2026-09-29T10:04:57.000Z",
+        "fetchedAt": "2026-10-05T06:29:23.159Z"
+      }
     }
   ]
 }

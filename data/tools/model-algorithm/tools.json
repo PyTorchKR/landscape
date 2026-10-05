@@ -2118,6 +2118,29 @@
         "lastCommit": "2024-08-30T04:37:32.000Z",
         "fetchedAt": "2026-10-05T03:34:22.669Z"
       }
+    },
+    {
+      "id": "hf-saltlux-ko-llama3-luxia-8b",
+      "name": "Ko-Llama3-Luxia-8B",
+      "description": "솔트룩스가 Llama-3-8B의 토크나이저에 한국어 토큰을 추가하고 뉴스, 법률, 특허, 의료 등 약 100GB 한국어 코퍼스로 추가 사전학습한 8B 언어모델입니다. 연구용 기반(base) 모델로 공개되었습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "llama3",
+      "huggingfaceUrl": "https://huggingface.co/saltlux/Ko-Llama3-Luxia-8B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 77,
+        "downloads": 556,
+        "lastUpdated": "2024-05-07T14:44:47.000Z",
+        "lastCommit": "2024-05-07T14:44:47.000Z",
+        "fetchedAt": "2026-10-05T03:48:30.825Z"
+      }
     }
   ]
 }

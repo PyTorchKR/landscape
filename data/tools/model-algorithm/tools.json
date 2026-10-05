@@ -1986,6 +1986,26 @@
         "lastCommit": "2026-02-19T08:21:29.000Z",
         "fetchedAt": "2026-10-05T02:18:28.818Z"
       }
+    },
+    {
+      "id": "hf-collection-trillionlabs-tri-series-687fa9ff7eb23e8ba847ef93",
+      "name": "Tri Series",
+      "description": "트릴리온랩스의 Tri 언어 모델 시리즈 컬렉션으로 0.5B, 1.9B, 7B 베이스와 Tri-7B, Tri-21B, Tri-70B-preview-SFT를 포함합니다. 0.5B, 1.9B, 7B, 70B의 학습 중간 체크포인트도 함께 공개합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/trillionlabs/tri-series-687fa9ff7eb23e8ba847ef93",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 229,
+        "downloads": 2888,
+        "lastUpdated": "2026-07-27T05:05:59.602Z",
+        "lastCommit": "2026-07-27T05:05:59.602Z",
+        "fetchedAt": "2026-10-05T02:31:25.171Z"
+      }
     }
   ]
 }

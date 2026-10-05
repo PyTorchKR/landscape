@@ -49,7 +49,8 @@
         "mlc-llm",
         "pytorch-xla",
         "rbln-sw-vllm-rbln",
-        "furiosa-ai-furiosa-models"
+        "furiosa-ai-furiosa-models",
+        "furiosa-ai-furiosa-sdk"
       ]
     },
     {

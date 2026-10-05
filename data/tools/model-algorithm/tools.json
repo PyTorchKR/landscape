@@ -1940,6 +1940,29 @@
         "lastCommit": "2026-08-19T03:01:51.000Z",
         "fetchedAt": "2026-10-05T01:52:24.186Z"
       }
+    },
+    {
+      "id": "hf-krafton-raon-visionencoder",
+      "name": "Raon-VisionEncoder",
+      "description": "크래프톤이 공개한 1.14B 파라미터 이미지 텍스트 인코더로 ViT-SO400M 비전 타워(0.43B)와 텍스트 인코더로 구성됩니다. 제로샷 이미지 분류, 이미지 텍스트 검색, NaFlex 기반 원본 비율 추론을 지원합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Unknown",
+      "huggingfaceUrl": "https://huggingface.co/KRAFTON/Raon-VisionEncoder",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "feature-extraction",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 24,
+        "downloads": 33,
+        "lastUpdated": "2026-04-01T11:01:56.000Z",
+        "lastCommit": "2026-04-01T11:01:56.000Z",
+        "fetchedAt": "2026-10-05T02:06:59.430Z"
+      }
     }
   ]
 }

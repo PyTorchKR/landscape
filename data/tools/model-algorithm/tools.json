@@ -2252,6 +2252,29 @@
         "lastCommit": "2026-01-23T09:37:11.000Z",
         "fetchedAt": "2026-10-05T05:03:23.898Z"
       }
+    },
+    {
+      "id": "hf-postcn-jeju-standard-korean-translator",
+      "name": "Jeju-Standard_Korean_Translator",
+      "description": "피씨엔이 140만 쌍의 제주 방언 표준어 병렬 코퍼스로 처음부터 학습한 88.79M 파라미터 디코더 전용 번역 모델입니다. 프리픽스 토큰으로 단일 체크포인트에서 제주어와 표준어 양방향 번역을 처리합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/postcn/Jeju-Standard_Korean_Translator",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 11,
+        "downloads": 75,
+        "lastUpdated": "2026-05-07T07:20:30.000Z",
+        "lastCommit": "2026-05-07T07:20:30.000Z",
+        "fetchedAt": "2026-10-05T05:18:32.973Z"
+      }
     }
   ]
 }

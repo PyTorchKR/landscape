@@ -997,6 +997,26 @@
         "lastCommit": "2026-01-01T23:03:39.000Z",
         "fetchedAt": "2026-10-05T07:04:25.945Z"
       }
+    },
+    {
+      "id": "hf-dataset-eliceai-korean-webtext-edu",
+      "name": "korean-webtext-edu",
+      "description": "HAERAE-HUB/KOREAN-WEBTEXT 128만 문서를 Qwen3-Next-80B-A3B로 FineWeb-Edu 방식의 5점 교육 가치 점수를 매겨 임계값 이상만 남긴 한국어 원문 웹 코퍼스입니다. 번역이 아닌 한국어 원문이며 text와 score 필드를 제공합니다.",
+      "categoryId": "datasets-tools",
+      "moduleId": "data-storage",
+      "license": "mit",
+      "huggingfaceUrl": "https://huggingface.co/datasets/eliceai/korean-webtext-edu",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 8,
+        "downloads": 457,
+        "lastUpdated": "2026-01-01T23:12:53.000Z",
+        "lastCommit": "2026-01-01T23:12:53.000Z",
+        "fetchedAt": "2026-10-05T07:18:27.982Z"
+      }
     }
   ]
 }

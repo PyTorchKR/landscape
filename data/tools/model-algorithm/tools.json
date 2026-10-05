@@ -1894,6 +1894,29 @@
         "lastCommit": "2026-07-07T09:47:41.000Z",
         "fetchedAt": "2026-10-05T01:29:22.723Z"
       }
+    },
+    {
+      "id": "hf-krafton-raon-speechchat-9b",
+      "name": "Raon-SpeechChat-9B",
+      "description": "Raon-Speech-9B를 확장해 듣기와 말하기를 동시에 하는 9B 전이중 음성 대화 모델입니다. 맞장구, 끼어들기, 차례 바꾸기를 처리하며 17종의 기본 페르소나를 제공합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/KRAFTON/Raon-SpeechChat-9B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "audio-to-audio",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 48,
+        "downloads": 2825,
+        "lastUpdated": "2026-07-07T04:48:01.000Z",
+        "lastCommit": "2026-07-07T04:48:01.000Z",
+        "fetchedAt": "2026-10-05T01:40:27.075Z"
+      }
     }
   ]
 }

@@ -2364,6 +2364,29 @@
         "lastCommit": "2026-04-22T07:32:48.000Z",
         "fetchedAt": "2026-10-05T06:06:24.793Z"
       }
+    },
+    {
+      "id": "hf-telepix-pixie-glyph-v1-0",
+      "name": "PIXIE-Glyph-v1.0",
+      "description": "텔레픽스가 jina-clip을 기반으로 학습한 약 0.9B 파라미터 한국어 영어 텍스트 이미지 임베딩 모델로, 학술 그림과 표 검색 및 시각 문서 검색에 특화되어 있습니다. Matryoshka 학습으로 1024차원 벡터를 64차원까지 줄여 쓸 수 있습니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/telepix/PIXIE-Glyph-v1.0",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "feature-extraction",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 4,
+        "downloads": 29,
+        "lastUpdated": "2026-01-15T03:45:25.000Z",
+        "lastCommit": "2026-01-15T03:45:25.000Z",
+        "fetchedAt": "2026-10-05T06:16:31.889Z"
+      }
     }
   ]
 }

@@ -12,7 +12,8 @@
         "helm",
         "containerd",
         "alibaba-opensandbox",
-        "zerobootdev-zeroboot"
+        "zerobootdev-zeroboot",
+        "furiosa-ai-kubectl-view-rngd"
       ]
     },
     {

@@ -612,6 +612,25 @@
         "lastCommit": "2026-03-27T09:46:19Z",
         "fetchedAt": "2026-10-05T07:58:23.252Z"
       }
+    },
+    {
+      "id": "furiosa-ai-kubectl-view-rngd",
+      "name": "kubectl-view-rngd",
+      "description": "쿠버네티스 클러스터에서 FuriosaAI RNGD NPU 확장 리소스의 노드별 사용량과 이를 점유한 Pod를 표로 보여주는 kubectl 플러그인입니다. Rust로 작성되었으며 krew로 설치할 수 있습니다.",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/furiosa-ai/kubectl-view-rngd",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "forks": 0,
+        "lastUpdated": "2026-04-20T12:04:59Z",
+        "lastCommit": "2026-07-16T05:05:10Z",
+        "fetchedAt": "2026-10-05T08:11:28.194Z"
+      }
     }
   ]
 }

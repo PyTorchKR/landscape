@@ -2206,6 +2206,29 @@
         "lastCommit": "2026-09-01T08:27:54.000Z",
         "fetchedAt": "2026-10-05T04:28:26.144Z"
       }
+    },
+    {
+      "id": "hf-konantech-konan-llm-ond",
+      "name": "Konan-LLM-OND",
+      "description": "코난테크놀로지가 Qwen3-4B-Base에 한국어 어휘를 확장하고 대규모 한국어 코퍼스로 연속 사전학습 및 SFT를 적용한 4B 언어모델입니다. Qwen3 대비 한국어 입력 토큰 효율이 약 30% 높습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/konantech/Konan-LLM-OND",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 16,
+        "downloads": 235,
+        "lastUpdated": "2025-07-30T01:32:49.000Z",
+        "lastCommit": "2025-07-30T01:32:49.000Z",
+        "fetchedAt": "2026-10-05T04:52:23.102Z"
+      }
     }
   ]
 }

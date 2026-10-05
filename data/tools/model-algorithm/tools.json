@@ -2075,6 +2075,26 @@
         "lastCommit": "2024-02-13T05:58:23.000Z",
         "fetchedAt": "2026-10-05T03:08:28.499Z"
       }
+    },
+    {
+      "id": "hf-collection-interx-genx-6822c26b5843aa0767d0b7a0",
+      "name": "GenX",
+      "description": "인터엑스가 Qwen2.5 7B/14B를 사출 성형과 금형 등 제조 도메인 말뭉치로 연속 사전학습하고 지시 학습한 제조 특화 한국어 언어모델 시리즈입니다. AWQ 양자화 버전과 Qwen3-30B-A3B 기반 LoRA 학습 버전도 함께 공개되어 있습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/INTERX/genx-6822c26b5843aa0767d0b7a0",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 5,
+        "downloads": 57,
+        "lastUpdated": "2025-12-31T08:46:24.378Z",
+        "lastCommit": "2025-12-31T08:46:24.378Z",
+        "fetchedAt": "2026-10-05T03:19:28.562Z"
+      }
     }
   ]
 }

@@ -2229,6 +2229,29 @@
         "lastCommit": "2025-07-30T01:32:49.000Z",
         "fetchedAt": "2026-10-05T04:52:23.102Z"
       }
+    },
+    {
+      "id": "hf-est-ai-alan-llm-jeju-dialect-v1-4b",
+      "name": "alan-llm-jeju-dialect-v1-4b",
+      "description": "이스트소프트가 Qwen3-4B를 제주 방언 데이터로 LoRA 미세조정한 4B 언어모델로, 제주어와 표준어 양방향 변환, 제주어 대화 생성과 질의응답을 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/est-ai/alan-llm-jeju-dialect-v1-4b",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 7,
+        "downloads": 46,
+        "lastUpdated": "2026-01-23T09:37:11.000Z",
+        "lastCommit": "2026-01-23T09:37:11.000Z",
+        "fetchedAt": "2026-10-05T05:03:23.898Z"
+      }
     }
   ]
 }

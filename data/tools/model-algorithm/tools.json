@@ -2275,6 +2275,26 @@
         "lastCommit": "2026-05-07T07:20:30.000Z",
         "fetchedAt": "2026-10-05T05:18:32.973Z"
       }
+    },
+    {
+      "id": "hf-collection-bccard-moai-embedding-models",
+      "name": "MoAI Embedding Models",
+      "description": "BC카드가 Qwen3-Embedding-0.6B와 4B를 카드사 도메인 데이터로 LoRA 미세조정한 한국어 금융 특화 텍스트 임베딩 모델 2종입니다. BC카드 RAG 파이프라인의 검색기(bi-encoder) 단계용으로 만들어졌습니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/BCCard/moai-embedding-models",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 10,
+        "downloads": 184,
+        "lastUpdated": "2026-07-11T09:20:07.044Z",
+        "lastCommit": "2026-07-11T09:20:07.044Z",
+        "fetchedAt": "2026-10-05T05:29:23.860Z"
+      }
     }
   ]
 }

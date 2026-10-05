@@ -172,7 +172,8 @@
         "meta-pytorch-data",
         "modin-project-modin",
         "ibis-project-ibis",
-        "opendataloader-project-opendataloader-pdf"
+        "opendataloader-project-opendataloader-pdf",
+        "upstageai-dataverse"
       ]
     },
     {

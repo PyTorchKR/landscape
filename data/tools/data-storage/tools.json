@@ -958,6 +958,25 @@
         "lastCommit": "2026-10-02T06:34:32Z",
         "fetchedAt": "2026-10-05T06:40:29.722Z"
       }
+    },
+    {
+      "id": "upstageai-dataverse",
+      "name": "dataverse",
+      "description": "Upstage가 공개한 PySpark 기반 ETL 라이브러리로, 등록된 전처리 함수(block)를 설정 파일로 조합해 LLM 학습용 데이터를 정제합니다. AWS EMR 실행을 지원하며 저장소는 현재 아카이브 상태입니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/UpstageAI/dataverse",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 562,
+        "forks": 59,
+        "lastUpdated": "2026-08-20T05:59:03Z",
+        "lastCommit": "2024-07-18T10:13:16Z",
+        "fetchedAt": "2026-10-05T06:51:27.195Z"
+      }
     }
   ]
 }

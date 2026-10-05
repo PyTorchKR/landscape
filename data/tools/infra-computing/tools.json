@@ -669,6 +669,38 @@
         "lastCommit": "2026-09-11T05:30:29Z",
         "fetchedAt": "2026-10-05T08:33:28.510Z"
       }
+    },
+    {
+      "id": "rbln-sw-optimum-rbln",
+      "name": "optimum-rbln",
+      "description": "HuggingFace Transformers와 Diffusers 모델을 Rebellions ATOM, REBEL NPU에서 실행하도록 연결하는 라이브러리입니다. 기존 클래스를 RBLN 클래스로 바꾸면 첫 실행 시 NPU용으로 컴파일되며 단일 및 다중 NPU 추론을 지원합니다.",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/RBLN-SW/optimum-rbln",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "ai-accelerator",
+        "atom",
+        "deep-learning",
+        "diffusers",
+        "huggingface",
+        "inference",
+        "language-model",
+        "npu",
+        "rbln",
+        "rebel",
+        "rebellions-ai",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 19,
+        "forks": 8,
+        "lastUpdated": "2026-10-02T11:07:02Z",
+        "lastCommit": "2026-10-04T19:59:19Z",
+        "fetchedAt": "2026-10-05T08:44:26.390Z"
+      }
     }
   ]
 }

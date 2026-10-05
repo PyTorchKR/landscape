@@ -1901,6 +1901,25 @@
         "lastCommit": "2025-04-11T06:33:00Z",
         "fetchedAt": "2026-10-04T16:38:26.397Z"
       }
+    },
+    {
+      "id": "lablup-mlxcel",
+      "name": "mlxcel",
+      "description": "Rust와 MLX C++ 바인딩으로 작성된 LLM, VLM, 임베딩, 리랭킹, 음성 추론 엔진으로 Apple Silicon을 주 대상으로 하고 NVIDIA CUDA도 지원합니다. 변환 없이 MLX SafeTensors 체크포인트를 로드하며 continuous batching, prompt caching, speculative decoding과 OpenAI 및 Anthropic 호환 API를 제공합니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/lablup/mlxcel",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 472,
+        "forks": 56,
+        "lastUpdated": "2026-10-05T05:18:50Z",
+        "lastCommit": "2026-10-05T07:16:59Z",
+        "fetchedAt": "2026-10-05T07:44:27.781Z"
+      }
     }
   ]
 }

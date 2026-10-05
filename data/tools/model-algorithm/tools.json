@@ -1746,6 +1746,26 @@
         "lastCommit": "2026-09-01T06:57:43.000Z",
         "fetchedAt": "2026-10-05T00:02:28.697Z"
       }
+    },
+    {
+      "id": "hf-collection-ncsoft-varco-vision-20-68c3b7707c3f38fa6d0242a3",
+      "name": "VARCO-VISION-2.0",
+      "description": "NC AI가 공개한 한국어와 영어 비전 언어 모델 계열로 14B, 온디바이스용 1.7B, OCR 특화 1.7B-OCR로 구성됩니다. 여러 장의 이미지 입력과 문자 위치(바운딩 박스)를 함께 출력하는 OCR을 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/NCSOFT/varco-vision-20-68c3b7707c3f38fa6d0242a3",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 112,
+        "downloads": 2612,
+        "lastUpdated": "2026-01-08T05:12:53.000Z",
+        "lastCommit": "2026-01-08T05:12:53.000Z",
+        "fetchedAt": "2026-10-05T00:12:24.379Z"
+      }
     }
   ]
 }

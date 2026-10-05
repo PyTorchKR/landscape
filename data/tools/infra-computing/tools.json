@@ -727,6 +727,25 @@
         "lastCommit": "2026-10-04T12:14:55Z",
         "fetchedAt": "2026-10-05T08:56:30.217Z"
       }
+    },
+    {
+      "id": "mobilint-mobilint-device-plugin",
+      "name": "mobilint-device-plugin",
+      "description": "Mobilint ARIES NPU를 쿠버네티스에서 mobilint.com/npu 리소스로 스케줄링할 수 있게 하는 디바이스 플러그인입니다. /dev/aries* 장치를 자동 등록하고 9400 포트로 Prometheus 메트릭과 프로세스별 사용량을 제공하며 Helm으로 설치합니다.",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mobilint/mobilint-device-plugin",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "forks": 0,
+        "lastUpdated": "2026-07-30T08:32:42Z",
+        "lastCommit": "2026-09-28T06:20:33Z",
+        "fetchedAt": "2026-10-05T09:10:28.162Z"
+      }
     }
   ]
 }

@@ -2141,6 +2141,28 @@
         "lastCommit": "2024-05-07T14:44:47.000Z",
         "fetchedAt": "2026-10-05T03:48:30.825Z"
       }
+    },
+    {
+      "id": "hf-motif-technologies-motif-2-6b",
+      "name": "Motif-2.6B",
+      "description": "모티프테크놀로지스가 AMD MI250 GPU 384장으로 42일간 2.4T 토큰을 처음부터 학습한 2.6B 규모의 한영 소형 언어모델입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/Motif-Technologies/Motif-2.6B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 89,
+        "downloads": 557,
+        "lastUpdated": "2025-08-28T08:48:38.000Z",
+        "lastCommit": "2025-08-28T08:48:38.000Z",
+        "fetchedAt": "2026-10-05T04:02:26.075Z"
+      }
     }
   ]
 }

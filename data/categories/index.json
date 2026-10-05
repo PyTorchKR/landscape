@@ -171,7 +171,8 @@
         "apache-nifi",
         "meta-pytorch-data",
         "modin-project-modin",
-        "ibis-project-ibis"
+        "ibis-project-ibis",
+        "opendataloader-project-opendataloader-pdf"
       ]
     },
     {

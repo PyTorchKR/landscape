@@ -918,6 +918,46 @@
         "lastCommit": "2025-12-02T21:57:07Z",
         "fetchedAt": "2026-10-03T05:21:35.967Z"
       }
+    },
+    {
+      "id": "opendataloader-project-opendataloader-pdf",
+      "name": "opendataloader-pdf",
+      "description": "PDF를 Markdown, 바운딩 박스가 포함된 JSON, HTML로 변환하는 AI용 PDF 파서로, 읽기 순서와 표, 제목 구조를 추출합니다. 로컬 결정적 모드와 OCR을 포함한 하이브리드 AI 모드를 제공하며 Python, Node.js, Java SDK와 LangChain 연동을 지원합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "a11y",
+        "accessibility",
+        "ai",
+        "bounding-box",
+        "document-parsing",
+        "eaa",
+        "html",
+        "json",
+        "markdown",
+        "ocr",
+        "ocr-recognition",
+        "pdf",
+        "pdf-accessibility",
+        "pdf-converter",
+        "pdf-extraction",
+        "pdf-parser",
+        "pdf-ua",
+        "rag",
+        "tables",
+        "tagged-pdf"
+      ],
+      "meta": {
+        "stars": 29482,
+        "forks": 2809,
+        "lastUpdated": "2026-10-05T06:37:58Z",
+        "lastCommit": "2026-10-02T06:34:32Z",
+        "fetchedAt": "2026-10-05T06:40:29.722Z"
+      }
     }
   ]
 }

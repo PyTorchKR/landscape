@@ -1851,6 +1851,26 @@
         "lastCommit": "2025-08-08T04:43:09.000Z",
         "fetchedAt": "2026-10-05T01:03:21.162Z"
       }
+    },
+    {
+      "id": "hf-krafton-acereason-nemotron-1-1-offline-grpo-7b",
+      "name": "AceReason-Nemotron-1.1-Offline-GRPO-7B",
+      "description": "크래프톤과 SK텔레콤이 NVIDIA AceReason-Nemotron-1.1-7B에 오프라인 GRPO를 적용해 후속 학습한 7B 수학 추론 모델입니다. 카드 기준 AIME25 점수가 64.6에서 65.6으로 올랐습니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "nvidia-open-model-license",
+      "huggingfaceUrl": "https://huggingface.co/KRAFTON/AceReason-Nemotron-1.1-Offline-GRPO-7B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 4,
+        "downloads": 31,
+        "lastUpdated": "2025-08-08T04:43:22.000Z",
+        "lastCommit": "2025-08-08T04:43:22.000Z",
+        "fetchedAt": "2026-10-05T01:14:27.107Z"
+      }
     }
   ]
 }

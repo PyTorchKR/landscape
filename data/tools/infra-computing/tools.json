@@ -650,6 +650,25 @@
         "lastCommit": "2026-10-03T11:34:44Z",
         "fetchedAt": "2026-10-05T08:22:25.119Z"
       }
+    },
+    {
+      "id": "furiosa-ai-furiosa-opt",
+      "name": "furiosa-opt",
+      "description": "FuriosaAI NPU(TCP)의 가상 ISA로 텐서 커널을 작성하고 최적화하는 Rust 크레이트 모음으로, 텐서 매핑 매크로, 표준 라이브러리, 예제를 포함합니다. 공식 문서상 알파 단계의 실험적 소프트웨어입니다.",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/furiosa-ai/furiosa-opt",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 25,
+        "forks": 4,
+        "lastUpdated": "2026-10-01T09:24:46Z",
+        "lastCommit": "2026-09-11T05:30:29Z",
+        "fetchedAt": "2026-10-05T08:33:28.510Z"
+      }
     }
   ]
 }

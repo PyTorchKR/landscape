@@ -2341,6 +2341,29 @@
         "lastCommit": "2026-04-22T07:21:36.000Z",
         "fetchedAt": "2026-10-05T05:54:23.482Z"
       }
+    },
+    {
+      "id": "hf-telepix-pixie-spell-v1-5-0-6b",
+      "name": "PIXIE-Spell-v1.5-0.6B",
+      "description": "텔레픽스가 한국어와 영어 검색 데이터로 학습한 0.6B 디코더 기반 임베딩 모델로, 1024차원 벡터와 최대 8192 토큰 입력을 지원합니다. 항공우주 도메인 검색과 RAG 파이프라인용으로 최적화되어 있습니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/telepix/PIXIE-Spell-v1.5-0.6B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "feature-extraction",
+        "sentence-transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 3,
+        "downloads": 115,
+        "lastUpdated": "2026-04-22T07:32:48.000Z",
+        "lastCommit": "2026-04-22T07:32:48.000Z",
+        "fetchedAt": "2026-10-05T06:06:24.793Z"
+      }
     }
   ]
 }

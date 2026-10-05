@@ -2163,6 +2163,26 @@
         "lastCommit": "2025-08-28T08:48:38.000Z",
         "fetchedAt": "2026-10-05T04:02:26.075Z"
       }
+    },
+    {
+      "id": "hf-collection-motif-technologies-motif-2-127b",
+      "name": "Motif-2-12.7B",
+      "description": "모티프테크놀로지스가 처음부터 학습한 12.7B 한영 언어모델 시리즈로 Base, Instruct, Reasoning 세 가지 모델을 제공합니다. Base와 Instruct는 32K 컨텍스트를 지원하고, Reasoning 모델은 Instruct의 추론 강화 버전으로 YaRN을 적용해 최대 128K 컨텍스트를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/Motif-Technologies/motif-2-127b",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 138,
+        "downloads": 946,
+        "lastUpdated": "2026-03-10T01:02:00.000Z",
+        "lastCommit": "2026-03-10T01:02:00.000Z",
+        "fetchedAt": "2026-10-05T04:16:26.120Z"
+      }
     }
   ]
 }

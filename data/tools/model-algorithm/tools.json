@@ -1871,6 +1871,29 @@
         "lastCommit": "2025-08-08T04:43:22.000Z",
         "fetchedAt": "2026-10-05T01:14:27.107Z"
       }
+    },
+    {
+      "id": "hf-krafton-raon-speech-9b",
+      "name": "Raon-Speech-9B",
+      "description": "크래프톤이 Qwen3 기반으로 만든 9B 파라미터 한영 이중언어 음성 언어 모델로 STT, TTS(보이스 클로닝 포함), 음성 질의응답을 하나의 모델로 처리합니다. 100만 시간 이상의 한영 음성 텍스트 데이터로 학습했고 한국어 음성 벤치마크 3종도 함께 공개합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "cc-by-nc-4.0",
+      "huggingfaceUrl": "https://huggingface.co/KRAFTON/Raon-Speech-9B",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "any-to-any",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 58,
+        "downloads": 2718,
+        "lastUpdated": "2026-07-07T09:47:41.000Z",
+        "lastCommit": "2026-07-07T09:47:41.000Z",
+        "fetchedAt": "2026-10-05T01:29:22.723Z"
+      }
     }
   ]
 }

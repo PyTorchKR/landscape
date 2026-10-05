@@ -674,6 +674,26 @@
         "lastCommit": "2025-05-27T00:36:39.000Z",
         "fetchedAt": "2026-10-04T20:33:27.601Z"
       }
+    },
+    {
+      "id": "hf-collection-samsungsds-research-sguard",
+      "name": "SGuard",
+      "description": "삼성SDS가 IBM Granite 3.3 2B Instruct를 기반으로 만든 경량 LLM 가드레일 모델 2종으로, 유해 콘텐츠를 5개 범주로 판정하는 ContentFilter와 60가지 주요 공격 유형을 학습한 탈옥 탐지용 JailbreakFilter로 구성됩니다. 범주별 임계값 조정으로 탐지 민감도를 제어할 수 있습니다.",
+      "categoryId": "guardrails",
+      "moduleId": "security-governance",
+      "license": "apache-2.0",
+      "huggingfaceUrl": "https://huggingface.co/collections/SamsungSDS-Research/sguard",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "likes": 38,
+        "downloads": 1200,
+        "lastUpdated": "2025-12-15T08:22:37.000Z",
+        "lastCommit": "2025-12-15T08:22:37.000Z",
+        "fetchedAt": "2026-10-05T04:42:25.202Z"
+      }
     }
   ]
 }

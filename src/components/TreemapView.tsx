@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef, useLayoutEffect } from 'react'
 import { Treemap, ResponsiveContainer } from 'recharts'
 import {
   moduleColors,
@@ -11,6 +11,20 @@ import type { Tool, Module, Category, Scope } from '../types'
 import { isKorean, isHuggingFace, popularity, primaryUrl } from '../utils/toolInfo'
 
 const KR_COLOR = '#FACC15'
+const TOOLTIP_OFFSET = 14
+const VIEWPORT_MARGIN = 8
+
+// Places the tooltip beside the cursor, flipping to the left of the cursor
+// and lifting it up when it would otherwise overflow the viewport.
+function tooltipPosition(x: number, y: number, width: number, height: number) {
+  const right = x + TOOLTIP_OFFSET
+  const left = right + width > window.innerWidth - VIEWPORT_MARGIN ? x - TOOLTIP_OFFSET - width : right
+  const top = Math.min(y - TOOLTIP_OFFSET, window.innerHeight - VIEWPORT_MARGIN - height)
+  return {
+    left: Math.max(VIEWPORT_MARGIN, left),
+    top: Math.max(VIEWPORT_MARGIN, top),
+  }
+}
 
 // ── Custom treemap cell renderer ────────────────────────────────────────────
 
@@ -159,6 +173,16 @@ const cellSize = (tool: Tool, scope: Scope): number =>
 
 export default function TreemapView({ modules, categories, tools, searchQuery, selectedModules, scope, locale, t }: Props) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null)
+  const tooltipRef = useRef<HTMLDivElement>(null)
+
+  // Measure the rendered tooltip and position it before paint.
+  useLayoutEffect(() => {
+    const el = tooltipRef.current
+    if (!tooltip || !el) return
+    const { left, top } = tooltipPosition(tooltip.x, tooltip.y, el.offsetWidth, el.offsetHeight)
+    el.style.left = `${left}px`
+    el.style.top = `${top}px`
+  }, [tooltip])
 
   const filteredModules = useMemo(
     () => modules.filter(m => selectedModules.has(m.id)),
@@ -258,8 +282,8 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
       {/* Tooltip */}
       {tooltip && (
         <div
+          ref={tooltipRef}
           className="fixed z-50 pointer-events-none bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-xl p-3 w-72"
-          style={{ left: tooltip.x + 14, top: tooltip.y - 14 }}
         >
           <p className="font-semibold text-sm text-gray-900 dark:text-white flex items-center gap-1.5">
             {tooltip.kr && (

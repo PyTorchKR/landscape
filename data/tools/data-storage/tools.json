@@ -3,7 +3,7 @@
     {
       "id": "milvus",
       "name": "Milvus",
-      "description": "대규모 벡터 유사도 검색을 위한 클라우드 네이티브 벡터 데이터베이스",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -18,17 +18,25 @@
         "rag"
       ],
       "meta": {
-        "stars": 41824,
-        "lastUpdated": "2025-12-22T03:43:22Z",
-        "fetchedAt": "2025-12-22T04:19:00.394Z",
-        "forks": 3730,
-        "lastCommit": "2025-12-22T03:43:18Z"
+        "stars": 46395,
+        "lastUpdated": "2026-10-16T03:32:20Z",
+        "fetchedAt": "2026-10-16T04:48:12.702Z",
+        "forks": 4300,
+        "lastCommit": "2026-10-16T01:45:50Z",
+        "watchers": 348,
+        "openIssues": 1445,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-09-16T06:43:43Z",
+        "lastFetchAttempt": "2026-10-16T04:48:12.289Z"
       }
     },
     {
       "id": "qdrant",
       "name": "Qdrant",
-      "description": "Rust로 작성된 고성능 벡터 유사도 검색 엔진",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -42,17 +50,25 @@
         "similarity-search"
       ],
       "meta": {
-        "stars": 27751,
-        "lastUpdated": "2025-12-22T02:50:50Z",
-        "fetchedAt": "2025-12-22T04:19:00.917Z",
-        "forks": 1944,
-        "lastCommit": "2025-12-21T19:42:34Z"
+        "stars": 35091,
+        "lastUpdated": "2026-10-16T02:01:28Z",
+        "fetchedAt": "2026-10-16T04:48:13.232Z",
+        "forks": 2750,
+        "lastCommit": "2026-10-15T21:20:00Z",
+        "watchers": 167,
+        "openIssues": 782,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-05-30T21:37:01Z",
+        "lastFetchAttempt": "2026-10-16T04:48:12.805Z"
       }
     },
     {
       "id": "chroma",
       "name": "Chroma",
-      "description": "AI 애플리케이션을 위한 오픈소스 검색 데이터베이스",
+      "description": "Search infrastructure for AI",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -66,17 +82,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 25075,
-        "lastUpdated": "2025-12-22T04:08:38Z",
-        "fetchedAt": "2025-12-22T04:19:01.432Z",
-        "forks": 1977,
-        "lastCommit": "2025-12-22T03:26:03Z"
+        "stars": 29511,
+        "lastUpdated": "2026-10-16T04:19:05Z",
+        "fetchedAt": "2026-10-16T04:48:13.761Z",
+        "forks": 2565,
+        "lastCommit": "2026-10-15T17:26:41Z",
+        "watchers": 135,
+        "openIssues": 946,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-10-05T17:58:44Z",
+        "lastFetchAttempt": "2026-10-16T04:48:13.334Z"
       }
     },
     {
       "id": "faiss",
       "name": "FAISS",
-      "description": "Facebook AI Research의 밀집 벡터 유사도 검색 라이브러리",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "MIT",
@@ -90,17 +114,25 @@
         "indexing"
       ],
       "meta": {
-        "stars": 38488,
-        "lastUpdated": "2025-12-22T01:31:55Z",
-        "fetchedAt": "2025-12-22T04:19:01.919Z",
-        "forks": 4158,
-        "lastCommit": "2025-12-19T23:41:59Z"
+        "stars": 41159,
+        "lastUpdated": "2026-10-16T03:45:12Z",
+        "fetchedAt": "2026-10-16T04:48:14.272Z",
+        "forks": 4558,
+        "lastCommit": "2026-10-15T15:52:26Z",
+        "watchers": 498,
+        "openIssues": 346,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-02-07T16:07:05Z",
+        "lastFetchAttempt": "2026-10-16T04:48:13.864Z"
       }
     },
     {
       "id": "weaviate",
       "name": "Weaviate",
-      "description": "ML 모델과 통합된 오픈소스 벡터 데이터베이스",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "BSD-3-Clause",
@@ -114,17 +146,25 @@
         "semantic-search"
       ],
       "meta": {
-        "stars": 15269,
-        "lastUpdated": "2025-12-21T20:52:36Z",
-        "fetchedAt": "2025-12-22T04:19:02.419Z",
-        "forks": 1162,
-        "lastCommit": "2025-12-21T10:43:35Z"
+        "stars": 16885,
+        "lastUpdated": "2026-10-15T18:42:37Z",
+        "fetchedAt": "2026-10-16T04:48:14.725Z",
+        "forks": 1420,
+        "lastCommit": "2026-10-16T04:26:35Z",
+        "watchers": 141,
+        "openIssues": 794,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2016-03-30T15:03:17Z",
+        "lastFetchAttempt": "2026-10-16T04:48:14.375Z"
       }
     },
     {
       "id": "pgvector",
       "name": "pgvector",
-      "description": "PostgreSQL 벡터 유사도 검색 확장. 기존 PostgreSQL에 벡터 검색 추가",
+      "description": "Open-source vector similarity search for Postgres",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "PostgreSQL",
@@ -138,17 +178,25 @@
         "extension"
       ],
       "meta": {
-        "stars": 18906,
-        "lastUpdated": "2025-12-22T02:33:05Z",
-        "fetchedAt": "2025-12-22T04:19:02.892Z",
-        "forks": 1004,
-        "lastCommit": "2025-12-13T19:33:49Z"
+        "stars": 23375,
+        "lastUpdated": "2026-10-16T04:11:36Z",
+        "fetchedAt": "2026-10-16T04:48:15.214Z",
+        "forks": 1351,
+        "lastCommit": "2026-10-15T23:08:40Z",
+        "watchers": 138,
+        "openIssues": 17,
+        "language": "C",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2021-04-20T21:13:52Z",
+        "lastFetchAttempt": "2026-10-16T04:48:14.827Z"
       }
     },
     {
       "id": "lancedb",
       "name": "LanceDB",
-      "description": "서버리스 벡터 데이터베이스. 로컬 파일 기반",
+      "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -162,17 +210,25 @@
         "local"
       ],
       "meta": {
-        "stars": 8270,
-        "lastUpdated": "2025-12-22T01:11:48Z",
-        "fetchedAt": "2025-12-22T04:19:03.350Z",
-        "forks": 673,
-        "lastCommit": "2025-12-19T22:04:16Z"
+        "stars": 11682,
+        "lastUpdated": "2026-10-16T02:51:36Z",
+        "fetchedAt": "2026-10-16T04:48:15.690Z",
+        "forks": 1115,
+        "lastCommit": "2026-10-16T03:31:30Z",
+        "watchers": 58,
+        "openIssues": 738,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-02-28T01:15:17Z",
+        "lastFetchAttempt": "2026-10-16T04:48:15.317Z"
       }
     },
     {
       "id": "label-studio",
       "name": "Label Studio",
-      "description": "멀티 타입 데이터 라벨링 오픈소스 플랫폼",
+      "description": "Label Studio is a multi-type data labeling and annotation tool with standardized output format",
       "categoryId": "data-labeling",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -186,21 +242,29 @@
         "ml-data"
       ],
       "meta": {
-        "stars": 25905,
-        "lastUpdated": "2025-12-22T03:33:14Z",
-        "fetchedAt": "2025-12-22T04:19:03.827Z",
-        "forks": 3269,
-        "lastCommit": "2025-12-22T02:45:30Z"
+        "stars": 28472,
+        "lastUpdated": "2026-10-16T02:09:14Z",
+        "fetchedAt": "2026-10-16T04:48:16.193Z",
+        "forks": 3747,
+        "lastCommit": "2026-10-16T00:43:57Z",
+        "watchers": 189,
+        "openIssues": 950,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2019-06-19T02:00:44Z",
+        "lastFetchAttempt": "2026-10-16T04:48:15.792Z"
       }
     },
     {
       "id": "cvat",
       "name": "CVAT",
-      "description": "컴퓨터 비전 데이터 어노테이션 도구",
+      "description": "CVAT is a leading data annotation platform for image, video, audio, and 3D datasets. It offers open-source, cloud, and enterprise products, as well as labeling services, with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
       "categoryId": "data-labeling",
       "moduleId": "data-storage",
       "license": "MIT",
-      "githubUrl": "https://github.com/opencv/cvat",
+      "githubUrl": "https://github.com/cvat-ai/cvat",
       "docsUrl": "https://opencv.github.io/cvat/docs/",
       "websiteUrl": "https://www.cvat.ai/",
       "koreanSupport": false,
@@ -210,17 +274,25 @@
         "image-labeling"
       ],
       "meta": {
-        "stars": 14974,
-        "lastUpdated": "2025-12-22T03:18:54Z",
-        "fetchedAt": "2025-12-22T04:19:04.554Z",
-        "forks": 3487,
-        "lastCommit": "2025-12-19T18:23:27Z"
+        "stars": 16936,
+        "lastUpdated": "2026-10-16T02:09:14Z",
+        "fetchedAt": "2026-10-16T04:48:16.655Z",
+        "forks": 3963,
+        "lastCommit": "2026-10-15T20:17:35Z",
+        "watchers": 190,
+        "openIssues": 589,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2018-06-29T14:02:45Z",
+        "lastFetchAttempt": "2026-10-16T04:48:16.294Z"
       }
     },
     {
       "id": "argilla",
       "name": "Argilla",
-      "description": "LLM 파인튜닝을 위한 데이터 라벨링 플랫폼",
+      "description": "Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets",
       "categoryId": "data-labeling",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -234,17 +306,25 @@
         "fine-tuning-data"
       ],
       "meta": {
-        "stars": 4788,
-        "lastUpdated": "2025-12-21T20:39:44Z",
-        "fetchedAt": "2025-12-22T04:19:05.079Z",
-        "forks": 464,
-        "lastCommit": "2025-12-15T22:01:53Z"
+        "stars": 5154,
+        "lastUpdated": "2026-10-15T23:22:13Z",
+        "fetchedAt": "2026-10-16T04:48:17.179Z",
+        "forks": 508,
+        "lastCommit": "2026-10-12T23:13:06Z",
+        "watchers": 29,
+        "openIssues": 38,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2021-04-28T14:37:42Z",
+        "lastFetchAttempt": "2026-10-16T04:48:16.757Z"
       }
     },
     {
       "id": "airflow",
       "name": "Apache Airflow",
-      "description": "워크플로우 오케스트레이션 플랫폼. DAG 기반 파이프라인",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -259,17 +339,25 @@
         "etl"
       ],
       "meta": {
-        "stars": 43606,
-        "lastUpdated": "2025-12-22T04:15:19Z",
-        "fetchedAt": "2025-12-22T04:19:05.565Z",
-        "forks": 16131,
-        "lastCommit": "2025-12-22T04:14:39Z"
+        "stars": 47186,
+        "lastUpdated": "2026-10-16T03:30:45Z",
+        "fetchedAt": "2026-10-16T04:48:17.759Z",
+        "forks": 18041,
+        "lastCommit": "2026-10-16T02:01:23Z",
+        "watchers": 798,
+        "openIssues": 1898,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2015-04-13T18:04:58Z",
+        "lastFetchAttempt": "2026-10-16T04:48:17.282Z"
       }
     },
     {
       "id": "prefect",
       "name": "Prefect",
-      "description": "현대적인 데이터 워크플로우 오케스트레이션",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -283,17 +371,25 @@
         "modern"
       ],
       "meta": {
-        "stars": 21142,
-        "lastUpdated": "2025-12-22T03:07:55Z",
-        "fetchedAt": "2025-12-22T04:19:06.075Z",
-        "forks": 2039,
-        "lastCommit": "2025-12-22T00:16:00Z"
+        "stars": 24025,
+        "lastUpdated": "2026-10-15T14:35:34Z",
+        "fetchedAt": "2026-10-16T04:48:18.316Z",
+        "forks": 2584,
+        "lastCommit": "2026-10-15T20:16:25Z",
+        "watchers": 198,
+        "openIssues": 905,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-06-29T21:59:26Z",
+        "lastFetchAttempt": "2026-10-16T04:48:17.861Z"
       }
     },
     {
       "id": "dagster",
       "name": "Dagster",
-      "description": "데이터 오케스트레이션 플랫폼. Software-defined assets",
+      "description": "An orchestration platform for the development, production, and observation of data assets.",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -307,21 +403,29 @@
         "assets"
       ],
       "meta": {
-        "stars": 14632,
-        "lastUpdated": "2025-12-22T01:11:31Z",
-        "fetchedAt": "2025-12-22T04:19:06.535Z",
-        "forks": 1913,
-        "lastCommit": "2025-12-19T23:16:08Z"
+        "stars": 16282,
+        "lastUpdated": "2026-10-15T13:02:47Z",
+        "fetchedAt": "2026-10-16T04:48:18.791Z",
+        "forks": 2353,
+        "lastCommit": "2026-10-12T16:39:43Z",
+        "watchers": 159,
+        "openIssues": 2589,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-04-30T16:30:04Z",
+        "lastFetchAttempt": "2026-10-16T04:48:18.418Z"
       }
     },
     {
       "id": "dvc",
       "name": "DVC",
-      "description": "데이터 및 ML 모델 버전 관리. Git과 통합",
+      "description": "🦉 Data Versioning and ML Experiments",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/iterative/dvc",
+      "githubUrl": "https://github.com/treeverse/dvc",
       "docsUrl": "https://dvc.org/doc",
       "websiteUrl": "https://dvc.org",
       "koreanSupport": false,
@@ -332,17 +436,25 @@
         "git"
       ],
       "meta": {
-        "stars": 15214,
-        "lastUpdated": "2025-12-21T19:37:55Z",
-        "fetchedAt": "2025-12-22T04:19:07.354Z",
-        "forks": 1260,
-        "lastCommit": "2025-12-20T15:41:02Z"
+        "stars": 15924,
+        "lastUpdated": "2026-10-15T18:45:41Z",
+        "fetchedAt": "2026-10-16T04:48:19.302Z",
+        "forks": 1347,
+        "lastCommit": "2026-10-12T19:15:23Z",
+        "watchers": 135,
+        "openIssues": 221,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-03-04T08:16:33Z",
+        "lastFetchAttempt": "2026-10-16T04:48:18.893Z"
       }
     },
     {
       "id": "lakefs",
       "name": "LakeFS",
-      "description": "데이터 레이크를 위한 Git 스타일 버전 관리",
+      "description": "lakeFS - Data version control for your data lake | Git for data",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -356,17 +468,25 @@
         "git-like"
       ],
       "meta": {
-        "stars": 5050,
-        "lastUpdated": "2025-12-21T22:13:43Z",
-        "fetchedAt": "2025-12-22T04:19:07.827Z",
-        "forks": 416,
-        "lastCommit": "2025-12-21T22:13:41Z"
+        "stars": 5556,
+        "lastUpdated": "2026-10-14T12:34:02Z",
+        "fetchedAt": "2026-10-16T04:48:19.830Z",
+        "forks": 484,
+        "lastCommit": "2026-10-07T12:58:46Z",
+        "watchers": 41,
+        "openIssues": 449,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-09-12T11:46:28Z",
+        "lastFetchAttempt": "2026-10-16T04:48:19.405Z"
       }
     },
     {
       "id": "datahub",
       "name": "DataHub",
-      "description": "데이터 카탈로그 및 메타데이터 관리 플랫폼",
+      "description": "The Context Platform for your Data and AI Stack",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -381,17 +501,25 @@
         "lineage"
       ],
       "meta": {
-        "stars": 11337,
-        "lastUpdated": "2025-12-21T16:23:03Z",
-        "fetchedAt": "2025-12-22T04:19:08.275Z",
-        "forks": 3310,
-        "lastCommit": "2025-12-21T21:59:53Z"
+        "stars": 12853,
+        "lastUpdated": "2026-10-16T02:30:54Z",
+        "fetchedAt": "2026-10-16T04:48:20.269Z",
+        "forks": 3718,
+        "lastCommit": "2026-10-16T04:23:14Z",
+        "watchers": 252,
+        "openIssues": 1366,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2015-11-18T05:47:40Z",
+        "lastFetchAttempt": "2026-10-16T04:48:19.931Z"
       }
     },
     {
       "id": "delta-lake",
       "name": "Delta Lake",
-      "description": "데이터 레이크를 위한 ACID 트랜잭션 스토리지 레이어",
+      "description": "An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -406,17 +534,25 @@
         "lakehouse"
       ],
       "meta": {
-        "stars": 8476,
-        "lastUpdated": "2025-12-21T19:44:25Z",
-        "fetchedAt": "2025-12-22T04:19:08.750Z",
-        "forks": 1975,
-        "lastCommit": "2025-12-20T03:44:32Z"
+        "stars": 9045,
+        "lastUpdated": "2026-10-15T22:34:31Z",
+        "fetchedAt": "2026-10-16T04:48:20.795Z",
+        "forks": 2201,
+        "lastCommit": "2026-10-15T22:34:14Z",
+        "watchers": 242,
+        "openIssues": 984,
+        "language": "Scala",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-04-22T18:56:51Z",
+        "lastFetchAttempt": "2026-10-16T04:48:20.371Z"
       }
     },
     {
       "id": "hf-datasets",
       "name": "Datasets",
-      "description": "Hugging Face의 AI 모델용 데이터셋 허브 및 효율적인 데이터 처리 라이브러리",
+      "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
       "categoryId": "datasets-tools",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -431,17 +567,25 @@
         "ml-data"
       ],
       "meta": {
-        "stars": 21008,
-        "lastUpdated": "2025-12-22T01:54:27Z",
-        "fetchedAt": "2025-12-22T04:19:09.351Z",
-        "forks": 3044,
-        "lastCommit": "2025-12-19T15:06:31Z"
+        "stars": 22060,
+        "lastUpdated": "2026-10-16T02:47:38Z",
+        "fetchedAt": "2026-10-16T04:48:21.305Z",
+        "forks": 3535,
+        "lastCommit": "2026-10-15T15:32:00Z",
+        "watchers": 283,
+        "openIssues": 1491,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-03-26T09:23:22Z",
+        "lastFetchAttempt": "2026-10-16T04:48:20.898Z"
       }
     },
     {
       "id": "apache-beam",
       "name": "Apache Beam",
-      "description": "Unified programming model for batch and streaming data processing pipelines",
+      "description": "Apache Beam is a unified programming model for Batch and Streaming data processing.",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -455,16 +599,25 @@
         "dataflow"
       ],
       "meta": {
-        "stars": 8000,
-        "forks": 4300,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 8684,
+        "forks": 4677,
+        "lastUpdated": "2026-10-15T21:19:52Z",
+        "fetchedAt": "2026-10-16T04:48:21.822Z",
+        "watchers": 260,
+        "openIssues": 3879,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2016-02-02T08:00:06Z",
+        "lastCommit": "2026-10-16T04:25:25Z",
+        "lastFetchAttempt": "2026-10-16T04:48:21.405Z"
       }
     },
     {
       "id": "apache-nifi",
       "name": "Apache NiFi",
-      "description": "Easy to use, powerful, and reliable system to process and distribute data",
+      "description": "Apache NiFi",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -477,20 +630,29 @@
         "automation"
       ],
       "meta": {
-        "stars": 4500,
-        "forks": 2700,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 6261,
+        "forks": 2988,
+        "lastUpdated": "2026-10-15T18:30:51Z",
+        "fetchedAt": "2026-10-16T04:48:22.340Z",
+        "watchers": 191,
+        "openIssues": 48,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2014-12-12T08:00:05Z",
+        "lastCommit": "2026-10-15T18:30:45Z",
+        "lastFetchAttempt": "2026-10-16T04:48:21.927Z"
       }
     },
     {
       "id": "ydata-profiling",
       "name": "YData Profiling",
-      "description": "Extended pandas profiling for exploratory data analysis — generates comprehensive HTML reports",
+      "description": "1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames. ",
       "categoryId": "data-quality",
       "moduleId": "data-storage",
       "license": "MIT",
-      "githubUrl": "https://github.com/ydataai/ydata-profiling",
+      "githubUrl": "https://github.com/Data-Centric-AI-Community/fg-data-profiling",
       "koreanSupport": false,
       "tags": [
         "eda",
@@ -499,19 +661,28 @@
         "pandas"
       ],
       "meta": {
-        "stars": 12500,
-        "forks": 1700,
-        "lastUpdated": "2025-11-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 13729,
+        "forks": 1801,
+        "lastUpdated": "2026-10-15T14:16:46Z",
+        "fetchedAt": "2026-10-16T04:48:22.831Z",
+        "watchers": 150,
+        "openIssues": 339,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2016-01-09T23:47:55Z",
+        "lastCommit": "2026-09-11T19:49:45Z",
+        "lastFetchAttempt": "2026-10-16T04:48:22.441Z"
       }
     },
     {
       "id": "cleanlab",
       "name": "Cleanlab",
-      "description": "Standard data-centric AI package for data quality and machine learning with messy, real-world data",
+      "description": "Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels.",
       "categoryId": "data-labeling",
       "moduleId": "data-storage",
-      "license": "AGPL-3.0",
+      "license": "Apache-2.0",
       "githubUrl": "https://github.com/cleanlab/cleanlab",
       "koreanSupport": false,
       "tags": [
@@ -521,16 +692,25 @@
         "noisy-labels"
       ],
       "meta": {
-        "stars": 10000,
-        "forks": 780,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 11707,
+        "forks": 929,
+        "lastUpdated": "2026-10-15T02:26:43Z",
+        "fetchedAt": "2026-10-16T04:48:23.286Z",
+        "watchers": 88,
+        "openIssues": 135,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-05-11T01:55:21Z",
+        "lastCommit": "2026-01-13T17:39:04Z",
+        "lastFetchAttempt": "2026-10-16T04:48:22.934Z"
       }
     },
     {
       "id": "snorkel",
       "name": "Snorkel",
-      "description": "Programmatic training data creation and management system using weak supervision",
+      "description": "A system for quickly generating training data with weak supervision",
       "categoryId": "data-labeling",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -542,20 +722,29 @@
         "programmatic-labeling"
       ],
       "meta": {
-        "stars": 5800,
-        "forks": 890,
-        "lastUpdated": "2025-08-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 6019,
+        "forks": 851,
+        "lastUpdated": "2026-10-15T15:45:06Z",
+        "fetchedAt": "2026-10-16T04:48:23.779Z",
+        "watchers": 162,
+        "openIssues": 19,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2016-02-26T05:52:45Z",
+        "lastCommit": "2026-10-13T01:53:34Z",
+        "lastFetchAttempt": "2026-10-16T04:48:23.389Z"
       }
     },
     {
       "id": "greatexpectations",
       "name": "Great Expectations",
-      "description": "Always know what to expect from your data — shared, open standard for data quality validation and documentation",
+      "description": "Always know what to expect from your data.",
       "categoryId": "data-quality",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/great-expectations/great_expectations",
+      "githubUrl": "https://github.com/fivetran/great_expectations",
       "koreanSupport": false,
       "tags": [
         "data-quality",
@@ -564,16 +753,25 @@
         "profiling"
       ],
       "meta": {
-        "stars": 10000,
-        "forks": 1500,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 11874,
+        "forks": 1875,
+        "lastUpdated": "2026-10-15T16:53:08Z",
+        "fetchedAt": "2026-10-16T04:48:24.311Z",
+        "watchers": 102,
+        "openIssues": 52,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2017-09-11T00:18:46Z",
+        "lastCommit": "2026-10-14T20:30:59Z",
+        "lastFetchAttempt": "2026-10-16T04:48:23.882Z"
       }
     },
     {
       "id": "pandera",
       "name": "Pandera",
-      "description": "A light-weight, flexible, and expressive statistical data testing library for pandas, polars, and more",
+      "description": "A light-weight, flexible, and expressive statistical data testing library",
       "categoryId": "data-quality",
       "moduleId": "data-storage",
       "license": "MIT",
@@ -587,16 +785,25 @@
         "testing"
       ],
       "meta": {
-        "stars": 3500,
-        "forks": 300,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 4482,
+        "forks": 478,
+        "lastUpdated": "2026-10-15T19:31:59Z",
+        "fetchedAt": "2026-10-16T04:48:24.818Z",
+        "watchers": 22,
+        "openIssues": 460,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-11-01T02:18:34Z",
+        "lastCommit": "2026-10-15T19:31:51Z",
+        "lastFetchAttempt": "2026-10-16T04:48:24.413Z"
       }
     },
     {
       "id": "faker",
       "name": "Faker",
-      "description": "A Python package that generates fake data — names, addresses, emails, and more for testing and development",
+      "description": "Faker is a Python package that generates fake data for you.",
       "categoryId": "synthetic-data",
       "moduleId": "data-storage",
       "license": "MIT",
@@ -609,16 +816,25 @@
         "mock-data"
       ],
       "meta": {
-        "stars": 44000,
-        "forks": 3600,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 19447,
+        "forks": 2131,
+        "lastUpdated": "2026-10-15T19:09:16Z",
+        "fetchedAt": "2026-10-16T04:48:25.238Z",
+        "watchers": 222,
+        "openIssues": 45,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2012-11-12T23:00:09Z",
+        "lastCommit": "2026-10-09T20:06:37Z",
+        "lastFetchAttempt": "2026-10-16T04:48:24.921Z"
       }
     },
     {
       "id": "sdv",
       "name": "SDV",
-      "description": "Synthetic Data Vault — generate synthetic tabular, relational, and time series data using ML models",
+      "description": "Synthetic data generation for tabular data",
       "categoryId": "synthetic-data",
       "moduleId": "data-storage",
       "license": "MIT",
@@ -631,16 +847,25 @@
         "privacy"
       ],
       "meta": {
-        "stars": 2500,
-        "forks": 320,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 3576,
+        "forks": 423,
+        "lastUpdated": "2026-10-15T20:55:37Z",
+        "fetchedAt": "2026-10-16T04:48:25.753Z",
+        "watchers": 42,
+        "openIssues": 151,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-05-11T15:56:50Z",
+        "lastCommit": "2026-10-15T20:56:54Z",
+        "lastFetchAttempt": "2026-10-16T04:48:25.339Z"
       }
     },
     {
       "id": "openmetadata",
       "name": "OpenMetadata",
-      "description": "Open standard for metadata — discover, collaborate, and govern your data assets in one place",
+      "description": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -653,16 +878,25 @@
         "discovery"
       ],
       "meta": {
-        "stars": 5500,
-        "forks": 1000,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 15490,
+        "forks": 2454,
+        "lastUpdated": "2026-10-16T04:26:44Z",
+        "fetchedAt": "2026-10-16T04:48:26.282Z",
+        "watchers": 63,
+        "openIssues": 874,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-08-01T21:17:17Z",
+        "lastCommit": "2026-10-16T04:48:25Z",
+        "lastFetchAttempt": "2026-10-16T04:48:25.855Z"
       }
     },
     {
       "id": "amundsen",
       "name": "Amundsen",
-      "description": "Lyft's data discovery and metadata engine — search for tables, dashboards, and people across your data ecosystem",
+      "description": "Amundsen is a metadata driven application for improving the productivity of data analysts, data scientists and engineers when interacting with data.",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -675,16 +909,25 @@
         "catalog"
       ],
       "meta": {
-        "stars": 4400,
-        "forks": 960,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 4785,
+        "forks": 959,
+        "lastUpdated": "2026-10-13T17:35:53Z",
+        "fetchedAt": "2026-10-16T04:48:26.744Z",
+        "watchers": 229,
+        "openIssues": 0,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-05-14T15:12:40Z",
+        "lastCommit": "2026-09-10T22:33:28Z",
+        "lastFetchAttempt": "2026-10-16T04:48:26.384Z"
       }
     },
     {
       "id": "soda-core",
       "name": "Soda Core",
-      "description": "Open-source data quality testing framework that scans and monitors data quality in any data source",
+      "description": "Data Contracts engine for the modern data stack. https://www.soda.io",
       "categoryId": "data-quality",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -696,17 +939,25 @@
         "data-monitoring"
       ],
       "meta": {
-        "stars": 2000,
-        "forks": 350,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 2436,
+        "forks": 291,
+        "lastUpdated": "2026-10-15T14:39:39Z",
+        "lastCommit": "2026-10-15T15:48:54Z",
+        "fetchedAt": "2026-10-16T04:48:27.242Z",
+        "watchers": 12,
+        "openIssues": 206,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-12-14T19:59:19Z",
+        "lastFetchAttempt": "2026-10-16T04:48:26.847Z"
       }
     },
     {
       "id": "openlineage",
       "name": "OpenLineage",
-      "description": "Open standard for metadata and lineage collection for data pipelines",
+      "description": "An Open Standard for lineage metadata collection",
       "categoryId": "catalog-lineage",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -718,17 +969,25 @@
         "data-governance"
       ],
       "meta": {
-        "stars": 2000,
-        "forks": 450,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 2710,
+        "forks": 549,
+        "lastUpdated": "2026-10-15T20:48:35Z",
+        "lastCommit": "2026-10-15T15:00:19Z",
+        "fetchedAt": "2026-10-16T04:48:27.722Z",
+        "watchers": 43,
+        "openIssues": 393,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-10-24T21:45:05Z",
+        "lastFetchAttempt": "2026-10-16T04:48:27.345Z"
       }
     },
     {
       "id": "openml",
       "name": "OpenML",
-      "description": "Open platform for sharing datasets, algorithms, and experiments for machine learning research",
+      "description": "OpenML's Python API for a World of Data and More 💫",
       "categoryId": "datasets-tools",
       "moduleId": "data-storage",
       "license": "BSD-3-Clause",
@@ -741,11 +1000,19 @@
         "open-data"
       ],
       "meta": {
-        "stars": 2000,
-        "forks": 420,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 366,
+        "forks": 308,
+        "lastUpdated": "2026-10-15T18:15:40Z",
+        "lastCommit": "2026-10-15T18:17:40Z",
+        "fetchedAt": "2026-10-16T04:48:28.212Z",
+        "watchers": 18,
+        "openIssues": 224,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2014-03-20T10:46:41Z",
+        "lastFetchAttempt": "2026-10-16T04:48:27.825Z"
       }
     },
     {
@@ -765,11 +1032,19 @@
         "gpt-4"
       ],
       "meta": {
-        "stars": 1579,
-        "forks": 151,
-        "lastUpdated": "2026-05-23T09:54:51Z",
-        "lastCommit": "2026-05-19T22:00:08Z",
-        "fetchedAt": "2026-05-23T14:43:19.345Z"
+        "stars": 1643,
+        "forks": 162,
+        "lastUpdated": "2026-10-14T10:53:16Z",
+        "lastCommit": "2026-10-03T17:44:18Z",
+        "fetchedAt": "2026-10-16T04:48:28.724Z",
+        "watchers": 24,
+        "openIssues": 183,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2023-08-30T12:06:57Z",
+        "lastFetchAttempt": "2026-10-16T04:48:28.315Z"
       }
     },
     {
@@ -783,17 +1058,25 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 1258,
-        "forks": 177,
-        "lastUpdated": "2026-05-21T20:19:39Z",
-        "lastCommit": "2026-05-22T12:18:34Z",
-        "fetchedAt": "2026-05-24T02:11:41.784Z"
+        "stars": 1267,
+        "forks": 180,
+        "lastUpdated": "2026-10-13T20:13:39Z",
+        "lastCommit": "2026-09-16T21:03:39Z",
+        "fetchedAt": "2026-10-16T04:48:29.248Z",
+        "watchers": 30,
+        "openIssues": 261,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-05-12T20:55:29Z",
+        "lastFetchAttempt": "2026-10-16T04:48:28.827Z"
       }
     },
     {
       "id": "modin-project-modin",
       "name": "modin",
-      "description": "코드 한 줄 변경만으로 기존 pandas 워크플로를 분산·병렬 처리로 확장해주는 데이터프레임 라이브러리로, 대규모 데이터의 변환·전처리를 멀티코어 및 클러스터 환경에서 가속합니다.",
+      "description": "Modin: Scale your Pandas workflows by changing a single line of code",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -811,17 +1094,25 @@
         "sql"
       ],
       "meta": {
-        "stars": 10392,
-        "forks": 677,
-        "lastUpdated": "2026-10-02T15:14:17Z",
+        "stars": 10391,
+        "forks": 679,
+        "lastUpdated": "2026-10-14T14:44:33Z",
         "lastCommit": "2026-02-10T20:52:42Z",
-        "fetchedAt": "2026-10-03T03:10:01.699Z"
+        "fetchedAt": "2026-10-16T04:48:29.827Z",
+        "watchers": 112,
+        "openIssues": 723,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-06-21T21:35:05Z",
+        "lastFetchAttempt": "2026-10-16T04:48:29.350Z"
       }
     },
     {
       "id": "ibis-project-ibis",
       "name": "ibis",
-      "description": "DuckDB·BigQuery·Snowflake·Spark 등 20여 종 백엔드를 단일 파이썬 API로 다루는 이식형 데이터프레임/쿼리 라이브러리로, 동일 코드로 다양한 엔진에서 데이터 변환·분석을 수행할 수 있게 합니다.",
+      "description": "the portable Python dataframe library",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -848,17 +1139,25 @@
         "trino"
       ],
       "meta": {
-        "stars": 6671,
-        "forks": 769,
-        "lastUpdated": "2026-10-02T18:14:22Z",
-        "lastCommit": "2026-10-02T18:16:38Z",
-        "fetchedAt": "2026-10-03T03:21:19.893Z"
+        "stars": 6676,
+        "forks": 779,
+        "lastUpdated": "2026-10-16T04:25:29Z",
+        "lastCommit": "2026-10-16T04:33:21Z",
+        "fetchedAt": "2026-10-16T04:48:30.270Z",
+        "watchers": 85,
+        "openIssues": 538,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2015-04-17T20:43:46Z",
+        "lastFetchAttempt": "2026-10-16T04:48:29.930Z"
       }
     },
     {
       "id": "microsoft-diskann",
       "name": "DiskANN",
-      "description": "Microsoft가 개발한 벡터 인덱싱 라이브러리. 디스크 기반 그래프 인덱스로 대규모 데이터셋에서도 빠르고 최신성·필터링을 지원하는 근사 최근접 이웃(ANN) 검색을 데이터베이스에 제공함.",
+      "description": "A vector indexing library to bring fast, fresh and filtered search to your database",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "MIT",
@@ -866,17 +1165,25 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 1936,
-        "forks": 457,
-        "lastUpdated": "2026-10-02T15:24:21Z",
-        "lastCommit": "2026-10-03T01:20:08Z",
-        "fetchedAt": "2026-10-03T04:38:11.573Z"
+        "stars": 1949,
+        "forks": 463,
+        "lastUpdated": "2026-10-15T21:27:09Z",
+        "lastCommit": "2026-10-15T21:35:51Z",
+        "fetchedAt": "2026-10-16T04:48:30.830Z",
+        "watchers": 31,
+        "openIssues": 201,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-06-18T06:18:06Z",
+        "lastFetchAttempt": "2026-10-16T04:48:30.372Z"
       }
     },
     {
       "id": "microsoft-sptag",
       "name": "SPTAG",
-      "description": "Microsoft가 개발한 분산 근사 최근접 이웃(ANN) 검색 라이브러리. 대규모 벡터 검색 시나리오를 위한 고품질 벡터 인덱스 빌드·검색 및 분산 온라인 서빙 툴킷을 제공함.",
+      "description": "A distributed approximate nearest neighborhood search (ANN) library which provides a high quality vector index build, search and distributed online serving toolkits for large scale vector search scenario.",
       "categoryId": "vector-db",
       "moduleId": "data-storage",
       "license": "MIT",
@@ -892,16 +1199,24 @@
       ],
       "meta": {
         "stars": 5021,
-        "forks": 621,
-        "lastUpdated": "2026-10-01T05:32:59Z",
-        "lastCommit": "2026-09-29T11:30:14Z",
-        "fetchedAt": "2026-10-03T04:48:26.435Z"
+        "forks": 623,
+        "lastUpdated": "2026-10-13T20:16:27Z",
+        "lastCommit": "2026-10-13T11:04:07Z",
+        "fetchedAt": "2026-10-16T04:48:31.437Z",
+        "watchers": 133,
+        "openIssues": 142,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-09-12T10:42:51Z",
+        "lastFetchAttempt": "2026-10-16T04:48:30.931Z"
       }
     },
     {
       "id": "open-thoughts-open-thoughts",
       "name": "open-thoughts",
-      "description": "추론(reasoning) 모델 학습을 위한 완전 공개 데이터 큐레이션 파이프라인(OpenThoughts). 추론 데이터셋(OpenThoughts 시리즈) 생성을 위한 데이터 합성·필터링·정제 레시피와 코드를 제공해, 고품질 추론 학습 데이터 구축을 재현 가능하게 합니다.",
+      "description": "Fully open data curation for reasoning models",
       "categoryId": "datasets-tools",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -912,17 +1227,25 @@
         "reasoning"
       ],
       "meta": {
-        "stars": 2341,
-        "forks": 196,
-        "lastUpdated": "2026-09-30T06:45:20Z",
+        "stars": 2346,
+        "forks": 197,
+        "lastUpdated": "2026-10-15T05:28:49Z",
         "lastCommit": "2025-12-02T21:57:07Z",
-        "fetchedAt": "2026-10-03T05:21:35.967Z"
+        "fetchedAt": "2026-10-16T04:48:31.909Z",
+        "watchers": 29,
+        "openIssues": 6,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-01-27T22:28:56Z",
+        "lastFetchAttempt": "2026-10-16T04:48:31.539Z"
       }
     },
     {
       "id": "opendataloader-project-opendataloader-pdf",
       "name": "opendataloader-pdf",
-      "description": "PDF를 Markdown, 바운딩 박스가 포함된 JSON, HTML로 변환하는 AI용 PDF 파서로, 읽기 순서와 표, 제목 구조를 추출합니다. 로컬 결정적 모드와 OCR을 포함한 하이브리드 AI 모드를 제공하며 Python, Node.js, Java SDK와 LangChain 연동을 지원합니다.",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -952,17 +1275,25 @@
         "tagged-pdf"
       ],
       "meta": {
-        "stars": 29482,
-        "forks": 2809,
-        "lastUpdated": "2026-10-05T06:37:58Z",
-        "lastCommit": "2026-10-02T06:34:32Z",
-        "fetchedAt": "2026-10-05T06:40:29.722Z"
+        "stars": 29719,
+        "forks": 2823,
+        "lastUpdated": "2026-10-16T04:23:53Z",
+        "lastCommit": "2026-10-16T04:23:50Z",
+        "fetchedAt": "2026-10-16T04:48:32.393Z",
+        "watchers": 113,
+        "openIssues": 99,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-05-13T05:48:02Z",
+        "lastFetchAttempt": "2026-10-16T04:48:32.012Z"
       }
     },
     {
       "id": "upstageai-dataverse",
       "name": "dataverse",
-      "description": "Upstage가 공개한 PySpark 기반 ETL 라이브러리로, 등록된 전처리 함수(block)를 설정 파일로 조합해 LLM 학습용 데이터를 정제합니다. AWS EMR 실행을 지원하며 저장소는 현재 아카이브 상태입니다.",
+      "description": "The Universe of Data. All about data, data science, and data engineering",
       "categoryId": "etl-workflow",
       "moduleId": "data-storage",
       "license": "Apache-2.0",
@@ -975,7 +1306,15 @@
         "forks": 59,
         "lastUpdated": "2026-08-20T05:59:03Z",
         "lastCommit": "2024-07-18T10:13:16Z",
-        "fetchedAt": "2026-10-05T06:51:27.195Z"
+        "fetchedAt": "2026-10-16T04:48:32.845Z",
+        "watchers": 3,
+        "openIssues": 11,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-08-21T15:50:11Z",
+        "lastFetchAttempt": "2026-10-16T04:48:32.496Z"
       }
     },
     {
@@ -992,10 +1331,11 @@
       "meta": {
         "stars": 0,
         "likes": 12,
-        "downloads": 116,
+        "downloads": 141,
         "lastUpdated": "2026-01-01T23:03:39.000Z",
         "lastCommit": "2026-01-01T23:03:39.000Z",
-        "fetchedAt": "2026-10-05T07:04:25.945Z"
+        "fetchedAt": "2026-10-16T04:48:33.220Z",
+        "lastFetchAttempt": "2026-10-16T04:48:32.948Z"
       }
     },
     {
@@ -1012,10 +1352,11 @@
       "meta": {
         "stars": 0,
         "likes": 8,
-        "downloads": 457,
+        "downloads": 497,
         "lastUpdated": "2026-01-01T23:12:53.000Z",
         "lastCommit": "2026-01-01T23:12:53.000Z",
-        "fetchedAt": "2026-10-05T07:18:27.982Z"
+        "fetchedAt": "2026-10-16T04:48:33.530Z",
+        "lastFetchAttempt": "2026-10-16T04:48:33.322Z"
       }
     },
     {
@@ -1032,10 +1373,11 @@
       "meta": {
         "stars": 0,
         "likes": 6,
-        "downloads": 46,
+        "downloads": 52,
         "lastUpdated": "2025-12-31T02:30:45.000Z",
         "lastCommit": "2025-12-31T02:30:45.000Z",
-        "fetchedAt": "2026-10-05T07:33:02.275Z"
+        "fetchedAt": "2026-10-16T04:48:33.828Z",
+        "lastFetchAttempt": "2026-10-16T04:48:33.632Z"
       }
     }
   ]

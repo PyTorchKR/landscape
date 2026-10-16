@@ -20,6 +20,8 @@ concurrency:
 jobs:
   update-and-build:
     runs-on: ubuntu-latest
+    outputs:
+      refresh_outcome: ${{ steps.refresh.outcome }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +36,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Test data refresh
+        run: pnpm test
+
       - name: Update GitHub Stars
+        id: refresh
+        continue-on-error: true
         run: pnpm run update-stars
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -43,7 +50,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update GitHub stars'
-          file_pattern: 'data/**/*.json'
+          file_pattern: 'data'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
 
@@ -65,3 +72,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  check-refresh:
+    runs-on: ubuntu-latest
+    needs: update-and-build
+    if: ${{ needs.update-and-build.outputs.refresh_outcome == 'failure' }}
+    steps:
+      - name: Report incomplete data refresh
+        run: |
+          echo "::error::Data refresh failed. Successful updates were saved. Read the update-and-build job summary."
+          exit 1

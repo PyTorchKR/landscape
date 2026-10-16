@@ -3,7 +3,7 @@
     {
       "id": "langchain-app",
       "name": "LangChain",
-      "description": "LLM 애플리케이션 구축을 위한 프레임워크. RAG, 체인, 에이전트 지원",
+      "description": "The agent engineering platform.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "MIT",
@@ -18,17 +18,25 @@
         "chains"
       ],
       "meta": {
-        "stars": 122398,
-        "lastUpdated": "2025-12-22T04:18:38Z",
-        "fetchedAt": "2025-12-22T04:18:47.965Z",
-        "forks": 20173,
-        "lastCommit": "2025-12-22T01:31:51Z"
+        "stars": 147899,
+        "lastUpdated": "2026-10-16T04:36:57Z",
+        "fetchedAt": "2026-10-16T04:47:50.475Z",
+        "forks": 24822,
+        "lastCommit": "2026-10-15T20:15:17Z",
+        "watchers": 924,
+        "openIssues": 650,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2022-10-17T02:58:36Z",
+        "lastFetchAttempt": "2026-10-16T04:47:49.977Z"
       }
     },
     {
       "id": "llamaindex-app",
       "name": "LlamaIndex",
-      "description": "LLM 데이터 프레임워크. RAG 애플리케이션 및 에이전트 구축",
+      "description": "LlamaIndex is the document processing platform for AI",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "MIT",
@@ -43,17 +51,25 @@
         "agents"
       ],
       "meta": {
-        "stars": 45939,
-        "lastUpdated": "2025-12-22T03:29:15Z",
-        "fetchedAt": "2025-12-22T04:18:48.509Z",
-        "forks": 6653,
-        "lastCommit": "2025-12-19T03:24:37Z"
+        "stars": 52515,
+        "lastUpdated": "2026-10-16T03:20:51Z",
+        "fetchedAt": "2026-10-16T04:47:51.023Z",
+        "forks": 8353,
+        "lastCommit": "2026-10-14T15:29:28Z",
+        "watchers": 289,
+        "openIssues": 940,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-11-02T04:24:54Z",
+        "lastFetchAttempt": "2026-10-16T04:47:50.603Z"
       }
     },
     {
       "id": "rasa",
       "name": "Rasa",
-      "description": "대화형 AI 및 챗봇 구축을 위한 오픈소스 프레임워크",
+      "description": "💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -67,17 +83,25 @@
         "nlu"
       ],
       "meta": {
-        "stars": 20940,
-        "lastUpdated": "2025-12-22T02:45:08Z",
-        "fetchedAt": "2025-12-22T04:18:48.999Z",
-        "forks": 4905,
-        "lastCommit": "2025-12-18T08:04:49Z"
+        "stars": 21350,
+        "lastUpdated": "2026-10-15T13:12:31Z",
+        "fetchedAt": "2026-10-16T04:47:51.540Z",
+        "forks": 4917,
+        "lastCommit": "2026-07-24T07:39:04Z",
+        "watchers": 351,
+        "openIssues": 159,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "3.6.x",
+        "createdAt": "2016-10-14T12:27:49Z",
+        "lastFetchAttempt": "2026-10-16T04:47:51.125Z"
       }
     },
     {
       "id": "autogen-app",
       "name": "AutoGen",
-      "description": "Microsoft의 에이전틱 AI 프레임워크. 멀티 에이전트 대화 및 협업",
+      "description": "A programming framework for agentic AI",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "CC-BY-4.0",
@@ -91,17 +115,25 @@
         "conversation"
       ],
       "meta": {
-        "stars": 52725,
-        "lastUpdated": "2025-12-22T03:53:11Z",
-        "fetchedAt": "2025-12-22T04:18:50.207Z",
-        "forks": 8016,
-        "lastCommit": "2025-10-08T04:58:17Z"
+        "stars": 61435,
+        "lastUpdated": "2026-10-16T04:41:19Z",
+        "fetchedAt": "2026-10-16T04:47:52.077Z",
+        "forks": 9291,
+        "lastCommit": "2026-04-15T11:59:09Z",
+        "watchers": 533,
+        "openIssues": 1115,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-08-18T11:43:45Z",
+        "lastFetchAttempt": "2026-10-16T04:47:51.643Z"
       }
     },
     {
       "id": "crewai-app",
       "name": "CrewAI",
-      "description": "역할 기반 멀티 에이전트 오케스트레이션 프레임워크",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "MIT",
@@ -115,21 +147,29 @@
         "orchestration"
       ],
       "meta": {
-        "stars": 41628,
-        "lastUpdated": "2025-12-22T02:59:18Z",
-        "fetchedAt": "2025-12-22T04:18:50.873Z",
-        "forks": 5575,
-        "lastCommit": "2025-12-20T15:09:47Z"
+        "stars": 59752,
+        "lastUpdated": "2026-10-16T04:40:33Z",
+        "fetchedAt": "2026-10-16T04:47:52.603Z",
+        "forks": 8747,
+        "lastCommit": "2026-10-16T03:41:58Z",
+        "watchers": 398,
+        "openIssues": 728,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-10-27T03:26:59Z",
+        "lastFetchAttempt": "2026-10-16T04:47:52.180Z"
       }
     },
     {
       "id": "phidata",
       "name": "Phidata",
-      "description": "에이전틱 시스템 구축을 위한 프레임워크. 메모리, 지식, 도구 지원",
+      "description": "Build, run, and manage agent platforms.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
-      "license": "MPL-2.0",
-      "githubUrl": "https://github.com/phidatahq/phidata",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/agno-agi/agno",
       "docsUrl": "https://docs.phidata.com/",
       "websiteUrl": "https://phidata.com/",
       "koreanSupport": false,
@@ -139,17 +179,25 @@
         "framework"
       ],
       "meta": {
-        "stars": 36199,
-        "lastUpdated": "2025-12-22T03:50:54Z",
-        "fetchedAt": "2025-12-22T04:18:51.635Z",
-        "forks": 4786,
-        "lastCommit": "2025-12-22T03:56:57Z"
+        "stars": 42762,
+        "lastUpdated": "2026-10-16T03:59:38Z",
+        "fetchedAt": "2026-10-16T04:47:53.086Z",
+        "forks": 6140,
+        "lastCommit": "2026-10-16T02:17:26Z",
+        "watchers": 240,
+        "openIssues": 1903,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-05-04T15:23:02Z",
+        "lastFetchAttempt": "2026-10-16T04:47:52.706Z"
       }
     },
     {
       "id": "dify",
       "name": "Dify",
-      "description": "오픈소스 LLM 앱 개발 플랫폼. RAG, 에이전트, 워크플로우 지원",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -164,17 +212,25 @@
         "agent"
       ],
       "meta": {
-        "stars": 122361,
-        "lastUpdated": "2025-12-22T04:08:31Z",
-        "fetchedAt": "2025-12-22T04:18:52.558Z",
-        "forks": 19027,
-        "lastCommit": "2025-12-22T01:40:41Z"
+        "stars": 158604,
+        "lastUpdated": "2026-10-16T04:39:34Z",
+        "fetchedAt": "2026-10-16T04:47:53.540Z",
+        "forks": 25060,
+        "lastCommit": "2026-10-16T04:46:31Z",
+        "watchers": 842,
+        "openIssues": 1119,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-12T07:40:24Z",
+        "lastFetchAttempt": "2026-10-16T04:47:53.188Z"
       }
     },
     {
       "id": "stable-diffusion",
       "name": "Stable Diffusion",
-      "description": "Stability AI의 텍스트-이미지 생성 모델",
+      "description": "A latent text-to-image diffusion model",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "CreativeML Open RAIL-M",
@@ -188,21 +244,29 @@
         "generative-ai"
       ],
       "meta": {
-        "stars": 72042,
-        "lastUpdated": "2025-12-22T03:42:05Z",
-        "fetchedAt": "2025-12-22T04:18:53.073Z",
-        "forks": 10553,
-        "lastCommit": "2024-06-18T01:53:49Z"
+        "stars": 73519,
+        "lastUpdated": "2026-10-16T03:38:51Z",
+        "fetchedAt": "2026-10-16T04:47:53.994Z",
+        "forks": 10571,
+        "lastCommit": "2024-06-18T01:53:49Z",
+        "watchers": 570,
+        "openIssues": 620,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-08-10T14:36:44Z",
+        "lastFetchAttempt": "2026-10-16T04:47:53.642Z"
       }
     },
     {
       "id": "comfyui",
       "name": "ComfyUI",
-      "description": "노드 기반 Stable Diffusion GUI. 복잡한 워크플로우 구성",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "GPL-3.0",
-      "githubUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "githubUrl": "https://github.com/Comfy-Org/ComfyUI",
       "docsUrl": "https://github.com/comfyanonymous/ComfyUI#readme",
       "websiteUrl": "https://www.comfy.org/",
       "koreanSupport": false,
@@ -213,17 +277,25 @@
         "nodes"
       ],
       "meta": {
-        "stars": 97660,
-        "lastUpdated": "2025-12-22T04:17:52Z",
-        "fetchedAt": "2025-12-22T04:18:53.486Z",
-        "forks": 11063,
-        "lastCommit": "2025-12-22T00:59:43Z"
+        "stars": 137752,
+        "lastUpdated": "2026-10-16T04:47:10Z",
+        "fetchedAt": "2026-10-16T04:47:54.562Z",
+        "forks": 16409,
+        "lastCommit": "2026-10-16T04:41:50Z",
+        "watchers": 827,
+        "openIssues": 5206,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2023-01-17T03:15:56Z",
+        "lastFetchAttempt": "2026-10-16T04:47:54.097Z"
       }
     },
     {
       "id": "dspy",
       "name": "DSPy",
-      "description": "프롬프트 엔지니어링을 프로그래밍으로 대체. 자동 최적화",
+      "description": "DSPy: The framework for programming—not prompting—language models",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "MIT",
@@ -237,17 +309,25 @@
         "declarative"
       ],
       "meta": {
-        "stars": 30940,
-        "lastUpdated": "2025-12-22T03:54:24Z",
-        "fetchedAt": "2025-12-22T04:18:54.323Z",
-        "forks": 2488,
-        "lastCommit": "2025-12-21T16:58:56Z"
+        "stars": 38654,
+        "lastUpdated": "2026-10-16T03:52:13Z",
+        "fetchedAt": "2026-10-16T04:47:55.044Z",
+        "forks": 3426,
+        "lastCommit": "2026-10-15T21:46:24Z",
+        "watchers": 218,
+        "openIssues": 803,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-01-09T21:01:51Z",
+        "lastFetchAttempt": "2026-10-16T04:47:54.665Z"
       }
     },
     {
       "id": "gradio",
       "name": "Gradio",
-      "description": "ML 모델 데모를 위한 웹 인터페이스 빌더. Hugging Face Spaces 통합",
+      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -262,17 +342,25 @@
         "huggingface"
       ],
       "meta": {
-        "stars": 41027,
-        "lastUpdated": "2025-12-22T03:01:00Z",
-        "fetchedAt": "2025-12-22T04:18:54.843Z",
-        "forks": 3202,
-        "lastCommit": "2025-12-19T18:17:55Z"
+        "stars": 43774,
+        "lastUpdated": "2026-10-16T03:38:00Z",
+        "fetchedAt": "2026-10-16T04:47:55.537Z",
+        "forks": 3634,
+        "lastCommit": "2026-10-16T00:30:00Z",
+        "watchers": 205,
+        "openIssues": 104,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-12-19T08:24:04Z",
+        "lastFetchAttempt": "2026-10-16T04:47:55.146Z"
       }
     },
     {
       "id": "streamlit",
       "name": "Streamlit",
-      "description": "Python으로 데이터 앱을 빠르게 구축할 수 있는 프레임워크",
+      "description": "Streamlit — A faster way to build and share data apps.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -286,17 +374,25 @@
         "dashboard"
       ],
       "meta": {
-        "stars": 42769,
-        "lastUpdated": "2025-12-22T03:37:50Z",
-        "fetchedAt": "2025-12-22T04:18:55.340Z",
-        "forks": 3986,
-        "lastCommit": "2025-12-21T06:43:36Z"
+        "stars": 46005,
+        "lastUpdated": "2026-10-16T03:32:46Z",
+        "fetchedAt": "2026-10-16T04:47:56.119Z",
+        "forks": 4424,
+        "lastCommit": "2026-10-16T04:39:05Z",
+        "watchers": 356,
+        "openIssues": 1180,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2019-08-24T00:14:52Z",
+        "lastFetchAttempt": "2026-10-16T04:47:55.640Z"
       }
     },
     {
       "id": "chainlit",
       "name": "Chainlit",
-      "description": "LLM 기반 채팅 애플리케이션 구축 프레임워크",
+      "description": "Build Conversational AI in minutes ⚡️",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -310,17 +406,25 @@
         "ui"
       ],
       "meta": {
-        "stars": 11219,
-        "lastUpdated": "2025-12-22T02:30:36Z",
-        "fetchedAt": "2025-12-22T04:18:55.846Z",
-        "forks": 1624,
-        "lastCommit": "2025-12-22T03:52:04Z"
+        "stars": 12519,
+        "lastUpdated": "2026-10-15T14:24:22Z",
+        "fetchedAt": "2026-10-16T04:47:56.558Z",
+        "forks": 1780,
+        "lastCommit": "2026-09-18T15:52:07Z",
+        "watchers": 61,
+        "openIssues": 160,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-03-14T16:54:04Z",
+        "lastFetchAttempt": "2026-10-16T04:47:56.221Z"
       }
     },
     {
       "id": "open-webui",
       "name": "Open WebUI",
-      "description": "사용자 친화적 AI 인터페이스. Ollama, OpenAI API 지원",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "Other",
@@ -335,21 +439,29 @@
         "chat"
       ],
       "meta": {
-        "stars": 118397,
-        "lastUpdated": "2025-12-22T03:59:48Z",
-        "fetchedAt": "2025-12-22T04:18:56.324Z",
-        "forks": 16685,
-        "lastCommit": "2025-12-21T21:09:09Z"
+        "stars": 155840,
+        "lastUpdated": "2026-10-16T04:31:07Z",
+        "fetchedAt": "2026-10-16T04:47:57.060Z",
+        "forks": 22685,
+        "lastCommit": "2026-10-16T00:20:55Z",
+        "watchers": 678,
+        "openIssues": 175,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-10-06T22:08:27Z",
+        "lastFetchAttempt": "2026-10-16T04:47:56.661Z"
       }
     },
     {
       "id": "lobe-chat",
       "name": "Lobe Chat",
-      "description": "현대적인 디자인의 오픈소스 ChatGPT/LLM UI",
+      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "MIT",
-      "githubUrl": "https://github.com/lobehub/lobe-chat",
+      "githubUrl": "https://github.com/lobehub/lobehub",
       "docsUrl": "https://lobehub.com/docs/",
       "websiteUrl": "https://lobehub.com/",
       "koreanSupport": true,
@@ -360,17 +472,25 @@
         "self-hosted"
       ],
       "meta": {
-        "stars": 69307,
-        "lastUpdated": "2025-12-22T04:09:27Z",
-        "fetchedAt": "2025-12-22T04:18:56.780Z",
-        "forks": 14275,
-        "lastCommit": "2025-12-22T04:06:08Z"
+        "stars": 83264,
+        "lastUpdated": "2026-10-16T04:06:39Z",
+        "fetchedAt": "2026-10-16T04:47:57.500Z",
+        "forks": 15989,
+        "lastCommit": "2026-10-16T04:23:56Z",
+        "watchers": 304,
+        "openIssues": 1091,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "canary",
+        "createdAt": "2023-05-21T07:19:12Z",
+        "lastFetchAttempt": "2026-10-16T04:47:57.162Z"
       }
     },
     {
       "id": "agent-framework",
       "name": "Microsoft Agent Framework",
-      "description": "Python과 .NET을 지원하는 AI 에이전트 및 멀티-에이전트 워크플로우 구축 프레임워크",
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "MIT",
@@ -387,17 +507,25 @@
         "dotnet"
       ],
       "meta": {
-        "stars": 5984,
-        "lastUpdated": "2025-12-22T01:46:51Z",
-        "fetchedAt": "2025-12-22T04:18:57.318Z",
-        "forks": 927,
-        "lastCommit": "2025-12-21T08:57:59Z"
+        "stars": 14148,
+        "lastUpdated": "2026-10-16T03:32:43Z",
+        "fetchedAt": "2026-10-16T04:47:58.122Z",
+        "forks": 2475,
+        "lastCommit": "2026-10-16T03:32:36Z",
+        "watchers": 111,
+        "openIssues": 756,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-04-28T19:40:42Z",
+        "lastFetchAttempt": "2026-10-16T04:47:57.602Z"
       }
     },
     {
       "id": "diffusers",
       "name": "Diffusers",
-      "description": "PyTorch 기반의 최신 확산 모델 라이브러리. 이미지, 비디오, 오디오 생성 지원",
+      "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -413,17 +541,25 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 32160,
-        "lastUpdated": "2025-12-22T02:23:05Z",
-        "fetchedAt": "2025-12-22T04:18:57.847Z",
-        "forks": 6626,
-        "lastCommit": "2025-12-22T04:10:11Z"
+        "stars": 34728,
+        "lastUpdated": "2026-10-16T03:26:04Z",
+        "fetchedAt": "2026-10-16T04:47:58.627Z",
+        "forks": 7399,
+        "lastCommit": "2026-10-16T03:25:29Z",
+        "watchers": 224,
+        "openIssues": 1492,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-05-30T16:04:02Z",
+        "lastFetchAttempt": "2026-10-16T04:47:58.224Z"
       }
     },
     {
       "id": "elasticsearch",
       "name": "Elasticsearch",
-      "description": "분산 검색 및 분석 엔진. 추천 시스템 및 RAG 검색에 활용",
+      "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "categoryId": "recommendation-search",
       "moduleId": "application-service",
       "license": "SSPL-1.0",
@@ -438,17 +574,25 @@
         "rag"
       ],
       "meta": {
-        "stars": 75690,
-        "lastUpdated": "2025-12-22T03:41:30Z",
-        "fetchedAt": "2025-12-22T04:18:58.498Z",
-        "forks": 25795,
-        "lastCommit": "2025-12-21T11:02:44Z"
+        "stars": 78285,
+        "lastUpdated": "2026-10-16T04:27:26Z",
+        "fetchedAt": "2026-10-16T04:47:59.205Z",
+        "forks": 26127,
+        "lastCommit": "2026-10-16T04:27:19Z",
+        "watchers": 2627,
+        "openIssues": 6209,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2010-02-08T13:20:56Z",
+        "lastFetchAttempt": "2026-10-16T04:47:58.729Z"
       }
     },
     {
       "id": "monai",
       "name": "MONAI",
-      "description": "의료 영상 AI를 위한 PyTorch 기반 오픈소스 프레임워크",
+      "description": "AI Toolkit for Healthcare Imaging",
       "categoryId": "industry-solutions",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -463,17 +607,25 @@
         "deep-learning"
       ],
       "meta": {
-        "stars": 7636,
-        "lastUpdated": "2025-12-21T23:40:48Z",
-        "fetchedAt": "2025-12-22T04:18:59.019Z",
-        "forks": 1386,
-        "lastCommit": "2025-12-02T07:11:50Z"
+        "stars": 8782,
+        "lastUpdated": "2026-10-16T03:47:56Z",
+        "fetchedAt": "2026-10-16T04:47:59.687Z",
+        "forks": 1661,
+        "lastCommit": "2026-10-16T00:43:06Z",
+        "watchers": 104,
+        "openIssues": 510,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "dev",
+        "createdAt": "2019-10-11T16:41:38Z",
+        "lastFetchAttempt": "2026-10-16T04:47:59.307Z"
       }
     },
     {
       "id": "apollo-auto",
       "name": "Apollo Auto",
-      "description": "Baidu의 자율주행 오픈 플랫폼. 자율주행 소프트웨어 스택 제공",
+      "description": "An open autonomous driving platform",
       "categoryId": "industry-solutions",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -488,17 +640,25 @@
         "perception"
       ],
       "meta": {
-        "stars": 26316,
-        "lastUpdated": "2025-12-21T19:11:47Z",
-        "fetchedAt": "2025-12-22T04:18:59.510Z",
-        "forks": 9942,
-        "lastCommit": "2025-08-18T03:32:18Z"
+        "stars": 26862,
+        "lastUpdated": "2026-10-15T16:18:16Z",
+        "fetchedAt": "2026-10-16T04:48:00.219Z",
+        "forks": 9956,
+        "lastCommit": "2026-04-16T12:24:54Z",
+        "watchers": 1097,
+        "openIssues": 1047,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-07-04T19:03:31Z",
+        "lastFetchAttempt": "2026-10-16T04:47:59.788Z"
       }
     },
     {
       "id": "openvoice",
       "name": "OpenVoice",
-      "description": "즉각적인 음성 복제 및 다국어 지원 TTS 오픈소스 모델",
+      "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "MIT",
@@ -513,17 +673,25 @@
         "multilingual"
       ],
       "meta": {
-        "stars": 35670,
-        "lastUpdated": "2025-12-22T03:14:29Z",
-        "fetchedAt": "2025-12-22T04:18:59.950Z",
-        "forks": 3974,
-        "lastCommit": "2025-04-19T16:00:00Z"
+        "stars": 37897,
+        "lastUpdated": "2026-10-16T03:54:15Z",
+        "fetchedAt": "2026-10-16T04:48:00.720Z",
+        "forks": 4265,
+        "lastCommit": "2025-04-19T16:00:00Z",
+        "watchers": 265,
+        "openIssues": 311,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-11-29T12:17:01Z",
+        "lastFetchAttempt": "2026-10-16T04:48:00.320Z"
       }
     },
     {
       "id": "meilisearch",
       "name": "Meilisearch",
-      "description": "Lightning-fast search engine that fits effortlessly into your apps, websites, and workflow",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
       "categoryId": "recommendation-search",
       "moduleId": "application-service",
       "license": "MIT",
@@ -536,16 +704,25 @@
         "typo-tolerant"
       ],
       "meta": {
-        "stars": 47000,
-        "forks": 1800,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 59579,
+        "forks": 2738,
+        "lastUpdated": "2026-10-16T04:06:38Z",
+        "fetchedAt": "2026-10-16T04:48:01.200Z",
+        "watchers": 299,
+        "openIssues": 321,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-04-23T11:45:28Z",
+        "lastCommit": "2026-10-15T15:53:55Z",
+        "lastFetchAttempt": "2026-10-16T04:48:00.823Z"
       }
     },
     {
       "id": "typesense",
       "name": "Typesense",
-      "description": "Open source, typo-tolerant search engine optimized for instant (as-you-type) search",
+      "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
       "categoryId": "recommendation-search",
       "moduleId": "application-service",
       "license": "GPL-3.0",
@@ -558,16 +735,25 @@
         "cpp"
       ],
       "meta": {
-        "stars": 21000,
-        "forks": 680,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 26931,
+        "forks": 1013,
+        "lastUpdated": "2026-10-16T04:39:13Z",
+        "fetchedAt": "2026-10-16T04:48:01.691Z",
+        "watchers": 139,
+        "openIssues": 908,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "v31",
+        "createdAt": "2017-01-18T08:01:47Z",
+        "lastCommit": "2026-10-13T05:46:12Z",
+        "lastFetchAttempt": "2026-10-16T04:48:01.303Z"
       }
     },
     {
       "id": "vespa",
       "name": "Vespa",
-      "description": "Yahoo's open source big data serving engine — search, recommendation, personalization at scale",
+      "description": "The AI search platform",
       "categoryId": "recommendation-search",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -580,16 +766,25 @@
         "real-time"
       ],
       "meta": {
-        "stars": 5600,
-        "forks": 580,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 7129,
+        "forks": 745,
+        "lastUpdated": "2026-10-15T20:10:59Z",
+        "fetchedAt": "2026-10-16T04:48:02.166Z",
+        "watchers": 164,
+        "openIssues": 259,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2016-06-03T20:54:20Z",
+        "lastCommit": "2026-10-16T03:12:44Z",
+        "lastFetchAttempt": "2026-10-16T04:48:01.793Z"
       }
     },
     {
       "id": "deepchem",
       "name": "DeepChem",
-      "description": "Deep learning for drug discovery, materials science, quantum chemistry, and biology",
+      "description": "Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology",
       "categoryId": "industry-solutions",
       "moduleId": "application-service",
       "license": "MIT",
@@ -602,10 +797,19 @@
         "materials-science"
       ],
       "meta": {
-        "stars": 5500,
-        "forks": 1800,
-        "lastUpdated": "2025-11-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 7060,
+        "forks": 2352,
+        "lastUpdated": "2026-10-16T02:13:31Z",
+        "fetchedAt": "2026-10-16T04:48:02.643Z",
+        "watchers": 141,
+        "openIssues": 1235,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2015-09-24T23:20:28Z",
+        "lastCommit": "2026-08-20T19:01:34Z",
+        "lastFetchAttempt": "2026-10-16T04:48:02.269Z"
       }
     },
     {
@@ -624,16 +828,25 @@
         "healthcare"
       ],
       "meta": {
-        "stars": 3200,
-        "forks": 490,
-        "lastUpdated": "2025-06-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 4486,
+        "forks": 486,
+        "lastUpdated": "2026-10-08T11:37:54Z",
+        "fetchedAt": "2026-10-16T04:48:03.218Z",
+        "watchers": 76,
+        "openIssues": 75,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-08-15T05:55:55Z",
+        "lastCommit": "2024-07-25T10:33:53Z",
+        "lastFetchAttempt": "2026-10-16T04:48:02.746Z"
       }
     },
     {
       "id": "stable-diffusion-webui",
       "name": "Stable Diffusion WebUI",
-      "description": "A browser interface for Stable Diffusion — the most popular SD frontend with extensive extension ecosystem",
+      "description": "Stable Diffusion web UI",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "AGPL-3.0",
@@ -646,16 +859,25 @@
         "txt2img"
       ],
       "meta": {
-        "stars": 145000,
-        "forks": 27000,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 165060,
+        "forks": 33463,
+        "lastUpdated": "2026-10-16T04:37:28Z",
+        "fetchedAt": "2026-10-16T04:48:03.631Z",
+        "watchers": 1260,
+        "openIssues": 2510,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2022-08-22T14:05:26Z",
+        "lastCommit": "2026-03-02T07:00:53Z",
+        "lastFetchAttempt": "2026-10-16T04:48:03.321Z"
       }
     },
     {
       "id": "invoke-ai",
       "name": "InvokeAI",
-      "description": "Creative engine for Stable Diffusion — professional creative tools for generating and editing images",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -668,16 +890,25 @@
         "art"
       ],
       "meta": {
-        "stars": 23000,
-        "forks": 2300,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 28670,
+        "forks": 3053,
+        "lastUpdated": "2026-10-16T04:31:37Z",
+        "fetchedAt": "2026-10-16T04:48:04.102Z",
+        "watchers": 213,
+        "openIssues": 446,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-08-17T01:04:27Z",
+        "lastCommit": "2026-10-16T03:49:02Z",
+        "lastFetchAttempt": "2026-10-16T04:48:03.733Z"
       }
     },
     {
       "id": "open-sora",
       "name": "Open-Sora",
-      "description": "Democratizing efficient video production — open-source Sora-like video generation with up to 16s, 720p, any aspect ratio",
+      "description": "Open-Sora: Democratizing Efficient Video Production for All",
       "categoryId": "content-generation",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -690,16 +921,25 @@
         "sora"
       ],
       "meta": {
-        "stars": 22000,
-        "forks": 2100,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 29872,
+        "forks": 3095,
+        "lastUpdated": "2026-10-16T02:18:53Z",
+        "fetchedAt": "2026-10-16T04:48:04.568Z",
+        "watchers": 247,
+        "openIssues": 14,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-02-20T03:01:34Z",
+        "lastCommit": "2026-04-09T01:52:40Z",
+        "lastFetchAttempt": "2026-10-16T04:48:04.204Z"
       }
     },
     {
       "id": "browser-use",
       "name": "Browser Use",
-      "description": "Make websites accessible for AI agents — enable LLMs to interact with any website through natural language",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "MIT",
@@ -712,16 +952,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 51000,
-        "forks": 5200,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 118126,
+        "forks": 13101,
+        "lastUpdated": "2026-10-16T04:47:54Z",
+        "fetchedAt": "2026-10-16T04:48:05.090Z",
+        "watchers": 483,
+        "openIssues": 556,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-10-31T16:00:56Z",
+        "lastCommit": "2026-10-16T03:26:53Z",
+        "lastFetchAttempt": "2026-10-16T04:48:04.670Z"
       }
     },
     {
       "id": "openclaw",
       "name": "OpenClaw",
-      "description": "모든 OS와 플랫폼을 지원하는 개인 AI 어시스턴트. 데이터 소유권을 사용자에게 보장하는 오픈소스 AI 비서",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "MIT",
@@ -736,17 +985,25 @@
         "cross-platform"
       ],
       "meta": {
-        "stars": 240661,
-        "lastUpdated": "2026-03-01T03:33:17Z",
-        "fetchedAt": "2026-03-01T03:33:47.000Z",
-        "forks": 46493,
-        "lastCommit": "2026-03-01T03:25:31Z"
+        "stars": 392132,
+        "lastUpdated": "2026-10-16T04:46:58Z",
+        "fetchedAt": "2026-10-16T04:48:05.558Z",
+        "forks": 82459,
+        "lastCommit": "2026-10-16T04:47:35Z",
+        "watchers": 1708,
+        "openIssues": 9461,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-11-24T10:16:47Z",
+        "lastFetchAttempt": "2026-10-16T04:48:05.192Z"
       }
     },
     {
       "id": "aionui",
       "name": "AionUi",
-      "description": "다양한 AI CLI 도구(Claude Code, Gemini CLI, Codex 등)를 위한 무료 로컬 오픈소스 협업 앱 및 웹UI",
+      "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -762,17 +1019,25 @@
         "local"
       ],
       "meta": {
-        "stars": 17424,
-        "lastUpdated": "2026-03-01T03:36:42Z",
-        "fetchedAt": "2026-03-01T03:36:00.000Z",
-        "forks": 1332,
-        "lastCommit": "2026-03-01T00:36:19Z"
+        "stars": 33570,
+        "lastUpdated": "2026-10-16T04:44:52Z",
+        "fetchedAt": "2026-10-16T04:48:06.043Z",
+        "forks": 3487,
+        "lastCommit": "2026-10-14T04:18:39Z",
+        "watchers": 149,
+        "openIssues": 866,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-08-07T10:29:51Z",
+        "lastFetchAttempt": "2026-10-16T04:48:05.660Z"
       }
     },
     {
       "id": "tambo-ai-tambo",
       "name": "tambo",
-      "description": "React 기반의 생성형 UI를 구축할 수 있는 오픈소스 SDK로, AI 챗봇 및 어시스턴트의 인터페이스 개발을 지원합니다.",
+      "description": "Generative UI SDK for React",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "MIT",
@@ -792,11 +1057,19 @@
         "ui-components"
       ],
       "meta": {
-        "stars": 10992,
-        "forks": 544,
-        "lastUpdated": "2026-03-02T11:20:06Z",
-        "lastCommit": "2026-03-02T09:29:29Z",
-        "fetchedAt": "2026-03-02T12:26:39.508Z"
+        "stars": 11190,
+        "forks": 573,
+        "lastUpdated": "2026-10-15T16:07:59Z",
+        "lastCommit": "2026-10-15T09:16:23Z",
+        "fetchedAt": "2026-10-16T04:48:06.523Z",
+        "watchers": 31,
+        "openIssues": 47,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-06-15T17:11:37Z",
+        "lastFetchAttempt": "2026-10-16T04:48:06.145Z"
       }
     },
     {
@@ -818,17 +1091,25 @@
         "sharding"
       ],
       "meta": {
-        "stars": 2549,
-        "forks": 644,
-        "lastUpdated": "2026-05-22T20:35:35Z",
-        "lastCommit": "2026-05-22T20:35:28Z",
-        "fetchedAt": "2026-05-24T00:14:34.487Z"
+        "stars": 2613,
+        "forks": 707,
+        "lastUpdated": "2026-10-15T23:18:08Z",
+        "lastCommit": "2026-10-15T23:18:01Z",
+        "fetchedAt": "2026-10-16T04:48:07.036Z",
+        "watchers": 33,
+        "openIssues": 278,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-07-12T23:15:48Z",
+        "lastFetchAttempt": "2026-10-16T04:48:06.626Z"
       }
     },
     {
       "id": "assafelovic-gpt-researcher",
       "name": "gpt-researcher",
-      "description": "임의의 LLM 제공자를 활용해 어떤 주제든 심층 리서치를 자율 수행하는 에이전트. 웹/로컬 데이터를 탐색·수집·종합하여 인용이 포함된 연구 보고서를 자동 생성한다.",
+      "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -848,17 +1129,25 @@
         "webscraping"
       ],
       "meta": {
-        "stars": 29880,
-        "forks": 4077,
-        "lastUpdated": "2026-10-03T03:58:41Z",
-        "lastCommit": "2026-10-01T19:33:35Z",
-        "fetchedAt": "2026-10-03T04:11:39.871Z"
+        "stars": 30120,
+        "forks": 4141,
+        "lastUpdated": "2026-10-16T02:30:08Z",
+        "lastCommit": "2026-10-10T22:03:53Z",
+        "fetchedAt": "2026-10-16T04:48:07.467Z",
+        "watchers": 176,
+        "openIssues": 37,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-12T10:33:54Z",
+        "lastFetchAttempt": "2026-10-16T04:48:07.139Z"
       }
     },
     {
       "id": "tauricresearch-tradingagents",
       "name": "TradingAgents",
-      "description": "LLM 기반 멀티에이전트 금융 트레이딩 프레임워크. 펀더멘털·심리·기술·리스크 분석가 등 역할별 에이전트가 협업·토론하여 트레이딩 의사결정을 내리는 금융 도메인 특화 솔루션이다.",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "categoryId": "industry-solutions",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -872,17 +1161,25 @@
         "trading"
       ],
       "meta": {
-        "stars": 109548,
-        "forks": 21053,
-        "lastUpdated": "2026-10-03T04:08:15Z",
-        "lastCommit": "2026-09-29T06:15:10Z",
-        "fetchedAt": "2026-10-03T04:26:34.032Z"
+        "stars": 111417,
+        "forks": 21489,
+        "lastUpdated": "2026-10-16T04:30:56Z",
+        "lastCommit": "2026-10-03T21:30:10Z",
+        "fetchedAt": "2026-10-16T04:48:07.920Z",
+        "watchers": 842,
+        "openIssues": 122,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-12-28T03:31:08Z",
+        "lastFetchAttempt": "2026-10-16T04:48:07.569Z"
       }
     },
     {
       "id": "intelligent-internet-ii-agent",
       "name": "ii-agent",
-      "description": "지능형 에이전트를 구축하고 배포하기 위한 오픈소스 프레임워크로, 웹 검색·코드 실행·파일 처리 등 다양한 도구를 활용해 복잡한 작업을 자율적으로 수행하는 에이전트를 만들 수 있습니다.",
+      "description": "II-Agent: a new open-source framework to build and deploy intelligent agents",
       "categoryId": "autonomous-agent",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -900,15 +1197,23 @@
       "meta": {
         "stars": 3391,
         "forks": 528,
-        "lastUpdated": "2026-10-02T15:14:38Z",
+        "lastUpdated": "2026-10-15T19:51:42Z",
         "lastCommit": "2026-08-16T15:45:25Z",
-        "fetchedAt": "2026-10-03T04:52:38.181Z"
+        "fetchedAt": "2026-10-16T04:48:08.464Z",
+        "watchers": 47,
+        "openIssues": 18,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-04-07T17:45:48Z",
+        "lastFetchAttempt": "2026-10-16T04:48:08.022Z"
       }
     },
     {
       "id": "ai4finance-foundation-finrl",
       "name": "FinRL",
-      "description": "금융 분야 강화학습(Financial Reinforcement Learning)을 위한 오픈소스 프레임워크 FinRL(AI4Finance Foundation). 주식 거래·포트폴리오 배분 등 정량 트레이딩 전략을 심층 강화학습으로 학습·백테스트할 수 있는 환경·에이전트·파이프라인을 제공합니다.",
+      "description": "FinRL®:  Financial Reinforcement Learning. 🔥",
       "categoryId": "industry-solutions",
       "moduleId": "application-service",
       "license": "MIT",
@@ -931,17 +1236,25 @@
         "trading-tasks"
       ],
       "meta": {
-        "stars": 16536,
-        "forks": 3536,
-        "lastUpdated": "2026-10-03T05:29:20Z",
-        "lastCommit": "2026-09-28T23:32:46Z",
-        "fetchedAt": "2026-10-03T05:35:58.953Z"
+        "stars": 16686,
+        "forks": 3555,
+        "lastUpdated": "2026-10-16T03:38:11Z",
+        "lastCommit": "2026-10-13T16:08:03Z",
+        "fetchedAt": "2026-10-16T04:48:08.936Z",
+        "watchers": 236,
+        "openIssues": 307,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-07-26T13:18:16Z",
+        "lastFetchAttempt": "2026-10-16T04:48:08.566Z"
       }
     },
     {
       "id": "commaai-openpilot",
       "name": "openpilot",
-      "description": "로보틱스를 위한 오픈소스 운영체제 openpilot(comma.ai). 300종 이상의 차량에서 운전자 보조 시스템(ADAS)을 업그레이드하며, 종단간(end-to-end) 비전 신경망 모델로 차선 유지·적응형 순항제어 등 자율주행 보조 기능을 제공합니다.",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
       "categoryId": "industry-solutions",
       "moduleId": "application-service",
       "license": "MIT",
@@ -953,17 +1266,25 @@
         "robotics"
       ],
       "meta": {
-        "stars": 63797,
-        "forks": 11412,
-        "lastUpdated": "2026-10-03T05:32:14Z",
-        "lastCommit": "2026-10-03T01:02:44Z",
-        "fetchedAt": "2026-10-03T05:39:23.340Z"
+        "stars": 63913,
+        "forks": 11319,
+        "lastUpdated": "2026-10-16T04:22:15Z",
+        "lastCommit": "2026-10-16T04:21:34Z",
+        "fetchedAt": "2026-10-16T04:48:09.423Z",
+        "watchers": 1322,
+        "openIssues": 124,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2016-11-24T01:33:30Z",
+        "lastFetchAttempt": "2026-10-16T04:48:09.038Z"
       }
     },
     {
       "id": "chatgptnextweb-nextchat",
       "name": "NextChat",
-      "description": "가볍고 빠른 크로스플랫폼 AI 어시스턴트 NextChat(구 ChatGPT-Next-Web). 웹·iOS·macOS·Android·Linux·Windows에서 동작하며, OpenAI 등 여러 LLM 백엔드를 연결해 셀프호스팅 가능한 대화형 AI 챗 클라이언트를 제공합니다.",
+      "description": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "MIT",
@@ -991,17 +1312,25 @@
         "webui"
       ],
       "meta": {
-        "stars": 88821,
-        "forks": 58930,
-        "lastUpdated": "2026-10-03T04:59:24Z",
-        "lastCommit": "2026-08-11T02:07:25Z",
-        "fetchedAt": "2026-10-03T05:52:50.214Z"
+        "stars": 88853,
+        "forks": 58820,
+        "lastUpdated": "2026-10-16T03:47:01Z",
+        "lastCommit": "2026-10-15T07:27:55Z",
+        "fetchedAt": "2026-10-16T04:48:09.898Z",
+        "watchers": 497,
+        "openIssues": 853,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-03-10T18:27:54Z",
+        "lastFetchAttempt": "2026-10-16T04:48:09.525Z"
       }
     },
     {
       "id": "miurla-morphic",
       "name": "morphic",
-      "description": "생성형 UI를 갖춘 AI 기반 검색 엔진 Morphic. 사용자 질의에 대해 웹 검색 결과를 LLM으로 종합하고 답변·후속 질문·시각 요소를 동적으로 생성하는 대화형 AI 답변 검색(answer engine) 경험을 셀프호스팅으로 제공합니다.",
+      "description": "An AI-powered search engine with a generative UI",
       "categoryId": "recommendation-search",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -1022,17 +1351,25 @@
         "vercel-ai-sdk"
       ],
       "meta": {
-        "stars": 9151,
-        "forks": 2348,
-        "lastUpdated": "2026-10-02T21:29:22Z",
-        "lastCommit": "2026-09-30T22:04:42Z",
-        "fetchedAt": "2026-10-03T06:03:44.919Z"
+        "stars": 9173,
+        "forks": 2350,
+        "lastUpdated": "2026-10-15T22:29:26Z",
+        "lastCommit": "2026-10-14T23:59:48Z",
+        "fetchedAt": "2026-10-16T04:48:10.336Z",
+        "watchers": 68,
+        "openIssues": 54,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-04-05T13:55:29Z",
+        "lastFetchAttempt": "2026-10-16T04:48:10.001Z"
       }
     },
     {
       "id": "agentscope-ai-qwenpaw",
       "name": "QwenPaw",
-      "description": "개인용 AI 어시스턴트(구 CoPaw, 현 QwenPaw, AgentScope). 설치·배포가 간편하며 로컬 머신 또는 클라우드에 운영할 수 있고, 여러 채팅 앱을 지원하며 손쉽게 확장 가능한 기능(스킬)을 제공하는 셀프호스팅 대화형 AI 비서입니다.",
+      "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "Apache-2.0",
@@ -1057,17 +1394,25 @@
         "webui"
       ],
       "meta": {
-        "stars": 35417,
-        "forks": 3154,
-        "lastUpdated": "2026-10-03T04:56:25Z",
-        "lastCommit": "2026-09-30T08:35:50Z",
-        "fetchedAt": "2026-10-03T06:18:30.297Z"
+        "stars": 35734,
+        "forks": 3183,
+        "lastUpdated": "2026-10-16T04:40:35Z",
+        "lastCommit": "2026-10-16T03:23:43Z",
+        "fetchedAt": "2026-10-16T04:48:10.821Z",
+        "watchers": 115,
+        "openIssues": 1087,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-02-24T03:42:56Z",
+        "lastFetchAttempt": "2026-10-16T04:48:10.438Z"
       }
     },
     {
       "id": "onyx-dot-app-onyx",
       "name": "onyx",
-      "description": "모든 LLM과 연동되는 오픈소스 AI 플랫폼 Onyx(구 Danswer). 기업 내부 문서·앱(Slack·Confluence·Drive 등) 커넥터를 통한 RAG 기반 AI 채팅·엔터프라이즈 검색, 커스텀 어시스턴트, 권한 관리 등을 제공하여 사내 지식 질의응답을 구현합니다.",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "NOASSERTION",
@@ -1090,17 +1435,25 @@
         "vector-search"
       ],
       "meta": {
-        "stars": 32316,
-        "forks": 4519,
-        "lastUpdated": "2026-10-03T04:51:06Z",
-        "lastCommit": "2026-10-03T05:33:53Z",
-        "fetchedAt": "2026-10-03T06:31:41.083Z"
+        "stars": 32502,
+        "forks": 4568,
+        "lastUpdated": "2026-10-16T03:34:22Z",
+        "lastCommit": "2026-10-16T03:34:59Z",
+        "fetchedAt": "2026-10-16T04:48:11.327Z",
+        "watchers": 158,
+        "openIssues": 587,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-27T06:04:01Z",
+        "lastFetchAttempt": "2026-10-16T04:48:10.923Z"
       }
     },
     {
       "id": "chatboxai-chatbox",
       "name": "chatbox",
-      "description": "강력한 크로스플랫폼 AI 클라이언트 Chatbox. 데스크톱(Windows·macOS·Linux)·모바일·웹에서 동작하며, OpenAI·Claude·Gemini·로컬 모델(Ollama) 등 다양한 LLM을 연결해 대화·아티팩트·이미지 생성·파일 입력 등을 지원하는 셀프호스팅 AI 챗 앱입니다.",
+      "description": "Powerful AI Client",
       "categoryId": "ai-chatbot",
       "moduleId": "application-service",
       "license": "GPL-3.0",
@@ -1121,11 +1474,19 @@
         "openai"
       ],
       "meta": {
-        "stars": 41931,
-        "forks": 4269,
-        "lastUpdated": "2026-10-03T03:40:02Z",
+        "stars": 42032,
+        "forks": 4279,
+        "lastUpdated": "2026-10-16T03:42:20Z",
         "lastCommit": "2026-09-24T14:09:13Z",
-        "fetchedAt": "2026-10-03T06:42:18.520Z"
+        "fetchedAt": "2026-10-16T04:48:11.816Z",
+        "watchers": 221,
+        "openIssues": 1333,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-03-06T12:22:15Z",
+        "lastFetchAttempt": "2026-10-16T04:48:11.429Z"
       }
     },
     {
@@ -1159,7 +1520,9 @@
         "forks": 156,
         "lastUpdated": "2026-09-29T23:42:39Z",
         "lastCommit": "2026-06-24T12:29:04Z",
-        "fetchedAt": "2026-10-04T14:22:29.926Z"
+        "fetchedAt": "2026-10-04T14:22:29.926Z",
+        "lastFetchAttempt": "2026-10-16T04:48:11.919Z",
+        "fetchError": "HTTP 404: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository"
       }
     }
   ]

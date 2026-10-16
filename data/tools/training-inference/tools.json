@@ -3,7 +3,7 @@
     {
       "id": "pytorch",
       "name": "PyTorch",
-      "description": "Meta에서 개발한 오픈소스 딥러닝 프레임워크. 동적 신경망, 강력한 GPU 가속",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "BSD-3-Clause",
@@ -18,17 +18,25 @@
         "gpu"
       ],
       "meta": {
-        "stars": 96067,
-        "lastUpdated": "2025-12-22T03:55:19Z",
-        "fetchedAt": "2025-12-22T04:19:43.128Z",
-        "forks": 26323,
-        "lastCommit": "2025-12-22T04:15:40Z"
+        "stars": 104717,
+        "lastUpdated": "2026-10-16T04:46:37Z",
+        "fetchedAt": "2026-10-16T04:50:28.896Z",
+        "forks": 32599,
+        "lastCommit": "2026-10-16T04:47:16Z",
+        "watchers": 1813,
+        "openIssues": 17667,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2016-08-13T05:26:41Z",
+        "lastFetchAttempt": "2026-10-16T04:50:28.450Z"
       }
     },
     {
       "id": "tensorflow",
       "name": "TensorFlow",
-      "description": "Google에서 개발한 오픈소스 머신러닝 프레임워크. 프로덕션 배포 및 엣지 지원",
+      "description": "An Open Source Machine Learning Framework for Everyone",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -42,17 +50,25 @@
         "production"
       ],
       "meta": {
-        "stars": 192898,
-        "lastUpdated": "2025-12-22T02:52:36Z",
-        "fetchedAt": "2025-12-22T04:19:43.727Z",
-        "forks": 75183,
-        "lastCommit": "2025-12-22T04:19:08Z"
+        "stars": 200993,
+        "lastUpdated": "2026-10-16T04:48:05Z",
+        "fetchedAt": "2026-10-16T04:50:29.448Z",
+        "forks": 79524,
+        "lastCommit": "2026-10-16T04:41:23Z",
+        "watchers": 7535,
+        "openIssues": 3396,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2015-11-07T01:19:20Z",
+        "lastFetchAttempt": "2026-10-16T04:50:28.998Z"
       }
     },
     {
       "id": "jax",
       "name": "JAX",
-      "description": "Google의 고성능 수치 연산 라이브러리. XLA 컴파일러 기반 자동 미분",
+      "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -67,17 +83,25 @@
         "research"
       ],
       "meta": {
-        "stars": 34388,
-        "lastUpdated": "2025-12-22T01:00:38Z",
-        "fetchedAt": "2025-12-22T04:19:45.316Z",
-        "forks": 3316,
-        "lastCommit": "2025-12-21T08:07:03Z"
+        "stars": 36449,
+        "lastUpdated": "2026-10-16T03:59:29Z",
+        "fetchedAt": "2026-10-16T04:50:29.982Z",
+        "forks": 3855,
+        "lastCommit": "2026-10-16T04:10:28Z",
+        "watchers": 333,
+        "openIssues": 2556,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-10-25T21:25:02Z",
+        "lastFetchAttempt": "2026-10-16T04:50:29.551Z"
       }
     },
     {
       "id": "keras",
       "name": "Keras",
-      "description": "사용하기 쉬운 고수준 딥러닝 API. TensorFlow, PyTorch, JAX 백엔드 지원",
+      "description": "Deep Learning for humans",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -91,17 +115,25 @@
         "beginner-friendly"
       ],
       "meta": {
-        "stars": 63655,
-        "lastUpdated": "2025-12-22T03:42:22Z",
-        "fetchedAt": "2025-12-22T04:19:45.832Z",
-        "forks": 19654,
-        "lastCommit": "2025-12-20T00:20:41Z"
+        "stars": 64376,
+        "lastUpdated": "2026-10-16T03:14:19Z",
+        "fetchedAt": "2026-10-16T04:50:30.509Z",
+        "forks": 19799,
+        "lastCommit": "2026-10-16T03:01:22Z",
+        "watchers": 1853,
+        "openIssues": 233,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2015-03-28T00:35:42Z",
+        "lastFetchAttempt": "2026-10-16T04:50:30.085Z"
       }
     },
     {
       "id": "unsloth",
       "name": "Unsloth",
-      "description": "LLM 파인튜닝을 2배 빠르게, 70% 적은 VRAM으로. LoRA, QLoRA 지원",
+      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
       "categoryId": "fine-tuning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -116,21 +148,29 @@
         "vram-optimization"
       ],
       "meta": {
-        "stars": 49720,
-        "lastUpdated": "2025-12-22T04:06:22Z",
-        "fetchedAt": "2025-12-22T04:19:46.308Z",
-        "forks": 4102,
-        "lastCommit": "2025-12-20T03:38:00Z"
+        "stars": 78091,
+        "lastUpdated": "2026-10-16T04:50:06Z",
+        "fetchedAt": "2026-10-16T04:50:30.957Z",
+        "forks": 7215,
+        "lastCommit": "2026-10-16T04:48:49Z",
+        "watchers": 387,
+        "openIssues": 346,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-11-29T16:50:09Z",
+        "lastFetchAttempt": "2026-10-16T04:50:30.612Z"
       }
     },
     {
       "id": "llama-factory",
       "name": "LLaMA-Factory",
-      "description": "100개 이상의 LLM/VLM 통합 파인튜닝 프레임워크. WebUI 제공",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
       "categoryId": "fine-tuning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/hiyouga/LLaMA-Factory",
+      "githubUrl": "https://github.com/hiyouga/LlamaFactory",
       "docsUrl": "https://llamafactory.readthedocs.io",
       "websiteUrl": "https://llamafactory.readthedocs.io",
       "koreanSupport": true,
@@ -141,17 +181,25 @@
         "lora"
       ],
       "meta": {
-        "stars": 64292,
-        "lastUpdated": "2025-12-22T03:52:14Z",
-        "fetchedAt": "2025-12-22T04:19:46.705Z",
-        "forks": 7793,
-        "lastCommit": "2025-12-21T17:03:11Z"
+        "stars": 75500,
+        "lastUpdated": "2026-10-16T03:35:21Z",
+        "fetchedAt": "2026-10-16T04:50:31.427Z",
+        "forks": 9255,
+        "lastCommit": "2026-10-10T07:29:23Z",
+        "watchers": 347,
+        "openIssues": 1192,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-28T10:09:12Z",
+        "lastFetchAttempt": "2026-10-16T04:50:31.059Z"
       }
     },
     {
       "id": "peft",
       "name": "PEFT",
-      "description": "파라미터 효율적 파인튜닝 라이브러리. LoRA, Prefix Tuning 등 지원",
+      "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
       "categoryId": "fine-tuning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -166,17 +214,25 @@
         "adapter"
       ],
       "meta": {
-        "stars": 20318,
-        "lastUpdated": "2025-12-22T01:52:01Z",
-        "fetchedAt": "2025-12-22T04:19:47.177Z",
-        "forks": 2131,
-        "lastCommit": "2025-12-18T10:52:52Z"
+        "stars": 21790,
+        "lastUpdated": "2026-10-16T03:05:34Z",
+        "fetchedAt": "2026-10-16T04:50:31.907Z",
+        "forks": 2603,
+        "lastCommit": "2026-10-15T08:03:38Z",
+        "watchers": 114,
+        "openIssues": 127,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-11-25T03:51:09Z",
+        "lastFetchAttempt": "2026-10-16T04:50:31.529Z"
       }
     },
     {
       "id": "axolotl",
       "name": "Axolotl",
-      "description": "다양한 AI 모델 파인튜닝을 위한 도구. 여러 학습 방식 지원",
+      "description": "Go ahead and axolotl questions",
       "categoryId": "fine-tuning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -190,17 +246,25 @@
         "versatile"
       ],
       "meta": {
-        "stars": 10980,
-        "lastUpdated": "2025-12-22T01:34:41Z",
-        "fetchedAt": "2025-12-22T04:19:47.698Z",
-        "forks": 1223,
-        "lastCommit": "2025-12-19T16:34:57Z"
+        "stars": 12575,
+        "lastUpdated": "2026-10-16T02:14:23Z",
+        "fetchedAt": "2026-10-16T04:50:32.414Z",
+        "forks": 1472,
+        "lastCommit": "2026-10-16T04:36:15Z",
+        "watchers": 57,
+        "openIssues": 254,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-14T04:25:47Z",
+        "lastFetchAttempt": "2026-10-16T04:50:32.009Z"
       }
     },
     {
       "id": "trl",
       "name": "TRL",
-      "description": "Hugging Face의 RLHF/DPO 기반 LLM 학습 라이브러리",
+      "description": "Train transformer language models with reinforcement learning.",
       "categoryId": "fine-tuning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -215,17 +279,25 @@
         "reinforcement-learning"
       ],
       "meta": {
-        "stars": 16728,
-        "lastUpdated": "2025-12-22T03:52:37Z",
-        "fetchedAt": "2025-12-22T04:19:48.299Z",
-        "forks": 2371,
-        "lastCommit": "2025-12-22T04:11:36Z"
+        "stars": 19524,
+        "lastUpdated": "2026-10-16T04:22:08Z",
+        "fetchedAt": "2026-10-16T04:50:32.978Z",
+        "forks": 3064,
+        "lastCommit": "2026-10-16T02:59:11Z",
+        "watchers": 108,
+        "openIssues": 271,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-03-27T10:54:55Z",
+        "lastFetchAttempt": "2026-10-16T04:50:32.516Z"
       }
     },
     {
       "id": "vllm",
       "name": "vLLM",
-      "description": "고처리량 및 메모리 효율적인 LLM 추론 및 서빙 엔진. PagedAttention",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -240,17 +312,25 @@
         "high-throughput"
       ],
       "meta": {
-        "stars": 65895,
-        "lastUpdated": "2025-12-22T03:34:55Z",
-        "fetchedAt": "2025-12-22T04:19:48.778Z",
-        "forks": 12109,
-        "lastCommit": "2025-12-22T03:34:49Z"
+        "stars": 93889,
+        "lastUpdated": "2026-10-16T04:41:58Z",
+        "fetchedAt": "2026-10-16T04:50:33.470Z",
+        "forks": 23430,
+        "lastCommit": "2026-10-16T04:41:51Z",
+        "watchers": 602,
+        "openIssues": 8885,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-02-09T11:23:20Z",
+        "lastFetchAttempt": "2026-10-16T04:50:33.081Z"
       }
     },
     {
       "id": "ollama",
       "name": "Ollama",
-      "description": "로컬에서 LLM을 쉽게 실행. Llama, Gemma, DeepSeek 등 지원",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -264,17 +344,25 @@
         "easy-to-use"
       ],
       "meta": {
-        "stars": 158019,
-        "lastUpdated": "2025-12-22T04:04:30Z",
-        "fetchedAt": "2025-12-22T04:19:49.258Z",
-        "forks": 13981,
-        "lastCommit": "2025-12-21T06:46:55Z"
+        "stars": 183369,
+        "lastUpdated": "2026-10-16T04:48:56Z",
+        "fetchedAt": "2026-10-16T04:50:33.939Z",
+        "forks": 18311,
+        "lastCommit": "2026-10-16T01:09:43Z",
+        "watchers": 1021,
+        "openIssues": 4296,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-06-26T19:39:32Z",
+        "lastFetchAttempt": "2026-10-16T04:50:33.572Z"
       }
     },
     {
       "id": "sglang",
       "name": "SGLang",
-      "description": "LLM/VLM을 위한 빠른 서빙 프레임워크. vLLM 대비 성능 향상",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -289,17 +377,25 @@
         "vlm"
       ],
       "meta": {
-        "stars": 21883,
-        "lastUpdated": "2025-12-22T03:55:42Z",
-        "fetchedAt": "2025-12-22T04:19:49.774Z",
-        "forks": 3825,
-        "lastCommit": "2025-12-22T04:09:32Z"
+        "stars": 37190,
+        "lastUpdated": "2026-10-16T04:45:15Z",
+        "fetchedAt": "2026-10-16T04:50:34.418Z",
+        "forks": 9602,
+        "lastCommit": "2026-10-16T04:46:02Z",
+        "watchers": 186,
+        "openIssues": 5879,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-01-08T04:15:52Z",
+        "lastFetchAttempt": "2026-10-16T04:50:34.042Z"
       }
     },
     {
       "id": "llama-cpp",
       "name": "llama.cpp",
-      "description": "C/C++ LLM 추론 엔진. CPU, Metal, CUDA 등 다양한 하드웨어 지원",
+      "description": "LLM inference in C/C++",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -314,17 +410,25 @@
         "ggml"
       ],
       "meta": {
-        "stars": 91765,
-        "lastUpdated": "2025-12-22T04:05:50Z",
-        "fetchedAt": "2025-12-22T04:19:50.292Z",
-        "forks": 14182,
-        "lastCommit": "2025-12-21T22:34:30Z"
+        "stars": 131331,
+        "lastUpdated": "2026-10-16T04:47:02Z",
+        "fetchedAt": "2026-10-16T04:50:34.889Z",
+        "forks": 24452,
+        "lastCommit": "2026-10-16T04:46:55Z",
+        "watchers": 868,
+        "openIssues": 2547,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2023-03-10T18:58:00Z",
+        "lastFetchAttempt": "2026-10-16T04:50:34.520Z"
       }
     },
     {
       "id": "tgi",
       "name": "Text Generation Inference",
-      "description": "Hugging Face의 프로덕션급 LLM 서빙 솔루션",
+      "description": "Large Language Model Text Generation Inference",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -338,17 +442,25 @@
         "huggingface"
       ],
       "meta": {
-        "stars": 10710,
-        "lastUpdated": "2025-12-21T17:01:59Z",
-        "fetchedAt": "2025-12-22T04:19:50.818Z",
-        "forks": 1247,
-        "lastCommit": "2025-12-19T14:28:02Z"
+        "stars": 10878,
+        "lastUpdated": "2026-10-15T06:57:12Z",
+        "fetchedAt": "2026-10-16T04:50:35.337Z",
+        "forks": 1287,
+        "lastCommit": "2026-03-21T11:34:22Z",
+        "watchers": 103,
+        "openIssues": 324,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-10-08T10:26:28Z",
+        "lastFetchAttempt": "2026-10-16T04:50:34.991Z"
       }
     },
     {
       "id": "triton-inference-server",
       "name": "NVIDIA Triton",
-      "description": "NVIDIA의 AI 모델 서빙 플랫폼. 다양한 프레임워크 지원",
+      "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "BSD-3-Clause",
@@ -362,17 +474,25 @@
         "production"
       ],
       "meta": {
-        "stars": 10152,
-        "lastUpdated": "2025-12-22T03:15:09Z",
-        "fetchedAt": "2025-12-22T04:19:51.324Z",
-        "forks": 1695,
-        "lastCommit": "2025-12-20T00:43:10Z"
+        "stars": 11088,
+        "lastUpdated": "2026-10-16T01:22:50Z",
+        "fetchedAt": "2026-10-16T04:50:35.884Z",
+        "forks": 1856,
+        "lastCommit": "2026-10-15T16:35:32Z",
+        "watchers": 146,
+        "openIssues": 897,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-10-04T21:10:30Z",
+        "lastFetchAttempt": "2026-10-16T04:50:35.438Z"
       }
     },
     {
       "id": "bentoml",
       "name": "BentoML",
-      "description": "ML 모델을 프로덕션에 배포하기 위한 오픈소스 플랫폼",
+      "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -386,17 +506,25 @@
         "mlops"
       ],
       "meta": {
-        "stars": 8318,
-        "lastUpdated": "2025-12-22T03:23:48Z",
-        "fetchedAt": "2025-12-22T04:19:51.825Z",
-        "forks": 897,
-        "lastCommit": "2025-12-18T08:57:04Z"
+        "stars": 8906,
+        "lastUpdated": "2026-10-15T19:53:21Z",
+        "fetchedAt": "2026-10-16T04:50:36.388Z",
+        "forks": 1044,
+        "lastCommit": "2026-10-05T17:17:22Z",
+        "watchers": 85,
+        "openIssues": 233,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-04-02T01:39:27Z",
+        "lastFetchAttempt": "2026-10-16T04:50:35.987Z"
       }
     },
     {
       "id": "bitsandbytes",
       "name": "bitsandbytes",
-      "description": "8비트/4비트 양자화 PyTorch 라이브러리. 메모리 효율적 추론",
+      "description": "Accessible large language models via k-bit quantization for PyTorch.",
       "categoryId": "model-compression",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -411,17 +539,25 @@
         "memory-efficient"
       ],
       "meta": {
-        "stars": 7840,
-        "lastUpdated": "2025-12-21T20:53:22Z",
-        "fetchedAt": "2025-12-22T04:19:52.280Z",
-        "forks": 801,
-        "lastCommit": "2025-12-12T18:07:36Z"
+        "stars": 8526,
+        "lastUpdated": "2026-10-15T20:52:38Z",
+        "fetchedAt": "2026-10-16T04:50:36.957Z",
+        "forks": 940,
+        "lastCommit": "2026-09-07T14:36:23Z",
+        "watchers": 53,
+        "openIssues": 98,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-06-04T00:10:34Z",
+        "lastFetchAttempt": "2026-10-16T04:50:36.491Z"
       }
     },
     {
       "id": "gptq",
       "name": "AutoGPTQ",
-      "description": "GPTQ 양자화 방법 구현. LLM 모델 압축",
+      "description": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.",
       "categoryId": "model-compression",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -435,17 +571,25 @@
         "compression"
       ],
       "meta": {
-        "stars": 5012,
-        "lastUpdated": "2025-12-21T06:07:36Z",
-        "fetchedAt": "2025-12-22T04:19:52.783Z",
-        "forks": 529,
-        "lastCommit": "2025-04-11T13:27:20Z"
+        "stars": 5065,
+        "lastUpdated": "2026-10-16T00:29:15Z",
+        "fetchedAt": "2026-10-16T04:50:37.421Z",
+        "forks": 547,
+        "lastCommit": "2025-04-11T13:27:20Z",
+        "watchers": 3,
+        "openIssues": 272,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-13T02:18:11Z",
+        "lastFetchAttempt": "2026-10-16T04:50:37.058Z"
       }
     },
     {
       "id": "awq",
       "name": "AWQ",
-      "description": "Activation-aware Weight Quantization. LLM 양자화 방법",
+      "description": "[MLSys 2024 Best Paper Award] AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -459,17 +603,25 @@
         "efficient"
       ],
       "meta": {
-        "stars": 3396,
-        "lastUpdated": "2025-12-22T03:33:30Z",
-        "fetchedAt": "2025-12-22T04:19:53.287Z",
-        "forks": 285,
-        "lastCommit": "2025-07-17T19:44:51Z"
+        "stars": 3650,
+        "lastUpdated": "2026-10-16T04:20:53Z",
+        "fetchedAt": "2026-10-16T04:50:37.882Z",
+        "forks": 329,
+        "lastCommit": "2025-07-17T19:44:51Z",
+        "watchers": 28,
+        "openIssues": 210,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-06-01T00:42:45Z",
+        "lastFetchAttempt": "2026-10-16T04:50:37.524Z"
       }
     },
     {
       "id": "optimum",
       "name": "Optimum",
-      "description": "Hugging Face 모델 추론 최적화. ONNX, TensorRT 지원",
+      "description": "🚀 Accelerate inference and training of 🤗 Transformers, Diffusers, TIMM and Sentence Transformers with easy to use hardware optimization tools",
       "categoryId": "model-compression",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -483,17 +635,25 @@
         "onnx"
       ],
       "meta": {
-        "stars": 3222,
-        "lastUpdated": "2025-12-21T11:55:45Z",
-        "fetchedAt": "2025-12-22T04:19:53.855Z",
-        "forks": 611,
-        "lastCommit": "2025-12-19T15:32:55Z"
+        "stars": 3503,
+        "lastUpdated": "2026-10-15T14:12:59Z",
+        "fetchedAt": "2026-10-16T04:50:38.370Z",
+        "forks": 703,
+        "lastCommit": "2026-10-06T09:24:52Z",
+        "watchers": 60,
+        "openIssues": 307,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-07-20T12:36:40Z",
+        "lastFetchAttempt": "2026-10-16T04:50:37.983Z"
       }
     },
     {
       "id": "tensorrt",
       "name": "TensorRT",
-      "description": "NVIDIA의 딥러닝 추론 최적화 툴킷. GPU 고성능 추론",
+      "description": "NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT.",
       "categoryId": "inference-optimization",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -507,17 +667,25 @@
         "inference"
       ],
       "meta": {
-        "stars": 12489,
-        "lastUpdated": "2025-12-21T07:26:18Z",
-        "fetchedAt": "2025-12-22T04:19:54.429Z",
-        "forks": 2294,
-        "lastCommit": "2025-12-11T04:38:52Z"
+        "stars": 13406,
+        "lastUpdated": "2026-10-16T02:29:44Z",
+        "fetchedAt": "2026-10-16T04:50:38.918Z",
+        "forks": 2413,
+        "lastCommit": "2026-10-09T17:55:04Z",
+        "watchers": 156,
+        "openIssues": 666,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-05-02T22:02:08Z",
+        "lastFetchAttempt": "2026-10-16T04:50:38.471Z"
       }
     },
     {
       "id": "deepspeed",
       "name": "DeepSpeed",
-      "description": "Microsoft의 대규모 분산 학습 라이브러리. ZeRO 최적화",
+      "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
       "categoryId": "distributed-training",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -531,20 +699,28 @@
         "large-scale"
       ],
       "meta": {
-        "stars": 41052,
-        "lastUpdated": "2025-12-21T17:06:05Z",
-        "fetchedAt": "2025-12-22T04:19:54.907Z",
-        "forks": 4669,
-        "lastCommit": "2025-12-19T20:57:08Z"
+        "stars": 43234,
+        "lastUpdated": "2026-10-16T03:38:44Z",
+        "fetchedAt": "2026-10-16T04:50:39.383Z",
+        "forks": 5040,
+        "lastCommit": "2026-10-16T04:08:49Z",
+        "watchers": 360,
+        "openIssues": 1525,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-01-23T18:35:18Z",
+        "lastFetchAttempt": "2026-10-16T04:50:39.020Z"
       }
     },
     {
       "id": "mini-sglang",
       "name": "Mini-SGLang",
-      "description": "경량 고성능 LLM 추론 엔진. RadixCache, FlashAttention 등 최적화 지원",
+      "description": "A compact implementation of SGLang, designed to demystify the complexities of modern LLM serving systems.",
       "categoryId": "model-serving",
       "moduleId": "training-inference",
-      "license": "Apache-2.0",
+      "license": "MIT",
       "githubUrl": "https://github.com/sgl-project/mini-sglang",
       "docsUrl": "https://github.com/sgl-project/mini-sglang#readme",
       "websiteUrl": "https://github.com/sgl-project/mini-sglang",
@@ -556,17 +732,25 @@
         "optimized"
       ],
       "meta": {
-        "stars": 1980,
-        "lastUpdated": "2025-12-22T04:19:04Z",
-        "fetchedAt": "2025-12-22T04:19:55.753Z",
-        "forks": 161,
-        "lastCommit": "2025-12-21T16:34:05Z"
+        "stars": 5278,
+        "lastUpdated": "2026-10-15T18:53:25Z",
+        "fetchedAt": "2026-10-16T04:50:39.841Z",
+        "forks": 910,
+        "lastCommit": "2026-05-17T12:37:42Z",
+        "watchers": 22,
+        "openIssues": 67,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-09-01T22:31:45Z",
+        "lastFetchAttempt": "2026-10-16T04:50:39.485Z"
       }
     },
     {
       "id": "apache-tvm",
       "name": "Apache TVM",
-      "description": "오픈소스 ML 컴파일러 프레임워크. 다양한 하드웨어에 모델 최적화 배포",
+      "description": "Open Machine Learning Compiler Framework",
       "categoryId": "model-optimization",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -581,17 +765,25 @@
         "deployment"
       ],
       "meta": {
-        "stars": 12948,
-        "lastUpdated": "2025-12-21T22:25:19Z",
-        "fetchedAt": "2025-12-22T04:19:56.251Z",
-        "forks": 3740,
-        "lastCommit": "2025-12-21T12:14:21Z"
+        "stars": 13838,
+        "lastUpdated": "2026-10-16T02:59:50Z",
+        "fetchedAt": "2026-10-16T04:50:40.343Z",
+        "forks": 4013,
+        "lastCommit": "2026-10-16T02:52:52Z",
+        "watchers": 367,
+        "openIssues": 346,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2016-10-12T22:20:28Z",
+        "lastFetchAttempt": "2026-10-16T04:50:39.944Z"
       }
     },
     {
       "id": "nni",
       "name": "NNI",
-      "description": "An open source AutoML toolkit for hyperparameter tuning, neural architecture search, and model compression",
+      "description": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.",
       "categoryId": "automl-hpo",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -605,16 +797,25 @@
         "microsoft"
       ],
       "meta": {
-        "stars": 14000,
-        "forks": 1900,
-        "lastUpdated": "2025-08-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 14366,
+        "forks": 1849,
+        "lastUpdated": "2026-10-13T21:06:19Z",
+        "fetchedAt": "2026-10-16T04:50:40.900Z",
+        "watchers": 9,
+        "openIssues": 415,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-06-01T05:51:44Z",
+        "lastCommit": "2024-07-03T10:55:10Z",
+        "lastFetchAttempt": "2026-10-16T04:50:40.445Z"
       }
     },
     {
       "id": "autokeras",
       "name": "AutoKeras",
-      "description": "AutoML system based on Keras — automatically search for the best neural network architecture",
+      "description": "AutoML library for deep learning",
       "categoryId": "automl-hpo",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -627,16 +828,25 @@
         "neural-architecture-search"
       ],
       "meta": {
-        "stars": 9100,
-        "forks": 1400,
-        "lastUpdated": "2025-09-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 9335,
+        "forks": 1385,
+        "lastUpdated": "2026-10-16T00:30:04Z",
+        "fetchedAt": "2026-10-16T04:50:41.395Z",
+        "watchers": 293,
+        "openIssues": 161,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-11-19T23:18:20Z",
+        "lastCommit": "2025-11-25T02:26:35Z",
+        "lastFetchAttempt": "2026-10-16T04:50:41.002Z"
       }
     },
     {
       "id": "gymnasium",
       "name": "Gymnasium",
-      "description": "The standard API for reinforcement learning environments (successor to OpenAI Gym) by Farama Foundation",
+      "description": "A standard API for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)",
       "categoryId": "reinforcement-learning",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -649,16 +859,25 @@
         "farama"
       ],
       "meta": {
-        "stars": 8000,
-        "forks": 1000,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 12685,
+        "forks": 1505,
+        "lastUpdated": "2026-10-16T02:44:05Z",
+        "fetchedAt": "2026-10-16T04:50:41.873Z",
+        "watchers": 67,
+        "openIssues": 108,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-09-08T01:58:05Z",
+        "lastCommit": "2026-10-14T20:24:03Z",
+        "lastFetchAttempt": "2026-10-16T04:50:41.498Z"
       }
     },
     {
       "id": "optuna",
       "name": "Optuna",
-      "description": "An automatic hyperparameter optimization framework — define-by-run API, efficient sampling, pruning",
+      "description": "A hyperparameter optimization framework",
       "categoryId": "automl-hpo",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -671,16 +890,25 @@
         "pruning"
       ],
       "meta": {
-        "stars": 11000,
-        "forks": 1100,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 14924,
+        "forks": 1422,
+        "lastUpdated": "2026-10-16T04:23:52Z",
+        "fetchedAt": "2026-10-16T04:50:42.346Z",
+        "watchers": 125,
+        "openIssues": 27,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-02-21T06:12:56Z",
+        "lastCommit": "2026-10-16T02:55:22Z",
+        "lastFetchAttempt": "2026-10-16T04:50:41.975Z"
       }
     },
     {
       "id": "colossalai",
       "name": "ColossalAI",
-      "description": "Making large AI models cheaper, faster, and more accessible — unified system for large-scale distributed training",
+      "description": "Making large AI models cheaper, faster and more accessible",
       "categoryId": "distributed-training",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -693,20 +921,29 @@
         "pipeline-parallel"
       ],
       "meta": {
-        "stars": 38000,
-        "forks": 4200,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 41430,
+        "forks": 4485,
+        "lastUpdated": "2026-10-16T03:42:57Z",
+        "fetchedAt": "2026-10-16T04:50:42.815Z",
+        "watchers": 381,
+        "openIssues": 520,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-10-28T16:19:44Z",
+        "lastCommit": "2026-10-15T12:13:52Z",
+        "lastFetchAttempt": "2026-10-16T04:50:42.448Z"
       }
     },
     {
       "id": "flower",
       "name": "Flower",
-      "description": "A friendly federated learning framework — simulate and deploy FL across diverse devices and data",
+      "description": "Flower: A Friendly Federated AI Framework",
       "categoryId": "federated-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/adap/flower",
+      "githubUrl": "https://github.com/flwrlabs/flower",
       "koreanSupport": false,
       "tags": [
         "federated-learning",
@@ -715,16 +952,25 @@
         "edge"
       ],
       "meta": {
-        "stars": 5200,
-        "forks": 560,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 7164,
+        "forks": 1235,
+        "lastUpdated": "2026-10-15T18:25:46Z",
+        "fetchedAt": "2026-10-16T04:50:43.288Z",
+        "watchers": 43,
+        "openIssues": 415,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-02-17T11:51:29Z",
+        "lastCommit": "2026-10-15T22:15:15Z",
+        "lastFetchAttempt": "2026-10-16T04:50:42.917Z"
       }
     },
     {
       "id": "paddlepaddle",
       "name": "PaddlePaddle",
-      "description": "Baidu's open source deep learning platform — production-grade, industrial-strength deep learning framework",
+      "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -737,16 +983,25 @@
         "production"
       ],
       "meta": {
-        "stars": 22000,
-        "forks": 5600,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 24127,
+        "forks": 6019,
+        "lastUpdated": "2026-10-16T03:07:24Z",
+        "fetchedAt": "2026-10-16T04:50:43.847Z",
+        "watchers": 706,
+        "openIssues": 1467,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2016-08-15T06:59:08Z",
+        "lastCommit": "2026-10-16T03:07:11Z",
+        "lastFetchAttempt": "2026-10-16T04:50:43.390Z"
       }
     },
     {
       "id": "torchrl",
       "name": "TorchRL",
-      "description": "A modular, primitive-first PyTorch library for reinforcement learning and decision making",
+      "description": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning.",
       "categoryId": "reinforcement-learning",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -759,16 +1014,25 @@
         "policy-gradient"
       ],
       "meta": {
-        "stars": 2200,
-        "forks": 280,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 3603,
+        "forks": 506,
+        "lastUpdated": "2026-10-16T01:11:33Z",
+        "fetchedAt": "2026-10-16T04:50:44.372Z",
+        "watchers": 43,
+        "openIssues": 285,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-02-01T17:17:36Z",
+        "lastCommit": "2026-10-16T02:26:02Z",
+        "lastFetchAttempt": "2026-10-16T04:50:43.949Z"
       }
     },
     {
       "id": "megatron-lm",
       "name": "Megatron-LM",
-      "description": "NVIDIA's ongoing research training transformer models at scale — tensor, pipeline, and sequence parallelism",
+      "description": "Ongoing research training transformer models at scale",
       "categoryId": "distributed-training",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -782,16 +1046,25 @@
         "large-scale"
       ],
       "meta": {
-        "stars": 10500,
-        "forks": 2400,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 18162,
+        "forks": 4629,
+        "lastUpdated": "2026-10-16T02:29:30Z",
+        "fetchedAt": "2026-10-16T04:50:44.950Z",
+        "watchers": 170,
+        "openIssues": 1675,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-03-21T16:15:52Z",
+        "lastCommit": "2026-10-16T04:47:34Z",
+        "lastFetchAttempt": "2026-10-16T04:50:44.475Z"
       }
     },
     {
       "id": "pytorch-ao",
       "name": "torchao",
-      "description": "PyTorch Architecture Optimization — quantization and sparsity for inference and training",
+      "description": "PyTorch native quantization for training and inference",
       "categoryId": "model-compression",
       "moduleId": "training-inference",
       "license": "BSD-3-Clause",
@@ -805,16 +1078,25 @@
         "inference"
       ],
       "meta": {
-        "stars": 3200,
-        "forks": 320,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 3005,
+        "forks": 651,
+        "lastUpdated": "2026-10-15T23:17:30Z",
+        "fetchedAt": "2026-10-16T04:50:45.466Z",
+        "watchers": 44,
+        "openIssues": 808,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-11-03T21:27:36Z",
+        "lastCommit": "2026-10-15T23:20:36Z",
+        "lastFetchAttempt": "2026-10-16T04:50:45.053Z"
       }
     },
     {
       "id": "openai-triton",
       "name": "Triton",
-      "description": "OpenAI's language and compiler for writing highly efficient GPU code — used for custom CUDA kernels",
+      "description": "Development repository for the Triton language and compiler",
       "categoryId": "inference-optimization",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -828,16 +1110,25 @@
         "optimization"
       ],
       "meta": {
-        "stars": 14000,
-        "forks": 1700,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 20380,
+        "forks": 3301,
+        "lastUpdated": "2026-10-16T04:00:32Z",
+        "fetchedAt": "2026-10-16T04:50:45.900Z",
+        "watchers": 199,
+        "openIssues": 1341,
+        "language": "MLIR",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2014-08-30T17:07:16Z",
+        "lastCommit": "2026-10-16T04:00:23Z",
+        "lastFetchAttempt": "2026-10-16T04:50:45.568Z"
       }
     },
     {
       "id": "fate",
       "name": "FATE",
-      "description": "An industrial-grade federated learning framework by WeBank — supports federated modeling, transfer learning, and multi-party computation",
+      "description": "An Industrial Grade Federated Learning Framework",
       "categoryId": "federated-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -850,16 +1141,25 @@
         "secure-computation"
       ],
       "meta": {
-        "stars": 5700,
-        "forks": 1600,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 6106,
+        "forks": 1569,
+        "lastUpdated": "2026-10-14T14:38:03Z",
+        "fetchedAt": "2026-10-16T04:50:46.383Z",
+        "watchers": 135,
+        "openIssues": 17,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-01-24T10:32:43Z",
+        "lastCommit": "2024-11-19T08:19:11Z",
+        "lastFetchAttempt": "2026-10-16T04:50:46.002Z"
       }
     },
     {
       "id": "nvflare",
       "name": "NVIDIA FLARE",
-      "description": "NVIDIA Federated Learning Application Runtime Environment — enterprise-grade federated learning SDK",
+      "description": "NVIDIA Federated Learning Application Runtime Environment",
       "categoryId": "federated-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -872,16 +1172,25 @@
         "privacy"
       ],
       "meta": {
-        "stars": 2700,
-        "forks": 500,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 981,
+        "forks": 293,
+        "lastUpdated": "2026-10-16T00:05:55Z",
+        "fetchedAt": "2026-10-16T04:50:46.931Z",
+        "watchers": 17,
+        "openIssues": 45,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-07-23T17:26:12Z",
+        "lastCommit": "2026-10-16T00:05:51Z",
+        "lastFetchAttempt": "2026-10-16T04:50:46.486Z"
       }
     },
     {
       "id": "pysyft",
       "name": "PySyft",
-      "description": "A library for secure and private Deep Learning using Federated Learning, Differential Privacy and Encrypted Computation",
+      "description": "Perform data science on data that remains in someone else's server",
       "categoryId": "federated-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -893,17 +1202,25 @@
         "differential-privacy"
       ],
       "meta": {
-        "stars": 9500,
-        "forks": 2100,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 10044,
+        "forks": 2009,
+        "lastUpdated": "2026-10-15T06:13:09Z",
+        "lastCommit": "2026-10-15T13:43:59Z",
+        "fetchedAt": "2026-10-16T04:50:47.393Z",
+        "watchers": 192,
+        "openIssues": 13,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "dev",
+        "createdAt": "2017-07-18T20:41:16Z",
+        "lastFetchAttempt": "2026-10-16T04:50:47.033Z"
       }
     },
     {
       "id": "autogluon",
       "name": "AutoGluon",
-      "description": "AutoML toolkit for deep learning - automatically trains and tunes deep neural networks",
+      "description": "Fast and Accurate ML in 3 Lines of Code",
       "categoryId": "automl-hpo",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -915,17 +1232,25 @@
         "hyperparameter-optimization"
       ],
       "meta": {
-        "stars": 7500,
-        "forks": 1100,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 10784,
+        "forks": 1201,
+        "lastUpdated": "2026-10-16T00:37:07Z",
+        "lastCommit": "2026-10-15T22:54:50Z",
+        "fetchedAt": "2026-10-16T04:50:47.927Z",
+        "watchers": 101,
+        "openIssues": 386,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-07-29T18:51:24Z",
+        "lastFetchAttempt": "2026-10-16T04:50:47.496Z"
       }
     },
     {
       "id": "litgpt",
       "name": "LitGPT",
-      "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale",
+      "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
       "categoryId": "fine-tuning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -937,21 +1262,29 @@
         "pretraining"
       ],
       "meta": {
-        "stars": 10000,
-        "forks": 1100,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 13710,
+        "forks": 1551,
+        "lastUpdated": "2026-10-16T01:36:26Z",
+        "lastCommit": "2026-10-13T06:03:13Z",
+        "fetchedAt": "2026-10-16T04:50:48.393Z",
+        "watchers": 116,
+        "openIssues": 314,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-04T17:46:11Z",
+        "lastFetchAttempt": "2026-10-16T04:50:48.028Z"
       }
     },
     {
       "id": "verl",
       "name": "veRL",
-      "description": "Volcano Engine Reinforcement Learning for LLM - a flexible, efficient and production-ready RL training framework",
+      "description": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework ",
       "categoryId": "reinforcement-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/volcengine/verl",
+      "githubUrl": "https://github.com/verl-project/verl",
       "koreanSupport": false,
       "tags": [
         "reinforcement-learning",
@@ -959,17 +1292,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 4500,
-        "forks": 500,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 23898,
+        "forks": 4763,
+        "lastUpdated": "2026-10-16T03:31:59Z",
+        "lastCommit": "2026-10-16T03:31:53Z",
+        "fetchedAt": "2026-10-16T04:50:48.849Z",
+        "watchers": 90,
+        "openIssues": 1360,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-10-31T06:11:15Z",
+        "lastFetchAttempt": "2026-10-16T04:50:48.495Z"
       }
     },
     {
       "id": "hopsworks",
       "name": "Hopsworks",
-      "description": "A data platform for ML with a feature store, model registry, and MLOps pipelines",
+      "description": "Hopsworks - Data-Intensive AI platform with a Feature Store",
       "categoryId": "feature-store",
       "moduleId": "training-inference",
       "license": "AGPL-3.0",
@@ -982,17 +1323,25 @@
         "data-platform"
       ],
       "meta": {
-        "stars": 1500,
-        "forks": 280,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 1310,
+        "forks": 159,
+        "lastUpdated": "2026-10-11T12:29:21Z",
+        "lastCommit": "2025-02-10T05:53:39Z",
+        "fetchedAt": "2026-10-16T04:50:49.315Z",
+        "watchers": 33,
+        "openIssues": 17,
+        "language": "Java",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-07-26T08:13:34Z",
+        "lastFetchAttempt": "2026-10-16T04:50:48.951Z"
       }
     },
     {
       "id": "slime",
       "name": "Slime",
-      "description": "RL Scaling을 위한 LLM 후학습(post-training) 프레임워크. 강화학습 기반의 대규모 언어 모델 최적화 지원",
+      "description": "slime is an LLM training framework for RL Scaling.",
       "categoryId": "reinforcement-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -1007,17 +1356,25 @@
         "rl-scaling"
       ],
       "meta": {
-        "stars": 4487,
-        "lastUpdated": "2026-03-01T03:31:54Z",
-        "fetchedAt": "2026-03-01T03:38:00.000Z",
-        "forks": 581,
-        "lastCommit": "2026-02-28T10:41:31Z"
+        "stars": 8671,
+        "lastUpdated": "2026-10-16T03:55:49Z",
+        "fetchedAt": "2026-10-16T04:50:49.770Z",
+        "forks": 1314,
+        "lastCommit": "2026-10-16T03:33:49Z",
+        "watchers": 33,
+        "openIssues": 539,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-06-18T07:15:54Z",
+        "lastFetchAttempt": "2026-10-16T04:50:49.417Z"
       }
     },
     {
       "id": "mlx",
       "name": "MLX",
-      "description": "Apple 실리콘에 최적화된 배열 연산 프레임워크. PyTorch와 유사한 API로 ML 학습 및 추론 지원",
+      "description": "MLX: An array framework for Apple silicon",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -1032,11 +1389,19 @@
         "ml"
       ],
       "meta": {
-        "stars": 24124,
-        "lastUpdated": "2026-03-01T03:40:04Z",
-        "fetchedAt": "2026-03-01T03:40:00.000Z",
-        "forks": 1533,
-        "lastCommit": "2026-02-28T07:22:10Z"
+        "stars": 28802,
+        "lastUpdated": "2026-10-16T04:21:31Z",
+        "fetchedAt": "2026-10-16T04:50:50.266Z",
+        "forks": 2342,
+        "lastCommit": "2026-10-15T15:13:53Z",
+        "watchers": 209,
+        "openIssues": 123,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-11-28T23:33:45Z",
+        "lastFetchAttempt": "2026-10-16T04:50:49.873Z"
       }
     },
     {
@@ -1058,11 +1423,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 31151,
-        "forks": 3725,
-        "lastUpdated": "2026-05-23T14:12:29Z",
-        "lastCommit": "2026-05-20T22:09:34Z",
-        "fetchedAt": "2026-05-23T15:21:44.107Z"
+        "stars": 31411,
+        "forks": 3824,
+        "lastUpdated": "2026-10-16T01:36:19Z",
+        "lastCommit": "2026-10-12T10:54:14Z",
+        "fetchedAt": "2026-10-16T04:50:50.733Z",
+        "watchers": 258,
+        "openIssues": 1123,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-03-31T00:45:57Z",
+        "lastFetchAttempt": "2026-10-16T04:50:50.369Z"
       }
     },
     {
@@ -1085,11 +1458,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 28011,
-        "forks": 7663,
-        "lastUpdated": "2026-05-22T14:01:02Z",
-        "lastCommit": "2026-05-20T23:30:40Z",
-        "fetchedAt": "2026-05-23T15:34:48.722Z"
+        "stars": 28228,
+        "forks": 7641,
+        "lastUpdated": "2026-10-15T19:01:13Z",
+        "lastCommit": "2026-09-21T10:41:46Z",
+        "fetchedAt": "2026-10-16T04:50:51.203Z",
+        "watchers": 614,
+        "openIssues": 274,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-09-09T17:43:36Z",
+        "lastFetchAttempt": "2026-10-16T04:50:50.836Z"
       }
     },
     {
@@ -1109,11 +1490,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 23780,
-        "forks": 3992,
-        "lastUpdated": "2026-05-22T20:58:59Z",
-        "lastCommit": "2026-05-18T18:21:38Z",
-        "fetchedAt": "2026-05-23T15:47:52.364Z"
+        "stars": 24122,
+        "forks": 4080,
+        "lastUpdated": "2026-10-16T03:17:08Z",
+        "lastCommit": "2026-10-06T01:41:35Z",
+        "fetchedAt": "2026-10-16T04:50:51.648Z",
+        "watchers": 256,
+        "openIssues": 1377,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-10-06T16:03:03Z",
+        "lastFetchAttempt": "2026-10-16T04:50:51.305Z"
       }
     },
     {
@@ -1123,7 +1512,7 @@
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/NVIDIA-NeMo/NeMo",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/Speech",
       "koreanSupport": false,
       "tags": [
         "asr",
@@ -1138,11 +1527,19 @@
         "tts"
       ],
       "meta": {
-        "stars": 17253,
-        "forks": 3417,
-        "lastUpdated": "2026-05-23T13:46:48Z",
-        "lastCommit": "2026-05-22T15:46:25Z",
-        "fetchedAt": "2026-05-23T16:26:44.082Z"
+        "stars": 18589,
+        "forks": 3647,
+        "lastUpdated": "2026-10-16T04:33:27Z",
+        "lastCommit": "2026-10-15T23:31:47Z",
+        "fetchedAt": "2026-10-16T04:50:52.172Z",
+        "watchers": 236,
+        "openIssues": 361,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-08-05T20:16:42Z",
+        "lastFetchAttempt": "2026-10-16T04:50:51.750Z"
       }
     },
     {
@@ -1156,11 +1553,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 17189,
-        "forks": 1298,
-        "lastUpdated": "2026-05-23T04:44:37Z",
-        "lastCommit": "2026-05-21T09:36:12Z",
-        "fetchedAt": "2026-05-23T16:39:46.377Z"
+        "stars": 19605,
+        "forks": 1604,
+        "lastUpdated": "2026-10-16T03:30:37Z",
+        "lastCommit": "2026-10-15T08:59:45Z",
+        "fetchedAt": "2026-10-16T04:50:52.672Z",
+        "watchers": 125,
+        "openIssues": 525,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-07-26T07:18:28Z",
+        "lastFetchAttempt": "2026-10-16T04:50:52.274Z"
       }
     },
     {
@@ -1189,11 +1594,19 @@
         "toolbox"
       ],
       "meta": {
-        "stars": 13316,
-        "forks": 2138,
-        "lastUpdated": "2026-05-23T15:20:53Z",
-        "lastCommit": "2026-05-11T15:36:50Z",
-        "fetchedAt": "2026-05-23T17:05:45.668Z"
+        "stars": 13899,
+        "forks": 2178,
+        "lastUpdated": "2026-10-15T20:49:18Z",
+        "lastCommit": "2026-10-13T15:40:31Z",
+        "fetchedAt": "2026-10-16T04:50:53.122Z",
+        "watchers": 70,
+        "openIssues": 90,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-05-05T05:52:26Z",
+        "lastFetchAttempt": "2026-10-16T04:50:52.775Z"
       }
     },
     {
@@ -1228,11 +1641,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 11704,
-        "forks": 1218,
-        "lastUpdated": "2026-05-23T11:25:41Z",
-        "lastCommit": "2026-05-23T06:32:23Z",
-        "fetchedAt": "2026-05-23T17:18:47.493Z"
+        "stars": 11774,
+        "forks": 1222,
+        "lastUpdated": "2026-10-15T17:46:17Z",
+        "lastCommit": "2026-10-12T22:15:58Z",
+        "fetchedAt": "2026-10-16T04:50:53.608Z",
+        "watchers": 183,
+        "openIssues": 3,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-12-27T23:58:12Z",
+        "lastFetchAttempt": "2026-10-16T04:50:53.224Z"
       }
     },
     {
@@ -1258,11 +1679,19 @@
         "spatial-ai"
       ],
       "meta": {
-        "stars": 11213,
-        "forks": 1180,
-        "lastUpdated": "2026-05-23T16:31:23Z",
-        "lastCommit": "2026-05-23T14:38:18Z",
-        "fetchedAt": "2026-05-23T17:31:49.311Z"
+        "stars": 11431,
+        "forks": 1396,
+        "lastUpdated": "2026-10-15T22:43:20Z",
+        "lastCommit": "2026-10-15T23:02:57Z",
+        "fetchedAt": "2026-10-16T04:50:54.095Z",
+        "watchers": 122,
+        "openIssues": 148,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-08-22T10:31:37Z",
+        "lastFetchAttempt": "2026-10-16T04:50:53.709Z"
       }
     },
     {
@@ -1272,15 +1701,23 @@
       "categoryId": "experiment-tracking",
       "moduleId": "training-inference",
       "license": "MIT",
-      "githubUrl": "https://github.com/facebookresearch/hydra",
+      "githubUrl": "https://github.com/hydra-ecosystem/hydra",
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 10385,
-        "forks": 847,
-        "lastUpdated": "2026-05-23T04:49:36Z",
-        "lastCommit": "2026-05-23T07:51:24Z",
-        "fetchedAt": "2026-05-23T17:44:57.515Z"
+        "stars": 10705,
+        "forks": 994,
+        "lastUpdated": "2026-10-15T22:06:44Z",
+        "lastCommit": "2026-10-15T21:46:35Z",
+        "fetchedAt": "2026-10-16T04:50:54.667Z",
+        "watchers": 130,
+        "openIssues": 44,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-06-12T19:33:15Z",
+        "lastFetchAttempt": "2026-10-16T04:50:54.198Z"
       }
     },
     {
@@ -1294,11 +1731,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 9882,
-        "forks": 1457,
-        "lastUpdated": "2026-05-23T11:29:16Z",
-        "lastCommit": "2026-05-15T03:31:49Z",
-        "fetchedAt": "2026-05-23T17:57:52.425Z"
+        "stars": 9983,
+        "forks": 1473,
+        "lastUpdated": "2026-10-15T11:53:10Z",
+        "lastCommit": "2026-09-30T06:03:19Z",
+        "fetchedAt": "2026-10-16T04:50:55.180Z",
+        "watchers": 155,
+        "openIssues": 323,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-10-25T02:23:45Z",
+        "lastFetchAttempt": "2026-10-16T04:50:54.770Z"
       }
     },
     {
@@ -1322,17 +1767,25 @@
         "tensorflow"
       ],
       "meta": {
-        "stars": 9491,
-        "forks": 398,
-        "lastUpdated": "2026-05-23T08:38:36Z",
-        "lastCommit": "2026-05-23T08:39:27Z",
-        "fetchedAt": "2026-05-23T18:23:46.774Z"
+        "stars": 9622,
+        "forks": 403,
+        "lastUpdated": "2026-10-15T14:59:23Z",
+        "lastCommit": "2026-08-26T08:23:21Z",
+        "fetchedAt": "2026-10-16T04:50:55.616Z",
+        "watchers": 66,
+        "openIssues": 43,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-09-22T00:45:08Z",
+        "lastFetchAttempt": "2026-10-16T04:50:55.283Z"
       }
     },
     {
       "id": "lmcache-lmcache",
       "name": "LMCache",
-      "description": "Supercharge Your LLM with the Fastest KV Cache Layer",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
       "categoryId": "inference-optimization",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -1351,11 +1804,19 @@
         "vllm"
       ],
       "meta": {
-        "stars": 8334,
-        "forks": 1191,
-        "lastUpdated": "2026-05-23T13:45:39Z",
-        "lastCommit": "2026-05-23T10:18:01Z",
-        "fetchedAt": "2026-05-23T18:36:48.755Z"
+        "stars": 12091,
+        "forks": 2046,
+        "lastUpdated": "2026-10-16T02:57:59Z",
+        "lastCommit": "2026-10-16T02:14:36Z",
+        "fetchedAt": "2026-10-16T04:50:56.056Z",
+        "watchers": 71,
+        "openIssues": 840,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "dev",
+        "createdAt": "2024-05-28T21:06:04Z",
+        "lastFetchAttempt": "2026-10-16T04:50:55.719Z"
       }
     },
     {
@@ -1375,11 +1836,19 @@
         "scikit-learn"
       ],
       "meta": {
-        "stars": 6161,
-        "forks": 411,
-        "lastUpdated": "2026-05-22T03:59:52Z",
-        "lastCommit": "2026-05-19T02:01:36Z",
-        "fetchedAt": "2026-05-23T19:02:48.459Z"
+        "stars": 6183,
+        "forks": 424,
+        "lastUpdated": "2026-10-13T21:25:14Z",
+        "lastCommit": "2026-09-22T13:47:11Z",
+        "fetchedAt": "2026-10-16T04:50:56.508Z",
+        "watchers": 77,
+        "openIssues": 77,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-07-18T00:13:54Z",
+        "lastFetchAttempt": "2026-10-16T04:50:56.158Z"
       }
     },
     {
@@ -1393,11 +1862,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 5759,
-        "forks": 723,
-        "lastUpdated": "2026-05-23T18:34:07Z",
-        "lastCommit": "2026-05-22T12:19:39Z",
-        "fetchedAt": "2026-05-23T19:28:46.104Z"
+        "stars": 5817,
+        "forks": 759,
+        "lastUpdated": "2026-10-15T02:49:11Z",
+        "lastCommit": "2026-09-09T11:38:33Z",
+        "fetchedAt": "2026-10-16T04:50:57.033Z",
+        "watchers": 41,
+        "openIssues": 469,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-10-20T21:10:49Z",
+        "lastFetchAttempt": "2026-10-16T04:50:56.611Z"
       }
     },
     {
@@ -1420,11 +1897,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 5483,
-        "forks": 465,
-        "lastUpdated": "2026-05-23T18:30:23Z",
+        "stars": 5508,
+        "forks": 471,
+        "lastUpdated": "2026-10-15T06:20:20Z",
         "lastCommit": "2026-04-29T18:58:33Z",
-        "fetchedAt": "2026-05-23T20:07:43.178Z"
+        "fetchedAt": "2026-10-16T04:50:57.581Z",
+        "watchers": 49,
+        "openIssues": 64,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-10-12T02:38:28Z",
+        "lastFetchAttempt": "2026-10-16T04:50:57.136Z"
       }
     },
     {
@@ -1446,11 +1931,19 @@
         "vllm"
       ],
       "meta": {
-        "stars": 5404,
-        "forks": 775,
-        "lastUpdated": "2026-05-23T08:00:09Z",
-        "lastCommit": "2026-05-23T03:38:52Z",
-        "fetchedAt": "2026-05-23T20:20:43.675Z"
+        "stars": 6807,
+        "forks": 1340,
+        "lastUpdated": "2026-10-16T04:04:12Z",
+        "lastCommit": "2026-10-16T04:11:13Z",
+        "fetchedAt": "2026-10-16T04:50:58.022Z",
+        "watchers": 49,
+        "openIssues": 757,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-06-25T05:21:05Z",
+        "lastFetchAttempt": "2026-10-16T04:50:57.683Z"
       }
     },
     {
@@ -1473,11 +1966,19 @@
         "rl"
       ],
       "meta": {
-        "stars": 5209,
-        "forks": 501,
-        "lastUpdated": "2026-05-23T10:10:06Z",
-        "lastCommit": "2026-05-23T12:48:27Z",
-        "fetchedAt": "2026-05-23T20:33:40.829Z"
+        "stars": 5835,
+        "forks": 628,
+        "lastUpdated": "2026-10-16T03:25:16Z",
+        "lastCommit": "2026-10-16T04:00:42Z",
+        "fetchedAt": "2026-10-16T04:50:58.550Z",
+        "watchers": 36,
+        "openIssues": 134,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-02-24T07:23:43Z",
+        "lastFetchAttempt": "2026-10-16T04:50:58.125Z"
       }
     },
     {
@@ -1500,11 +2001,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 4759,
-        "forks": 694,
-        "lastUpdated": "2026-05-23T05:22:15Z",
-        "lastCommit": "2026-05-19T08:01:39Z",
-        "fetchedAt": "2026-05-23T20:46:38.796Z"
+        "stars": 4793,
+        "forks": 741,
+        "lastUpdated": "2026-10-15T20:13:43Z",
+        "lastCommit": "2026-10-14T21:58:20Z",
+        "fetchedAt": "2026-10-16T04:50:59.037Z",
+        "watchers": 62,
+        "openIssues": 213,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-11-23T17:31:21Z",
+        "lastFetchAttempt": "2026-10-16T04:50:58.653Z"
       }
     },
     {
@@ -1522,11 +2031,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 3883,
-        "forks": 594,
-        "lastUpdated": "2026-05-22T17:19:36Z",
-        "lastCommit": "2026-05-01T18:52:59Z",
-        "fetchedAt": "2026-05-23T21:25:39.210Z"
+        "stars": 3926,
+        "forks": 612,
+        "lastUpdated": "2026-10-13T18:18:50Z",
+        "lastCommit": "2026-10-02T15:06:34Z",
+        "fetchedAt": "2026-10-16T04:50:59.476Z",
+        "watchers": 53,
+        "openIssues": 439,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-06-09T14:48:20Z",
+        "lastFetchAttempt": "2026-10-16T04:50:59.137Z"
       }
     },
     {
@@ -1550,17 +2067,25 @@
         "self-supervised-learning"
       ],
       "meta": {
-        "stars": 3745,
-        "forks": 326,
-        "lastUpdated": "2026-05-23T17:26:58Z",
-        "lastCommit": "2026-05-21T13:36:26Z",
-        "fetchedAt": "2026-05-23T21:51:29.940Z"
+        "stars": 3821,
+        "forks": 375,
+        "lastUpdated": "2026-10-15T11:33:59Z",
+        "lastCommit": "2026-10-15T11:33:55Z",
+        "fetchedAt": "2026-10-16T04:50:59.966Z",
+        "watchers": 29,
+        "openIssues": 116,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-10-13T13:02:56Z",
+        "lastFetchAttempt": "2026-10-16T04:50:59.578Z"
       }
     },
     {
       "id": "polyaxon-polyaxon",
       "name": "polyaxon",
-      "description": "MLOps Tools For Managing & Orchestrating The Machine Learning LifeCycle",
+      "description": "AI Infra / AI Orchestration / AI Control Plane",
       "categoryId": "experiment-tracking",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -1589,11 +2114,19 @@
         "workflow"
       ],
       "meta": {
-        "stars": 3706,
-        "forks": 325,
-        "lastUpdated": "2026-05-21T00:46:37Z",
-        "lastCommit": "2026-04-26T12:23:28Z",
-        "fetchedAt": "2026-05-23T22:04:42.273Z"
+        "stars": 3746,
+        "forks": 330,
+        "lastUpdated": "2026-10-14T13:25:57Z",
+        "lastCommit": "2026-10-13T08:10:39Z",
+        "fetchedAt": "2026-10-16T04:51:00.452Z",
+        "watchers": 75,
+        "openIssues": 125,
+        "language": "MDX",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2016-12-26T12:48:47Z",
+        "lastFetchAttempt": "2026-10-16T04:51:00.069Z"
       }
     },
     {
@@ -1616,11 +2149,19 @@
         "tensorly"
       ],
       "meta": {
-        "stars": 3647,
-        "forks": 884,
-        "lastUpdated": "2026-05-23T09:37:26Z",
-        "lastCommit": "2026-05-11T21:00:33Z",
-        "fetchedAt": "2026-05-23T22:17:33.567Z"
+        "stars": 3959,
+        "forks": 936,
+        "lastUpdated": "2026-10-15T22:15:20Z",
+        "lastCommit": "2026-10-14T01:44:54Z",
+        "fetchedAt": "2026-10-16T04:51:00.918Z",
+        "watchers": 49,
+        "openIssues": 54,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-10-13T21:04:32Z",
+        "lastFetchAttempt": "2026-10-16T04:51:00.554Z"
       }
     },
     {
@@ -1634,11 +2175,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 3530,
-        "forks": 481,
-        "lastUpdated": "2026-05-23T13:43:12Z",
-        "lastCommit": "2026-05-21T17:43:31Z",
-        "fetchedAt": "2026-05-23T22:43:35.451Z"
+        "stars": 3624,
+        "forks": 507,
+        "lastUpdated": "2026-10-16T01:44:13Z",
+        "lastCommit": "2026-10-16T01:44:07Z",
+        "fetchedAt": "2026-10-16T04:51:01.420Z",
+        "watchers": 47,
+        "openIssues": 135,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-07-30T23:59:57Z",
+        "lastFetchAttempt": "2026-10-16T04:51:01.021Z"
       }
     },
     {
@@ -1671,11 +2220,19 @@
         "tensorflow"
       ],
       "meta": {
-        "stars": 3222,
-        "forks": 785,
-        "lastUpdated": "2026-05-23T06:06:32Z",
-        "lastCommit": "2026-05-23T06:06:28Z",
-        "fetchedAt": "2026-05-23T22:56:38.852Z"
+        "stars": 3499,
+        "forks": 883,
+        "lastUpdated": "2026-10-15T20:43:05Z",
+        "lastCommit": "2026-10-15T21:10:00Z",
+        "fetchedAt": "2026-10-16T04:51:01.916Z",
+        "watchers": 49,
+        "openIssues": 465,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-04-17T16:45:42Z",
+        "lastFetchAttempt": "2026-10-16T04:51:01.522Z"
       }
     },
     {
@@ -1698,11 +2255,19 @@
         "tensorrt"
       ],
       "meta": {
-        "stars": 2967,
-        "forks": 401,
-        "lastUpdated": "2026-05-23T15:23:32Z",
-        "lastCommit": "2026-05-22T22:53:11Z",
-        "fetchedAt": "2026-05-23T23:09:34.118Z"
+        "stars": 3013,
+        "forks": 416,
+        "lastUpdated": "2026-10-15T23:06:11Z",
+        "lastCommit": "2026-10-15T23:06:07Z",
+        "fetchedAt": "2026-10-16T04:51:02.444Z",
+        "watchers": 64,
+        "openIssues": 311,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-03-11T17:17:43Z",
+        "lastFetchAttempt": "2026-10-16T04:51:02.017Z"
       }
     },
     {
@@ -1724,11 +2289,19 @@
         "speech"
       ],
       "meta": {
-        "stars": 2879,
-        "forks": 778,
-        "lastUpdated": "2026-05-22T01:56:58Z",
-        "lastCommit": "2026-05-22T12:18:31Z",
-        "fetchedAt": "2026-05-23T23:22:37.581Z"
+        "stars": 2957,
+        "forks": 804,
+        "lastUpdated": "2026-10-15T20:42:16Z",
+        "lastCommit": "2026-10-15T11:40:18Z",
+        "fetchedAt": "2026-10-16T04:51:02.949Z",
+        "watchers": 63,
+        "openIssues": 343,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-05-05T00:38:05Z",
+        "lastFetchAttempt": "2026-10-16T04:51:02.547Z"
       }
     },
     {
@@ -1749,11 +2322,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 2830,
-        "forks": 670,
-        "lastUpdated": "2026-05-22T22:22:42Z",
-        "lastCommit": "2026-05-22T22:22:40Z",
-        "fetchedAt": "2026-05-23T23:35:32.970Z"
+        "stars": 3356,
+        "forks": 814,
+        "lastUpdated": "2026-10-15T23:22:31Z",
+        "lastCommit": "2026-10-16T02:52:31Z",
+        "fetchedAt": "2026-10-16T04:51:03.588Z",
+        "watchers": 61,
+        "openIssues": 125,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-01-26T20:34:45Z",
+        "lastFetchAttempt": "2026-10-16T04:51:03.052Z"
       }
     },
     {
@@ -1785,11 +2366,19 @@
         "sparsity"
       ],
       "meta": {
-        "stars": 2644,
-        "forks": 305,
-        "lastUpdated": "2026-05-22T09:27:44Z",
-        "lastCommit": "2026-05-22T09:29:21Z",
-        "fetchedAt": "2026-05-24T00:01:31.626Z"
+        "stars": 2712,
+        "forks": 329,
+        "lastUpdated": "2026-10-13T19:31:32Z",
+        "lastCommit": "2026-10-15T02:19:13Z",
+        "fetchedAt": "2026-10-16T04:51:04.054Z",
+        "watchers": 33,
+        "openIssues": 33,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-07-21T23:49:56Z",
+        "lastFetchAttempt": "2026-10-16T04:51:03.690Z"
       }
     },
     {
@@ -1813,11 +2402,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 2396,
-        "forks": 262,
-        "lastUpdated": "2026-05-20T10:05:42Z",
-        "lastCommit": "2026-05-06T14:27:08Z",
-        "fetchedAt": "2026-05-24T00:40:48.516Z"
+        "stars": 2450,
+        "forks": 284,
+        "lastUpdated": "2026-10-15T03:00:43Z",
+        "lastCommit": "2026-10-06T01:08:29Z",
+        "fetchedAt": "2026-10-16T04:51:04.492Z",
+        "watchers": 17,
+        "openIssues": 53,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-11-26T09:10:09Z",
+        "lastFetchAttempt": "2026-10-16T04:51:04.156Z"
       }
     },
     {
@@ -1847,11 +2444,19 @@
         "xgboost"
       ],
       "meta": {
-        "stars": 2105,
-        "forks": 957,
-        "lastUpdated": "2026-05-22T22:47:02Z",
-        "lastCommit": "2026-05-23T03:14:06Z",
-        "fetchedAt": "2026-05-24T00:53:36.651Z"
+        "stars": 2246,
+        "forks": 1077,
+        "lastUpdated": "2026-10-16T03:48:54Z",
+        "lastCommit": "2026-10-15T22:48:15Z",
+        "fetchedAt": "2026-10-16T04:51:04.986Z",
+        "watchers": 83,
+        "openIssues": 237,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-06-28T18:38:14Z",
+        "lastFetchAttempt": "2026-10-16T04:51:04.595Z"
       }
     },
     {
@@ -1885,11 +2490,19 @@
         "transformer"
       ],
       "meta": {
-        "stars": 1617,
-        "forks": 145,
-        "lastUpdated": "2026-05-22T09:03:32Z",
-        "lastCommit": "2026-03-31T04:20:15Z",
-        "fetchedAt": "2026-05-24T01:32:47.105Z"
+        "stars": 1633,
+        "forks": 144,
+        "lastUpdated": "2026-10-12T17:26:48Z",
+        "lastCommit": "2026-10-12T04:11:34Z",
+        "fetchedAt": "2026-10-16T04:51:05.407Z",
+        "watchers": 17,
+        "openIssues": 3,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-12-18T17:40:32Z",
+        "lastFetchAttempt": "2026-10-16T04:51:05.088Z"
       }
     },
     {
@@ -1921,11 +2534,19 @@
         "slam"
       ],
       "meta": {
-        "stars": 1538,
-        "forks": 125,
-        "lastUpdated": "2026-05-21T12:13:02Z",
-        "lastCommit": "2026-05-05T20:01:13Z",
-        "fetchedAt": "2026-05-24T01:45:40.911Z"
+        "stars": 1615,
+        "forks": 136,
+        "lastUpdated": "2026-10-16T03:28:14Z",
+        "lastCommit": "2026-10-16T03:29:42Z",
+        "fetchedAt": "2026-10-16T04:51:05.891Z",
+        "watchers": 15,
+        "openIssues": 45,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-11-11T17:02:08Z",
+        "lastFetchAttempt": "2026-10-16T04:51:05.509Z"
       }
     },
     {
@@ -1939,11 +2560,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 1270,
-        "forks": 158,
-        "lastUpdated": "2026-05-16T11:03:01Z",
+        "stars": 1279,
+        "forks": 157,
+        "lastUpdated": "2026-10-11T05:56:04Z",
         "lastCommit": "2026-03-02T04:48:45Z",
-        "fetchedAt": "2026-05-24T01:58:38.567Z"
+        "fetchedAt": "2026-10-16T04:51:06.373Z",
+        "watchers": 83,
+        "openIssues": 36,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-06-24T09:31:50Z",
+        "lastFetchAttempt": "2026-10-16T04:51:05.994Z"
       }
     },
     {
@@ -1975,11 +2604,19 @@
         "training"
       ],
       "meta": {
-        "stars": 1205,
-        "forks": 58,
-        "lastUpdated": "2026-05-14T09:22:20Z",
-        "lastCommit": "2026-04-13T15:12:34Z",
-        "fetchedAt": "2026-05-24T02:24:36.002Z"
+        "stars": 1228,
+        "forks": 61,
+        "lastUpdated": "2026-10-01T17:34:26Z",
+        "lastCommit": "2026-05-29T13:37:59Z",
+        "fetchedAt": "2026-10-16T04:51:06.854Z",
+        "watchers": 6,
+        "openIssues": 24,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-05-10T14:10:51Z",
+        "lastFetchAttempt": "2026-10-16T04:51:06.474Z"
       }
     },
     {
@@ -1993,11 +2630,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 1028,
-        "forks": 115,
-        "lastUpdated": "2026-05-21T20:55:00Z",
-        "lastCommit": "2026-05-23T18:28:41Z",
-        "fetchedAt": "2026-05-24T02:37:44.328Z"
+        "stars": 1041,
+        "forks": 135,
+        "lastUpdated": "2026-10-16T04:50:15Z",
+        "lastCommit": "2026-10-16T04:50:10Z",
+        "fetchedAt": "2026-10-16T04:51:07.365Z",
+        "watchers": 19,
+        "openIssues": 74,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-10-19T07:37:37Z",
+        "lastFetchAttempt": "2026-10-16T04:51:06.957Z"
       }
     },
     {
@@ -2011,17 +2656,25 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 9699,
-        "forks": 1357,
-        "lastUpdated": "2026-05-22T21:34:37Z",
-        "lastCommit": "2026-05-19T07:45:04Z",
-        "fetchedAt": "2026-05-24T02:40:41.133Z"
+        "stars": 9915,
+        "forks": 1546,
+        "lastUpdated": "2026-10-16T02:31:42Z",
+        "lastCommit": "2026-10-14T16:00:19Z",
+        "fetchedAt": "2026-10-16T04:51:07.846Z",
+        "watchers": 98,
+        "openIssues": 116,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-10-30T13:27:12Z",
+        "lastFetchAttempt": "2026-10-16T04:51:07.467Z"
       }
     },
     {
       "id": "explosion-spacy",
       "name": "spaCy",
-      "description": "Python 기반의 산업용 자연어 처리(NLP) 프레임워크로, 토큰화·개체명 인식·텍스트 분류 등 사전학습 파이프라인과 학습 도구를 제공하여 실서비스용 NLP 애플리케이션을 구축할 수 있게 합니다.",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "MIT",
@@ -2047,17 +2700,25 @@
         "tokenization"
       ],
       "meta": {
-        "stars": 33933,
-        "forks": 4734,
-        "lastUpdated": "2026-10-02T17:52:24Z",
-        "lastCommit": "2026-09-30T08:13:41Z",
-        "fetchedAt": "2026-10-03T02:57:49.295Z"
+        "stars": 33967,
+        "forks": 4736,
+        "lastUpdated": "2026-10-15T22:22:58Z",
+        "lastCommit": "2026-10-12T06:36:31Z",
+        "fetchedAt": "2026-10-16T04:51:08.425Z",
+        "watchers": 564,
+        "openIssues": 251,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2014-07-03T15:15:40Z",
+        "lastFetchAttempt": "2026-10-16T04:51:07.949Z"
       }
     },
     {
       "id": "pymc-devs-pymc",
       "name": "pymc",
-      "description": "Python 기반 베이지안 모델링·확률적 프로그래밍(probabilistic programming) 프레임워크 PyMC. MCMC(NUTS 등)와 변분추론(VI)을 통해 베이지안 통계 모델을 정의·추론할 수 있으며, 계층 모델·회귀·시계열 등 다양한 확률 모델링과 불확실성 정량화를 지원합니다.",
+      "description": "Bayesian Modeling and Probabilistic Programming in Python",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "NOASSERTION",
@@ -2073,17 +2734,25 @@
         "variational-inference"
       ],
       "meta": {
-        "stars": 9790,
-        "forks": 2316,
-        "lastUpdated": "2026-10-02T12:10:21Z",
-        "lastCommit": "2026-10-02T12:10:16Z",
-        "fetchedAt": "2026-10-03T05:50:02.372Z"
+        "stars": 9809,
+        "forks": 2334,
+        "lastUpdated": "2026-10-15T19:41:58Z",
+        "lastCommit": "2026-10-13T15:57:17Z",
+        "fetchedAt": "2026-10-16T04:51:08.881Z",
+        "watchers": 219,
+        "openIssues": 521,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2009-05-05T09:43:50Z",
+        "lastFetchAttempt": "2026-10-16T04:51:08.527Z"
       }
     },
     {
       "id": "furiosa-ai-efficientrollout",
       "name": "EfficientRollout",
-      "description": "VeRL 기반 LLM 강화학습에서 롤아웃 생성 병목을 줄이기 위해 정책 모델을 양자화한 드래프터로 자기 추론적(self-speculative) 디코딩을 적용하는 연구 코드입니다. 시스템 상황에 따라 추론적 디코딩을 켜고 끄며 롤아웃 지연을 최대 19.6%, 종단 지연을 최대 12.7% 줄였다고 보고합니다(NeurIPS 2026).",
+      "description": "[NeurIPS 2026] EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts",
       "categoryId": "reinforcement-learning",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -2092,17 +2761,25 @@
       "region": "KR",
       "tags": [],
       "meta": {
-        "stars": 16,
+        "stars": 17,
         "forks": 0,
-        "lastUpdated": "2026-09-30T06:27:19Z",
+        "lastUpdated": "2026-10-06T10:38:48Z",
         "lastCommit": "2026-09-30T06:27:14Z",
-        "fetchedAt": "2026-10-04T17:03:26.598Z"
+        "fetchedAt": "2026-10-16T04:51:09.368Z",
+        "watchers": 0,
+        "openIssues": 0,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-05-29T12:35:16Z",
+        "lastFetchAttempt": "2026-10-16T04:51:08.983Z"
       }
     },
     {
       "id": "nota-netspresso-netspresso-trainer",
       "name": "netspresso-trainer",
-      "description": "설정 파일 기반으로 분류, 탐지, 세그멘테이션 등 컴퓨터 비전 모델(ViT 포함)을 학습하고 ONNX로 내보내는 PyTorch 학습 라이브러리입니다. 학습한 모델은 NetsPresso 서비스의 압축과 엣지 배포 단계와 호환되도록 설계되었습니다.",
+      "description": "A library for training, compressing and deploying computer vision models (including ViT) with edge devices",
       "categoryId": "deep-learning-framework",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -2123,13 +2800,21 @@
         "forks": 11,
         "lastUpdated": "2026-09-22T20:24:00Z",
         "lastCommit": "2025-09-29T08:12:43Z",
-        "fetchedAt": "2026-10-04T17:13:24.307Z"
+        "fetchedAt": "2026-10-16T04:51:09.826Z",
+        "watchers": 5,
+        "openIssues": 13,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "dev",
+        "createdAt": "2023-01-04T02:30:52Z",
+        "lastFetchAttempt": "2026-10-16T04:51:09.469Z"
       }
     },
     {
       "id": "nota-netspresso-pynetspresso",
       "name": "PyNetsPresso",
-      "description": "Nota AI의 모델 경량화 플랫폼 NetsPresso를 Python에서 쓰는 공식 SDK로, 모델 학습, 압축, 양자화, 엣지 기기용 변환, 기기별 추론 속도 프로파일링을 하나의 흐름으로 실행합니다. 기능 사용에는 NetsPresso 계정과 API 키가 필요합니다.",
+      "description": "The official NetsPresso Python package.",
       "categoryId": "model-compression",
       "moduleId": "training-inference",
       "license": "Apache-2.0",
@@ -2148,7 +2833,15 @@
         "forks": 1,
         "lastUpdated": "2026-09-13T15:01:29Z",
         "lastCommit": "2025-11-20T06:43:05Z",
-        "fetchedAt": "2026-10-04T17:24:29.378Z"
+        "fetchedAt": "2026-10-16T04:51:10.275Z",
+        "watchers": 4,
+        "openIssues": 7,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2023-06-05T07:40:01Z",
+        "lastFetchAttempt": "2026-10-16T04:51:09.929Z"
       }
     }
   ]

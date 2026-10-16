@@ -3,7 +3,7 @@
     {
       "id": "mlflow",
       "name": "MLflow",
-      "description": "ML 라이프사이클 관리 오픈소스 플랫폼",
+      "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
       "categoryId": "llmops-observability",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -17,17 +17,25 @@
         "model-registry"
       ],
       "meta": {
-        "stars": 23401,
-        "lastUpdated": "2025-12-22T03:31:46Z",
-        "fetchedAt": "2025-12-22T04:19:25.728Z",
-        "forks": 5086,
-        "lastCommit": "2025-12-22T04:04:15Z"
+        "stars": 28404,
+        "lastUpdated": "2026-10-16T03:12:06Z",
+        "fetchedAt": "2026-10-16T04:49:36.792Z",
+        "forks": 6456,
+        "lastCommit": "2026-10-16T03:45:25Z",
+        "watchers": 326,
+        "openIssues": 2184,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-06-05T16:05:58Z",
+        "lastFetchAttempt": "2026-10-16T04:49:36.341Z"
       }
     },
     {
       "id": "wandb",
       "name": "Weights & Biases",
-      "description": "ML 실험 추적, 시각화, 협업 플랫폼",
+      "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
       "categoryId": "llmops-observability",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -41,21 +49,29 @@
         "collaboration"
       ],
       "meta": {
-        "stars": 10649,
-        "lastUpdated": "2025-12-22T01:08:10Z",
-        "fetchedAt": "2025-12-22T04:19:26.245Z",
-        "forks": 800,
-        "lastCommit": "2025-12-22T01:09:19Z"
+        "stars": 11300,
+        "lastUpdated": "2026-10-16T01:19:17Z",
+        "fetchedAt": "2026-10-16T04:49:37.328Z",
+        "forks": 903,
+        "lastCommit": "2026-10-16T04:26:42Z",
+        "watchers": 63,
+        "openIssues": 988,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-03-24T05:46:23Z",
+        "lastFetchAttempt": "2026-10-16T04:49:36.894Z"
       }
     },
     {
       "id": "clearml",
       "name": "ClearML",
-      "description": "E2E MLOps 플랫폼. 실험 추적, 데이터 관리, 파이프라인",
+      "description": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution",
       "categoryId": "llmops-observability",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/allegroai/clearml",
+      "githubUrl": "https://github.com/clearml/clearml",
       "docsUrl": "https://clear.ml/docs/",
       "websiteUrl": "https://clear.ml/",
       "koreanSupport": false,
@@ -65,17 +81,25 @@
         "data-management"
       ],
       "meta": {
-        "stars": 6422,
-        "lastUpdated": "2025-12-21T02:37:57Z",
-        "fetchedAt": "2025-12-22T04:19:26.996Z",
-        "forks": 724,
-        "lastCommit": "2025-12-19T03:35:06Z"
+        "stars": 6908,
+        "lastUpdated": "2026-10-15T21:56:33Z",
+        "fetchedAt": "2026-10-16T04:49:37.852Z",
+        "forks": 805,
+        "lastCommit": "2026-10-12T12:54:10Z",
+        "watchers": 92,
+        "openIssues": 524,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-06-10T08:18:32Z",
+        "lastFetchAttempt": "2026-10-16T04:49:37.430Z"
       }
     },
     {
       "id": "aim",
       "name": "Aim",
-      "description": "오픈소스 AI 메타데이터 추적 도구. 시각화 및 비교",
+      "description": "Aim 💫 — An easy-to-use & supercharged open-source experiment tracker.",
       "categoryId": "llmops-observability",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -89,17 +113,25 @@
         "metadata"
       ],
       "meta": {
-        "stars": 5923,
-        "lastUpdated": "2025-12-20T22:03:36Z",
-        "fetchedAt": "2025-12-22T04:19:27.456Z",
-        "forks": 363,
-        "lastCommit": "2025-12-21T20:02:07Z"
+        "stars": 6285,
+        "lastUpdated": "2026-10-15T15:44:43Z",
+        "fetchedAt": "2026-10-16T04:49:38.318Z",
+        "forks": 413,
+        "lastCommit": "2026-10-15T22:47:17Z",
+        "watchers": 43,
+        "openIssues": 482,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-05-31T18:25:07Z",
+        "lastFetchAttempt": "2026-10-16T04:49:37.954Z"
       }
     },
     {
       "id": "huggingface-hub",
       "name": "Hugging Face Hub",
-      "description": "ML 모델, 데이터셋 공유 플랫폼",
+      "description": "The official CLI and Python client for the Hugging Face Hub.",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -113,17 +145,25 @@
         "community"
       ],
       "meta": {
-        "stars": 3154,
-        "lastUpdated": "2025-12-21T23:02:01Z",
-        "fetchedAt": "2025-12-22T04:19:27.982Z",
-        "forks": 878,
-        "lastCommit": "2025-12-19T15:20:46Z"
+        "stars": 3985,
+        "lastUpdated": "2026-10-16T03:38:17Z",
+        "fetchedAt": "2026-10-16T04:49:38.814Z",
+        "forks": 1272,
+        "lastCommit": "2026-10-16T04:20:11Z",
+        "watchers": 77,
+        "openIssues": 186,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-12-22T10:20:28Z",
+        "lastFetchAttempt": "2026-10-16T04:49:38.420Z"
       }
     },
     {
       "id": "kubeflow",
       "name": "Kubeflow",
-      "description": "Kubernetes 기반 ML 워크플로우 플랫폼",
+      "description": "The Cloud Native AI Platform",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -137,17 +177,25 @@
         "mlops"
       ],
       "meta": {
-        "stars": 15352,
-        "lastUpdated": "2025-12-22T03:49:16Z",
-        "fetchedAt": "2025-12-22T04:19:28.466Z",
-        "forks": 2586,
-        "lastCommit": "2025-12-20T00:27:55Z"
+        "stars": 15910,
+        "lastUpdated": "2026-10-15T15:11:17Z",
+        "fetchedAt": "2026-10-16T04:49:39.349Z",
+        "forks": 2706,
+        "lastCommit": "2026-09-30T23:20:11Z",
+        "watchers": 367,
+        "openIssues": 1,
+        "language": null,
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-11-30T18:44:19Z",
+        "lastFetchAttempt": "2026-10-16T04:49:38.916Z"
       }
     },
     {
       "id": "langchain",
       "name": "LangChain",
-      "description": "LLM 애플리케이션 개발 프레임워크. 체인, RAG, 에이전트",
+      "description": "The agent engineering platform.",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -162,17 +210,25 @@
         "chain"
       ],
       "meta": {
-        "stars": 122398,
-        "lastUpdated": "2025-12-22T04:18:38Z",
-        "fetchedAt": "2025-12-22T04:19:28.976Z",
-        "forks": 20173,
-        "lastCommit": "2025-12-22T01:31:51Z"
+        "stars": 147899,
+        "lastUpdated": "2026-10-16T04:36:57Z",
+        "fetchedAt": "2026-10-16T04:49:39.898Z",
+        "forks": 24822,
+        "lastCommit": "2026-10-15T20:15:17Z",
+        "watchers": 924,
+        "openIssues": 650,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2022-10-17T02:58:36Z",
+        "lastFetchAttempt": "2026-10-16T04:49:39.451Z"
       }
     },
     {
       "id": "llamaindex",
       "name": "LlamaIndex",
-      "description": "LLM 데이터 프레임워크. RAG 및 에이전트 구축",
+      "description": "LlamaIndex is the document processing platform for AI",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -187,17 +243,25 @@
         "agents"
       ],
       "meta": {
-        "stars": 45939,
-        "lastUpdated": "2025-12-22T03:29:15Z",
-        "fetchedAt": "2025-12-22T04:19:29.490Z",
-        "forks": 6653,
-        "lastCommit": "2025-12-19T03:24:37Z"
+        "stars": 52515,
+        "lastUpdated": "2026-10-16T03:20:51Z",
+        "fetchedAt": "2026-10-16T04:49:40.423Z",
+        "forks": 8353,
+        "lastCommit": "2026-10-14T15:29:28Z",
+        "watchers": 289,
+        "openIssues": 940,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-11-02T04:24:54Z",
+        "lastFetchAttempt": "2026-10-16T04:49:40.001Z"
       }
     },
     {
       "id": "autogen",
       "name": "AutoGen",
-      "description": "Microsoft의 에이전틱 AI 프레임워크",
+      "description": "A programming framework for agentic AI",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "CC-BY-4.0",
@@ -211,17 +275,25 @@
         "microsoft"
       ],
       "meta": {
-        "stars": 52725,
-        "lastUpdated": "2025-12-22T03:53:11Z",
-        "fetchedAt": "2025-12-22T04:19:30.058Z",
-        "forks": 8016,
-        "lastCommit": "2025-10-08T04:58:17Z"
+        "stars": 61435,
+        "lastUpdated": "2026-10-16T04:41:19Z",
+        "fetchedAt": "2026-10-16T04:49:40.951Z",
+        "forks": 9291,
+        "lastCommit": "2026-04-15T11:59:09Z",
+        "watchers": 533,
+        "openIssues": 1115,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-08-18T11:43:45Z",
+        "lastFetchAttempt": "2026-10-16T04:49:40.525Z"
       }
     },
     {
       "id": "crewai",
       "name": "CrewAI",
-      "description": "역할 기반 멀티 에이전트 오케스트레이션",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -235,17 +307,25 @@
         "orchestration"
       ],
       "meta": {
-        "stars": 41629,
-        "lastUpdated": "2025-12-22T04:19:19Z",
-        "fetchedAt": "2025-12-22T04:19:30.499Z",
-        "forks": 5575,
-        "lastCommit": "2025-12-20T15:09:47Z"
+        "stars": 59752,
+        "lastUpdated": "2026-10-16T04:40:33Z",
+        "fetchedAt": "2026-10-16T04:49:41.457Z",
+        "forks": 8747,
+        "lastCommit": "2026-10-16T03:41:58Z",
+        "watchers": 398,
+        "openIssues": 728,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-10-27T03:26:59Z",
+        "lastFetchAttempt": "2026-10-16T04:49:41.053Z"
       }
     },
     {
       "id": "n8n",
       "name": "n8n",
-      "description": "워크플로우 자동화 플랫폼. AI 에이전트 통합",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "categoryId": "interoperability",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -259,17 +339,25 @@
         "integration"
       ],
       "meta": {
-        "stars": 164080,
-        "lastUpdated": "2025-12-22T04:02:28Z",
-        "fetchedAt": "2025-12-22T04:19:30.933Z",
-        "forks": 52436,
-        "lastCommit": "2025-12-22T00:23:31Z"
+        "stars": 207571,
+        "lastUpdated": "2026-10-16T04:41:41Z",
+        "fetchedAt": "2026-10-16T04:49:41.919Z",
+        "forks": 61144,
+        "lastCommit": "2026-10-16T00:47:03Z",
+        "watchers": 1184,
+        "openIssues": 1200,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-06-22T09:24:21Z",
+        "lastFetchAttempt": "2026-10-16T04:49:41.559Z"
       }
     },
     {
       "id": "metaflow",
       "name": "Metaflow",
-      "description": "Netflix의 ML 인프라 프레임워크",
+      "description": "Build, Manage and Deploy AI/ML Systems",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -283,17 +371,25 @@
         "pipeline"
       ],
       "meta": {
-        "stars": 9678,
-        "lastUpdated": "2025-12-22T02:50:25Z",
-        "fetchedAt": "2025-12-22T04:19:31.416Z",
-        "forks": 933,
-        "lastCommit": "2025-12-19T01:56:45Z"
+        "stars": 10304,
+        "lastUpdated": "2026-10-15T19:53:17Z",
+        "fetchedAt": "2026-10-16T04:49:42.420Z",
+        "forks": 1397,
+        "lastCommit": "2026-10-12T20:23:09Z",
+        "watchers": 288,
+        "openIssues": 525,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-09-17T17:48:25Z",
+        "lastFetchAttempt": "2026-10-16T04:49:42.021Z"
       }
     },
     {
       "id": "zenml",
       "name": "ZenML",
-      "description": "ML 파이프라인 오케스트레이션 프레임워크",
+      "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -307,17 +403,25 @@
         "orchestration"
       ],
       "meta": {
-        "stars": 5107,
-        "lastUpdated": "2025-12-21T01:39:34Z",
-        "fetchedAt": "2025-12-22T04:19:31.983Z",
-        "forks": 563,
-        "lastCommit": "2025-12-19T13:47:05Z"
+        "stars": 5616,
+        "lastUpdated": "2026-10-15T15:45:46Z",
+        "fetchedAt": "2026-10-16T04:49:42.935Z",
+        "forks": 663,
+        "lastCommit": "2026-10-15T14:08:44Z",
+        "watchers": 43,
+        "openIssues": 169,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-11-19T09:25:46Z",
+        "lastFetchAttempt": "2026-10-16T04:49:42.522Z"
       }
     },
     {
       "id": "feast",
       "name": "Feast",
-      "description": "오픈소스 피처 스토어. 온라인/오프라인 피처 서빙",
+      "description": "The Open Source Feature Store for AI/ML",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -331,17 +435,25 @@
         "data"
       ],
       "meta": {
-        "stars": 6553,
-        "lastUpdated": "2025-12-22T02:16:25Z",
-        "fetchedAt": "2025-12-22T04:19:32.493Z",
-        "forks": 1186,
-        "lastCommit": "2025-12-22T03:51:40Z"
+        "stars": 7334,
+        "lastUpdated": "2026-10-16T03:56:47Z",
+        "fetchedAt": "2026-10-16T04:49:43.400Z",
+        "forks": 1473,
+        "lastCommit": "2026-10-15T08:08:25Z",
+        "watchers": 88,
+        "openIssues": 475,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-12-10T07:20:15Z",
+        "lastFetchAttempt": "2026-10-16T04:49:43.037Z"
       }
     },
     {
       "id": "mem0",
       "name": "Mem0",
-      "description": "AI 에이전트를 위한 장기 메모리 레이어",
+      "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -355,17 +467,25 @@
         "long-term-memory"
       ],
       "meta": {
-        "stars": 44536,
-        "lastUpdated": "2025-12-22T02:52:06Z",
-        "fetchedAt": "2025-12-22T04:19:33.008Z",
-        "forks": 4837,
-        "lastCommit": "2025-12-17T19:26:54Z"
+        "stars": 67256,
+        "lastUpdated": "2026-10-16T04:25:49Z",
+        "fetchedAt": "2026-10-16T04:49:43.886Z",
+        "forks": 7921,
+        "lastCommit": "2026-10-16T04:37:11Z",
+        "watchers": 255,
+        "openIssues": 838,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-06-20T08:58:36Z",
+        "lastFetchAttempt": "2026-10-16T04:49:43.502Z"
       }
     },
     {
       "id": "graphrag",
       "name": "GraphRAG",
-      "description": "Microsoft의 그래프 기반 RAG 시스템",
+      "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
       "categoryId": "rag-graphrag",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -379,17 +499,25 @@
         "knowledge-graph"
       ],
       "meta": {
-        "stars": 29881,
-        "lastUpdated": "2025-12-22T03:33:14Z",
-        "fetchedAt": "2025-12-22T04:19:33.591Z",
-        "forks": 3155,
-        "lastCommit": "2025-12-20T01:41:15Z"
+        "stars": 36351,
+        "lastUpdated": "2026-10-16T04:00:07Z",
+        "fetchedAt": "2026-10-16T04:49:44.443Z",
+        "forks": 3850,
+        "lastCommit": "2026-10-12T22:32:27Z",
+        "watchers": 207,
+        "openIssues": 57,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-03-27T17:57:52Z",
+        "lastFetchAttempt": "2026-10-16T04:49:43.988Z"
       }
     },
     {
       "id": "haystack",
       "name": "Haystack",
-      "description": "LLM 애플리케이션 구축 프레임워크",
+      "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
       "categoryId": "rag-graphrag",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -404,17 +532,25 @@
         "pipeline"
       ],
       "meta": {
-        "stars": 23693,
-        "lastUpdated": "2025-12-21T23:13:46Z",
-        "fetchedAt": "2025-12-22T04:19:34.235Z",
-        "forks": 2534,
-        "lastCommit": "2025-12-19T17:45:46Z"
+        "stars": 26744,
+        "lastUpdated": "2026-10-15T18:11:33Z",
+        "fetchedAt": "2026-10-16T04:49:44.967Z",
+        "forks": 3292,
+        "lastCommit": "2026-10-15T14:27:45Z",
+        "watchers": 166,
+        "openIssues": 145,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-11-14T09:05:28Z",
+        "lastFetchAttempt": "2026-10-16T04:49:44.545Z"
       }
     },
     {
       "id": "semantic-kernel",
       "name": "Semantic Kernel",
-      "description": "Microsoft's SDK for integrating LLMs into conventional programming languages — plugins, planners, memory",
+      "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -428,16 +564,25 @@
         "plugins"
       ],
       "meta": {
-        "stars": 23000,
-        "forks": 3400,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 28665,
+        "forks": 4826,
+        "lastUpdated": "2026-10-16T03:38:12Z",
+        "fetchedAt": "2026-10-16T04:49:45.544Z",
+        "watchers": 307,
+        "openIssues": 367,
+        "language": "C#",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-02-27T17:39:42Z",
+        "lastCommit": "2026-10-15T18:02:10Z",
+        "lastFetchAttempt": "2026-10-16T04:49:45.069Z"
       }
     },
     {
       "id": "camel",
       "name": "CAMEL",
-      "description": "Communicative Agents for Mind Exploration of Large Scale Language Model Society",
+      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -450,16 +595,25 @@
         "camel"
       ],
       "meta": {
-        "stars": 6500,
-        "forks": 820,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 17897,
+        "forks": 2118,
+        "lastUpdated": "2026-10-16T03:57:35Z",
+        "fetchedAt": "2026-10-16T04:49:46.014Z",
+        "watchers": 128,
+        "openIssues": 542,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2023-03-17T21:41:54Z",
+        "lastCommit": "2026-10-12T09:06:03Z",
+        "lastFetchAttempt": "2026-10-16T04:49:45.646Z"
       }
     },
     {
       "id": "litellm",
       "name": "LiteLLM",
-      "description": "Call 100+ LLMs using the OpenAI format — Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, etc.",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
       "categoryId": "prompt-management",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -472,19 +626,28 @@
         "multi-provider"
       ],
       "meta": {
-        "stars": 16000,
-        "forks": 1900,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 61356,
+        "forks": 12395,
+        "lastUpdated": "2026-10-16T04:46:26Z",
+        "fetchedAt": "2026-10-16T04:49:46.561Z",
+        "watchers": 239,
+        "openIssues": 5487,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-07-27T00:09:52Z",
+        "lastCommit": "2026-10-16T04:46:18Z",
+        "lastFetchAttempt": "2026-10-16T04:49:46.116Z"
       }
     },
     {
       "id": "composio",
       "name": "Composio",
-      "description": "Toolset for AI agents — 250+ integrations (GitHub, Slack, Gmail, etc.) with managed auth",
+      "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
       "categoryId": "interoperability",
       "moduleId": "platform-mlops",
-      "license": "Apache-2.0",
+      "license": "MIT",
       "githubUrl": "https://github.com/ComposioHQ/composio",
       "koreanSupport": false,
       "tags": [
@@ -495,16 +658,25 @@
         "apis"
       ],
       "meta": {
-        "stars": 18000,
-        "forks": 2200,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 30579,
+        "forks": 4854,
+        "lastUpdated": "2026-10-16T02:46:08Z",
+        "fetchedAt": "2026-10-16T04:49:47.121Z",
+        "watchers": 77,
+        "openIssues": 109,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "next",
+        "createdAt": "2024-02-23T13:58:27Z",
+        "lastCommit": "2026-10-16T00:55:33Z",
+        "lastFetchAttempt": "2026-10-16T04:49:46.663Z"
       }
     },
     {
       "id": "langfuse",
       "name": "Langfuse",
-      "description": "Open source LLM engineering platform — tracing, evals, prompt management, and metrics",
+      "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
       "categoryId": "llmops-observability",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -518,16 +690,25 @@
         "evals"
       ],
       "meta": {
-        "stars": 8500,
-        "forks": 780,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 35887,
+        "forks": 3995,
+        "lastUpdated": "2026-10-16T04:40:47Z",
+        "fetchedAt": "2026-10-16T04:49:47.643Z",
+        "watchers": 115,
+        "openIssues": 1066,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-18T17:47:09Z",
+        "lastCommit": "2026-10-16T02:42:09Z",
+        "lastFetchAttempt": "2026-10-16T04:49:47.224Z"
       }
     },
     {
       "id": "mcp-sdk",
       "name": "Model Context Protocol SDK",
-      "description": "Official Python SDK for the Model Context Protocol — connect AI assistants to data sources and tools",
+      "description": "The official Python SDK for Model Context Protocol servers and clients",
       "categoryId": "interoperability",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -541,16 +722,25 @@
         "context"
       ],
       "meta": {
-        "stars": 4200,
-        "forks": 420,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 24591,
+        "forks": 4068,
+        "lastUpdated": "2026-10-16T00:19:46Z",
+        "fetchedAt": "2026-10-16T04:49:48.130Z",
+        "watchers": 177,
+        "openIssues": 359,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-09-24T21:01:35Z",
+        "lastCommit": "2026-10-13T10:21:52Z",
+        "lastFetchAttempt": "2026-10-16T04:49:47.745Z"
       }
     },
     {
       "id": "kserve",
       "name": "KServe",
-      "description": "Kubernetes-native model inference platform — standard serverless ML inference on Kubernetes",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -564,16 +754,25 @@
         "mlops"
       ],
       "meta": {
-        "stars": 3700,
-        "forks": 680,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 6120,
+        "forks": 1737,
+        "lastUpdated": "2026-10-16T01:52:11Z",
+        "fetchedAt": "2026-10-16T04:49:48.648Z",
+        "watchers": 71,
+        "openIssues": 204,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-03-27T21:14:14Z",
+        "lastCommit": "2026-10-16T01:27:13Z",
+        "lastFetchAttempt": "2026-10-16T04:49:48.232Z"
       }
     },
     {
       "id": "superagi",
       "name": "SuperAGI",
-      "description": "A dev-first open source autonomous AI agent framework — build, manage, and run useful autonomous agents",
+      "description": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -587,16 +786,25 @@
         "memory"
       ],
       "meta": {
-        "stars": 15500,
-        "forks": 1900,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 17705,
+        "forks": 2226,
+        "lastUpdated": "2026-10-16T02:15:50Z",
+        "fetchedAt": "2026-10-16T04:49:49.113Z",
+        "watchers": 179,
+        "openIssues": 263,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-13T08:55:24Z",
+        "lastCommit": "2025-01-22T22:14:07Z",
+        "lastFetchAttempt": "2026-10-16T04:49:48.749Z"
       }
     },
     {
       "id": "letta",
       "name": "Letta",
-      "description": "Framework for creating stateful LLM agents with long-term memory — formerly MemGPT",
+      "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -610,16 +818,25 @@
         "long-term-memory"
       ],
       "meta": {
-        "stars": 12500,
-        "forks": 1400,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 25157,
+        "forks": 2648,
+        "lastUpdated": "2026-10-16T03:38:24Z",
+        "fetchedAt": "2026-10-16T04:49:49.578Z",
+        "watchers": 141,
+        "openIssues": 0,
+        "language": null,
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-10-11T07:38:37Z",
+        "lastCommit": "2026-09-10T17:59:08Z",
+        "lastFetchAttempt": "2026-10-16T04:49:49.216Z"
       }
     },
     {
       "id": "cognee",
       "name": "Cognee",
-      "description": "Memory management for AI applications — deterministic memory layer for agents using knowledge graphs and vector stores",
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -632,16 +849,25 @@
         "rag"
       ],
       "meta": {
-        "stars": 2200,
-        "forks": 200,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 32373,
+        "forks": 3378,
+        "lastUpdated": "2026-10-16T04:25:15Z",
+        "fetchedAt": "2026-10-16T04:49:50.450Z",
+        "watchers": 113,
+        "openIssues": 805,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-08-16T16:16:33Z",
+        "lastCommit": "2026-10-16T02:42:01Z",
+        "lastFetchAttempt": "2026-10-16T04:49:49.680Z"
       }
     },
     {
       "id": "promptflow",
       "name": "Prompt Flow",
-      "description": "Microsoft's suite of tools for building high-quality LLM apps — from prototyping to production with prompt engineering and evaluation",
+      "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
       "categoryId": "prompt-management",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -655,16 +881,25 @@
         "flow"
       ],
       "meta": {
-        "stars": 10000,
-        "forks": 900,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 11253,
+        "forks": 1124,
+        "lastUpdated": "2026-10-15T19:42:38Z",
+        "fetchedAt": "2026-10-16T04:49:50.983Z",
+        "watchers": 112,
+        "openIssues": 66,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-06-30T06:03:06Z",
+        "lastCommit": "2026-10-15T06:14:28Z",
+        "lastFetchAttempt": "2026-10-16T04:49:50.554Z"
       }
     },
     {
       "id": "ragflow",
       "name": "RAGFlow",
-      "description": "Open-source RAG engine based on deep document understanding — chunk-free parsing, grounded citations, reduced hallucinations",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "categoryId": "rag-graphrag",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -677,16 +912,25 @@
         "citation"
       ],
       "meta": {
-        "stars": 30000,
-        "forks": 3000,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 92306,
+        "forks": 11002,
+        "lastUpdated": "2026-10-16T04:44:18Z",
+        "fetchedAt": "2026-10-16T04:49:51.455Z",
+        "watchers": 362,
+        "openIssues": 1347,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-12-12T06:13:13Z",
+        "lastCommit": "2026-10-16T04:29:39Z",
+        "lastFetchAttempt": "2026-10-16T04:49:51.085Z"
       }
     },
     {
       "id": "evidently-ai",
       "name": "Evidently AI",
-      "description": "An open-source ML and LLM observability framework for evaluating, testing, and monitoring AI-powered products",
+      "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
       "categoryId": "llmops-observability",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -699,17 +943,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 5500,
-        "forks": 900,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 7991,
+        "forks": 950,
+        "lastUpdated": "2026-10-15T11:38:38Z",
+        "lastCommit": "2026-09-29T08:32:43Z",
+        "fetchedAt": "2026-10-16T04:49:51.954Z",
+        "watchers": 56,
+        "openIssues": 335,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-11-25T15:20:08Z",
+        "lastFetchAttempt": "2026-10-16T04:49:51.557Z"
       }
     },
     {
       "id": "txtai",
       "name": "txtai",
-      "description": "All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows",
+      "description": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -722,17 +974,25 @@
         "memory"
       ],
       "meta": {
-        "stars": 9000,
-        "forks": 650,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 13019,
+        "forks": 958,
+        "lastUpdated": "2026-10-15T22:40:15Z",
+        "lastCommit": "2026-10-15T16:36:51Z",
+        "fetchedAt": "2026-10-16T04:49:52.402Z",
+        "watchers": 114,
+        "openIssues": 26,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-08-09T19:14:59Z",
+        "lastFetchAttempt": "2026-10-16T04:49:52.057Z"
       }
     },
     {
       "id": "ncnn",
       "name": "ncnn",
-      "description": "A high-performance neural network inference framework optimized for the mobile platform",
+      "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
       "categoryId": "on-device-runtime",
       "moduleId": "platform-mlops",
       "license": "BSD-3-Clause",
@@ -745,17 +1005,25 @@
         "edge-ai"
       ],
       "meta": {
-        "stars": 20000,
-        "forks": 4100,
-        "lastUpdated": "2025-01-01T00:00:00Z",
-        "lastCommit": "2025-01-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00Z"
+        "stars": 23960,
+        "forks": 4526,
+        "lastUpdated": "2026-10-15T23:49:55Z",
+        "lastCommit": "2026-10-14T23:24:59Z",
+        "fetchedAt": "2026-10-16T04:49:52.860Z",
+        "watchers": 569,
+        "openIssues": 1256,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2017-06-30T10:55:37Z",
+        "lastFetchAttempt": "2026-10-16T04:49:52.504Z"
       }
     },
     {
       "id": "fission-ai-openspec",
       "name": "OpenSpec",
-      "description": "AI 코딩 어시스턴트를 위한 스펙 기반 개발(SDD) 프레임워크로, 에이전트의 행동을 체계적으로 정의하고 제어할 수 있도록 지원합니다.",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
       "categoryId": "prompt-management",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -774,17 +1042,25 @@
         "specification"
       ],
       "meta": {
-        "stars": 26846,
-        "forks": 1764,
-        "lastUpdated": "2026-03-02T12:23:23Z",
-        "lastCommit": "2026-02-27T08:52:45Z",
-        "fetchedAt": "2026-03-02T12:24:47.206Z"
+        "stars": 72068,
+        "forks": 4932,
+        "lastUpdated": "2026-10-16T04:40:27Z",
+        "lastCommit": "2026-10-15T17:36:42Z",
+        "fetchedAt": "2026-10-16T04:49:53.316Z",
+        "watchers": 287,
+        "openIssues": 190,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-08-05T10:37:45Z",
+        "lastFetchAttempt": "2026-10-16T04:49:52.962Z"
       }
     },
     {
       "id": "kortix-ai-suna",
       "name": "suna",
-      "description": "AI 에이전트를 구축, 관리 및 학습할 수 있는 오픈소스 플랫폼으로, 자율형 에이전트의 전체 라이프사이클을 지원합니다.",
+      "description": "The open-source AI Operating System",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "NOASSERTION",
@@ -796,17 +1072,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 19444,
-        "forks": 3364,
-        "lastUpdated": "2026-03-02T11:05:07Z",
-        "lastCommit": "2026-02-27T02:41:07Z",
-        "fetchedAt": "2026-03-02T12:25:09.930Z"
+        "stars": 20277,
+        "forks": 3438,
+        "lastUpdated": "2026-10-16T04:10:56Z",
+        "lastCommit": "2026-10-16T04:49:49Z",
+        "fetchedAt": "2026-10-16T04:49:53.781Z",
+        "watchers": 156,
+        "openIssues": 90,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "dev",
+        "createdAt": "2024-10-05T17:01:01Z",
+        "lastFetchAttempt": "2026-10-16T04:49:53.418Z"
       }
     },
     {
       "id": "emcie-co-parlant",
       "name": "parlant",
-      "description": "실제 서비스 환경에서 LLM 에이전트의 행동을 체계적으로 제어할 수 있는 오픈소스 프레임워크입니다.",
+      "description": "Build reliable customer-facing AI agents with Parlant: an interaction control harness optimized for controlled, consistent, and predictable LLM interactions.",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -826,17 +1110,25 @@
         "python"
       ],
       "meta": {
-        "stars": 17788,
-        "forks": 1498,
-        "lastUpdated": "2026-03-02T12:20:54Z",
-        "lastCommit": "2026-02-27T08:54:51Z",
-        "fetchedAt": "2026-03-02T12:25:37.240Z"
+        "stars": 18300,
+        "forks": 1569,
+        "lastUpdated": "2026-10-16T04:12:07Z",
+        "lastCommit": "2026-07-12T19:40:55Z",
+        "fetchedAt": "2026-10-16T04:49:54.255Z",
+        "watchers": 108,
+        "openIssues": 39,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2024-02-15T20:16:15Z",
+        "lastFetchAttempt": "2026-10-16T04:49:53.883Z"
       }
     },
     {
       "id": "memorilabs-memori",
       "name": "Memori",
-      "description": "LLM 및 멀티 에이전트 시스템을 위한 SQL 네이티브 메모리 계층으로, 구조화된 메모리 관리를 지원합니다.",
+      "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "NOASSERTION",
@@ -860,21 +1152,29 @@
         "state-management"
       ],
       "meta": {
-        "stars": 12274,
-        "forks": 1094,
-        "lastUpdated": "2026-03-02T11:56:45Z",
-        "lastCommit": "2026-02-26T18:10:24Z",
-        "fetchedAt": "2026-03-02T12:26:07.802Z"
+        "stars": 17153,
+        "forks": 3725,
+        "lastUpdated": "2026-10-16T04:26:21Z",
+        "lastCommit": "2026-10-03T01:33:14Z",
+        "fetchedAt": "2026-10-16T04:49:54.729Z",
+        "watchers": 80,
+        "openIssues": 37,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-07-24T07:07:51Z",
+        "lastFetchAttempt": "2026-10-16T04:49:54.358Z"
       }
     },
     {
       "id": "droidrun-droidrun",
       "name": "droidrun",
-      "description": "자연어 명령으로 모바일 기기를 제어하는 LLM 기반 에이전트 프레임워크로, 다양한 LLM과 호환됩니다.",
+      "description": "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
-      "githubUrl": "https://github.com/droidrun/droidrun",
+      "githubUrl": "https://github.com/droidrun/mobilerun",
       "koreanSupport": false,
       "tags": [
         "ai-agents",
@@ -884,20 +1184,28 @@
         "mobile-automation"
       ],
       "meta": {
-        "stars": 7806,
-        "forks": 794,
-        "lastUpdated": "2026-03-02T11:36:59Z",
-        "lastCommit": "2026-03-02T03:34:19Z",
-        "fetchedAt": "2026-03-02T12:28:28.069Z"
+        "stars": 9667,
+        "forks": 1029,
+        "lastUpdated": "2026-10-16T04:05:03Z",
+        "lastCommit": "2026-10-15T14:45:53Z",
+        "fetchedAt": "2026-10-16T04:49:55.183Z",
+        "watchers": 58,
+        "openIssues": 33,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-04-12T22:03:47Z",
+        "lastFetchAttempt": "2026-10-16T04:49:54.832Z"
       }
     },
     {
       "id": "volcengine-openviking",
       "name": "OpenViking",
-      "description": "AI 에이전트를 위한 파일 시스템 기반 오픈소스 컨텍스트 데이터베이스로, 메모리, 리소스, 스킬 등의 컨텍스트를 통합 관리합니다.",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
-      "license": "Apache-2.0",
+      "license": "AGPL-3.0",
       "githubUrl": "https://github.com/volcengine/OpenViking",
       "koreanSupport": false,
       "tags": [
@@ -916,17 +1224,25 @@
         "skill"
       ],
       "meta": {
-        "stars": 4399,
-        "forks": 342,
-        "lastUpdated": "2026-03-02T12:22:20Z",
-        "lastCommit": "2026-03-02T12:08:46Z",
-        "fetchedAt": "2026-03-02T12:28:58.261Z"
+        "stars": 40037,
+        "forks": 3186,
+        "lastUpdated": "2026-10-16T04:47:14Z",
+        "lastCommit": "2026-10-16T04:40:32Z",
+        "fetchedAt": "2026-10-16T04:49:55.662Z",
+        "watchers": 113,
+        "openIssues": 930,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-01-05T07:11:17Z",
+        "lastFetchAttempt": "2026-10-16T04:49:55.285Z"
       }
     },
     {
       "id": "cactus-compute-cactus",
       "name": "cactus",
-      "description": "스마트폰 및 웨어러블 디바이스에 최적화된 고성능 온디바이스 AI 추론 엔진 및 커널 라이브러리입니다.",
+      "description": "Quantization, kernels, runtime and inference engine for mobiles, wearables, smart home and robots. ",
       "categoryId": "on-device-runtime",
       "moduleId": "platform-mlops",
       "license": "NOASSERTION",
@@ -955,17 +1271,25 @@
         "whisper"
       ],
       "meta": {
-        "stars": 4401,
-        "forks": 322,
-        "lastUpdated": "2026-03-02T12:13:18Z",
-        "lastCommit": "2026-03-02T11:24:15Z",
-        "fetchedAt": "2026-03-02T12:29:23.697Z"
+        "stars": 6126,
+        "forks": 517,
+        "lastUpdated": "2026-10-15T15:44:55Z",
+        "lastCommit": "2026-09-26T03:14:00Z",
+        "fetchedAt": "2026-10-16T04:49:56.125Z",
+        "watchers": 50,
+        "openIssues": 114,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-04-23T14:33:43Z",
+        "lastFetchAttempt": "2026-10-16T04:49:55.764Z"
       }
     },
     {
       "id": "blaizzy-mlx-vlm",
       "name": "mlx-vlm",
-      "description": "Apple Silicon에서 MLX를 활용한 비전-언어 모델(VLM) 추론 및 파인튜닝을 지원하는 패키지입니다.",
+      "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
       "categoryId": "on-device-runtime",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -987,17 +1311,25 @@
         "vision-transformer"
       ],
       "meta": {
-        "stars": 2194,
-        "forks": 278,
-        "lastUpdated": "2026-03-02T11:04:42Z",
-        "lastCommit": "2026-02-25T15:12:18Z",
-        "fetchedAt": "2026-03-02T12:29:55.956Z"
+        "stars": 5629,
+        "forks": 832,
+        "lastUpdated": "2026-10-15T20:49:50Z",
+        "lastCommit": "2026-10-15T23:12:47Z",
+        "fetchedAt": "2026-10-16T04:49:56.530Z",
+        "watchers": 33,
+        "openIssues": 241,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-04-16T15:10:12Z",
+        "lastFetchAttempt": "2026-10-16T04:49:56.227Z"
       }
     },
     {
       "id": "stair-lab-kg-gen",
       "name": "kg-gen",
-      "description": "텍스트로부터 고품질 지식 그래프를 자동 추출하는 NeurIPS '25 오픈소스 프레임워크입니다.",
+      "description": "[NeurIPS '25] Knowledge Graph Generation from Any Text",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "Unknown",
@@ -1009,17 +1341,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 1044,
-        "forks": 150,
-        "lastUpdated": "2026-03-02T03:32:14Z",
-        "lastCommit": "2026-01-09T05:55:11Z",
-        "fetchedAt": "2026-03-02T12:32:22.568Z"
+        "stars": 1287,
+        "forks": 201,
+        "lastUpdated": "2026-10-15T07:43:53Z",
+        "lastCommit": "2026-03-24T21:10:16Z",
+        "fetchedAt": "2026-10-16T04:49:57.003Z",
+        "watchers": 9,
+        "openIssues": 28,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-10-30T16:22:55Z",
+        "lastFetchAttempt": "2026-10-16T04:49:56.632Z"
       }
     },
     {
       "id": "openai-symphony",
       "name": "Symphony",
-      "description": "프로젝트 작업을 격리된 자율 실행 단위로 변환하여, 팀이 코딩 에이전트를 직접 감독하지 않고 작업을 관리할 수 있게 하는 에이전트 오케스트레이션 플랫폼입니다.",
+      "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1035,17 +1375,25 @@
         "elixir"
       ],
       "meta": {
-        "stars": 12977,
-        "forks": 1007,
-        "lastUpdated": "2026-03-16T15:31:19Z",
-        "lastCommit": "2026-03-11T23:17:25Z",
-        "fetchedAt": "2026-03-17T00:00:00.000Z"
+        "stars": 27705,
+        "forks": 2878,
+        "lastUpdated": "2026-10-16T03:20:00Z",
+        "lastCommit": "2026-09-15T22:14:59Z",
+        "fetchedAt": "2026-10-16T04:49:57.511Z",
+        "watchers": 181,
+        "openIssues": 8,
+        "language": "Elixir",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-02-26T21:54:00Z",
+        "lastFetchAttempt": "2026-10-16T04:49:57.105Z"
       }
     },
     {
       "id": "vercel-labs-dev3000",
       "name": "dev3000",
-      "description": "웹 앱 개발 과정의 서버 로그, 브라우저 이벤트, 콘솔 메시지, 네트워크 요청, 자동 스크린샷을 타임스탬프 기반의 통합 피드로 캡처하여 AI 디버깅에 활용할 수 있도록 지원하는 개발 도구",
+      "description": "Captures your web app's complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.",
       "categoryId": "interoperability",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1057,11 +1405,19 @@
         "web"
       ],
       "meta": {
-        "stars": 1492,
-        "forks": 87,
-        "lastUpdated": "2026-05-23T08:52:40Z",
-        "lastCommit": "2026-05-22T23:59:04Z",
-        "fetchedAt": "2026-05-23T13:01:39.201Z"
+        "stars": 1584,
+        "forks": 98,
+        "lastUpdated": "2026-10-13T10:49:38Z",
+        "lastCommit": "2026-10-09T19:22:03Z",
+        "fetchedAt": "2026-10-16T04:49:58.056Z",
+        "watchers": 5,
+        "openIssues": 7,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-09-02T23:36:10Z",
+        "lastFetchAttempt": "2026-10-16T04:49:57.613Z"
       }
     },
     {
@@ -1075,11 +1431,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 5242,
-        "forks": 716,
-        "lastUpdated": "2026-05-23T13:46:22Z",
+        "stars": 5536,
+        "forks": 767,
+        "lastUpdated": "2026-10-16T01:45:55Z",
         "lastCommit": "2026-05-09T07:25:56Z",
-        "fetchedAt": "2026-05-23T14:39:51.455Z"
+        "fetchedAt": "2026-10-16T04:49:58.487Z",
+        "watchers": 43,
+        "openIssues": 34,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-03-17T14:42:46Z",
+        "lastFetchAttempt": "2026-10-16T04:49:58.158Z"
       }
     },
     {
@@ -1106,11 +1470,19 @@
         "vector-database"
       ],
       "meta": {
-        "stars": 32025,
-        "forks": 2761,
-        "lastUpdated": "2026-05-23T14:22:18Z",
-        "lastCommit": "2026-05-15T10:10:51Z",
-        "fetchedAt": "2026-05-23T14:41:35.414Z"
+        "stars": 39146,
+        "forks": 3400,
+        "lastUpdated": "2026-10-16T03:55:42Z",
+        "lastCommit": "2026-10-15T19:46:09Z",
+        "fetchedAt": "2026-10-16T04:49:59.000Z",
+        "watchers": 157,
+        "openIssues": 144,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-04-01T10:53:54Z",
+        "lastFetchAttempt": "2026-10-16T04:49:58.588Z"
       }
     },
     {
@@ -1129,11 +1501,19 @@
         "mcp"
       ],
       "meta": {
-        "stars": 45731,
-        "forks": 4696,
-        "lastUpdated": "2026-05-23T14:13:47Z",
-        "lastCommit": "2026-05-23T14:41:13Z",
-        "fetchedAt": "2026-05-23T14:42:02.273Z"
+        "stars": 55329,
+        "forks": 6450,
+        "lastUpdated": "2026-10-16T04:47:25Z",
+        "lastCommit": "2026-10-16T04:46:21Z",
+        "fetchedAt": "2026-10-16T04:49:59.485Z",
+        "watchers": 298,
+        "openIssues": 491,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-08-23T19:03:36Z",
+        "lastFetchAttempt": "2026-10-16T04:49:59.102Z"
       }
     },
     {
@@ -1143,7 +1523,7 @@
       "categoryId": "on-device-runtime",
       "moduleId": "platform-mlops",
       "license": "MIT",
-      "githubUrl": "https://github.com/supertone-inc/supertonic",
+      "githubUrl": "https://github.com/supertone-oss-archive/supertonic",
       "koreanSupport": false,
       "region": "KR",
       "tags": [
@@ -1169,11 +1549,19 @@
         "webgpu"
       ],
       "meta": {
-        "stars": 9666,
-        "forks": 998,
-        "lastUpdated": "2026-05-23T14:39:47Z",
-        "lastCommit": "2026-05-22T05:05:12Z",
-        "fetchedAt": "2026-05-23T14:42:58.670Z"
+        "stars": 13772,
+        "forks": 1555,
+        "lastUpdated": "2026-10-15T18:40:57Z",
+        "lastCommit": "2026-09-09T06:54:13Z",
+        "fetchedAt": "2026-10-16T04:49:59.925Z",
+        "watchers": 97,
+        "openIssues": 131,
+        "language": "Swift",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-11-18T08:23:58Z",
+        "lastFetchAttempt": "2026-10-16T04:49:59.588Z"
       }
     },
     {
@@ -1201,11 +1589,19 @@
         "tensorflow"
       ],
       "meta": {
-        "stars": 20868,
-        "forks": 3931,
-        "lastUpdated": "2026-05-23T12:55:26Z",
-        "lastCommit": "2026-05-23T12:55:15Z",
-        "fetchedAt": "2026-05-23T16:00:38.656Z"
+        "stars": 21589,
+        "forks": 4053,
+        "lastUpdated": "2026-10-15T12:53:38Z",
+        "lastCommit": "2026-10-15T02:01:31Z",
+        "fetchedAt": "2026-10-16T04:50:00.367Z",
+        "watchers": 422,
+        "openIssues": 267,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2017-09-07T04:53:45Z",
+        "lastFetchAttempt": "2026-10-16T04:50:00.028Z"
       }
     },
     {
@@ -1225,17 +1621,25 @@
         "tensorflow"
       ],
       "meta": {
-        "stars": 14191,
-        "forks": 5506,
-        "lastUpdated": "2026-05-23T11:59:04Z",
-        "lastCommit": "2026-02-07T22:20:29Z",
-        "fetchedAt": "2026-05-23T16:53:00.054Z"
+        "stars": 14167,
+        "forks": 5442,
+        "lastUpdated": "2026-10-16T02:10:18Z",
+        "lastCommit": "2026-10-16T02:09:41Z",
+        "fetchedAt": "2026-10-16T04:50:00.893Z",
+        "watchers": 65,
+        "openIssues": 985,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2021-01-19T08:37:25Z",
+        "lastFetchAttempt": "2026-10-16T04:50:00.469Z"
       }
     },
     {
       "id": "open-compass-opencompass",
       "name": "opencompass",
-      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models from OpenAI, Anthropic, Gemini, Qwen, GLM, DeepSeek, etc, across 100+ datasets covering knowledge, reasoning, coding, science, language, long-context, and safety.",
       "categoryId": "testing-evaluation",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1252,11 +1656,19 @@
         "openai"
       ],
       "meta": {
-        "stars": 7020,
-        "forks": 779,
-        "lastUpdated": "2026-05-23T05:45:36Z",
-        "lastCommit": "2026-05-22T11:04:46Z",
-        "fetchedAt": "2026-05-23T18:49:43.721Z"
+        "stars": 7520,
+        "forks": 884,
+        "lastUpdated": "2026-10-15T15:27:31Z",
+        "lastCommit": "2026-10-15T07:21:33Z",
+        "fetchedAt": "2026-10-16T04:50:01.323Z",
+        "watchers": 30,
+        "openIssues": 375,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-06-15T12:42:58Z",
+        "lastFetchAttempt": "2026-10-16T04:50:00.995Z"
       }
     },
     {
@@ -1280,11 +1692,19 @@
         "web"
       ],
       "meta": {
-        "stars": 3883,
-        "forks": 285,
-        "lastUpdated": "2026-05-22T15:43:54Z",
-        "lastCommit": "2026-05-04T20:45:33Z",
-        "fetchedAt": "2026-05-23T21:12:38.404Z"
+        "stars": 3953,
+        "forks": 309,
+        "lastUpdated": "2026-10-16T03:51:03Z",
+        "lastCommit": "2026-10-14T04:37:11Z",
+        "fetchedAt": "2026-10-16T04:50:01.829Z",
+        "watchers": 25,
+        "openIssues": 61,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "dependabot-github_actions-gha-updates-e87515986e",
+        "createdAt": "2023-12-12T14:45:03Z",
+        "lastFetchAttempt": "2026-10-16T04:50:01.425Z"
       }
     },
     {
@@ -1298,11 +1718,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 3754,
-        "forks": 321,
-        "lastUpdated": "2026-05-23T10:02:45Z",
-        "lastCommit": "2026-05-20T05:32:11Z",
-        "fetchedAt": "2026-05-23T21:38:37.778Z"
+        "stars": 3921,
+        "forks": 393,
+        "lastUpdated": "2026-10-15T22:33:02Z",
+        "lastCommit": "2026-10-06T17:33:11Z",
+        "fetchedAt": "2026-10-16T04:50:02.299Z",
+        "watchers": 41,
+        "openIssues": 115,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-09-22T14:54:51Z",
+        "lastFetchAttempt": "2026-10-16T04:50:01.932Z"
       }
     },
     {
@@ -1324,17 +1752,25 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 2438,
-        "forks": 490,
-        "lastUpdated": "2026-05-23T08:48:36Z",
-        "lastCommit": "2026-05-23T08:50:20Z",
-        "fetchedAt": "2026-05-24T00:27:35.103Z"
+        "stars": 2476,
+        "forks": 551,
+        "lastUpdated": "2026-10-09T22:56:27Z",
+        "lastCommit": "2026-10-07T18:57:34Z",
+        "fetchedAt": "2026-10-16T04:50:02.800Z",
+        "watchers": 26,
+        "openIssues": 255,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2020-12-22T20:02:42Z",
+        "lastFetchAttempt": "2026-10-16T04:50:02.402Z"
       }
     },
     {
       "id": "vectorize-io-hindsight",
       "name": "hindsight",
-      "description": "학습하는 에이전트 메모리 시스템. LLM 에이전트가 과거 상호작용·경험을 저장·검색하고 시간이 지남에 따라 메모리를 강화·정제하여 장기 기억과 개인화를 구현한다.",
+      "description": "Hindsight: Agent Memory That Learns",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1347,17 +1783,25 @@
         "memory"
       ],
       "meta": {
-        "stars": 15964,
-        "forks": 905,
-        "lastUpdated": "2026-06-08T04:31:23Z",
-        "lastCommit": "2026-06-07T22:45:12Z",
-        "fetchedAt": "2026-06-08T05:01:52.601Z"
+        "stars": 50143,
+        "forks": 6089,
+        "lastUpdated": "2026-10-16T04:41:44Z",
+        "lastCommit": "2026-10-15T18:34:43Z",
+        "fetchedAt": "2026-10-16T04:50:03.308Z",
+        "watchers": 110,
+        "openIssues": 179,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-10-30T11:49:48Z",
+        "lastFetchAttempt": "2026-10-16T04:50:02.902Z"
       }
     },
     {
       "id": "michael-a-kuykendall-shimmy",
       "name": "shimmy",
-      "description": "Python 의존성 없는 Rust 기반 LLM 추론 서버 shimmy로, OpenAI 호환 API와 GGUF·SafeTensors 지원·핫 모델 스왑·자동 탐색을 단일 바이너리로 제공해 로컬 LLM 서빙을 간소화합니다.",
+      "description": "⚡ Pure-Rust WebGPU inference engine — OpenAI-API compatible, GGUF native, runs on any GPU. No Python. No llama.cpp. Single binary.",
       "categoryId": "model-serving",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1386,17 +1830,25 @@
         "webgpu-shaders"
       ],
       "meta": {
-        "stars": 5912,
-        "forks": 575,
-        "lastUpdated": "2026-10-02T18:37:16Z",
+        "stars": 5979,
+        "forks": 586,
+        "lastUpdated": "2026-10-16T01:14:00Z",
         "lastCommit": "2026-08-30T22:45:24Z",
-        "fetchedAt": "2026-10-03T03:34:37.417Z"
+        "fetchedAt": "2026-10-16T04:50:03.756Z",
+        "watchers": 41,
+        "openIssues": 13,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-08-28T22:55:46Z",
+        "lastFetchAttempt": "2026-10-16T04:50:03.410Z"
       }
     },
     {
       "id": "upsonic-upsonic",
       "name": "Upsonic",
-      "description": "Python으로 자율 AI 에이전트를 구축하는 프레임워크로, 신뢰성 계층과 안전한 도구 실행을 강조해 프로덕션 환경에서 동작하는 에이전트를 만들 수 있습니다.",
+      "description": "Build autonomous AI agents in Python.",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1420,17 +1872,25 @@
         "universal-commerce-protocol"
       ],
       "meta": {
-        "stars": 7956,
-        "forks": 748,
-        "lastUpdated": "2026-10-03T02:33:42Z",
+        "stars": 7958,
+        "forks": 747,
+        "lastUpdated": "2026-10-14T17:26:21Z",
         "lastCommit": "2026-06-18T14:55:50Z",
-        "fetchedAt": "2026-10-03T03:45:20.655Z"
+        "fetchedAt": "2026-10-16T04:50:04.226Z",
+        "watchers": 58,
+        "openIssues": 37,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2024-05-26T16:23:38Z",
+        "lastFetchAttempt": "2026-10-16T04:50:03.859Z"
       }
     },
     {
       "id": "langroid-langroid",
       "name": "langroid",
-      "description": "멀티에이전트 프로그래밍 패러다임으로 LLM을 활용하는 Python 프레임워크로, 메시지 기반 에이전트 협업·도구·RAG를 통해 복잡한 LLM 애플리케이션을 구조적으로 구축할 수 있습니다.",
+      "description": "Harness LLMs with Multi-Agent Programming",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1457,17 +1917,25 @@
         "retrieval-augmented-generation"
       ],
       "meta": {
-        "stars": 4111,
-        "forks": 411,
-        "lastUpdated": "2026-10-02T22:05:56Z",
-        "lastCommit": "2026-10-02T22:05:50Z",
-        "fetchedAt": "2026-10-03T03:56:59.915Z"
+        "stars": 4116,
+        "forks": 427,
+        "lastUpdated": "2026-10-16T00:20:31Z",
+        "lastCommit": "2026-10-16T00:14:02Z",
+        "fetchedAt": "2026-10-16T04:50:04.724Z",
+        "watchers": 28,
+        "openIssues": 56,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-16T20:47:28Z",
+        "lastFetchAttempt": "2026-10-16T04:50:04.329Z"
       }
     },
     {
       "id": "earendil-works-pi",
       "name": "pi",
-      "description": "AI 에이전트 툴킷. 코딩 에이전트 CLI를 중심으로 통합 LLM API, TUI·웹 UI 라이브러리, Slack 봇, vLLM 파드 등을 제공합니다. 원래 badlogic/pi-mono에서 earendil-works/pi로 소유권 이전(이전 경로 리다이렉트).",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1475,17 +1943,25 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 111794,
-        "forks": 14178,
-        "lastUpdated": "2026-10-03T02:12:07Z",
-        "lastCommit": "2026-10-02T22:29:23Z",
-        "fetchedAt": "2026-10-03T02:14:40.213Z"
+        "stars": 115533,
+        "forks": 14721,
+        "lastUpdated": "2026-10-16T04:49:01Z",
+        "lastCommit": "2026-10-15T19:21:59Z",
+        "fetchedAt": "2026-10-16T04:50:05.299Z",
+        "watchers": 347,
+        "openIssues": 350,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-08-09T14:03:50Z",
+        "lastFetchAttempt": "2026-10-16T04:50:04.826Z"
       }
     },
     {
       "id": "google-ai-edge-mediapipe",
       "name": "mediapipe",
-      "description": "실시간·스트리밍 미디어를 위한 크로스플랫폼·커스터마이즈 가능한 온디바이스 ML 솔루션 MediaPipe(Google AI Edge). 손/얼굴/포즈 추적, 객체 검출, 세그멘테이션, 제스처/이미지 분류 등 사전 구축된 비전 파이프라인과 모델을 모바일·웹·엣지에서 실행할 수 있게 제공합니다.",
+      "description": "Cross-platform, customizable ML solutions for live and streaming media.",
       "categoryId": "on-device-runtime",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1511,17 +1987,25 @@
         "video-processing"
       ],
       "meta": {
-        "stars": 37151,
-        "forks": 6179,
-        "lastUpdated": "2026-10-03T03:35:36Z",
-        "lastCommit": "2026-10-03T03:17:51Z",
-        "fetchedAt": "2026-10-03T04:21:48.827Z"
+        "stars": 37299,
+        "forks": 6187,
+        "lastUpdated": "2026-10-16T03:56:48Z",
+        "lastCommit": "2026-10-15T22:24:34Z",
+        "fetchedAt": "2026-10-16T04:50:05.840Z",
+        "watchers": 533,
+        "openIssues": 332,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-06-13T19:16:41Z",
+        "lastFetchAttempt": "2026-10-16T04:50:05.402Z"
       }
     },
     {
       "id": "activepieces-activepieces",
       "name": "activepieces",
-      "description": "AI 에이전트·MCP·워크플로우 자동화 플랫폼. 약 400개의 MCP 서버와 통합되어 LLM 에이전트가 도구를 사용하도록 하며, 노코드/로우코드 비주얼 빌더로 AI 자동화 워크플로우를 구성·배포한다(오픈소스 Zapier 대안).",
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
       "categoryId": "interoperability",
       "moduleId": "platform-mlops",
       "license": "NOASSERTION",
@@ -1543,17 +2027,25 @@
         "workflows"
       ],
       "meta": {
-        "stars": 24862,
-        "forks": 4288,
-        "lastUpdated": "2026-10-03T02:30:27Z",
-        "lastCommit": "2026-10-02T22:44:03Z",
-        "fetchedAt": "2026-10-03T04:37:42.603Z"
+        "stars": 25063,
+        "forks": 4348,
+        "lastUpdated": "2026-10-16T03:46:29Z",
+        "lastCommit": "2026-10-15T20:35:31Z",
+        "fetchedAt": "2026-10-16T04:50:06.319Z",
+        "watchers": 128,
+        "openIssues": 753,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2022-12-03T02:52:46Z",
+        "lastFetchAttempt": "2026-10-16T04:50:05.942Z"
       }
     },
     {
       "id": "openbmb-ultrarag",
       "name": "UltraRAG",
-      "description": "복잡하고 혁신적인 RAG 파이프라인을 구축하기 위한 로우코드(Low-Code) MCP 프레임워크. MCP 기반 모듈 조합으로 검색·재순위·생성 등 다단계 RAG 워크플로우를 코드 최소화로 설계·실험할 수 있게 함.",
+      "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
       "categoryId": "rag-graphrag",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1579,17 +2071,25 @@
         "vlm"
       ],
       "meta": {
-        "stars": 5710,
-        "forks": 449,
-        "lastUpdated": "2026-10-02T18:36:46Z",
-        "lastCommit": "2026-10-01T17:20:20Z",
-        "fetchedAt": "2026-10-03T05:00:10.443Z"
+        "stars": 5727,
+        "forks": 451,
+        "lastUpdated": "2026-10-16T02:29:43Z",
+        "lastCommit": "2026-10-14T20:26:08Z",
+        "fetchedAt": "2026-10-16T04:50:06.754Z",
+        "watchers": 39,
+        "openIssues": 17,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-01-16T10:56:02Z",
+        "lastFetchAttempt": "2026-10-16T04:50:06.422Z"
       }
     },
     {
       "id": "getzep-graphiti",
       "name": "graphiti",
-      "description": "AI 에이전트를 위한 실시간 지식 그래프(temporal knowledge graph) 구축 프레임워크. 시간에 따라 진화하는 관계를 추적하며 에이전트의 장기 메모리·GraphRAG 검색 백엔드로 사용됩니다.",
+      "description": "Build Real-Time Knowledge Graphs for AI Agents",
       "categoryId": "memory-knowledge",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1602,17 +2102,25 @@
         "rag"
       ],
       "meta": {
-        "stars": 31392,
-        "forks": 3222,
-        "lastUpdated": "2026-10-03T04:50:22Z",
-        "lastCommit": "2026-10-02T16:30:54Z",
-        "fetchedAt": "2026-10-03T05:07:27.632Z"
+        "stars": 31801,
+        "forks": 3273,
+        "lastUpdated": "2026-10-16T03:35:37Z",
+        "lastCommit": "2026-10-15T19:00:08Z",
+        "fetchedAt": "2026-10-16T04:50:07.264Z",
+        "watchers": 174,
+        "openIssues": 478,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-08-08T22:08:30Z",
+        "lastFetchAttempt": "2026-10-16T04:50:06.856Z"
       }
     },
     {
       "id": "ax-llm-ax",
       "name": "ax",
-      "description": "TypeScript를 위한 사실상 공식 DSPy 프레임워크. 선언적 시그니처로 LLM 프로그램을 구성하고 자동 프롬프트 최적화·에이전트·RAG·스트리밍을 지원합니다.",
+      "description": "The pretty much \"official\" DSPy framework for Typescript",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1640,17 +2148,25 @@
         "typescript"
       ],
       "meta": {
-        "stars": 2958,
-        "forks": 193,
-        "lastUpdated": "2026-10-02T16:35:06Z",
-        "lastCommit": "2026-10-03T00:42:48Z",
-        "fetchedAt": "2026-10-03T05:11:33.333Z"
+        "stars": 2967,
+        "forks": 198,
+        "lastUpdated": "2026-10-15T13:59:19Z",
+        "lastCommit": "2026-10-15T09:43:36Z",
+        "fetchedAt": "2026-10-16T04:50:07.728Z",
+        "watchers": 21,
+        "openIssues": 15,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-02-23T19:21:40Z",
+        "lastFetchAttempt": "2026-10-16T04:50:07.367Z"
       }
     },
     {
       "id": "mirascope-mirascope",
       "name": "mirascope",
-      "description": "LLM 애플리케이션을 파이썬스럽게 구축하기 위한 라이브러리 Mirascope(\"The LLM Anti-Framework\"). 프롬프트·구조화 출력·도구 호출을 표준 Python 함수와 타입으로 다루며 다양한 LLM 제공자를 지원합니다.",
+      "description": "The LLM Anti-Framework",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1666,20 +2182,28 @@
         "typescript"
       ],
       "meta": {
-        "stars": 1530,
-        "forks": 128,
-        "lastUpdated": "2026-10-01T18:18:35Z",
-        "lastCommit": "2026-10-01T18:18:30Z",
-        "fetchedAt": "2026-10-03T06:52:31.445Z"
+        "stars": 1532,
+        "forks": 131,
+        "lastUpdated": "2026-10-15T06:22:41Z",
+        "lastCommit": "2026-10-15T06:22:36Z",
+        "fetchedAt": "2026-10-16T04:50:08.195Z",
+        "watchers": 12,
+        "openIssues": 5,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-12-05T01:22:34Z",
+        "lastFetchAttempt": "2026-10-16T04:50:07.830Z"
       }
     },
     {
       "id": "marker-inc-korea-autorag",
       "name": "AutoRAG",
-      "description": "마커AI(Marker-Inc-Korea)가 만든 RAG 도구입니다. 현재 버전인 AutoRAG 2.0은 BM25, 벡터, 하이브리드 검색과 원문 확인으로 로컬 문서에서 근거 있는 답을 찾는 에이전트형 RAG이고, 이전 버전(legacy/)은 사용자 데이터로 RAG 모듈 조합을 자동 평가해 최적 파이프라인을 찾는 AutoML 도구입니다.",
+      "description": "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.",
       "categoryId": "rag-graphrag",
       "moduleId": "platform-mlops",
-      "license": "NOASSERTION",
+      "license": "Apache-2.0",
       "githubUrl": "https://github.com/Marker-Inc-Korea/AutoRAG",
       "koreanSupport": false,
       "region": "KR",
@@ -1696,11 +2220,19 @@
         "retrieval-augmented-generation"
       ],
       "meta": {
-        "stars": 5109,
-        "forks": 444,
-        "lastUpdated": "2026-10-04T13:54:01Z",
-        "lastCommit": "2026-10-04T14:07:06Z",
-        "fetchedAt": "2026-10-04T14:08:57.827Z"
+        "stars": 5126,
+        "forks": 449,
+        "lastUpdated": "2026-10-16T03:52:04Z",
+        "lastCommit": "2026-10-16T03:52:01Z",
+        "fetchedAt": "2026-10-16T04:50:08.676Z",
+        "watchers": 32,
+        "openIssues": 168,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-01-10T12:25:00Z",
+        "lastFetchAttempt": "2026-10-16T04:50:08.297Z"
       }
     },
     {
@@ -1737,13 +2269,15 @@
         "forks": 65,
         "lastUpdated": "2026-09-29T23:46:48Z",
         "lastCommit": "2026-05-25T02:30:35Z",
-        "fetchedAt": "2026-10-04T14:56:25.248Z"
+        "fetchedAt": "2026-10-04T14:56:25.248Z",
+        "lastFetchAttempt": "2026-10-16T04:50:08.779Z",
+        "fetchError": "HTTP 404: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository"
       }
     },
     {
       "id": "wrtnlabs-ac",
       "name": "ac",
-      "description": "앱에 종속되지 않는 Rust 기반 AI 에이전트 백엔드 프레임워크입니다. 에이전트 루프, 도구 레지스트리, macOS Seatbelt와 Linux landlock/seccomp 샌드박스, WAL 기반 세션 저장소, MCP 클라이언트를 라이브러리로 제공합니다.",
+      "description": "AC (Agent Core) — app-agnostic AI agent runtime in Rust",
       "categoryId": "agent-orchestration",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1756,13 +2290,21 @@
         "forks": 0,
         "lastUpdated": "2026-08-13T05:31:16Z",
         "lastCommit": "2026-08-13T05:30:50Z",
-        "fetchedAt": "2026-10-04T15:10:29.047Z"
+        "fetchedAt": "2026-10-16T04:50:09.504Z",
+        "watchers": 0,
+        "openIssues": 0,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-07-20T06:59:59Z",
+        "lastFetchAttempt": "2026-10-16T04:50:09.168Z"
       }
     },
     {
       "id": "upstageai-evalverse",
       "name": "evalverse",
-      "description": "lm-evaluation-harness와 FastChat 등 여러 평가 프레임워크를 서브모듈로 통합해 LLM 평가를 실행하고 점수 비교 리포트를 생성하는 도구입니다. Slack 봇으로 코드 없이 평가 요청과 리포트 조회를 할 수 있습니다.",
+      "description": "The Universe of Evaluation. All about the evaluation for LLMs.",
       "categoryId": "testing-evaluation",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1775,13 +2317,21 @@
         "forks": 25,
         "lastUpdated": "2026-06-08T04:04:01Z",
         "lastCommit": "2024-07-09T19:17:14Z",
-        "fetchedAt": "2026-10-04T15:23:28.881Z"
+        "fetchedAt": "2026-10-16T04:50:09.981Z",
+        "watchers": 3,
+        "openIssues": 10,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-03-22T00:11:47Z",
+        "lastFetchAttempt": "2026-10-16T04:50:09.606Z"
       }
     },
     {
       "id": "twelvelabs-io-video-embeddings-evaluation-framework",
       "name": "video-embeddings-evaluation-framework",
-      "description": "Twelve Labs 비디오 파운데이션 모델(TWLV-I)로 미리 추출한 임베딩과 이를 평가하는 PyTorch 코드를 제공합니다. Kinetics-400, Something-Something-v2 등에서 linear probing, kNN, 시간적 행동 위치 추정과 분할 성능을 측정합니다.",
+      "description": "Pytorch implementation of Twelve Labs' Video Foundation Model evaluation framework & open embeddings",
       "categoryId": "testing-evaluation",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1799,7 +2349,15 @@
         "forks": 3,
         "lastUpdated": "2026-06-03T19:12:20Z",
         "lastCommit": "2024-08-23T06:54:25Z",
-        "fetchedAt": "2026-10-04T15:33:25.079Z"
+        "fetchedAt": "2026-10-16T04:50:10.550Z",
+        "watchers": 2,
+        "openIssues": 2,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-08-06T09:50:29Z",
+        "lastFetchAttempt": "2026-10-16T04:50:10.084Z"
       }
     },
     {
@@ -1818,7 +2376,15 @@
         "forks": 0,
         "lastUpdated": "2025-10-26T11:34:06Z",
         "lastCommit": "2024-09-07T02:40:03Z",
-        "fetchedAt": "2026-10-04T15:48:23.762Z"
+        "fetchedAt": "2026-10-16T04:50:11.039Z",
+        "watchers": 4,
+        "openIssues": 1,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-05-21T07:48:20Z",
+        "lastFetchAttempt": "2026-10-16T04:50:10.652Z"
       }
     },
     {
@@ -1837,13 +2403,21 @@
         "forks": 2,
         "lastUpdated": "2026-09-09T07:32:39Z",
         "lastCommit": "2026-08-31T11:37:40Z",
-        "fetchedAt": "2026-10-04T16:02:36.117Z"
+        "fetchedAt": "2026-10-16T04:50:11.577Z",
+        "watchers": 2,
+        "openIssues": 0,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-02-28T10:14:41Z",
+        "lastFetchAttempt": "2026-10-16T04:50:11.142Z"
       }
     },
     {
       "id": "moreh-dev-openbench-runner",
       "name": "openbench-runner",
-      "description": "OpenBench를 감싸 GPQA Diamond, TAU-bench Airline, JSONSchemaBench를 vLLM, OpenRouter, OpenAI 호환 엔드포인트에서 실행하는 평가 러너입니다. 도구 호출 오류율, 구조화 출력 오류율, 캐시 적중률을 후처리로 계산하고 포아송 부하 기반 가동률 측정기를 포함합니다.",
+      "description": "Configurable OpenBench runner for GPQA Diamond and TAU Bench Verified Airline across OpenRouter, vLLM, and OpenAI-compatible endpoints.",
       "categoryId": "testing-evaluation",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1856,13 +2430,21 @@
         "forks": 0,
         "lastUpdated": "2026-07-23T17:11:00Z",
         "lastCommit": "2026-09-14T05:15:42Z",
-        "fetchedAt": "2026-10-04T16:16:27.189Z"
+        "fetchedAt": "2026-10-16T04:50:12.091Z",
+        "watchers": 0,
+        "openIssues": 0,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-07-21T05:45:31Z",
+        "lastFetchAttempt": "2026-10-16T04:50:11.680Z"
       }
     },
     {
       "id": "casys-kaist-llmservingsim",
       "name": "LLMServingSim",
-      "description": "vLLM의 연속 배치 스케줄러를 모사하는 Python 프론트엔드와 ASTRA-Sim 네트워크 백엔드를 결합한 사이클 단위 LLM 서빙 인프라 시뮬레이터입니다. 이기종 가속기, CPU/CXL/PIM 메모리 계층, MoE, TP/PP/EP/DP 병렬화 구성을 실제 하드웨어 없이 비교할 수 있습니다.",
+      "description": "LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure",
       "categoryId": "testing-evaluation",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1871,17 +2453,25 @@
       "region": "KR",
       "tags": [],
       "meta": {
-        "stars": 414,
-        "forks": 113,
-        "lastUpdated": "2026-10-02T06:57:24Z",
-        "lastCommit": "2026-10-02T07:59:45Z",
-        "fetchedAt": "2026-10-04T16:27:21.575Z"
+        "stars": 426,
+        "forks": 117,
+        "lastUpdated": "2026-10-13T02:47:04Z",
+        "lastCommit": "2026-10-06T09:19:42Z",
+        "fetchedAt": "2026-10-16T04:50:12.612Z",
+        "watchers": 10,
+        "openIssues": 8,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-07-23T13:44:30Z",
+        "lastFetchAttempt": "2026-10-16T04:50:12.193Z"
       }
     },
     {
       "id": "vessl-ai-hyperpocket",
       "name": "hyperpocket",
-      "description": "AI 에이전트가 외부 도구와 인증을 손쉽게 쓰도록 연결하는 Python 툴 호출 라이브러리입니다. 공개 도구를 링크로 불러와 WebAssembly 격리 환경에서 실행하며 LangChain, LangGraph, LlamaIndex 등과 연동됩니다.",
+      "description": "Building AI agent with hyperpocket tool in a flash",
       "categoryId": "interoperability",
       "moduleId": "platform-mlops",
       "license": "MIT",
@@ -1899,13 +2489,21 @@
         "forks": 8,
         "lastUpdated": "2026-08-15T23:13:29Z",
         "lastCommit": "2025-04-11T06:33:00Z",
-        "fetchedAt": "2026-10-04T16:38:26.397Z"
+        "fetchedAt": "2026-10-16T04:50:13.123Z",
+        "watchers": 4,
+        "openIssues": 7,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-01-09T07:57:23Z",
+        "lastFetchAttempt": "2026-10-16T04:50:12.715Z"
       }
     },
     {
       "id": "lablup-mlxcel",
       "name": "mlxcel",
-      "description": "Rust와 MLX C++ 바인딩으로 작성된 LLM, VLM, 임베딩, 리랭킹, 음성 추론 엔진으로 Apple Silicon을 주 대상으로 하고 NVIDIA CUDA도 지원합니다. 변환 없이 MLX SafeTensors 체크포인트를 로드하며 continuous batching, prompt caching, speculative decoding과 OpenAI 및 Anthropic 호환 API를 제공합니다.",
+      "description": "High-performance LLM, VLM, embedding, reranking, and audio inference for Apple Silicon and NVIDIA CUDA systems.",
       "categoryId": "on-device-runtime",
       "moduleId": "platform-mlops",
       "license": "Apache-2.0",
@@ -1916,9 +2514,17 @@
       "meta": {
         "stars": 472,
         "forks": 56,
-        "lastUpdated": "2026-10-05T05:18:50Z",
-        "lastCommit": "2026-10-05T07:16:59Z",
-        "fetchedAt": "2026-10-05T07:44:27.781Z"
+        "lastUpdated": "2026-10-16T03:16:34Z",
+        "lastCommit": "2026-10-16T03:16:34Z",
+        "fetchedAt": "2026-10-16T04:50:13.631Z",
+        "watchers": 5,
+        "openIssues": 158,
+        "language": "Rust",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-01-30T15:07:23Z",
+        "lastFetchAttempt": "2026-10-16T04:50:13.225Z"
       }
     }
   ]

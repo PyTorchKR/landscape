@@ -13,6 +13,15 @@ interface ToolMeta {
   lastUpdated: string
   lastCommit?: string
   fetchedAt: string
+  lastFetchAttempt?: string
+  fetchError?: string
+  watchers?: number
+  openIssues?: number
+  language?: string | null
+  archived?: boolean
+  disabled?: boolean
+  defaultBranch?: string
+  createdAt?: string
 }
 
 interface Tool {
@@ -31,31 +40,27 @@ interface ToolsFile {
 async function main() {
   const token = process.env.GITHUB_TOKEN
   if (!token) {
-    console.error('GITHUB_TOKEN environment variable is required')
-    process.exit(1)
+    throw new Error('GITHUB_TOKEN environment variable is required')
   }
 
   const octokit = new Octokit({ auth: token })
-
   const moduleDirs = fs.readdirSync(TOOLS_DIR).filter((dir) =>
     fs.statSync(path.join(TOOLS_DIR, dir)).isDirectory(),
   )
-
   let totalUpdated = 0
-  let totalFailed = 0
+  const failures: string[] = []
 
   for (const moduleDir of moduleDirs) {
     const toolsPath = path.join(TOOLS_DIR, moduleDir, 'tools.json')
     if (!fs.existsSync(toolsPath)) continue
 
     const data: ToolsFile = JSON.parse(fs.readFileSync(toolsPath, 'utf-8'))
-    let modified = false
 
     for (const tool of data.tools) {
-      // HuggingFace-only entries: refresh likes and downloads instead of stars
-      const hfRef = !tool.githubUrl && tool.huggingfaceUrl ? parseHuggingFaceUrl(tool.huggingfaceUrl) : null
-      if (hfRef) {
-        try {
+      const attemptedAt = new Date().toISOString()
+      try {
+        const hfRef = !tool.githubUrl && tool.huggingfaceUrl ? parseHuggingFaceUrl(tool.huggingfaceUrl) : null
+        if (hfRef) {
           const info = await fetchHuggingFace(hfRef)
           tool.meta = {
             ...tool.meta,
@@ -64,60 +69,66 @@ async function main() {
             lastUpdated: info.lastModified,
             lastCommit: info.lastModified,
             fetchedAt: new Date().toISOString(),
+            lastFetchAttempt: attemptedAt,
+            fetchError: undefined,
           }
+          if (info.license !== 'Unknown') tool.license = info.license
           console.log(`✓ ${tool.name}: ${info.likes.toLocaleString()} likes`)
-          totalUpdated++
-          modified = true
-        } catch (error) {
-          console.error(`✗ ${tool.name}: ${(error as Error).message}`)
-          totalFailed++
+        } else {
+          const match = tool.githubUrl?.match(/^https:\/\/github\.com\/([^/]+)\/([^/?#]+)(?:[/?#]|$)/)
+          if (!match) throw new Error('Missing or unsupported project URL')
+
+          const [, owner, repo] = match
+          const repoName = repo.replace(/\.git$/, '')
+          const { data: repoData } = await octokit.repos.get({ owner, repo: repoName })
+          tool.meta = {
+            ...tool.meta,
+            stars: repoData.stargazers_count,
+            forks: repoData.forks_count,
+            watchers: repoData.subscribers_count,
+            openIssues: repoData.open_issues_count,
+            language: repoData.language,
+            archived: repoData.archived,
+            disabled: repoData.disabled,
+            defaultBranch: repoData.default_branch,
+            createdAt: repoData.created_at,
+            lastUpdated: repoData.updated_at ?? tool.meta.lastUpdated,
+            lastCommit: repoData.pushed_at ?? tool.meta.lastCommit,
+            fetchedAt: new Date().toISOString(),
+            lastFetchAttempt: attemptedAt,
+            fetchError: undefined,
+          }
+          tool.githubUrl = tool.githubUrl!.replace(/^https:\/\/github\.com\/[^/]+\/[^/?#]+/, repoData.html_url)
+          if (repoData.license?.spdx_id && repoData.license.spdx_id !== 'NOASSERTION') {
+            tool.license = repoData.license.spdx_id
+          }
+          if (repoData.description) tool.description = repoData.description
+          console.log(`✓ ${tool.name}: ${repoData.stargazers_count.toLocaleString()} stars`)
         }
-        continue
-      }
-
-      if (!tool.githubUrl) continue
-
-      const match = tool.githubUrl.match(/github\.com\/([^/]+)\/([^/]+)/)
-      if (!match) continue
-
-      const [, owner, repo] = match
-      const repoName = repo.replace(/\.git$/, '')
-
-      try {
-        const { data: repoData } = await octokit.repos.get({ owner, repo: repoName })
-        const now = new Date().toISOString()
-
-        tool.meta = {
-          ...tool.meta,
-          stars: repoData.stargazers_count,
-          forks: repoData.forks_count,
-          lastUpdated: repoData.updated_at ?? now,
-          lastCommit: repoData.pushed_at ?? now,
-          fetchedAt: now,
-        }
-
-        if (repoData.description) {
-          tool.description = repoData.description
-        }
-
-        console.log(`✓ ${tool.name}: ${repoData.stargazers_count.toLocaleString()} stars`)
         totalUpdated++
-        modified = true
       } catch (error) {
-        console.error(`✗ ${tool.name}: ${(error as Error).message}`)
-        totalFailed++
+        const message = (error as Error).message
+        const status = (error as { status?: number }).status
+        tool.meta.lastFetchAttempt = attemptedAt
+        tool.meta.fetchError = status ? `HTTP ${status}: ${message}` : message
+        failures.push(`${tool.id}: ${tool.meta.fetchError}`)
+        console.error(`✗ ${tool.name}: ${tool.meta.fetchError}`)
       }
-
-      // Rate limit: 100ms between requests
       await new Promise((resolve) => setTimeout(resolve, 100))
     }
 
-    if (modified) {
-      fs.writeFileSync(toolsPath, JSON.stringify(data, null, 2) + '\n')
-    }
+    fs.writeFileSync(toolsPath, JSON.stringify(data, null, 2) + '\n')
   }
 
-  console.log(`\nDone! Updated: ${totalUpdated}, Failed: ${totalFailed}`)
+  const summary = `Updated: ${totalUpdated}, Failed: ${failures.length}`
+  console.log(`\nDone! ${summary}`)
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${summary}\n\n${failures.join('\n\n')}\n`)
+  }
+  if (failures.length) process.exitCode = 1
 }
 
-main().catch(console.error)
+main().catch((error) => {
+  console.error(error)
+  process.exitCode = 1
+})

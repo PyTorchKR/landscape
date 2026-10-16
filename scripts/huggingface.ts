@@ -49,8 +49,10 @@ function cardLicense(data: any): string {
 }
 
 function latest(dates: Array<string | undefined>): string {
-  const valid = dates.filter((d): d is string => !!d).sort()
-  return valid[valid.length - 1] ?? new Date().toISOString()
+  const valid = dates.filter((d): d is string => !!d && Number.isFinite(Date.parse(d)))
+    .sort((a, b) => Date.parse(a) - Date.parse(b))
+  if (!valid.length) throw new Error('HuggingFace response has no valid modification date')
+  return valid[valid.length - 1]
 }
 
 export async function fetchHuggingFace(ref: HfRef): Promise<HfInfo> {
@@ -81,7 +83,7 @@ export async function fetchHuggingFace(ref: HfRef): Promise<HfInfo> {
     license: cardLicense(data),
     likes: data.likes ?? 0,
     downloads: data.downloads ?? 0,
-    lastModified: data.lastModified ?? new Date().toISOString(),
+    lastModified: latest([data.lastModified]),
     tags: [data.pipeline_tag, data.library_name].filter((t): t is string => !!t),
   }
 }

@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "test": "tsx --test scripts/*.test.ts",
     "update-stars": "tsx scripts/update-stars.ts",
     "add-tool": "tsx scripts/add-tool.ts"
   },

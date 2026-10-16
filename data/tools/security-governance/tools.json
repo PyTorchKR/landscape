@@ -3,11 +3,11 @@
     {
       "id": "nemo-guardrails",
       "name": "NeMo Guardrails",
-      "description": "NVIDIA의 LLM 대화 가드레일 프레임워크",
+      "description": "NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems.",
       "categoryId": "guardrails",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/Guardrails",
       "docsUrl": "https://docs.nvidia.com/nemo/guardrails/",
       "websiteUrl": "https://github.com/NVIDIA/NeMo-Guardrails",
       "koreanSupport": false,
@@ -18,17 +18,25 @@
         "nvidia"
       ],
       "meta": {
-        "stars": 5426,
-        "lastUpdated": "2025-12-21T20:21:16Z",
-        "fetchedAt": "2025-12-22T04:19:35.243Z",
-        "forks": 575,
-        "lastCommit": "2025-12-21T01:08:27Z"
+        "stars": 7309,
+        "lastUpdated": "2026-10-16T04:48:26Z",
+        "fetchedAt": "2026-10-16T04:50:14.183Z",
+        "forks": 869,
+        "lastCommit": "2026-10-15T22:08:14Z",
+        "watchers": 45,
+        "openIssues": 270,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "develop",
+        "createdAt": "2023-04-18T12:32:47Z",
+        "lastFetchAttempt": "2026-10-16T04:50:13.736Z"
       }
     },
     {
       "id": "llm-guard",
       "name": "LLM Guard",
-      "description": "LLM 입출력 보안 가드레일. 프롬프트 인젝션 방어",
+      "description": "The Security Toolkit for LLM Interactions",
       "categoryId": "security-testing",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -43,17 +51,25 @@
         "protection"
       ],
       "meta": {
-        "stars": 2337,
-        "lastUpdated": "2025-12-21T22:12:57Z",
-        "fetchedAt": "2025-12-22T04:19:35.737Z",
-        "forks": 315,
-        "lastCommit": "2025-12-15T13:07:25Z"
+        "stars": 3216,
+        "lastUpdated": "2026-10-15T21:05:57Z",
+        "fetchedAt": "2026-10-16T04:50:14.689Z",
+        "forks": 466,
+        "lastCommit": "2026-07-08T23:58:40Z",
+        "watchers": 30,
+        "openIssues": 38,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-07-27T19:03:13Z",
+        "lastFetchAttempt": "2026-10-16T04:50:14.286Z"
       }
     },
     {
       "id": "guardrails-ai",
       "name": "Guardrails AI",
-      "description": "LLM 출력을 구조화하고 검증하는 프레임워크",
+      "description": "Adding guardrails to large language models.",
       "categoryId": "guardrails",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -67,20 +83,28 @@
         "structured-output"
       ],
       "meta": {
-        "stars": 6175,
-        "lastUpdated": "2025-12-22T02:19:51Z",
-        "fetchedAt": "2025-12-22T04:19:36.191Z",
-        "forks": 493,
-        "lastCommit": "2025-12-18T02:08:59Z"
+        "stars": 7527,
+        "lastUpdated": "2026-10-15T23:35:47Z",
+        "fetchedAt": "2026-10-16T04:50:15.165Z",
+        "forks": 721,
+        "lastCommit": "2026-10-15T02:25:34Z",
+        "watchers": 41,
+        "openIssues": 72,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-01-29T04:11:35Z",
+        "lastFetchAttempt": "2026-10-16T04:50:14.792Z"
       }
     },
     {
       "id": "rebuff",
       "name": "Rebuff",
-      "description": "LLM 프롬프트 인젝션 탐지 도구",
+      "description": "LLM Prompt Injection Detector",
       "categoryId": "guardrails",
       "moduleId": "security-governance",
-      "license": "MIT",
+      "license": "Apache-2.0",
       "githubUrl": "https://github.com/protectai/rebuff",
       "docsUrl": "https://github.com/protectai/rebuff#readme",
       "websiteUrl": "https://github.com/protectai/rebuff",
@@ -91,17 +115,25 @@
         "security"
       ],
       "meta": {
-        "stars": 1390,
-        "lastUpdated": "2025-12-21T20:53:39Z",
-        "fetchedAt": "2025-12-22T04:19:36.662Z",
-        "forks": 121,
-        "lastCommit": "2024-08-07T23:35:48Z"
+        "stars": 1529,
+        "lastUpdated": "2026-10-15T21:07:33Z",
+        "fetchedAt": "2026-10-16T04:50:15.654Z",
+        "forks": 152,
+        "lastCommit": "2024-08-07T23:35:48Z",
+        "watchers": 2,
+        "openIssues": 32,
+        "language": "TypeScript",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-24T05:49:09Z",
+        "lastFetchAttempt": "2026-10-16T04:50:15.268Z"
       }
     },
     {
       "id": "openrlhf",
       "name": "OpenRLHF",
-      "description": "RLHF 기반 LLM 정렬 학습 오픈소스 프레임워크",
+      "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
       "categoryId": "alignment",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -116,17 +148,25 @@
         "training"
       ],
       "meta": {
-        "stars": 8635,
-        "lastUpdated": "2025-12-22T00:35:10Z",
-        "fetchedAt": "2025-12-22T04:19:37.119Z",
-        "forks": 838,
-        "lastCommit": "2025-12-18T14:18:48Z"
+        "stars": 10089,
+        "lastUpdated": "2026-10-15T13:11:44Z",
+        "fetchedAt": "2026-10-16T04:50:16.170Z",
+        "forks": 1046,
+        "lastCommit": "2026-10-05T17:33:02Z",
+        "watchers": 57,
+        "openIssues": 397,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-07-30T02:20:13Z",
+        "lastFetchAttempt": "2026-10-16T04:50:15.755Z"
       }
     },
     {
       "id": "aif360",
       "name": "AIF360",
-      "description": "IBM의 AI 공정성 툴킷. 편향 탐지 및 완화",
+      "description": "A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models.",
       "categoryId": "fairness-bias",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -141,17 +181,25 @@
         "ml"
       ],
       "meta": {
-        "stars": 2723,
-        "lastUpdated": "2025-12-18T06:37:33Z",
-        "fetchedAt": "2025-12-22T04:19:37.568Z",
-        "forks": 897,
-        "lastCommit": "2025-11-13T16:48:24Z"
+        "stars": 2877,
+        "lastUpdated": "2026-10-15T03:12:52Z",
+        "fetchedAt": "2026-10-16T04:50:16.669Z",
+        "forks": 913,
+        "lastCommit": "2026-06-15T19:55:33Z",
+        "watchers": 90,
+        "openIssues": 228,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-08-22T20:47:15Z",
+        "lastFetchAttempt": "2026-10-16T04:50:16.272Z"
       }
     },
     {
       "id": "fairlearn",
       "name": "Fairlearn",
-      "description": "Microsoft의 AI 공정성 평가 및 완화 툴킷",
+      "description": "A Python package to assess and improve fairness of machine learning models.",
       "categoryId": "fairness-bias",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -166,17 +214,25 @@
         "ml"
       ],
       "meta": {
-        "stars": 2177,
-        "lastUpdated": "2025-12-21T14:06:40Z",
-        "fetchedAt": "2025-12-22T04:19:38.047Z",
-        "forks": 478,
-        "lastCommit": "2025-12-19T18:48:58Z"
+        "stars": 2296,
+        "lastUpdated": "2026-10-15T17:31:13Z",
+        "fetchedAt": "2026-10-16T04:50:17.202Z",
+        "forks": 524,
+        "lastCommit": "2026-10-15T09:18:21Z",
+        "watchers": 37,
+        "openIssues": 124,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-05-15T01:51:35Z",
+        "lastFetchAttempt": "2026-10-16T04:50:16.771Z"
       }
     },
     {
       "id": "pyrit",
       "name": "PyRIT",
-      "description": "Microsoft Azure의 AI 레드팀 자동화 프레임워크",
+      "description": "The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.",
       "categoryId": "security-testing",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -191,17 +247,25 @@
         "azure"
       ],
       "meta": {
-        "stars": 3226,
-        "lastUpdated": "2025-12-21T15:14:54Z",
-        "fetchedAt": "2025-12-22T04:19:38.612Z",
-        "forks": 630,
-        "lastCommit": "2025-12-21T14:41:20Z"
+        "stars": 119,
+        "lastUpdated": "2026-10-15T04:56:51Z",
+        "fetchedAt": "2026-10-16T04:50:17.839Z",
+        "forks": 33,
+        "lastCommit": "2026-03-25T01:18:52Z",
+        "watchers": 0,
+        "openIssues": 0,
+        "language": null,
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-03-25T00:50:57Z",
+        "lastFetchAttempt": "2026-10-16T04:50:17.304Z"
       }
     },
     {
       "id": "lm-evaluation-harness",
       "name": "LM Evaluation Harness",
-      "description": "EleutherAI의 언어 모델 평가 프레임워크",
+      "description": "A framework for few-shot evaluation of language models.",
       "categoryId": "governance",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -215,21 +279,29 @@
         "llm"
       ],
       "meta": {
-        "stars": 10991,
-        "lastUpdated": "2025-12-22T03:30:21Z",
-        "fetchedAt": "2025-12-22T04:19:39.150Z",
-        "forks": 2915,
-        "lastCommit": "2025-12-18T21:45:37Z"
+        "stars": 14237,
+        "lastUpdated": "2026-10-16T02:54:08Z",
+        "fetchedAt": "2026-10-16T04:50:18.281Z",
+        "forks": 3685,
+        "lastCommit": "2026-09-14T10:51:06Z",
+        "watchers": 55,
+        "openIssues": 1188,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-08-28T00:09:15Z",
+        "lastFetchAttempt": "2026-10-16T04:50:17.941Z"
       }
     },
     {
       "id": "ragas",
       "name": "RAGAS",
-      "description": "RAG 파이프라인 평가 프레임워크. 자동 평가 지표",
+      "description": "Supercharge Your LLM Application Evaluations 🚀",
       "categoryId": "governance",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
-      "githubUrl": "https://github.com/explodinggradients/ragas",
+      "githubUrl": "https://github.com/vibrantlabsai/ragas",
       "docsUrl": "https://docs.ragas.io/",
       "websiteUrl": "https://ragas.io/",
       "koreanSupport": false,
@@ -239,17 +311,25 @@
         "testing"
       ],
       "meta": {
-        "stars": 11807,
-        "lastUpdated": "2025-12-22T03:34:50Z",
-        "fetchedAt": "2025-12-22T04:19:39.926Z",
-        "forks": 1180,
-        "lastCommit": "2025-12-20T16:26:02Z"
+        "stars": 16037,
+        "lastUpdated": "2026-10-16T02:57:35Z",
+        "fetchedAt": "2026-10-16T04:50:18.779Z",
+        "forks": 1769,
+        "lastCommit": "2026-02-24T07:47:19Z",
+        "watchers": 66,
+        "openIssues": 637,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-08T17:48:04Z",
+        "lastFetchAttempt": "2026-10-16T04:50:18.383Z"
       }
     },
     {
       "id": "promptfoo",
       "name": "promptfoo",
-      "description": "LLM 프롬프트 테스트, 평가 및 레드팀 도구",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
       "categoryId": "governance",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -264,17 +344,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 9521,
-        "lastUpdated": "2025-12-22T03:36:23Z",
-        "fetchedAt": "2025-12-22T04:19:40.366Z",
-        "forks": 827,
-        "lastCommit": "2025-12-22T04:16:26Z"
+        "stars": 26031,
+        "lastUpdated": "2026-10-16T04:32:29Z",
+        "fetchedAt": "2026-10-16T04:50:19.277Z",
+        "forks": 2486,
+        "lastCommit": "2026-10-16T03:36:24Z",
+        "watchers": 77,
+        "openIssues": 734,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-04-28T15:48:49Z",
+        "lastFetchAttempt": "2026-10-16T04:50:18.881Z"
       }
     },
     {
       "id": "deepeval",
       "name": "DeepEval",
-      "description": "LLM 애플리케이션 테스트 및 평가 프레임워크",
+      "description": "The LLM Evaluation Framework",
       "categoryId": "governance",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -289,17 +377,25 @@
         "rag"
       ],
       "meta": {
-        "stars": 12676,
-        "lastUpdated": "2025-12-22T01:21:11Z",
-        "fetchedAt": "2025-12-22T04:19:40.870Z",
-        "forks": 1118,
-        "lastCommit": "2025-12-21T15:15:34Z"
+        "stars": 18896,
+        "lastUpdated": "2026-10-16T03:38:29Z",
+        "fetchedAt": "2026-10-16T04:50:19.744Z",
+        "forks": 2077,
+        "lastCommit": "2026-10-15T17:12:00Z",
+        "watchers": 70,
+        "openIssues": 735,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-08-10T05:35:04Z",
+        "lastFetchAttempt": "2026-10-16T04:50:19.380Z"
       }
     },
     {
       "id": "trulens",
       "name": "TruLens",
-      "description": "LLM 애플리케이션 평가 및 추적 라이브러리",
+      "description": "Evaluation and Tracking for LLM Experiments and AI Agents",
       "categoryId": "governance",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -313,17 +409,25 @@
         "llm"
       ],
       "meta": {
-        "stars": 2988,
-        "lastUpdated": "2025-12-21T22:45:57Z",
-        "fetchedAt": "2025-12-22T04:19:41.507Z",
-        "forks": 237,
-        "lastCommit": "2025-12-20T01:17:26Z"
+        "stars": 3602,
+        "lastUpdated": "2026-10-15T03:45:10Z",
+        "fetchedAt": "2026-10-16T04:50:20.259Z",
+        "forks": 365,
+        "lastCommit": "2026-10-15T21:27:04Z",
+        "watchers": 23,
+        "openIssues": 97,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-11-02T21:56:45Z",
+        "lastFetchAttempt": "2026-10-16T04:50:19.845Z"
       }
     },
     {
       "id": "model-card-toolkit",
       "name": "Model Card Toolkit",
-      "description": "Google의 ML 모델 문서화 도구",
+      "description": "A toolkit that streamlines and automates the generation of model cards ",
       "categoryId": "governance",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -337,17 +441,25 @@
         "responsible-ai"
       ],
       "meta": {
-        "stars": 441,
-        "lastUpdated": "2025-12-08T20:14:18Z",
-        "fetchedAt": "2025-12-22T04:19:42.120Z",
-        "forks": 90,
-        "lastCommit": "2023-07-26T12:05:00Z"
+        "stars": 451,
+        "lastUpdated": "2026-09-15T17:06:45Z",
+        "fetchedAt": "2026-10-16T04:50:20.781Z",
+        "forks": 88,
+        "lastCommit": "2023-07-26T12:05:00Z",
+        "watchers": 3,
+        "openIssues": 9,
+        "language": "Python",
+        "archived": true,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2020-07-24T16:48:58Z",
+        "lastFetchAttempt": "2026-10-16T04:50:20.361Z"
       }
     },
     {
       "id": "art",
       "name": "Adversarial Robustness Toolbox",
-      "description": "IBM의 ML 보안 라이브러리. 적대적 공격/방어",
+      "description": "Adversarial Robustness Toolbox (ART) - Python Library for Machine Learning Security - Evasion, Poisoning, Extraction, Inference - Red and Blue Teams",
       "categoryId": "security-testing",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -362,17 +474,25 @@
         "ml"
       ],
       "meta": {
-        "stars": 5734,
-        "lastUpdated": "2025-12-20T12:35:51Z",
-        "fetchedAt": "2025-12-22T04:19:42.621Z",
-        "forks": 1278,
-        "lastCommit": "2025-12-12T07:01:28Z"
+        "stars": 6279,
+        "lastUpdated": "2026-10-15T15:44:42Z",
+        "fetchedAt": "2026-10-16T04:50:21.255Z",
+        "forks": 1348,
+        "lastCommit": "2026-10-08T15:38:37Z",
+        "watchers": 102,
+        "openIssues": 22,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-03-15T14:40:43Z",
+        "lastFetchAttempt": "2026-10-16T04:50:20.884Z"
       }
     },
     {
       "id": "shap",
       "name": "SHAP",
-      "description": "A game theoretic approach to explain the output of any machine learning model using Shapley values",
+      "description": "A game theoretic approach to explain the output of any machine learning model.",
       "categoryId": "xai",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -385,16 +505,25 @@
         "interpretability"
       ],
       "meta": {
-        "stars": 22000,
-        "forks": 3200,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 25815,
+        "forks": 3775,
+        "lastUpdated": "2026-10-16T03:13:42Z",
+        "fetchedAt": "2026-10-16T04:50:21.726Z",
+        "watchers": 246,
+        "openIssues": 996,
+        "language": "Jupyter Notebook",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2016-11-22T19:17:08Z",
+        "lastCommit": "2026-10-15T21:25:44Z",
+        "lastFetchAttempt": "2026-10-16T04:50:21.357Z"
       }
     },
     {
       "id": "lime",
       "name": "LIME",
-      "description": "Local Interpretable Model-agnostic Explanations — explains predictions of any classifier",
+      "description": "Lime: Explaining the predictions of any machine learning classifier",
       "categoryId": "xai",
       "moduleId": "security-governance",
       "license": "BSD-2-Clause",
@@ -407,20 +536,29 @@
         "interpretability"
       ],
       "meta": {
-        "stars": 11500,
-        "forks": 1800,
-        "lastUpdated": "2025-10-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 12168,
+        "forks": 1847,
+        "lastUpdated": "2026-10-16T02:40:24Z",
+        "fetchedAt": "2026-10-16T04:50:22.146Z",
+        "watchers": 259,
+        "openIssues": 134,
+        "language": "JavaScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2016-03-15T22:18:10Z",
+        "lastCommit": "2024-07-25T20:32:21Z",
+        "lastFetchAttempt": "2026-10-16T04:50:21.829Z"
       }
     },
     {
       "id": "captum",
       "name": "Captum",
-      "description": "Model interpretability and understanding library for PyTorch — integrated gradients, saliency maps, and more",
+      "description": "Model interpretability and understanding for PyTorch",
       "categoryId": "xai",
       "moduleId": "security-governance",
       "license": "BSD-3-Clause",
-      "githubUrl": "https://github.com/pytorch/captum",
+      "githubUrl": "https://github.com/meta-pytorch/captum",
       "koreanSupport": false,
       "tags": [
         "xai",
@@ -429,16 +567,25 @@
         "attribution"
       ],
       "meta": {
-        "stars": 4800,
-        "forks": 490,
-        "lastUpdated": "2025-11-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 5711,
+        "forks": 572,
+        "lastUpdated": "2026-10-15T20:44:39Z",
+        "fetchedAt": "2026-10-16T04:50:22.718Z",
+        "watchers": 276,
+        "openIssues": 79,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2019-08-27T15:34:41Z",
+        "lastCommit": "2026-10-15T20:47:32Z",
+        "lastFetchAttempt": "2026-10-16T04:50:22.247Z"
       }
     },
     {
       "id": "interpret",
       "name": "InterpretML",
-      "description": "Fit interpretable models and explain blackbox systems with glassbox models and SHAP",
+      "description": "Fit interpretable models. Explain blackbox machine learning. ",
       "categoryId": "xai",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -451,20 +598,29 @@
         "glassbox"
       ],
       "meta": {
-        "stars": 6100,
-        "forks": 720,
-        "lastUpdated": "2025-11-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 6961,
+        "forks": 791,
+        "lastUpdated": "2026-10-15T15:43:36Z",
+        "fetchedAt": "2026-10-16T04:50:23.237Z",
+        "watchers": 142,
+        "openIssues": 44,
+        "language": "C++",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-05-03T05:47:52Z",
+        "lastCommit": "2026-10-14T09:49:52Z",
+        "lastFetchAttempt": "2026-10-16T04:50:22.821Z"
       }
     },
     {
       "id": "presidio",
       "name": "Presidio",
-      "description": "Context aware, pluggable and customizable PII anonymization service for text and images",
+      "description": "An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.",
       "categoryId": "data-privacy",
       "moduleId": "security-governance",
       "license": "MIT",
-      "githubUrl": "https://github.com/microsoft/presidio",
+      "githubUrl": "https://github.com/data-privacy-stack/presidio",
       "koreanSupport": false,
       "tags": [
         "pii",
@@ -473,20 +629,29 @@
         "nlp"
       ],
       "meta": {
-        "stars": 3500,
-        "forks": 680,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 11346,
+        "forks": 1350,
+        "lastUpdated": "2026-10-16T03:22:51Z",
+        "fetchedAt": "2026-10-16T04:50:23.677Z",
+        "watchers": 99,
+        "openIssues": 188,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2018-05-04T11:08:58Z",
+        "lastCommit": "2026-10-09T05:18:46Z",
+        "lastFetchAttempt": "2026-10-16T04:50:23.340Z"
       }
     },
     {
       "id": "diffprivlib",
       "name": "Diffprivlib",
-      "description": "IBM's general-purpose library for experimenting with, investigating, and developing differential privacy applications",
+      "description": "Diffprivlib: The IBM Differential Privacy Library",
       "categoryId": "data-privacy",
       "moduleId": "security-governance",
       "license": "MIT",
-      "githubUrl": "https://github.com/IBM/diffprivlib",
+      "githubUrl": "https://github.com/IBM/differential-privacy-library",
       "koreanSupport": false,
       "tags": [
         "differential-privacy",
@@ -494,16 +659,25 @@
         "machine-learning"
       ],
       "meta": {
-        "stars": 1800,
-        "forks": 250,
-        "lastUpdated": "2025-10-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 920,
+        "forks": 209,
+        "lastUpdated": "2026-10-12T14:52:47Z",
+        "fetchedAt": "2026-10-16T04:50:24.172Z",
+        "watchers": 28,
+        "openIssues": 12,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-06-18T13:36:41Z",
+        "lastCommit": "2026-10-12T14:52:41Z",
+        "lastFetchAttempt": "2026-10-16T04:50:23.779Z"
       }
     },
     {
       "id": "tensorflow-privacy",
       "name": "TensorFlow Privacy",
-      "description": "Library for training machine learning models with privacy guarantees (differential privacy)",
+      "description": "Library for training machine learning models with privacy for training data",
       "categoryId": "data-privacy",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -515,16 +689,25 @@
         "privacy-preserving"
       ],
       "meta": {
-        "stars": 1900,
-        "forks": 430,
-        "lastUpdated": "2025-11-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 2040,
+        "forks": 476,
+        "lastUpdated": "2026-10-13T21:41:06Z",
+        "fetchedAt": "2026-10-16T04:50:24.711Z",
+        "watchers": 61,
+        "openIssues": 136,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "master",
+        "createdAt": "2018-12-21T18:46:46Z",
+        "lastCommit": "2026-10-12T12:39:10Z",
+        "lastFetchAttempt": "2026-10-16T04:50:24.275Z"
       }
     },
     {
       "id": "safe-rlhf",
       "name": "Safe RLHF",
-      "description": "PKU-Alignment's constrained RLHF framework — aligning LLMs with human values through safe reinforcement learning from human feedback",
+      "description": "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback",
       "categoryId": "alignment",
       "moduleId": "security-governance",
       "license": "Apache-2.0",
@@ -538,16 +721,25 @@
         "human-values"
       ],
       "meta": {
-        "stars": 1500,
-        "forks": 140,
-        "lastUpdated": "2025-12-01T00:00:00Z",
-        "fetchedAt": "2026-03-01T00:00:00.000Z"
+        "stars": 1620,
+        "forks": 134,
+        "lastUpdated": "2026-10-15T20:53:09Z",
+        "fetchedAt": "2026-10-16T04:50:25.209Z",
+        "watchers": 15,
+        "openIssues": 19,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-05-15T11:47:08Z",
+        "lastCommit": "2025-11-24T04:07:51Z",
+        "lastFetchAttempt": "2026-10-16T04:50:24.813Z"
       }
     },
     {
       "id": "vxcontrol-pentagi",
       "name": "pentagi",
-      "description": "_No response_",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "categoryId": "security-testing",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -574,11 +766,19 @@
         "self-hosted"
       ],
       "meta": {
-        "stars": 8848,
-        "forks": 991,
-        "lastUpdated": "2026-03-02T08:14:45Z",
-        "lastCommit": "2026-03-01T20:24:42Z",
-        "fetchedAt": "2026-03-02T08:27:41.405Z"
+        "stars": 30544,
+        "forks": 4594,
+        "lastUpdated": "2026-10-16T04:38:59Z",
+        "lastCommit": "2026-10-09T20:54:31Z",
+        "fetchedAt": "2026-10-16T04:50:25.728Z",
+        "watchers": 161,
+        "openIssues": 35,
+        "language": "Go",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2025-01-06T22:22:48Z",
+        "lastFetchAttempt": "2026-10-16T04:50:25.311Z"
       }
     },
     {
@@ -599,17 +799,25 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 1931,
-        "forks": 396,
-        "lastUpdated": "2026-05-22T15:54:47Z",
-        "lastCommit": "2026-05-20T20:09:26Z",
-        "fetchedAt": "2026-05-24T01:19:32.215Z"
+        "stars": 1966,
+        "forks": 399,
+        "lastUpdated": "2026-10-16T01:01:27Z",
+        "lastCommit": "2026-09-24T18:49:30Z",
+        "fetchedAt": "2026-10-16T04:50:26.246Z",
+        "watchers": 44,
+        "openIssues": 77,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2019-12-07T01:58:09Z",
+        "lastFetchAttempt": "2026-10-16T04:50:25.831Z"
       }
     },
     {
       "id": "microsoft-agent-governance-toolkit",
       "name": "agent-governance-toolkit",
-      "description": "자율 AI 에이전트를 위한 정책 시행·zero-trust 신원·실행 샌드박싱·신뢰성 엔지니어링 툴킷입니다. OWASP Agentic Top 10을 전부 다루는 정책 엔진 기반 런타임 가드레일을 제공합니다.",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
       "categoryId": "guardrails",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -630,17 +838,25 @@
         "zero-trust"
       ],
       "meta": {
-        "stars": 3580,
-        "forks": 510,
-        "lastUpdated": "2026-06-01T03:13:12Z",
-        "lastCommit": "2026-05-31T18:56:51Z",
-        "fetchedAt": "2026-06-01T03:23:57.552Z"
+        "stars": 6431,
+        "forks": 1136,
+        "lastUpdated": "2026-10-16T04:46:57Z",
+        "lastCommit": "2026-10-15T21:29:48Z",
+        "fetchedAt": "2026-10-16T04:50:26.820Z",
+        "watchers": 91,
+        "openIssues": 90,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2026-03-02T22:11:47Z",
+        "lastFetchAttempt": "2026-10-16T04:50:26.348Z"
       }
     },
     {
       "id": "noamgat-lm-format-enforcer",
       "name": "lm-format-enforcer",
-      "description": "언어 모델의 출력 형식(JSON Schema, 정규식 등)을 추론 시점에 강제하는 라이브러리. 토큰 단위 필터링으로 문법/스키마를 준수하는 출력만 생성하도록 보장하며 Transformers, vLLM, llama.cpp 등 다양한 백엔드와 통합된다.",
+      "description": "Enforce the output format (JSON Schema, Regex etc) of a language model",
       "categoryId": "guardrails",
       "moduleId": "security-governance",
       "license": "MIT",
@@ -648,11 +864,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 2042,
-        "forks": 94,
-        "lastUpdated": "2026-09-28T09:45:21Z",
+        "stars": 2041,
+        "forks": 95,
+        "lastUpdated": "2026-10-05T11:09:08Z",
         "lastCommit": "2026-04-04T14:57:50Z",
-        "fetchedAt": "2026-10-03T02:14:57.251Z"
+        "fetchedAt": "2026-10-16T04:50:27.235Z",
+        "watchers": 15,
+        "openIssues": 54,
+        "language": "Python",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2023-09-21T12:16:48Z",
+        "lastFetchAttempt": "2026-10-16T04:50:26.921Z"
       }
     },
     {
@@ -669,10 +893,11 @@
       "meta": {
         "stars": 0,
         "likes": 63,
-        "downloads": 1722,
+        "downloads": 1626,
         "lastUpdated": "2025-05-27T00:36:39.000Z",
         "lastCommit": "2025-05-27T00:36:39.000Z",
-        "fetchedAt": "2026-10-04T20:33:27.601Z"
+        "fetchedAt": "2026-10-16T04:50:27.821Z",
+        "lastFetchAttempt": "2026-10-16T04:50:27.338Z"
       }
     },
     {
@@ -688,11 +913,12 @@
       "tags": [],
       "meta": {
         "stars": 0,
-        "likes": 38,
-        "downloads": 1200,
+        "likes": 40,
+        "downloads": 1004,
         "lastUpdated": "2025-12-15T08:22:37.000Z",
         "lastCommit": "2025-12-15T08:22:37.000Z",
-        "fetchedAt": "2026-10-05T04:42:25.202Z"
+        "fetchedAt": "2026-10-16T04:50:28.344Z",
+        "lastFetchAttempt": "2026-10-16T04:50:27.923Z"
       }
     }
   ]

@@ -7,6 +7,15 @@ export interface ToolMeta {
   lastUpdated: string
   lastCommit?: string
   fetchedAt: string
+  lastFetchAttempt?: string
+  fetchError?: string
+  watchers?: number
+  openIssues?: number
+  language?: string | null
+  archived?: boolean
+  disabled?: boolean
+  defaultBranch?: string
+  createdAt?: string
 }
 
 export interface Tool {

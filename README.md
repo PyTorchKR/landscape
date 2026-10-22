@@ -58,7 +58,9 @@ Build & Deploy는 `main`에 push될 때와 매일 KST 03:00에 자동 실행되�
 The refresh saves successful results and records each failed attempt in `meta.lastFetchAttempt` and `meta.fetchError`.
 If a source fails, its prior values and `meta.fetchedAt` stay unchanged.
 The workflow commits the `data` directory and publishes available updates.
-The separate `check-refresh` job marks an incomplete refresh as failed and keeps deployment independent.
+The known 404 responses from `wrtnlabs/autobe`, `wrtnlabs/agentica`, and `furiosa-ai/furiosa-rngd-validator` produce warnings and keep prior values.
+Other failures still return a nonzero exit code.
+The separate `check-refresh` job reports those failures and keeps deployment independent.
 
 수동으로 실행하려면 Actions 탭에서 **Build & Deploy → Run workflow**를 누르거나 다음 명령을 사용합니다.
 

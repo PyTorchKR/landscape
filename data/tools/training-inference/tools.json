@@ -1063,7 +1063,7 @@
     },
     {
       "id": "pytorch-ao",
-      "name": "torchao",
+      "name": "TorchAO",
       "description": "PyTorch native quantization for training and inference",
       "categoryId": "model-compression",
       "moduleId": "training-inference",

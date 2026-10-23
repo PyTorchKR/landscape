@@ -92,7 +92,7 @@ test('CLI follows repository redirects without changing display names, IDs or UR
   for (const target of ['new-owner/old-name', 'old-owner/new-name', 'new-owner/new-name']) {
     const fx = fixture([{
       ...tool('stable-project-id', 'https://github.com/old-owner/old-name/tree/main/src?raw=1#readme'),
-      name: 'Edited project name', categoryId: 'example-category', moduleId: 'example',
+      name: 'TorchAO', categoryId: 'example-category', moduleId: 'example',
     }])
     writeFileSync(join(fx.root, 'mock.mjs'), `
       import { createServer } from 'node:http';
@@ -120,7 +120,7 @@ test('CLI follows repository redirects without changing display names, IDs or UR
     try {
       const result = fx.run(); assert.equal(result.status, 0, result.stderr)
       const [updated] = fx.read()
-      assert.equal(updated.name, 'Edited project name')
+      assert.equal(updated.name, 'TorchAO')
       assert.equal(updated.githubUrl, `https://github.com/${target}/tree/main/src?raw=1#readme`)
       assert.equal(updated.id, 'stable-project-id')
       assert.equal(updated.categoryId, 'example-category'); assert.equal(updated.moduleId, 'example')

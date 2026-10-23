@@ -57,6 +57,7 @@ async function main() {
   let totalUpdated = 0
   const failures: string[] = []
   const unavailable: string[] = []
+  const urlChanges: string[] = []
 
   for (const moduleDir of moduleDirs) {
     const toolsPath = path.join(TOOLS_DIR, moduleDir, 'tools.json')
@@ -89,6 +90,7 @@ async function main() {
           const [, owner, repo] = match
           const repoName = repo.replace(/\.git$/, '')
           const { data: repoData } = await octokit.repos.get({ owner, repo: repoName })
+          const previousUrl = tool.githubUrl!
           tool.meta = {
             ...tool.meta,
             stars: repoData.stargazers_count,
@@ -106,7 +108,12 @@ async function main() {
             lastFetchAttempt: attemptedAt,
             fetchError: undefined,
           }
-          tool.githubUrl = tool.githubUrl!.replace(/^https:\/\/github\.com\/[^/]+\/[^/?#]+/, repoData.html_url)
+          tool.githubUrl = previousUrl.replace(/^https:\/\/github\.com\/[^/]+\/[^/?#]+/, repoData.html_url)
+          if (previousUrl !== tool.githubUrl) {
+            const change = `${tool.id}: ${previousUrl} -> ${tool.githubUrl}`
+            urlChanges.push(change)
+            console.log(change)
+          }
           if (repoData.license?.spdx_id && repoData.license.spdx_id !== 'NOASSERTION') {
             tool.license = repoData.license.spdx_id
           }
@@ -136,10 +143,11 @@ async function main() {
     fs.writeFileSync(toolsPath, JSON.stringify(data, null, 2) + '\n')
   }
 
-  const summary = `Updated: ${totalUpdated}, Unavailable: ${unavailable.length}, Failed: ${failures.length}`
+  const summary = `Updated: ${totalUpdated}, Unavailable: ${unavailable.length}, Failed: ${failures.length}, URLs updated: ${urlChanges.length}`
   console.log(`\nDone! ${summary}`)
   if (process.env.GITHUB_STEP_SUMMARY) {
     const details = [summary,
+      ...(urlChanges.length ? ['Repository URL changes', ...urlChanges] : []),
       ...(unavailable.length ? ['Unavailable sources (previous values retained)', ...unavailable] : []),
       ...(failures.length ? ['Failures', ...failures] : []),
     ]

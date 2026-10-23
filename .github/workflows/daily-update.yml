@@ -39,17 +39,17 @@ jobs:
       - name: Test data refresh
         run: pnpm test
 
-      - name: Update GitHub Stars
+      - name: Update repository URLs and metadata
         id: refresh
         continue-on-error: true
         run: pnpm run update-stars
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit star updates
+      - name: Commit repository updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update GitHub stars'
+          commit_message: 'chore: update repository metadata'
           file_pattern: 'data'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'

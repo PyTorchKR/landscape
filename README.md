@@ -54,13 +54,19 @@ AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝�
 
 ### 사이트 다시 빌드하기
 
-Build & Deploy는 `main`에 push될 때와 매일 KST 03:00에 자동 실행되며, 이때 모든 프로젝트의 Stars 정보도 갱신합니다.
+Build & Deploy는 `main`에 push될 때와 매일 KST 03:00에 자동 실행되며, 이때 저장소 URL과 Stars 정보도 갱신합니다.
 The refresh saves successful results and records each failed attempt in `meta.lastFetchAttempt` and `meta.fetchError`.
 If a source fails, its prior values and `meta.fetchedAt` stay unchanged.
 The workflow commits the `data` directory and publishes available updates.
 The known 404 responses from `wrtnlabs/autobe`, `wrtnlabs/agentica`, and `furiosa-ai/furiosa-rngd-validator` produce warnings and keep prior values.
 Other failures still return a nonzero exit code.
 The separate `check-refresh` job reports those failures and keeps deployment independent.
+
+The refresh follows GitHub redirects to update `githubUrl` after repository renames and transfers.
+It preserves project display names in `name`, including branding and capitalization.
+The refresh keeps URL subdirectory paths, queries, and fragments.
+Project IDs and category references stay unchanged, and HuggingFace entries keep their display names.
+The job summary lists each repository URL change.
 
 수동으로 실행하려면 Actions 탭에서 **Build & Deploy → Run workflow**를 누르거나 다음 명령을 사용합니다.
 

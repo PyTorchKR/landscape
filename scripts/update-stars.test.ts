@@ -27,10 +27,11 @@ function fixture(tools: ReturnType<typeof tool>[]) {
       if ((url.includes('/wrtnlabs/') || url.includes('/furiosa-ai/furiosa-rngd-validator')) && knownStatus !== 200) return Response.json({message: 'Not Found'}, {status: knownStatus});
       if (url.includes('/missing')) return Response.json({message: 'Not Found'}, {status: 404});
       if (url.includes('api.github.com')) return Response.json({
+        name: process.env.TEST_REPO_NAME ?? 'canonical',
         stargazers_count: 42, forks_count: 7, subscribers_count: 3, open_issues_count: 2,
         language: 'TypeScript', archived: false, disabled: false, default_branch: 'main',
         created_at: '2024-01-01T00:00:00Z', updated_at: '2026-10-15T00:00:00Z',
-        pushed_at: '2026-10-14T00:00:00Z', html_url: 'https://github.com/example/canonical',
+        pushed_at: '2026-10-14T00:00:00Z', html_url: process.env.TEST_REPO_URL ?? 'https://github.com/example/canonical',
         description: 'Current description', license: {spdx_id: 'MIT'}
       });
       if (url.includes('/collections/')) return Response.json({title: 'Collection',
@@ -67,7 +68,9 @@ test('CLI refreshes GitHub and all supported HF types and clears old errors', ()
     assert.equal(gh.meta.watchers, 3); assert.equal(gh.meta.openIssues, 2)
     assert.equal(gh.meta.language, 'TypeScript'); assert.equal(gh.meta.archived, false)
     assert.equal(gh.githubUrl, 'https://github.com/example/canonical')
+    assert.equal(gh.name, 'gh')
     assert.equal(subdirectory.githubUrl, 'https://github.com/example/canonical/tree/main/package')
+    assert.equal(subdirectory.name, 'subdirectory')
     assert.equal(subdirectory.meta.stars, 42)
     assert.equal(gh.license, 'MIT'); assert.equal(gh.meta.lastCommit, '2026-10-14T00:00:00Z')
     assert.equal(gh.meta.fetchError, undefined)
@@ -80,8 +83,88 @@ test('CLI refreshes GitHub and all supported HF types and clears old errors', ()
       assert.equal(t.meta.lastCommit, '2026-10-13T00:00:00Z')
       assert.equal(t.license, 'apache-2.0')
     }
+    assert.deepEqual(hf.map(t => t.name), ['model', 'dataset', 'collection'])
     assert.match(result.stdout, /Updated: 5, Unavailable: 0, Failed: 0/)
   } finally { fx.clean() }
+})
+
+test('CLI follows repository redirects without changing display names, IDs or URL suffixes', () => {
+  for (const target of ['new-owner/old-name', 'old-owner/new-name', 'new-owner/new-name']) {
+    const fx = fixture([{
+      ...tool('stable-project-id', 'https://github.com/old-owner/old-name/tree/main/src?raw=1#readme'),
+      name: 'Edited project name', categoryId: 'example-category', moduleId: 'example',
+    }])
+    writeFileSync(join(fx.root, 'mock.mjs'), `
+      import { createServer } from 'node:http';
+      import { appendFileSync } from 'node:fs';
+      const nativeFetch = globalThis.fetch;
+      const server = createServer((req, res) => {
+        res.setHeader('connection', 'close');
+        appendFileSync('requests.txt', req.url + '\\n');
+        if (req.url === '/repos/old-owner/old-name') {
+          res.writeHead(301, {location: '/repos/${target}'});
+          res.end();
+        } else if (req.url === '/repos/${target}') {
+          res.writeHead(200, {'content-type': 'application/json'});
+          res.end(JSON.stringify({name: '${target.split('/')[1]}', html_url: 'https://github.com/${target}',
+            stargazers_count: 42, updated_at: '2026-10-22T00:00:00Z'}));
+        } else {
+          res.writeHead(404); res.end();
+        }
+      });
+      await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+      server.unref();
+      const base = 'http://127.0.0.1:' + server.address().port;
+      globalThis.fetch = (input, init) => nativeFetch(String(input).replace('https://api.github.com', base), init);
+    `)
+    try {
+      const result = fx.run(); assert.equal(result.status, 0, result.stderr)
+      const [updated] = fx.read()
+      assert.equal(updated.name, 'Edited project name')
+      assert.equal(updated.githubUrl, `https://github.com/${target}/tree/main/src?raw=1#readme`)
+      assert.equal(updated.id, 'stable-project-id')
+      assert.equal(updated.categoryId, 'example-category'); assert.equal(updated.moduleId, 'example')
+      assert.equal(updated.meta.stars, 42)
+      assert.equal(readFileSync(join(fx.root, 'requests.txt'), 'utf8'),
+        `/repos/old-owner/old-name\n/repos/${target}\n`)
+      const summary = readFileSync(join(fx.root, 'summary.txt'), 'utf8')
+      assert.match(summary, /Repository URL changes/)
+      assert.ok(summary.includes(`https://github.com/${target}/tree/main/src?raw=1#readme`))
+      assert.match(result.stdout, /URLs updated: 1/)
+      const again = fx.run(); assert.equal(again.status, 0, again.stderr)
+      assert.match(again.stdout, /URLs updated: 0/)
+      assert.equal(readFileSync(join(fx.root, 'requests.txt'), 'utf8'),
+        `/repos/old-owner/old-name\n/repos/${target}\n/repos/${target}\n`)
+    } finally { fx.clean() }
+  }
+})
+
+test('CLI preserves display names when the canonical URL is already stored', () => {
+  const fx = fixture([tool('stable-id', 'https://github.com/example/canonical')])
+  try {
+    const result = fx.run(); assert.equal(result.status, 0, result.stderr)
+    assert.equal(fx.read()[0].name, 'stable-id')
+    assert.equal(fx.read()[0].id, 'stable-id')
+    assert.equal(fx.read()[0].githubUrl, 'https://github.com/example/canonical')
+    assert.match(result.stdout, /URLs updated: 0/)
+  } finally { fx.clean() }
+})
+
+test('CLI preserves project branding when GitHub repository names differ', () => {
+  for (const [name, repository] of [
+    ['DeepEval', 'confident-ai/deepeval'], ['Fairlearn', 'fairlearn/fairlearn'],
+    ['TorchRL', 'pytorch/rl'], ['TorchAO', 'pytorch/ao'],
+  ]) {
+    const url = `https://github.com/${repository}`
+    const fx = fixture([tool(name, url)])
+    try {
+      const result = fx.run('test-token', { TEST_REPO_NAME: repository.split('/')[1], TEST_REPO_URL: url })
+      assert.equal(result.status, 0, result.stderr)
+      assert.equal(fx.read()[0].name, name)
+      assert.equal(fx.read()[0].githubUrl, url)
+      assert.match(result.stdout, /URLs updated: 0/)
+    } finally { fx.clean() }
+  }
 })
 
 test('CLI records failures, preserves old values, and continues through later modules', () => {
@@ -120,6 +203,7 @@ test('known 404 sources produce warnings and preserve prior data', () => {
     assert.equal((result.stderr.match(/::warning::/g) ?? []).length, 3)
     const [autobe, agentica, validator, good] = fx.read()
     for (const t of [autobe, agentica, validator]) {
+      assert.equal(t.name, t.id)
       assert.equal(t.meta.stars, oldMeta.stars)
       assert.equal(t.meta.fetchedAt, oldMeta.fetchedAt)
       assert.match(t.meta.fetchError, /HTTP 404/)

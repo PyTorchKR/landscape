@@ -2526,6 +2526,24 @@
         "createdAt": "2026-01-30T15:07:23Z",
         "lastFetchAttempt": "2026-10-24T20:03:47.090Z"
       }
+    },
+    {
+      "id": "guidance-ai-guidance",
+      "name": "guidance",
+      "description": "대규모 언어 모델의 출력을 제어하기 위한 guidance 언어(DSL). 생성·프롬프팅·논리 제어를 자연스럽게 결합하고 정규식/문법 기반 제약 디코딩(constrained generation)을 지원하여 구조화된 출력을 안정적으로 얻을 수 있다.",
+      "categoryId": "prompt-management",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/guidance-ai/guidance",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 21808,
+        "forks": 1219,
+        "lastUpdated": "2026-10-24T20:21:30Z",
+        "lastCommit": "2026-05-21T17:08:04Z",
+        "fetchedAt": "2026-10-24T20:21:54.738Z"
+      }
     }
   ]
 }

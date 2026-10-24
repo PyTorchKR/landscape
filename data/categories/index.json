@@ -87,7 +87,8 @@
         "pgvector",
         "lancedb",
         "microsoft-diskann",
-        "microsoft-sptag"
+        "microsoft-sptag",
+        "vdaas-vald"
       ]
     },
     {

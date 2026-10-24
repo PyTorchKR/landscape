@@ -1426,6 +1426,44 @@
         "createdAt": "2024-04-17T01:15:56Z",
         "lastFetchAttempt": "2026-10-24T21:52:44.944Z"
       }
+    },
+    {
+      "id": "vdaas-vald",
+      "name": "vald",
+      "description": "고확장성 분산 벡터 검색 엔진. NGT 기반 근사 최근접 이웃(ANN) 검색을 클라우드 네이티브(Kubernetes) 환경에서 대규모로 수행하며, 자동 인덱싱·백업·수평 확장을 지원한다.",
+      "categoryId": "vector-db",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/vdaas/vald",
+      "koreanSupport": false,
+      "tags": [
+        "anng",
+        "approximate-nearest-neighbor-search",
+        "cloud",
+        "cloud-native",
+        "distributed-systems",
+        "golang",
+        "hacktoberfest",
+        "high-dimensional-data",
+        "high-performance",
+        "image-search",
+        "image-search-engine",
+        "kubernetes",
+        "microservices",
+        "nearest-neighbor-search",
+        "ngt",
+        "similarity-search",
+        "vald",
+        "vector",
+        "vector-search-engine"
+      ],
+      "meta": {
+        "stars": 1734,
+        "forks": 94,
+        "lastUpdated": "2026-10-23T03:17:35Z",
+        "lastCommit": "2026-10-23T05:34:49Z",
+        "fetchedAt": "2026-10-24T22:21:40.020Z"
+      }
     }
   ]
 }

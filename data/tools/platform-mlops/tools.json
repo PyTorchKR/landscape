@@ -2599,6 +2599,36 @@
         "createdAt": "2024-01-23T17:40:59Z",
         "lastFetchAttempt": "2026-10-24T22:23:33.701Z"
       }
+    },
+    {
+      "id": "chonkie-inc-chonkie",
+      "name": "chonkie",
+      "description": "빠르고 효율적이며 견고한 RAG 파이프라인을 위한 경량 인제스천 라이브러리. 토큰·문장·시맨틱·코드 등 다양한 청킹(chunking) 전략을 제공하여 문서를 RAG에 적합한 단위로 분할함.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/feyninc/chonkie",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "chonkie",
+        "chunker",
+        "chunking-algorithm",
+        "llms",
+        "rag",
+        "retrieval-systems",
+        "semantic-chunker",
+        "similarity-search",
+        "splitting-algorithms",
+        "text-splitter"
+      ],
+      "meta": {
+        "stars": 4805,
+        "forks": 366,
+        "lastUpdated": "2026-10-24T22:50:19Z",
+        "lastCommit": "2026-10-23T01:13:45Z",
+        "fetchedAt": "2026-10-24T22:51:45.636Z"
+      }
     }
   ]
 }

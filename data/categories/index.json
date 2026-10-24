@@ -578,7 +578,8 @@
         "wandb",
         "clearml",
         "aim",
-        "langfuse"
+        "langfuse",
+        "openlit-openlit"
       ]
     },
     {

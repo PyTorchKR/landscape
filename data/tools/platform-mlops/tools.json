@@ -2552,6 +2552,45 @@
         "createdAt": "2022-11-10T18:21:45Z",
         "lastFetchAttempt": "2026-10-24T20:23:50.217Z"
       }
+    },
+    {
+      "id": "openlit-openlit",
+      "name": "openlit",
+      "description": "AI 엔지니어링을 위한 오픈소스 플랫폼(OpenLIT). OpenTelemetry 기반 LLM 관찰성, GPU 모니터링, 가드레일, 평가, 프롬프트 관리, 시크릿 볼트, 플레이그라운드를 제공하며 50여 개 LLM 제공자·벡터DB·에이전트 프레임워크·GPU와 통합됩니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/openlit/openlit",
+      "koreanSupport": false,
+      "tags": [
+        "agent-harness",
+        "agent-harness-engineering",
+        "ai-engineering",
+        "ai-observability",
+        "amd-gpu",
+        "claude-code",
+        "clickhouse",
+        "codex",
+        "coding-agent",
+        "coding-agents",
+        "cursor",
+        "genai",
+        "gpu-monitoring",
+        "llm-observability",
+        "llmops",
+        "nvidia-smi",
+        "observability",
+        "open-source",
+        "openai",
+        "opentelemetry"
+      ],
+      "meta": {
+        "stars": 2880,
+        "forks": 443,
+        "lastUpdated": "2026-10-24T10:46:50Z",
+        "lastCommit": "2026-10-22T11:31:36Z",
+        "fetchedAt": "2026-10-24T20:51:40.510Z"
+      }
     }
   ]
 }

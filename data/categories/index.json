@@ -756,7 +756,8 @@
         "typesense",
         "vespa",
         "meta-pytorch-torchrec",
-        "miurla-morphic"
+        "miurla-morphic",
+        "quickwit-oss-tantivy"
       ]
     },
     {

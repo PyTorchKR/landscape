@@ -1524,6 +1524,27 @@
         "lastFetchAttempt": "2026-10-24T18:47:51.140Z",
         "fetchError": "HTTP 404: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository"
       }
+    },
+    {
+      "id": "quickwit-oss-tantivy",
+      "name": "tantivy",
+      "description": "Apache Lucene에서 영감을 받아 Rust로 작성된 고성능 풀텍스트 검색 엔진 라이브러리. 역색인 기반 빠른 텍스트 검색을 제공하며 Quickwit 등 검색 인프라와 RAG/리트리벌 백엔드의 핵심 컴포넌트로 사용된다.",
+      "categoryId": "recommendation-search",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/quickwit-oss/tantivy",
+      "koreanSupport": false,
+      "tags": [
+        "rust",
+        "search-engine"
+      ],
+      "meta": {
+        "stars": 16308,
+        "forks": 1022,
+        "lastUpdated": "2026-10-24T18:20:40Z",
+        "lastCommit": "2026-10-23T20:04:23Z",
+        "fetchedAt": "2026-10-24T19:21:45.927Z"
+      }
     }
   ]
 }

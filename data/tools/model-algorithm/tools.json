@@ -2826,6 +2826,36 @@
         "fetchedAt": "2026-10-24T20:53:15.859Z",
         "lastFetchAttempt": "2026-10-24T20:53:15.714Z"
       }
+    },
+    {
+      "id": "skyworkai-skywork-r1v",
+      "name": "Skywork-R1V",
+      "description": "Skywork AI가 개발한 비전-언어 추론 특화 멀티모달 모델 시리즈 Skywork-R1V로, 강화학습 기반 추론(R1) 기법을 멀티모달에 적용해 이미지 기반 복합 추론을 수행합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/SkyworkAI/Skywork-R1V",
+      "koreanSupport": false,
+      "tags": [
+        "deepseek-r1",
+        "grpo",
+        "llm",
+        "multimodal-r1",
+        "multimodal-understanding",
+        "r1v",
+        "reasoning",
+        "reinforcement-learning",
+        "skywork-r1v",
+        "vlm",
+        "vlm-r1"
+      ],
+      "meta": {
+        "stars": 3175,
+        "forks": 283,
+        "lastUpdated": "2026-10-21T11:44:37Z",
+        "lastCommit": "2026-07-29T03:11:37Z",
+        "fetchedAt": "2026-10-24T21:21:52.938Z"
+      }
     }
   ]
 }

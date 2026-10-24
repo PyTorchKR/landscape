@@ -1379,6 +1379,45 @@
         "fetchedAt": "2026-10-24T21:22:47.529Z",
         "lastFetchAttempt": "2026-10-24T21:22:47.466Z"
       }
+    },
+    {
+      "id": "netflix-maestro",
+      "name": "maestro",
+      "description": "Netflix가 개발한 수평 확장형 워크플로 오케스트레이터(Maestro). 대규모 데이터/ML 워크플로를 DAG로 정의·스케줄·실행하며, 파라미터화·재시도·서브워크플로·포어치(foreach) 패턴을 지원합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Netflix/maestro",
+      "koreanSupport": false,
+      "tags": [
+        "agentic-workflow",
+        "analytics",
+        "automation",
+        "batch-processing",
+        "dag",
+        "data-engineering",
+        "data-ops",
+        "data-orchestrator",
+        "data-pipelines",
+        "data-science",
+        "elt",
+        "etl",
+        "java",
+        "machine-learning",
+        "mlops",
+        "orchestration",
+        "scheduler",
+        "workflow",
+        "workflow-engine",
+        "workflow-orchestration"
+      ],
+      "meta": {
+        "stars": 3845,
+        "forks": 310,
+        "lastUpdated": "2026-10-22T21:26:39Z",
+        "lastCommit": "2026-10-23T19:35:37Z",
+        "fetchedAt": "2026-10-24T21:51:52.372Z"
+      }
     }
   ]
 }

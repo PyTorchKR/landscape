@@ -1608,6 +1608,43 @@
         "createdAt": "2020-04-22T13:43:28Z",
         "lastFetchAttempt": "2026-10-25T12:22:42.698Z"
       }
+    },
+    {
+      "id": "argoproj-argo-workflows",
+      "name": "argo-workflows",
+      "description": "Kubernetes 네이티브 워크플로 엔진(Argo Workflows). 컨테이너 기반 멀티스텝 워크플로를 DAG/스텝으로 정의해 병렬 실행하며, ML 파이프라인·데이터 처리·CI/CD에 널리 사용됩니다. Kubeflow Pipelines의 기본 실행 엔진이기도 합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/argoproj/argo-workflows",
+      "koreanSupport": false,
+      "tags": [
+        "airflow",
+        "argo",
+        "argo-workflows",
+        "batch-processing",
+        "cloud-native",
+        "cncf",
+        "dag",
+        "data-engineering",
+        "gitops",
+        "hacktoberfest",
+        "k8s",
+        "knative",
+        "kubernetes",
+        "machine-learning",
+        "mlops",
+        "pipelines",
+        "workflow",
+        "workflow-engine"
+      ],
+      "meta": {
+        "stars": 17052,
+        "forks": 3710,
+        "lastUpdated": "2026-10-25T02:31:43Z",
+        "lastCommit": "2026-10-23T15:23:41Z",
+        "fetchedAt": "2026-10-25T12:51:43.583Z"
+      }
     }
   ]
 }

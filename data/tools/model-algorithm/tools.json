@@ -2864,6 +2864,28 @@
         "createdAt": "2025-03-15T08:11:44Z",
         "lastFetchAttempt": "2026-10-25T09:53:28.265Z"
       }
+    },
+    {
+      "id": "tencent-wemm-embedding",
+      "name": "WeMM-Embedding",
+      "description": "Tencent WeChat Vision 팀의 범용 멀티모달 임베딩 모델 계열로, 텍스트와 이미지 등의 멀티모달 이해와 검색을 지원합니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/Tencent/WeMM-Embedding",
+      "koreanSupport": false,
+      "tags": [
+        "embedding-models",
+        "multimodal",
+        "multimodal-llm"
+      ],
+      "meta": {
+        "stars": 1778,
+        "forks": 123,
+        "lastUpdated": "2026-10-24T17:03:02Z",
+        "lastCommit": "2026-09-20T14:09:11Z",
+        "fetchedAt": "2026-10-25T10:51:55.558Z"
+      }
     }
   ]
 }

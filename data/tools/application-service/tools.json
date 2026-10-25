@@ -1716,6 +1716,35 @@
         "createdAt": "2023-03-19T04:50:47Z",
         "lastFetchAttempt": "2026-10-25T16:52:35.385Z"
       }
+    },
+    {
+      "id": "assistant-ui-assistant-ui",
+      "name": "assistant-ui",
+      "description": "AI 채팅 인터페이스 구축을 위한 TypeScript/React 라이브러리 assistant-ui. 스트리밍, 메시지 기록, 도구 호출 UI 등 챗봇 프론트엔드에 필요한 컴포넌트와 프리미티브를 제공합니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/assistant-ui/assistant-ui",
+      "koreanSupport": false,
+      "tags": [
+        "ai-chatbot",
+        "base-ui",
+        "chatbot",
+        "conversational-ai",
+        "copilot",
+        "radix-ui",
+        "react-chatbot",
+        "shadcn",
+        "ui-components",
+        "vercel-ai-sdk"
+      ],
+      "meta": {
+        "stars": 12739,
+        "forks": 1274,
+        "lastUpdated": "2026-10-25T17:00:27Z",
+        "lastCommit": "2026-10-25T08:13:27Z",
+        "fetchedAt": "2026-10-25T17:21:45.965Z"
+      }
     }
   ]
 }

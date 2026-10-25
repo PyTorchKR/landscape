@@ -3139,6 +3139,29 @@
         "createdAt": "2025-08-12T13:16:07Z",
         "lastFetchAttempt": "2026-10-25T18:53:42.378Z"
       }
+    },
+    {
+      "id": "thudm-agentbench",
+      "name": "AgentBench",
+      "description": "LLM을 에이전트로서 평가하는 종합 벤치마크(AgentBench, ICLR'24). 운영체제·데이터베이스·지식 그래프·디지털 카드 게임·웹 쇼핑 등 8개 다양한 환경에서 LLM의 멀티턴 추론·의사결정·도구 사용 능력을 측정합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/THUDM/AgentBench",
+      "koreanSupport": false,
+      "tags": [
+        "chatgpt",
+        "gpt-4",
+        "llm",
+        "llm-agent"
+      ],
+      "meta": {
+        "stars": 3790,
+        "forks": 292,
+        "lastUpdated": "2026-10-24T14:11:26Z",
+        "lastCommit": "2026-02-08T17:01:05Z",
+        "fetchedAt": "2026-10-25T19:21:46.495Z"
+      }
     }
   ]
 }

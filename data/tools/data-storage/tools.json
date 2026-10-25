@@ -1653,6 +1653,36 @@
         "createdAt": "2017-08-21T18:50:44Z",
         "lastFetchAttempt": "2026-10-25T20:22:45.335Z"
       }
+    },
+    {
+      "id": "skrub-data-skrub",
+      "name": "skrub",
+      "description": "머신러닝을 위한 데이터프레임 전처리 라이브러리로, 정제되지 않은 'dirty data'의 정규화·인코딩·결합을 자동화하여 scikit-learn 등 ML 파이프라인에 바로 투입 가능한 형태로 데이터를 준비해줍니다.",
+      "categoryId": "data-quality",
+      "moduleId": "data-storage",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/skrub-data/skrub",
+      "koreanSupport": false,
+      "tags": [
+        "data",
+        "data-analysis",
+        "data-cleaning",
+        "data-preparation",
+        "data-preprocessing",
+        "data-science",
+        "data-wrangling",
+        "dataframe",
+        "dataframes",
+        "dirty-data",
+        "machine-learning"
+      ],
+      "meta": {
+        "stars": 1662,
+        "forks": 291,
+        "lastUpdated": "2026-10-25T20:07:04Z",
+        "lastCommit": "2026-10-24T15:52:49Z",
+        "fetchedAt": "2026-10-25T21:51:53.263Z"
+      }
     }
   ]
 }

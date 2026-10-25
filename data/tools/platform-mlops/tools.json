@@ -3033,6 +3033,24 @@
         "createdAt": "2023-11-14T14:53:11Z",
         "lastFetchAttempt": "2026-10-25T13:23:54.618Z"
       }
+    },
+    {
+      "id": "edge0-ai-edge0",
+      "name": "Edge0",
+      "description": "SSD 전문가 오프로딩, Recover-LoRA, 라우팅 예측을 결합해 대형 희소 MoE 모델을 적은 메모리로 소비자 기기에서 실행하는 스트리밍 MoE 추론 프레임워크입니다. macOS, iOS, Android를 지원합니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Edge0-AI/Edge0",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 7151,
+        "forks": 1223,
+        "lastUpdated": "2026-10-25T13:19:40Z",
+        "lastCommit": "2026-10-22T07:59:59Z",
+        "fetchedAt": "2026-10-25T13:51:50.930Z"
+      }
     }
   ]
 }

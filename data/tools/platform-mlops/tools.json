@@ -3105,6 +3105,32 @@
         "createdAt": "2026-08-22T14:28:41Z",
         "lastFetchAttempt": "2026-10-25T17:23:49.017Z"
       }
+    },
+    {
+      "id": "xllm-ai-xllm",
+      "name": "xllm",
+      "description": "LLM·VLM·DiT·REC 모델을 위한 고성능 추론 엔진으로, 다양한 AI 가속기 환경에 최적화되어 있습니다. JD가 오픈소스로 공개했습니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/xLLM-AI/xllm",
+      "koreanSupport": false,
+      "tags": [
+        "deepseek",
+        "glm",
+        "inference",
+        "inference-engine",
+        "large-language-models",
+        "llm-inference",
+        "qwen"
+      ],
+      "meta": {
+        "stars": 1604,
+        "forks": 317,
+        "lastUpdated": "2026-10-25T13:52:04Z",
+        "lastCommit": "2026-10-25T13:51:59Z",
+        "fetchedAt": "2026-10-25T17:52:00.112Z"
+      }
     }
   ]
 }

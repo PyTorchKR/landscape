@@ -1472,6 +1472,28 @@
         "createdAt": "2019-07-07T06:42:22Z",
         "lastFetchAttempt": "2026-10-24T22:52:45.047Z"
       }
+    },
+    {
+      "id": "apache-iceberg",
+      "name": "iceberg",
+      "description": "대규모 분석 데이터를 위한 오픈 테이블 포맷으로, 스키마 진화·스냅샷 기반 시간여행·트랜잭션을 지원하여 데이터 레이크하우스에서 테이블 카탈로그와 버전/계보를 관리하며 ML 데이터 파이프라인의 저장 계층으로 활용됩니다.",
+      "categoryId": "catalog-lineage",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/apache/iceberg",
+      "koreanSupport": false,
+      "tags": [
+        "apache",
+        "hacktoberfest",
+        "iceberg"
+      ],
+      "meta": {
+        "stars": 9362,
+        "forks": 3628,
+        "lastUpdated": "2026-10-24T18:04:29Z",
+        "lastCommit": "2026-10-24T15:31:01Z",
+        "fetchedAt": "2026-10-25T00:51:45.359Z"
+      }
     }
   ]
 }

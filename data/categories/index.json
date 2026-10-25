@@ -165,7 +165,8 @@
         "amundsen",
         "dvc",
         "lakefs",
-        "delta-lake"
+        "delta-lake",
+        "apache-iceberg"
       ]
     },
     {

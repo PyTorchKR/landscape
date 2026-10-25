@@ -2834,6 +2834,44 @@
         "createdAt": "2023-12-02T18:45:14Z",
         "lastFetchAttempt": "2026-10-25T08:23:44.384Z"
       }
+    },
+    {
+      "id": "helicone-helicone",
+      "name": "helicone",
+      "description": "오픈소스 LLM 관찰성 플랫폼(Helicone). 한 줄의 프록시 설정으로 LLM 호출을 모니터링·평가·실험하며, 요청 로깅, 비용/지연 추적, 캐싱, 프롬프트 실험, 사용자별 분석을 제공합니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Helicone/helicone",
+      "koreanSupport": false,
+      "tags": [
+        "agent-monitoring",
+        "analytics",
+        "evaluation",
+        "gpt",
+        "langchain",
+        "large-language-models",
+        "llama-index",
+        "llm",
+        "llm-cost",
+        "llm-evaluation",
+        "llm-observability",
+        "llmops",
+        "monitoring",
+        "open-source",
+        "openai",
+        "playground",
+        "prompt-engineering",
+        "prompt-management",
+        "ycombinator"
+      ],
+      "meta": {
+        "stars": 6238,
+        "forks": 691,
+        "lastUpdated": "2026-10-25T07:24:23Z",
+        "lastCommit": "2026-10-24T01:17:24Z",
+        "fetchedAt": "2026-10-25T08:51:48.734Z"
+      }
     }
   ]
 }

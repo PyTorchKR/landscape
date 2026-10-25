@@ -2704,6 +2704,30 @@
         "createdAt": "2021-10-11T14:48:38Z",
         "lastFetchAttempt": "2026-10-25T04:23:34.454Z"
       }
+    },
+    {
+      "id": "foundationagents-metagpt",
+      "name": "MetaGPT",
+      "description": "여러 LLM 에이전트에게 PM·아키텍트·엔지니어 등 소프트웨어 회사의 역할(SOP)을 부여해 자연어 요구사항으로부터 협업 개발을 수행하는 멀티에이전트 프레임워크입니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/FoundationAgents/MetaGPT",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "gpt",
+        "llm",
+        "metagpt",
+        "multi-agent"
+      ],
+      "meta": {
+        "stars": 71010,
+        "forks": 9043,
+        "lastUpdated": "2026-10-25T03:21:13Z",
+        "lastCommit": "2026-01-21T10:12:33Z",
+        "fetchedAt": "2026-10-25T04:51:43.785Z"
+      }
     }
   ]
 }

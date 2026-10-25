@@ -1564,6 +1564,42 @@
         "createdAt": "2016-12-14T15:53:41Z",
         "lastFetchAttempt": "2026-10-25T05:52:39.983Z"
       }
+    },
+    {
+      "id": "voxel51-fiftyone",
+      "name": "fiftyone",
+      "description": "컴퓨터 비전 데이터셋과 모델을 정제·평가하기 위한 데이터 중심 AI 도구로, 이미지/비디오 데이터셋의 시각화·큐레이션·품질 진단과 모델 예측 분석을 지원하여 고품질 학습 데이터를 구축하게 합니다.",
+      "categoryId": "data-quality",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/voxel51/fiftyone",
+      "koreanSupport": false,
+      "tags": [
+        "active-learning",
+        "artificial-intelligence",
+        "computer-vision",
+        "data-centric-ai",
+        "data-cleaning",
+        "data-curation",
+        "data-quality",
+        "data-science",
+        "deep-learning",
+        "developer-tools",
+        "image-classification",
+        "machine-learning",
+        "object-detection",
+        "python",
+        "unstructured-data",
+        "vector-search",
+        "visualization"
+      ],
+      "meta": {
+        "stars": 11228,
+        "forks": 843,
+        "lastUpdated": "2026-10-25T03:18:15Z",
+        "lastCommit": "2026-10-23T16:45:29Z",
+        "fetchedAt": "2026-10-25T06:51:48.192Z"
+      }
     }
   ]
 }

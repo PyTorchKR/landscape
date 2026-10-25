@@ -3170,6 +3170,45 @@
         "createdAt": "2023-07-28T04:32:06Z",
         "lastFetchAttempt": "2026-10-25T21:53:49.484Z"
       }
+    },
+    {
+      "id": "tanstack-ai",
+      "name": "ai",
+      "description": "OpenAI, Anthropic, Gemini 등 여러 제공자에서 스트리밍 채팅, 도구 호출, 에이전트를 구현하는 타입 안전한 TypeScript AI SDK입니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/TanStack/ai",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-sdk",
+        "anthropic",
+        "chatbot",
+        "function-calling",
+        "gemini",
+        "generative-ai",
+        "llm",
+        "multimodal",
+        "openai",
+        "react",
+        "solidjs",
+        "streaming",
+        "svelte",
+        "tanstack",
+        "tool-calling",
+        "typescript",
+        "typescript-sdk",
+        "vue"
+      ],
+      "meta": {
+        "stars": 3246,
+        "forks": 371,
+        "lastUpdated": "2026-10-25T09:06:41Z",
+        "lastCommit": "2026-10-25T10:15:41Z",
+        "fetchedAt": "2026-10-25T22:21:48.585Z"
+      }
     }
   ]
 }

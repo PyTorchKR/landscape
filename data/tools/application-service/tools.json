@@ -1624,6 +1624,45 @@
         "createdAt": "2023-03-16T09:21:07Z",
         "lastFetchAttempt": "2026-10-25T13:52:27.933Z"
       }
+    },
+    {
+      "id": "gptme-gptme",
+      "name": "gptme",
+      "description": "터미널에서 동작하는 개인용 AI 에이전트. 로컬 도구를 갖춰 코드 작성, 터미널 명령 실행, 웹 브라우징을 수행하며, 이를 토대로 영속적인 자율 에이전트를 직접 구축할 수 있습니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/gptme/gptme",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agents",
+        "ai-agents",
+        "ai-assistant",
+        "anthropic",
+        "autonomous-agents",
+        "chatbot",
+        "chatgpt",
+        "cli",
+        "code-generation",
+        "deepseek",
+        "llm",
+        "llm-agent",
+        "llm-apps",
+        "local-first",
+        "openai",
+        "openrouter",
+        "python",
+        "rag",
+        "terminal"
+      ],
+      "meta": {
+        "stars": 4462,
+        "forks": 458,
+        "lastUpdated": "2026-10-25T13:40:15Z",
+        "lastCommit": "2026-10-25T09:47:02Z",
+        "fetchedAt": "2026-10-25T14:21:50.048Z"
+      }
     }
   ]
 }

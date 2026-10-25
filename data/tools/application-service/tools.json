@@ -1671,6 +1671,43 @@
         "createdAt": "2023-03-24T16:25:01Z",
         "lastFetchAttempt": "2026-10-25T14:22:35.516Z"
       }
+    },
+    {
+      "id": "enricoros-big-agi",
+      "name": "big-AGI",
+      "description": "최신 모델로 구동되는 고급 AI 스위트 big-AGI. AI 페르소나, 멀티모델 동시 채팅(Beam), 텍스트-이미지·음성, 응답 스트리밍, 코드 하이라이팅/실행, PDF 임포트 등 풍부한 기능을 제공하며 온프레미스/클라우드로 배포 가능한 셀프호스팅 대화형 AI 플랫폼입니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/enricoros/big-AGI",
+      "koreanSupport": false,
+      "tags": [
+        "agi",
+        "ai-agents",
+        "ai-suite",
+        "ai-workspace",
+        "anthropic-api",
+        "deepseek-api",
+        "gemini-api",
+        "gpt",
+        "gpt-5",
+        "librechat",
+        "multi-modal",
+        "multi-model",
+        "nano-banana",
+        "openai-responses-api",
+        "openwebui",
+        "perplexity-api",
+        "sonnet-4-5",
+        "xai-api"
+      ],
+      "meta": {
+        "stars": 7153,
+        "forks": 1592,
+        "lastUpdated": "2026-10-25T10:21:22Z",
+        "lastCommit": "2026-10-25T08:06:55Z",
+        "fetchedAt": "2026-10-25T14:51:52.923Z"
+      }
     }
   ]
 }

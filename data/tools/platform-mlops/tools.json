@@ -2637,6 +2637,24 @@
         "createdAt": "2025-03-29T05:10:03Z",
         "lastFetchAttempt": "2026-10-25T01:23:39.184Z"
       }
+    },
+    {
+      "id": "answerdotai-rerankers",
+      "name": "rerankers",
+      "description": "Answer.AI가 개발한 경량·저의존성 통합 API 라이브러리. Cross-encoder, ColBERT, API 기반 리랭커 등 다양한 리랭킹(reranking) 모델을 단일 인터페이스로 사용하여 RAG 파이프라인의 검색 결과 재순위 단계를 표준화함.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/AnswerDotAI/rerankers",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1641,
+        "forks": 109,
+        "lastUpdated": "2026-10-10T06:19:22Z",
+        "lastCommit": "2025-12-20T13:10:13Z",
+        "fetchedAt": "2026-10-25T01:51:48.260Z"
+      }
     }
   ]
 }

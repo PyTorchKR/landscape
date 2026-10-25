@@ -167,7 +167,8 @@
         "dvc",
         "lakefs",
         "delta-lake",
-        "apache-iceberg"
+        "apache-iceberg",
+        "apache-hudi"
       ]
     },
     {

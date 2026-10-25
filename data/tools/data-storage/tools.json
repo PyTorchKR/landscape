@@ -1528,6 +1528,34 @@
         "createdAt": "2023-07-01T01:05:05Z",
         "lastFetchAttempt": "2026-10-25T02:52:36.068Z"
       }
+    },
+    {
+      "id": "apache-hudi",
+      "name": "hudi",
+      "description": "빅데이터 레이크 위에서 upsert·삭제·증분 처리를 지원하는 오픈 데이터 레이크하우스 플랫폼으로, 타임라인 기반 커밋과 버전 관리를 통해 대규모 데이터의 변경 추적과 저장 계층을 제공합니다.",
+      "categoryId": "catalog-lineage",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/apache/hudi",
+      "koreanSupport": false,
+      "tags": [
+        "apacheflink",
+        "apachehudi",
+        "apachespark",
+        "bigdata",
+        "data-integration",
+        "datalake",
+        "hudi",
+        "incremental-processing",
+        "stream-processing"
+      ],
+      "meta": {
+        "stars": 6338,
+        "forks": 2532,
+        "lastUpdated": "2026-10-24T17:59:47Z",
+        "lastCommit": "2026-10-24T03:28:40Z",
+        "fetchedAt": "2026-10-25T03:51:41.992Z"
+      }
     }
   ]
 }

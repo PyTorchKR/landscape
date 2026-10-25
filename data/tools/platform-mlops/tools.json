@@ -2736,6 +2736,34 @@
         "createdAt": "2023-06-30T09:04:55Z",
         "lastFetchAttempt": "2026-10-25T04:53:29.903Z"
       }
+    },
+    {
+      "id": "hegelai-prompttools",
+      "name": "prompttools",
+      "description": "프롬프트 테스트 및 실험을 위한 오픈소스 도구. 여러 LLM(OpenAI, LLaMA 등)과 벡터 DB(Chroma, Weaviate, LanceDB 등)에 대해 프롬프트를 비교·평가하고 실험 결과를 정량적으로 분석할 수 있다.",
+      "categoryId": "prompt-management",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/hegelai/prompttools",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "developer-tools",
+        "embeddings",
+        "large-language-models",
+        "llms",
+        "machine-learning",
+        "prompt-engineering",
+        "python",
+        "vector-search"
+      ],
+      "meta": {
+        "stars": 3060,
+        "forks": 254,
+        "lastUpdated": "2026-10-23T23:33:39Z",
+        "lastCommit": "2026-02-11T03:24:04Z",
+        "fetchedAt": "2026-10-25T05:21:48.202Z"
+      }
     }
   ]
 }

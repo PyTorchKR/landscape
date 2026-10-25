@@ -2920,6 +2920,29 @@
         "createdAt": "2024-11-22T21:51:45Z",
         "lastFetchAttempt": "2026-10-25T17:53:33.002Z"
       }
+    },
+    {
+      "id": "openbmb-minicpm-v",
+      "name": "MiniCPM-V",
+      "description": "OpenBMB가 개발한 경량 멀티모달 대규모 언어 모델(MLLM) 시리즈(MiniCPM-V/MiniCPM-o)로, 스마트폰 등 엣지 환경에서도 동작 가능한 효율로 이미지·비디오·음성 이해를 제공합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/OpenBMB/MiniCPM-V",
+      "koreanSupport": false,
+      "tags": [
+        "minicpm",
+        "minicpm-o",
+        "minicpm-v",
+        "multi-modal"
+      ],
+      "meta": {
+        "stars": 26972,
+        "forks": 2118,
+        "lastUpdated": "2026-10-25T17:55:32Z",
+        "lastCommit": "2026-10-25T07:19:26Z",
+        "fetchedAt": "2026-10-25T18:21:48.873Z"
+      }
     }
   ]
 }

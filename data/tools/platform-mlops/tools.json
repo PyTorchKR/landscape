@@ -2804,6 +2804,28 @@
         "createdAt": "2025-06-09T23:46:17Z",
         "lastFetchAttempt": "2026-10-25T07:53:52.703Z"
       }
+    },
+    {
+      "id": "eladlev-autoprompt",
+      "name": "AutoPrompt",
+      "description": "Intent-based Prompt Calibration 기법으로 프롬프트를 자동 튜닝/최적화하는 프레임워크. 소량의 샘플과 의도 정의만으로 반복적 보정(calibration)을 거쳐 프로덕션용 고품질 프롬프트를 생성한다.",
+      "categoryId": "prompt-management",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Eladlev/AutoPrompt",
+      "koreanSupport": false,
+      "tags": [
+        "prompt-engineering",
+        "prompt-tuning",
+        "synthetic-dataset-generation"
+      ],
+      "meta": {
+        "stars": 3020,
+        "forks": 264,
+        "lastUpdated": "2026-10-23T22:59:36Z",
+        "lastCommit": "2025-12-02T17:23:20Z",
+        "fetchedAt": "2026-10-25T08:21:46.818Z"
+      }
     }
   ]
 }

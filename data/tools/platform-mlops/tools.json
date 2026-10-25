@@ -2962,6 +2962,43 @@
         "createdAt": "2025-02-12T06:06:49Z",
         "lastFetchAttempt": "2026-10-25T11:23:44.464Z"
       }
+    },
+    {
+      "id": "simstudioai-sim",
+      "name": "sim",
+      "description": "AI 에이전트를 구축·배포·오케스트레이션하는 플랫폼. 시각적 워크플로 빌더로 \"AI 워크포스\"를 위한 중앙 지능 레이어를 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/simstudioai/sim",
+      "koreanSupport": false,
+      "tags": [
+        "agent-workflow",
+        "agentic-workflow",
+        "agents",
+        "ai",
+        "aiagents",
+        "anthropic",
+        "artificial-intelligence",
+        "automation",
+        "chatbot",
+        "deepseek",
+        "gemini",
+        "low-code",
+        "nextjs",
+        "no-code",
+        "openai",
+        "rag",
+        "react",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 29914,
+        "forks": 3868,
+        "lastUpdated": "2026-10-25T11:11:45Z",
+        "lastCommit": "2026-10-24T19:22:43Z",
+        "fetchedAt": "2026-10-25T12:21:50.262Z"
+      }
     }
   ]
 }

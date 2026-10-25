@@ -1691,6 +1691,31 @@
         "createdAt": "2018-03-12T23:32:22Z",
         "lastFetchAttempt": "2026-10-25T22:22:50.021Z"
       }
+    },
+    {
+      "id": "mosaicml-streaming",
+      "name": "streaming",
+      "description": "효율적인 신경망 학습을 위한 데이터 스트리밍 라이브러리(MosaicML). 클라우드 스토리지에서 대규모 데이터셋을 스트리밍 방식으로 셔플·로드하여 분산 학습의 데이터 적재를 최적화합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mosaicml/streaming",
+      "koreanSupport": false,
+      "tags": [
+        "dataset",
+        "deep-learning",
+        "machine-learning",
+        "neural-network",
+        "pytorch",
+        "streaming"
+      ],
+      "meta": {
+        "stars": 1570,
+        "forks": 205,
+        "lastUpdated": "2026-10-15T06:38:28Z",
+        "lastCommit": "2026-06-25T15:02:27Z",
+        "fetchedAt": "2026-10-25T22:51:48.692Z"
+      }
     }
   ]
 }

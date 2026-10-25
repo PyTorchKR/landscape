@@ -2925,6 +2925,35 @@
         "createdAt": "2024-05-11T03:41:58Z",
         "lastFetchAttempt": "2026-10-25T10:54:06.848Z"
       }
+    },
+    {
+      "id": "linshenkx-prompt-optimizer",
+      "name": "prompt-optimizer",
+      "description": "더 나은 프롬프트 작성과 AI 결과 개선을 돕는 AI 프롬프트 최적화 도구. 웹/데스크톱/플러그인 형태로 프롬프트를 반복 개선·비교·테스트할 수 있다.",
+      "categoryId": "prompt-management",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/linshenkx/prompt-optimizer",
+      "koreanSupport": false,
+      "tags": [
+        "ai-prompts",
+        "ai-tools",
+        "llm",
+        "prompt",
+        "prompt-engineering",
+        "prompt-optimization",
+        "prompt-optimizer",
+        "prompt-testing",
+        "prompt-toolkit",
+        "prompt-tuning"
+      ],
+      "meta": {
+        "stars": 39187,
+        "forks": 4454,
+        "lastUpdated": "2026-10-25T10:53:43Z",
+        "lastCommit": "2026-10-25T08:54:59Z",
+        "fetchedAt": "2026-10-25T11:21:44.530Z"
+      }
     }
   ]
 }

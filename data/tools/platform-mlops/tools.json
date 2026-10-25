@@ -2772,6 +2772,30 @@
         "createdAt": "2023-06-25T19:33:00Z",
         "lastFetchAttempt": "2026-10-25T06:54:00.941Z"
       }
+    },
+    {
+      "id": "sierra-research-tau2-bench",
+      "name": "tau2-bench",
+      "description": "실제 도메인에서 도구, 에이전트, 사용자 간 상호작용을 평가하는 대화형 에이전트 벤치마크 τ²-Bench입니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/sierra-research/tau2-bench",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "benchmark",
+        "conversational-agents",
+        "language-model-agent",
+        "llm"
+      ],
+      "meta": {
+        "stars": 2314,
+        "forks": 607,
+        "lastUpdated": "2026-10-25T07:12:20Z",
+        "lastCommit": "2026-10-24T14:04:34Z",
+        "fetchedAt": "2026-10-25T07:51:42.515Z"
+      }
     }
   ]
 }

@@ -1502,6 +1502,24 @@
         "createdAt": "2018-11-19T16:26:46Z",
         "lastFetchAttempt": "2026-10-25T00:52:40.683Z"
       }
+    },
+    {
+      "id": "timescale-pgvectorscale",
+      "name": "pgvectorscale",
+      "description": "벡터 검색을 위한 PostgreSQL 확장. DiskANN 기반 인덱스로 pgvector를 보완하여 대규모·고성능 근사 최근접 이웃(ANN) 검색을 제공하며, 기존 Postgres 인프라에서 벡터 DB 기능을 사용할 수 있게 한다(Timescale).",
+      "categoryId": "vector-db",
+      "moduleId": "data-storage",
+      "license": "PostgreSQL",
+      "githubUrl": "https://github.com/timescale/pgvectorscale",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3152,
+        "forks": 160,
+        "lastUpdated": "2026-10-24T04:33:59Z",
+        "lastCommit": "2026-10-14T19:56:40Z",
+        "fetchedAt": "2026-10-25T01:21:44.336Z"
+      }
     }
   ]
 }

@@ -722,7 +722,8 @@
         "zenml",
         "huggingface-hub",
         "lightning-ai-litserve",
-        "michael-a-kuykendall-shimmy"
+        "michael-a-kuykendall-shimmy",
+        "gpustack-gpustack"
       ]
     },
     {

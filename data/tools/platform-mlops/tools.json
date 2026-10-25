@@ -2880,6 +2880,43 @@
         "createdAt": "2023-01-31T22:34:44Z",
         "lastFetchAttempt": "2026-10-25T08:54:00.240Z"
       }
+    },
+    {
+      "id": "gpustack-gpustack",
+      "name": "gpustack",
+      "description": "vLLM·SGLang 등 추론 엔진을 구성·오케스트레이션해 고성능 AI 모델 배포를 지원하는 GPU 클러스터 매니저로, 다양한 가속기(CUDA·ROCm·Ascend)에서 LLM 서빙을 통합 관리합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/gpustack/gpustack",
+      "koreanSupport": false,
+      "tags": [
+        "ascend",
+        "cuda",
+        "deepseek",
+        "distributed-inference",
+        "genai",
+        "high-performance-inference",
+        "inference",
+        "llama",
+        "llm",
+        "llm-inference",
+        "llm-serving",
+        "maas",
+        "mindie",
+        "openai",
+        "qwen",
+        "rocm",
+        "sglang",
+        "vllm"
+      ],
+      "meta": {
+        "stars": 5886,
+        "forks": 696,
+        "lastUpdated": "2026-10-25T07:53:58Z",
+        "lastCommit": "2026-10-23T15:03:41Z",
+        "fetchedAt": "2026-10-25T09:51:51.903Z"
+      }
     }
   ]
 }

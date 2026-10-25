@@ -2894,6 +2894,24 @@
         "createdAt": "2026-08-25T02:46:10Z",
         "lastFetchAttempt": "2026-10-25T14:53:29.183Z"
       }
+    },
+    {
+      "id": "microsoft-magma",
+      "name": "Magma",
+      "description": "Microsoft가 개발한 멀티모달 AI 에이전트용 파운데이션 모델 Magma로, 시각·언어 이해와 함께 UI 조작·로보틱스 등 행동(action) 예측을 통합해 멀티모달 에이전트의 인식-행동을 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/Magma",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1950,
+        "forks": 165,
+        "lastUpdated": "2026-10-23T10:55:48Z",
+        "lastCommit": "2026-03-03T00:16:38Z",
+        "fetchedAt": "2026-10-25T15:21:52.089Z"
+      }
     }
   ]
 }

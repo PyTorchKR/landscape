@@ -2663,6 +2663,39 @@
         "createdAt": "2024-03-06T16:18:57Z",
         "lastFetchAttempt": "2026-10-25T01:53:54.870Z"
       }
+    },
+    {
+      "id": "deepchecks-deepchecks",
+      "name": "deepchecks",
+      "description": "ML 모델과 데이터의 지속적 검증·테스트를 위한 오픈소스 도구(Deepchecks). 데이터 무결성, 분포 드리프트, 모델 성능, 데이터 누수 등을 연구 단계부터 프로덕션까지 종합 테스트하며, 테이블/비전/NLP 데이터에 대한 체크 스위트를 제공합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/deepchecks/deepchecks",
+      "koreanSupport": false,
+      "tags": [
+        "data-drift",
+        "data-science",
+        "data-validation",
+        "deep-learning",
+        "html-report",
+        "jupyter-notebook",
+        "machine-learning",
+        "ml",
+        "mlops",
+        "model-monitoring",
+        "model-validation",
+        "pandas-dataframe",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 4067,
+        "forks": 300,
+        "lastUpdated": "2026-10-23T17:39:04Z",
+        "lastCommit": "2025-12-28T12:07:44Z",
+        "fetchedAt": "2026-10-25T02:51:44.662Z"
+      }
     }
   ]
 }

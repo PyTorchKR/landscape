@@ -1553,6 +1553,31 @@
         "createdAt": "2016-01-11T08:32:16Z",
         "lastFetchAttempt": "2026-10-25T03:52:20.970Z"
       }
+    },
+    {
+      "id": "opensearch-project-opensearch",
+      "name": "OpenSearch",
+      "description": "오픈소스 분산 RESTful 검색·분석 엔진(Elasticsearch 7.10 포크). 풀텍스트·k-NN 벡터·하이브리드 검색과 로그 분석을 지원하며, 시맨틱 검색·RAG 백엔드 및 관측성 플랫폼으로 널리 사용된다.",
+      "categoryId": "recommendation-search",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/opensearch-project/OpenSearch",
+      "koreanSupport": false,
+      "tags": [
+        "analytics",
+        "apache2",
+        "foss",
+        "java",
+        "search",
+        "search-engine"
+      ],
+      "meta": {
+        "stars": 13904,
+        "forks": 2978,
+        "lastUpdated": "2026-10-25T02:50:14Z",
+        "lastCommit": "2026-10-24T22:42:06Z",
+        "fetchedAt": "2026-10-25T04:21:42.793Z"
+      }
     }
   ]
 }

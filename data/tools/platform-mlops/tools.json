@@ -3059,6 +3059,44 @@
         "createdAt": "2026-09-08T13:41:47Z",
         "lastFetchAttempt": "2026-10-25T15:24:08.319Z"
       }
+    },
+    {
+      "id": "duty1g-x64dbg-mcp-server",
+      "name": "x64dbg-mcp-server",
+      "description": "x64dbg 디버거의 기능을 HTTP 기반 MCP로 노출해 AI 어시스턴트가 디버거를 직접 다룰 수 있게 하는 Zig 기반 네이티브 플러그인입니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/duty1g/x64dbg-mcp-server",
+      "koreanSupport": false,
+      "tags": [
+        "ai-agents",
+        "ai-debugging",
+        "binary-analysis",
+        "claude",
+        "claude-code",
+        "malware-analysis",
+        "malware-research",
+        "malware-scanner",
+        "mcp",
+        "mcp-server",
+        "mcp-servers",
+        "x64dbg",
+        "x64dbg-mcp",
+        "x64dbg-plugin",
+        "x64dbg-tools",
+        "xdbg",
+        "zig",
+        "zig-lang",
+        "ziglang"
+      ],
+      "meta": {
+        "stars": 2607,
+        "forks": 293,
+        "lastUpdated": "2026-10-25T14:54:47Z",
+        "lastCommit": "2026-10-12T08:49:17Z",
+        "fetchedAt": "2026-10-25T16:51:52.777Z"
+      }
     }
   ]
 }

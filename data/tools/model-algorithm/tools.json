@@ -2951,6 +2951,24 @@
         "createdAt": "2024-01-29T05:30:33Z",
         "lastFetchAttempt": "2026-10-25T18:23:24.287Z"
       }
+    },
+    {
+      "id": "facebookresearch-sam2",
+      "name": "sam2",
+      "description": "이미지와 영상에서 임의의 객체를 분할(segmentation)하는 파운데이션 모델 Segment Anything Model 2(SAM 2, Meta). 프롬프트(점·박스 등) 기반의 promptable segmentation을 영상으로 확장해 실시간 객체 추적·분할을 지원하며, 추론 코드와 사전학습 체크포인트, 예제 노트북을 제공합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/facebookresearch/sam2",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 20056,
+        "forks": 2580,
+        "lastUpdated": "2026-10-25T04:27:19Z",
+        "lastCommit": "2026-05-30T02:29:40Z",
+        "fetchedAt": "2026-10-25T18:51:45.564Z"
+      }
     }
   ]
 }

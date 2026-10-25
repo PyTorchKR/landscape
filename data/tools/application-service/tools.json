@@ -1753,6 +1753,45 @@
         "createdAt": "2023-11-22T16:01:17Z",
         "lastFetchAttempt": "2026-10-25T19:22:24.965Z"
       }
+    },
+    {
+      "id": "arc53-docsgpt",
+      "name": "DocsGPT",
+      "description": "에이전트·어시스턴트·엔터프라이즈 검색을 위한 프라이빗 AI 플랫폼. 문서 분석, 에이전트 빌더, 딥 리서치, 멀티 모델 지원을 내장하여 자체 문서/지식 기반으로 대화형 질의응답을 제공하는 셀프 호스팅 AI 어시스턴트.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/arc53/DocsGPT",
+      "koreanSupport": false,
+      "tags": [
+        "agent-builder",
+        "agents",
+        "ai",
+        "chatgpt",
+        "docsgpt",
+        "hacktoberfest",
+        "hacktoberfest-swag",
+        "hacktoberfest2026",
+        "information-retrieval",
+        "language-model",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "python",
+        "pytorch",
+        "rag",
+        "react",
+        "search",
+        "semantic-search",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 18333,
+        "forks": 2227,
+        "lastUpdated": "2026-10-25T16:50:58Z",
+        "lastCommit": "2026-10-25T16:50:57Z",
+        "fetchedAt": "2026-10-25T19:51:48.831Z"
+      }
     }
   ]
 }

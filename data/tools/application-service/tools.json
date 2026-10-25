@@ -1800,6 +1800,34 @@
         "createdAt": "2023-02-02T11:03:23Z",
         "lastFetchAttempt": "2026-10-25T20:14:34.272Z"
       }
+    },
+    {
+      "id": "the-pr-agent-pr-agent",
+      "name": "pr-agent",
+      "description": "오픈소스 PR 리뷰 AI 에이전트 PR-Agent. Pull Request에 대해 자동 리뷰, 설명 생성, 코드 제안, 변경 요약 등을 수행하며 GitHub·GitLab·Bitbucket 등과 연동됩니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/The-PR-Agent/pr-agent",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "anthropic",
+        "code-review",
+        "coding-assistant",
+        "devtools",
+        "ollama",
+        "openai",
+        "pull-request",
+        "pull-requests"
+      ],
+      "meta": {
+        "stars": 13605,
+        "forks": 1996,
+        "lastUpdated": "2026-10-25T19:31:51Z",
+        "lastCommit": "2026-10-25T19:20:04Z",
+        "fetchedAt": "2026-10-25T20:21:48.413Z"
+      }
     }
   ]
 }

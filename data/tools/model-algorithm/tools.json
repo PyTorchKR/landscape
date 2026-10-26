@@ -3334,6 +3334,28 @@
         "createdAt": "2025-12-15T16:28:22Z",
         "lastFetchAttempt": "2026-10-26T15:18:59.925Z"
       }
+    },
+    {
+      "id": "nari-labs-dia",
+      "name": "dia",
+      "description": "Nari Labs가 공개한 초현실적 대화 음성을 한 번에 생성하는 텍스트-투-스피치(TTS) 모델 Dia로, 다중 화자 대화와 비언어적 표현까지 자연스럽게 합성합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/nari-labs/dia",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "open-weight",
+        "text-to-speech"
+      ],
+      "meta": {
+        "stars": 19406,
+        "forks": 1692,
+        "lastUpdated": "2026-10-26T05:42:36Z",
+        "lastCommit": "2025-11-19T21:11:55Z",
+        "fetchedAt": "2026-10-26T16:17:08.249Z"
+      }
     }
   ]
 }

@@ -3192,6 +3192,35 @@
         "lastCommit": "2026-10-26T02:59:09Z",
         "fetchedAt": "2026-10-26T13:07:32.797Z"
       }
+    },
+    {
+      "id": "mizorewww-laya-mlx",
+      "name": "laya-mlx",
+      "description": "Laya 결정 모델을 텍스트 생성이나 PyTorch, 클라우드 API 없이 Apple MLX로 실행하는 네이티브 런타임입니다.",
+      "categoryId": "decision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mizorewww/laya-mlx",
+      "koreanSupport": false,
+      "tags": [
+        "apple-silicon",
+        "decision-model",
+        "inference",
+        "laya",
+        "local-ai",
+        "machine-learning",
+        "mlx",
+        "modernbert",
+        "system-one",
+        "typed-decisions"
+      ],
+      "meta": {
+        "stars": 7027,
+        "forks": 570,
+        "lastUpdated": "2026-10-26T11:10:20Z",
+        "lastCommit": "2026-10-20T08:21:35Z",
+        "fetchedAt": "2026-10-26T13:08:13.095Z"
+      }
     }
   ]
 }

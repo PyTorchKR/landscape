@@ -3373,6 +3373,45 @@
         "createdAt": "2023-06-20T15:30:29Z",
         "lastFetchAttempt": "2026-10-26T10:54:24.564Z"
       }
+    },
+    {
+      "id": "promptslab-promptify",
+      "name": "Promptify",
+      "description": "프롬프트 엔지니어링·버전 관리 라이브러리. GPT 등 프롬프트 기반 모델로 NER, 분류, QA 등 NLP 작업의 구조화된 출력을 손쉽게 얻도록 사전 정의된 프롬프트 템플릿을 제공합니다.",
+      "categoryId": "prompt-management",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/promptslab/Promptify",
+      "koreanSupport": false,
+      "tags": [
+        "chatgpt",
+        "chatgpt-api",
+        "chatgpt-python",
+        "gpt-3",
+        "gpt-3-prompts",
+        "gpt-4",
+        "gpt-4-api",
+        "gpt3-library",
+        "large-language-models",
+        "machine-learning",
+        "nlp",
+        "openai",
+        "prompt-engineering",
+        "prompt-toolkit",
+        "prompt-tuning",
+        "prompt-versioning",
+        "prompting",
+        "prompts",
+        "promptversioning",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 4643,
+        "forks": 360,
+        "lastUpdated": "2026-10-25T14:29:28Z",
+        "lastCommit": "2026-03-27T01:09:45Z",
+        "fetchedAt": "2026-10-26T11:21:48.217Z"
+      }
     }
   ]
 }

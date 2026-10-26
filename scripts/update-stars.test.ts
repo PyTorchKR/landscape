@@ -275,7 +275,7 @@ test('CLI returns failure for missing credentials and unreadable input', () => {
   } finally { fx.clean() }
 })
 
-test('workflow detects and stages nested tool updates with the action shell expansion', () => {
+test('workflow stages nested tool updates and retries a rejected push', () => {
   const root = mkdtempSync(join(tmpdir(), 'landscape-commit-test-'))
   const git = (...args: string[]) => execFileSync('git', args, { cwd: root, encoding: 'utf8' }).trim()
   const paths = ['data/categories/index.json', 'data/modules/index.json', 'data/tools/example/tools.json']
@@ -286,15 +286,11 @@ test('workflow detects and stages nested tool updates with the action shell expa
     git('init', '-q'); git('add', 'data')
     git('-c', 'user.name=Test', '-c', 'user.email=test@example.invalid', 'commit', '-qm', 'baseline')
     writeFileSync(join(root, paths[2]), '{"updated":true}\n')
-    const status = (pattern: string) => execFileSync('bash', ['-c',
-      'read -r -a INPUT_FILE_PATTERN_EXPANDED <<< "$1"; git status -s -- ${INPUT_FILE_PATTERN_EXPANDED:+${INPUT_FILE_PATTERN_EXPANDED[@]}}',
-      'bash', pattern], { cwd: root, encoding: 'utf8' }).trim()
-    assert.equal(status('data/**/*.json'), '')
     const yaml = readFileSync('.github/workflows/daily-update.yml', 'utf8')
-    const pattern = yaml.match(/file_pattern: '([^']+)'/)![1]
-    assert.match(status(pattern), /data\/tools\/example\/tools.json/)
+    const pattern = yaml.match(/^\s*git add (\S+)$/m)![1]
     git('add', '--', pattern)
     assert.equal(git('diff', '--cached', '--name-only'), paths[2])
+    assert.match(yaml, /git rebase "origin\/\$BRANCH"/)
     assert.match(yaml, /continue-on-error: true/)
     assert.match(yaml, /check-refresh:/)
   } finally { rmSync(root, { recursive: true, force: true }) }

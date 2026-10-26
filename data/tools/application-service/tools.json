@@ -1836,6 +1836,24 @@
         "createdAt": "2023-07-05T21:02:15Z",
         "lastFetchAttempt": "2026-10-26T00:52:27.945Z"
       }
+    },
+    {
+      "id": "arcinstitute-evo2",
+      "name": "evo2",
+      "description": "모든 생명 영역의 DNA 서열을 모델링하고 설계하는 Arc Institute의 유전체 파운데이션 모델입니다.",
+      "categoryId": "industry-solutions",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ArcInstitute/evo2",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 4282,
+        "forks": 570,
+        "lastUpdated": "2026-10-25T08:39:13Z",
+        "lastCommit": "2026-06-19T01:27:27Z",
+        "fetchedAt": "2026-10-26T01:21:49.908Z"
+      }
     }
   ]
 }

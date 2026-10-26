@@ -2045,6 +2045,37 @@
         "createdAt": "2023-02-19T19:44:18Z",
         "lastFetchAttempt": "2026-10-26T18:48:01.223Z"
       }
+    },
+    {
+      "id": "kilo-org-kilocode",
+      "name": "kilocode",
+      "description": "올인원 에이전틱 엔지니어링 플랫폼. VS Code 확장 기반의 오픈소스 코딩 에이전트로, 코드 생성·수정·자동화 작업을 수행하며 다양한 모델 제공자를 지원합니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/Kilo-Org/kilocode",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "ai-age",
+        "ai-coding",
+        "ai-developer-tools",
+        "chatgpt",
+        "claude",
+        "cli",
+        "gemini",
+        "jetbrains",
+        "sonnet",
+        "vscode",
+        "vscode-extension"
+      ],
+      "meta": {
+        "stars": 27759,
+        "forks": 3300,
+        "lastUpdated": "2026-10-26T18:35:20Z",
+        "lastCommit": "2026-10-26T17:03:16Z",
+        "fetchedAt": "2026-10-26T19:17:10.087Z"
+      }
     }
   ]
 }

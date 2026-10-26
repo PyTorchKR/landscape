@@ -3326,6 +3326,45 @@
         "createdAt": "2025-03-11T16:38:30Z",
         "lastFetchAttempt": "2026-10-26T04:23:59.469Z"
       }
+    },
+    {
+      "id": "langchain4j-langchain4j",
+      "name": "langchain4j",
+      "description": "JVM에서 LLM 기반 애플리케이션을 구축하기 위한 관용적(idiomatic) 오픈소스 Java 라이브러리. 다양한 LLM 프로바이더·벡터 스토어를 통합 API로 제공하며, 도구 호출(MCP 지원), 에이전트, RAG 구현을 쉽게 만들고 Quarkus·Spring Boot와 통합됨.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/langchain4j/langchain4j",
+      "koreanSupport": false,
+      "tags": [
+        "anthropic",
+        "chatgpt",
+        "chroma",
+        "embeddings",
+        "gemini",
+        "gpt",
+        "huggingface",
+        "java",
+        "langchain",
+        "llama",
+        "llm",
+        "llms",
+        "milvus",
+        "ollama",
+        "onnx",
+        "openai",
+        "openai-api",
+        "pgvector",
+        "pinecone",
+        "vector-database"
+      ],
+      "meta": {
+        "stars": 13295,
+        "forks": 2640,
+        "lastUpdated": "2026-10-26T01:54:08Z",
+        "lastCommit": "2026-10-23T15:49:17Z",
+        "fetchedAt": "2026-10-26T04:51:41.550Z"
+      }
     }
   ]
 }

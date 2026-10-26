@@ -3455,6 +3455,32 @@
         "createdAt": "2026-08-22T05:07:35Z",
         "lastFetchAttempt": "2026-10-26T12:24:21.442Z"
       }
+    },
+    {
+      "id": "alibaba-rtp-llm",
+      "name": "rtp-llm",
+      "description": "Alibaba가 개발한 고성능 LLM 추론 엔진 RTP-LLM으로, 다양한 응용을 위한 최적화된 LLM 서빙을 제공하며 여러 모델과 가속기를 지원합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/alibaba/rtp-llm",
+      "koreanSupport": false,
+      "tags": [
+        "gpt",
+        "inference",
+        "llama",
+        "llm",
+        "llm-serving",
+        "llmops",
+        "model-serving"
+      ],
+      "meta": {
+        "stars": 1376,
+        "forks": 290,
+        "lastUpdated": "2026-10-26T09:45:33Z",
+        "lastCommit": "2026-10-26T12:45:51Z",
+        "fetchedAt": "2026-10-26T12:51:46.839Z"
+      }
     }
   ]
 }

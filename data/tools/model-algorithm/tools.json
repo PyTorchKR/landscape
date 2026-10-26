@@ -3007,6 +3007,29 @@
         "createdAt": "2025-05-21T08:19:42Z",
         "lastFetchAttempt": "2026-10-26T05:53:39.290Z"
       }
+    },
+    {
+      "id": "zai-org-glm-v",
+      "name": "GLM-V",
+      "description": "Zhipu AI의 비전-언어 모델 시리즈(GLM-4.6V/4.5V/4.1V-Thinking)로, 확장 가능한 강화학습을 통해 이미지·비디오 이해와 멀티모달 추론을 수행하는 오픈 웨이트 VLM입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/zai-org/GLM-V",
+      "koreanSupport": false,
+      "tags": [
+        "image2text",
+        "reasoning",
+        "video-understanding",
+        "vlm"
+      ],
+      "meta": {
+        "stars": 2403,
+        "forks": 191,
+        "lastUpdated": "2026-10-26T02:17:34Z",
+        "lastCommit": "2026-10-23T22:46:45Z",
+        "fetchedAt": "2026-10-26T06:21:50.006Z"
+      }
     }
   ]
 }

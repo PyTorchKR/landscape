@@ -2977,6 +2977,28 @@
         "createdAt": "2024-07-29T21:48:23Z",
         "lastFetchAttempt": "2026-10-26T02:23:36.174Z"
       }
+    },
+    {
+      "id": "gen-verse-mmada",
+      "name": "MMaDA",
+      "description": "블록 디퓨전과 mixed-CoT, 통합 RL을 결합한 오픈소스 멀티모달 대형 디퓨전 언어 모델(dLLM)로, 멀티모달 이해와 생성을 하나의 모델에서 통합 수행합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/Gen-Verse/MMaDA",
+      "koreanSupport": false,
+      "tags": [
+        "diffusion-models",
+        "llm-reasoning",
+        "unified-multimodal-understanding-and-generation"
+      ],
+      "meta": {
+        "stars": 1675,
+        "forks": 88,
+        "lastUpdated": "2026-10-25T09:04:31Z",
+        "lastCommit": "2026-02-14T05:50:05Z",
+        "fetchedAt": "2026-10-26T03:21:50.660Z"
+      }
     }
   ]
 }

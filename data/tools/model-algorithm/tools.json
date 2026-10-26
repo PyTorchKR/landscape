@@ -3364,6 +3364,24 @@
         "createdAt": "2025-04-19T07:15:57Z",
         "lastFetchAttempt": "2026-10-26T21:19:03.151Z"
       }
+    },
+    {
+      "id": "qwenlm-qwen3-6",
+      "name": "Qwen3.8",
+      "description": "Alibaba Qwen 팀이 개발한 차세대 대규모 언어 모델 시리즈 Qwen3.6으로, 향상된 추론·코드·다국어 능력을 갖춘 오픈 웨이트 LLM 계열입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/QwenLM/Qwen3.8",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 4329,
+        "forks": 334,
+        "lastUpdated": "2026-10-26T19:47:59Z",
+        "lastCommit": "2026-08-17T05:17:40Z",
+        "fetchedAt": "2026-10-26T21:47:29.157Z"
+      }
     }
   ]
 }

@@ -1998,6 +1998,45 @@
         "createdAt": "2025-10-25T04:17:51Z",
         "lastFetchAttempt": "2026-10-26T17:48:05.511Z"
       }
+    },
+    {
+      "id": "ovidijusparsiunas-deep-chat",
+      "name": "deep-chat",
+      "description": "웹사이트에 삽입할 수 있는 완전 커스터마이즈 가능한 AI 챗봇 컴포넌트 Deep Chat. 다양한 LLM 연동, 파일·음성·카메라 입력, 프레임워크 무관(웹 컴포넌트) 사용을 지원합니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/OvidijusParsiunas/deep-chat",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "ai-chatbot",
+        "chat",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "component",
+        "deepseek",
+        "gemini",
+        "huggingface",
+        "next",
+        "nextjs",
+        "ollama",
+        "openai",
+        "react",
+        "react-chatbot",
+        "realtime",
+        "solid",
+        "svelte",
+        "vue"
+      ],
+      "meta": {
+        "stars": 3740,
+        "forks": 456,
+        "lastUpdated": "2026-10-26T11:19:13Z",
+        "lastCommit": "2026-10-24T13:47:31Z",
+        "fetchedAt": "2026-10-26T18:17:05.514Z"
+      }
     }
   ]
 }

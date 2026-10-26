@@ -3263,6 +3263,32 @@
         "createdAt": "2026-03-31T19:07:34Z",
         "lastFetchAttempt": "2026-10-26T00:23:56.042Z"
       }
+    },
+    {
+      "id": "replicate-cog",
+      "name": "cog",
+      "description": "머신러닝 모델을 표준 컨테이너(Docker)로 패키징하고 추론 API로 서빙하는 도구(Cog). cog.yaml 설정으로 모델 의존성·예측 인터페이스를 정의하면 프로덕션용 컨테이너와 HTTP 예측 서버를 자동 생성합니다. Replicate 플랫폼의 핵심 오픈소스.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/replicate/cog",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "containers",
+        "cuda",
+        "docker",
+        "machine-learning",
+        "pytorch",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 9492,
+        "forks": 699,
+        "lastUpdated": "2026-10-25T03:58:03Z",
+        "lastCommit": "2026-10-21T01:11:07Z",
+        "fetchedAt": "2026-10-26T00:51:45.474Z"
+      }
     }
   ]
 }

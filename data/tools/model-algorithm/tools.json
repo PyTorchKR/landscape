@@ -3134,6 +3134,24 @@
         "createdAt": "2023-07-14T11:07:57Z",
         "lastFetchAttempt": "2026-10-26T11:53:41.549Z"
       }
+    },
+    {
+      "id": "deepseek-ai-deepseek-coder",
+      "name": "DeepSeek-Coder",
+      "description": "DeepSeek가 공개한 코드 특화 대규모 언어 모델 시리즈로, 다양한 프로그래밍 언어의 코드 생성·완성·이해에 최적화된 오픈 웨이트 코드 LLM과 평가 자료를 제공합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-Coder",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 24318,
+        "forks": 2938,
+        "lastUpdated": "2026-10-26T11:56:09Z",
+        "lastCommit": "2025-11-11T06:44:56Z",
+        "fetchedAt": "2026-10-26T12:21:52.715Z"
+      }
     }
   ]
 }

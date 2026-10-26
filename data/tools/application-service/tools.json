@@ -1931,6 +1931,30 @@
         "createdAt": "2026-08-17T00:44:59Z",
         "lastFetchAttempt": "2026-10-26T06:52:31.736Z"
       }
+    },
+    {
+      "id": "mrnerf-lichtfeld-studio",
+      "name": "LichtFeld-Studio",
+      "description": "단일 네이티브 애플리케이션에서 3D Gaussian Splatting 씬을 학습·검사·편집·자동화·내보내기할 수 있는 데스크톱 스튜디오. 3D 콘텐츠 제작/편집 도구입니다.",
+      "categoryId": "content-generation",
+      "moduleId": "application-service",
+      "license": "GPL-3.0",
+      "githubUrl": "https://github.com/MrNeRF/LichtFeld-Studio",
+      "koreanSupport": false,
+      "tags": [
+        "computer-graphics",
+        "computer-vision",
+        "cuda",
+        "gaussian-splatting",
+        "optimization"
+      ],
+      "meta": {
+        "stars": 3910,
+        "forks": 504,
+        "lastUpdated": "2026-10-26T06:17:52Z",
+        "lastCommit": "2026-10-26T07:15:00Z",
+        "fetchedAt": "2026-10-26T07:21:50.884Z"
+      }
     }
   ]
 }

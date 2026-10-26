@@ -3160,6 +3160,38 @@
         "createdAt": "2023-10-20T06:38:01Z",
         "lastFetchAttempt": "2026-10-26T12:56:45.311Z"
       }
+    },
+    {
+      "id": "nandhakishorm-laya",
+      "name": "laya",
+      "description": "텍스트를 생성하지 않고 한 번의 순전파로 선택, 점수, 예/아니오 결정을 내리는 비자기회귀 결정 모델입니다. 100개 이상 언어를 지원하는 오픈 가중치와 로컬 실행 도구를 제공합니다.",
+      "categoryId": "decision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/NandhaKishorM/laya",
+      "koreanSupport": false,
+      "tags": [
+        "calibration",
+        "classification",
+        "decision-model",
+        "huggingface",
+        "jev",
+        "modernbert",
+        "multilingual",
+        "nlp",
+        "python",
+        "pytorch",
+        "routing",
+        "typed-decisions",
+        "zero-shot"
+      ],
+      "meta": {
+        "stars": 34352,
+        "forks": 3082,
+        "lastUpdated": "2026-10-26T12:54:02Z",
+        "lastCommit": "2026-10-26T02:59:09Z",
+        "fetchedAt": "2026-10-26T13:07:32.797Z"
+      }
     }
   ]
 }

@@ -3297,6 +3297,27 @@
         "createdAt": "2021-02-26T23:43:09Z",
         "lastFetchAttempt": "2026-10-26T01:24:01.805Z"
       }
+    },
+    {
+      "id": "ml-explore-mlx-lm",
+      "name": "mlx-lm",
+      "description": "Apple의 MLX 프레임워크로 Apple Silicon에서 LLM을 실행, 양자화, 파인튜닝하는 패키지입니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/ml-explore/mlx-lm",
+      "koreanSupport": false,
+      "tags": [
+        "llms",
+        "mlx"
+      ],
+      "meta": {
+        "stars": 7475,
+        "forks": 1154,
+        "lastUpdated": "2026-10-25T20:49:12Z",
+        "lastCommit": "2026-10-24T00:10:47Z",
+        "fetchedAt": "2026-10-26T02:21:43.933Z"
+      }
     }
   ]
 }

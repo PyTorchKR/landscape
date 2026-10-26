@@ -43,7 +43,8 @@
                 "vision-model",
                 "embedding-model",
                 "multimodal",
-                "time-series-model"
+                "time-series-model",
+                "decision-model"
             ]
         },
         {

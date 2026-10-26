@@ -59,6 +59,7 @@ body:
         - "embedding-model (Embedding Model)"
         - "multimodal (Multimodal Model)"
         - "time-series-model (Time Series Model)"
+        - "decision-model (Decision Model)"
         # Training & Inference
         - "feature-store (Feature Store)"
         - "experiment-tracking (Experiment Tracking)"

@@ -357,6 +357,14 @@
       ]
     },
     {
+      "id": "decision-model",
+      "moduleId": "model-algorithm",
+      "name": "결정 모델",
+      "description": "텍스트를 생성하지 않고 선택, 점수, 예/아니오 같은 정해진 형식의 판단을 내리는 결정 모델 및 실행 환경",
+      "order": 6,
+      "tools": []
+    },
+    {
       "id": "feature-store",
       "moduleId": "training-inference",
       "name": "피처 스토어",

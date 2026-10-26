@@ -24,6 +24,7 @@ const categoryNames: Record<string, string> = {
   'vision-model': 'Vision Model',
   'embedding-model': 'Embedding Model',
   'multimodal': 'Multimodal Model',
+  'decision-model': 'Decision Model',
   'feature-store': 'Feature Store',
   'experiment-tracking': 'Experiment Tracking',
   'inference-optimization': 'Inference Optimization',

@@ -3079,6 +3079,24 @@
         "createdAt": "2020-03-30T04:27:42Z",
         "lastFetchAttempt": "2026-10-26T08:23:23.315Z"
       }
+    },
+    {
+      "id": "qwenlm-qwen3",
+      "name": "Qwen3",
+      "description": "Alibaba Cloud의 Qwen 팀이 개발한 대규모 언어 모델 시리즈 Qwen3로, 다양한 규모의 오픈 웨이트 모델과 추론·코드·다국어 성능을 제공하며 추론(thinking) 모드를 지원합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Unknown",
+      "githubUrl": "https://github.com/QwenLM/Qwen3",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 27682,
+        "forks": 2083,
+        "lastUpdated": "2026-10-26T05:14:30Z",
+        "lastCommit": "2026-01-09T03:05:47Z",
+        "fetchedAt": "2026-10-26T10:21:56.501Z"
+      }
     }
   ]
 }

@@ -3621,6 +3621,36 @@
         "createdAt": "2025-09-11T10:39:55Z",
         "lastFetchAttempt": "2026-10-26T19:19:41.319Z"
       }
+    },
+    {
+      "id": "kaiban-ai-kaibanjs",
+      "name": "KaibanJS",
+      "description": "칸반(Kanban) 방식에서 영감을 받은 JavaScript 네이티브 멀티에이전트 프레임워크로, 에이전트·태스크·팀을 칸반 보드처럼 시각적으로 구성·관리하여 멀티에이전트 시스템을 구축합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/kaiban-ai/KaibanJS",
+      "koreanSupport": false,
+      "tags": [
+        "agentic",
+        "agentic-framework",
+        "agenticjs",
+        "agents",
+        "ai",
+        "javascript",
+        "kanban",
+        "langchain-js",
+        "llms",
+        "multi-agent-systems",
+        "state-management"
+      ],
+      "meta": {
+        "stars": 1482,
+        "forks": 158,
+        "lastUpdated": "2026-10-23T23:01:39Z",
+        "lastCommit": "2026-05-15T18:53:38Z",
+        "fetchedAt": "2026-10-26T20:47:11.819Z"
+      }
     }
   ]
 }

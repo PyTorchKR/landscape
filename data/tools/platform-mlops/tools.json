@@ -3560,6 +3560,24 @@
         "createdAt": "2024-06-10T09:05:57Z",
         "lastFetchAttempt": "2026-10-26T16:19:56.823Z"
       }
+    },
+    {
+      "id": "laravel-ai",
+      "name": "ai",
+      "description": "OpenAI, Anthropic, Gemini 등 AI 제공자와 상호작용하는 통합 API를 제공하는 Laravel 공식 PHP AI SDK입니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/laravel/ai",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1246,
+        "forks": 367,
+        "lastUpdated": "2026-10-26T15:03:35Z",
+        "lastCommit": "2026-10-22T21:27:26Z",
+        "fetchedAt": "2026-10-26T17:17:01.811Z"
+      }
     }
   ]
 }

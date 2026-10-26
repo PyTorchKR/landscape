@@ -2843,6 +2843,24 @@
         "createdAt": "2023-06-05T07:40:01Z",
         "lastFetchAttempt": "2026-10-26T03:24:26.720Z"
       }
+    },
+    {
+      "id": "openxla-xla",
+      "name": "xla",
+      "description": "GPU, CPU, ML 가속기를 위한 머신러닝 컴파일러로, JAX, TensorFlow, PyTorch 모델을 최적화해 실행합니다.",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/openxla/xla",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 4609,
+        "forks": 979,
+        "lastUpdated": "2026-10-25T21:08:33Z",
+        "lastCommit": "2026-10-26T03:38:08Z",
+        "fetchedAt": "2026-10-26T04:21:51.278Z"
+      }
     }
   ]
 }

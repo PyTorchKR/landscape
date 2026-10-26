@@ -396,7 +396,8 @@
         "kvcache-ai-ktransformers",
         "lmcache-lmcache",
         "kvcache-ai-mooncake",
-        "pytorch-tensorrt"
+        "pytorch-tensorrt",
+        "openxla-xla"
       ]
     },
     {

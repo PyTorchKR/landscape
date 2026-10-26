@@ -3489,6 +3489,24 @@
         "createdAt": "2023-12-27T08:22:59Z",
         "lastFetchAttempt": "2026-10-26T12:57:23.261Z"
       }
+    },
+    {
+      "id": "agentclientprotocol-claude-agent-acp",
+      "name": "claude-agent-acp",
+      "description": "Claude Agent SDK를 Agent Client Protocol(ACP)을 지원하는 에디터나 클라이언트에서 사용할 수 있게 하는 어댑터입니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/agentclientprotocol/claude-agent-acp",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 2692,
+        "forks": 451,
+        "lastUpdated": "2026-10-26T12:46:20Z",
+        "lastCommit": "2026-10-26T12:46:30Z",
+        "fetchedAt": "2026-10-26T13:03:25.686Z"
+      }
     }
   ]
 }

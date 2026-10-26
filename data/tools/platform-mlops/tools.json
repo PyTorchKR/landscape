@@ -3420,6 +3420,33 @@
         "createdAt": "2022-12-12T18:06:32Z",
         "lastFetchAttempt": "2026-10-26T11:24:21.953Z"
       }
+    },
+    {
+      "id": "apodexai-frontieragent",
+      "name": "FrontierAgent",
+      "description": "단일 ReAct 에이전트와 병렬 Agent Team 모드를 제공하는 오픈소스 에이전트 프레임워크로, 네이티브 CLI TUI를 포함합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ApodexAI/FrontierAgent",
+      "koreanSupport": false,
+      "tags": [
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-framework",
+        "ai-agents",
+        "harness",
+        "multi-agent",
+        "terminal-agent",
+        "tui"
+      ],
+      "meta": {
+        "stars": 5354,
+        "forks": 324,
+        "lastUpdated": "2026-10-26T11:39:55Z",
+        "lastCommit": "2026-10-26T10:30:10Z",
+        "fetchedAt": "2026-10-26T11:51:49.625Z"
+      }
     }
   ]
 }

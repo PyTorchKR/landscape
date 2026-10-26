@@ -82,7 +82,9 @@ jobs:
 
             // Extract optional description
             const descMatch = body.match(/### (?:Description \(optional\)|설명 \(선택\))\s*\n+([\s\S]+?)(?:\n###|$)/)
-            const description = descMatch?.[1]?.trim()
+            // GitHub issue forms write "_No response_" for an empty optional field.
+            const rawDescription = descMatch?.[1]?.trim()
+            const description = rawDescription === '_No response_' ? '' : rawDescription
 
             // Override from /approve comment.
             // Supported forms (most specific first):

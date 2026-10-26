@@ -1,38 +1,40 @@
 # Opensource AI Landscape
 
+**English** | [한국어](README.ko.md)
+
 🗺️ **https://landscape.pytorch.kr**
 
 [![Opensource AI Landscape (English, Treemap view)](docs/images/screenshot-en.png)](https://landscape.pytorch.kr)
 
-## 소개
+## About
 
-Opensource AI Landscape는 AI와 관련된 오픈소스 프로젝트를 한눈에 살펴볼 수 있는 인터랙티브 시각화 도구입니다.
-이 프로젝트는 [AI Techmap](https://www.youtube.com/watch?v=z2Ge2QAEWbY)을 기반으로 구성되었으며, [Newsmap](https://www.google.com/search?num=10&newwindow=1&udm=2&q=newsmap)으로부터 영감을 받았습니다.
+Opensource AI Landscape is an interactive visualization of open source projects related to AI.
+The structure of the landscape comes from [AI Techmap](https://www.youtube.com/watch?v=z2Ge2QAEWbY), and the design takes ideas from [Newsmap](https://www.google.com/search?num=10&newwindow=1&udm=2&q=newsmap).
 
-## 주요 기능
+## Features
 
-- **Treemap/Grid View**: 7개 모듈(인프라, 데이터, 모델, 학습/추론, 플랫폼, 응용, 보안) 기준으로 프로젝트를 시각화
-- **국내 프로젝트 보기**: 우측 하단 🌐 버튼(마우스를 올리면 🇰🇷)을 누르면 국내 기업·기관 프로젝트(`region: "KR"`)만 보고 제목에 `(Korea🇰🇷)`가 붙음. 다시 누르면 전체로 돌아옴. 국내 프로젝트는 마우스를 올렸을 때 나오는 카드의 이름 앞에 KR로 표시. `?scope=kr`로 바로 링크할 수 있음
-- **Module Filter**: 관심 있는 모듈만 선택하여 볼 수 있음
-- **GitHub Stars based size**: 프로젝트 인지도를 직관적으로 파악
-- **Commit time based color**: 최근 활발한 프로젝트를 한눈에 확인
-- **Multi-language**: 한국어 / English 지원
+- **Treemap/Grid View**: Shows projects in 7 modules (infrastructure, data, models, training and inference, platform, applications, security).
+- **Korean projects view**: To show only projects from Korean companies and institutions (`region: "KR"`), click the 🌐 button at the bottom right. When you hover over the button, it changes to 🇰🇷. The title then shows `(Korea🇰🇷)`. Click the button again to show all projects. When you hover over a Korean project, its card shows KR before the name. You can link to this view directly with `?scope=kr`.
+- **Module Filter**: Shows only the modules that you select.
+- **GitHub Stars based size**: The size of a project shows how well known it is.
+- **Commit time based color**: The color of a project shows how recently it had a commit.
+- **Multi-language**: Supports Korean and English.
 
-## 프로젝트 추가 요청
+## Request a project
 
-AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝트 추가 요청 이슈](https://github.com/PyTorchKR/landscape/issues/new?template=add-project.yml)를 생성해 주세요.
-저장소 URL, 모듈, 카테고리를 선택하면 관리자가 검토한 뒤 아래 명령어로 등재합니다.
+To add an AI open source project, open an [add-project issue](https://github.com/PyTorchKR/landscape/issues/new?template=add-project.yml).
+Select the repository URL, the module, and the category. A maintainer reviews the request and adds the project with the commands below.
 
-## 관리자 명령어
+## Maintainer commands
 
-`add-project` 라벨이 붙은 이슈에 저장소 OWNER / MEMBER / COLLABORATOR가 댓글을 남기면 동작합니다.
-명령어는 **댓글의 첫 줄 맨 앞**에 있어야 하며, 본문 중간에 언급된 `/approve`는 무시됩니다.
+The commands work on issues with the `add-project` label. Only a repository OWNER, MEMBER, or COLLABORATOR can use them.
+A command must be at the **start of the first line of the comment**. The workflow ignores `/approve` in other positions.
 
-| 명령어 | 동작 |
+| Command | Action |
 |---|---|
-| `/approve` | 이슈 본문의 저장소 URL, 모듈, 카테고리 그대로 등재 |
-| `/approve <moduleId> <categoryId>` | 저장소 URL은 이슈 본문에서 읽고, 분류만 지정한 값으로 바꿔 등재 |
-| `/approve <owner/repo> <moduleId> <categoryId>` | 저장소와 분류를 모두 지정해 등재 (이슈 본문 형식과 무관) |
+| `/approve` | Adds the project with the repository URL, module, and category from the issue body |
+| `/approve <moduleId> <categoryId>` | Reads the repository URL from the issue body, and uses the module and category from the command |
+| `/approve <owner/repo> <moduleId> <categoryId>` | Uses the repository, module, and category from the command (any issue body format works) |
 
 ```text
 /approve
@@ -40,21 +42,26 @@ AI 관련 오픈소스 프로젝트를 추가하고 싶으시다면, [프로젝�
 /approve getzep/graphiti platform-mlops memory-knowledge
 ```
 
-명령이 성공하면 다음 순서로 처리됩니다.
+When a command succeeds, the workflow does these steps:
 
-1. GitHub API로 저장소 정보(Stars, 라이선스, 최근 커밋 등)를 조회해 `data/tools/<moduleId>/tools.json`과 `data/categories/index.json`에 추가
-   - HuggingFace에만 공개된 모델·데이터셋·컬렉션은 저장소 URL 자리에 HuggingFace URL을 넣으면 됩니다. 이때는 Stars 대신 Likes와 Downloads를 저장합니다. 모델·데이터셋은 HuggingFace에 짧은 설명 필드가 없어 이슈의 설명이 필요합니다. `/approve <owner/repo> ...` 형식은 GitHub 저장소에만 쓸 수 있습니다.
-   - 관리자가 이슈에 `Korea` 라벨을 붙이면 `region: "KR"`을 함께 저장해 국내 프로젝트 보기에 표시합니다.
-2. `main`에 커밋 (`feat: add <url> (closes #N)`)
-3. 이슈에 결과 댓글을 남기고 이슈를 닫음
-4. Build & Deploy를 실행해 사이트에 바로 반영
+1. Gets the repository information (Stars, license, last commit, and more) from the GitHub API, and adds the project to `data/tools/<moduleId>/tools.json` and `data/categories/index.json`.
+   - For a model, dataset, or collection that is only on HuggingFace, put the HuggingFace URL in place of the repository URL. The workflow then stores Likes and Downloads instead of Stars. HuggingFace models and datasets do not have a short description field, so the issue must include a description. The `/approve <owner/repo> ...` form works only for GitHub repositories.
+   - If a maintainer adds the `Korea` label to the issue, the workflow also stores `region: "KR"`. The project then appears in the Korean projects view.
+2. Commits to `main` (`feat: add <url> (closes #N)`).
+3. Adds a result comment to the issue and closes the issue.
+4. Runs Build & Deploy, so the site shows the project immediately.
 
-실패하면 이슈에 워크플로 로그 링크가 달립니다. 흔한 원인은 이미 등록된 프로젝트, 모듈과 카테고리 불일치, 비공개 또는 존재하지 않는 저장소입니다.
-모듈 ID와 카테고리 ID는 [`data/modules/index.json`](data/modules/index.json), [`data/categories/index.json`](data/categories/index.json)에서 확인할 수 있습니다.
+If the command fails, the workflow adds a link to the workflow log on the issue. These are the common causes:
 
-### 사이트 다시 빌드하기
+- The project is already in the landscape.
+- The category does not belong to the module.
+- The repository is private or does not exist.
 
-Build & Deploy는 `main`에 push될 때와 매일 KST 03:00에 자동 실행되며, 이때 저장소 URL과 Stars 정보도 갱신합니다.
+You can find the module IDs and category IDs in [`data/modules/index.json`](data/modules/index.json) and [`data/categories/index.json`](data/categories/index.json).
+
+### Rebuild the site
+
+Build & Deploy runs automatically on each push to `main` and every day at 03:00 KST. Each run also updates the repository URLs and Stars.
 The refresh saves successful results and records each failed attempt in `meta.lastFetchAttempt` and `meta.fetchError`.
 If a source fails, its prior values and `meta.fetchedAt` stay unchanged.
 The workflow commits the `data` directory and publishes available updates.
@@ -68,15 +75,15 @@ The refresh keeps URL subdirectory paths, queries, and fragments.
 Project IDs and category references stay unchanged, and HuggingFace entries keep their display names.
 The job summary lists each repository URL change.
 
-수동으로 실행하려면 Actions 탭에서 **Build & Deploy → Run workflow**를 누르거나 다음 명령을 사용합니다.
+To run it manually, click **Build & Deploy → Run workflow** in the Actions tab, or use this command:
 
 ```bash
 gh workflow run daily-update.yml -R PyTorchKR/landscape
 ```
 
-## 개발 및 기여
+## Development and contributing
 
-[pnpm](https://pnpm.io) 9.15.9를 사용합니다(`package.json`의 `packageManager`). Node.js 22 이상과 Corepack을 권장합니다.
+The project uses [pnpm](https://pnpm.io) 9.15.9 (`packageManager` in `package.json`). We recommend Node.js 22 or later with Corepack.
 
 ```bash
 corepack enable
@@ -84,23 +91,23 @@ pnpm install
 pnpm dev
 ```
 
-| 명령어 | 설명 |
+| Command | Description |
 |---|---|
-| `pnpm dev` | 로컬 개발 서버 실행 |
-| `pnpm build` | 타입 검사 후 `dist/`로 프로덕션 빌드 |
-| `pnpm preview` | 빌드 결과 미리보기 |
-| `GITHUB_TOKEN=... pnpm update-stars` | 등록된 모든 프로젝트의 Stars, Forks, 최근 커밋 정보 갱신 (HuggingFace 항목은 Likes, Downloads) |
-| `GITHUB_TOKEN=... pnpm add-tool -- --github-url <url> --module-id <id> --category-id <id> [--description <text>] [--region KR]` | 프로젝트 1개를 로컬에서 직접 추가 (`/approve`가 내부적으로 사용). `<url>`은 GitHub 또는 HuggingFace URL |
+| `pnpm dev` | Starts the local development server |
+| `pnpm build` | Checks types, then builds for production into `dist/` |
+| `pnpm preview` | Previews the build output |
+| `GITHUB_TOKEN=... pnpm update-stars` | Updates Stars, Forks, and last commit data for all projects (Likes and Downloads for HuggingFace entries) |
+| `GITHUB_TOKEN=... pnpm add-tool -- --github-url <url> --module-id <id> --category-id <id> [--description <text>] [--region KR]` | Adds one project locally (`/approve` uses this internally). `<url>` is a GitHub or HuggingFace URL |
 
-### 데이터 구조
+### Data structure
 
 ```text
 data/
-├── modules/index.json        # 7개 모듈과 모듈별 카테고리 목록
-├── categories/index.json     # 카테고리 정의와 카테고리별 프로젝트 ID 목록
-└── tools/<moduleId>/tools.json  # 모듈별 프로젝트 데이터
+├── modules/index.json        # The 7 modules and the categories of each module
+├── categories/index.json     # Category definitions and the project IDs in each category
+└── tools/<moduleId>/tools.json  # Project data for each module
 ```
 
-## 라이선스
+## License
 
 [MIT](LICENSE)

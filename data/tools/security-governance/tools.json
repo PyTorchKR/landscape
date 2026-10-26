@@ -920,6 +920,24 @@
         "fetchedAt": "2026-10-26T20:49:54.991Z",
         "lastFetchAttempt": "2026-10-26T20:49:54.897Z"
       }
+    },
+    {
+      "id": "sunblaze-ucb-exploitgym",
+      "name": "exploitgym",
+      "description": "실제 취약점으로 구성되어 AI 에이전트의 익스플로잇 개발 능력을 평가하는 대규모 보안 벤치마크입니다.",
+      "categoryId": "security-testing",
+      "moduleId": "security-governance",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/sunblaze-ucb/exploitgym",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1208,
+        "forks": 152,
+        "lastUpdated": "2026-10-26T13:15:46Z",
+        "lastCommit": "2026-10-08T18:56:17Z",
+        "fetchedAt": "2026-10-26T21:17:12.601Z"
+      }
     }
   ]
 }

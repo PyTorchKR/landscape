@@ -3217,6 +3217,44 @@
         "createdAt": "2025-10-08T17:52:48Z",
         "lastFetchAttempt": "2026-10-25T22:53:45.075Z"
       }
+    },
+    {
+      "id": "open-multi-agent-open-multi-agent",
+      "name": "open-multi-agent",
+      "description": "목표(goal)로부터 작업 DAG를 자동 생성하는 TypeScript 네이티브 멀티에이전트 오케스트레이션 프레임워크. 원래 JackChen-me/open-multi-agent에서 open-multi-agent/open-multi-agent로 소유권이 이전되었습니다(이전 경로는 리다이렉트).",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/open-multi-agent/open-multi-agent",
+      "koreanSupport": false,
+      "tags": [
+        "agent-framework",
+        "agent-orchestration",
+        "agentic-ai",
+        "ai-agents",
+        "ai-governance",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "deepseek",
+        "gemini",
+        "llm",
+        "local-llm",
+        "mcp",
+        "multi-agent",
+        "observability",
+        "ollama",
+        "openai",
+        "self-hosted",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 7023,
+        "forks": 2440,
+        "lastUpdated": "2026-10-25T20:12:06Z",
+        "lastCommit": "2026-10-24T03:43:54Z",
+        "fetchedAt": "2026-10-26T00:21:48.240Z"
+      }
     }
   ]
 }

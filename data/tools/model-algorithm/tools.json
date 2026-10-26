@@ -3221,6 +3221,34 @@
         "lastCommit": "2026-10-20T08:21:35Z",
         "fetchedAt": "2026-10-26T13:08:13.095Z"
       }
+    },
+    {
+      "id": "mizorewww-laya-coreml",
+      "name": "laya-coreml",
+      "description": "Laya 결정 모델을 Apple Core ML과 Neural Engine에서 로컬로 실행하는 포팅과 속도, 에너지 벤치마크입니다.",
+      "categoryId": "decision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mizorewww/laya-coreml",
+      "koreanSupport": false,
+      "tags": [
+        "apple-neural-engine",
+        "apple-silicon",
+        "coreml",
+        "decision-model",
+        "laya",
+        "local-ai",
+        "modernbert",
+        "on-device-ai",
+        "typed-decisions"
+      ],
+      "meta": {
+        "stars": 1606,
+        "forks": 136,
+        "lastUpdated": "2026-10-26T12:53:37Z",
+        "lastCommit": "2026-10-20T08:21:34Z",
+        "fetchedAt": "2026-10-26T13:08:55.187Z"
+      }
     }
   ]
 }

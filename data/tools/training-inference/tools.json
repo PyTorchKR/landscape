@@ -2869,6 +2869,28 @@
         "createdAt": "2022-08-09T15:30:01Z",
         "lastFetchAttempt": "2026-10-26T17:20:05.033Z"
       }
+    },
+    {
+      "id": "pytorch-gloo",
+      "name": "gloo",
+      "description": "다중 머신 학습을 위한 다양한 집합 통신 기본 연산을 제공하는 라이브러리로, PyTorch 분산 백엔드로 쓰입니다.",
+      "categoryId": "distributed-training",
+      "moduleId": "training-inference",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/pytorch/gloo",
+      "koreanSupport": false,
+      "tags": [
+        "collectives",
+        "distributed-training",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 1459,
+        "forks": 372,
+        "lastUpdated": "2026-10-13T14:29:03Z",
+        "lastCommit": "2026-10-01T23:10:45Z",
+        "fetchedAt": "2026-10-26T17:47:21.816Z"
+      }
     }
   ]
 }

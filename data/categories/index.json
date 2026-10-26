@@ -503,7 +503,8 @@
         "megatron-lm",
         "kubeflow-trainer",
         "run-house-kubetorch",
-        "huggingface-accelerate"
+        "huggingface-accelerate",
+        "pytorch-gloo"
       ]
     },
     {

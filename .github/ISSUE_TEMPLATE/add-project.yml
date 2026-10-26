@@ -1,19 +1,19 @@
-name: "프로젝트 추가 요청"
-description: "AI 오픈소스 프로젝트를 Opensource AI Landscape에 추가합니다"
+name: "Add a project"
+description: "Add an AI open source project to the Opensource AI Landscape"
 title: "[ADD] "
 labels: ["add-project"]
 body:
   - type: markdown
     attributes:
       value: |
-        AI 관련 오픈소스 프로젝트를 추가해 주세요.
-        승인 권한을 가진 관리자가 댓글에 `/approve`를 입력하면 자동으로 추가됩니다.
+        Request an AI open source project for the landscape.
+        When a maintainer comments `/approve`, a workflow adds the project automatically.
 
   - type: input
     id: github_url
     attributes:
-      label: "GitHub 저장소 URL"
-      description: "추가할 GitHub 저장소의 URL을 입력하세요. HuggingFace에만 공개된 모델이나 데이터셋은 HuggingFace URL을 입력해도 됩니다 (이때는 아래 설명을 꼭 채워 주세요)"
+      label: "GitHub Repository URL"
+      description: "Enter the URL of the GitHub repository to add. For a model or dataset that is only on HuggingFace, you can enter the HuggingFace URL. In that case, you must fill in the description below."
       placeholder: "https://github.com/owner/repo"
     validations:
       required: true
@@ -21,99 +21,99 @@ body:
   - type: dropdown
     id: module_id
     attributes:
-      label: "분류 (모듈)"
-      description: "해당 프로젝트가 속하는 분류를 선택하세요"
+      label: "Module"
+      description: "Select the module that the project belongs to"
       options:
-        - "infra-computing (인프라 & 컴퓨팅)"
-        - "data-storage (데이터 & 저장소)"
-        - "model-algorithm (모델 & 알고리즘)"
-        - "training-inference (모델 개발/학습 및 추론)"
-        - "platform-mlops (플랫폼 & MLOps)"
-        - "application-service (응용 & 서비스)"
-        - "security-governance (보안, 정렬 & 거버넌스)"
+        - "infra-computing (Infra & Computing)"
+        - "data-storage (Data & Storage)"
+        - "model-algorithm (Model & Algorithm)"
+        - "training-inference (Training & Inference)"
+        - "platform-mlops (Platform & MLOps)"
+        - "application-service (Application & Service)"
+        - "security-governance (Security & Governance)"
     validations:
       required: true
 
   - type: dropdown
     id: category_id
     attributes:
-      label: "카테고리"
-      description: "해당 프로젝트의 세부 카테고리를 선택하세요"
+      label: "Category"
+      description: "Select the category of the project"
       options:
-        # 인프라 & 컴퓨팅
-        - "container-orchestration (컨테이너·오케스트레이션)"
-        - "distributed-cloud (대규모/분산 컴퓨팅 인프라)"
-        - "ai-accelerator (AI 가속기)"
-        - "sustainable-ai (지속 가능한 AI 인프라)"
-        # 데이터 & 저장소
-        - "vector-db (벡터 데이터베이스)"
-        - "data-quality (데이터 품질 관리)"
-        - "data-labeling (데이터 라벨링)"
-        - "synthetic-data (합성 데이터 생성)"
-        - "datasets-tools (학습 데이터셋 및 도구)"
-        - "catalog-lineage (카탈로그 및 버전/계보)"
+        # Infra & Computing
+        - "container-orchestration (Container & Orchestration)"
+        - "distributed-cloud (Distributed Cloud Infra)"
+        - "ai-accelerator (AI Accelerator (GPU/NPU))"
+        - "sustainable-ai (Sustainable AI Infra)"
+        # Data & Storage
+        - "vector-db (Vector Database)"
+        - "data-quality (Data Quality)"
+        - "data-labeling (Data Labeling)"
+        - "synthetic-data (Synthetic Data)"
+        - "datasets-tools (Datasets & Tools)"
+        - "catalog-lineage (Catalog & Lineage)"
         - "etl-workflow (ETL & Workflow)"
-        # 모델 & 알고리즘
-        - "llm (대규모 언어 모델)"
-        - "vision-model (비전 모델)"
-        - "embedding-model (임베딩 모델)"
-        - "multimodal (멀티모달 모델)"
-        - "time-series-model (시계열 모델)"
-        # 모델 개발/학습 및 추론
-        - "feature-store (피처 스토어)"
-        - "experiment-tracking (실험 추적 및 버전 관리)"
-        - "inference-optimization (추론 최적화)"
-        - "model-compression (모델 경량화)"
-        - "fine-tuning (파인튜닝)"
+        # Model & Algorithm
+        - "llm (Large Language Model (LLM))"
+        - "vision-model (Vision Model)"
+        - "embedding-model (Embedding Model)"
+        - "multimodal (Multimodal Model)"
+        - "time-series-model (Time Series Model)"
+        # Training & Inference
+        - "feature-store (Feature Store)"
+        - "experiment-tracking (Experiment Tracking)"
+        - "inference-optimization (Inference Optimization)"
+        - "model-compression (Model Compression)"
+        - "fine-tuning (Fine-tuning)"
         - "automl-hpo (AutoML / HPO)"
-        - "federated-learning (연합 학습)"
-        - "distributed-training (분산 학습)"
-        - "reinforcement-learning (강화학습)"
-        - "deep-learning-framework (딥러닝 프레임워크)"
-        # 플랫폼 & MLOps
-        - "agent-orchestration (에이전트 오케스트레이션)"
-        - "llmops-observability (LLMOps & 관측성)"
-        - "testing-evaluation (테스트 및 성능 평가)"
-        - "interoperability (에이전트 및 도구 상호 운용)"
-        - "memory-knowledge (메모리 및 지식 그래프)"
+        - "federated-learning (Federated Learning)"
+        - "distributed-training (Distributed Training)"
+        - "reinforcement-learning (Reinforcement Learning)"
+        - "deep-learning-framework (Deep Learning Framework)"
+        # Platform & MLOps
+        - "agent-orchestration (Agent Orchestration)"
+        - "llmops-observability (LLMOps & Observability)"
+        - "testing-evaluation (Testing & Evaluation)"
+        - "interoperability (Agent & Tool Interop)"
+        - "memory-knowledge (Memory & Knowledge Graph)"
         - "rag-graphrag (RAG & GraphRAG)"
-        - "prompt-management (프롬프트 관리)"
-        - "on-device-runtime (온디바이스 런타임)"
-        - "model-serving (모델 서빙)"
-        # 응용 & 서비스
-        - "ai-chatbot (AI 챗봇·어시스턴트)"
-        - "content-generation (콘텐츠 생성)"
-        - "recommendation-search (추천 및 검색)"
-        - "industry-solutions (산업별 AI 솔루션)"
-        - "autonomous-agent (자율형 에이전트)"
-        # 보안, 정렬 & 거버넌스
-        - "alignment (AI 정렬)"
-        - "security-testing (보안 테스트 및 레드팀)"
-        - "guardrails (가드레일 및 정책 엔진)"
-        - "xai (설명 가능한 AI)"
-        - "fairness-bias (공정성 및 편향 탐지)"
-        - "data-privacy (데이터 프라이버시)"
-        - "governance (AI 거버넌스)"
+        - "prompt-management (Prompt Management)"
+        - "on-device-runtime (On-device Runtime)"
+        - "model-serving (Model Serving)"
+        # Application & Service
+        - "ai-chatbot (AI Chatbot & Assistant)"
+        - "content-generation (Content Generation)"
+        - "recommendation-search (Recommendation & Search)"
+        - "industry-solutions (Industry AI Solutions)"
+        - "autonomous-agent (Autonomous Agent)"
+        # Security & Governance
+        - "alignment (AI Alignment)"
+        - "security-testing (Security Testing & Red Team)"
+        - "guardrails (Guardrails & Policy Engine)"
+        - "xai (Explainable AI (XAI))"
+        - "fairness-bias (Fairness & Bias Detection)"
+        - "data-privacy (Data Privacy)"
+        - "governance (AI Governance)"
     validations:
       required: true
 
   - type: textarea
     id: description_override
     attributes:
-      label: "설명 (선택)"
-      description: "GitHub 저장소 설명 대신 사용할 한국어 설명을 입력하세요 (선택 사항)"
-      placeholder: "비워두면 GitHub 저장소의 description을 사용합니다"
+      label: "Description (optional)"
+      description: "Enter an English description to use instead of the GitHub repository description"
+      placeholder: "If you leave this empty, the workflow uses the description of the GitHub repository"
     validations:
       required: false
 
   - type: checkboxes
     id: checklist
     attributes:
-      label: "체크리스트"
+      label: "Checklist"
       options:
-        - label: "AI와 직접 관련된 오픈소스 프로젝트입니다"
+        - label: "This is an open source project directly related to AI"
           required: true
-        - label: "GitHub 저장소(또는 HuggingFace 페이지)가 공개(public) 상태입니다"
+        - label: "The GitHub repository (or HuggingFace page) is public"
           required: true
-        - label: "위에서 선택한 분류가 적절합니다"
+        - label: "The module and category selected above are correct"
           required: true

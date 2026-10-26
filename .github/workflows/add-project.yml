@@ -59,8 +59,11 @@ jobs:
           script: |
             const body = context.payload.issue.body ?? ''
 
+            // Section headers come from the issue template. Accept the current English
+            // headers and the Korean headers that older issues still use.
+
             // Extract github_url from body (template format)
-            const urlMatch = body.match(/### GitHub 저장소 URL\s*\n+(.+)/m)
+            const urlMatch = body.match(/### (?:GitHub Repository URL|GitHub 저장소 URL)\s*\n+(.+)/m)
             let githubUrl = urlMatch?.[1]?.trim()
 
             // Fallback: legacy body formats like "- **GitHub URL**: https://..."
@@ -70,15 +73,15 @@ jobs:
             }
 
             // Extract module_id (first word before space/parenthesis)
-            const moduleMatch = body.match(/### 분류 \(모듈\)\s*\n+([^\s(]+)/)
+            const moduleMatch = body.match(/### (?:Module|분류 \(모듈\))\s*\n+([^\s(]+)/)
             let moduleId = moduleMatch?.[1]?.trim()
 
             // Extract category_id (first word before space/parenthesis)
-            const catMatch = body.match(/### 카테고리\s*\n+([^\s(]+)/)
+            const catMatch = body.match(/### (?:Category|카테고리)\s*\n+([^\s(]+)/)
             let categoryId = catMatch?.[1]?.trim()
 
             // Extract optional description
-            const descMatch = body.match(/### 설명 \(선택\)\s*\n+([\s\S]+?)(?:\n###|$)/)
+            const descMatch = body.match(/### (?:Description \(optional\)|설명 \(선택\))\s*\n+([\s\S]+?)(?:\n###|$)/)
             const description = descMatch?.[1]?.trim()
 
             // Override from /approve comment.
@@ -92,13 +95,13 @@ jobs:
               githubUrl = `https://github.com/${threeArg[1]}`
               moduleId = threeArg[2]
               categoryId = threeArg[3]
-              core.info(`전체 오버라이드: ${githubUrl} | ${moduleId} → ${categoryId}`)
+              core.info(`Full override: ${githubUrl} | ${moduleId} → ${categoryId}`)
             } else {
               const twoArg = commentBody.match(/^\/approve\s+(\S+)\s+(\S+)/)
               if (twoArg) {
                 moduleId = twoArg[1]
                 categoryId = twoArg[2]
-                core.info(`모듈/카테고리 오버라이드: ${moduleId} → ${categoryId}`)
+                core.info(`Module/category override: ${moduleId} → ${categoryId}`)
               }
             }
 
@@ -126,14 +129,14 @@ jobs:
 
             const mod = modules.modules.find(m => m.id === moduleId)
             if (!mod) {
-              core.setFailed(`알 수 없는 모듈: ${moduleId}`)
+              core.setFailed(`Unknown module: ${moduleId}`)
               return
             }
             if (!mod.categories.includes(categoryId)) {
-              core.setFailed(`카테고리 "${categoryId}"는 모듈 "${mod.name}" (${moduleId})에 속하지 않습니다.\n유효한 카테고리: ${mod.categories.join(', ')}`)
+              core.setFailed(`Category "${categoryId}" does not belong to module "${moduleId}".\nValid categories: ${mod.categories.join(', ')}`)
               return
             }
-            core.info(`${moduleId} -> ${categoryId} 매핑 확인 완료`)
+            core.info(`Mapping ${moduleId} -> ${categoryId} is valid`)
 
       - name: Add tool, commit and push
         run: |
@@ -189,11 +192,11 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `프로젝트가 성공적으로 추가되었습니다.\n\n` +
+              body: `The project was added.\n\n` +
                     `- **URL**: ${{ steps.parse.outputs.github_url }}\n` +
-                    `- **모듈**: ${{ steps.parse.outputs.module_id }}\n` +
-                    `- **카테고리**: ${{ steps.parse.outputs.category_id }}\n\n` +
-                    `곧 배포되어 [Opensource AI Landscape](https://landscape.pytorch.kr)에 반영됩니다.`
+                    `- **Module**: ${{ steps.parse.outputs.module_id }}\n` +
+                    `- **Category**: ${{ steps.parse.outputs.category_id }}\n\n` +
+                    `It will appear on the [Opensource AI Landscape](https://landscape.pytorch.kr) after the next deployment.`
             })
             // Only attempt to close the issue if it is still open.
             // Retried /approve comments on an already-closed issue would otherwise
@@ -224,9 +227,9 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `프로젝트 추가에 실패했습니다. [워크플로 로그](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})를 확인해 주세요.\n\n` +
-                    `일반적인 원인:\n` +
-                    `- 이미 등록된 프로젝트\n` +
-                    `- 모듈과 카테고리가 일치하지 않음\n` +
-                    `- 비공개 또는 존재하지 않는 저장소`
+              body: `The workflow could not add the project. Read the [workflow log](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}).\n\n` +
+                    `Common causes:\n` +
+                    `- The project is already in the landscape\n` +
+                    `- The category does not belong to the module\n` +
+                    `- The repository is private or does not exist`
             })

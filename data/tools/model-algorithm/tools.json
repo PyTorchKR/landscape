@@ -3308,6 +3308,24 @@
         "createdAt": "2026-09-21T05:55:40Z",
         "lastFetchAttempt": "2026-10-26T13:38:18.947Z"
       }
+    },
+    {
+      "id": "xiaomimimo-mimo-v2-flash",
+      "name": "MiMo-V2-Flash",
+      "description": "Xiaomi가 개발한 효율적인 추론·코딩·에이전트형 파운데이션 모델 MiMo-V2-Flash로, 경량·고효율을 지향하는 오픈 웨이트 대규모 언어 모델입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1400,
+        "forks": 71,
+        "lastUpdated": "2026-10-23T05:04:38Z",
+        "lastCommit": "2026-01-08T04:53:37Z",
+        "fetchedAt": "2026-10-26T15:17:05.021Z"
+      }
     }
   ]
 }

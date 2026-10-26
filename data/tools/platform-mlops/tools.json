@@ -3586,6 +3586,33 @@
         "createdAt": "2025-12-17T15:48:54Z",
         "lastFetchAttempt": "2026-10-26T18:19:36.858Z"
       }
+    },
+    {
+      "id": "chromedevtools-chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "description": "코딩 에이전트가 Chrome DevTools로 실제 브라우저를 제어, 디버깅하고 성능을 분석할 수 있게 하는 Google의 MCP 서버입니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "koreanSupport": false,
+      "tags": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "meta": {
+        "stars": 54205,
+        "forks": 5888,
+        "lastUpdated": "2026-10-26T18:43:51Z",
+        "lastCommit": "2026-10-26T15:03:56Z",
+        "fetchedAt": "2026-10-26T18:47:09.996Z"
+      }
     }
   ]
 }

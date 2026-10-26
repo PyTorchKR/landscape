@@ -3515,6 +3515,43 @@
         "createdAt": "2025-08-27T07:10:19Z",
         "lastFetchAttempt": "2026-10-26T13:17:21.361Z"
       }
+    },
+    {
+      "id": "superlinear-ai-raglite",
+      "name": "raglite",
+      "description": "DuckDB 또는 PostgreSQL을 백엔드로 사용하는 검색 증강 생성(RAG) Python 툴킷. 별도 벡터 DB 없이 관계형 DB에 임베딩을 저장하고 하이브리드 검색·청킹·재순위를 제공하는 경량 RAG 프레임워크.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "MPL-2.0",
+      "githubUrl": "https://github.com/superlinear-ai/raglite",
+      "koreanSupport": false,
+      "tags": [
+        "chainlit",
+        "colbert",
+        "duckdb",
+        "evals",
+        "late-chunking",
+        "late-interaction",
+        "llm",
+        "markdown",
+        "pdf",
+        "pgvector",
+        "postgres",
+        "postgresql",
+        "query-adapter",
+        "rag",
+        "reranking",
+        "retrieval-augmented-generation",
+        "sqlite",
+        "vector-search"
+      ],
+      "meta": {
+        "stars": 1210,
+        "forks": 115,
+        "lastUpdated": "2026-10-24T12:24:03Z",
+        "lastCommit": "2026-10-16T12:14:44Z",
+        "fetchedAt": "2026-10-26T13:36:16.836Z"
+      }
     }
   ]
 }

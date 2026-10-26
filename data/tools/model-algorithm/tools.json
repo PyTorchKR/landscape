@@ -3105,6 +3105,27 @@
         "createdAt": "2024-02-05T05:45:08Z",
         "lastFetchAttempt": "2026-10-26T10:23:47.633Z"
       }
+    },
+    {
+      "id": "google-deepmind-graphcast",
+      "name": "weathernext",
+      "description": "그래프 신경망(GNN) 기반 중기 글로벌 기상 예측 모델 GraphCast(Google DeepMind). 과거 기상 재분석 데이터로 학습되어 기존 수치예보(NWP) 대비 빠르고 정확한 10일 예보를 생성하며, 학습·추론 코드와 사전학습 가중치를 제공합니다.",
+      "categoryId": "time-series-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/google-deepmind/weathernext",
+      "koreanSupport": false,
+      "tags": [
+        "weather",
+        "weather-forecast"
+      ],
+      "meta": {
+        "stars": 7722,
+        "forks": 997,
+        "lastUpdated": "2026-10-26T09:21:26Z",
+        "lastCommit": "2026-09-04T09:49:34Z",
+        "fetchedAt": "2026-10-26T10:51:59.332Z"
+      }
     }
   ]
 }

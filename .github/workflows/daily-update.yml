@@ -24,6 +24,9 @@ jobs:
       refresh_outcome: ${{ steps.refresh.outcome }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so the commit step can rebase onto a newer main.
+          fetch-depth: 0
 
       # pnpm version comes from package.json "packageManager"
       - uses: pnpm/action-setup@v4
@@ -46,13 +49,36 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # The add-project workflow can push to main while this job runs.
+      # Rebase the metadata commit onto the newer main and retry instead of failing.
+      # If the rebase conflicts, skip this refresh. The next run refreshes again.
       - name: Commit repository updates
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update repository metadata'
-          file_pattern: 'data'
-          commit_user_name: 'github-actions[bot]'
-          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo "No repository updates to commit"
+            exit 0
+          fi
+          git commit -m 'chore: update repository metadata'
+          BRANCH="${{ github.event.repository.default_branch }}"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:$BRANCH"; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); rebasing onto the latest $BRANCH"
+            git fetch origin "$BRANCH"
+            if ! git rebase "origin/$BRANCH"; then
+              git rebase --abort
+              git reset --hard "origin/$BRANCH"
+              echo "::warning::Metadata refresh conflicts with the latest $BRANCH. Skipped this refresh."
+              exit 0
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "::error::Failed to push repository updates after 3 attempts"
+          exit 1
 
       - name: Build
         run: pnpm run build

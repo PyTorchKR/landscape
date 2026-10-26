@@ -1862,6 +1862,33 @@
         "createdAt": "2025-02-13T23:19:47Z",
         "lastFetchAttempt": "2026-10-26T04:52:21.050Z"
       }
+    },
+    {
+      "id": "langchain-ai-open-swe",
+      "name": "open-swe",
+      "description": "LangChain이 개발한 오픈소스 비동기 코딩 에이전트. 클라우드 기반으로 백그라운드에서 작업을 계획·실행하고 PR을 생성하는 자율형 SWE 에이전트입니다(LangGraph 기반).",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/langchain-ai/open-swe",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "anthropic",
+        "claudecode",
+        "llm",
+        "llms",
+        "openai"
+      ],
+      "meta": {
+        "stars": 11106,
+        "forks": 1310,
+        "lastUpdated": "2026-10-26T02:50:10Z",
+        "lastCommit": "2026-10-26T04:38:18Z",
+        "fetchedAt": "2026-10-26T05:21:44.836Z"
+      }
     }
   ]
 }

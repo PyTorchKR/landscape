@@ -3249,6 +3249,33 @@
         "lastCommit": "2026-10-20T08:21:34Z",
         "fetchedAt": "2026-10-26T13:08:55.187Z"
       }
+    },
+    {
+      "id": "nokia-applied-research-anyjev",
+      "name": "AnyJev",
+      "description": "추가 학습 없이 어떤 LLM이든 타입이 지정된 결정과 실제 확률을 반환하는 Jev 방식의 결정 모델로 바꿔 주는 라이브러리입니다.",
+      "categoryId": "decision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/nokia-applied-research/AnyJev",
+      "koreanSupport": false,
+      "tags": [
+        "calibration",
+        "decision-model",
+        "jev",
+        "jev-model",
+        "llm",
+        "system-one",
+        "transformers",
+        "vllm"
+      ],
+      "meta": {
+        "stars": 1487,
+        "forks": 171,
+        "lastUpdated": "2026-10-26T10:12:12Z",
+        "lastCommit": "2026-10-21T20:30:58Z",
+        "fetchedAt": "2026-10-26T13:09:29.561Z"
+      }
     }
   ]
 }

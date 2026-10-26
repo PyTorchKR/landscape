@@ -3038,6 +3038,39 @@
         "createdAt": "2025-06-28T08:44:06Z",
         "lastFetchAttempt": "2026-10-26T06:23:39.317Z"
       }
+    },
+    {
+      "id": "paddlepaddle-paddleclas",
+      "name": "PaddleClas",
+      "description": "PaddlePaddle 기반 이미지 분류·인식 도구 모음(PaddleClas). 사전학습 모델, 학습/추론 파이프라인, PP-LCNet 등 경량 백본과 이미지 인식 솔루션을 제공합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/PaddlePaddle/PaddleClas",
+      "koreanSupport": false,
+      "tags": [
+        "autoaugment",
+        "cutmix",
+        "deit",
+        "fastdeploy",
+        "gridmask",
+        "image-classification",
+        "image-recognition",
+        "image-retrieval-system",
+        "knowledge-distillation",
+        "pretrained-models",
+        "product-recognition",
+        "randaugment",
+        "repvgg",
+        "swin-transformer"
+      ],
+      "meta": {
+        "stars": 5853,
+        "forks": 1191,
+        "lastUpdated": "2026-10-25T07:55:06Z",
+        "lastCommit": "2026-10-22T08:44:57Z",
+        "fetchedAt": "2026-10-26T06:51:51.293Z"
+      }
     }
   ]
 }

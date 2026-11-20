@@ -1870,6 +1870,30 @@
         "createdAt": "2015-12-15T14:49:40Z",
         "lastFetchAttempt": "2026-11-20T15:41:21.474Z"
       }
+    },
+    {
+      "id": "spotify-luigi",
+      "name": "luigi",
+      "description": "복잡한 배치 작업 파이프라인을 구축하기 위한 Python 워크플로 관리 프레임워크로, 작업 간 의존성 해소·스케줄링·시각화를 제공하여 데이터/ML 배치 파이프라인의 오케스트레이션에 활용됩니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/spotify/luigi",
+      "koreanSupport": false,
+      "tags": [
+        "hadoop",
+        "luigi",
+        "orchestration-framework",
+        "python",
+        "scheduling"
+      ],
+      "meta": {
+        "stars": 18792,
+        "forks": 2478,
+        "lastUpdated": "2026-11-19T18:50:42Z",
+        "lastCommit": "2026-11-20T02:10:00Z",
+        "fetchedAt": "2026-11-20T15:51:51.637Z"
+      }
     }
   ]
 }

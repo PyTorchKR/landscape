@@ -195,7 +195,8 @@
         "mosaicml-streaming",
         "shcherbak-ai-contextgem",
         "kubeflow-pipelines",
-        "dbt-labs-dbt-core"
+        "dbt-labs-dbt-core",
+        "spotify-luigi"
       ]
     },
     {

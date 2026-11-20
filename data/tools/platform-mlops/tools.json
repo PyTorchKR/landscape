@@ -3641,6 +3641,24 @@
         "createdAt": "2024-02-07T14:30:16Z",
         "lastFetchAttempt": "2026-11-20T10:15:30.300Z"
       }
+    },
+    {
+      "id": "theroyallab-tabbyapi",
+      "name": "tabbyAPI",
+      "description": "ExLlamaV2 기반의 공식 API 서버 TabbyAPI로, OpenAI 호환 인터페이스로 경량·고속의 로컬 LLM 추론 서빙을 제공합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "AGPL-3.0",
+      "githubUrl": "https://github.com/theroyallab/tabbyAPI",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1528,
+        "forks": 236,
+        "lastUpdated": "2026-11-19T23:07:02Z",
+        "lastCommit": "2026-11-14T01:24:02Z",
+        "fetchedAt": "2026-11-20T10:40:49.627Z"
+      }
     }
   ]
 }

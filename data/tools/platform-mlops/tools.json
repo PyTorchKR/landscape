@@ -4276,6 +4276,34 @@
         "createdAt": "2024-04-29T22:04:42Z",
         "lastFetchAttempt": "2026-11-20T21:53:33.081Z"
       }
+    },
+    {
+      "id": "llmware-ai-llmware",
+      "name": "llmware",
+      "description": "작고 특화된(small, specialized) 모델로 엔터프라이즈 RAG 파이프라인을 구축하는 통합 프레임워크. 문서 인제스천·파싱·임베딩·검색·프롬프트·모델 추론을 단일 라이브러리로 제공하여 프라이빗 환경의 지식 기반 애플리케이션을 구성함.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/llmware-ai/llmware",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "generative-ai-tools",
+        "llamacpp",
+        "llm",
+        "onnx",
+        "openvino",
+        "parsing",
+        "retrieval-augmented-generation",
+        "small-specialized-models"
+      ],
+      "meta": {
+        "stars": 14821,
+        "forks": 2920,
+        "lastUpdated": "2026-11-20T08:04:36Z",
+        "lastCommit": "2026-10-01T16:09:57Z",
+        "fetchedAt": "2026-11-20T22:18:52.284Z"
+      }
     }
   ]
 }

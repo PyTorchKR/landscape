@@ -3941,6 +3941,32 @@
         "createdAt": "2026-04-05T01:12:07Z",
         "lastFetchAttempt": "2026-11-20T16:09:42.886Z"
       }
+    },
+    {
+      "id": "aurelio-labs-semantic-router",
+      "name": "semantic-router",
+      "description": "임베딩 기반 의미 유사도로 사용자 쿼리를 사전 정의된 경로(route)에 즉시 매핑하는 초고속 의사결정·라우팅 레이어. LLM 호출 없이 결정론적으로 에이전트의 도구 선택·분기·가드레일을 처리하여 멀티모달 데이터의 지능형 라우팅을 수행함.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/aurelio-labs/semantic-router",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "chatbot",
+        "computer-vision",
+        "generative-ai",
+        "machine-learning",
+        "nlp"
+      ],
+      "meta": {
+        "stars": 4039,
+        "forks": 397,
+        "lastUpdated": "2026-11-20T11:18:51Z",
+        "lastCommit": "2026-11-09T02:48:44Z",
+        "fetchedAt": "2026-11-20T16:33:58.305Z"
+      }
     }
   ]
 }

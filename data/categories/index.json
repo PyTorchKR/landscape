@@ -578,7 +578,8 @@
         "pytorch-tensordict",
         "explosion-spacy",
         "pymc-devs-pymc",
-        "nota-netspresso-netspresso-trainer"
+        "nota-netspresso-netspresso-trainer",
+        "fluxml-flux-jl"
       ]
     },
     {

@@ -2899,6 +2899,31 @@
         "createdAt": "2017-02-03T01:37:01Z",
         "lastFetchAttempt": "2026-11-20T11:51:11.447Z"
       }
+    },
+    {
+      "id": "fluxml-flux-jl",
+      "name": "Flux.jl",
+      "description": "Julia 언어로 작성된 우아한 머신러닝/딥러닝 프레임워크로, Julia의 자동미분 생태계와 긴밀히 통합되어 GPU 가속 신경망을 간결하게 정의·학습할 수 있게 합니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/FluxML/Flux.jl",
+      "koreanSupport": false,
+      "tags": [
+        "data-science",
+        "deep-learning",
+        "flux",
+        "machine-learning",
+        "neural-networks",
+        "the-human-brain"
+      ],
+      "meta": {
+        "stars": 4755,
+        "forks": 630,
+        "lastUpdated": "2026-11-19T19:56:47Z",
+        "lastCommit": "2026-11-12T16:27:38Z",
+        "fetchedAt": "2026-11-20T12:08:13.073Z"
+      }
     }
   ]
 }

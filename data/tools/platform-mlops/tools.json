@@ -3582,6 +3582,27 @@
         "createdAt": "2024-07-10T05:25:01Z",
         "lastFetchAttempt": "2026-11-20T07:29:31.128Z"
       }
+    },
+    {
+      "id": "mlcommons-training",
+      "name": "training",
+      "description": "MLPerf 학습(training) 벤치마크의 참조 구현(MLCommons). 이미지 분류·객체 탐지·LLM·추천 등 표준 워크로드를 목표 정확도까지 학습하는 데 걸리는 시간을 측정하여 하드웨어·소프트웨어 학습 성능을 공정하게 비교합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/mlcommons/training",
+      "koreanSupport": false,
+      "tags": [
+        "benchmark",
+        "machine-learning"
+      ],
+      "meta": {
+        "stars": 1778,
+        "forks": 596,
+        "lastUpdated": "2026-11-19T20:53:20Z",
+        "lastCommit": "2026-10-27T16:21:49Z",
+        "fetchedAt": "2026-11-20T07:42:01.872Z"
+      }
     }
   ]
 }

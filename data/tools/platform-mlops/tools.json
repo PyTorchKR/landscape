@@ -4008,6 +4008,45 @@
         "createdAt": "2026-09-18T20:01:48Z",
         "lastFetchAttempt": "2026-11-20T17:03:49.236Z"
       }
+    },
+    {
+      "id": "software-mansion-argent",
+      "name": "argent",
+      "description": "AI 에이전트가 iOS, Android 앱을 직접 실행하고 제어, 디버깅, 프로파일링할 수 있게 하는 Software Mansion의 에이전트 툴킷입니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/software-mansion/argent",
+      "koreanSupport": false,
+      "tags": [
+        "agent-skills",
+        "agentic",
+        "ai-agents",
+        "android",
+        "android-emulator",
+        "android-tv",
+        "apple-tv",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "expo",
+        "ios",
+        "ios-simulator",
+        "mcp",
+        "mcp-server",
+        "mobile-automation",
+        "mobile-testing",
+        "profiling",
+        "react-native",
+        "tvos"
+      ],
+      "meta": {
+        "stars": 3221,
+        "forks": 160,
+        "lastUpdated": "2026-11-20T17:06:41Z",
+        "lastCommit": "2026-11-20T17:12:47Z",
+        "fetchedAt": "2026-11-20T17:13:55.022Z"
+      }
     }
   ]
 }

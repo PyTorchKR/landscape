@@ -2964,6 +2964,36 @@
         "createdAt": "2010-08-17T09:43:38Z",
         "lastFetchAttempt": "2026-11-20T15:55:35.046Z"
       }
+    },
+    {
+      "id": "lucasalegre-sumo-rl",
+      "name": "sumo-rl",
+      "description": "SUMO 시뮬레이터 기반 교통 신호 제어 강화학습 환경으로, Gymnasium과 PettingZoo를 지원합니다.",
+      "categoryId": "reinforcement-learning",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/LucasAlegre/sumo-rl",
+      "koreanSupport": false,
+      "tags": [
+        "deep-reinforcement-learning",
+        "gym",
+        "gym-env",
+        "gymnasium",
+        "machine-learning",
+        "pettingzoo",
+        "python",
+        "reinforcement-learning",
+        "rl-algorithms",
+        "sumo",
+        "traffic-signal-control"
+      ],
+      "meta": {
+        "stars": 1103,
+        "forks": 269,
+        "lastUpdated": "2026-11-19T21:12:11Z",
+        "lastCommit": "2026-03-08T13:23:47Z",
+        "fetchedAt": "2026-11-20T16:06:53.449Z"
+      }
     }
   ]
 }

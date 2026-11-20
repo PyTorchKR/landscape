@@ -3785,6 +3785,45 @@
         "createdAt": "2023-10-04T01:22:46Z",
         "lastFetchAttempt": "2026-11-20T13:26:44.353Z"
       }
+    },
+    {
+      "id": "the-pocket-pocketflow",
+      "name": "PocketFlow",
+      "description": "단 100줄로 구현된 미니멀 LLM 프레임워크로, 그래프 기반 추상화를 통해 에이전트·워크플로우·RAG 등을 구성할 수 있으며 \"에이전트가 에이전트를 만들도록\" 하는 경량 설계를 지향합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/The-Pocket/PocketFlow",
+      "koreanSupport": false,
+      "tags": [
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents",
+        "ai-framework",
+        "ai-frameworks",
+        "aiagent",
+        "aiagents",
+        "artificial-intelligence",
+        "flow-based-programming",
+        "flow-engineering",
+        "large-language-model",
+        "large-language-models",
+        "llm-agent",
+        "llm-framework",
+        "pocket-flow",
+        "pocketflow",
+        "retrieval-augmented-generation",
+        "workflow",
+        "workflow-orchestration"
+      ],
+      "meta": {
+        "stars": 11334,
+        "forks": 1220,
+        "lastUpdated": "2026-11-20T10:02:37Z",
+        "lastCommit": "2026-07-26T16:13:20Z",
+        "fetchedAt": "2026-11-20T13:49:47.556Z"
+      }
     }
   ]
 }

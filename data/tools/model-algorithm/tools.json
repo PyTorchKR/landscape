@@ -3587,6 +3587,29 @@
         "createdAt": "2019-02-02T05:51:12Z",
         "lastFetchAttempt": "2026-11-20T15:27:19.140Z"
       }
+    },
+    {
+      "id": "fixie-ai-ultravox",
+      "name": "ultravox",
+      "description": "실시간 음성 상호작용을 위한 빠른 멀티모달 LLM Ultravox로, 음성을 직접 입력으로 받아 별도 STT 없이 이해·응답하는 음성-언어 통합 모델입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/fixie-ai/ultravox",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "llm",
+        "slm",
+        "speech"
+      ],
+      "meta": {
+        "stars": 4587,
+        "forks": 383,
+        "lastUpdated": "2026-11-20T06:36:51Z",
+        "lastCommit": "2025-12-12T18:09:40Z",
+        "fetchedAt": "2026-11-20T15:40:00.933Z"
+      }
     }
   ]
 }

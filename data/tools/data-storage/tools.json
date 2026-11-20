@@ -1805,6 +1805,32 @@
         "createdAt": "2018-05-12T00:31:47Z",
         "lastFetchAttempt": "2026-11-20T10:00:16.514Z"
       }
+    },
+    {
+      "id": "dbt-labs-dbt-core",
+      "name": "dbt",
+      "description": "데이터 웨어하우스 내 데이터를 SQL과 소프트웨어 엔지니어링 모범사례(버전관리·테스트·문서화)로 변환하는 애널리틱스 엔지니어링 도구로, ELT 파이프라인의 변환(T) 계층을 담당합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/dbt-labs/dbt",
+      "koreanSupport": false,
+      "tags": [
+        "analytics",
+        "business-intelligence",
+        "data-modeling",
+        "dbt-viewpoint",
+        "elt",
+        "pypa",
+        "slack"
+      ],
+      "meta": {
+        "stars": 14192,
+        "forks": 2685,
+        "lastUpdated": "2026-11-20T01:16:11Z",
+        "lastCommit": "2026-11-20T09:14:32Z",
+        "fetchedAt": "2026-11-20T10:12:51.086Z"
+      }
     }
   ]
 }

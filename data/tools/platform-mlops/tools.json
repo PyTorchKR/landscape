@@ -3755,6 +3755,28 @@
         "createdAt": "2023-09-14T02:05:12Z",
         "lastFetchAttempt": "2026-11-20T13:11:44.366Z"
       }
+    },
+    {
+      "id": "swe-bench-swe-bench",
+      "name": "SWE-bench",
+      "description": "언어 모델이 실제 GitHub 이슈를 해결할 수 있는지 평가하는 벤치마크 및 실행 하네스(SWE-bench). 실제 오픈소스 저장소의 이슈-PR 쌍을 수집해 모델이 생성한 패치를 격리된 환경에서 테스트로 검증하고 해결률을 측정합니다. 코딩 에이전트 평가의 사실상 표준.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/SWE-bench/SWE-bench",
+      "koreanSupport": false,
+      "tags": [
+        "benchmark",
+        "language-model",
+        "software-engineering"
+      ],
+      "meta": {
+        "stars": 6224,
+        "forks": 1066,
+        "lastUpdated": "2026-11-20T12:29:46Z",
+        "lastCommit": "2026-09-18T05:08:56Z",
+        "fetchedAt": "2026-11-20T13:23:49.765Z"
+      }
     }
   ]
 }

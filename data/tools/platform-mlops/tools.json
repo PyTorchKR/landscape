@@ -4090,6 +4090,45 @@
         "createdAt": "2023-05-19T00:46:45Z",
         "lastFetchAttempt": "2026-11-20T18:12:49.912Z"
       }
+    },
+    {
+      "id": "paperclipai-paperclip",
+      "name": "paperclip",
+      "description": "업무용 AI 에이전트를 생성·관리·운영하는 오픈소스 플랫폼. 팀 단위로 에이전트를 배포하고 관리하는 워크플로를 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/paperclipai/paperclip",
+      "koreanSupport": false,
+      "tags": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-engineering",
+        "ai-governance",
+        "ai-tools",
+        "autonomous-agents",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "hermes",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openclaw",
+        "project-management",
+        "workflow-automation"
+      ],
+      "meta": {
+        "stars": 115424,
+        "forks": 19160,
+        "lastUpdated": "2026-11-20T18:22:23Z",
+        "lastCommit": "2026-11-20T18:04:46Z",
+        "fetchedAt": "2026-11-20T18:25:01.697Z"
+      }
     }
   ]
 }

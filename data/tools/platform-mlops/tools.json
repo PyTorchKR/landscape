@@ -3714,6 +3714,39 @@
         "createdAt": "2024-08-22T19:46:07Z",
         "lastFetchAttempt": "2026-11-20T12:11:49.670Z"
       }
+    },
+    {
+      "id": "1panel-dev-maxkb",
+      "name": "MaxKB",
+      "description": "엔터프라이즈급 에이전트를 구축하기 위한 오픈소스 플랫폼. RAG 기반 지식베이스, 워크플로, 도구 연동을 통해 강력하고 사용하기 쉬운 기업용 지능형 에이전트를 만들 수 있습니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "GPL-3.0",
+      "githubUrl": "https://github.com/1Panel-dev/MaxKB",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "chatbot",
+        "deepseek-r1",
+        "knowledgebase",
+        "langchain",
+        "llama3",
+        "llm",
+        "maxkb",
+        "mcp-server",
+        "ollama",
+        "pgvector",
+        "qwen3",
+        "rag"
+      ],
+      "meta": {
+        "stars": 23177,
+        "forks": 3229,
+        "lastUpdated": "2026-11-20T12:11:37Z",
+        "lastCommit": "2026-11-20T11:03:18Z",
+        "fetchedAt": "2026-11-20T12:15:16.214Z"
+      }
     }
   ]
 }

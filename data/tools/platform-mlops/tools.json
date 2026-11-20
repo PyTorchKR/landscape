@@ -4312,6 +4312,45 @@
         "createdAt": "2023-09-29T15:19:06Z",
         "lastFetchAttempt": "2026-11-20T23:04:32.421Z"
       }
+    },
+    {
+      "id": "crmne-ruby-llm",
+      "name": "ruby_llm",
+      "description": "모든 주요 AI 공급자를 단일 인터페이스로 다루는 Ruby 프레임워크. 챗봇, AI 에이전트, RAG 애플리케이션, 콘텐츠 생성 등 다양한 AI 워크플로를 손쉽게 구축합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/crmne/ruby_llm",
+      "koreanSupport": false,
+      "tags": [
+        "agent-framework",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-framework",
+        "anthropic",
+        "embeddings",
+        "gemini",
+        "generative-ai",
+        "large-language-models",
+        "llm",
+        "multimodal",
+        "ollama",
+        "openai",
+        "rag",
+        "rails",
+        "ruby",
+        "structured-output",
+        "tool-calling"
+      ],
+      "meta": {
+        "stars": 4521,
+        "forks": 540,
+        "lastUpdated": "2026-11-20T03:33:02Z",
+        "lastCommit": "2026-11-18T18:20:12Z",
+        "fetchedAt": "2026-11-20T23:14:58.407Z"
+      }
     }
   ]
 }

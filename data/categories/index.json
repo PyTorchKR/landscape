@@ -431,7 +431,8 @@
         "lmcache-lmcache",
         "kvcache-ai-mooncake",
         "pytorch-tensorrt",
-        "openxla-xla"
+        "openxla-xla",
+        "uxlfoundation-onednn"
       ]
     },
     {

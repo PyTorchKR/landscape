@@ -2204,6 +2204,38 @@
         "createdAt": "2023-07-14T07:10:44Z",
         "lastFetchAttempt": "2026-11-20T11:09:38.771Z"
       }
+    },
+    {
+      "id": "aider-ai-aider",
+      "name": "aider",
+      "description": "터미널에서 동작하는 AI 페어 프로그래밍 도구. git 저장소와 연동해 LLM으로 코드 작성·수정·리팩터링·커밋을 수행하며 다양한 모델 제공자를 지원합니다. 원래 paul-gauthier/aider에서 Aider-AI/aider로 소유권 이전(이전 경로 리다이렉트).",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Aider-AI/aider",
+      "koreanSupport": false,
+      "tags": [
+        "anthropic",
+        "chatgpt",
+        "claude-3",
+        "cli",
+        "command-line",
+        "gemini",
+        "gpt-3",
+        "gpt-35-turbo",
+        "gpt-4",
+        "gpt-4o",
+        "llama",
+        "openai",
+        "sonnet"
+      ],
+      "meta": {
+        "stars": 50193,
+        "forks": 5178,
+        "lastUpdated": "2026-11-20T09:34:28Z",
+        "lastCommit": "2026-05-22T14:02:20Z",
+        "fetchedAt": "2026-11-20T11:20:54.996Z"
+      }
     }
   ]
 }

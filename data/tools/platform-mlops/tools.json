@@ -3611,6 +3611,28 @@
         "createdAt": "2018-03-29T21:56:06Z",
         "lastFetchAttempt": "2026-11-20T07:44:25.501Z"
       }
+    },
+    {
+      "id": "servicenow-browsergym",
+      "name": "BrowserGym",
+      "description": "웹 작업 자동화를 위한 Gym 환경(BrowserGym, ServiceNow). 웹 에이전트가 브라우저를 조작하는 작업을 표준 강화학습/평가 인터페이스로 제공하며, WebArena·MiniWoB·WorkArena 등 다양한 웹 벤치마크를 통합해 에이전트 개발·평가를 지원합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/ServiceNow/BrowserGym",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "llm",
+        "webagent"
+      ],
+      "meta": {
+        "stars": 1445,
+        "forks": 217,
+        "lastUpdated": "2026-11-20T05:03:45Z",
+        "lastCommit": "2026-11-18T05:00:33Z",
+        "fetchedAt": "2026-11-20T08:38:53.923Z"
+      }
     }
   ]
 }

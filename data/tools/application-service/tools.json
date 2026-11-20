@@ -2087,6 +2087,37 @@
         "createdAt": "2024-01-10T12:25:00Z",
         "lastFetchAttempt": "2026-11-20T08:39:37.686Z"
       }
+    },
+    {
+      "id": "eosphoros-ai-db-gpt",
+      "name": "DB-GPT",
+      "description": "차세대 AI + 데이터 제품을 위한 오픈소스 에이전트형 AI 데이터 어시스턴트. 자연어 기반 데이터 질의, Text-to-SQL, 데이터 분석 에이전트, RAG, 멀티 에이전트 협업을 제공합니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/eosphoros-ai/DB-GPT",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "bgi",
+        "database",
+        "deepseek",
+        "gpt",
+        "gpt-4",
+        "hacktoberfest",
+        "llm",
+        "private",
+        "rag",
+        "security",
+        "vicuna"
+      ],
+      "meta": {
+        "stars": 20319,
+        "forks": 3011,
+        "lastUpdated": "2026-11-20T08:07:57Z",
+        "lastCommit": "2026-11-19T14:49:22Z",
+        "fetchedAt": "2026-11-20T08:52:54.272Z"
+      }
     }
   ]
 }

@@ -1724,6 +1724,45 @@
         "createdAt": "2022-06-09T13:36:54Z",
         "lastFetchAttempt": "2026-11-20T08:54:16.609Z"
       }
+    },
+    {
+      "id": "shcherbak-ai-contextgem",
+      "name": "contextgem",
+      "description": "문서에서 LLM 기반으로 구조화된 정보(개념·필드·관계)를 손쉽게 추출하는 Python 라이브러리. 최소한의 코드로 문서 분석·추출 파이프라인을 구성합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/shcherbak-ai/contextgem",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "data-extraction",
+        "decision-models",
+        "document-ai",
+        "document-intelligence",
+        "document-processing",
+        "generative-ai",
+        "information-extraction",
+        "jev",
+        "legal-tech",
+        "legaltech",
+        "llm",
+        "llm-framework",
+        "llms",
+        "multimodal-ai",
+        "nlp",
+        "prompt-engineering",
+        "structured-output",
+        "text-analysis",
+        "unstructured-data"
+      ],
+      "meta": {
+        "stars": 2094,
+        "forks": 189,
+        "lastUpdated": "2026-11-19T23:22:50Z",
+        "lastCommit": "2026-11-09T14:17:33Z",
+        "fetchedAt": "2026-11-20T09:04:58.646Z"
+      }
     }
   ]
 }

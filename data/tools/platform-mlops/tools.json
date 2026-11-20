@@ -3975,6 +3975,31 @@
         "createdAt": "2023-10-30T12:12:45Z",
         "lastFetchAttempt": "2026-11-20T16:48:54.535Z"
       }
+    },
+    {
+      "id": "incoai-splash",
+      "name": "splash",
+      "description": "범용 엔진 대신 모델마다 전용 커널과 초안 모델을 만들어 실행하는 Apple Silicon용 로컬 추론 엔진입니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/incoai/splash",
+      "koreanSupport": false,
+      "tags": [
+        "apple-silicon",
+        "coding-agents",
+        "llm-inference",
+        "macos",
+        "metal",
+        "speculative-decoding"
+      ],
+      "meta": {
+        "stars": 2563,
+        "forks": 247,
+        "lastUpdated": "2026-11-20T16:56:46Z",
+        "lastCommit": "2026-11-17T12:42:30Z",
+        "fetchedAt": "2026-11-20T17:00:49.389Z"
+      }
     }
   ]
 }

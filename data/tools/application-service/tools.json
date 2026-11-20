@@ -2367,6 +2367,40 @@
         "createdAt": "2024-02-27T06:48:32Z",
         "lastFetchAttempt": "2026-11-20T20:15:34.661Z"
       }
+    },
+    {
+      "id": "manticoresoftware-manticoresearch",
+      "name": "manticoresearch",
+      "description": "검색에 특화된 사용하기 쉬운 오픈소스 고속 데이터베이스. 풀텍스트·벡터·하이브리드 검색을 지원하는 Elasticsearch 대안(ELK 스택의 E 대체)으로, RAG/시맨틱 검색 백엔드로 활용된다.",
+      "categoryId": "recommendation-search",
+      "moduleId": "application-service",
+      "license": "GPL-3.0",
+      "githubUrl": "https://github.com/manticoresoftware/manticoresearch",
+      "koreanSupport": false,
+      "tags": [
+        "api",
+        "bm25",
+        "cpp",
+        "database",
+        "full-text-search",
+        "hacktoberfest",
+        "json",
+        "mysql",
+        "search",
+        "search-api",
+        "search-engine",
+        "search-server",
+        "sphinxsearch",
+        "sql",
+        "stream-filtering"
+      ],
+      "meta": {
+        "stars": 12097,
+        "forks": 655,
+        "lastUpdated": "2026-11-20T17:15:47Z",
+        "lastCommit": "2026-11-20T15:53:18Z",
+        "fetchedAt": "2026-11-20T20:26:53.259Z"
+      }
     }
   ]
 }

@@ -3908,6 +3908,31 @@
         "createdAt": "2024-04-04T09:33:02Z",
         "lastFetchAttempt": "2026-11-20T15:15:38.392Z"
       }
+    },
+    {
+      "id": "mempalace-mempalace",
+      "name": "mempalace",
+      "description": "AI 에이전트를 위한 오픈소스 장기 메모리 시스템으로, 대화와 작업 기록을 저장하고 검색합니다.",
+      "categoryId": "memory-knowledge",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/MemPalace/mempalace",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "chromadb",
+        "llm",
+        "mcp",
+        "memory",
+        "python"
+      ],
+      "meta": {
+        "stars": 60637,
+        "forks": 7676,
+        "lastUpdated": "2026-11-20T13:59:02Z",
+        "lastCommit": "2026-11-20T12:25:26Z",
+        "fetchedAt": "2026-11-20T15:25:03.198Z"
+      }
     }
   ]
 }

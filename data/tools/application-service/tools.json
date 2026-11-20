@@ -1491,42 +1491,6 @@
       }
     },
     {
-      "id": "wrtnlabs-autobe",
-      "name": "autobe",
-      "description": "자연어로 요구사항을 설명하면 요구 분석 문서, Prisma DB 스키마, OpenAPI 명세, E2E 테스트, 구현 코드를 갖춘 TypeScript(NestJS) 백엔드를 생성하는 AI 코딩 에이전트입니다. 단계마다 컴파일러 피드백으로 검증해 빌드 가능한 코드를 내도록 설계되었습니다.",
-      "categoryId": "autonomous-agent",
-      "moduleId": "application-service",
-      "license": "AGPL-3.0",
-      "githubUrl": "https://github.com/wrtnlabs/autobe",
-      "koreanSupport": false,
-      "region": "KR",
-      "tags": [
-        "ai-coding-agent",
-        "all-in-one",
-        "automation",
-        "backend",
-        "generated-api",
-        "llm",
-        "nestia",
-        "nestjs",
-        "no-coding",
-        "no-coding-app",
-        "no-coding-tools",
-        "prisma",
-        "server",
-        "vibe-coding"
-      ],
-      "meta": {
-        "stars": 1361,
-        "forks": 156,
-        "lastUpdated": "2026-09-29T23:42:39Z",
-        "lastCommit": "2026-06-24T12:29:04Z",
-        "fetchedAt": "2026-10-04T14:22:29.926Z",
-        "lastFetchAttempt": "2026-11-20T07:01:32.105Z",
-        "fetchError": "HTTP 404: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository"
-      }
-    },
-    {
       "id": "quickwit-oss-tantivy",
       "name": "tantivy",
       "description": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust",
@@ -2084,6 +2048,44 @@
         "defaultBranch": "main",
         "createdAt": "2025-03-10T15:34:26Z",
         "lastFetchAttempt": "2026-11-20T07:01:37.956Z"
+      }
+    },
+    {
+      "id": "marker-inc-korea-autorag",
+      "name": "AutoRAG",
+      "description": "Your Personal Librarian Agent. Ask anything on your computer, organize files, remember important info and files.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Marker-Inc-Korea/AutoRAG",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "agent",
+        "document-parser",
+        "embeddings",
+        "librarian",
+        "llm",
+        "open-source",
+        "pipeline",
+        "qa",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "meta": {
+        "stars": 6081,
+        "forks": 523,
+        "lastUpdated": "2026-11-20T06:36:07Z",
+        "lastCommit": "2026-11-20T05:36:01Z",
+        "fetchedAt": "2026-11-20T07:03:23.362Z",
+        "watchers": 40,
+        "openIssues": 90,
+        "language": "TypeScript",
+        "archived": false,
+        "disabled": false,
+        "defaultBranch": "main",
+        "createdAt": "2024-01-10T12:25:00Z",
+        "lastFetchAttempt": "2026-11-20T07:03:22.990Z"
       }
     }
   ]

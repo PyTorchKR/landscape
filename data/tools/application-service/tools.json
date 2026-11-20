@@ -2409,6 +2409,40 @@
         "createdAt": "2017-06-28T01:15:30Z",
         "lastFetchAttempt": "2026-11-20T23:30:43.213Z"
       }
+    },
+    {
+      "id": "oramasearch-orama",
+      "name": "orama",
+      "description": "브라우저·서버·엣지에서 동작하는 완전한 검색 엔진 및 RAG 파이프라인. 2kb 미만 크기로 풀텍스트·벡터·하이브리드 검색을 지원하는 TypeScript 라이브러리.",
+      "categoryId": "recommendation-search",
+      "moduleId": "application-service",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/oramasearch/orama",
+      "koreanSupport": false,
+      "tags": [
+        "algiorithm",
+        "data-structures",
+        "full-text",
+        "javascript",
+        "node",
+        "search",
+        "search-algorithm",
+        "search-engine",
+        "typescript",
+        "typo-tolerance",
+        "vector",
+        "vector-database",
+        "vector-database-embedding",
+        "vector-search",
+        "vector-search-engine"
+      ],
+      "meta": {
+        "stars": 10618,
+        "forks": 411,
+        "lastUpdated": "2026-11-20T11:16:04Z",
+        "lastCommit": "2026-10-18T16:53:33Z",
+        "fetchedAt": "2026-11-20T23:41:45.070Z"
+      }
     }
   ]
 }

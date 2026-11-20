@@ -4241,6 +4241,33 @@
         "createdAt": "2024-12-05T11:28:04Z",
         "lastFetchAttempt": "2026-11-20T21:25:55.231Z"
       }
+    },
+    {
+      "id": "genkit-ai-genkit",
+      "name": "genkit",
+      "description": "JavaScript·Go·Python에서 AI 기반 앱을 구축하기 위한 오픈소스 프레임워크. Google이 직접 제작·프로덕션 운영하며 플로우, 도구 호출, RAG, 에이전트, 평가·관측을 통합 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/genkit-ai/genkit",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "ai",
+        "embedders",
+        "genkit",
+        "llm",
+        "multimodal",
+        "rag",
+        "vector-database"
+      ],
+      "meta": {
+        "stars": 6606,
+        "forks": 890,
+        "lastUpdated": "2026-11-20T20:44:04Z",
+        "lastCommit": "2026-11-20T20:54:49Z",
+        "fetchedAt": "2026-11-20T21:38:03.420Z"
+      }
     }
   ]
 }

@@ -2932,6 +2932,30 @@
         "createdAt": "2016-04-01T21:11:05Z",
         "lastFetchAttempt": "2026-11-20T13:00:01.273Z"
       }
+    },
+    {
+      "id": "scikit-learn-scikit-learn",
+      "name": "scikit-learn",
+      "description": "Python의 대표적인 머신러닝 라이브러리로, 분류·회귀·클러스터링·차원축소 등 폭넓은 고전 ML 알고리즘과 전처리·모델선택 도구를 일관된 API로 제공하여 ML 모델 개발의 사실상 표준 컴포넌트로 사용됩니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/scikit-learn/scikit-learn",
+      "koreanSupport": false,
+      "tags": [
+        "data-analysis",
+        "data-science",
+        "machine-learning",
+        "python",
+        "statistics"
+      ],
+      "meta": {
+        "stars": 68265,
+        "forks": 27691,
+        "lastUpdated": "2026-11-20T13:03:51Z",
+        "lastCommit": "2026-11-20T09:15:58Z",
+        "fetchedAt": "2026-11-20T13:09:02.609Z"
+      }
     }
   ]
 }

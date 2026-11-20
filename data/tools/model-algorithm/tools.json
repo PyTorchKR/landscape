@@ -3473,6 +3473,30 @@
         "createdAt": "2026-02-09T08:17:02Z",
         "lastFetchAttempt": "2026-11-20T10:43:11.030Z"
       }
+    },
+    {
+      "id": "robbyant-lingbot-world",
+      "name": "lingbot-world",
+      "description": "상호작용 가능한 세계를 생성하는 Robbyant(Ant Group)의 오픈소스 월드 모델입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Robbyant/lingbot-world",
+      "koreanSupport": false,
+      "tags": [
+        "aigc",
+        "image-to-video",
+        "lingbot-world",
+        "video-generation",
+        "world-models"
+      ],
+      "meta": {
+        "stars": 4592,
+        "forks": 412,
+        "lastUpdated": "2026-11-20T07:23:33Z",
+        "lastCommit": "2026-07-09T10:39:39Z",
+        "fetchedAt": "2026-11-20T10:53:58.247Z"
+      }
     }
   ]
 }

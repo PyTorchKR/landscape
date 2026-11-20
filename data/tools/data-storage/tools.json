@@ -1839,6 +1839,29 @@
         "createdAt": "2016-03-10T02:38:00Z",
         "lastFetchAttempt": "2026-11-20T14:46:07.772Z"
       }
+    },
+    {
+      "id": "zarr-developers-zarr-python",
+      "name": "zarr-python",
+      "description": "청크 단위로 분할·압축되는 N차원 배열 저장 포맷 및 라이브러리로, 클라우드/로컬에서 대용량 배열 데이터를 효율적으로 저장·스트리밍해 대규모 ML 데이터셋과 텐서 워크로드에 활용됩니다.",
+      "categoryId": "datasets-tools",
+      "moduleId": "data-storage",
+      "license": "MIT",
+      "githubUrl": "https://github.com/zarr-developers/zarr-python",
+      "koreanSupport": false,
+      "tags": [
+        "compressed",
+        "ndimensional-arrays",
+        "python",
+        "zarr"
+      ],
+      "meta": {
+        "stars": 2090,
+        "forks": 483,
+        "lastUpdated": "2026-11-19T19:49:05Z",
+        "lastCommit": "2026-11-19T05:01:57Z",
+        "fetchedAt": "2026-11-20T15:12:52.720Z"
+      }
     }
   ]
 }

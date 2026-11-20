@@ -3416,6 +3416,24 @@
         "createdAt": "2025-06-23T16:43:33Z",
         "lastFetchAttempt": "2026-11-20T07:16:27.273Z"
       }
+    },
+    {
+      "id": "stanford-futuredata-colbert",
+      "name": "ColBERT",
+      "description": "토큰 단위 임베딩의 late interaction으로 빠르고 정확한 대규모 검색을 수행하는 멀티 벡터 신경망 검색 모델 ColBERT의 공식 구현입니다.",
+      "categoryId": "embedding-model",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/stanford-futuredata/ColBERT",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3960,
+        "forks": 477,
+        "lastUpdated": "2026-11-19T21:50:29Z",
+        "lastCommit": "2025-10-14T18:50:11Z",
+        "fetchedAt": "2026-11-20T07:27:06.310Z"
+      }
     }
   ]
 }

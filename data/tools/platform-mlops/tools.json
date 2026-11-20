@@ -4137,6 +4137,44 @@
         "createdAt": "2026-03-02T15:01:51Z",
         "lastFetchAttempt": "2026-11-20T18:28:07.867Z"
       }
+    },
+    {
+      "id": "arize-ai-openinference",
+      "name": "openinference",
+      "description": "LLM 애플리케이션과 에이전트 프레임워크를 위한 OpenTelemetry 기반 계측 규약과 라이브러리입니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Arize-ai/openinference",
+      "koreanSupport": false,
+      "tags": [
+        "aiops",
+        "gemini",
+        "hacktoberfest",
+        "haystack",
+        "langchain",
+        "langraph",
+        "llamaindex",
+        "llmops",
+        "llms",
+        "mcp",
+        "openai",
+        "openai-agents",
+        "opentelemetry",
+        "pydantic-ai",
+        "smolagents",
+        "telemetry",
+        "tracing",
+        "vercel",
+        "vertex"
+      ],
+      "meta": {
+        "stars": 1331,
+        "forks": 388,
+        "lastUpdated": "2026-11-20T04:35:42Z",
+        "lastCommit": "2026-11-20T18:49:37Z",
+        "fetchedAt": "2026-11-20T18:52:59.631Z"
+      }
     }
   ]
 }

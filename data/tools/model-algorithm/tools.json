@@ -3442,6 +3442,29 @@
         "createdAt": "2020-05-25T18:01:18Z",
         "lastFetchAttempt": "2026-11-20T09:34:10.293Z"
       }
+    },
+    {
+      "id": "zai-org-glm-5",
+      "name": "GLM-5",
+      "description": "Zhipu AI(z.ai)가 개발한 대규모 언어 모델 GLM-5로, 코딩과 에이전트형 엔지니어링에 강점을 둔 오픈 웨이트 LLM입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/zai-org/GLM-5",
+      "koreanSupport": false,
+      "tags": [
+        "agentic-ai",
+        "coding",
+        "llm",
+        "long-horizon"
+      ],
+      "meta": {
+        "stars": 7472,
+        "forks": 1024,
+        "lastUpdated": "2026-11-20T06:14:14Z",
+        "lastCommit": "2026-10-15T01:36:08Z",
+        "fetchedAt": "2026-11-20T09:46:49.785Z"
+      }
     }
   ]
 }

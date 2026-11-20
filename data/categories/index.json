@@ -805,7 +805,8 @@
         "replicate-cog",
         "alibaba-rtp-llm",
         "theroyallab-tabbyapi",
-        "algorithmicsuperintelligence-optillm"
+        "algorithmicsuperintelligence-optillm",
+        "huggingface-text-embeddings-inference"
       ]
     },
     {

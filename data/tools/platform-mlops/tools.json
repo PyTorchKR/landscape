@@ -4183,6 +4183,30 @@
         "createdAt": "2023-12-26T17:33:58Z",
         "lastFetchAttempt": "2026-11-20T20:30:13.471Z"
       }
+    },
+    {
+      "id": "huggingface-text-embeddings-inference",
+      "name": "text-embeddings-inference",
+      "description": "Hugging Face가 개발한 텍스트 임베딩 모델용 초고속 추론 솔루션(TEI). BERT, GTE, E5 등 임베딩/리랭킹 모델을 프로덕션 환경에서 토큰 동적 배칭·Flash Attention 등으로 고성능 서빙하는 추론 서버.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/huggingface/text-embeddings-inference",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "embeddings",
+        "huggingface",
+        "llm",
+        "ml"
+      ],
+      "meta": {
+        "stars": 5128,
+        "forks": 467,
+        "lastUpdated": "2026-11-20T03:38:17Z",
+        "lastCommit": "2026-11-17T14:45:32Z",
+        "fetchedAt": "2026-11-20T20:54:52.452Z"
+      }
     }
   ]
 }

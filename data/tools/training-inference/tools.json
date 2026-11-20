@@ -3002,6 +3002,43 @@
         "createdAt": "2018-12-10T18:04:33Z",
         "lastFetchAttempt": "2026-11-20T20:04:19.069Z"
       }
+    },
+    {
+      "id": "catboost-catboost",
+      "name": "catboost",
+      "description": "범주형 특성 처리에 강점을 가진 결정 트리 기반 고성능 그래디언트 부스팅 라이브러리로, CPU/GPU 연산을 지원하며 랭킹·분류·회귀 등 다양한 ML 작업에 활용됩니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/catboost/catboost",
+      "koreanSupport": false,
+      "tags": [
+        "big-data",
+        "catboost",
+        "categorical-features",
+        "coreml",
+        "cuda",
+        "data-mining",
+        "data-science",
+        "decision-trees",
+        "gbdt",
+        "gbm",
+        "gpu",
+        "gpu-computing",
+        "gradient-boosting",
+        "kaggle",
+        "machine-learning",
+        "python",
+        "r",
+        "tutorial"
+      ],
+      "meta": {
+        "stars": 9211,
+        "forks": 1360,
+        "lastUpdated": "2026-11-20T11:50:30Z",
+        "lastCommit": "2026-11-20T18:47:20Z",
+        "fetchedAt": "2026-11-20T20:14:49.370Z"
+      }
     }
   ]
 }

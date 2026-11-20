@@ -587,7 +587,8 @@
         "pymc-devs-pymc",
         "nota-netspresso-netspresso-trainer",
         "fluxml-flux-jl",
-        "scikit-learn-scikit-learn"
+        "scikit-learn-scikit-learn",
+        "catboost-catboost"
       ]
     },
     {

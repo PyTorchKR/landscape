@@ -3696,6 +3696,28 @@
         "createdAt": "2024-10-08T13:36:55Z",
         "lastFetchAttempt": "2026-11-20T22:49:07.566Z"
       }
+    },
+    {
+      "id": "nvidia-cosmos-cosmos-predict2-5",
+      "name": "cosmos-predict2.5",
+      "description": "물리 세계의 미래 상태를 시뮬레이션하고 예측하는 NVIDIA Cosmos 월드 파운데이션 모델의 최신 버전입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/nvidia-cosmos/cosmos-predict2.5",
+      "koreanSupport": false,
+      "tags": [
+        "foundational-models",
+        "video-generation",
+        "world-models"
+      ],
+      "meta": {
+        "stars": 1403,
+        "forks": 200,
+        "lastUpdated": "2026-11-18T15:47:16Z",
+        "lastCommit": "2026-06-08T02:14:37Z",
+        "fetchedAt": "2026-11-20T23:01:51.291Z"
+      }
     }
   ]
 }

@@ -3667,6 +3667,45 @@
         "createdAt": "2023-11-10T05:54:02Z",
         "lastFetchAttempt": "2026-11-20T11:23:43.373Z"
       }
+    },
+    {
+      "id": "algorithmicsuperintelligence-optillm",
+      "name": "optillm",
+      "description": "OpenAI 호환 프록시로 동작하는 LLM 추론 최적화 도구 optillm으로, Chain-of-Thought·MCTS·Mixture-of-Agents 등 추론시(test-time) 기법을 적용해 기존 모델의 정확도를 끌어올립니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/algorithmicsuperintelligence/optillm",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents",
+        "api-gateway",
+        "chain-of-thought",
+        "genai",
+        "large-language-models",
+        "llm",
+        "llm-inference",
+        "llmapi",
+        "mixture-of-experts",
+        "moa",
+        "monte-carlo-tree-search",
+        "openai",
+        "openai-api",
+        "optimization",
+        "prompt-engineering",
+        "proxy-server"
+      ],
+      "meta": {
+        "stars": 4345,
+        "forks": 401,
+        "lastUpdated": "2026-11-20T02:47:26Z",
+        "lastCommit": "2026-11-16T09:30:10Z",
+        "fetchedAt": "2026-11-20T11:47:57.859Z"
+      }
     }
   ]
 }

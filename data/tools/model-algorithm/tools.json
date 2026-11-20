@@ -3618,6 +3618,24 @@
         "createdAt": "2024-05-29T23:17:05Z",
         "lastFetchAttempt": "2026-11-20T16:36:17.275Z"
       }
+    },
+    {
+      "id": "robbyant-lingbot-world-v2",
+      "name": "lingbot-world-v2",
+      "description": "720p 60fps로 실시간 조작 가능한 끝없는 세계를 생성하는 14B 규모의 월드 모델 LingBot-World 2.0입니다(비상업 라이선스).",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/Robbyant/lingbot-world-v2",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1912,
+        "forks": 151,
+        "lastUpdated": "2026-11-20T15:29:05Z",
+        "lastCommit": "2026-09-10T07:44:53Z",
+        "fetchedAt": "2026-11-20T16:46:10.273Z"
+      }
     }
   ]
 }

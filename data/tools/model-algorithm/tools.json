@@ -3644,6 +3644,24 @@
         "createdAt": "2026-07-08T09:24:50Z",
         "lastFetchAttempt": "2026-11-20T19:08:00.916Z"
       }
+    },
+    {
+      "id": "eleutherai-pythia",
+      "name": "pythia",
+      "description": "EleutherAI가 공개한 해석가능성·학습 동역학 연구용 대규모 언어 모델 스위트로, 동일한 데이터·학습 순서로 다양한 규모의 모델과 학습 체크포인트를 제공해 LLM 연구의 표준 벤치마크로 활용됩니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/EleutherAI/pythia",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3001,
+        "forks": 232,
+        "lastUpdated": "2026-11-20T07:52:04Z",
+        "lastCommit": "2025-11-15T17:39:52Z",
+        "fetchedAt": "2026-11-20T20:00:34.695Z"
+      }
     }
   ]
 }

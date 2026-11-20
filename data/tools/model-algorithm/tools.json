@@ -3540,6 +3540,45 @@
         "createdAt": "2021-04-26T20:58:42Z",
         "lastFetchAttempt": "2026-11-20T12:31:15.664Z"
       }
+    },
+    {
+      "id": "huggingface-pytorch-image-models",
+      "name": "pytorch-image-models",
+      "description": "ResNet, EfficientNet, Vision Transformer, ConvNeXt 등 방대한 PyTorch 이미지 인코더/백본과 사전학습 가중치를 제공하는 라이브러리로, 학습·평가·추론 스크립트까지 포함해 비전 모델 개발의 사실상 표준 컴포넌트로 활용됩니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/huggingface/pytorch-image-models",
+      "koreanSupport": false,
+      "tags": [
+        "augmix",
+        "convnext",
+        "distributed-training",
+        "efficientnet",
+        "image-classification",
+        "imagenet",
+        "maxvit",
+        "mixnet",
+        "mobile-deep-learning",
+        "mobilenet-v2",
+        "mobilenetv3",
+        "nfnets",
+        "normalization-free-training",
+        "optimizer",
+        "pretrained-models",
+        "pretrained-weights",
+        "pytorch",
+        "randaugment",
+        "resnet",
+        "vision-transformer-models"
+      ],
+      "meta": {
+        "stars": 37296,
+        "forks": 5233,
+        "lastUpdated": "2026-11-20T03:15:55Z",
+        "lastCommit": "2026-11-20T04:16:36Z",
+        "fetchedAt": "2026-11-20T12:56:47.297Z"
+      }
     }
   ]
 }

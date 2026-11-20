@@ -283,7 +283,8 @@
         "isl-org-open3d",
         "hf-krafton-raon-visionencoder",
         "facebookresearch-sam2",
-        "paddlepaddle-paddleclas"
+        "paddlepaddle-paddleclas",
+        "huggingface-pytorch-image-models"
       ]
     },
     {

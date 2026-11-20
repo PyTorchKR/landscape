@@ -2330,6 +2330,35 @@
         "createdAt": "2020-08-14T06:46:00Z",
         "lastFetchAttempt": "2026-11-20T18:53:49.562Z"
       }
+    },
+    {
+      "id": "tracecathq-tracecat",
+      "name": "tracecat",
+      "description": "보안팀과 AI 에이전트를 위한 오픈소스 보안 자동화(SOAR) 플랫폼. 노코드/코드 워크플로우로 보안 경보 대응·조사·조치를 자동화하며 AI 에이전트를 운영 파이프라인에 통합한다(오픈소스 Tines/SOAR 대안).",
+      "categoryId": "industry-solutions",
+      "moduleId": "application-service",
+      "license": "AGPL-3.0",
+      "githubUrl": "https://github.com/TracecatHQ/tracecat",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "automation",
+        "case-management",
+        "fastapi",
+        "incident-response",
+        "low-code",
+        "nextjs",
+        "orchestration",
+        "security",
+        "temporalio"
+      ],
+      "meta": {
+        "stars": 3908,
+        "forks": 448,
+        "lastUpdated": "2026-11-20T02:18:41Z",
+        "lastCommit": "2026-11-20T18:54:50Z",
+        "fetchedAt": "2026-11-20T19:05:52.282Z"
+      }
     }
   ]
 }

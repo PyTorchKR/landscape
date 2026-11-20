@@ -3390,6 +3390,24 @@
         "createdAt": "2025-09-11T05:32:39Z",
         "lastFetchAttempt": "2026-11-20T00:07:54.020Z"
       }
+    },
+    {
+      "id": "openai-gpt-oss",
+      "name": "gpt-oss",
+      "description": "OpenAI가 공개한 오픈 웨이트 대규모 언어 모델 gpt-oss-120b 및 gpt-oss-20b로, 추론·도구 사용에 강점을 둔 모델과 참조 구현·실행 도구를 제공합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/openai/gpt-oss",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 20553,
+        "forks": 2201,
+        "lastUpdated": "2026-11-19T22:09:04Z",
+        "lastCommit": "2026-10-29T16:42:13Z",
+        "fetchedAt": "2026-11-20T07:00:52.742Z"
+      }
     }
   ]
 }

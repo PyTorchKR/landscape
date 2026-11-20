@@ -4055,6 +4055,33 @@
         "createdAt": "2026-02-23T15:38:39Z",
         "lastFetchAttempt": "2026-11-20T17:32:09.926Z"
       }
+    },
+    {
+      "id": "shishirpatil-gorilla",
+      "name": "gorilla",
+      "description": "LLM의 함수 호출(도구 호출) 학습과 평가를 다루는 프로젝트로, Berkeley Function Calling Leaderboard(BFCL)를 포함합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ShishirPatil/gorilla",
+      "koreanSupport": false,
+      "tags": [
+        "api",
+        "api-documentation",
+        "chatgpt",
+        "claude-api",
+        "gpt-4-api",
+        "llm",
+        "openai-api",
+        "openai-functions"
+      ],
+      "meta": {
+        "stars": 13082,
+        "forks": 1425,
+        "lastUpdated": "2026-11-20T10:02:02Z",
+        "lastCommit": "2026-10-17T06:06:24Z",
+        "fetchedAt": "2026-11-20T18:10:01.310Z"
+      }
     }
   ]
 }

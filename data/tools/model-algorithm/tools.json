@@ -3670,6 +3670,24 @@
         "createdAt": "2021-12-25T23:58:44Z",
         "lastFetchAttempt": "2026-11-20T22:21:15.894Z"
       }
+    },
+    {
+      "id": "swivid-f5-tts",
+      "name": "F5-TTS",
+      "description": "Flow Matching 기반의 텍스트-투-스피치(TTS) 모델 F5-TTS로, 유창하고 충실한 음성을 빠르게 합성하며 제로샷 음성 클로닝을 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/SWivid/F5-TTS",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 15631,
+        "forks": 2289,
+        "lastUpdated": "2026-11-20T16:56:10Z",
+        "lastCommit": "2026-11-03T15:05:10Z",
+        "fetchedAt": "2026-11-20T22:47:04.826Z"
+      }
     }
   ]
 }

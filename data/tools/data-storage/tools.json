@@ -1771,6 +1771,32 @@
         "createdAt": "2024-10-11T20:36:09Z",
         "lastFetchAttempt": "2026-11-20T09:48:06.173Z"
       }
+    },
+    {
+      "id": "kubeflow-pipelines",
+      "name": "pipelines",
+      "description": "Kubernetes 위에서 머신러닝 워크플로를 구축·배포·관리하는 플랫폼(Kubeflow Pipelines). 컨테이너 기반 재사용 컴포넌트로 ML 파이프라인을 정의하고, 실험 추적·아티팩트 계보·스케줄링을 제공합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/kubeflow/pipelines",
+      "koreanSupport": false,
+      "tags": [
+        "data-science",
+        "kubeflow",
+        "kubeflow-pipelines",
+        "kubernetes",
+        "machine-learning",
+        "mlops",
+        "pipeline"
+      ],
+      "meta": {
+        "stars": 4267,
+        "forks": 2208,
+        "lastUpdated": "2026-11-20T05:54:47Z",
+        "lastCommit": "2026-11-20T04:21:11Z",
+        "fetchedAt": "2026-11-20T09:59:04.423Z"
+      }
     }
   ]
 }

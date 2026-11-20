@@ -630,7 +630,8 @@
         "openai-openai-agents-python",
         "julep-ai-julep",
         "aurelio-labs-semantic-router",
-        "paperclipai-paperclip"
+        "paperclipai-paperclip",
+        "huggingface-smolagents"
       ]
     },
     {

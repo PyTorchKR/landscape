@@ -4218,6 +4218,31 @@
         "createdAt": "2024-08-29T08:30:38Z",
         "lastFetchAttempt": "2026-11-21T23:38:05.613Z"
       }
+    },
+    {
+      "id": "nvidia-nemo-nemotron",
+      "name": "Nemotron",
+      "description": "NVIDIA Nemotron 대규모 언어 모델 패밀리의 개발 허브로, 학습 레시피·사용 쿡북·데이터셋·엔드투엔드 레퍼런스 예제를 제공하여 Nemotron 오픈 모델로 애플리케이션을 구축할 수 있게 합니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/NVIDIA-NeMo/Nemotron",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "fine-tuning",
+        "model-training",
+        "nemotron",
+        "nvidia",
+        "reinforcement-learning"
+      ],
+      "meta": {
+        "stars": 2374,
+        "forks": 496,
+        "lastUpdated": "2026-11-21T20:04:30Z",
+        "lastCommit": "2026-11-20T14:59:37Z",
+        "fetchedAt": "2026-11-21T23:48:50.858Z"
+      }
     }
   ]
 }

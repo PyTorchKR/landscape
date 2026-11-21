@@ -266,7 +266,8 @@
         "qwenlm-qwen3-6",
         "openai-gpt-oss",
         "zai-org-glm-5",
-        "eleutherai-pythia"
+        "eleutherai-pythia",
+        "nvidia-nemo-nemotron"
       ]
     },
     {

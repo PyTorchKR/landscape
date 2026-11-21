@@ -4390,6 +4390,24 @@
         "createdAt": "2026-06-22T07:24:40Z",
         "lastFetchAttempt": "2026-11-21T01:23:46.969Z"
       }
+    },
+    {
+      "id": "huggingface-anylanguagemodel",
+      "name": "AnyLanguageModel",
+      "description": "A Swift package with the same API as Apple's Foundation Models framework. It runs on-device models through Core ML, MLX, and llama.cpp, and also connects to Ollama, OpenAI, Anthropic, and Gemini.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/huggingface/AnyLanguageModel",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 990,
+        "forks": 110,
+        "lastUpdated": "2026-11-20T13:30:03Z",
+        "lastCommit": "2026-11-20T11:27:06Z",
+        "fetchedAt": "2026-11-21T01:34:02.330Z"
+      }
     }
   ]
 }

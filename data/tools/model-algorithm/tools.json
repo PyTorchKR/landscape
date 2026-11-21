@@ -3868,6 +3868,45 @@
         "createdAt": "2025-09-04T02:00:07Z",
         "lastFetchAttempt": "2026-11-21T04:23:55.130Z"
       }
+    },
+    {
+      "id": "qwenaudio-sensevoice",
+      "name": "SenseVoice",
+      "description": "중국어, 영어, 일본어, 한국어 등의 음성 인식과 언어 식별, 감정 인식, 오디오 이벤트 검출을 수행하는 음성 이해 모델 SenseVoice입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/QwenAudio/SenseVoice",
+      "koreanSupport": false,
+      "tags": [
+        "asr",
+        "audio-analysis",
+        "audio-event-detection",
+        "cantonese",
+        "cross-lingual",
+        "emotion-detection",
+        "funasr",
+        "language-identification",
+        "llama-cpp",
+        "multilingual",
+        "multilingual-asr",
+        "pytorch",
+        "sensevoice",
+        "speech-emotion-recognition",
+        "speech-recognition",
+        "speech-to-text",
+        "speech-understanding",
+        "transcription",
+        "voice-ai",
+        "whisper-alternative"
+      ],
+      "meta": {
+        "stars": 9796,
+        "forks": 850,
+        "lastUpdated": "2026-11-21T03:15:23Z",
+        "lastCommit": "2026-09-30T10:22:01Z",
+        "fetchedAt": "2026-11-21T04:49:46.409Z"
+      }
     }
   ]
 }

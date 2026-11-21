@@ -4441,6 +4441,42 @@
         "createdAt": "2023-08-28T02:18:13Z",
         "lastFetchAttempt": "2026-11-21T02:19:37.452Z"
       }
+    },
+    {
+      "id": "agentops-ai-agentops",
+      "name": "agentops",
+      "description": "AI 에이전트 모니터링·LLM 비용 추적·벤치마킹을 위한 파이썬 SDK(AgentOps). 에이전트 실행 세션·도구 호출·LLM 비용을 추적·시각화하며 CrewAI·Agno·OpenAI Agents SDK·LangChain·AutoGen·AG2·CamelAI 등 주요 에이전트 프레임워크와 통합됩니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/AgentOps-AI/agentops",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentops",
+        "agents-sdk",
+        "ai",
+        "anthropic",
+        "autogen",
+        "cost-estimation",
+        "crewai",
+        "evals",
+        "evaluation-metrics",
+        "groq",
+        "langchain",
+        "llm",
+        "mistral",
+        "ollama",
+        "openai",
+        "openai-agents"
+      ],
+      "meta": {
+        "stars": 5970,
+        "forks": 668,
+        "lastUpdated": "2026-11-21T03:10:57Z",
+        "lastCommit": "2026-06-25T08:25:03Z",
+        "fetchedAt": "2026-11-21T03:25:47.049Z"
+      }
     }
   ]
 }

@@ -3094,6 +3094,33 @@
         "createdAt": "2016-05-09T23:26:42Z",
         "lastFetchAttempt": "2026-11-21T03:57:44.555Z"
       }
+    },
+    {
+      "id": "farama-foundation-vizdoom",
+      "name": "ViZDoom",
+      "description": "고전 게임 Doom을 기반으로 시각 정보에서 학습하는 강화학습 환경을 제공합니다.",
+      "categoryId": "reinforcement-learning",
+      "moduleId": "training-inference",
+      "license": "Unknown",
+      "githubUrl": "https://github.com/Farama-Foundation/ViZDoom",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "doom",
+        "examples",
+        "gymnasium",
+        "gymnasium-environment",
+        "python",
+        "reinforcement-learning",
+        "vizdoom"
+      ],
+      "meta": {
+        "stars": 2111,
+        "forks": 460,
+        "lastUpdated": "2026-11-20T01:28:23Z",
+        "lastCommit": "2026-11-20T23:15:48Z",
+        "fetchedAt": "2026-11-21T04:08:56.004Z"
+      }
     }
   ]
 }

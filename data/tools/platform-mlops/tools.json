@@ -4543,6 +4543,40 @@
         "createdAt": "2024-09-21T13:56:44Z",
         "lastFetchAttempt": "2026-11-21T06:15:30.331Z"
       }
+    },
+    {
+      "id": "elizaos-eliza",
+      "name": "eliza",
+      "description": "오픈소스 \"에이전트 운영체제(agentic OS)\". 플러그인 기반 아키텍처로 자율형 AI 에이전트를 구축·배포하며, 멀티 플랫폼(Discord, X, Telegram 등) 연동과 다양한 모델 제공자를 지원합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/elizaOS/eliza",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic",
+        "ai",
+        "autonomous",
+        "chatbot",
+        "crypto",
+        "discord",
+        "eliza",
+        "elizaos",
+        "framework",
+        "plugins",
+        "rag",
+        "slack",
+        "swarm",
+        "telegram"
+      ],
+      "meta": {
+        "stars": 19910,
+        "forks": 5905,
+        "lastUpdated": "2026-11-21T03:12:44Z",
+        "lastCommit": "2026-11-21T06:21:20Z",
+        "fetchedAt": "2026-11-21T06:27:58.093Z"
+      }
     }
   ]
 }

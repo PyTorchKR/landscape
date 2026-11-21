@@ -2451,6 +2451,24 @@
         "createdAt": "2022-05-10T12:01:50Z",
         "lastFetchAttempt": "2026-11-21T00:38:42.394Z"
       }
+    },
+    {
+      "id": "primeintellect-ai-prime-agent",
+      "name": "prime-agent",
+      "description": "코딩 워크플로와 장시간 자율 작업을 위한 Prime Intellect의 자기 개선형 RLM 에이전트입니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 22861,
+        "forks": 2530,
+        "lastUpdated": "2026-11-21T00:38:39Z",
+        "lastCommit": "2026-11-20T23:43:40Z",
+        "fetchedAt": "2026-11-21T00:52:53.181Z"
+      }
     }
   ]
 }

@@ -5248,6 +5248,32 @@
         "createdAt": "2023-06-14T10:42:23Z",
         "lastFetchAttempt": "2026-11-21T22:03:12.335Z"
       }
+    },
+    {
+      "id": "cloudwego-eino",
+      "name": "eino",
+      "description": "Go로 LLM/AI 애플리케이션을 개발하기 위한 프레임워크(ByteDance CloudWeGo). 컴포넌트 추상화, 체인·그래프 오케스트레이션, 도구 호출, 에이전트, 스트리밍을 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/cloudwego/eino",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "ai-application",
+        "ai-framework",
+        "langchain",
+        "langchain-for-go",
+        "langchaingo",
+        "llm-application"
+      ],
+      "meta": {
+        "stars": 13696,
+        "forks": 1179,
+        "lastUpdated": "2026-11-21T14:32:53Z",
+        "lastCommit": "2026-11-19T13:22:24Z",
+        "fetchedAt": "2026-11-21T22:27:48.932Z"
+      }
     }
   ]
 }

@@ -1974,6 +1974,44 @@
         "createdAt": "2024-05-29T13:47:12Z",
         "lastFetchAttempt": "2026-11-21T08:34:00.020Z"
       }
+    },
+    {
+      "id": "infiniflow-infinity",
+      "name": "infinity",
+      "description": "LLM 애플리케이션을 위한 AI-native 데이터베이스. dense vector, sparse vector, tensor(multi-vector), full-text를 결합한 초고속 하이브리드 검색을 제공합니다.",
+      "categoryId": "vector-db",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/infiniflow/infinity",
+      "koreanSupport": false,
+      "tags": [
+        "ai-native",
+        "approximate-nearest-neighbor-search",
+        "bm25",
+        "cpp20",
+        "cpp20-modules",
+        "embedding",
+        "full-text-search",
+        "hnsw",
+        "hybrid-search",
+        "information-retrival",
+        "multi-vector",
+        "nearest-neighbor-search",
+        "rag",
+        "search-engine",
+        "tensor-database",
+        "vector",
+        "vector-database",
+        "vector-search",
+        "vectordatabase"
+      ],
+      "meta": {
+        "stars": 4770,
+        "forks": 462,
+        "lastUpdated": "2026-11-20T10:39:59Z",
+        "lastCommit": "2026-11-21T08:42:52Z",
+        "fetchedAt": "2026-11-21T09:00:14.945Z"
+      }
     }
   ]
 }

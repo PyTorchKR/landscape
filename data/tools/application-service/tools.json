@@ -2760,6 +2760,28 @@
         "createdAt": "2026-05-29T10:51:54Z",
         "lastFetchAttempt": "2026-11-21T18:36:48.023Z"
       }
+    },
+    {
+      "id": "amagine-ai-amagine3d",
+      "name": "Amagine3D",
+      "description": "하드웨어 요구 사항과 치수를 입력하면 에이전트가 수정 가능한 CAD 소스 형태의 3D 설계를 생성하는 프로젝트입니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/amagine-ai/Amagine3D",
+      "koreanSupport": false,
+      "tags": [
+        "3d-printing-tools",
+        "text-to-3d",
+        "text-to-cad"
+      ],
+      "meta": {
+        "stars": 6079,
+        "forks": 521,
+        "lastUpdated": "2026-11-21T15:46:11Z",
+        "lastCommit": "2026-10-22T07:42:50Z",
+        "fetchedAt": "2026-11-21T18:48:50.801Z"
+      }
     }
   ]
 }

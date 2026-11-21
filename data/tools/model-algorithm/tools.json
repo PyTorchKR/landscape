@@ -4126,6 +4126,24 @@
         "createdAt": "2026-01-27T03:05:42Z",
         "lastFetchAttempt": "2026-11-21T17:28:48.132Z"
       }
+    },
+    {
+      "id": "facebookresearch-dinov3",
+      "name": "dinov3",
+      "description": "Meta의 자기지도 학습 비전 백본 DINOv3의 PyTorch 참조 구현과 사전 학습 모델입니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/facebookresearch/dinov3",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 11784,
+        "forks": 1003,
+        "lastUpdated": "2026-11-21T09:25:23Z",
+        "lastCommit": "2026-11-02T07:32:28Z",
+        "fetchedAt": "2026-11-21T17:41:53.145Z"
+      }
     }
   ]
 }

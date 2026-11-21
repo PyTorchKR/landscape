@@ -4611,6 +4611,31 @@
         "createdAt": "2026-03-13T22:48:18Z",
         "lastFetchAttempt": "2026-11-21T06:58:41.124Z"
       }
+    },
+    {
+      "id": "truefoundry-trueforge",
+      "name": "trueforge",
+      "description": "모델 호출부터 샌드박스 실행, 채팅 UI까지 LLM을 실제로 동작하는 에이전트로 만드는 실행 루프를 제공하는 오픈소스 에이전트 하네스입니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/truefoundry/trueforge",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agents",
+        "engineering-team",
+        "harness",
+        "harness-engineering"
+      ],
+      "meta": {
+        "stars": 6570,
+        "forks": 569,
+        "lastUpdated": "2026-11-21T07:10:37Z",
+        "lastCommit": "2026-11-20T15:32:35Z",
+        "fetchedAt": "2026-11-21T07:24:03.704Z"
+      }
     }
   ]
 }

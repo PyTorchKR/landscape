@@ -3162,6 +3162,33 @@
         "createdAt": "2015-11-14T00:12:04Z",
         "lastFetchAttempt": "2026-11-21T13:40:26.447Z"
       }
+    },
+    {
+      "id": "patrick-kidger-diffrax",
+      "name": "diffrax",
+      "description": "JAX 기반의 미분 가능한 수치 미분방정식 솔버 라이브러리로, GPU 가속과 자동미분을 지원하여 신경망 미분방정식(Neural ODE) 등 연속시간 모델 개발에 활용됩니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/patrick-kidger/diffrax",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "differential-equations",
+        "dynamical-systems",
+        "equinox",
+        "jax",
+        "machine-learning",
+        "neural-differential-equations",
+        "neural-networks"
+      ],
+      "meta": {
+        "stars": 2129,
+        "forks": 204,
+        "lastUpdated": "2026-11-20T10:46:28Z",
+        "lastCommit": "2026-09-06T08:35:31Z",
+        "fetchedAt": "2026-11-21T14:04:45.407Z"
+      }
     }
   ]
 }

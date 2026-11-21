@@ -2630,6 +2630,37 @@
         "createdAt": "2025-03-06T14:08:14Z",
         "lastFetchAttempt": "2026-11-21T12:14:33.233Z"
       }
+    },
+    {
+      "id": "qwenlm-qwen-code",
+      "name": "qwen-code",
+      "description": "터미널에서 동작하는 오픈소스 AI 코딩 에이전트 Qwen Code. Qwen 모델을 기반으로 명령줄에서 코드 작성·편집·실행을 자율적으로 수행합니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/QwenLM/qwen-code",
+      "koreanSupport": false,
+      "tags": [
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "qwen",
+        "terminal",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 30832,
+        "forks": 3571,
+        "lastUpdated": "2026-11-21T12:23:42Z",
+        "lastCommit": "2026-11-21T12:24:43Z",
+        "fetchedAt": "2026-11-21T12:27:47.516Z"
+      }
     }
   ]
 }

@@ -196,7 +196,8 @@
         "shcherbak-ai-contextgem",
         "kubeflow-pipelines",
         "dbt-labs-dbt-core",
-        "spotify-luigi"
+        "spotify-luigi",
+        "apache-hamilton"
       ]
     },
     {

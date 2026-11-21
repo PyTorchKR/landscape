@@ -1902,6 +1902,44 @@
         "createdAt": "2012-09-20T15:06:38Z",
         "lastFetchAttempt": "2026-11-20T23:42:52.105Z"
       }
+    },
+    {
+      "id": "apache-hamilton",
+      "name": "hamilton",
+      "description": "테스트 가능하고 모듈화된 데이터플로우를 함수 기반 DAG로 정의하는 프레임워크로, 계보·메타데이터 추적을 내장하여 ETL·피처 엔지니어링·MLOps/LLMOps 파이프라인을 구조적으로 작성할 수 있게 합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/apache/hamilton",
+      "koreanSupport": false,
+      "tags": [
+        "dag",
+        "data-analysis",
+        "data-engineering",
+        "data-science",
+        "dataframe",
+        "etl",
+        "etl-framework",
+        "etl-pipeline",
+        "feature-engineering",
+        "hacktoberfest",
+        "lineage",
+        "llmops",
+        "machine-learning",
+        "mlops",
+        "orchestration",
+        "pandas",
+        "python",
+        "rag",
+        "software-engineering"
+      ],
+      "meta": {
+        "stars": 2630,
+        "forks": 234,
+        "lastUpdated": "2026-11-19T22:50:22Z",
+        "lastCommit": "2026-11-16T16:54:03Z",
+        "fetchedAt": "2026-11-21T00:37:50.319Z"
+      }
     }
   ]
 }

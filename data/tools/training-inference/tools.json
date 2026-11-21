@@ -3303,6 +3303,33 @@
         "createdAt": "2018-02-27T01:36:26Z",
         "lastFetchAttempt": "2026-11-21T19:20:43.483Z"
       }
+    },
+    {
+      "id": "systran-faster-whisper",
+      "name": "faster-whisper",
+      "description": "CTranslate2를 활용해 OpenAI Whisper 음성 인식 모델을 대폭 가속한 추론 구현으로, 양자화와 효율적 실행으로 동일 정확도에서 수배 빠른 음성-텍스트 변환을 제공합니다.",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/SYSTRAN/faster-whisper",
+      "koreanSupport": false,
+      "tags": [
+        "deep-learning",
+        "inference",
+        "openai",
+        "quantization",
+        "speech-recognition",
+        "speech-to-text",
+        "transformer",
+        "whisper"
+      ],
+      "meta": {
+        "stars": 26929,
+        "forks": 2275,
+        "lastUpdated": "2026-11-21T19:24:03Z",
+        "lastCommit": "2026-11-12T09:05:56Z",
+        "fetchedAt": "2026-11-21T19:30:48.888Z"
+      }
     }
   ]
 }

@@ -453,7 +453,8 @@
         "kvcache-ai-mooncake",
         "pytorch-tensorrt",
         "openxla-xla",
-        "uxlfoundation-onednn"
+        "uxlfoundation-onednn",
+        "systran-faster-whisper"
       ]
     },
     {

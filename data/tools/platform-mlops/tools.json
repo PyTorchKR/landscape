@@ -5282,6 +5282,44 @@
         "createdAt": "2024-12-04T06:47:27Z",
         "lastFetchAttempt": "2026-11-21T22:30:36.638Z"
       }
+    },
+    {
+      "id": "open-compass-vlmevalkit",
+      "name": "VLMEvalKit",
+      "description": "대규모 멀티모달 모델(LMM/VLM) 평가를 위한 오픈소스 툴킷(VLMEvalKit, OpenCompass). 220여 개 비전-언어 모델과 80여 개 멀티모달 벤치마크를 지원하며, 단일 명령으로 다양한 모델·벤치마크 조합을 평가할 수 있습니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/open-compass/VLMEvalKit",
+      "koreanSupport": false,
+      "tags": [
+        "chatgpt",
+        "claude",
+        "clip",
+        "computer-vision",
+        "evaluation",
+        "gemini",
+        "gpt",
+        "gpt-4v",
+        "gpt4",
+        "large-language-models",
+        "llava",
+        "llm",
+        "multi-modal",
+        "openai",
+        "openai-api",
+        "pytorch",
+        "qwen",
+        "vit",
+        "vqa"
+      ],
+      "meta": {
+        "stars": 4499,
+        "forks": 801,
+        "lastUpdated": "2026-11-20T16:24:47Z",
+        "lastCommit": "2026-11-19T11:14:01Z",
+        "fetchedAt": "2026-11-21T22:41:48.677Z"
+      }
     }
   ]
 }

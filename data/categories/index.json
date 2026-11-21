@@ -539,7 +539,8 @@
         "run-house-kubetorch",
         "huggingface-accelerate",
         "pytorch-gloo",
-        "nvidia-nccl"
+        "nvidia-nccl",
+        "nvidia-apex"
       ]
     },
     {

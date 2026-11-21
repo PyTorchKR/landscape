@@ -3230,6 +3230,24 @@
         "createdAt": "2014-02-06T17:28:03Z",
         "lastFetchAttempt": "2026-11-21T17:45:30.543Z"
       }
+    },
+    {
+      "id": "nvidia-apex",
+      "name": "apex",
+      "description": "PyTorch용 NVIDIA 확장 라이브러리로, 혼합 정밀도(AMP) 학습과 분산 학습을 손쉽게 적용할 수 있는 최적화 도구와 융합 커널을 제공하여 대규모 모델 학습의 속도와 메모리 효율을 높입니다.",
+      "categoryId": "distributed-training",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/NVIDIA/apex",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 9011,
+        "forks": 1534,
+        "lastUpdated": "2026-11-21T14:17:44Z",
+        "lastCommit": "2026-11-17T07:37:57Z",
+        "fetchedAt": "2026-11-21T17:54:58.577Z"
+      }
     }
   ]
 }

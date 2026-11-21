@@ -5067,6 +5067,24 @@
         "createdAt": "2023-10-16T01:49:13Z",
         "lastFetchAttempt": "2026-11-21T15:40:37.520Z"
       }
+    },
+    {
+      "id": "nvidia-ruler",
+      "name": "RULER",
+      "description": "장문 컨텍스트 언어 모델이 실제로 활용할 수 있는 컨텍스트 길이를 측정하는 NVIDIA의 합성 벤치마크입니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/NVIDIA/RULER",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1641,
+        "forks": 149,
+        "lastUpdated": "2026-11-21T00:09:44Z",
+        "lastCommit": "2026-11-03T17:25:22Z",
+        "fetchedAt": "2026-11-21T15:52:50.138Z"
+      }
     }
   ]
 }

@@ -4684,6 +4684,31 @@
         "createdAt": "2023-05-04T16:36:09Z",
         "lastFetchAttempt": "2026-11-21T07:54:42.653Z"
       }
+    },
+    {
+      "id": "patoles-agent-flow",
+      "name": "agent-flow",
+      "description": "Claude Code와 Codex의 에이전트 실행, 분기, 협업 과정을 실시간 노드 그래프로 시각화하는 도구입니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/patoles/agent-flow",
+      "koreanSupport": false,
+      "tags": [
+        "agent-visualization",
+        "ai-agents",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "vscode-extension"
+      ],
+      "meta": {
+        "stars": 1802,
+        "forks": 221,
+        "lastUpdated": "2026-11-20T10:59:04Z",
+        "lastCommit": "2026-11-20T15:59:08Z",
+        "fetchedAt": "2026-11-21T08:04:45.402Z"
+      }
     }
   ]
 }

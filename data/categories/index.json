@@ -615,7 +615,8 @@
         "scikit-learn-scikit-learn",
         "catboost-catboost",
         "patrick-kidger-diffrax",
-        "dmlc-xgboost"
+        "dmlc-xgboost",
+        "sciml-modelingtoolkit-jl"
       ]
     },
     {

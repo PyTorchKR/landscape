@@ -3256,6 +3256,45 @@
         "createdAt": "2018-04-23T16:28:52Z",
         "lastFetchAttempt": "2026-11-21T19:07:51.238Z"
       }
+    },
+    {
+      "id": "sciml-modelingtoolkit-jl",
+      "name": "ModelingToolkit.jl",
+      "description": "Julia SciML 생태계의 비인과(acausal) 모델링 프레임워크로, 심볼릭 컴퓨터 대수 시스템을 기반으로 미분방정식의 자동 변환과 병렬화를 지원하며 물리 정보 기반 머신러닝(physics-informed ML)에 활용됩니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/SciML/ModelingToolkit.jl",
+      "koreanSupport": false,
+      "tags": [
+        "acausal",
+        "computer-algebra",
+        "dae",
+        "dde",
+        "delay-differential-equations",
+        "differential-equations",
+        "equation-based",
+        "julia",
+        "nonlinear-programming",
+        "ode",
+        "optimization",
+        "ordinary-differential-equations",
+        "pde",
+        "scientific-machine-learning",
+        "sciml",
+        "sde",
+        "stochastic-differential-equations",
+        "symbolic",
+        "symbolic-computation",
+        "symbolic-numerics"
+      ],
+      "meta": {
+        "stars": 1700,
+        "forks": 279,
+        "lastUpdated": "2026-11-19T20:50:47Z",
+        "lastCommit": "2026-11-21T18:15:55Z",
+        "fetchedAt": "2026-11-21T19:17:03.439Z"
+      }
     }
   ]
 }

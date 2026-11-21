@@ -946,6 +946,33 @@
         "createdAt": "2026-06-02T00:11:00Z",
         "lastFetchAttempt": "2026-11-21T10:54:38.635Z"
       }
+    },
+    {
+      "id": "qdata-textattack",
+      "name": "TextAttack",
+      "description": "NLP 모델에 대한 적대적 공격(adversarial attack)·데이터 증강·견고성 학습을 위한 Python 프레임워크로, 다양한 공격 레시피로 모델의 취약점을 진단하고 방어 학습을 지원합니다.",
+      "categoryId": "security-testing",
+      "moduleId": "security-governance",
+      "license": "MIT",
+      "githubUrl": "https://github.com/QData/TextAttack",
+      "koreanSupport": false,
+      "tags": [
+        "adversarial-attacks",
+        "adversarial-examples",
+        "adversarial-machine-learning",
+        "data-augmentation",
+        "machine-learning",
+        "natural-language-processing",
+        "nlp",
+        "security"
+      ],
+      "meta": {
+        "stars": 3483,
+        "forks": 460,
+        "lastUpdated": "2026-11-19T21:34:10Z",
+        "lastCommit": "2026-08-15T12:32:20Z",
+        "fetchedAt": "2026-11-21T11:18:44.269Z"
+      }
     }
   ]
 }

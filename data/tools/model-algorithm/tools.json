@@ -4152,6 +4152,38 @@
         "createdAt": "2025-08-07T14:11:34Z",
         "lastFetchAttempt": "2026-11-21T17:56:58.392Z"
       }
+    },
+    {
+      "id": "amazon-science-chronos-forecasting",
+      "name": "chronos-forecasting",
+      "description": "시계열 예측을 위한 사전학습(파운데이션) 모델 Chronos(Amazon Science). 시계열을 토큰으로 양자화해 언어 모델 아키텍처(T5 계열)로 학습함으로써, 별도 학습 없이 다양한 도메인의 시계열을 제로샷 예측할 수 있는 사전학습 모델과 추론 코드를 제공합니다.",
+      "categoryId": "time-series-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/amazon-science/chronos-forecasting",
+      "koreanSupport": false,
+      "tags": [
+        "artificial-intelligence",
+        "forecasting",
+        "foundation-models",
+        "huggingface",
+        "huggingface-transformers",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "pretrained-models",
+        "time-series",
+        "time-series-forecasting",
+        "timeseries",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 6337,
+        "forks": 774,
+        "lastUpdated": "2026-11-21T17:32:13Z",
+        "lastCommit": "2026-10-05T14:25:02Z",
+        "fetchedAt": "2026-11-21T18:09:49.842Z"
+      }
     }
   ]
 }

@@ -4882,6 +4882,30 @@
         "createdAt": "2025-05-07T12:49:37Z",
         "lastFetchAttempt": "2026-11-21T11:49:00.164Z"
       }
+    },
+    {
+      "id": "ubiquitouslearning-mllm",
+      "name": "mllm",
+      "description": "모바일 디바이스에서 멀티모달 LLM을 빠르게 실행하기 위한 경량 C++ 추론 엔진 mllm으로, 모바일 NPU/CPU에 최적화된 온디바이스 멀티모달 추론을 제공합니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/UbiquitousLearning/mllm",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "llama",
+        "llm",
+        "mobile",
+        "multimodal"
+      ],
+      "meta": {
+        "stars": 1643,
+        "forks": 222,
+        "lastUpdated": "2026-11-19T23:03:17Z",
+        "lastCommit": "2026-09-30T11:50:59Z",
+        "fetchedAt": "2026-11-21T12:00:45.157Z"
+      }
     }
   ]
 }

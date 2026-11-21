@@ -5125,6 +5125,41 @@
         "createdAt": "2022-09-28T17:31:19Z",
         "lastFetchAttempt": "2026-11-21T19:33:40.183Z"
       }
+    },
+    {
+      "id": "arize-ai-phoenix",
+      "name": "phoenix",
+      "description": "AI 애플리케이션의 관찰성(observability)과 평가를 위한 오픈소스 도구(Phoenix). LLM/RAG/에이전트 애플리케이션의 트레이싱(OpenTelemetry 기반), 프롬프트·응답 평가, 임베딩 분석, 데이터셋 큐레이션을 제공합니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/Arize-ai/phoenix",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "ai-monitoring",
+        "ai-observability",
+        "aiengineering",
+        "anthropic",
+        "datasets",
+        "evals",
+        "langchain",
+        "llamaindex",
+        "llm-eval",
+        "llm-evaluation",
+        "llmops",
+        "llms",
+        "openai",
+        "prompt-engineering",
+        "smolagents"
+      ],
+      "meta": {
+        "stars": 12369,
+        "forks": 1320,
+        "lastUpdated": "2026-11-21T15:41:17Z",
+        "lastCommit": "2026-11-21T12:09:18Z",
+        "fetchedAt": "2026-11-21T19:58:52.323Z"
+      }
     }
   ]
 }

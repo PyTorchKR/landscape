@@ -3338,6 +3338,37 @@
         "createdAt": "2023-02-11T09:17:27Z",
         "lastFetchAttempt": "2026-11-21T21:23:34.741Z"
       }
+    },
+    {
+      "id": "iree-org-iree",
+      "name": "iree",
+      "description": "MLIR 기반의 재타게팅 가능한 머신러닝 컴파일러 및 런타임 툴킷으로, PyTorch·TensorFlow·JAX 등의 모델을 CPU/GPU/모바일 등 다양한 하드웨어 백엔드(CUDA·Vulkan·ROCm 등)로 컴파일·배포할 수 있게 합니다.",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/iree-org/iree",
+      "koreanSupport": false,
+      "tags": [
+        "compiler",
+        "cuda",
+        "jax",
+        "machine-learning",
+        "mlir",
+        "onnx",
+        "pytorch",
+        "rocm",
+        "runtime",
+        "spirv",
+        "tensorflow",
+        "vulkan"
+      ],
+      "meta": {
+        "stars": 4025,
+        "forks": 1065,
+        "lastUpdated": "2026-11-21T01:55:05Z",
+        "lastCommit": "2026-11-21T14:06:53Z",
+        "fetchedAt": "2026-11-21T22:00:13.741Z"
+      }
     }
   ]
 }

@@ -455,7 +455,8 @@
         "pytorch-tensorrt",
         "openxla-xla",
         "uxlfoundation-onednn",
-        "systran-faster-whisper"
+        "systran-faster-whisper",
+        "iree-org-iree"
       ]
     },
     {

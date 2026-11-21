@@ -619,7 +619,8 @@
         "catboost-catboost",
         "patrick-kidger-diffrax",
         "dmlc-xgboost",
-        "sciml-modelingtoolkit-jl"
+        "sciml-modelingtoolkit-jl",
+        "facebookresearch-fairseq2"
       ]
     },
     {

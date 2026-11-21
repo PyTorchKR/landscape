@@ -3377,6 +3377,30 @@
         "createdAt": "2019-09-12T20:57:39Z",
         "lastFetchAttempt": "2026-11-21T22:42:38.771Z"
       }
+    },
+    {
+      "id": "facebookresearch-fairseq2",
+      "name": "fairseq2",
+      "description": "Meta FAIR가 개발한 차세대 시퀀스 모델링 툴킷으로, PyTorch 기반에서 LLM 등 시퀀스 모델의 학습·파인튜닝·평가를 모듈화된 컴포넌트로 제공하여 연구·프로덕션에 활용됩니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/facebookresearch/fairseq2",
+      "koreanSupport": false,
+      "tags": [
+        "artificial-intelligence",
+        "deep-learning",
+        "machine-learning",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 1153,
+        "forks": 148,
+        "lastUpdated": "2026-11-19T22:46:36Z",
+        "lastCommit": "2026-11-19T15:00:23Z",
+        "fetchedAt": "2026-11-21T22:53:52.031Z"
+      }
     }
   ]
 }

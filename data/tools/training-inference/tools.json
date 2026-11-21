@@ -3197,6 +3197,31 @@
         "createdAt": "2021-07-25T23:42:12Z",
         "lastFetchAttempt": "2026-11-21T16:22:20.163Z"
       }
+    },
+    {
+      "id": "dmlc-xgboost",
+      "name": "xgboost",
+      "description": "확장 가능하고 이식성 높은 분산 그래디언트 부스팅(GBDT) 라이브러리로, 정형 데이터에서 높은 정확도의 ML 모델을 학습할 수 있으며 단일 머신부터 Spark·Dask 등 분산 환경까지 지원합니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/dmlc/xgboost",
+      "koreanSupport": false,
+      "tags": [
+        "distributed-systems",
+        "gbdt",
+        "gbm",
+        "gbrt",
+        "machine-learning",
+        "xgboost"
+      ],
+      "meta": {
+        "stars": 29010,
+        "forks": 8987,
+        "lastUpdated": "2026-11-21T12:02:58Z",
+        "lastCommit": "2026-11-19T22:12:08Z",
+        "fetchedAt": "2026-11-21T16:59:47.839Z"
+      }
     }
   ]
 }

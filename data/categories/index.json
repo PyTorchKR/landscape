@@ -609,7 +609,8 @@
         "fluxml-flux-jl",
         "scikit-learn-scikit-learn",
         "catboost-catboost",
-        "patrick-kidger-diffrax"
+        "patrick-kidger-diffrax",
+        "dmlc-xgboost"
       ]
     },
     {

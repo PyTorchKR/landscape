@@ -3764,6 +3764,30 @@
         "createdAt": "2019-08-26T02:32:22Z",
         "lastFetchAttempt": "2026-11-21T01:07:45.015Z"
       }
+    },
+    {
+      "id": "open-mmlab-powerpaint",
+      "name": "PowerPaint",
+      "description": "[ECCV 2024] 단일 모델로 텍스트 가이드 객체 인페인팅, 객체 제거, 이미지 아웃페인팅, 형상 가이드 객체 생성을 모두 지원하는 다목적 이미지 인페인팅 모델.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/open-mmlab/PowerPaint",
+      "koreanSupport": false,
+      "tags": [
+        "aigc",
+        "generation",
+        "image-editing",
+        "image-inpainting",
+        "stable-diffusion"
+      ],
+      "meta": {
+        "stars": 1122,
+        "forks": 89,
+        "lastUpdated": "2026-11-19T23:08:26Z",
+        "lastCommit": "2026-08-15T03:53:32Z",
+        "fetchedAt": "2026-11-21T01:20:54.141Z"
+      }
     }
   ]
 }

@@ -1948,6 +1948,24 @@
         "createdAt": "2023-02-23T17:16:48Z",
         "lastFetchAttempt": "2026-11-21T07:37:56.393Z"
       }
+    },
+    {
+      "id": "meta-pytorch-torchcodec",
+      "name": "torchcodec",
+      "description": "CPU와 GPU에서 영상, 이미지, 오디오를 PyTorch 텐서로 디코딩, 인코딩하는 라이브러리입니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/meta-pytorch/torchcodec",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1203,
+        "forks": 139,
+        "lastUpdated": "2026-11-18T08:11:43Z",
+        "lastCommit": "2026-11-20T17:26:03Z",
+        "fetchedAt": "2026-11-21T07:52:00.431Z"
+      }
     }
   ]
 }

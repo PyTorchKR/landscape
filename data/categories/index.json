@@ -197,7 +197,8 @@
         "kubeflow-pipelines",
         "dbt-labs-dbt-core",
         "spotify-luigi",
-        "apache-hamilton"
+        "apache-hamilton",
+        "meta-pytorch-torchcodec"
       ]
     },
     {

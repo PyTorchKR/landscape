@@ -4944,6 +4944,43 @@
         "createdAt": "2025-08-04T23:28:26Z",
         "lastFetchAttempt": "2026-11-21T14:33:07.617Z"
       }
+    },
+    {
+      "id": "oomol-lab-open-connector",
+      "name": "open-connector",
+      "description": "에이전트에 자격 증명을 직접 넘기지 않고 SDK, CLI, MCP, HTTP, OpenAPI로 1,500여 개 SaaS에 연결해 주는 오픈소스 인증 게이트웨이입니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/oomol-lab/open-connector",
+      "koreanSupport": false,
+      "tags": [
+        "agent-tools",
+        "ai-agents",
+        "api-gateway",
+        "automation",
+        "cli",
+        "cloudflare-workers",
+        "connectors",
+        "integration-platform",
+        "mcp",
+        "model-context-protocol",
+        "oauth",
+        "oomol",
+        "openapi",
+        "openconnector",
+        "saas-integrations",
+        "sdk",
+        "self-hosted",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 6280,
+        "forks": 618,
+        "lastUpdated": "2026-11-21T14:42:48Z",
+        "lastCommit": "2026-11-21T10:27:52Z",
+        "fetchedAt": "2026-11-21T14:42:54.708Z"
+      }
     }
   ]
 }

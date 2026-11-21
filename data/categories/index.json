@@ -292,7 +292,8 @@
         "paddlepaddle-paddleclas",
         "huggingface-pytorch-image-models",
         "paddlepaddle-paddleseg",
-        "open-mmlab-powerpaint"
+        "open-mmlab-powerpaint",
+        "microsoft-omniparser"
       ]
     },
     {

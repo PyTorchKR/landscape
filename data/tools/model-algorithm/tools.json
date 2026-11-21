@@ -3915,6 +3915,24 @@
         "createdAt": "2024-07-03T02:56:46Z",
         "lastFetchAttempt": "2026-11-21T09:02:28.010Z"
       }
+    },
+    {
+      "id": "microsoft-omniparser",
+      "name": "OmniParser",
+      "description": "순수 비전 기반 GUI 에이전트를 위한 화면 파싱 도구로, UI 스크린샷에서 상호작용 가능한 요소를 탐지하고 의미를 캡션하여 구조화된 정보로 변환해 줍니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "CC-BY-4.0",
+      "githubUrl": "https://github.com/microsoft/OmniParser",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 25630,
+        "forks": 2240,
+        "lastUpdated": "2026-11-21T07:05:35Z",
+        "lastCommit": "2026-11-14T22:53:50Z",
+        "fetchedAt": "2026-11-21T09:14:52.407Z"
+      }
     }
   ]
 }

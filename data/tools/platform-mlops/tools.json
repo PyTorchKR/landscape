@@ -5168,6 +5168,45 @@
         "createdAt": "2022-11-09T23:44:35Z",
         "lastFetchAttempt": "2026-11-21T20:29:02.035Z"
       }
+    },
+    {
+      "id": "composiohq-agent-orchestrator",
+      "name": "agent-orchestrator",
+      "description": "Composio가 개발한 병렬 코딩 에이전트용 오케스트레이터. 작업을 계획하고 여러 에이전트를 생성하며 CI 수정, 머지 충돌 해결, 코드 리뷰를 자율적으로 처리합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "koreanSupport": false,
+      "tags": [
+        "agent-fleet",
+        "agent-ide",
+        "agent-orchestration",
+        "agent-swarm",
+        "agentic-coding",
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "coding-agents",
+        "developer-tools",
+        "git-worktrees",
+        "mobile",
+        "multi-agent",
+        "orchestration",
+        "orchestrator",
+        "parallel-agents",
+        "parallel-coding",
+        "skills"
+      ],
+      "meta": {
+        "stars": 14996,
+        "forks": 2066,
+        "lastUpdated": "2026-11-21T18:36:20Z",
+        "lastCommit": "2026-11-21T20:43:45Z",
+        "fetchedAt": "2026-11-21T20:53:01.507Z"
+      }
     }
   ]
 }

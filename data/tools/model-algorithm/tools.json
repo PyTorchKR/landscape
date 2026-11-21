@@ -4072,6 +4072,26 @@
         "createdAt": "2024-06-13T19:39:39Z",
         "lastFetchAttempt": "2026-11-21T14:45:05.149Z"
       }
+    },
+    {
+      "id": "nerfstudio-project-gsplat",
+      "name": "gsplat",
+      "description": "3D Gaussian Splatting의 CUDA 가속 래스터화를 제공하는 라이브러리. Nerfstudio 프로젝트의 일부로, 빠른 학습·렌더링을 위한 최적화된 CUDA 커널과 PyTorch 바인딩을 제공합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/nerfstudio-project/gsplat",
+      "koreanSupport": false,
+      "tags": [
+        "gaussian-splatting"
+      ],
+      "meta": {
+        "stars": 5926,
+        "forks": 1023,
+        "lastUpdated": "2026-11-21T03:02:20Z",
+        "lastCommit": "2026-09-19T07:16:19Z",
+        "fetchedAt": "2026-11-21T14:57:55.976Z"
+      }
     }
   ]
 }

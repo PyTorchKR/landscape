@@ -4415,6 +4415,24 @@
         "createdAt": "2025-10-05T12:32:00Z",
         "lastFetchAttempt": "2026-11-21T01:36:44.078Z"
       }
+    },
+    {
+      "id": "openbmb-chatdev",
+      "name": "ChatDev",
+      "description": "LLM 기반 멀티에이전트 협업을 통해 가상 소프트웨어 회사를 운영하며 설계·코딩·테스트·문서화를 수행하는 프레임워크로, 자연어 아이디어로부터 소프트웨어를 생성합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/OpenBMB/ChatDev",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 34827,
+        "forks": 4351,
+        "lastUpdated": "2026-11-20T23:55:31Z",
+        "lastCommit": "2026-11-06T07:37:13Z",
+        "fetchedAt": "2026-11-21T01:48:54.112Z"
+      }
     }
   ]
 }

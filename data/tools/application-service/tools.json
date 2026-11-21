@@ -2790,6 +2790,28 @@
         "createdAt": "2026-08-19T15:31:34Z",
         "lastFetchAttempt": "2026-11-21T22:54:39.292Z"
       }
+    },
+    {
+      "id": "hkuds-deepcode",
+      "name": "DeepCode",
+      "description": "오픈 에이전틱 코딩 플랫폼 DeepCode. 논문을 코드로 변환(Paper2Code), 텍스트로 웹/백엔드 생성(Text2Web, Text2Backend) 등 자연어·문서 입력으로부터 코드를 자율 생성하는 멀티 에이전트 시스템입니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/HKUDS/DeepCode",
+      "koreanSupport": false,
+      "tags": [
+        "agentic-coding",
+        "harness-engineering",
+        "llm-agent"
+      ],
+      "meta": {
+        "stars": 16859,
+        "forks": 2196,
+        "lastUpdated": "2026-11-21T16:28:26Z",
+        "lastCommit": "2026-11-17T13:29:49Z",
+        "fetchedAt": "2026-11-21T23:35:50.580Z"
+      }
     }
   ]
 }

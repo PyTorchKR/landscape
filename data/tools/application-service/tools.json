@@ -2604,6 +2604,24 @@
         "createdAt": "2023-02-09T21:37:47Z",
         "lastFetchAttempt": "2026-11-21T10:24:47.223Z"
       }
+    },
+    {
+      "id": "foundationagents-openmanus",
+      "name": "OpenManus",
+      "description": "Manus를 오픈소스로 재현한 범용 자율형 AI 에이전트 프레임워크. 코드 없이 다양한 아이디어를 실행하는 멀티에이전트/툴 사용 기반 자율 에이전트를 제공합니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/FoundationAgents/OpenManus",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 59001,
+        "forks": 10227,
+        "lastUpdated": "2026-11-21T08:04:07Z",
+        "lastCommit": "2026-11-02T08:38:21Z",
+        "fetchedAt": "2026-11-21T10:38:52.749Z"
+      }
     }
   ]
 }

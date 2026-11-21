@@ -2571,6 +2571,31 @@
         "createdAt": "2024-03-25T08:16:42Z",
         "lastFetchAttempt": "2026-11-21T06:28:43.801Z"
       }
+    },
+    {
+      "id": "jupyterlab-jupyter-ai",
+      "name": "jupyter-ai",
+      "description": "JupyterLab의 계산 노트북에 AI 에이전트를 연결하는 공식 오픈소스 확장 Jupyter AI. 노트북 내에서 자연어로 코드 생성·수정·설명을 수행하고 다양한 LLM 제공자와 연동됩니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/jupyterlab/jupyter-ai",
+      "koreanSupport": false,
+      "tags": [
+        "acp",
+        "agents",
+        "ai",
+        "jupyter",
+        "jupyterlab",
+        "jupyterlab-extension"
+      ],
+      "meta": {
+        "stars": 4450,
+        "forks": 543,
+        "lastUpdated": "2026-11-20T16:32:00Z",
+        "lastCommit": "2026-11-21T06:02:14Z",
+        "fetchedAt": "2026-11-21T06:40:58.848Z"
+      }
     }
   ]
 }

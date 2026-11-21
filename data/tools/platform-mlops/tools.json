@@ -4989,6 +4989,35 @@
         "createdAt": "2026-06-29T10:49:36Z",
         "lastFetchAttempt": "2026-11-21T15:00:41.356Z"
       }
+    },
+    {
+      "id": "labring-fastgpt",
+      "name": "FastGPT",
+      "description": "LLM 기반 지식베이스 플랫폼. 데이터 처리, RAG 검색, 시각적 AI 워크플로 오케스트레이션을 즉시 사용 가능한 형태로 제공하여 복잡한 질의응답 시스템을 손쉽게 개발·배포할 수 있게 합니다.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/labring/FastGPT",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "claude",
+        "deepseek",
+        "llm",
+        "mcp",
+        "nextjs",
+        "openai",
+        "qwen",
+        "rag",
+        "workflow"
+      ],
+      "meta": {
+        "stars": 30081,
+        "forks": 7384,
+        "lastUpdated": "2026-11-21T12:48:31Z",
+        "lastCommit": "2026-11-21T12:02:57Z",
+        "fetchedAt": "2026-11-21T15:24:53.034Z"
+      }
     }
   ]
 }

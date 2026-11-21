@@ -3726,6 +3726,36 @@
         "createdAt": "2025-09-25T17:58:52Z",
         "lastFetchAttempt": "2026-11-21T00:54:45.983Z"
       }
+    },
+    {
+      "id": "paddlepaddle-paddleseg",
+      "name": "PaddleSeg",
+      "description": "PaddlePaddle 기반의 사용하기 쉬운 이미지 세그멘테이션 라이브러리(PaddleSeg). 시맨틱·인터랙티브·파놉틱 세그멘테이션, 이미지 매팅, 3D 세그멘테이션 등 다양한 실용 비전 작업과 풍부한 사전학습 모델을 제공합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/PaddlePaddle/PaddleSeg",
+      "koreanSupport": false,
+      "tags": [
+        "autonomous-driving",
+        "human-segmentation",
+        "image-matting",
+        "image-segmentation",
+        "interactive-segmentation",
+        "lane-detection",
+        "medical-image-segmentation",
+        "panoptic-segmentation",
+        "semantic-segmentation",
+        "transformer",
+        "video-segmentation"
+      ],
+      "meta": {
+        "stars": 9417,
+        "forks": 1701,
+        "lastUpdated": "2026-11-20T13:26:30Z",
+        "lastCommit": "2026-02-05T16:49:17Z",
+        "fetchedAt": "2026-11-21T01:05:49.164Z"
+      }
     }
   ]
 }

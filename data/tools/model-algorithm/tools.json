@@ -4044,6 +4044,26 @@
         "createdAt": "2025-04-25T23:15:31Z",
         "lastFetchAttempt": "2026-11-21T12:55:47.713Z"
       }
+    },
+    {
+      "id": "depthanything-depth-anything-v2",
+      "name": "Depth-Anything-V2",
+      "description": "단일 이미지에서 깊이를 추정하는 단안(monocular) 깊이 추정 파운데이션 모델 Depth Anything V2로, 다양한 장면에 일반화되는 고품질 깊이 맵을 빠르게 생성합니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "koreanSupport": false,
+      "tags": [
+        "monocular-depth-estimation"
+      ],
+      "meta": {
+        "stars": 9187,
+        "forks": 948,
+        "lastUpdated": "2026-11-21T07:56:05Z",
+        "lastCommit": "2026-03-24T10:59:06Z",
+        "fetchedAt": "2026-11-21T13:21:49.412Z"
+      }
     }
   ]
 }

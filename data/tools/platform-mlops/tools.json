@@ -4585,6 +4585,24 @@
         "createdAt": "2024-07-09T07:55:40Z",
         "lastFetchAttempt": "2026-11-21T06:43:41.867Z"
       }
+    },
+    {
+      "id": "fabro-sh-fabro",
+      "name": "fabro",
+      "description": "에이전트 작업 절차를 Graphviz 그래프로 정의하고 실행하는 오픈소스 코딩 에이전트 오케스트레이터입니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/fabro-sh/fabro",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1875,
+        "forks": 211,
+        "lastUpdated": "2026-11-21T04:20:51Z",
+        "lastCommit": "2026-11-20T22:48:48Z",
+        "fetchedAt": "2026-11-21T06:56:00.692Z"
+      }
     }
   ]
 }

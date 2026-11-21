@@ -2669,6 +2669,24 @@
         "createdAt": "2025-06-26T01:37:46Z",
         "lastFetchAttempt": "2026-11-21T14:05:32.813Z"
       }
+    },
+    {
+      "id": "nutlope-aicommits",
+      "name": "aicommits",
+      "description": "git 스테이징된 변경사항을 분석해 AI로 커밋 메시지를 자동 작성해주는 CLI 도구 aicommits. 터미널에서 한 명령으로 의미 있는 커밋 메시지를 생성합니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/Nutlope/aicommits",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 9132,
+        "forks": 482,
+        "lastUpdated": "2026-11-21T06:58:56Z",
+        "lastCommit": "2026-10-27T09:51:56Z",
+        "fetchedAt": "2026-11-21T14:30:24.696Z"
+      }
     }
   ]
 }

@@ -4717,6 +4717,39 @@
         "createdAt": "2026-03-21T08:53:27Z",
         "lastFetchAttempt": "2026-11-21T08:07:24.081Z"
       }
+    },
+    {
+      "id": "aden-hive-hive",
+      "name": "hive",
+      "description": "Aden이 개발한 프로덕션용 멀티에이전트 하니스. 실제 서비스 환경에서 여러 에이전트를 안정적으로 오케스트레이션·운영하기 위한 프레임워크를 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/aden-hive/hive",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agent-framework",
+        "agent-skills",
+        "anthropic",
+        "automation",
+        "autonomous-agents",
+        "claude",
+        "harness",
+        "harness-engineering",
+        "human-in-the-loop",
+        "openai",
+        "python",
+        "self-hosted",
+        "self-improving"
+      ],
+      "meta": {
+        "stars": 11165,
+        "forks": 5632,
+        "lastUpdated": "2026-11-21T08:23:34Z",
+        "lastCommit": "2026-11-17T17:53:37Z",
+        "fetchedAt": "2026-11-21T08:32:54.641Z"
+      }
     }
   ]
 }

@@ -4644,6 +4644,38 @@
         "createdAt": "2026-07-23T09:16:13Z",
         "lastFetchAttempt": "2026-11-21T07:26:47.336Z"
       }
+    },
+    {
+      "id": "collabora-whisperlive",
+      "name": "WhisperLive",
+      "description": "OpenAI Whisper를 실시간(near-live)으로 동작하도록 구현한 음성 인식 서빙 솔루션. WebSocket 기반으로 마이크·스트림 입력을 실시간 전사하며 다양한 백엔드를 지원합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/collabora/WhisperLive",
+      "koreanSupport": false,
+      "tags": [
+        "dictation",
+        "obs",
+        "openai",
+        "openvino",
+        "openvino-intel",
+        "rocm",
+        "tensorrt",
+        "tensorrt-llm",
+        "text-to-speech",
+        "translation",
+        "voice-recognition",
+        "whisper",
+        "whisper-tensorrt"
+      ],
+      "meta": {
+        "stars": 4363,
+        "forks": 607,
+        "lastUpdated": "2026-11-21T02:58:43Z",
+        "lastCommit": "2026-11-20T12:35:52Z",
+        "fetchedAt": "2026-11-21T07:36:52.708Z"
+      }
     }
   ]
 }

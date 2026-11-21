@@ -4758,6 +4758,45 @@
         "createdAt": "2026-01-12T00:04:22Z",
         "lastFetchAttempt": "2026-11-21T09:30:34.338Z"
       }
+    },
+    {
+      "id": "sylphai-inc-adalflow",
+      "name": "AdalFlow",
+      "description": "LLM 애플리케이션을 구축하고 자동 최적화(auto-optimize)하는 라이브러리. 'PyTorch for LLM apps'를 표방하며 Generator/Retriever 등 모듈형 컴포넌트로 태스크 파이프라인을 구성하고, 학습 가능한(trainable) 프롬프트 자동 최적화(DSPy 유사)를 제공한다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/SylphAI-Inc/AdalFlow",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "ai",
+        "auto-prompting",
+        "bm25",
+        "chatbot",
+        "faiss",
+        "framework",
+        "generative-ai",
+        "information-retrieval",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "optimizer",
+        "python",
+        "question-answering",
+        "rag",
+        "reranker",
+        "retriever",
+        "summarization",
+        "trainer"
+      ],
+      "meta": {
+        "stars": 4236,
+        "forks": 393,
+        "lastUpdated": "2026-11-20T05:00:42Z",
+        "lastCommit": "2026-11-01T06:27:23Z",
+        "fetchedAt": "2026-11-21T09:42:57.382Z"
+      }
     }
   ]
 }

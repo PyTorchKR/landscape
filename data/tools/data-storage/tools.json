@@ -2020,6 +2020,32 @@
         "createdAt": "2022-07-18T13:52:38Z",
         "lastFetchAttempt": "2026-11-21T15:54:02.448Z"
       }
+    },
+    {
+      "id": "microsoft-markitdown",
+      "name": "markitdown",
+      "description": "PDF, Office 문서, 이미지, 오디오 등 다양한 파일을 LLM 친화적인 마크다운으로 변환하는 Python 도구. RAG·LLM 파이프라인의 문서 전처리 단계에 사용됩니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/markitdown",
+      "koreanSupport": false,
+      "tags": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "meta": {
+        "stars": 197379,
+        "forks": 14935,
+        "lastUpdated": "2026-11-21T16:04:44Z",
+        "lastCommit": "2026-11-07T00:14:01Z",
+        "fetchedAt": "2026-11-21T16:04:59.273Z"
+      }
     }
   ]
 }

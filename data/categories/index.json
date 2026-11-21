@@ -199,7 +199,8 @@
         "dbt-labs-dbt-core",
         "spotify-luigi",
         "apache-hamilton",
-        "meta-pytorch-torchcodec"
+        "meta-pytorch-torchcodec",
+        "microsoft-markitdown"
       ]
     },
     {

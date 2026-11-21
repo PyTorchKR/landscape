@@ -3941,6 +3941,28 @@
         "createdAt": "2024-09-20T05:18:18Z",
         "lastFetchAttempt": "2026-11-21T09:16:50.065Z"
       }
+    },
+    {
+      "id": "showlab-show-o",
+      "name": "Show-o",
+      "description": "하나의 트랜스포머로 멀티모달 이해와 생성을 통합한 Show-o 시리즈 모델로, 자기회귀와 디퓨전을 결합해 이미지 이해·텍스트-이미지 생성 등을 단일 모델에서 수행합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/showlab/Show-o",
+      "koreanSupport": false,
+      "tags": [
+        "diffusion-models",
+        "large-language-models",
+        "multimodal"
+      ],
+      "meta": {
+        "stars": 1988,
+        "forks": 95,
+        "lastUpdated": "2026-11-18T20:03:06Z",
+        "lastCommit": "2026-01-08T16:30:37Z",
+        "fetchedAt": "2026-11-21T09:27:52.784Z"
+      }
     }
   ]
 }

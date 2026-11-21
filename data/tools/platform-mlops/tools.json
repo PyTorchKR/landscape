@@ -5093,6 +5093,30 @@
         "createdAt": "2024-04-09T23:13:20Z",
         "lastFetchAttempt": "2026-11-21T16:07:41.089Z"
       }
+    },
+    {
+      "id": "fetchai-uagents",
+      "name": "uAgents",
+      "description": "탈중앙화 AI 에이전트를 쉽고 빠르게 생성하기 위한 경량 프레임워크. 메시지 기반 에이전트 간 통신·프로토콜·온체인 등록을 지원하여 자율 에이전트들이 협업·상호작용하는 분산 에이전트 네트워크를 구성한다(Fetch.ai).",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/fetchai/uAgents",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "llm",
+        "multi-agent-systems"
+      ],
+      "meta": {
+        "stars": 1642,
+        "forks": 359,
+        "lastUpdated": "2026-11-19T22:42:13Z",
+        "lastCommit": "2026-11-17T14:50:27Z",
+        "fetchedAt": "2026-11-21T16:18:48.464Z"
+      }
     }
   ]
 }

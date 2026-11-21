@@ -2695,6 +2695,32 @@
         "createdAt": "2023-02-14T01:23:13Z",
         "lastFetchAttempt": "2026-11-21T17:00:43.587Z"
       }
+    },
+    {
+      "id": "qwersyk-newelle",
+      "name": "Newelle",
+      "description": "리눅스(GNOME) 데스크톱용 AI 가상 비서 앱 Newelle. 다양한 LLM 백엔드를 연결해 대화·명령 실행·확장(extension)을 지원하며, 채팅 인터페이스로 시스템과 상호작용하는 개인 AI 어시스턴트를 제공합니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "GPL-3.0",
+      "githubUrl": "https://github.com/qwersyk/Newelle",
+      "koreanSupport": false,
+      "tags": [
+        "adwaita",
+        "ai",
+        "app",
+        "gnome",
+        "gtk",
+        "gtk4",
+        "linux"
+      ],
+      "meta": {
+        "stars": 1504,
+        "forks": 151,
+        "lastUpdated": "2026-11-20T16:02:08Z",
+        "lastCommit": "2026-11-19T18:13:20Z",
+        "fetchedAt": "2026-11-21T17:13:55.770Z"
+      }
     }
   ]
 }

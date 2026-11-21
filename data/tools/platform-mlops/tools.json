@@ -4850,6 +4850,30 @@
         "createdAt": "2023-09-02T14:42:59Z",
         "lastFetchAttempt": "2026-11-21T10:41:37.767Z"
       }
+    },
+    {
+      "id": "ag-ui-protocol-ag-ui",
+      "name": "ag-ui",
+      "description": "에이전트와 프론트엔드 애플리케이션 사이의 상호작용을 표준화한 이벤트 기반 Agent-User Interaction 프로토콜입니다. 스트리밍, 도구 호출, 상태 동기화를 다룹니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/ag-ui-protocol/ag-ui",
+      "koreanSupport": false,
+      "tags": [
+        "ag-ui-protocol",
+        "agent-frontend",
+        "agent-ui",
+        "agentic-workflow",
+        "ai-agents"
+      ],
+      "meta": {
+        "stars": 20897,
+        "forks": 2134,
+        "lastUpdated": "2026-11-21T10:49:13Z",
+        "lastCommit": "2026-11-20T23:29:54Z",
+        "fetchedAt": "2026-11-21T10:51:48.131Z"
+      }
     }
   ]
 }

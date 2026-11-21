@@ -3796,6 +3796,42 @@
         "createdAt": "2023-12-05T11:52:59Z",
         "lastFetchAttempt": "2026-11-21T03:27:41.121Z"
       }
+    },
+    {
+      "id": "open-mmlab-amphion",
+      "name": "Amphion",
+      "description": "오디오·음악·음성 생성을 위한 툴킷. TTS, 음성 변환, 음악 생성 등 재현 가능한 연구를 지원하며 다양한 생성 모델·레시피를 제공합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/open-mmlab/Amphion",
+      "koreanSupport": false,
+      "tags": [
+        "audio-generation",
+        "audio-synthesis",
+        "audioldm",
+        "audit",
+        "emilia",
+        "fastspeech2",
+        "maskgct",
+        "music-generation",
+        "naturalspeech2",
+        "singing-voice-conversion",
+        "speech-synthesis",
+        "text-to-audio",
+        "text-to-speech",
+        "vall-e",
+        "vits",
+        "vocoder",
+        "voice-conversion"
+      ],
+      "meta": {
+        "stars": 10345,
+        "forks": 857,
+        "lastUpdated": "2026-11-21T01:16:05Z",
+        "lastCommit": "2026-03-25T14:11:57Z",
+        "fetchedAt": "2026-11-21T03:40:47.179Z"
+      }
     }
   ]
 }

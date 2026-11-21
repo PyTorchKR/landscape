@@ -4511,6 +4511,30 @@
         "createdAt": "2023-06-07T00:18:13Z",
         "lastFetchAttempt": "2026-11-21T05:35:38.001Z"
       }
+    },
+    {
+      "id": "openspg-kag",
+      "name": "KAG",
+      "description": "OpenSPG 엔진과 LLM 기반의 논리형(logical form) 추론·검색 프레임워크. 전문 도메인 지식베이스의 논리적 추론 및 사실 기반 Q&A 솔루션을 구축하며, 전통적 RAG의 벡터 유사도 계산 모델 한계를 보완한 지식 증강 생성(KAG) 시스템.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/OpenSPG/KAG",
+      "koreanSupport": false,
+      "tags": [
+        "knowledge-graph",
+        "large-language-model",
+        "logical-reasoning",
+        "multi-hop-question-answering",
+        "trustfulness"
+      ],
+      "meta": {
+        "stars": 9183,
+        "forks": 723,
+        "lastUpdated": "2026-11-21T05:24:44Z",
+        "lastCommit": "2026-11-19T09:02:42Z",
+        "fetchedAt": "2026-11-21T06:12:50.320Z"
+      }
     }
   ]
 }

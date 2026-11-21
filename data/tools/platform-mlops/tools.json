@@ -5215,6 +5215,31 @@
         "createdAt": "2026-02-13T09:52:36Z",
         "lastFetchAttempt": "2026-11-21T20:55:57.987Z"
       }
+    },
+    {
+      "id": "567-labs-instructor",
+      "name": "instructor",
+      "description": "LLM에서 구조화된 출력(structured outputs)을 안정적으로 얻기 위한 라이브러리 Instructor. Pydantic 모델로 응답 스키마를 정의하고 검증·재시도를 자동화하며 다양한 LLM 제공자를 지원합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/567-labs/instructor",
+      "koreanSupport": false,
+      "tags": [
+        "openai",
+        "openai-function-calli",
+        "openai-functions",
+        "pydantic-v2",
+        "python",
+        "validation"
+      ],
+      "meta": {
+        "stars": 14130,
+        "forks": 1401,
+        "lastUpdated": "2026-11-21T07:06:38Z",
+        "lastCommit": "2026-11-19T21:56:37Z",
+        "fetchedAt": "2026-11-21T21:19:50.653Z"
+      }
     }
   ]
 }

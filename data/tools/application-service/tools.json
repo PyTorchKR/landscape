@@ -2514,6 +2514,24 @@
         "createdAt": "2022-12-24T20:59:11Z",
         "lastFetchAttempt": "2026-11-21T03:41:37.722Z"
       }
+    },
+    {
+      "id": "a16z-infra-ai-town",
+      "name": "ai-town",
+      "description": "AI 캐릭터들이 거주·대화·교류하는 가상 마을을 구축·커스터마이즈할 수 있는 배포형 스타터킷. 다중 AI 에이전트 시뮬레이션(생성형 에이전트) 샌드박스를 제공합니다.",
+      "categoryId": "autonomous-agent",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/a16z-infra/ai-town",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 10835,
+        "forks": 1260,
+        "lastUpdated": "2026-11-20T17:23:00Z",
+        "lastCommit": "2026-11-20T01:05:36Z",
+        "fetchedAt": "2026-11-21T03:53:57.944Z"
+      }
     }
   ]
 }

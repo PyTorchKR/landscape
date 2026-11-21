@@ -5026,6 +5026,39 @@
         "createdAt": "2023-02-23T16:53:25Z",
         "lastFetchAttempt": "2026-11-21T15:27:46.987Z"
       }
+    },
+    {
+      "id": "xlang-ai-osworld",
+      "name": "OSWorld",
+      "description": "실제 컴퓨터 환경(Ubuntu·Windows·macOS)에서 개방형 작업을 수행하는 멀티모달 에이전트를 평가하는 벤치마크(OSWorld, NeurIPS 2024). 369개 실제 데스크톱/웹 작업을 가상머신에서 실행하고 실행 기반 검증으로 GUI 에이전트의 컴퓨터 조작 능력을 측정합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/xlang-ai/OSWorld",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "artificial-intelligence",
+        "benchmark",
+        "cli",
+        "code-generation",
+        "gui",
+        "language-model",
+        "large-action-model",
+        "llm",
+        "multimodal",
+        "natural-language-processing",
+        "reinforcement-learning",
+        "rpa",
+        "vlm"
+      ],
+      "meta": {
+        "stars": 3273,
+        "forks": 566,
+        "lastUpdated": "2026-11-21T08:47:00Z",
+        "lastCommit": "2026-11-14T19:40:56Z",
+        "fetchedAt": "2026-11-21T15:37:44.271Z"
+      }
     }
   ]
 }

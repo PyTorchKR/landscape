@@ -4018,6 +4018,24 @@
         "createdAt": "2019-12-11T13:02:40Z",
         "lastFetchAttempt": "2026-11-21T12:29:43.231Z"
       }
+    },
+    {
+      "id": "facebookresearch-vjepa2",
+      "name": "vjepa2",
+      "description": "영상으로부터 자기지도 학습하는 Meta의 V-JEPA 2 모델과 PyTorch 코드로, 영상 이해와 로봇 계획에 활용됩니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/facebookresearch/vjepa2",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 4911,
+        "forks": 599,
+        "lastUpdated": "2026-11-21T10:58:06Z",
+        "lastCommit": "2026-10-29T05:39:42Z",
+        "fetchedAt": "2026-11-21T12:53:49.185Z"
+      }
     }
   ]
 }

@@ -4485,6 +4485,24 @@
         "createdAt": "2023-08-15T23:26:23Z",
         "lastFetchAttempt": "2026-11-21T04:52:37.437Z"
       }
+    },
+    {
+      "id": "wandb-weave",
+      "name": "weave",
+      "description": "Weights & Biases가 만든 AI 애플리케이션 개발 툴킷(Weave). LLM 호출 추적(tracing), 평가(evaluation), 관측(observability)을 통해 LLM 앱의 품질을 모니터링·개선합니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/wandb/weave",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 1151,
+        "forks": 187,
+        "lastUpdated": "2026-11-19T22:58:05Z",
+        "lastCommit": "2026-11-20T23:32:04Z",
+        "fetchedAt": "2026-11-21T05:17:48.467Z"
+      }
     }
   ]
 }

@@ -2729,6 +2729,29 @@
         "createdAt": "2023-06-11T07:43:48Z",
         "lastFetchAttempt": "2026-11-21T18:10:43.336Z"
       }
+    },
+    {
+      "id": "bytedance-bernini",
+      "name": "Bernini",
+      "description": "MLLM 기반 의미 플래너와 DiT 기반 렌더러를 결합해 영상 생성과 편집을 하나로 처리하는 ByteDance의 통합 프레임워크입니다.",
+      "categoryId": "content-generation",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/bytedance/Bernini",
+      "koreanSupport": false,
+      "tags": [
+        "image-editing",
+        "image-generation",
+        "video-editing",
+        "video-generation"
+      ],
+      "meta": {
+        "stars": 1371,
+        "forks": 107,
+        "lastUpdated": "2026-11-20T10:10:37Z",
+        "lastCommit": "2026-08-13T12:11:19Z",
+        "fetchedAt": "2026-11-21T18:35:52.160Z"
+      }
     }
   ]
 }

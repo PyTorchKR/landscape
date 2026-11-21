@@ -3840,6 +3840,26 @@
         "createdAt": "2023-11-15T09:19:27Z",
         "lastFetchAttempt": "2026-11-21T04:10:59.142Z"
       }
+    },
+    {
+      "id": "ace-step-ace-step-1-5",
+      "name": "ACE-Step-1.5",
+      "description": "거의 모든 상용 대안을 능가하는 강력한 로컬 음악 생성 모델. 텍스트·가사 등 조건으로부터 음악(오디오)을 생성하며 Mac, AMD, Intel, CUDA 디바이스를 지원합니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/ace-step/ACE-Step-1.5",
+      "koreanSupport": false,
+      "tags": [
+        "text2music"
+      ],
+      "meta": {
+        "stars": 15037,
+        "forks": 1999,
+        "lastUpdated": "2026-11-21T03:58:14Z",
+        "lastCommit": "2026-11-08T16:58:40Z",
+        "fetchedAt": "2026-11-21T04:21:54.259Z"
+      }
     }
   ]
 }

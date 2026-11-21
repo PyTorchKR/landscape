@@ -4192,6 +4192,24 @@
         "createdAt": "2024-02-23T10:35:42Z",
         "lastFetchAttempt": "2026-11-21T20:00:50.915Z"
       }
+    },
+    {
+      "id": "qwenlm-qwen3-vl",
+      "name": "Qwen3-VL",
+      "description": "Alibaba Qwen 팀이 개발한 멀티모달 대규모 언어 모델 시리즈 Qwen3-VL로, 이미지·비디오·문서 이해와 시각적 추론을 지원하는 비전-언어 모델입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/QwenLM/Qwen3-VL",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 20241,
+        "forks": 1903,
+        "lastUpdated": "2026-11-21T14:39:55Z",
+        "lastCommit": "2026-01-30T04:47:30Z",
+        "fetchedAt": "2026-11-21T20:26:00.507Z"
+      }
     }
   ]
 }

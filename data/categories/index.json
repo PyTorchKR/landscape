@@ -293,7 +293,8 @@
         "huggingface-pytorch-image-models",
         "paddlepaddle-paddleseg",
         "open-mmlab-powerpaint",
-        "microsoft-omniparser"
+        "microsoft-omniparser",
+        "pinto0309-pinto-model-zoo"
       ]
     },
     {

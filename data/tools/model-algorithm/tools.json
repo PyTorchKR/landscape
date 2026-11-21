@@ -3971,6 +3971,45 @@
         "createdAt": "2024-08-09T05:26:23Z",
         "lastFetchAttempt": "2026-11-21T11:20:38.524Z"
       }
+    },
+    {
+      "id": "pinto0309-pinto-model-zoo",
+      "name": "PINTO_model_zoo",
+      "description": "다양한 프레임워크 간 상호 변환된 모델을 저장·제공하는 모델 주(PINTO Model Zoo). TensorFlow·PyTorch·ONNX·OpenVINO·TFJS·TFLite(Float32/16/INT8)·EdgeTPU·CoreML 등 엣지/임베디드 배포용 변환 모델을 모았습니다.",
+      "categoryId": "vision-model",
+      "moduleId": "model-algorithm",
+      "license": "MIT",
+      "githubUrl": "https://github.com/PINTO0309/PINTO_model_zoo",
+      "koreanSupport": false,
+      "tags": [
+        "caffe",
+        "computer-vision",
+        "coreml",
+        "edgetpu",
+        "keras",
+        "mediapipe",
+        "model",
+        "model-zoo",
+        "models",
+        "onnx",
+        "openvino",
+        "pretrained-models",
+        "pytorch",
+        "tensorflow",
+        "tensorflow-lite",
+        "tensorflowjs",
+        "tf-trt",
+        "tfjs",
+        "tflite",
+        "tflite-models"
+      ],
+      "meta": {
+        "stars": 4647,
+        "forks": 669,
+        "lastUpdated": "2026-11-20T23:40:11Z",
+        "lastCommit": "2026-10-24T02:31:20Z",
+        "fetchedAt": "2026-11-21T11:46:04.676Z"
+      }
     }
   ]
 }

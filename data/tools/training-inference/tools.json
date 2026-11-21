@@ -3129,6 +3129,31 @@
         "createdAt": "2015-06-26T18:38:23Z",
         "lastFetchAttempt": "2026-11-21T13:25:15.496Z"
       }
+    },
+    {
+      "id": "nvidia-nccl",
+      "name": "nccl",
+      "description": "여러 GPU와 노드 간 집합 통신(all-reduce 등)을 최적화한 NVIDIA의 통신 라이브러리로, 분산 학습의 핵심 기반입니다.",
+      "categoryId": "distributed-training",
+      "moduleId": "training-inference",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/NVIDIA/nccl",
+      "koreanSupport": false,
+      "tags": [
+        "communications",
+        "cpp",
+        "cuda",
+        "deep-learning",
+        "gpu",
+        "nvidia"
+      ],
+      "meta": {
+        "stars": 5248,
+        "forks": 1500,
+        "lastUpdated": "2026-11-21T10:13:16Z",
+        "lastCommit": "2026-11-20T16:16:41Z",
+        "fetchedAt": "2026-11-21T13:36:50.181Z"
+      }
     }
   ]
 }

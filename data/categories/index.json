@@ -534,7 +534,8 @@
         "kubeflow-trainer",
         "run-house-kubetorch",
         "huggingface-accelerate",
-        "pytorch-gloo"
+        "pytorch-gloo",
+        "nvidia-nccl"
       ]
     },
     {

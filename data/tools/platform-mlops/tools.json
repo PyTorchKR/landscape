@@ -4805,6 +4805,43 @@
         "createdAt": "2024-04-19T05:05:13Z",
         "lastFetchAttempt": "2026-11-21T09:45:43.162Z"
       }
+    },
+    {
+      "id": "traceloop-openllmetry",
+      "name": "openllmetry",
+      "description": "OpenTelemetry 기반 GenAI/LLM 애플리케이션 관찰성 SDK(OpenLLMetry). OpenAI·Anthropic 등 LLM 호출, 벡터DB, 프레임워크(LangChain·LlamaIndex 등)를 표준 OTel 트레이스/메트릭으로 자동 계측해 기존 관찰성 백엔드로 전송합니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/traceloop/openllmetry",
+      "koreanSupport": false,
+      "tags": [
+        "artifical-intelligence",
+        "datascience",
+        "generative-ai",
+        "good-first-issue",
+        "good-first-issues",
+        "help-wanted",
+        "llm",
+        "llmops",
+        "metrics",
+        "ml",
+        "model-monitoring",
+        "monitoring",
+        "observability",
+        "open-source",
+        "open-telemetry",
+        "opentelemetry",
+        "opentelemetry-python",
+        "python"
+      ],
+      "meta": {
+        "stars": 7545,
+        "forks": 1198,
+        "lastUpdated": "2026-11-20T23:12:18Z",
+        "lastCommit": "2026-11-19T14:41:30Z",
+        "fetchedAt": "2026-11-21T10:23:50.106Z"
+      }
     }
   ]
 }

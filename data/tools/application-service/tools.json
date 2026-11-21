@@ -2477,6 +2477,35 @@
         "createdAt": "2026-05-08T01:42:41Z",
         "lastFetchAttempt": "2026-11-21T01:49:44.228Z"
       }
+    },
+    {
+      "id": "vladmandic-sdnext",
+      "name": "sdnext",
+      "description": "AI 생성 이미지·비디오 제작, 캡셔닝, 후처리를 모두 지원하는 올인원 WebUI. 다양한 diffusion 백엔드와 모델을 단일 인터페이스에서 운영합니다.",
+      "categoryId": "content-generation",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/vladmandic/sdnext",
+      "koreanSupport": false,
+      "tags": [
+        "ai-art",
+        "caption",
+        "diffusers",
+        "generative-art",
+        "python",
+        "pytorch",
+        "sdnext",
+        "stable-diffusion",
+        "transformers",
+        "webui"
+      ],
+      "meta": {
+        "stars": 7379,
+        "forks": 582,
+        "lastUpdated": "2026-11-21T01:15:46Z",
+        "lastCommit": "2026-11-21T02:03:31Z",
+        "fetchedAt": "2026-11-21T02:16:51.516Z"
+      }
     }
   ]
 }

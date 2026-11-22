@@ -1,5 +1,5 @@
 import type { Tool } from '../types'
-import { isKorean, isHuggingFace, popularity, primaryUrl } from '../utils/toolInfo'
+import { isKorean, isHuggingFace, popularity, primaryLink } from '../utils/toolInfo'
 
 type SizeTier = 'lg' | 'md' | 'sm'
 
@@ -41,7 +41,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
   const tier = getStarTier(tool.meta?.stars)
   const styles = tierStyles[tier]
   const firstLetter = tool.name.charAt(0).toUpperCase()
-  const url = primaryUrl(tool)
+  const url = primaryLink(tool)?.url
   const hf = isHuggingFace(tool)
   const kr = isKorean(tool)
   const score = popularity(tool)

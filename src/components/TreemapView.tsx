@@ -8,7 +8,7 @@ import {
 import { formatRelativeTime, type Locale } from '../utils/relativeTime'
 import type { Translations } from '../i18n/translations'
 import type { Tool, Module, Category, Scope } from '../types'
-import { isKorean, isHuggingFace, popularity, primaryUrl } from '../utils/toolInfo'
+import { isKorean, popularity, primaryLink, type ToolLink } from '../utils/toolInfo'
 
 const KR_COLOR = '#FACC15'
 const TOOLTIP_OFFSET = 14
@@ -38,8 +38,7 @@ interface ContentProps {
   moduleId?: string
   toolId?: string
   lastUpdated?: string
-  url?: string
-  isHf?: boolean
+  link?: ToolLink
   description?: string
   kr?: boolean
   onHover?: (info: TooltipInfo, clientX: number, clientY: number) => void
@@ -50,7 +49,7 @@ interface ContentProps {
 function TreemapContent(props: ContentProps) {
   const {
     x = 0, y = 0, width = 0, height = 0,
-    depth, name, moduleId, lastUpdated, url, isHf, description, kr,
+    depth, name, moduleId, lastUpdated, link, description, kr,
     onHover, onLeave, onClick,
   } = props
 
@@ -107,10 +106,10 @@ function TreemapContent(props: ContentProps) {
 
     return (
       <g
-        style={{ cursor: url ? 'pointer' : 'default' }}
-        onClick={() => url && onClick && onClick(url)}
+        style={{ cursor: link ? 'pointer' : 'default' }}
+        onClick={() => link && onClick?.(link.url)}
         onMouseMove={(e) => {
-          onHover?.({ name: name ?? '', lastUpdated, url, isHf, description, kr }, e.clientX, e.clientY)
+          onHover?.({ name: name ?? '', lastUpdated, link, description, kr }, e.clientX, e.clientY)
         }}
         onMouseLeave={onLeave}
       >
@@ -142,8 +141,7 @@ function TreemapContent(props: ContentProps) {
 interface TooltipInfo {
   name: string
   lastUpdated?: string
-  url?: string
-  isHf?: boolean
+  link?: ToolLink
   description?: string
   kr?: boolean
 }
@@ -222,8 +220,7 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
                 moduleId: module.id,
                 toolId: tool.id,
                 lastUpdated: tool.meta?.lastCommit ?? tool.meta?.lastUpdated,
-                url: primaryUrl(tool),
-                isHf: isHuggingFace(tool),
+                link: primaryLink(tool),
                 description: tool.description,
                 kr: isKorean(tool),
               })),
@@ -271,7 +268,7 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
               <TreemapContent
                 onHover={(info, x, y) => setTooltip({ ...info, x, y })}
                 onLeave={() => setTooltip(null)}
-                onClick={(url) => window.open(url, '_blank')}
+                onClick={(url) => window.open(url, '_blank', 'noopener,noreferrer')}
               />
             }
             animationDuration={300}
@@ -299,8 +296,8 @@ export default function TreemapView({ modules, categories, tools, searchQuery, s
               {t.lastCommit}: {formatRelativeTime(tooltip.lastUpdated, locale)}
             </p>
           )}
-          {tooltip.url && (
-            <p className="text-xs text-blue-400 mt-1">{tooltip.isHf ? t.clickHuggingFace : t.clickGithub}</p>
+          {tooltip.link && (
+            <p className="text-xs text-blue-400 mt-1">{t[tooltip.link.label]}</p>
           )}
         </div>
       )}

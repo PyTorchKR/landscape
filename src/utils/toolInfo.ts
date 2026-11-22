@@ -5,9 +5,26 @@ export const isKorean = (tool: Tool): boolean => tool.region === 'KR'
 export const inScope = (tool: Tool, scope: Scope): boolean =>
   scope === 'all' || isKorean(tool)
 
-// GitHub repo first; HuggingFace page for model/dataset-only entries
-export const primaryUrl = (tool: Tool): string | undefined =>
-  tool.githubUrl ?? tool.huggingfaceUrl
+export interface ToolLink {
+  url: string
+  label: 'clickGithub' | 'clickHuggingFace' | 'clickDocs'
+}
+
+export const primaryLink = (tool: Tool): ToolLink | undefined => {
+  if (tool.githubUrl) {
+    if (
+      tool.meta?.fetchError?.startsWith('HTTP 404:') &&
+      tool.docsUrl &&
+      !/^https?:\/\/github\.com(?:\/|$)/i.test(tool.docsUrl)
+    ) {
+      return { url: tool.docsUrl, label: 'clickDocs' }
+    }
+    return { url: tool.githubUrl, label: 'clickGithub' }
+  }
+  if (tool.huggingfaceUrl) {
+    return { url: tool.huggingfaceUrl, label: 'clickHuggingFace' }
+  }
+}
 
 export const isHuggingFace = (tool: Tool): boolean => !tool.githubUrl && !!tool.huggingfaceUrl
 

@@ -5499,6 +5499,34 @@
         "createdAt": "2020-10-25T23:23:54Z",
         "lastFetchAttempt": "2026-11-22T03:28:49.759Z"
       }
+    },
+    {
+      "id": "llm-d-llm-d",
+      "name": "llm-d",
+      "description": "Kubernetes 위에서 최신 가속기를 활용해 최첨단 LLM 추론 성능을 달성하는 분산 추론 플랫폼으로, 지능형 라우팅·분산 서빙으로 대규모 LLM 추론을 운영합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/llm-d/llm-d",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "cncf",
+        "distributed-inference",
+        "gpu",
+        "inference",
+        "intelligent-routing",
+        "kubernetes",
+        "llm",
+        "model-server"
+      ],
+      "meta": {
+        "stars": 5328,
+        "forks": 950,
+        "lastUpdated": "2026-11-21T23:15:38Z",
+        "lastCommit": "2026-11-21T18:22:19Z",
+        "fetchedAt": "2026-11-22T03:40:53.870Z"
+      }
     }
   ]
 }

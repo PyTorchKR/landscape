@@ -5375,6 +5375,24 @@
         "createdAt": "2022-09-01T05:47:33Z",
         "lastFetchAttempt": "2026-11-22T00:45:57.005Z"
       }
+    },
+    {
+      "id": "hkuds-openopc",
+      "name": "AutoSwarm",
+      "description": "목표 하나로 조직도를 구성하고 AI 직원을 배치해 작업을 완료하는 HKUDS의 멀티 에이전트 런타임입니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/HKUDS/AutoSwarm",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 2668,
+        "forks": 441,
+        "lastUpdated": "2026-11-21T18:15:19Z",
+        "lastCommit": "2026-11-21T01:47:11Z",
+        "fetchedAt": "2026-11-22T00:56:53.626Z"
+      }
     }
   ]
 }

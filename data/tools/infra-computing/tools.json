@@ -983,6 +983,25 @@
         "createdAt": "2026-05-19T07:20:44Z",
         "lastFetchAttempt": "2026-11-22T11:11:25.318Z"
       }
+    },
+    {
+      "id": "furiosa-ai-furiosa-device-plugin",
+      "name": "furiosa-device-plugin",
+      "description": "Kubernetes device plugin for discovering, registering, and monitoring FuriosaAI NPUs.",
+      "categoryId": "container-orchestration",
+      "moduleId": "infra-computing",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/furiosa-ai/furiosa-device-plugin",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [],
+      "meta": {
+        "stars": 0,
+        "forks": 0,
+        "lastUpdated": "2026-11-02T10:59:35Z",
+        "lastCommit": "2026-11-02T10:56:37Z",
+        "fetchedAt": "2026-11-22T11:51:53.159Z"
+      }
     }
   ]
 }

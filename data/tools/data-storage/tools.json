@@ -2145,6 +2145,40 @@
         "createdAt": "2019-02-04T17:14:36Z",
         "lastFetchAttempt": "2026-11-22T00:31:46.687Z"
       }
+    },
+    {
+      "id": "nvidia-dali",
+      "name": "DALI",
+      "description": "딥러닝 학습/추론을 가속하기 위한 GPU 가속 데이터 처리 라이브러리로, 이미지·오디오 디코딩과 데이터 증강을 최적화된 빌딩 블록과 실행 엔진으로 제공하여 데이터 로딩 병목을 해소합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/NVIDIA/DALI",
+      "koreanSupport": false,
+      "tags": [
+        "audio-processing",
+        "data-augmentation",
+        "data-processing",
+        "deep-learning",
+        "fast-data-pipeline",
+        "gpu",
+        "gpu-tensorflow",
+        "image-augmentation",
+        "image-processing",
+        "machine-learning",
+        "mxnet",
+        "neural-network",
+        "paddle",
+        "python",
+        "pytorch"
+      ],
+      "meta": {
+        "stars": 5797,
+        "forks": 691,
+        "lastUpdated": "2026-11-20T14:54:19Z",
+        "lastCommit": "2026-11-20T14:23:00Z",
+        "fetchedAt": "2026-11-22T00:42:48.262Z"
+      }
     }
   ]
 }

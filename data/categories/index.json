@@ -203,7 +203,8 @@
         "microsoft-markitdown",
         "scrapy-scrapy",
         "huggingface-datatrove",
-        "tensorflow-tfx"
+        "tensorflow-tfx",
+        "nvidia-dali"
       ]
     },
     {

@@ -5700,6 +5700,32 @@
         "createdAt": "2024-03-31T22:37:47Z",
         "lastFetchAttempt": "2026-11-22T06:55:54.041Z"
       }
+    },
+    {
+      "id": "patterns-ai-core-langchainrb",
+      "name": "langchainrb",
+      "description": "Ruby로 LLM 기반 애플리케이션을 구축하기 위한 프레임워크. 다수 LLM 공급자, 프롬프트 템플릿, 체인, 에이전트, 벡터스토어·RAG를 통합 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/patterns-ai-core/langchainrb",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "ai-agents",
+        "artificial-intelligence",
+        "machine-learning",
+        "ml",
+        "rubyml",
+        "vector-search"
+      ],
+      "meta": {
+        "stars": 2006,
+        "forks": 269,
+        "lastUpdated": "2026-11-19T22:54:55Z",
+        "lastCommit": "2026-10-21T22:46:44Z",
+        "fetchedAt": "2026-11-22T07:05:57.073Z"
+      }
     }
   ]
 }

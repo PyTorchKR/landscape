@@ -2820,6 +2820,45 @@
         "createdAt": "2025-05-14T05:23:02Z",
         "lastFetchAttempt": "2026-11-22T02:04:50.765Z"
       }
+    },
+    {
+      "id": "danny-avila-librechat",
+      "name": "LibreChat",
+      "description": "셀프호스팅 가능한 향상된 ChatGPT 클론 LibreChat. OpenAI·Anthropic·Gemini·Mistral 등 다수 모델을 단일 UI에서 전환하며, 에이전트·MCP·코드 인터프리터·DALL·E·메시지 검색·멀티유저 인증 등 풍부한 기능을 갖춘 오픈소스 대화형 AI 플랫폼입니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/LibreChat-AI/LibreChat",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "anthropic",
+        "artifacts",
+        "aws",
+        "azure",
+        "chatgpt",
+        "chatgpt-clone",
+        "claude",
+        "clone",
+        "deepseek",
+        "gemini",
+        "google",
+        "gpt-5",
+        "librechat",
+        "mcp",
+        "o1",
+        "openai",
+        "responses-api",
+        "vision",
+        "webui"
+      ],
+      "meta": {
+        "stars": 47395,
+        "forks": 9771,
+        "lastUpdated": "2026-11-22T01:37:33Z",
+        "lastCommit": "2026-11-21T17:12:43Z",
+        "fetchedAt": "2026-11-22T02:58:50.677Z"
+      }
     }
   ]
 }

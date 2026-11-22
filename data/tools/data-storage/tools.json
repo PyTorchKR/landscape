@@ -2089,6 +2089,24 @@
         "createdAt": "2010-02-22T02:01:14Z",
         "lastFetchAttempt": "2026-11-21T23:50:00.321Z"
       }
+    },
+    {
+      "id": "huggingface-datatrove",
+      "name": "datatrove",
+      "description": "대규모 텍스트 데이터 처리를 위한 플랫폼 독립적 파이프라인 라이브러리(Hugging Face). 커스터마이즈 가능한 처리 블록을 조합해 LLM 사전학습 데이터의 추출·필터링·중복제거 등을 로컬/Slurm 환경에서 실행합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/huggingface/datatrove",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 3429,
+        "forks": 328,
+        "lastUpdated": "2026-11-21T14:35:27Z",
+        "lastCommit": "2026-11-18T16:12:01Z",
+        "fetchedAt": "2026-11-22T00:02:51.709Z"
+      }
     }
   ]
 }

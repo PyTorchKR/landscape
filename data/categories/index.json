@@ -201,7 +201,8 @@
         "apache-hamilton",
         "meta-pytorch-torchcodec",
         "microsoft-markitdown",
-        "scrapy-scrapy"
+        "scrapy-scrapy",
+        "huggingface-datatrove"
       ]
     },
     {

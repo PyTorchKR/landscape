@@ -5,13 +5,6 @@ import { parseHuggingFaceUrl, fetchHuggingFace } from './huggingface'
 
 const TOOLS_DIR = path.join(process.cwd(), 'data/tools')
 
-// These public URLs returned 404 on 2026-10-22. Other failures remain fatal.
-const KNOWN_UNAVAILABLE_URLS = new Set([
-  'https://github.com/wrtnlabs/autobe',
-  'https://github.com/wrtnlabs/agentica',
-  'https://github.com/furiosa-ai/furiosa-rngd-validator',
-])
-
 interface ToolMeta {
   stars: number
   forks?: number
@@ -127,7 +120,8 @@ async function main() {
         tool.meta.lastFetchAttempt = attemptedAt
         tool.meta.fetchError = status ? `HTTP ${status}: ${message}` : message
         const detail = `${tool.id}: ${tool.meta.fetchError}`
-        if (status === 404 && tool.githubUrl && KNOWN_UNAVAILABLE_URLS.has(tool.githubUrl)) {
+        // Imports can set fetchedAt before a GitHub lookup. Use saved repository metadata.
+        if (status === 404 && tool.githubUrl && (tool.meta.createdAt || tool.meta.lastCommit)) {
           unavailable.push(detail)
           const warning = `${detail}. Previous values retained.`
             .replace(/%/g, '%25').replace(/\r/g, '%0D').replace(/\n/g, '%0A')

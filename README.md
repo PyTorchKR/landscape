@@ -65,7 +65,7 @@ Build & Deploy runs automatically on each push to `main` and every day at 03:00 
 The refresh saves successful results and records each failed attempt in `meta.lastFetchAttempt` and `meta.fetchError`.
 If a source fails, its prior values and `meta.fetchedAt` stay unchanged.
 The workflow commits the `data` directory and publishes available updates.
-The known 404 responses from `wrtnlabs/autobe`, `wrtnlabs/agentica`, and `furiosa-ai/furiosa-rngd-validator` produce warnings and keep prior values.
+If GitHub returns 404 for a repository with previously fetched metadata, the refresh logs a warning and keeps the prior values.
 Other failures still return a nonzero exit code.
 The separate `check-refresh` job reports those failures and keeps deployment independent.
 

@@ -8,6 +8,7 @@ import { spawnSync, execFileSync } from 'node:child_process'
 
 const script = resolve('scripts/update-stars.ts')
 const oldMeta = { stars: 1, lastUpdated: '2025-01-01T00:00:00Z', fetchedAt: '2025-01-02T00:00:00Z' }
+const oldGitHubMeta = { ...oldMeta, lastCommit: '2024-12-31T00:00:00Z' }
 const tool = (id: string, url: string) => ({
   id, name: id, license: 'Unknown', description: 'Old description',
   ...(url.includes('huggingface.co') ? { huggingfaceUrl: url } : { githubUrl: url }),
@@ -23,8 +24,10 @@ function fixture(tools: ReturnType<typeof tool>[]) {
   writeFileSync(mock, `
     globalThis.fetch = async (input) => {
       const url = typeof input === 'string' ? input : input.url;
-      const knownStatus = Number(process.env.TEST_KNOWN_STATUS ?? 404);
-      if ((url.includes('/wrtnlabs/') || url.includes('/furiosa-ai/furiosa-rngd-validator')) && knownStatus !== 200) return Response.json({message: 'Not Found'}, {status: knownStatus});
+      const repositoryStatus = Number(process.env.TEST_REPOSITORY_STATUS ?? 404);
+      if (url.endsWith('/microsoft/agent-framework') || url.endsWith('/microsoft/onnxruntime') || url.endsWith('/example/previously-available')) {
+        if (repositoryStatus !== 200) return Response.json({message: 'Repository lookup failed'}, {status: repositoryStatus});
+      }
       if (url.includes('/missing')) return Response.json({message: 'Not Found'}, {status: 404});
       if (url.includes('api.github.com')) return Response.json({
         name: process.env.TEST_REPO_NAME ?? 'canonical',
@@ -190,59 +193,64 @@ test('CLI records failures, preserves old values, and continues through later mo
   } finally { fx.clean() }
 })
 
-test('known 404 sources produce warnings and preserve prior data', () => {
+test('404s from previously fetched GitHub repositories produce warnings and preserve prior data', () => {
   const fx = fixture([
-    tool('wrtnlabs-autobe', 'https://github.com/wrtnlabs/autobe'),
-    tool('wrtnlabs-agentica', 'https://github.com/wrtnlabs/agentica'),
-    tool('furiosa-ai-furiosa-rngd-validator', 'https://github.com/furiosa-ai/furiosa-rngd-validator'),
+    { ...tool('agent-framework', 'https://github.com/microsoft/agent-framework'), meta: oldGitHubMeta },
+    { ...tool('onnx-runtime', 'https://github.com/microsoft/onnxruntime'), meta: oldGitHubMeta },
+    { ...tool('previously-available', 'https://github.com/example/previously-available'), meta: oldGitHubMeta },
     tool('good', 'https://github.com/example/good'),
   ])
   try {
     const result = fx.run(); assert.equal(result.status, 0, result.stderr)
     assert.match(result.stdout, /Updated: 1, Unavailable: 3, Failed: 0/)
     assert.equal((result.stderr.match(/::warning::/g) ?? []).length, 3)
-    const [autobe, agentica, validator, good] = fx.read()
-    for (const t of [autobe, agentica, validator]) {
+    const [agentFramework, onnxRuntime, previouslyAvailable, good] = fx.read()
+    for (const t of [agentFramework, onnxRuntime, previouslyAvailable]) {
       assert.equal(t.name, t.id)
       assert.equal(t.meta.stars, oldMeta.stars)
       assert.equal(t.meta.fetchedAt, oldMeta.fetchedAt)
+      assert.equal(t.meta.lastCommit, oldGitHubMeta.lastCommit)
       assert.match(t.meta.fetchError, /HTTP 404/)
       assert.ok(t.meta.lastFetchAttempt)
     }
     assert.equal(good.meta.stars, 42)
     const summary = readFileSync(join(fx.root, 'summary.txt'), 'utf8')
     assert.match(summary, /Unavailable sources \(previous values retained\)/)
-    assert.match(summary, /wrtnlabs-autobe/); assert.match(summary, /wrtnlabs-agentica/)
-    assert.match(summary, /furiosa-ai-furiosa-rngd-validator/)
+    assert.match(summary, /agent-framework: HTTP 404/)
+    assert.match(summary, /onnx-runtime: HTTP 404/)
+    assert.match(summary, /previously-available: HTTP 404/)
   } finally { fx.clean() }
 })
 
-test('known 404 warnings do not hide unexpected failures', () => {
+test('404 warnings do not hide a GitHub 404 on the first lookup or a HuggingFace 404', () => {
   const fx = fixture([
-    tool('furiosa-ai-furiosa-rngd-validator', 'https://github.com/furiosa-ai/furiosa-rngd-validator'),
+    { ...tool('previously-available', 'https://github.com/example/previously-available'), meta: oldGitHubMeta },
     tool('unexpected', 'https://github.com/example/missing'),
+    { ...tool('missing-model', 'https://huggingface.co/example/missing'), meta: oldGitHubMeta },
     tool('good', 'https://github.com/example/good'),
   ])
   try {
     const result = fx.run(); assert.equal(result.status, 1)
-    assert.match(result.stdout, /Updated: 1, Unavailable: 1, Failed: 1/)
-    const [known, unexpected, good] = fx.read()
-    for (const t of [known, unexpected]) {
+    assert.match(result.stdout, /Updated: 1, Unavailable: 1, Failed: 2/)
+    const [previouslyAvailable, unexpected, missingModel, good] = fx.read()
+    for (const t of [previouslyAvailable, unexpected, missingModel]) {
       assert.equal(t.meta.fetchedAt, oldMeta.fetchedAt)
-      assert.match(t.meta.fetchError, /HTTP 404/)
+      assert.match(t.meta.fetchError, /404/)
     }
     assert.equal(good.meta.stars, 42)
-    assert.match(result.stderr, /::warning::furiosa-ai-furiosa-rngd-validator/)
-    assert.match(readFileSync(join(fx.root, 'summary.txt'), 'utf8'), /Failures\n\nunexpected:/)
+    assert.match(result.stderr, /::warning::previously-available/)
+    assert.match(readFileSync(join(fx.root, 'summary.txt'), 'utf8'), /Failures\n\nunexpected: HTTP 404[^\n]*\n\nmissing-model:/)
   } finally { fx.clean() }
 })
 
 test('a recovered source refreshes its data and clears its warning', () => {
-  const fx = fixture([tool('wrtnlabs-autobe', 'https://github.com/wrtnlabs/autobe')])
+  const fx = fixture([
+    { ...tool('previously-available', 'https://github.com/example/previously-available'), meta: oldGitHubMeta },
+  ])
   try {
     assert.equal(fx.run().status, 0)
     assert.match(fx.read()[0].meta.fetchError, /HTTP 404/)
-    const result = fx.run('test-token', { TEST_KNOWN_STATUS: '200' })
+    const result = fx.run('test-token', { TEST_REPOSITORY_STATUS: '200' })
     assert.equal(result.status, 0, result.stderr)
     const refreshed = fx.read()[0]
     assert.equal(refreshed.meta.fetchError, undefined)
@@ -253,11 +261,32 @@ test('a recovered source refreshes its data and clears its warning', () => {
   } finally { fx.clean() }
 })
 
-test('known sources still fail for authentication, rate limits, and server errors', () => {
-  const fx = fixture([tool('wrtnlabs-autobe', 'https://github.com/wrtnlabs/autobe')])
+test('a successful GitHub refresh lets a later 404 retain its metadata', () => {
+  const url = 'https://github.com/example/previously-available'
+  const fx = fixture([tool('previously-available', url)])
+  try {
+    const first = fx.run('test-token', { TEST_REPOSITORY_STATUS: '200', TEST_REPO_URL: url })
+    assert.equal(first.status, 0, first.stderr)
+    const [available] = fx.read()
+
+    const second = fx.run()
+    assert.equal(second.status, 0, second.stderr)
+    assert.match(second.stdout, /Updated: 0, Unavailable: 1, Failed: 0/)
+    const [unavailable] = fx.read()
+    assert.equal(unavailable.githubUrl, url)
+    assert.equal(unavailable.meta.stars, available.meta.stars)
+    assert.equal(unavailable.meta.fetchedAt, available.meta.fetchedAt)
+    assert.match(unavailable.meta.fetchError, /HTTP 404/)
+  } finally { fx.clean() }
+})
+
+test('previously fetched sources still fail for authentication, rate limits, and server errors', () => {
+  const fx = fixture([
+    { ...tool('previously-available', 'https://github.com/example/previously-available'), meta: oldGitHubMeta },
+  ])
   try {
     for (const status of [401, 403, 429, 500]) {
-      const result = fx.run('test-token', { TEST_KNOWN_STATUS: String(status) })
+      const result = fx.run('test-token', { TEST_REPOSITORY_STATUS: String(status) })
       assert.equal(result.status, 1, result.stderr)
       assert.match(result.stdout, /Unavailable: 0, Failed: 1/)
       assert.doesNotMatch(result.stderr, /::warning::/)

@@ -60,7 +60,7 @@ Build & Deploy는 `main`에 push될 때와 매일 KST 03:00에 자동 실행되�
 갱신에 성공한 결과는 저장하고, 실패한 시도는 `meta.lastFetchAttempt`와 `meta.fetchError`에 기록합니다.
 조회에 실패한 항목은 이전 값과 `meta.fetchedAt`을 그대로 유지합니다.
 워크플로는 `data` 디렉토리를 커밋하고, 갱신된 내용을 배포합니다.
-`wrtnlabs/autobe`, `wrtnlabs/agentica`, `furiosa-ai/furiosa-rngd-validator`의 알려진 404 응답은 경고만 남기고 이전 값을 유지합니다.
+이전에 메타데이터를 받은 저장소에 GitHub가 404를 반환하면, 경고를 기록하고 이전 값을 유지합니다.
 그 밖의 실패는 0이 아닌 종료 코드를 반환합니다.
 별도의 `check-refresh` 작업이 이 실패를 보고하며, 배포는 이와 관계없이 진행됩니다.
 

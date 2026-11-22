@@ -4421,6 +4421,29 @@
         "createdAt": "2023-03-06T04:05:27Z",
         "lastFetchAttempt": "2026-11-22T12:50:05.750Z"
       }
+    },
+    {
+      "id": "hf-lablup-glm-5-2-nvfp4-dflash-ko",
+      "name": "GLM-5.2-NVFP4-DFlash-ko",
+      "description": "Korean-optimized DFlash draft model for speculative decoding with GLM-5.2-NVFP4.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "mit",
+      "huggingfaceUrl": "https://huggingface.co/lablup/GLM-5.2-NVFP4-DFlash-ko",
+      "koreanSupport": false,
+      "region": "KR",
+      "tags": [
+        "text-generation",
+        "transformers"
+      ],
+      "meta": {
+        "stars": 0,
+        "likes": 18,
+        "downloads": 216,
+        "lastUpdated": "2026-10-08T02:25:46.000Z",
+        "lastCommit": "2026-10-08T02:25:46.000Z",
+        "fetchedAt": "2026-11-22T13:05:47.662Z"
+      }
     }
   ]
 }

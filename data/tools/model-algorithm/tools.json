@@ -4444,6 +4444,24 @@
         "lastCommit": "2026-10-08T02:25:46.000Z",
         "fetchedAt": "2026-11-22T13:05:47.662Z"
       }
+    },
+    {
+      "id": "ibm-granite-granite-tsfm",
+      "name": "granite-tsfm",
+      "description": "IBM Granite time series foundation models (TinyTimeMixer, PatchTSMixer, PatchTST, FlowState) for forecasting. The repository has the Python toolkit, fine-tuning notebooks, and an inference service.",
+      "categoryId": "time-series-model",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ibm-granite/granite-tsfm",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 924,
+        "forks": 283,
+        "lastUpdated": "2026-11-22T07:08:45Z",
+        "lastCommit": "2026-11-20T01:31:55Z",
+        "fetchedAt": "2026-11-22T13:05:55.821Z"
+      }
     }
   ]
 }

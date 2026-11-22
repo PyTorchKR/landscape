@@ -2867,6 +2867,35 @@
         "createdAt": "2023-02-12T01:06:52Z",
         "lastFetchAttempt": "2026-11-22T09:21:40.053Z"
       }
+    },
+    {
+      "id": "open-source-legal-cite",
+      "name": "OpenContracts",
+      "description": "인간과 AI 에이전트가 함께 작업하기 위한 문서 지식의 그라운드트루스(ground truth) 레이어 겸 지식 버전 관리 플랫폼(구 OpenContracts, 현 Cite). 계약/법률 문서를 파싱·주석(annotation)·추출하고 LLM 기반 분석을 적용하여, 출처 추적이 가능한 신뢰성 있는 문서 지식 기반을 구축합니다.",
+      "categoryId": "industry-solutions",
+      "moduleId": "application-service",
+      "license": "MIT",
+      "githubUrl": "https://github.com/Open-Source-Legal/OpenContracts",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "ai-agents",
+        "etl",
+        "etl-pipeline",
+        "llm",
+        "prompt-engineering",
+        "unstructured-data",
+        "vector-database"
+      ],
+      "meta": {
+        "stars": 1550,
+        "forks": 201,
+        "lastUpdated": "2026-11-20T06:54:34Z",
+        "lastCommit": "2026-11-21T05:39:51Z",
+        "fetchedAt": "2026-11-22T09:34:55.303Z"
+      }
     }
   ]
 }

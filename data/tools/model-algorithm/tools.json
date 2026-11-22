@@ -4384,6 +4384,35 @@
         "createdAt": "2024-01-23T21:21:07Z",
         "lastFetchAttempt": "2026-11-22T12:35:50.249Z"
       }
+    },
+    {
+      "id": "modelscope-3d-speaker",
+      "name": "3D-Speaker",
+      "description": "단일, 멀티모달 화자 인증, 화자 인식, 화자 분리를 위한 ModelScope의 모델과 툴킷입니다.",
+      "categoryId": "multimodal",
+      "moduleId": "model-algorithm",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/modelscope/3D-Speaker",
+      "koreanSupport": false,
+      "tags": [
+        "3d-speaker",
+        "campplus",
+        "cnceleb",
+        "eres2net",
+        "language-identification",
+        "modelscope",
+        "sdpn",
+        "speaker-diarization",
+        "speaker-verification",
+        "voxceleb"
+      ],
+      "meta": {
+        "stars": 3224,
+        "forks": 272,
+        "lastUpdated": "2026-11-20T16:50:47Z",
+        "lastCommit": "2025-12-08T07:20:17Z",
+        "fetchedAt": "2026-11-22T12:47:57.506Z"
+      }
     }
   ]
 }

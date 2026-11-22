@@ -206,7 +206,8 @@
         "huggingface-datatrove",
         "tensorflow-tfx",
         "nvidia-dali",
-        "docling-project-docling"
+        "docling-project-docling",
+        "kestra-io-kestra"
       ]
     },
     {

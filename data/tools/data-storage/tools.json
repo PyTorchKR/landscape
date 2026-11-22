@@ -2265,6 +2265,45 @@
         "createdAt": "2016-05-05T13:25:43Z",
         "lastFetchAttempt": "2026-11-22T07:48:29.665Z"
       }
+    },
+    {
+      "id": "kestra-io-kestra",
+      "name": "kestra",
+      "description": "이벤트 기반 오케스트레이션·스케줄링 플랫폼(Kestra). YAML 선언형으로 워크플로를 정의하고, 데이터 파이프라인·ETL·ML 파이프라인을 스케줄·이벤트 트리거로 실행합니다. 600여 개 플러그인과 웹 UI를 제공합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/kestra-io/kestra",
+      "koreanSupport": false,
+      "tags": [
+        "ai-agents",
+        "automation",
+        "control-plane",
+        "data-engineering",
+        "data-orchestration",
+        "data-orchestrator",
+        "devops",
+        "etl",
+        "hacktoberfest",
+        "high-availability",
+        "infra-automation",
+        "infra-ops",
+        "infrastructure-as-code",
+        "java",
+        "low-code",
+        "orchestration",
+        "pipeline",
+        "pipeline-as-code",
+        "scheduler",
+        "workflow"
+      ],
+      "meta": {
+        "stars": 30309,
+        "forks": 3547,
+        "lastUpdated": "2026-11-22T07:49:25Z",
+        "lastCommit": "2026-11-20T18:12:34Z",
+        "fetchedAt": "2026-11-22T08:13:49.974Z"
+      }
     }
   ]
 }

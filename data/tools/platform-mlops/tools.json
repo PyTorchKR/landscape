@@ -5811,6 +5811,24 @@
         "createdAt": "2025-05-07T02:50:19Z",
         "lastFetchAttempt": "2026-11-22T09:51:00.482Z"
       }
+    },
+    {
+      "id": "google-gemma-cpp",
+      "name": "gemma.cpp",
+      "description": "Google Gemma 모델을 위한 경량·독립형 C++ 추론 엔진으로, 외부 의존성을 최소화하고 CPU 환경에서 로컬 추론을 실행할 수 있습니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/google/gemma.cpp",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 7089,
+        "forks": 675,
+        "lastUpdated": "2026-11-20T23:09:23Z",
+        "lastCommit": "2026-11-20T14:33:25Z",
+        "fetchedAt": "2026-11-22T10:02:58.645Z"
+      }
     }
   ]
 }

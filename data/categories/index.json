@@ -865,7 +865,8 @@
         "incoai-splash",
         "huggingface-anylanguagemodel",
         "ubiquitouslearning-mllm",
-        "k2-fsa-sherpa-onnx"
+        "k2-fsa-sherpa-onnx",
+        "google-gemma-cpp"
       ]
     },
     {

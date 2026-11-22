@@ -5734,6 +5734,30 @@
         "createdAt": "2023-04-18T18:43:09Z",
         "lastFetchAttempt": "2026-11-22T09:10:45.696Z"
       }
+    },
+    {
+      "id": "rag-web-ui-rag-web-ui",
+      "name": "rag-web-ui",
+      "description": "RAG(검색증강생성) 기술 기반의 지능형 대화 시스템 RAG Web UI. 문서 업로드·임베딩·벡터 검색·LLM 응답 생성을 갖춘 웹 인터페이스로, 지식 기반 위에서 출처 인용이 가능한 대화형 질의응답을 셀프호스팅으로 제공합니다.",
+      "categoryId": "rag-graphrag",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/rag-web-ui/rag-web-ui",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "deepseek",
+        "langchain",
+        "ollama",
+        "rag"
+      ],
+      "meta": {
+        "stars": 3305,
+        "forks": 376,
+        "lastUpdated": "2026-11-22T07:48:12Z",
+        "lastCommit": "2026-04-06T14:22:58Z",
+        "fetchedAt": "2026-11-22T09:20:51.621Z"
+      }
     }
   ]
 }

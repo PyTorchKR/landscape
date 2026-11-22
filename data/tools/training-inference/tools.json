@@ -3510,6 +3510,44 @@
         "createdAt": "2022-09-18T17:07:19Z",
         "lastFetchAttempt": "2026-11-22T08:58:05.871Z"
       }
+    },
+    {
+      "id": "microsoft-flaml",
+      "name": "FLAML",
+      "description": "빠르고 경량인 AutoML 및 하이퍼파라미터 튜닝 라이브러리로, 적은 연산 비용으로 분류·회귀·시계열 등 다양한 ML 모델의 자동 선택과 최적화를 수행합니다.",
+      "categoryId": "automl-hpo",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/microsoft/FLAML",
+      "koreanSupport": false,
+      "tags": [
+        "automated-machine-learning",
+        "automl",
+        "classification",
+        "data-science",
+        "deep-learning",
+        "finetuning",
+        "hyperparam",
+        "hyperparameter-optimization",
+        "jupyter-notebook",
+        "machine-learning",
+        "natural-language-generation",
+        "natural-language-processing",
+        "python",
+        "random-forest",
+        "regression",
+        "scikit-learn",
+        "tabular-data",
+        "timeseries-forecasting",
+        "tuning"
+      ],
+      "meta": {
+        "stars": 4421,
+        "forks": 585,
+        "lastUpdated": "2026-11-22T00:19:42Z",
+        "lastCommit": "2026-11-21T03:32:29Z",
+        "fetchedAt": "2026-11-22T09:07:54.480Z"
+      }
     }
   ]
 }

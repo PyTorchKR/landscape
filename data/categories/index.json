@@ -521,7 +521,8 @@
         "hyperopt",
         "nni",
         "autokeras",
-        "meta-pytorch-botorch"
+        "meta-pytorch-botorch",
+        "microsoft-flaml"
       ]
     },
     {

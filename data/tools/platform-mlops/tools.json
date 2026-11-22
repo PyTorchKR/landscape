@@ -5766,6 +5766,43 @@
         "createdAt": "2025-01-14T01:48:30Z",
         "lastFetchAttempt": "2026-11-22T09:37:45.847Z"
       }
+    },
+    {
+      "id": "bytedance-deer-flow",
+      "name": "deer-flow",
+      "description": "ByteDance가 공개한 장기 실행(long-horizon) SuperAgent 하니스로, 샌드박스·메모리·도구·스킬·서브에이전트·메시지 게이트웨이를 활용해 연구·코딩·생성 작업을 수분에서 수시간 단위로 자율 수행합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/bytedance/deer-flow",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agentic",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "deep-research",
+        "harness",
+        "langchain",
+        "langgraph",
+        "langmanus",
+        "llm",
+        "multi-agent",
+        "nodejs",
+        "podcast",
+        "python",
+        "superagent",
+        "typescript"
+      ],
+      "meta": {
+        "stars": 85594,
+        "forks": 12076,
+        "lastUpdated": "2026-11-22T09:45:50Z",
+        "lastCommit": "2026-11-22T09:01:31Z",
+        "fetchedAt": "2026-11-22T09:47:58.043Z"
+      }
     }
   ]
 }

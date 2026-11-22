@@ -5569,6 +5569,38 @@
         "createdAt": "2024-06-21T15:55:04Z",
         "lastFetchAttempt": "2026-11-22T03:56:50.753Z"
       }
+    },
+    {
+      "id": "mastra-ai-mastra",
+      "name": "mastra",
+      "description": "Gatsby 팀이 만든 모던 TypeScript 스택 기반 AI 애플리케이션·에이전트 프레임워크로, 워크플로우·에이전트·RAG·평가·관측성을 통합 제공합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/mastra-ai/mastra",
+      "koreanSupport": false,
+      "tags": [
+        "agents",
+        "ai",
+        "chatbots",
+        "evals",
+        "javascript",
+        "llm",
+        "mcp",
+        "nextjs",
+        "nodejs",
+        "reactjs",
+        "tts",
+        "typescript",
+        "workflows"
+      ],
+      "meta": {
+        "stars": 29726,
+        "forks": 3130,
+        "lastUpdated": "2026-11-22T03:41:40Z",
+        "lastCommit": "2026-11-22T04:28:36Z",
+        "fetchedAt": "2026-11-22T04:34:53.810Z"
+      }
     }
   ]
 }

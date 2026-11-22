@@ -5837,6 +5837,45 @@
         "createdAt": "2024-02-13T04:36:03Z",
         "lastFetchAttempt": "2026-11-22T10:19:00.914Z"
       }
+    },
+    {
+      "id": "agenta-ai-agenta",
+      "name": "agenta",
+      "description": "올인원 오픈소스 LLMOps 플랫폼(Agenta). 프롬프트 플레이그라운드, 프롬프트 버전 관리, LLM 평가, LLM 관찰성(트레이싱)을 한 곳에서 제공해 LLM 애플리케이션의 실험·배포·모니터링을 지원합니다.",
+      "categoryId": "llmops-observability",
+      "moduleId": "platform-mlops",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/Agenta-AI/agenta",
+      "koreanSupport": false,
+      "tags": [
+        "agent-builder",
+        "agent-observability",
+        "agent-orchestration",
+        "agent-workspace",
+        "agentic-ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-automation",
+        "ai-company-os",
+        "ai-coworker",
+        "ai-skills-manager",
+        "ai-workflow-automation",
+        "ai-workflow-automation-agent",
+        "ai-workflow-builder",
+        "company-brain",
+        "company-os",
+        "harness",
+        "open-source",
+        "self-hosted",
+        "workflow-automation"
+      ],
+      "meta": {
+        "stars": 4926,
+        "forks": 732,
+        "lastUpdated": "2026-11-22T03:26:25Z",
+        "lastCommit": "2026-11-22T07:07:39Z",
+        "fetchedAt": "2026-11-22T10:29:57.588Z"
+      }
     }
   ]
 }

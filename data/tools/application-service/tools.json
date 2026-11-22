@@ -2904,6 +2904,43 @@
         "createdAt": "2022-10-24T04:08:13Z",
         "lastFetchAttempt": "2026-11-22T11:52:45.180Z"
       }
+    },
+    {
+      "id": "thinkinaixyz-deepchat",
+      "name": "deepchat",
+      "description": "강력한 AI를 개인 환경에 연결하는 스마트 어시스턴트 데스크톱 앱 DeepChat. 다중 LLM 프로바이더, MCP, 멀티 윈도우/탭 대화, 검색·아티팩트 등을 지원하는 크로스플랫폼 셀프호스팅 AI 챗 클라이언트입니다.",
+      "categoryId": "ai-chatbot",
+      "moduleId": "application-service",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/ThinkInAIXYZ/deepchat",
+      "koreanSupport": false,
+      "tags": [
+        "agent",
+        "agent-skills",
+        "ai",
+        "ai-assistant",
+        "ai-sdk",
+        "chatgpt",
+        "claude",
+        "cross-platform",
+        "deepseek",
+        "electron",
+        "gemini",
+        "harness-design",
+        "hermes-agent",
+        "llm-client",
+        "mcp",
+        "mcp-client",
+        "openai-client",
+        "openclaw"
+      ],
+      "meta": {
+        "stars": 6408,
+        "forks": 786,
+        "lastUpdated": "2026-11-22T04:03:35Z",
+        "lastCommit": "2026-11-22T02:12:22Z",
+        "fetchedAt": "2026-11-22T12:06:51.447Z"
+      }
     }
   ]
 }

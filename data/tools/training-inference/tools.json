@@ -3456,6 +3456,24 @@
         "createdAt": "2019-09-23T08:10:42Z",
         "lastFetchAttempt": "2026-11-22T05:46:43.388Z"
       }
+    },
+    {
+      "id": "z-lab-dflash",
+      "name": "dflash",
+      "description": "블록 확산(block diffusion) 초안 모델로 LLM 추론을 가속하는 추측 디코딩 기법 DFlash의 구현입니다.",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/z-lab/dflash",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 6254,
+        "forks": 446,
+        "lastUpdated": "2026-11-22T05:45:54Z",
+        "lastCommit": "2026-08-18T21:14:10Z",
+        "fetchedAt": "2026-11-22T05:57:47.786Z"
+      }
     }
   ]
 }

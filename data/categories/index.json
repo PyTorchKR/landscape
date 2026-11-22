@@ -204,7 +204,8 @@
         "scrapy-scrapy",
         "huggingface-datatrove",
         "tensorflow-tfx",
-        "nvidia-dali"
+        "nvidia-dali",
+        "docling-project-docling"
       ]
     },
     {

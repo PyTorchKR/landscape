@@ -2187,6 +2187,40 @@
         "createdAt": "2018-06-01T22:18:01Z",
         "lastFetchAttempt": "2026-11-22T00:58:04.212Z"
       }
+    },
+    {
+      "id": "docling-project-docling",
+      "name": "docling",
+      "description": "문서를 생성형 AI에 바로 사용할 수 있도록 준비하는 문서 파싱·변환 도구. PDF, DOCX, PPTX, 이미지 등 다양한 포맷을 레이아웃·표·코드·수식을 보존한 구조화된 Markdown/JSON으로 추출하여 RAG 인제스천 파이프라인에 공급함.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "MIT",
+      "githubUrl": "https://github.com/docling-project/docling",
+      "koreanSupport": false,
+      "tags": [
+        "ai",
+        "convert",
+        "document-parser",
+        "document-parsing",
+        "documents",
+        "docx",
+        "html",
+        "markdown",
+        "pdf",
+        "pdf-converter",
+        "pdf-to-json",
+        "pdf-to-text",
+        "pptx",
+        "tables",
+        "xlsx"
+      ],
+      "meta": {
+        "stars": 70854,
+        "forks": 5388,
+        "lastUpdated": "2026-11-21T23:40:49Z",
+        "lastCommit": "2026-11-21T07:03:43Z",
+        "fetchedAt": "2026-11-22T01:09:53.287Z"
+      }
     }
   ]
 }

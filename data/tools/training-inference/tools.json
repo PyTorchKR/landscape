@@ -3409,6 +3409,45 @@
         "createdAt": "2022-12-22T12:59:00Z",
         "lastFetchAttempt": "2026-11-22T05:19:36.979Z"
       }
+    },
+    {
+      "id": "opennmt-ctranslate2",
+      "name": "CTranslate2",
+      "description": "Transformer 모델을 위한 고속 추론 엔진 CTranslate2로, 가중치 양자화·레이어 퓨전·배치 재정렬 등 다양한 최적화로 CPU/GPU에서 효율적인 추론을 제공합니다(faster-whisper 등의 백엔드).",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/OpenNMT/CTranslate2",
+      "koreanSupport": false,
+      "tags": [
+        "avx",
+        "avx2",
+        "cpp",
+        "cuda",
+        "deep-learning",
+        "deep-neural-networks",
+        "gemm",
+        "inference",
+        "intrinsics",
+        "machine-translation",
+        "mkl",
+        "neon",
+        "neural-machine-translation",
+        "onednn",
+        "openmp",
+        "opennmt",
+        "parallel-computing",
+        "quantization",
+        "thrust",
+        "transformer-models"
+      ],
+      "meta": {
+        "stars": 4759,
+        "forks": 562,
+        "lastUpdated": "2026-11-22T01:40:37Z",
+        "lastCommit": "2026-11-21T10:00:17Z",
+        "fetchedAt": "2026-11-22T05:43:09.080Z"
+      }
     }
   ]
 }

@@ -462,7 +462,8 @@
         "openxla-xla",
         "uxlfoundation-onednn",
         "systran-faster-whisper",
-        "iree-org-iree"
+        "iree-org-iree",
+        "opennmt-ctranslate2"
       ]
     },
     {

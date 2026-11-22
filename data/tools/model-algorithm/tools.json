@@ -4286,6 +4286,24 @@
         "createdAt": "2019-11-26T14:13:16Z",
         "lastFetchAttempt": "2026-11-22T07:08:12.131Z"
       }
+    },
+    {
+      "id": "ml-gsai-llada",
+      "name": "LLaDA",
+      "description": "자기회귀 대신 마스크 확산 방식으로 학습한 대규모 언어 모델 LLaDA의 공식 PyTorch 구현입니다.",
+      "categoryId": "llm",
+      "moduleId": "model-algorithm",
+      "license": "Unknown",
+      "githubUrl": "https://github.com/ML-GSAI/LLaDA",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 4020,
+        "forks": 292,
+        "lastUpdated": "2026-11-18T11:02:22Z",
+        "lastCommit": "2026-07-15T08:24:01Z",
+        "fetchedAt": "2026-11-22T07:47:16.129Z"
+      }
     }
   ]
 }

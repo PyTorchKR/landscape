@@ -56,7 +56,8 @@
         "furiosa-ai-furiosa-sdk",
         "furiosa-ai-furiosa-opt",
         "rbln-sw-optimum-rbln",
-        "mobilint-vllm-mblt"
+        "mobilint-vllm-mblt",
+        "google-pytorch-torch-tpu"
       ]
     },
     {

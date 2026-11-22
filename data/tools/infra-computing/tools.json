@@ -1010,6 +1010,24 @@
         "createdAt": "2026-10-26T06:55:15Z",
         "lastFetchAttempt": "2026-11-22T12:49:22.266Z"
       }
+    },
+    {
+      "id": "google-pytorch-torch-tpu",
+      "name": "torch_tpu",
+      "description": "A PyTorch backend for Google TPUs with ATen kernels for TPU, torch.compile() integration, and a compilation cache. It supports data-parallel and tensor-parallel training, with examples for Llama, Qwen, and ResNet.",
+      "categoryId": "ai-accelerator",
+      "moduleId": "infra-computing",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/google-pytorch/torch_tpu",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 865,
+        "forks": 101,
+        "lastUpdated": "2026-11-21T15:14:37Z",
+        "lastCommit": "2026-11-22T08:32:36Z",
+        "fetchedAt": "2026-11-22T13:06:08.297Z"
+      }
     }
   ]
 }

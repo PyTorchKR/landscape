@@ -3482,6 +3482,26 @@
         "createdAt": "2026-01-04T19:33:39Z",
         "lastFetchAttempt": "2026-11-22T06:28:32.210Z"
       }
+    },
+    {
+      "id": "ggml-org-ggml",
+      "name": "ggml",
+      "description": "C/C++로 작성된 머신러닝용 텐서 연산 라이브러리로, 자동미분과 양자화를 지원하며 llama.cpp 등 CPU·엣지 환경의 효율적인 LLM 추론을 떠받치는 저수준 프레임워크 컴포넌트입니다.",
+      "categoryId": "deep-learning-framework",
+      "moduleId": "training-inference",
+      "license": "MIT",
+      "githubUrl": "https://github.com/ggml-org/ggml",
+      "koreanSupport": false,
+      "tags": [
+        "machine-learning"
+      ],
+      "meta": {
+        "stars": 16149,
+        "forks": 2087,
+        "lastUpdated": "2026-11-22T06:21:31Z",
+        "lastCommit": "2026-11-16T09:35:03Z",
+        "fetchedAt": "2026-11-22T06:37:46.152Z"
+      }
     }
   ]
 }

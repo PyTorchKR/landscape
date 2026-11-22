@@ -5328,6 +5328,45 @@
         "createdAt": "2023-12-01T08:18:11Z",
         "lastFetchAttempt": "2026-11-22T00:05:36.024Z"
       }
+    },
+    {
+      "id": "k2-fsa-sherpa-onnx",
+      "name": "sherpa-onnx",
+      "description": "차세대 Kaldi와 onnxruntime 기반으로 음성 인식, 음성 합성, 화자 분리, VAD 등을 인터넷 연결 없이 로컬에서 실행하는 음성 처리 툴킷입니다. 모바일, 임베디드 등 다양한 플랫폼을 지원합니다.",
+      "categoryId": "on-device-runtime",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/k2-fsa/sherpa-onnx",
+      "koreanSupport": false,
+      "tags": [
+        "aarch64",
+        "android",
+        "arm32",
+        "asr",
+        "cpp",
+        "csharp",
+        "dotnet",
+        "ios",
+        "lazarus",
+        "linux",
+        "macos",
+        "mfc",
+        "object-pascal",
+        "onnx",
+        "raspberry-pi",
+        "risc-v",
+        "speech-to-text",
+        "text-to-speech",
+        "vits",
+        "windows"
+      ],
+      "meta": {
+        "stars": 16081,
+        "forks": 1900,
+        "lastUpdated": "2026-11-21T23:49:53Z",
+        "lastCommit": "2026-11-21T02:21:30Z",
+        "fetchedAt": "2026-11-22T00:16:14.229Z"
+      }
     }
   ]
 }

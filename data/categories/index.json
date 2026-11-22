@@ -89,7 +89,8 @@
         "microsoft-sptag",
         "vdaas-vald",
         "timescale-pgvectorscale",
-        "infiniflow-infinity"
+        "infiniflow-infinity",
+        "redisearch-redisearch"
       ]
     },
     {

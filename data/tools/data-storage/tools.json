@@ -2229,6 +2229,34 @@
         "createdAt": "2024-07-09T07:50:26Z",
         "lastFetchAttempt": "2026-11-22T01:38:05.610Z"
       }
+    },
+    {
+      "id": "redisearch-redisearch",
+      "name": "RediSearch",
+      "description": "Redis용 질의·인덱싱 엔진. 보조 인덱싱, 풀텍스트 검색, 벡터 유사도 검색(k-NN), 집계를 제공하여 Redis를 벡터 DB·시맨틱 검색 백엔드로 활용할 수 있게 한다(Redis Stack의 검색 모듈).",
+      "categoryId": "vector-db",
+      "moduleId": "data-storage",
+      "license": "NOASSERTION",
+      "githubUrl": "https://github.com/RediSearch/RediSearch",
+      "koreanSupport": false,
+      "tags": [
+        "fulltext",
+        "geospatial",
+        "gis",
+        "inverted-index",
+        "redis",
+        "redis-module",
+        "search",
+        "search-engine",
+        "vector-database"
+      ],
+      "meta": {
+        "stars": 6244,
+        "forks": 602,
+        "lastUpdated": "2026-11-21T06:47:24Z",
+        "lastCommit": "2026-11-21T20:41:02Z",
+        "fetchedAt": "2026-11-22T02:03:54.915Z"
+      }
     }
   ]
 }

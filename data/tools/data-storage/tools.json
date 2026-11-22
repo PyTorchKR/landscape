@@ -2115,6 +2115,28 @@
         "createdAt": "2023-06-14T12:05:28Z",
         "lastFetchAttempt": "2026-11-22T00:17:26.408Z"
       }
+    },
+    {
+      "id": "tensorflow-tfx",
+      "name": "tfx",
+      "description": "프로덕션 ML 파이프라인을 배포하기 위한 엔드투엔드 플랫폼으로, 데이터 검증·변환·학습·평가·서빙까지의 ML 워크플로를 컴포넌트화하여 오케스트레이션합니다.",
+      "categoryId": "etl-workflow",
+      "moduleId": "data-storage",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/tensorflow/tfx",
+      "koreanSupport": false,
+      "tags": [
+        "apache-beam",
+        "machine-learning",
+        "tensorflow"
+      ],
+      "meta": {
+        "stars": 2190,
+        "forks": 729,
+        "lastUpdated": "2026-11-19T21:16:06Z",
+        "lastCommit": "2026-11-19T23:26:22Z",
+        "fetchedAt": "2026-11-22T00:30:27.330Z"
+      }
     }
   ]
 }

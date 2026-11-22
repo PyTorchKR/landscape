@@ -202,7 +202,8 @@
         "meta-pytorch-torchcodec",
         "microsoft-markitdown",
         "scrapy-scrapy",
-        "huggingface-datatrove"
+        "huggingface-datatrove",
+        "tensorflow-tfx"
       ]
     },
     {

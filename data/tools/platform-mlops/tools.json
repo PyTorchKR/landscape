@@ -5432,6 +5432,36 @@
         "createdAt": "2024-01-26T13:15:39Z",
         "lastFetchAttempt": "2026-11-22T01:28:01.556Z"
       }
+    },
+    {
+      "id": "internlm-lmdeploy",
+      "name": "lmdeploy",
+      "description": "LLM의 압축·배포·서빙을 위한 툴킷 LMDeploy로, TurboMind 추론 엔진과 양자화를 통해 고처리량 LLM 서빙을 제공합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/InternLM/lmdeploy",
+      "koreanSupport": false,
+      "tags": [
+        "codellama",
+        "cuda-kernels",
+        "deepspeed",
+        "fastertransformer",
+        "internlm",
+        "llama",
+        "llama2",
+        "llama3",
+        "llm",
+        "llm-inference",
+        "turbomind"
+      ],
+      "meta": {
+        "stars": 8153,
+        "forks": 786,
+        "lastUpdated": "2026-11-21T03:26:19Z",
+        "lastCommit": "2026-11-20T14:03:33Z",
+        "fetchedAt": "2026-11-22T01:36:53.811Z"
+      }
     }
   ]
 }

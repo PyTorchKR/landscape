@@ -5609,6 +5609,42 @@
         "createdAt": "2024-08-06T20:44:31Z",
         "lastFetchAttempt": "2026-11-22T04:37:45.642Z"
       }
+    },
+    {
+      "id": "giskard-ai-giskard-oss",
+      "name": "giskard-oss",
+      "description": "LLM 에이전트를 위한 오픈소스 평가·테스트 라이브러리(Giskard). 환각, 편향, 보안 취약점(프롬프트 인젝션 등), 잘못된 응답을 자동 스캔하고 테스트 스위트를 생성해 LLM/ML 모델의 품질·안전성을 검증합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/Giskard-AI/giskard-oss",
+      "koreanSupport": false,
+      "tags": [
+        "agent-evaluation",
+        "ai-red-team",
+        "ai-security",
+        "ai-testing",
+        "fairness-ai",
+        "llm",
+        "llm-eval",
+        "llm-evaluation",
+        "llm-security",
+        "llmops",
+        "ml-testing",
+        "ml-validation",
+        "mlops",
+        "rag-evaluation",
+        "red-team-tools",
+        "responsible-ai",
+        "trustworthy-ai"
+      ],
+      "meta": {
+        "stars": 5966,
+        "forks": 576,
+        "lastUpdated": "2026-11-21T16:25:46Z",
+        "lastCommit": "2026-11-20T07:39:03Z",
+        "fetchedAt": "2026-11-22T05:15:45.531Z"
+      }
     }
   ]
 }

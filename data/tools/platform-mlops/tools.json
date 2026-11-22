@@ -5401,6 +5401,29 @@
         "createdAt": "2026-07-01T10:17:37Z",
         "lastFetchAttempt": "2026-11-22T01:12:52.274Z"
       }
+    },
+    {
+      "id": "huggingface-lighteval",
+      "name": "lighteval",
+      "description": "여러 백엔드(Transformers·vLLM·TGI·엔드포인트 등)에서 LLM을 평가하는 올인원 툴킷(Lighteval, HuggingFace). 다양한 표준 벤치마크와 커스텀 태스크를 지원하며, 평가 파이프라인 구성·결과 상세 분석·Hub 연동을 제공합니다.",
+      "categoryId": "testing-evaluation",
+      "moduleId": "platform-mlops",
+      "license": "MIT",
+      "githubUrl": "https://github.com/huggingface/lighteval",
+      "koreanSupport": false,
+      "tags": [
+        "evaluation",
+        "evaluation-framework",
+        "evaluation-metrics",
+        "huggingface"
+      ],
+      "meta": {
+        "stars": 2587,
+        "forks": 621,
+        "lastUpdated": "2026-11-20T09:37:43Z",
+        "lastCommit": "2026-11-18T00:35:15Z",
+        "fetchedAt": "2026-11-22T01:24:47.469Z"
+      }
     }
   ]
 }

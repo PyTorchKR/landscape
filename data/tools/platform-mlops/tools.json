@@ -5910,6 +5910,24 @@
         "createdAt": "2023-09-22T02:24:56Z",
         "lastFetchAttempt": "2026-11-22T12:09:56.664Z"
       }
+    },
+    {
+      "id": "exo-explore-exo",
+      "name": "exo",
+      "description": "집 안의 여러 일상 기기(노트북·폰·태블릿 등)를 하나의 클러스터로 묶어 대규모 모델을 분산 실행하는 로컬 추론 도구로, 단일 기기로는 어려운 프런티어 모델을 로컬에서 구동합니다.",
+      "categoryId": "model-serving",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/exo-explore/exo",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 48536,
+        "forks": 3632,
+        "lastUpdated": "2026-11-22T12:13:54Z",
+        "lastCommit": "2026-11-06T22:00:57Z",
+        "fetchedAt": "2026-11-22T12:33:47.688Z"
+      }
     }
   ]
 }

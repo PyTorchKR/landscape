@@ -5470,6 +5470,27 @@
         "createdAt": "2023-06-15T12:38:06Z",
         "lastFetchAttempt": "2026-11-22T03:01:38.656Z"
       }
+    },
+    {
+      "id": "openai-openai-python",
+      "name": "openai-python",
+      "description": "OpenAI API를 Python에서 사용하기 위한 공식 라이브러리로, 동기, 비동기 클라이언트와 스트리밍, 구조화 출력을 지원합니다.",
+      "categoryId": "interoperability",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/openai/openai-python",
+      "koreanSupport": false,
+      "tags": [
+        "openai",
+        "python"
+      ],
+      "meta": {
+        "stars": 32210,
+        "forks": 5879,
+        "lastUpdated": "2026-11-22T03:01:24Z",
+        "lastCommit": "2026-11-20T08:30:03Z",
+        "fetchedAt": "2026-11-22T03:25:54.167Z"
+      }
     }
   ]
 }

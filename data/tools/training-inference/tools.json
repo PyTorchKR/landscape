@@ -3556,6 +3556,24 @@
         "createdAt": "2020-08-20T20:46:11Z",
         "lastFetchAttempt": "2026-11-22T10:06:36.350Z"
       }
+    },
+    {
+      "id": "dao-ailab-flash-attention",
+      "name": "flash-attention",
+      "description": "IO를 고려해 설계된 빠르고 메모리 효율적인 정확한(attention exact) 어텐션 연산 구현으로, Transformer 모델의 학습·추론에서 어텐션 병목을 크게 줄여 속도와 메모리 효율을 향상시킵니다.",
+      "categoryId": "inference-optimization",
+      "moduleId": "training-inference",
+      "license": "BSD-3-Clause",
+      "githubUrl": "https://github.com/Dao-AILab/flash-attention",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 25330,
+        "forks": 3245,
+        "lastUpdated": "2026-11-22T01:27:41Z",
+        "lastCommit": "2026-11-21T02:15:02Z",
+        "fetchedAt": "2026-11-22T10:15:51.451Z"
+      }
     }
   ]
 }

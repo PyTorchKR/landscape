@@ -5884,6 +5884,24 @@
         "createdAt": "2023-04-26T09:54:28Z",
         "lastFetchAttempt": "2026-11-22T10:45:56.025Z"
       }
+    },
+    {
+      "id": "qwenlm-qwen-agent",
+      "name": "Qwen-Agent",
+      "description": "Qwen 3.0 이상 모델을 기반으로 한 에이전트 프레임워크 및 애플리케이션 모음으로, Function Calling·MCP·Code Interpreter·RAG·Chrome 확장 등을 지원합니다.",
+      "categoryId": "agent-orchestration",
+      "moduleId": "platform-mlops",
+      "license": "Apache-2.0",
+      "githubUrl": "https://github.com/QwenLM/Qwen-Agent",
+      "koreanSupport": false,
+      "tags": [],
+      "meta": {
+        "stars": 17281,
+        "forks": 1771,
+        "lastUpdated": "2026-11-22T05:28:12Z",
+        "lastCommit": "2026-03-04T08:15:07Z",
+        "fetchedAt": "2026-11-22T11:09:55.564Z"
+      }
     }
   ]
 }

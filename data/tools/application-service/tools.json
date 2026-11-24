@@ -18,19 +18,19 @@
         "chains"
       ],
       "meta": {
-        "stars": 149988,
-        "lastUpdated": "2026-11-22T22:20:05Z",
-        "fetchedAt": "2026-11-22T23:03:02.678Z",
-        "forks": 25157,
-        "lastCommit": "2026-11-22T08:30:04Z",
-        "watchers": 931,
-        "openIssues": 785,
+        "stars": 149947,
+        "lastUpdated": "2026-11-24T03:38:52Z",
+        "fetchedAt": "2026-11-24T03:41:10.369Z",
+        "forks": 25163,
+        "lastCommit": "2026-11-24T02:52:39Z",
+        "watchers": 927,
+        "openIssues": 778,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2022-10-17T02:58:36Z",
-        "lastFetchAttempt": "2026-11-22T23:03:02.283Z"
+        "lastFetchAttempt": "2026-11-24T03:41:09.892Z"
       }
     },
     {
@@ -51,19 +51,19 @@
         "agents"
       ],
       "meta": {
-        "stars": 52984,
-        "lastUpdated": "2026-11-22T22:06:59Z",
-        "fetchedAt": "2026-11-22T23:03:03.075Z",
-        "forks": 8613,
+        "stars": 52986,
+        "lastUpdated": "2026-11-24T03:34:48Z",
+        "fetchedAt": "2026-11-24T03:41:10.785Z",
+        "forks": 8620,
         "lastCommit": "2026-11-20T00:46:38Z",
-        "watchers": 293,
-        "openIssues": 1528,
+        "watchers": 290,
+        "openIssues": 1541,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-11-02T04:24:54Z",
-        "lastFetchAttempt": "2026-11-22T23:03:02.790Z"
+        "lastFetchAttempt": "2026-11-24T03:41:10.481Z"
       }
     },
     {
@@ -83,9 +83,9 @@
         "nlu"
       ],
       "meta": {
-        "stars": 21400,
-        "lastUpdated": "2026-11-22T04:12:26Z",
-        "fetchedAt": "2026-11-22T23:03:03.458Z",
+        "stars": 21403,
+        "lastUpdated": "2026-11-23T19:50:24Z",
+        "fetchedAt": "2026-11-24T03:41:11.236Z",
         "forks": 4910,
         "lastCommit": "2026-07-24T07:39:04Z",
         "watchers": 348,
@@ -95,7 +95,7 @@
         "disabled": false,
         "defaultBranch": "3.6.x",
         "createdAt": "2016-10-14T12:27:49Z",
-        "lastFetchAttempt": "2026-11-22T23:03:03.175Z"
+        "lastFetchAttempt": "2026-11-24T03:41:10.886Z"
       }
     },
     {
@@ -115,19 +115,19 @@
         "conversation"
       ],
       "meta": {
-        "stars": 61961,
-        "lastUpdated": "2026-11-22T20:42:42Z",
-        "fetchedAt": "2026-11-22T23:03:03.929Z",
-        "forks": 9411,
+        "stars": 61967,
+        "lastUpdated": "2026-11-24T01:53:57Z",
+        "fetchedAt": "2026-11-24T03:41:11.584Z",
+        "forks": 9409,
         "lastCommit": "2026-11-12T10:19:36Z",
-        "watchers": 529,
-        "openIssues": 1186,
+        "watchers": 527,
+        "openIssues": 1183,
         "language": "Python",
         "archived": true,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-08-18T11:43:45Z",
-        "lastFetchAttempt": "2026-11-22T23:03:03.558Z"
+        "lastFetchAttempt": "2026-11-24T03:41:11.337Z"
       }
     },
     {
@@ -147,19 +147,19 @@
         "orchestration"
       ],
       "meta": {
-        "stars": 61177,
-        "lastUpdated": "2026-11-22T21:55:18Z",
-        "fetchedAt": "2026-11-22T23:03:04.312Z",
-        "forks": 9247,
-        "lastCommit": "2026-11-21T02:13:50Z",
+        "stars": 61215,
+        "lastUpdated": "2026-11-24T02:54:55Z",
+        "fetchedAt": "2026-11-24T03:41:11.989Z",
+        "forks": 9264,
+        "lastCommit": "2026-11-23T19:53:36Z",
         "watchers": 392,
-        "openIssues": 1265,
+        "openIssues": 1272,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-10-27T03:26:59Z",
-        "lastFetchAttempt": "2026-11-22T23:03:04.030Z"
+        "lastFetchAttempt": "2026-11-24T03:41:11.685Z"
       }
     },
     {
@@ -179,19 +179,19 @@
         "framework"
       ],
       "meta": {
-        "stars": 43262,
-        "lastUpdated": "2026-11-22T21:53:43Z",
-        "fetchedAt": "2026-11-22T23:03:04.650Z",
-        "forks": 6322,
-        "lastCommit": "2026-11-20T20:41:13Z",
+        "stars": 43274,
+        "lastUpdated": "2026-11-24T03:13:33Z",
+        "fetchedAt": "2026-11-24T03:41:12.411Z",
+        "forks": 6336,
+        "lastCommit": "2026-11-23T22:51:09Z",
         "watchers": 237,
-        "openIssues": 1907,
+        "openIssues": 1918,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-05-04T15:23:02Z",
-        "lastFetchAttempt": "2026-11-22T23:03:04.412Z"
+        "lastFetchAttempt": "2026-11-24T03:41:12.088Z"
       }
     },
     {
@@ -212,19 +212,19 @@
         "agent"
       ],
       "meta": {
-        "stars": 161689,
-        "lastUpdated": "2026-11-22T22:52:46Z",
-        "fetchedAt": "2026-11-22T23:03:05.022Z",
-        "forks": 25533,
-        "lastCommit": "2026-11-22T14:54:25Z",
-        "watchers": 851,
-        "openIssues": 1352,
+        "stars": 161781,
+        "lastUpdated": "2026-11-24T03:40:50Z",
+        "fetchedAt": "2026-11-24T03:41:12.881Z",
+        "forks": 25544,
+        "lastCommit": "2026-11-24T03:41:02Z",
+        "watchers": 847,
+        "openIssues": 1270,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-04-12T07:40:24Z",
-        "lastFetchAttempt": "2026-11-22T23:03:04.751Z"
+        "lastFetchAttempt": "2026-11-24T03:41:12.512Z"
       }
     },
     {
@@ -244,10 +244,10 @@
         "generative-ai"
       ],
       "meta": {
-        "stars": 73595,
-        "lastUpdated": "2026-11-22T15:00:25Z",
-        "fetchedAt": "2026-11-22T23:03:05.399Z",
-        "forks": 10590,
+        "stars": 73597,
+        "lastUpdated": "2026-11-24T02:27:32Z",
+        "fetchedAt": "2026-11-24T03:41:13.253Z",
+        "forks": 10588,
         "lastCommit": "2024-06-18T01:53:49Z",
         "watchers": 563,
         "openIssues": 619,
@@ -256,7 +256,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-08-10T14:36:44Z",
-        "lastFetchAttempt": "2026-11-22T23:03:05.123Z"
+        "lastFetchAttempt": "2026-11-24T03:41:12.981Z"
       }
     },
     {
@@ -277,19 +277,19 @@
         "nodes"
       ],
       "meta": {
-        "stars": 148144,
-        "lastUpdated": "2026-11-22T22:58:05Z",
-        "fetchedAt": "2026-11-22T23:03:05.755Z",
-        "forks": 17643,
-        "lastCommit": "2026-11-22T22:39:47Z",
-        "watchers": 854,
-        "openIssues": 5617,
+        "stars": 148314,
+        "lastUpdated": "2026-11-24T03:40:13Z",
+        "fetchedAt": "2026-11-24T03:41:13.658Z",
+        "forks": 17671,
+        "lastCommit": "2026-11-24T03:32:21Z",
+        "watchers": 853,
+        "openIssues": 5627,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2023-01-17T03:15:56Z",
-        "lastFetchAttempt": "2026-11-22T23:03:05.499Z"
+        "lastFetchAttempt": "2026-11-24T03:41:13.353Z"
       }
     },
     {
@@ -309,19 +309,19 @@
         "declarative"
       ],
       "meta": {
-        "stars": 39187,
-        "lastUpdated": "2026-11-22T22:47:24Z",
-        "fetchedAt": "2026-11-22T23:03:06.123Z",
-        "forks": 3539,
+        "stars": 39201,
+        "lastUpdated": "2026-11-24T02:17:53Z",
+        "fetchedAt": "2026-11-24T03:41:14.078Z",
+        "forks": 3544,
         "lastCommit": "2026-11-21T14:14:20Z",
         "watchers": 211,
-        "openIssues": 826,
+        "openIssues": 831,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-01-09T21:01:51Z",
-        "lastFetchAttempt": "2026-11-22T23:03:05.856Z"
+        "lastFetchAttempt": "2026-11-24T03:41:13.759Z"
       }
     },
     {
@@ -343,18 +343,18 @@
       ],
       "meta": {
         "stars": 44131,
-        "lastUpdated": "2026-11-22T21:47:43Z",
-        "fetchedAt": "2026-11-22T23:03:06.529Z",
-        "forks": 3686,
-        "lastCommit": "2026-11-22T06:01:16Z",
-        "watchers": 211,
-        "openIssues": 118,
+        "lastUpdated": "2026-11-23T20:59:42Z",
+        "fetchedAt": "2026-11-24T03:41:14.481Z",
+        "forks": 3682,
+        "lastCommit": "2026-11-24T03:08:44Z",
+        "watchers": 206,
+        "openIssues": 119,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2018-12-19T08:24:04Z",
-        "lastFetchAttempt": "2026-11-22T23:03:06.224Z"
+        "lastFetchAttempt": "2026-11-24T03:41:14.178Z"
       }
     },
     {
@@ -374,19 +374,19 @@
         "dashboard"
       ],
       "meta": {
-        "stars": 46483,
-        "lastUpdated": "2026-11-22T20:54:22Z",
-        "fetchedAt": "2026-11-22T23:03:06.916Z",
+        "stars": 46484,
+        "lastUpdated": "2026-11-24T03:24:32Z",
+        "fetchedAt": "2026-11-24T03:41:14.866Z",
         "forks": 4461,
-        "lastCommit": "2026-11-22T21:38:43Z",
-        "watchers": 345,
-        "openIssues": 1198,
+        "lastCommit": "2026-11-24T03:18:42Z",
+        "watchers": 344,
+        "openIssues": 1202,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "develop",
         "createdAt": "2019-08-24T00:14:52Z",
-        "lastFetchAttempt": "2026-11-22T23:03:06.628Z"
+        "lastFetchAttempt": "2026-11-24T03:41:14.580Z"
       }
     },
     {
@@ -407,18 +407,18 @@
       ],
       "meta": {
         "stars": 12499,
-        "lastUpdated": "2026-11-20T22:23:11Z",
-        "fetchedAt": "2026-11-22T23:03:07.317Z",
+        "lastUpdated": "2026-11-23T14:06:57Z",
+        "fetchedAt": "2026-11-24T03:41:15.249Z",
         "forks": 1769,
         "lastCommit": "2026-09-18T15:52:07Z",
         "watchers": 58,
-        "openIssues": 160,
+        "openIssues": 159,
         "language": "Python",
         "archived": true,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-03-14T16:54:04Z",
-        "lastFetchAttempt": "2026-11-22T23:03:07.016Z"
+        "lastFetchAttempt": "2026-11-24T03:41:14.967Z"
       }
     },
     {
@@ -439,19 +439,19 @@
         "chat"
       ],
       "meta": {
-        "stars": 159284,
-        "lastUpdated": "2026-11-22T22:55:13Z",
-        "fetchedAt": "2026-11-22T23:03:07.633Z",
-        "forks": 23106,
-        "lastCommit": "2026-11-22T22:26:56Z",
-        "watchers": 686,
-        "openIssues": 283,
+        "stars": 159374,
+        "lastUpdated": "2026-11-24T03:00:53Z",
+        "fetchedAt": "2026-11-24T03:41:15.664Z",
+        "forks": 23128,
+        "lastCommit": "2026-11-23T22:11:40Z",
+        "watchers": 687,
+        "openIssues": 280,
         "language": "Svelte",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-10-06T22:08:27Z",
-        "lastFetchAttempt": "2026-11-22T23:03:07.417Z"
+        "lastFetchAttempt": "2026-11-24T03:41:15.349Z"
       }
     },
     {
@@ -472,19 +472,19 @@
         "self-hosted"
       ],
       "meta": {
-        "stars": 86002,
-        "lastUpdated": "2026-11-22T23:01:00Z",
-        "fetchedAt": "2026-11-22T23:03:07.993Z",
-        "forks": 16350,
-        "lastCommit": "2026-11-22T20:40:33Z",
-        "watchers": 306,
-        "openIssues": 1462,
+        "stars": 86062,
+        "lastUpdated": "2026-11-24T03:13:40Z",
+        "fetchedAt": "2026-11-24T03:41:16.106Z",
+        "forks": 16354,
+        "lastCommit": "2026-11-24T03:24:11Z",
+        "watchers": 301,
+        "openIssues": 1451,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "canary",
         "createdAt": "2023-05-21T07:19:12Z",
-        "lastFetchAttempt": "2026-11-22T23:03:07.733Z"
+        "lastFetchAttempt": "2026-11-24T03:41:15.764Z"
       }
     },
     {
@@ -519,7 +519,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-04-28T19:40:42Z",
-        "lastFetchAttempt": "2026-11-22T23:03:08.094Z",
+        "lastFetchAttempt": "2026-11-24T03:41:16.207Z",
         "fetchError": "HTTP 404: Not Found - https://docs.github.com/rest/repos/repos#get-a-repository"
       }
     },
@@ -542,19 +542,19 @@
         "pytorch"
       ],
       "meta": {
-        "stars": 34965,
-        "lastUpdated": "2026-11-22T19:01:51Z",
-        "fetchedAt": "2026-11-22T23:03:08.642Z",
-        "forks": 7507,
-        "lastCommit": "2026-11-22T10:31:46Z",
-        "watchers": 227,
-        "openIssues": 1631,
+        "stars": 34968,
+        "lastUpdated": "2026-11-23T19:26:24Z",
+        "fetchedAt": "2026-11-24T03:41:16.869Z",
+        "forks": 7510,
+        "lastCommit": "2026-11-24T03:36:44Z",
+        "watchers": 224,
+        "openIssues": 1635,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-05-30T16:04:02Z",
-        "lastFetchAttempt": "2026-11-22T23:03:08.366Z"
+        "lastFetchAttempt": "2026-11-24T03:41:16.558Z"
       }
     },
     {
@@ -575,19 +575,19 @@
         "rag"
       ],
       "meta": {
-        "stars": 78779,
-        "lastUpdated": "2026-11-22T21:16:01Z",
-        "fetchedAt": "2026-11-22T23:03:09.023Z",
-        "forks": 26151,
-        "lastCommit": "2026-11-22T23:02:48Z",
-        "watchers": 2633,
-        "openIssues": 6686,
+        "stars": 78719,
+        "lastUpdated": "2026-11-24T02:22:27Z",
+        "fetchedAt": "2026-11-24T03:41:17.273Z",
+        "forks": 26147,
+        "lastCommit": "2026-11-24T03:27:46Z",
+        "watchers": 2631,
+        "openIssues": 6641,
         "language": "Java",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2010-02-08T13:20:56Z",
-        "lastFetchAttempt": "2026-11-22T23:03:08.742Z"
+        "lastFetchAttempt": "2026-11-24T03:41:16.968Z"
       }
     },
     {
@@ -608,19 +608,19 @@
         "deep-learning"
       ],
       "meta": {
-        "stars": 8861,
-        "lastUpdated": "2026-11-22T20:08:08Z",
-        "fetchedAt": "2026-11-22T23:03:09.471Z",
-        "forks": 1727,
-        "lastCommit": "2026-11-18T15:55:38Z",
+        "stars": 8862,
+        "lastUpdated": "2026-11-23T20:01:10Z",
+        "fetchedAt": "2026-11-24T03:41:17.671Z",
+        "forks": 1732,
+        "lastCommit": "2026-11-23T22:41:34Z",
         "watchers": 105,
-        "openIssues": 558,
+        "openIssues": 578,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "dev",
         "createdAt": "2019-10-11T16:41:38Z",
-        "lastFetchAttempt": "2026-11-22T23:03:09.124Z"
+        "lastFetchAttempt": "2026-11-24T03:41:17.373Z"
       }
     },
     {
@@ -641,10 +641,10 @@
         "perception"
       ],
       "meta": {
-        "stars": 26916,
-        "lastUpdated": "2026-11-21T13:46:24Z",
-        "fetchedAt": "2026-11-22T23:03:09.832Z",
-        "forks": 9962,
+        "stars": 26912,
+        "lastUpdated": "2026-11-24T03:34:32Z",
+        "fetchedAt": "2026-11-24T03:41:18.137Z",
+        "forks": 9961,
         "lastCommit": "2026-04-16T12:24:54Z",
         "watchers": 1092,
         "openIssues": 1050,
@@ -653,7 +653,7 @@
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2017-07-04T19:03:31Z",
-        "lastFetchAttempt": "2026-11-22T23:03:09.570Z"
+        "lastFetchAttempt": "2026-11-24T03:41:17.770Z"
       }
     },
     {
@@ -674,10 +674,10 @@
         "multilingual"
       ],
       "meta": {
-        "stars": 38305,
-        "lastUpdated": "2026-11-22T19:33:42Z",
-        "fetchedAt": "2026-11-22T23:03:10.245Z",
-        "forks": 4297,
+        "stars": 38314,
+        "lastUpdated": "2026-11-24T03:34:55Z",
+        "fetchedAt": "2026-11-24T03:41:18.527Z",
+        "forks": 4299,
         "lastCommit": "2025-04-19T16:00:00Z",
         "watchers": 264,
         "openIssues": 317,
@@ -686,7 +686,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-11-29T12:17:01Z",
-        "lastFetchAttempt": "2026-11-22T23:03:09.933Z"
+        "lastFetchAttempt": "2026-11-24T03:41:18.236Z"
       }
     },
     {
@@ -705,10 +705,10 @@
         "typo-tolerant"
       ],
       "meta": {
-        "stars": 59964,
+        "stars": 59979,
         "forks": 2797,
-        "lastUpdated": "2026-11-22T22:31:20Z",
-        "fetchedAt": "2026-11-22T23:03:10.605Z",
+        "lastUpdated": "2026-11-24T01:50:27Z",
+        "fetchedAt": "2026-11-24T03:41:18.987Z",
         "watchers": 292,
         "openIssues": 322,
         "language": "Rust",
@@ -716,8 +716,8 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2018-04-23T11:45:28Z",
-        "lastCommit": "2026-11-20T09:32:29Z",
-        "lastFetchAttempt": "2026-11-22T23:03:10.345Z"
+        "lastCommit": "2026-11-23T10:25:20Z",
+        "lastFetchAttempt": "2026-11-24T03:41:18.628Z"
       }
     },
     {
@@ -736,19 +736,19 @@
         "cpp"
       ],
       "meta": {
-        "stars": 27164,
-        "forks": 1036,
-        "lastUpdated": "2026-11-22T14:30:09Z",
-        "fetchedAt": "2026-11-22T23:03:11.034Z",
+        "stars": 27168,
+        "forks": 1035,
+        "lastUpdated": "2026-11-23T18:13:22Z",
+        "fetchedAt": "2026-11-24T03:41:19.350Z",
         "watchers": 137,
-        "openIssues": 940,
+        "openIssues": 944,
         "language": "C++",
         "archived": false,
         "disabled": false,
         "defaultBranch": "v31",
         "createdAt": "2017-01-18T08:01:47Z",
-        "lastCommit": "2026-11-20T06:18:49Z",
-        "lastFetchAttempt": "2026-11-22T23:03:10.705Z"
+        "lastCommit": "2026-11-23T12:51:56Z",
+        "lastFetchAttempt": "2026-11-24T03:41:19.088Z"
       }
     },
     {
@@ -767,19 +767,19 @@
         "real-time"
       ],
       "meta": {
-        "stars": 7196,
-        "forks": 752,
-        "lastUpdated": "2026-11-22T17:37:45Z",
-        "fetchedAt": "2026-11-22T23:03:11.384Z",
+        "stars": 7198,
+        "forks": 753,
+        "lastUpdated": "2026-11-23T13:00:01Z",
+        "fetchedAt": "2026-11-24T03:41:19.747Z",
         "watchers": 163,
-        "openIssues": 271,
+        "openIssues": 277,
         "language": "Java",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2016-06-03T20:54:20Z",
-        "lastCommit": "2026-11-22T17:01:59Z",
-        "lastFetchAttempt": "2026-11-22T23:03:11.133Z"
+        "lastCommit": "2026-11-24T01:20:58Z",
+        "lastFetchAttempt": "2026-11-24T03:41:19.450Z"
       }
     },
     {
@@ -798,10 +798,10 @@
         "materials-science"
       ],
       "meta": {
-        "stars": 7154,
-        "forks": 2414,
-        "lastUpdated": "2026-11-22T12:24:15Z",
-        "fetchedAt": "2026-11-22T23:03:11.771Z",
+        "stars": 7156,
+        "forks": 2416,
+        "lastUpdated": "2026-11-23T14:03:40Z",
+        "fetchedAt": "2026-11-24T03:41:20.218Z",
         "watchers": 141,
         "openIssues": 1299,
         "language": "Python",
@@ -810,7 +810,7 @@
         "defaultBranch": "master",
         "createdAt": "2015-09-24T23:20:28Z",
         "lastCommit": "2026-08-20T19:01:34Z",
-        "lastFetchAttempt": "2026-11-22T23:03:11.484Z"
+        "lastFetchAttempt": "2026-11-24T03:41:19.847Z"
       }
     },
     {
@@ -832,7 +832,7 @@
         "stars": 4477,
         "forks": 486,
         "lastUpdated": "2026-11-21T20:15:01Z",
-        "fetchedAt": "2026-11-22T23:03:12.246Z",
+        "fetchedAt": "2026-11-24T03:41:20.646Z",
         "watchers": 76,
         "openIssues": 75,
         "language": "Python",
@@ -841,7 +841,7 @@
         "defaultBranch": "main",
         "createdAt": "2022-08-15T05:55:55Z",
         "lastCommit": "2024-07-25T10:33:53Z",
-        "lastFetchAttempt": "2026-11-22T23:03:11.872Z"
+        "lastFetchAttempt": "2026-11-24T03:41:20.317Z"
       }
     },
     {
@@ -860,11 +860,11 @@
         "txt2img"
       ],
       "meta": {
-        "stars": 165372,
-        "forks": 31081,
-        "lastUpdated": "2026-11-22T22:09:22Z",
-        "fetchedAt": "2026-11-22T23:03:12.577Z",
-        "watchers": 1253,
+        "stars": 165371,
+        "forks": 31068,
+        "lastUpdated": "2026-11-24T02:10:00Z",
+        "fetchedAt": "2026-11-24T03:41:21.009Z",
+        "watchers": 1246,
         "openIssues": 2511,
         "language": "Python",
         "archived": false,
@@ -872,7 +872,7 @@
         "defaultBranch": "master",
         "createdAt": "2022-08-22T14:05:26Z",
         "lastCommit": "2026-03-02T07:00:53Z",
-        "lastFetchAttempt": "2026-11-22T23:03:12.347Z"
+        "lastFetchAttempt": "2026-11-24T03:41:20.746Z"
       }
     },
     {
@@ -891,19 +891,19 @@
         "art"
       ],
       "meta": {
-        "stars": 29145,
-        "forks": 3130,
-        "lastUpdated": "2026-11-22T22:58:02Z",
-        "fetchedAt": "2026-11-22T23:03:12.878Z",
+        "stars": 29150,
+        "forks": 3131,
+        "lastUpdated": "2026-11-24T03:15:40Z",
+        "fetchedAt": "2026-11-24T03:41:21.478Z",
         "watchers": 209,
-        "openIssues": 336,
+        "openIssues": 322,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-08-17T01:04:27Z",
-        "lastCommit": "2026-11-22T22:53:09Z",
-        "lastFetchAttempt": "2026-11-22T23:03:12.677Z"
+        "lastCommit": "2026-11-24T02:22:00Z",
+        "lastFetchAttempt": "2026-11-24T03:41:21.109Z"
       }
     },
     {
@@ -922,10 +922,10 @@
         "sora"
       ],
       "meta": {
-        "stars": 29947,
-        "forks": 3100,
-        "lastUpdated": "2026-11-22T19:46:07Z",
-        "fetchedAt": "2026-11-22T23:03:13.226Z",
+        "stars": 29950,
+        "forks": 3101,
+        "lastUpdated": "2026-11-23T21:29:22Z",
+        "fetchedAt": "2026-11-24T03:41:21.883Z",
         "watchers": 241,
         "openIssues": 15,
         "language": "Python",
@@ -934,7 +934,7 @@
         "defaultBranch": "main",
         "createdAt": "2024-02-20T03:01:34Z",
         "lastCommit": "2026-04-09T01:52:40Z",
-        "lastFetchAttempt": "2026-11-22T23:03:12.978Z"
+        "lastFetchAttempt": "2026-11-24T03:41:21.578Z"
       }
     },
     {
@@ -953,19 +953,19 @@
         "llm"
       ],
       "meta": {
-        "stars": 121771,
-        "forks": 13603,
-        "lastUpdated": "2026-11-22T22:55:44Z",
-        "fetchedAt": "2026-11-22T23:03:13.602Z",
-        "watchers": 475,
-        "openIssues": 596,
+        "stars": 121877,
+        "forks": 13625,
+        "lastUpdated": "2026-11-24T03:30:20Z",
+        "fetchedAt": "2026-11-24T03:41:22.290Z",
+        "watchers": 473,
+        "openIssues": 585,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-10-31T16:00:56Z",
         "lastCommit": "2026-11-22T03:44:56Z",
-        "lastFetchAttempt": "2026-11-22T23:03:13.325Z"
+        "lastFetchAttempt": "2026-11-24T03:41:21.982Z"
       }
     },
     {
@@ -986,19 +986,19 @@
         "cross-platform"
       ],
       "meta": {
-        "stars": 395056,
-        "lastUpdated": "2026-11-22T23:00:15Z",
-        "fetchedAt": "2026-11-22T23:03:13.941Z",
-        "forks": 82956,
-        "lastCommit": "2026-11-22T23:03:03Z",
-        "watchers": 1694,
-        "openIssues": 8925,
+        "stars": 395125,
+        "lastUpdated": "2026-11-24T03:35:01Z",
+        "fetchedAt": "2026-11-24T03:41:22.694Z",
+        "forks": 82968,
+        "lastCommit": "2026-11-24T03:40:55Z",
+        "watchers": 1693,
+        "openIssues": 8968,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-11-24T10:16:47Z",
-        "lastFetchAttempt": "2026-11-22T23:03:13.703Z"
+        "lastFetchAttempt": "2026-11-24T03:41:22.390Z"
       }
     },
     {
@@ -1020,19 +1020,19 @@
         "local"
       ],
       "meta": {
-        "stars": 34433,
-        "lastUpdated": "2026-11-22T21:25:43Z",
-        "fetchedAt": "2026-11-22T23:03:14.279Z",
-        "forks": 3600,
+        "stars": 34465,
+        "lastUpdated": "2026-11-24T03:05:03Z",
+        "fetchedAt": "2026-11-24T03:41:23.125Z",
+        "forks": 3604,
         "lastCommit": "2026-11-05T05:31:20Z",
         "watchers": 144,
-        "openIssues": 907,
+        "openIssues": 906,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-08-07T10:29:51Z",
-        "lastFetchAttempt": "2026-11-22T23:03:14.042Z"
+        "lastFetchAttempt": "2026-11-24T03:41:22.793Z"
       }
     },
     {
@@ -1058,11 +1058,11 @@
         "ui-components"
       ],
       "meta": {
-        "stars": 11222,
+        "stars": 11225,
         "forks": 578,
-        "lastUpdated": "2026-11-22T00:21:12Z",
-        "lastCommit": "2026-11-22T02:04:39Z",
-        "fetchedAt": "2026-11-22T23:03:14.626Z",
+        "lastUpdated": "2026-11-23T20:06:35Z",
+        "lastCommit": "2026-11-22T23:10:18Z",
+        "fetchedAt": "2026-11-24T03:41:23.548Z",
         "watchers": 30,
         "openIssues": 58,
         "language": "TypeScript",
@@ -1070,7 +1070,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-06-15T17:11:37Z",
-        "lastFetchAttempt": "2026-11-22T23:03:14.379Z"
+        "lastFetchAttempt": "2026-11-24T03:41:23.226Z"
       }
     },
     {
@@ -1093,18 +1093,18 @@
       ],
       "meta": {
         "stars": 2630,
-        "forks": 749,
+        "forks": 750,
         "lastUpdated": "2026-11-22T16:22:22Z",
-        "lastCommit": "2026-11-22T07:12:29Z",
-        "fetchedAt": "2026-11-22T23:03:15.013Z",
+        "lastCommit": "2026-11-24T02:54:28Z",
+        "fetchedAt": "2026-11-24T03:41:23.912Z",
         "watchers": 34,
-        "openIssues": 331,
+        "openIssues": 328,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2021-07-12T23:15:48Z",
-        "lastFetchAttempt": "2026-11-22T23:03:14.726Z"
+        "lastFetchAttempt": "2026-11-24T03:41:23.647Z"
       }
     },
     {
@@ -1130,19 +1130,19 @@
         "webscraping"
       ],
       "meta": {
-        "stars": 30863,
-        "forks": 4253,
-        "lastUpdated": "2026-11-22T19:53:31Z",
-        "lastCommit": "2026-11-22T20:36:30Z",
-        "fetchedAt": "2026-11-22T23:03:15.355Z",
-        "watchers": 170,
-        "openIssues": 14,
+        "stars": 30882,
+        "forks": 4259,
+        "lastUpdated": "2026-11-24T02:47:46Z",
+        "lastCommit": "2026-11-23T14:51:56Z",
+        "fetchedAt": "2026-11-24T03:41:24.315Z",
+        "watchers": 169,
+        "openIssues": 20,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-05-12T10:33:54Z",
-        "lastFetchAttempt": "2026-11-22T23:03:15.113Z"
+        "lastFetchAttempt": "2026-11-24T03:41:24.012Z"
       }
     },
     {
@@ -1162,19 +1162,19 @@
         "trading"
       ],
       "meta": {
-        "stars": 123503,
-        "forks": 23655,
-        "lastUpdated": "2026-11-22T22:55:10Z",
+        "stars": 123624,
+        "forks": 23677,
+        "lastUpdated": "2026-11-24T03:29:09Z",
         "lastCommit": "2026-11-17T03:59:28Z",
-        "fetchedAt": "2026-11-22T23:03:15.708Z",
-        "watchers": 922,
+        "fetchedAt": "2026-11-24T03:41:24.700Z",
+        "watchers": 926,
         "openIssues": 161,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-12-28T03:31:08Z",
-        "lastFetchAttempt": "2026-11-22T23:03:15.455Z"
+        "lastFetchAttempt": "2026-11-24T03:41:24.414Z"
       }
     },
     {
@@ -1200,7 +1200,7 @@
         "forks": 522,
         "lastUpdated": "2026-11-21T22:36:04Z",
         "lastCommit": "2026-08-16T15:45:25Z",
-        "fetchedAt": "2026-11-22T23:03:16.050Z",
+        "fetchedAt": "2026-11-24T03:41:25.124Z",
         "watchers": 46,
         "openIssues": 30,
         "language": "Python",
@@ -1208,7 +1208,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-04-07T17:45:48Z",
-        "lastFetchAttempt": "2026-11-22T23:03:15.808Z"
+        "lastFetchAttempt": "2026-11-24T03:41:24.800Z"
       }
     },
     {
@@ -1237,19 +1237,19 @@
         "trading-tasks"
       ],
       "meta": {
-        "stars": 17172,
-        "forks": 3666,
-        "lastUpdated": "2026-11-22T22:49:06Z",
+        "stars": 17175,
+        "forks": 3664,
+        "lastUpdated": "2026-11-23T14:50:51Z",
         "lastCommit": "2026-11-18T13:36:53Z",
-        "fetchedAt": "2026-11-22T23:03:16.403Z",
+        "fetchedAt": "2026-11-24T03:41:25.502Z",
         "watchers": 232,
-        "openIssues": 329,
+        "openIssues": 327,
         "language": "Jupyter Notebook",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2020-07-26T13:18:16Z",
-        "lastFetchAttempt": "2026-11-22T23:03:16.151Z"
+        "lastFetchAttempt": "2026-11-24T03:41:25.224Z"
       }
     },
     {
@@ -1267,19 +1267,19 @@
         "robotics"
       ],
       "meta": {
-        "stars": 64209,
-        "forks": 11403,
-        "lastUpdated": "2026-11-22T22:21:49Z",
-        "lastCommit": "2026-11-22T21:47:55Z",
-        "fetchedAt": "2026-11-22T23:03:17.178Z",
-        "watchers": 1317,
+        "stars": 64220,
+        "forks": 11407,
+        "lastUpdated": "2026-11-24T02:29:21Z",
+        "lastCommit": "2026-11-24T03:13:15Z",
+        "fetchedAt": "2026-11-24T03:41:25.869Z",
+        "watchers": 1315,
         "openIssues": 141,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2016-11-24T01:33:30Z",
-        "lastFetchAttempt": "2026-11-22T23:03:16.504Z"
+        "lastFetchAttempt": "2026-11-24T03:41:25.602Z"
       }
     },
     {
@@ -1313,19 +1313,19 @@
         "webui"
       ],
       "meta": {
-        "stars": 88987,
-        "forks": 58448,
-        "lastUpdated": "2026-11-22T22:47:06Z",
+        "stars": 88986,
+        "forks": 58443,
+        "lastUpdated": "2026-11-24T03:34:49Z",
         "lastCommit": "2026-10-20T10:19:31Z",
-        "fetchedAt": "2026-11-22T23:03:17.530Z",
+        "fetchedAt": "2026-11-24T03:41:26.285Z",
         "watchers": 489,
-        "openIssues": 868,
+        "openIssues": 869,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-03-10T18:27:54Z",
-        "lastFetchAttempt": "2026-11-22T23:03:17.278Z"
+        "lastFetchAttempt": "2026-11-24T03:41:25.970Z"
       }
     },
     {
@@ -1352,11 +1352,11 @@
         "vercel-ai-sdk"
       ],
       "meta": {
-        "stars": 9353,
-        "forks": 2376,
-        "lastUpdated": "2026-11-22T18:01:09Z",
-        "lastCommit": "2026-11-19T02:56:13Z",
-        "fetchedAt": "2026-11-22T23:03:17.924Z",
+        "stars": 9354,
+        "forks": 2378,
+        "lastUpdated": "2026-11-23T21:10:32Z",
+        "lastCommit": "2026-11-23T01:03:31Z",
+        "fetchedAt": "2026-11-24T03:41:26.740Z",
         "watchers": 64,
         "openIssues": 52,
         "language": "TypeScript",
@@ -1364,7 +1364,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-04-05T13:55:29Z",
-        "lastFetchAttempt": "2026-11-22T23:03:17.631Z"
+        "lastFetchAttempt": "2026-11-24T03:41:26.384Z"
       }
     },
     {
@@ -1395,19 +1395,19 @@
         "webui"
       ],
       "meta": {
-        "stars": 38104,
-        "forks": 3306,
-        "lastUpdated": "2026-11-22T22:12:32Z",
-        "lastCommit": "2026-11-20T10:01:55Z",
-        "fetchedAt": "2026-11-22T23:03:18.263Z",
+        "stars": 38138,
+        "forks": 3309,
+        "lastUpdated": "2026-11-24T03:08:13Z",
+        "lastCommit": "2026-11-24T02:47:59Z",
+        "fetchedAt": "2026-11-24T03:41:27.090Z",
         "watchers": 111,
-        "openIssues": 1162,
+        "openIssues": 1170,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2026-02-24T03:42:56Z",
-        "lastFetchAttempt": "2026-11-22T23:03:18.024Z"
+        "lastFetchAttempt": "2026-11-24T03:41:26.841Z"
       }
     },
     {
@@ -1436,19 +1436,19 @@
         "vector-search"
       ],
       "meta": {
-        "stars": 33503,
-        "forks": 4770,
-        "lastUpdated": "2026-11-22T19:52:00Z",
-        "lastCommit": "2026-11-22T17:01:18Z",
-        "fetchedAt": "2026-11-22T23:03:18.618Z",
+        "stars": 33519,
+        "forks": 4771,
+        "lastUpdated": "2026-11-24T03:16:54Z",
+        "lastCommit": "2026-11-24T02:58:47Z",
+        "fetchedAt": "2026-11-24T03:41:27.492Z",
         "watchers": 154,
-        "openIssues": 700,
+        "openIssues": 703,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-04-27T06:04:01Z",
-        "lastFetchAttempt": "2026-11-22T23:03:18.363Z"
+        "lastFetchAttempt": "2026-11-24T03:41:27.190Z"
       }
     },
     {
@@ -1475,19 +1475,19 @@
         "openai"
       ],
       "meta": {
-        "stars": 42486,
-        "forks": 4359,
-        "lastUpdated": "2026-11-22T20:19:11Z",
+        "stars": 42510,
+        "forks": 4364,
+        "lastUpdated": "2026-11-24T03:20:12Z",
         "lastCommit": "2026-11-18T03:40:30Z",
-        "fetchedAt": "2026-11-22T23:03:18.954Z",
+        "fetchedAt": "2026-11-24T03:41:27.894Z",
         "watchers": 218,
-        "openIssues": 1378,
+        "openIssues": 1380,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-03-06T12:22:15Z",
-        "lastFetchAttempt": "2026-11-22T23:03:18.718Z"
+        "lastFetchAttempt": "2026-11-24T03:41:27.591Z"
       }
     },
     {
@@ -1504,19 +1504,19 @@
         "search-engine"
       ],
       "meta": {
-        "stars": 16465,
-        "forks": 1056,
-        "lastUpdated": "2026-11-22T22:39:07Z",
-        "lastCommit": "2026-11-18T14:03:16Z",
-        "fetchedAt": "2026-11-22T23:03:19.296Z",
-        "watchers": 138,
-        "openIssues": 530,
+        "stars": 16469,
+        "forks": 1058,
+        "lastUpdated": "2026-11-24T02:29:59Z",
+        "lastCommit": "2026-11-23T20:03:18Z",
+        "fetchedAt": "2026-11-24T03:41:28.342Z",
+        "watchers": 137,
+        "openIssues": 533,
         "language": "Rust",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2016-01-11T08:32:16Z",
-        "lastFetchAttempt": "2026-11-22T23:03:19.054Z"
+        "lastFetchAttempt": "2026-11-24T03:41:27.994Z"
       }
     },
     {
@@ -1537,19 +1537,19 @@
         "search-engine"
       ],
       "meta": {
-        "stars": 14051,
-        "forks": 3024,
-        "lastUpdated": "2026-11-22T23:02:15Z",
-        "lastCommit": "2026-11-22T04:19:27Z",
-        "fetchedAt": "2026-11-22T23:03:19.676Z",
-        "watchers": 179,
-        "openIssues": 3390,
+        "stars": 14063,
+        "forks": 3025,
+        "lastUpdated": "2026-11-24T01:22:20Z",
+        "lastCommit": "2026-11-24T03:02:37Z",
+        "fetchedAt": "2026-11-24T03:41:28.788Z",
+        "watchers": 178,
+        "openIssues": 3394,
         "language": "Java",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2021-01-29T22:10:00Z",
-        "lastFetchAttempt": "2026-11-22T23:03:19.396Z"
+        "lastFetchAttempt": "2026-11-24T03:41:28.443Z"
       }
     },
     {
@@ -1575,19 +1575,19 @@
         "python"
       ],
       "meta": {
-        "stars": 188136,
-        "forks": 45825,
-        "lastUpdated": "2026-11-22T22:52:43Z",
-        "lastCommit": "2026-11-22T22:45:04Z",
-        "fetchedAt": "2026-11-22T23:03:19.999Z",
-        "watchers": 1526,
-        "openIssues": 808,
+        "stars": 188155,
+        "forks": 45823,
+        "lastUpdated": "2026-11-24T03:34:50Z",
+        "lastCommit": "2026-11-24T03:39:04Z",
+        "fetchedAt": "2026-11-24T03:41:29.240Z",
+        "watchers": 1524,
+        "openIssues": 834,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2023-03-16T09:21:07Z",
-        "lastFetchAttempt": "2026-11-22T23:03:19.777Z"
+        "lastFetchAttempt": "2026-11-24T03:41:28.888Z"
       }
     },
     {
@@ -1624,17 +1624,17 @@
       "meta": {
         "stars": 4492,
         "forks": 483,
-        "lastUpdated": "2026-11-22T07:05:51Z",
-        "lastCommit": "2026-11-22T22:50:56Z",
-        "fetchedAt": "2026-11-22T23:03:20.325Z",
-        "watchers": 40,
-        "openIssues": 15,
+        "lastUpdated": "2026-11-24T02:48:24Z",
+        "lastCommit": "2026-11-24T03:18:32Z",
+        "fetchedAt": "2026-11-24T03:41:29.627Z",
+        "watchers": 39,
+        "openIssues": 21,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2023-03-24T16:25:01Z",
-        "lastFetchAttempt": "2026-11-22T23:03:20.100Z"
+        "lastFetchAttempt": "2026-11-24T03:41:29.339Z"
       }
     },
     {
@@ -1668,10 +1668,10 @@
       ],
       "meta": {
         "stars": 7167,
-        "forks": 1602,
+        "forks": 1601,
         "lastUpdated": "2026-11-22T02:08:33Z",
-        "lastCommit": "2026-11-20T20:52:51Z",
-        "fetchedAt": "2026-11-22T23:03:20.656Z",
+        "lastCommit": "2026-11-24T03:25:27Z",
+        "fetchedAt": "2026-11-24T03:41:30.007Z",
         "watchers": 70,
         "openIssues": 194,
         "language": "TypeScript",
@@ -1679,7 +1679,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-03-19T04:50:47Z",
-        "lastFetchAttempt": "2026-11-22T23:03:20.426Z"
+        "lastFetchAttempt": "2026-11-24T03:41:29.727Z"
       }
     },
     {
@@ -1704,19 +1704,19 @@
         "vercel-ai-sdk"
       ],
       "meta": {
-        "stars": 13374,
-        "forks": 1361,
-        "lastUpdated": "2026-11-22T19:01:31Z",
-        "lastCommit": "2026-11-22T22:25:16Z",
-        "fetchedAt": "2026-11-22T23:03:21.012Z",
+        "stars": 13388,
+        "forks": 1363,
+        "lastUpdated": "2026-11-24T03:40:36Z",
+        "lastCommit": "2026-11-24T02:57:15Z",
+        "fetchedAt": "2026-11-24T03:41:30.413Z",
         "watchers": 82,
-        "openIssues": 32,
+        "openIssues": 35,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-11-22T16:01:17Z",
-        "lastFetchAttempt": "2026-11-22T23:03:20.756Z"
+        "lastFetchAttempt": "2026-11-24T03:41:30.107Z"
       }
     },
     {
@@ -1751,19 +1751,19 @@
         "transformers"
       ],
       "meta": {
-        "stars": 18373,
-        "forks": 2257,
-        "lastUpdated": "2026-11-22T17:54:55Z",
-        "lastCommit": "2026-11-22T17:09:04Z",
-        "fetchedAt": "2026-11-22T23:03:21.379Z",
+        "stars": 18380,
+        "forks": 2258,
+        "lastUpdated": "2026-11-23T22:53:17Z",
+        "lastCommit": "2026-11-23T19:07:00Z",
+        "fetchedAt": "2026-11-24T03:41:30.795Z",
         "watchers": 96,
-        "openIssues": 85,
+        "openIssues": 81,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-02-02T11:03:23Z",
-        "lastFetchAttempt": "2026-11-22T23:03:21.112Z"
+        "lastFetchAttempt": "2026-11-24T03:41:30.513Z"
       }
     },
     {
@@ -1787,19 +1787,19 @@
         "pull-requests"
       ],
       "meta": {
-        "stars": 16568,
-        "forks": 2239,
-        "lastUpdated": "2026-11-22T22:59:06Z",
-        "lastCommit": "2026-11-22T19:43:09Z",
-        "fetchedAt": "2026-11-22T23:03:21.744Z",
+        "stars": 16603,
+        "forks": 2241,
+        "lastUpdated": "2026-11-24T02:32:01Z",
+        "lastCommit": "2026-11-23T23:17:28Z",
+        "fetchedAt": "2026-11-24T03:41:33.298Z",
         "watchers": 63,
-        "openIssues": 41,
+        "openIssues": 43,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-07-05T21:02:15Z",
-        "lastFetchAttempt": "2026-11-22T23:03:21.479Z"
+        "lastFetchAttempt": "2026-11-24T03:41:30.894Z"
       }
     },
     {
@@ -1813,11 +1813,11 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 4336,
+        "stars": 4339,
         "forks": 576,
-        "lastUpdated": "2026-11-22T06:22:33Z",
+        "lastUpdated": "2026-11-23T05:27:54Z",
         "lastCommit": "2026-06-19T01:27:27Z",
-        "fetchedAt": "2026-11-22T23:03:22.056Z",
+        "fetchedAt": "2026-11-24T03:41:33.701Z",
         "watchers": 51,
         "openIssues": 58,
         "language": "Jupyter Notebook",
@@ -1825,7 +1825,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-02-13T23:19:47Z",
-        "lastFetchAttempt": "2026-11-22T23:03:21.844Z"
+        "lastFetchAttempt": "2026-11-24T03:41:33.398Z"
       }
     },
     {
@@ -1848,11 +1848,11 @@
         "openai"
       ],
       "meta": {
-        "stars": 11251,
-        "forks": 1327,
-        "lastUpdated": "2026-11-22T19:06:57Z",
-        "lastCommit": "2026-11-22T22:18:27Z",
-        "fetchedAt": "2026-11-22T23:03:22.418Z",
+        "stars": 11253,
+        "forks": 1326,
+        "lastUpdated": "2026-11-23T20:53:04Z",
+        "lastCommit": "2026-11-24T02:45:26Z",
+        "fetchedAt": "2026-11-24T03:41:34.200Z",
         "watchers": 45,
         "openIssues": 0,
         "language": "Python",
@@ -1860,7 +1860,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-05-21T21:44:24Z",
-        "lastFetchAttempt": "2026-11-22T23:03:22.156Z"
+        "lastFetchAttempt": "2026-11-24T03:41:33.800Z"
       }
     },
     {
@@ -1882,19 +1882,19 @@
         "mcp"
       ],
       "meta": {
-        "stars": 13207,
-        "forks": 1654,
-        "lastUpdated": "2026-11-22T22:43:58Z",
-        "lastCommit": "2026-11-22T22:41:48Z",
-        "fetchedAt": "2026-11-22T23:03:22.777Z",
-        "watchers": 47,
-        "openIssues": 164,
+        "stars": 13326,
+        "forks": 1662,
+        "lastUpdated": "2026-11-24T03:40:55Z",
+        "lastCommit": "2026-11-24T03:40:49Z",
+        "fetchedAt": "2026-11-24T03:41:34.595Z",
+        "watchers": 46,
+        "openIssues": 171,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2026-08-17T00:44:59Z",
-        "lastFetchAttempt": "2026-11-22T23:03:22.519Z"
+        "lastFetchAttempt": "2026-11-24T03:41:34.300Z"
       }
     },
     {
@@ -1914,19 +1914,19 @@
         "optimization"
       ],
       "meta": {
-        "stars": 4019,
-        "forks": 522,
-        "lastUpdated": "2026-11-22T19:32:18Z",
-        "lastCommit": "2026-11-22T21:08:27Z",
-        "fetchedAt": "2026-11-22T23:03:23.079Z",
-        "watchers": 39,
-        "openIssues": 244,
+        "stars": 4028,
+        "forks": 523,
+        "lastUpdated": "2026-11-24T02:51:30Z",
+        "lastCommit": "2026-11-23T22:02:42Z",
+        "fetchedAt": "2026-11-24T03:41:34.975Z",
+        "watchers": 38,
+        "openIssues": 250,
         "language": "C++",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2023-07-30T19:55:48Z",
-        "lastFetchAttempt": "2026-11-22T23:03:22.877Z"
+        "lastFetchAttempt": "2026-11-24T03:41:34.695Z"
       }
     },
     {
@@ -1949,19 +1949,19 @@
         "stateful-agents"
       ],
       "meta": {
-        "stars": 3895,
-        "forks": 484,
-        "lastUpdated": "2026-11-22T18:11:47Z",
-        "lastCommit": "2026-11-22T20:19:03Z",
-        "fetchedAt": "2026-11-22T23:03:23.436Z",
+        "stars": 3902,
+        "forks": 485,
+        "lastUpdated": "2026-11-24T02:25:44Z",
+        "lastCommit": "2026-11-24T02:57:47Z",
+        "fetchedAt": "2026-11-24T03:41:35.367Z",
         "watchers": 17,
-        "openIssues": 409,
+        "openIssues": 411,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-10-25T04:17:51Z",
-        "lastFetchAttempt": "2026-11-22T23:03:23.179Z"
+        "lastFetchAttempt": "2026-11-24T03:41:35.075Z"
       }
     },
     {
@@ -1997,10 +1997,10 @@
       ],
       "meta": {
         "stars": 3751,
-        "forks": 459,
+        "forks": 460,
         "lastUpdated": "2026-11-22T07:05:19Z",
-        "lastCommit": "2026-11-22T17:10:01Z",
-        "fetchedAt": "2026-11-22T23:03:23.785Z",
+        "lastCommit": "2026-11-23T14:53:31Z",
+        "fetchedAt": "2026-11-24T03:41:35.739Z",
         "watchers": 40,
         "openIssues": 46,
         "language": "TypeScript",
@@ -2008,7 +2008,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-02-19T19:44:18Z",
-        "lastFetchAttempt": "2026-11-22T23:03:23.536Z"
+        "lastFetchAttempt": "2026-11-24T03:41:35.467Z"
       }
     },
     {
@@ -2035,19 +2035,19 @@
         "vscode-extension"
       ],
       "meta": {
-        "stars": 28088,
-        "forks": 3388,
-        "lastUpdated": "2026-11-22T21:54:11Z",
-        "lastCommit": "2026-11-22T22:35:25Z",
-        "fetchedAt": "2026-11-22T23:03:24.108Z",
+        "stars": 28100,
+        "forks": 3390,
+        "lastUpdated": "2026-11-24T02:01:59Z",
+        "lastCommit": "2026-11-23T20:34:33Z",
+        "fetchedAt": "2026-11-24T03:41:36.160Z",
         "watchers": 114,
-        "openIssues": 969,
+        "openIssues": 966,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-03-10T15:34:26Z",
-        "lastFetchAttempt": "2026-11-22T23:03:23.885Z"
+        "lastFetchAttempt": "2026-11-24T03:41:35.840Z"
       }
     },
     {
@@ -2073,19 +2073,19 @@
         "retrieval-augmented-generation"
       ],
       "meta": {
-        "stars": 6177,
-        "forks": 530,
-        "lastUpdated": "2026-11-22T23:02:34Z",
-        "lastCommit": "2026-11-20T07:39:41Z",
-        "fetchedAt": "2026-11-22T23:03:24.477Z",
+        "stars": 6263,
+        "forks": 536,
+        "lastUpdated": "2026-11-24T03:12:12Z",
+        "lastCommit": "2026-11-23T09:54:37Z",
+        "fetchedAt": "2026-11-24T03:41:36.569Z",
         "watchers": 40,
-        "openIssues": 92,
+        "openIssues": 96,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-01-10T12:25:00Z",
-        "lastFetchAttempt": "2026-11-22T23:03:24.209Z"
+        "lastFetchAttempt": "2026-11-24T03:41:36.261Z"
       }
     },
     {
@@ -2112,19 +2112,19 @@
         "vicuna"
       ],
       "meta": {
-        "stars": 20321,
-        "forks": 3017,
-        "lastUpdated": "2026-11-22T13:17:25Z",
-        "lastCommit": "2026-11-22T03:21:05Z",
-        "fetchedAt": "2026-11-22T23:03:24.861Z",
+        "stars": 20327,
+        "forks": 3019,
+        "lastUpdated": "2026-11-24T01:23:16Z",
+        "lastCommit": "2026-11-24T02:19:45Z",
+        "fetchedAt": "2026-11-24T03:41:36.935Z",
         "watchers": 143,
-        "openIssues": 529,
+        "openIssues": 532,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-04-13T14:52:43Z",
-        "lastFetchAttempt": "2026-11-22T23:03:24.577Z"
+        "lastFetchAttempt": "2026-11-24T03:41:36.670Z"
       }
     },
     {
@@ -2156,19 +2156,19 @@
         "plugin"
       ],
       "meta": {
-        "stars": 6948,
+        "stars": 6951,
         "forks": 476,
-        "lastUpdated": "2026-11-22T13:18:33Z",
-        "lastCommit": "2026-11-22T20:23:02Z",
-        "fetchedAt": "2026-11-22T23:03:25.240Z",
+        "lastUpdated": "2026-11-23T10:49:24Z",
+        "lastCommit": "2026-11-23T21:18:41Z",
+        "fetchedAt": "2026-11-24T03:41:37.334Z",
         "watchers": 26,
-        "openIssues": 22,
+        "openIssues": 23,
         "language": "Lua",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-12-27T17:32:51Z",
-        "lastFetchAttempt": "2026-11-22T23:03:24.962Z"
+        "lastFetchAttempt": "2026-11-24T03:41:37.035Z"
       }
     },
     {
@@ -2190,19 +2190,19 @@
         "rust"
       ],
       "meta": {
-        "stars": 68946,
-        "forks": 5945,
-        "lastUpdated": "2026-11-22T22:48:51Z",
-        "lastCommit": "2026-11-22T23:00:23Z",
-        "fetchedAt": "2026-11-22T23:03:25.573Z",
+        "stars": 68955,
+        "forks": 5944,
+        "lastUpdated": "2026-11-24T01:12:33Z",
+        "lastCommit": "2026-11-23T21:45:16Z",
+        "fetchedAt": "2026-11-24T03:41:37.732Z",
         "watchers": 449,
-        "openIssues": 38,
+        "openIssues": 37,
         "language": "Rust",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-07-14T07:10:44Z",
-        "lastFetchAttempt": "2026-11-22T23:03:25.340Z"
+        "lastFetchAttempt": "2026-11-24T03:41:37.434Z"
       }
     },
     {
@@ -2230,19 +2230,19 @@
         "sonnet"
       ],
       "meta": {
-        "stars": 50221,
-        "forks": 5183,
-        "lastUpdated": "2026-11-22T21:27:46Z",
+        "stars": 50235,
+        "forks": 5186,
+        "lastUpdated": "2026-11-24T02:43:42Z",
         "lastCommit": "2026-05-22T14:02:20Z",
-        "fetchedAt": "2026-11-22T23:03:25.936Z",
+        "fetchedAt": "2026-11-24T03:41:38.080Z",
         "watchers": 272,
-        "openIssues": 1981,
+        "openIssues": 1994,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-05-09T18:57:49Z",
-        "lastFetchAttempt": "2026-11-22T23:03:25.673Z"
+        "lastFetchAttempt": "2026-11-24T03:41:37.833Z"
       }
     },
     {
@@ -2273,9 +2273,9 @@
       "meta": {
         "stars": 2787,
         "forks": 308,
-        "lastUpdated": "2026-11-22T08:36:50Z",
+        "lastUpdated": "2026-11-23T08:31:39Z",
         "lastCommit": "2026-10-29T06:11:17Z",
-        "fetchedAt": "2026-11-22T23:03:26.354Z",
+        "fetchedAt": "2026-11-24T03:41:38.485Z",
         "watchers": 37,
         "openIssues": 13,
         "language": "TypeScript",
@@ -2283,7 +2283,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-10-17T02:43:31Z",
-        "lastFetchAttempt": "2026-11-22T23:03:26.036Z"
+        "lastFetchAttempt": "2026-11-24T03:41:38.181Z"
       }
     },
     {
@@ -2316,11 +2316,11 @@
         "stock-data"
       ],
       "meta": {
-        "stars": 50502,
-        "forks": 7960,
-        "lastUpdated": "2026-11-22T20:27:37Z",
+        "stars": 50524,
+        "forks": 7963,
+        "lastUpdated": "2026-11-24T03:29:36Z",
         "lastCommit": "2026-11-04T22:48:24Z",
-        "fetchedAt": "2026-11-22T23:03:26.703Z",
+        "fetchedAt": "2026-11-24T03:41:38.946Z",
         "watchers": 500,
         "openIssues": 517,
         "language": "Python",
@@ -2328,7 +2328,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2020-08-14T06:46:00Z",
-        "lastFetchAttempt": "2026-11-22T23:03:26.454Z"
+        "lastFetchAttempt": "2026-11-24T03:41:38.584Z"
       }
     },
     {
@@ -2353,19 +2353,19 @@
         "temporalio"
       ],
       "meta": {
-        "stars": 3909,
-        "forks": 448,
-        "lastUpdated": "2026-11-22T13:27:42Z",
-        "lastCommit": "2026-11-22T21:31:27Z",
-        "fetchedAt": "2026-11-22T23:03:27.083Z",
+        "stars": 3910,
+        "forks": 449,
+        "lastUpdated": "2026-11-23T22:51:04Z",
+        "lastCommit": "2026-11-24T01:56:13Z",
+        "fetchedAt": "2026-11-24T03:41:39.320Z",
         "watchers": 22,
-        "openIssues": 147,
+        "openIssues": 150,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-02-27T06:48:32Z",
-        "lastFetchAttempt": "2026-11-22T23:03:26.803Z"
+        "lastFetchAttempt": "2026-11-24T03:41:39.046Z"
       }
     },
     {
@@ -2395,19 +2395,19 @@
         "stream-filtering"
       ],
       "meta": {
-        "stars": 12100,
-        "forks": 655,
-        "lastUpdated": "2026-11-22T18:52:20Z",
-        "lastCommit": "2026-11-22T12:34:20Z",
-        "fetchedAt": "2026-11-22T23:03:27.426Z",
+        "stars": 12103,
+        "forks": 654,
+        "lastUpdated": "2026-11-24T02:05:07Z",
+        "lastCommit": "2026-11-23T14:27:40Z",
+        "fetchedAt": "2026-11-24T03:41:39.745Z",
         "watchers": 115,
-        "openIssues": 660,
+        "openIssues": 658,
         "language": "C++",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2017-06-28T01:15:30Z",
-        "lastFetchAttempt": "2026-11-22T23:03:27.183Z"
+        "lastFetchAttempt": "2026-11-24T03:41:39.421Z"
       }
     },
     {
@@ -2437,11 +2437,11 @@
         "vector-search-engine"
       ],
       "meta": {
-        "stars": 10621,
+        "stars": 10619,
         "forks": 411,
-        "lastUpdated": "2026-11-22T15:34:12Z",
+        "lastUpdated": "2026-11-23T11:30:06Z",
         "lastCommit": "2026-10-18T16:53:33Z",
-        "fetchedAt": "2026-11-22T23:03:27.800Z",
+        "fetchedAt": "2026-11-24T03:41:40.176Z",
         "watchers": 44,
         "openIssues": 39,
         "language": "TypeScript",
@@ -2449,7 +2449,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-05-10T12:01:50Z",
-        "lastFetchAttempt": "2026-11-22T23:03:27.526Z"
+        "lastFetchAttempt": "2026-11-24T03:41:39.845Z"
       }
     },
     {
@@ -2463,19 +2463,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 22884,
-        "forks": 2530,
-        "lastUpdated": "2026-11-22T21:52:53Z",
-        "lastCommit": "2026-11-22T22:54:23Z",
-        "fetchedAt": "2026-11-22T23:03:28.191Z",
+        "stars": 22895,
+        "forks": 2531,
+        "lastUpdated": "2026-11-24T02:42:56Z",
+        "lastCommit": "2026-11-24T01:35:42Z",
+        "fetchedAt": "2026-11-24T03:41:40.586Z",
         "watchers": 86,
-        "openIssues": 42,
+        "openIssues": 74,
         "language": "Rust",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2026-05-08T01:42:41Z",
-        "lastFetchAttempt": "2026-11-22T23:03:27.900Z"
+        "lastFetchAttempt": "2026-11-24T03:41:40.277Z"
       }
     },
     {
@@ -2500,11 +2500,11 @@
         "webui"
       ],
       "meta": {
-        "stars": 7380,
+        "stars": 7379,
         "forks": 582,
-        "lastUpdated": "2026-11-22T13:46:58Z",
-        "lastCommit": "2026-11-22T15:17:13Z",
-        "fetchedAt": "2026-11-22T23:03:28.492Z",
+        "lastUpdated": "2026-11-23T02:54:16Z",
+        "lastCommit": "2026-11-23T09:08:48Z",
+        "fetchedAt": "2026-11-24T03:41:40.992Z",
         "watchers": 61,
         "openIssues": 48,
         "language": "Python",
@@ -2512,7 +2512,7 @@
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2022-12-24T20:59:11Z",
-        "lastFetchAttempt": "2026-11-22T23:03:28.291Z"
+        "lastFetchAttempt": "2026-11-24T03:41:40.686Z"
       }
     },
     {
@@ -2526,19 +2526,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 10845,
+        "stars": 10848,
         "forks": 1262,
-        "lastUpdated": "2026-11-22T06:21:33Z",
+        "lastUpdated": "2026-11-23T17:56:44Z",
         "lastCommit": "2026-11-20T01:05:36Z",
-        "fetchedAt": "2026-11-22T23:03:28.890Z",
+        "fetchedAt": "2026-11-24T03:41:41.393Z",
         "watchers": 81,
-        "openIssues": 76,
+        "openIssues": 75,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-07-16T04:27:43Z",
-        "lastFetchAttempt": "2026-11-22T23:03:28.593Z"
+        "lastFetchAttempt": "2026-11-24T03:41:41.092Z"
       }
     },
     {
@@ -2557,19 +2557,19 @@
         "rag"
       ],
       "meta": {
-        "stars": 25925,
-        "forks": 2167,
-        "lastUpdated": "2026-11-22T16:41:19Z",
+        "stars": 25928,
+        "forks": 2168,
+        "lastUpdated": "2026-11-23T22:59:40Z",
         "lastCommit": "2026-07-14T16:53:59Z",
-        "fetchedAt": "2026-11-22T23:03:29.260Z",
+        "fetchedAt": "2026-11-24T03:41:41.772Z",
         "watchers": 127,
-        "openIssues": 267,
+        "openIssues": 268,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2024-03-25T08:16:42Z",
-        "lastFetchAttempt": "2026-11-22T23:03:28.990Z"
+        "lastFetchAttempt": "2026-11-24T03:41:41.494Z"
       }
     },
     {
@@ -2594,7 +2594,7 @@
         "forks": 543,
         "lastUpdated": "2026-11-20T16:32:00Z",
         "lastCommit": "2026-11-21T06:02:14Z",
-        "fetchedAt": "2026-11-22T23:03:29.591Z",
+        "fetchedAt": "2026-11-24T03:41:42.171Z",
         "watchers": 50,
         "openIssues": 322,
         "language": "Python",
@@ -2602,7 +2602,7 @@
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-02-09T21:37:47Z",
-        "lastFetchAttempt": "2026-11-22T23:03:29.360Z"
+        "lastFetchAttempt": "2026-11-24T03:41:41.873Z"
       }
     },
     {
@@ -2616,19 +2616,19 @@
       "koreanSupport": false,
       "tags": [],
       "meta": {
-        "stars": 59008,
-        "forks": 10226,
-        "lastUpdated": "2026-11-22T21:54:50Z",
+        "stars": 59023,
+        "forks": 10229,
+        "lastUpdated": "2026-11-23T23:33:29Z",
         "lastCommit": "2026-11-02T08:38:21Z",
-        "fetchedAt": "2026-11-22T23:03:30.003Z",
+        "fetchedAt": "2026-11-24T03:41:42.538Z",
         "watchers": 419,
-        "openIssues": 443,
+        "openIssues": 465,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-03-06T14:08:14Z",
-        "lastFetchAttempt": "2026-11-22T23:03:29.692Z"
+        "lastFetchAttempt": "2026-11-24T03:41:42.271Z"
       }
     },
     {
@@ -2655,19 +2655,19 @@
         "typescript"
       ],
       "meta": {
-        "stars": 30872,
-        "forks": 3582,
-        "lastUpdated": "2026-11-22T22:23:49Z",
-        "lastCommit": "2026-11-22T22:46:44Z",
-        "fetchedAt": "2026-11-22T23:03:30.310Z",
+        "stars": 30904,
+        "forks": 3576,
+        "lastUpdated": "2026-11-24T03:34:16Z",
+        "lastCommit": "2026-11-24T03:39:03Z",
+        "fetchedAt": "2026-11-24T03:41:42.947Z",
         "watchers": 153,
-        "openIssues": 2528,
+        "openIssues": 2547,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-06-26T01:37:46Z",
-        "lastFetchAttempt": "2026-11-22T23:03:30.103Z"
+        "lastFetchAttempt": "2026-11-24T03:41:42.638Z"
       }
     },
     {
@@ -2682,10 +2682,10 @@
       "tags": [],
       "meta": {
         "stars": 9132,
-        "forks": 482,
-        "lastUpdated": "2026-11-21T06:58:56Z",
+        "forks": 483,
+        "lastUpdated": "2026-11-23T19:24:14Z",
         "lastCommit": "2026-10-27T09:51:56Z",
-        "fetchedAt": "2026-11-22T23:03:30.638Z",
+        "fetchedAt": "2026-11-24T03:41:43.290Z",
         "watchers": 29,
         "openIssues": 9,
         "language": "TypeScript",
@@ -2693,7 +2693,7 @@
         "disabled": false,
         "defaultBranch": "develop",
         "createdAt": "2023-02-14T01:23:13Z",
-        "lastFetchAttempt": "2026-11-22T23:03:30.410Z"
+        "lastFetchAttempt": "2026-11-24T03:41:43.047Z"
       }
     },
     {
@@ -2717,17 +2717,17 @@
       "meta": {
         "stars": 1506,
         "forks": 151,
-        "lastUpdated": "2026-11-22T19:27:31Z",
-        "lastCommit": "2026-11-19T18:13:20Z",
-        "fetchedAt": "2026-11-22T23:03:30.982Z",
+        "lastUpdated": "2026-11-23T19:57:46Z",
+        "lastCommit": "2026-11-23T22:21:39Z",
+        "fetchedAt": "2026-11-24T03:41:43.680Z",
         "watchers": 22,
-        "openIssues": 20,
+        "openIssues": 19,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "master",
         "createdAt": "2023-06-11T07:43:48Z",
-        "lastFetchAttempt": "2026-11-22T23:03:30.738Z"
+        "lastFetchAttempt": "2026-11-24T03:41:43.390Z"
       }
     },
     {
@@ -2750,15 +2750,15 @@
         "forks": 107,
         "lastUpdated": "2026-11-22T12:19:24Z",
         "lastCommit": "2026-08-13T12:11:19Z",
-        "fetchedAt": "2026-11-22T23:03:31.341Z",
+        "fetchedAt": "2026-11-24T03:41:44.040Z",
         "watchers": 9,
-        "openIssues": 56,
+        "openIssues": 18,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2026-05-29T10:51:54Z",
-        "lastFetchAttempt": "2026-11-22T23:03:31.082Z"
+        "lastFetchAttempt": "2026-11-24T03:41:43.780Z"
       }
     },
     {
@@ -2776,19 +2776,19 @@
         "text-to-cad"
       ],
       "meta": {
-        "stars": 6071,
-        "forks": 521,
-        "lastUpdated": "2026-11-22T19:25:03Z",
+        "stars": 6058,
+        "forks": 519,
+        "lastUpdated": "2026-11-24T02:09:51Z",
         "lastCommit": "2026-10-22T07:42:50Z",
-        "fetchedAt": "2026-11-22T23:03:31.702Z",
-        "watchers": 55,
+        "fetchedAt": "2026-11-24T03:41:44.481Z",
+        "watchers": 54,
         "openIssues": 4,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2026-08-19T15:31:34Z",
-        "lastFetchAttempt": "2026-11-22T23:03:31.441Z"
+        "lastFetchAttempt": "2026-11-24T03:41:44.139Z"
       }
     },
     {
@@ -2806,19 +2806,19 @@
         "llm-agent"
       ],
       "meta": {
-        "stars": 16860,
-        "forks": 2197,
-        "lastUpdated": "2026-11-22T19:37:49Z",
-        "lastCommit": "2026-11-22T20:12:35Z",
-        "fetchedAt": "2026-11-22T23:03:32.058Z",
+        "stars": 16859,
+        "forks": 2196,
+        "lastUpdated": "2026-11-23T11:55:15Z",
+        "lastCommit": "2026-11-23T08:29:39Z",
+        "fetchedAt": "2026-11-24T03:41:44.871Z",
         "watchers": 121,
-        "openIssues": 33,
+        "openIssues": 30,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2025-05-14T05:23:02Z",
-        "lastFetchAttempt": "2026-11-22T23:03:31.802Z"
+        "lastFetchAttempt": "2026-11-24T03:41:44.581Z"
       }
     },
     {
@@ -2853,19 +2853,19 @@
         "webui"
       ],
       "meta": {
-        "stars": 47420,
-        "forks": 9782,
-        "lastUpdated": "2026-11-22T22:10:04Z",
-        "lastCommit": "2026-11-22T23:01:42Z",
-        "fetchedAt": "2026-11-22T23:03:32.426Z",
-        "watchers": 215,
-        "openIssues": 1149,
+        "stars": 47464,
+        "forks": 9789,
+        "lastUpdated": "2026-11-24T03:13:52Z",
+        "lastCommit": "2026-11-24T03:31:34Z",
+        "fetchedAt": "2026-11-24T03:41:45.253Z",
+        "watchers": 216,
+        "openIssues": 1151,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2023-02-12T01:06:52Z",
-        "lastFetchAttempt": "2026-11-22T23:03:32.158Z"
+        "lastFetchAttempt": "2026-11-24T03:41:44.971Z"
       }
     },
     {
@@ -2890,19 +2890,19 @@
         "vector-database"
       ],
       "meta": {
-        "stars": 1551,
+        "stars": 1553,
         "forks": 201,
-        "lastUpdated": "2026-11-22T13:16:07Z",
-        "lastCommit": "2026-11-21T05:39:51Z",
-        "fetchedAt": "2026-11-22T23:03:32.798Z",
+        "lastUpdated": "2026-11-23T18:45:09Z",
+        "lastCommit": "2026-11-23T16:39:43Z",
+        "fetchedAt": "2026-11-24T03:41:45.656Z",
         "watchers": 5,
-        "openIssues": 9,
+        "openIssues": 20,
         "language": "Python",
         "archived": false,
         "disabled": false,
         "defaultBranch": "main",
         "createdAt": "2022-10-24T04:08:13Z",
-        "lastFetchAttempt": "2026-11-22T23:03:32.526Z"
+        "lastFetchAttempt": "2026-11-24T03:41:45.353Z"
       }
     },
     {
@@ -2935,19 +2935,19 @@
         "openclaw"
       ],
       "meta": {
-        "stars": 6409,
-        "forks": 786,
-        "lastUpdated": "2026-11-22T13:18:54Z",
-        "lastCommit": "2026-11-22T02:12:22Z",
-        "fetchedAt": "2026-11-22T23:03:33.143Z",
-        "watchers": 57,
+        "stars": 6410,
+        "forks": 787,
+        "lastUpdated": "2026-11-23T15:45:07Z",
+        "lastCommit": "2026-11-23T23:20:38Z",
+        "fetchedAt": "2026-11-24T03:41:46.092Z",
+        "watchers": 55,
         "openIssues": 12,
         "language": "TypeScript",
         "archived": false,
         "disabled": false,
         "defaultBranch": "dev",
         "createdAt": "2025-02-14T01:56:51Z",
-        "lastFetchAttempt": "2026-11-22T23:03:32.899Z"
+        "lastFetchAttempt": "2026-11-24T03:41:45.755Z"
       }
     }
   ]
